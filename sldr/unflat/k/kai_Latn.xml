@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Please enter language data in the fields below.  All data should be entered in English -->
+<ldml>
+	<identity>
+		<!-- name.en(kai)="Karekare" -->
+		<language type="kai"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity defaultRegion="CM"/>
+		</special>
+	</identity>
+	<characters>
+		<exemplarCharacters draft="unconfirmed">[a b ɓ c d ɗ e ǝ f g h i j k ƙ l m n o p q r s t u v w x y ƴ z]</exemplarCharacters>
+	</characters>
+</ldml>

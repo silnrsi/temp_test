@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright © 1991-2014 Unicode, Inc.
+CLDR data files are interpreted according to the LDML specification (http://unicode.org/reports/tr35/)
+For terms of use, see http://www.unicode.org/copyright.html
+-->
+<ldml>
+	<identity>
+		<version number="$Revision: 11170 $"/>
+		<generation date="$Date: 2015-02-10 05:12 +0000 $"/>
+		<language type="de"/>
+		<territory type="AT"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity source="cldr" draft="approved"/>
+		</special>
+	</identity>
+	<localeDisplayNames>
+		<measurementSystemNames>
+			<measurementSystemName type="UK" draft="contributed">Englisches Maßsystem</measurementSystemName>
+			<measurementSystemName type="US" draft="contributed">Angloamerikanisches Maßsystem</measurementSystemName>
+			<measurementSystemName type="metric" draft="contributed">Internationales Maßsystem (SI)</measurementSystemName>
+		</measurementSystemNames>
+	</localeDisplayNames>
+	<dates>
+		<calendars>
+			<calendar type="gregorian">
+				<months>
+					<monthContext type="format">
+						<monthWidth type="abbreviated">
+							<month type="1">Jän.</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">Jänner</month>
+						</monthWidth>
+					</monthContext>
+					<monthContext type="stand-alone">
+						<monthWidth type="abbreviated">
+							<month type="1">Jän</month>
+						</monthWidth>
+						<monthWidth type="wide">
+							<month type="1">Jänner</month>
+						</monthWidth>
+					</monthContext>
+				</months>
+			</calendar>
+		</calendars>
+	</dates>
+	<numbers>
+		<currencyFormats numberSystem="latn">
+			<currencyFormatLength>
+				<currencyFormat type="standard">
+					<pattern>¤ #,##0.00</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
+		</currencyFormats>
+	</numbers>
+</ldml>
