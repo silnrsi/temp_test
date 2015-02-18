@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Please enter language data in the fields below.  All data should be entered in English -->
-<ldml xmlns:sil="urn://www.sil.org/ldml/0.1">
+<ldml>
 	<identity>
 		<!-- name.en(drs)="Gedeo" -->
 		<language type="drs"/>
-		<special>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity defaultRegion="ET"/>
 		</special>
 		<script type="Ethi"/>
@@ -5761,7 +5761,7 @@
 			<casingItem type="zone_exemplarCity">titlecase</casingItem>
 		</casingData>
 	</metadata>
-	<special>
+	<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 		<sil:external-resources>
 			<sil:fontrole type="default">
 				<sil:font isGraphite="true" name="AbyssinicaSIL">
