@@ -5,8 +5,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 -->
 <ldml>
 	<identity>
-		<version number="$Revision: 11123 $"/>
-		<generation date="$Date: 2015-01-19 05:05 +0000 $"/>
+		<version number="$Revision: 11280 $"/>
+		<generation date="$Date: 2015-02-20 09:06 +0000 $"/>
 		<language type="zh"/>
 		<territory type="HK"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
@@ -18,7 +18,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<localeDisplayPattern>
 			<localePattern>{0}（{1}）</localePattern>
 			<localeSeparator>{0}、{1}</localeSeparator>
-			<localeKeyTypePattern draft="contributed">{0}: {1}</localeKeyTypePattern>
+			<localeKeyTypePattern>{0}：{1}</localeKeyTypePattern>
 		</localeDisplayPattern>
 		<languages>
 			<language type="aa">阿法文</language>
@@ -48,7 +48,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<language type="arw">阿拉瓦克文</language>
 			<language type="as">阿萨姆文</language>
 			<language type="asa">阿苏文</language>
-			<language type="ast" draft="contributed">阿斯图里亚思文</language>
+			<language type="ast">阿斯图里亚思特文</language>
 			<language type="av">阿瓦尔文</language>
 			<language type="awa">阿瓦乔文</language>
 			<language type="ay">艾马拉文</language>
@@ -152,7 +152,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<language type="eo">世界文</language>
 			<language type="es">西班牙文</language>
 			<language type="es_419">拉丁美洲西班牙文</language>
-			<language type="es_ES" draft="contributed">伊比利亚西班牙文</language>
+			<language type="es_ES">欧洲西班牙文</language>
 			<language type="es_MX">墨西哥西班牙文</language>
 			<language type="et">爱沙尼亚文</language>
 			<language type="eu">巴斯克文</language>
@@ -373,7 +373,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<language type="nzi">恩济马文</language>
 			<language type="oc">奥克西唐文</language>
 			<language type="oj">奥吉布瓦文</language>
-			<language type="om" draft="contributed">奥罗莫文</language>
+			<language type="om">奥洛莫文</language>
 			<language type="or">奥里亚文</language>
 			<language type="os">奥塞梯文</language>
 			<language type="osa">奥萨格文</language>
@@ -393,7 +393,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<language type="ps">普什图文</language>
 			<language type="pt">葡萄牙文</language>
 			<language type="pt_BR">巴西葡萄牙文</language>
-			<language type="pt_PT" draft="contributed">伊比利亚葡萄牙文</language>
+			<language type="pt_PT">欧洲葡萄牙文</language>
 			<language type="qu">盖丘亚文</language>
 			<language type="quc">基切文</language>
 			<language type="raj">拉贾斯坦文</language>
@@ -606,7 +606,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<script type="Khar">卡罗须提文</script>
 			<script type="Khmr">高棉文</script>
 			<script type="Khoj">克吉奇文字</script>
-			<script type="Knda" draft="contributed">卡纳塔克文</script>
+			<script type="Knda">卡纳达文</script>
 			<script type="Kore">韩文</script>
 			<script type="Kpel">克佩列文</script>
 			<script type="Kthi">凯提文</script>
@@ -665,7 +665,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<script type="Shaw">萧伯纳式文</script>
 			<script type="Shrd">夏拉达文</script>
 			<script type="Sind">信德文</script>
-			<script type="Sinh" draft="contributed">辛哈拉文</script>
+			<script type="Sinh">僧伽罗文</script>
 			<script type="Sora">索朗桑朋文</script>
 			<script type="Sund">巽他文</script>
 			<script type="Sylo">锡尔赫特文</script>
@@ -684,7 +684,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<script type="Teng">腾格瓦文字</script>
 			<script type="Tfng">提非纳文</script>
 			<script type="Tglg">塔加路文</script>
-			<script type="Thaa" draft="contributed">塔安娜文</script>
+			<script type="Thaa">塔安那文</script>
 			<script type="Thai">泰文</script>
 			<script type="Tibt">藏文</script>
 			<script type="Tirh">迈蒂利文</script>
@@ -701,7 +701,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<script type="Zsym">符号</script>
 			<script type="Zxxx">非书面文字</script>
 			<script type="Zyyy">通用</script>
-			<script type="Zzzz" draft="contributed">未知语系</script>
+			<script type="Zzzz">未知文字</script>
 		</scripts>
 		<territories>
 			<territory type="001">世界</territory>
@@ -831,7 +831,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="GL">格陵兰</territory>
 			<territory type="GM">冈比亚</territory>
 			<territory type="GN">几内亚</territory>
-			<territory type="GP" draft="contributed">瓜德罗普岛</territory>
+			<territory type="GP">瓜德罗普</territory>
 			<territory type="GQ">赤道几内亚</territory>
 			<territory type="GR">希腊</territory>
 			<territory type="GS">南乔治亚岛和南桑威齐群岛</territory>
@@ -886,7 +886,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="MA">摩洛哥</territory>
 			<territory type="MC">摩纳哥</territory>
 			<territory type="MD">摩尔多瓦</territory>
-			<territory type="ME" draft="contributed">黑山</territory>
+			<territory type="ME">黑山</territory>
 			<territory type="MF">法属圣马丁</territory>
 			<territory type="MG">马达加斯加</territory>
 			<territory type="MH">马绍尔群岛</territory>
@@ -928,7 +928,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="PH">菲律宾</territory>
 			<territory type="PK">巴基斯坦</territory>
 			<territory type="PL">波兰</territory>
-			<territory type="PM" draft="contributed">圣皮埃尔和密克隆</territory>
+			<territory type="PM">圣皮埃尔和密克隆群岛</territory>
 			<territory type="PN">皮特凯恩群岛</territory>
 			<territory type="PR">波多黎各</territory>
 			<territory type="PS" alt="short">巴勒斯坦</territory>
@@ -1061,7 +1061,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<variant type="VAIDIKA">吠陀梵文</variant>
 			<variant type="VALENCIA">瓦伦西亚文</variant>
 			<variant type="VALLADER">瑞士瓦勒德方言</variant>
-			<variant type="WADEGILE" draft="contributed">韦氏拼音罗马字</variant>
+			<variant type="WADEGILE">WG 威氏拼音法</variant>
 		</variants>
 		<keys>
 			<key type="calendar">日历</key>
@@ -1088,7 +1088,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<type type="armnlow" key="numbers">亚美尼亚文小写数字</type>
 			<type type="bali" key="numbers">巴厘文数字</type>
 			<type type="beng" key="numbers">孟加拉文数字</type>
-			<type type="big5han" key="collation" draft="contributed">繁体中文排序顺序 (Big5)</type>
+			<type type="big5han" key="collation">繁体中文排序 - Big5</type>
 			<type type="buddhist" key="calendar">佛教日历</type>
 			<type type="cham" key="numbers">占文数字</type>
 			<type type="chinese" key="calendar">农历</type>
@@ -1102,7 +1102,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<type type="ethiopic-amete-alem" key="calendar">埃塞俄比亚阿米特阿莱姆日历</type>
 			<type type="finance" key="numbers" draft="contributed">金融数字</type>
 			<type type="fullwide" key="numbers">全角数字</type>
-			<type type="gb2312han" key="collation" draft="contributed">简体中文排序顺序 (GB2312)</type>
+			<type type="gb2312han" key="collation">简体中文排序 - GB2312</type>
 			<type type="geor" key="numbers">格鲁吉亚文数字</type>
 			<type type="gregorian" key="calendar">公历</type>
 			<type type="grek" key="numbers">希腊文数字</type>
@@ -1154,7 +1154,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<type type="persian" key="calendar">波斯日历</type>
 			<type type="phonebook" key="collation" draft="contributed">电话簿排序</type>
 			<type type="phonetic" key="collation" draft="contributed">语音排序顺序</type>
-			<type type="pinyin" key="collation" draft="contributed">拼音排序顺序</type>
+			<type type="pinyin" key="collation">拼音排序</type>
 			<type type="primary" key="colStrength" draft="contributed">只对基本字母进行排序</type>
 			<type type="quaternary" key="colStrength" draft="contributed">对重音/大小写/长度/假名进行排序</type>
 			<type type="reformed" key="collation" draft="contributed">改良排序</type>
@@ -1207,7 +1207,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		</measurementSystemNames>
 		<codePatterns>
 			<codePattern type="language">语言：{0}</codePattern>
-			<codePattern type="script" draft="contributed">语系：{0}</codePattern>
+			<codePattern type="script">文字：{0}</codePattern>
 			<codePattern type="territory">地区：{0}</codePattern>
 		</codePatterns>
 	</localeDisplayNames>
@@ -1622,7 +1622,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
-							<pattern>U-M-d</pattern>
+							<pattern>r-M-d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
@@ -1653,10 +1653,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<availableFormats>
 						<dateFormatItem id="E">ccc</dateFormatItem>
 						<dateFormatItem id="Ed">d日E</dateFormatItem>
-						<dateFormatItem id="Gy">U年</dateFormatItem>
-						<dateFormatItem id="GyMMM">U年MMM</dateFormatItem>
-						<dateFormatItem id="GyMMMEd">U年MMMd日E</dateFormatItem>
-						<dateFormatItem id="GyMMMd">U年MMMd日</dateFormatItem>
+						<dateFormatItem id="Gy">rU年</dateFormatItem>
+						<dateFormatItem id="GyMMM">rU年MMM</dateFormatItem>
+						<dateFormatItem id="GyMMMEd">rU年MMMdE</dateFormatItem>
+						<dateFormatItem id="GyMMMd">r年MMMd</dateFormatItem>
 						<dateFormatItem id="H">HH</dateFormatItem>
 						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
@@ -1666,22 +1666,26 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MMMEd">MMMd日E</dateFormatItem>
 						<dateFormatItem id="MMMd">MMMd日</dateFormatItem>
 						<dateFormatItem id="Md">M-d</dateFormatItem>
+						<dateFormatItem id="UM">U年MMM</dateFormatItem>
+						<dateFormatItem id="UMMM">U年MMM</dateFormatItem>
+						<dateFormatItem id="UMMMd">U年MMMd</dateFormatItem>
+						<dateFormatItem id="UMd">U年MMMd</dateFormatItem>
 						<dateFormatItem id="d">d日</dateFormatItem>
 						<dateFormatItem id="h">h a</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
-						<dateFormatItem id="y">U年</dateFormatItem>
-						<dateFormatItem id="yMd">U年MMMd日</dateFormatItem>
-						<dateFormatItem id="yyyy">U年</dateFormatItem>
-						<dateFormatItem id="yyyyM">U年MMM</dateFormatItem>
-						<dateFormatItem id="yyyyMEd">U年MMMd日，E</dateFormatItem>
-						<dateFormatItem id="yyyyMMM">U年MMM</dateFormatItem>
-						<dateFormatItem id="yyyyMMMEd">U年MMMd日E</dateFormatItem>
-						<dateFormatItem id="yyyyMMMd">U年MMMd日</dateFormatItem>
-						<dateFormatItem id="yyyyMd">U年MMMd日</dateFormatItem>
-						<dateFormatItem id="yyyyQQQ">U年QQQQ</dateFormatItem>
-						<dateFormatItem id="yyyyQQQQ">U年QQQQ</dateFormatItem>
+						<dateFormatItem id="y">rU年</dateFormatItem>
+						<dateFormatItem id="yMd">r年MMMd</dateFormatItem>
+						<dateFormatItem id="yyyy">rU年</dateFormatItem>
+						<dateFormatItem id="yyyyM">rU年MMM</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">rU年MMMd，E</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">rU年MMM</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEd">rU年MMMdE</dateFormatItem>
+						<dateFormatItem id="yyyyMMMd">r年MMMd</dateFormatItem>
+						<dateFormatItem id="yyyyMd">r年MMMd</dateFormatItem>
+						<dateFormatItem id="yyyyQQQ">rU年QQQQ</dateFormatItem>
+						<dateFormatItem id="yyyyQQQQ">rU年QQQQ</dateFormatItem>
 					</availableFormats>
 					<appendItems>
 						<appendItem request="Day">{0} ({2}: {1})</appendItem>
@@ -1756,39 +1760,39 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<greatestDifference id="h">vah至h时</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="y">
-							<greatestDifference id="y">U至U</greatestDifference>
+							<greatestDifference id="y">rU至rU</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yM">
-							<greatestDifference id="M">U-M至U-M</greatestDifference>
-							<greatestDifference id="y">U-M至U-M</greatestDifference>
+							<greatestDifference id="M">r-M至r-M</greatestDifference>
+							<greatestDifference id="y">r-M至r-M</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMEd">
-							<greatestDifference id="M">U-M-dE至U-M-dE</greatestDifference>
-							<greatestDifference id="d">U-M-dE至U-M-dE</greatestDifference>
-							<greatestDifference id="y">U-M-dE至U-M-dE</greatestDifference>
+							<greatestDifference id="M">r-M-dE至r-M-dE</greatestDifference>
+							<greatestDifference id="d">r-M-dE至r-M-dE</greatestDifference>
+							<greatestDifference id="y">r-M-dE至r-M-dE</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMM">
-							<greatestDifference id="M">U年MMM至MMM</greatestDifference>
-							<greatestDifference id="y">U年MMM至U年MMM</greatestDifference>
+							<greatestDifference id="M">rU年MMM至MMM</greatestDifference>
+							<greatestDifference id="y">rU年MMM至rU年MMM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMEd">
-							<greatestDifference id="M">U年MMMd日E至MMMd日E</greatestDifference>
-							<greatestDifference id="d">U年MMMd日E至d日E</greatestDifference>
-							<greatestDifference id="y">U年MMMd日E至U年MMMd日E</greatestDifference>
+							<greatestDifference id="M">rU年MMMdE至MMMdE</greatestDifference>
+							<greatestDifference id="d">rU年MMMdE至dE</greatestDifference>
+							<greatestDifference id="y">rU年MMMdE至rU年MMMdE</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMM">
-							<greatestDifference id="M">U年MMMM至MMMM</greatestDifference>
-							<greatestDifference id="y">U年MMMM至U年MMMM</greatestDifference>
+							<greatestDifference id="M">rU年MMMM至MMMM</greatestDifference>
+							<greatestDifference id="y">rU年MMMM至rU年MMMM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMd">
-							<greatestDifference id="M">U年MMMd日至MMMd日</greatestDifference>
-							<greatestDifference id="d">U年MMMd日至d日</greatestDifference>
-							<greatestDifference id="y">U年MMMd日至U年MMMd日</greatestDifference>
+							<greatestDifference id="M">r年MMMd至MMMd</greatestDifference>
+							<greatestDifference id="d">r年MMMd至d</greatestDifference>
+							<greatestDifference id="y">r年MMMd至r年MMMd</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMd">
-							<greatestDifference id="M">U-M-d至U-M-d</greatestDifference>
-							<greatestDifference id="d">U-M-d至U-M-d</greatestDifference>
-							<greatestDifference id="y">U-M-d至U-M-d</greatestDifference>
+							<greatestDifference id="M">r-M-d至r-M-d</greatestDifference>
+							<greatestDifference id="d">r-M-d至r-M-d</greatestDifference>
+							<greatestDifference id="y">r-M-d至r-M-d</greatestDifference>
 						</intervalFormatItem>
 					</intervalFormats>
 				</dateTimeFormats>
@@ -1859,19 +1863,19 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<month type="9">9月</month>
 						</monthWidth>
 						<monthWidth type="narrow">
-							<month type="1" draft="contributed">1</month>
-							<month type="10" draft="contributed">10</month>
-							<month type="11" draft="contributed">11</month>
-							<month type="12" draft="contributed">12</month>
-							<month type="13" draft="contributed">13</month>
-							<month type="2" draft="contributed">2</month>
-							<month type="3" draft="contributed">3</month>
-							<month type="4" draft="contributed">4</month>
-							<month type="5" draft="contributed">5</month>
-							<month type="6" draft="contributed">6</month>
-							<month type="7" draft="contributed">7</month>
-							<month type="8" draft="contributed">8</month>
-							<month type="9" draft="contributed">9</month>
+							<month type="1">1</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
+							<month type="13">13</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
 						</monthWidth>
 						<monthWidth type="wide">
 							<month type="1">一月</month>
@@ -2016,19 +2020,19 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<month type="9">9月</month>
 						</monthWidth>
 						<monthWidth type="narrow">
-							<month type="1" draft="contributed">1</month>
-							<month type="10" draft="contributed">10</month>
-							<month type="11" draft="contributed">11</month>
-							<month type="12" draft="contributed">12</month>
-							<month type="13" draft="contributed">13</month>
-							<month type="2" draft="contributed">2</month>
-							<month type="3" draft="contributed">3</month>
-							<month type="4" draft="contributed">4</month>
-							<month type="5" draft="contributed">5</month>
-							<month type="6" draft="contributed">6</month>
-							<month type="7" draft="contributed">7</month>
-							<month type="8" draft="contributed">8</month>
-							<month type="9" draft="contributed">9</month>
+							<month type="1">1</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
+							<month type="13">13</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
 						</monthWidth>
 						<monthWidth type="wide">
 							<month type="1">一月</month>
@@ -2208,22 +2212,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<dateTimeFormats>
 					<dateTimeFormatLength type="full">
 						<dateTimeFormat>
-							<pattern draft="contributed">{1} {0}</pattern>
+							<pattern>{1} {0}</pattern>
 						</dateTimeFormat>
 					</dateTimeFormatLength>
 					<dateTimeFormatLength type="long">
 						<dateTimeFormat>
-							<pattern draft="contributed">{1} {0}</pattern>
+							<pattern>{1} {0}</pattern>
 						</dateTimeFormat>
 					</dateTimeFormatLength>
 					<dateTimeFormatLength type="medium">
 						<dateTimeFormat>
-							<pattern draft="contributed">{1} {0}</pattern>
+							<pattern>{1} {0}</pattern>
 						</dateTimeFormat>
 					</dateTimeFormatLength>
 					<dateTimeFormatLength type="short">
 						<dateTimeFormat>
-							<pattern draft="contributed">{1} {0}</pattern>
+							<pattern>{1} {0}</pattern>
 						</dateTimeFormat>
 					</dateTimeFormatLength>
 					<availableFormats>
@@ -2679,12 +2683,12 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<dateTimeFormats>
 					<dateTimeFormatLength type="full">
 						<dateTimeFormat>
-							<pattern draft="contributed">{1} {0}</pattern>
+							<pattern>{1} {0}</pattern>
 						</dateTimeFormat>
 					</dateTimeFormatLength>
 					<dateTimeFormatLength type="long">
 						<dateTimeFormat>
-							<pattern draft="contributed">{1} {0}</pattern>
+							<pattern>{1} {0}</pattern>
 						</dateTimeFormat>
 					</dateTimeFormatLength>
 					<dateTimeFormatLength type="medium">
@@ -2712,7 +2716,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="HHmm" draft="contributed">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
-						<dateFormatItem id="M" draft="contributed">L</dateFormatItem>
+						<dateFormatItem id="Hmsv">v HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="Hmv">v HH:mm</dateFormatItem>
+						<dateFormatItem id="M">M月</dateFormatItem>
 						<dateFormatItem id="MEd" draft="contributed">E, d/M</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd">M月d日E</dateFormatItem>
@@ -2724,6 +2730,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="h">ah时</dateFormatItem>
 						<dateFormatItem id="hm">ah:mm</dateFormatItem>
 						<dateFormatItem id="hms">ah:mm:ss</dateFormatItem>
+						<dateFormatItem id="hmsv">v ah:mm:ss</dateFormatItem>
+						<dateFormatItem id="hmv">v ah:mm</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y">y年</dateFormatItem>
 						<dateFormatItem id="yM" draft="contributed">M/y</dateFormatItem>
@@ -3048,18 +3056,18 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<month type="9">9月</month>
 						</monthWidth>
 						<monthWidth type="narrow">
-							<month type="1" draft="contributed">1</month>
-							<month type="10" draft="contributed">10</month>
-							<month type="11" draft="contributed">11</month>
-							<month type="12" draft="contributed">12</month>
-							<month type="2" draft="contributed">2</month>
-							<month type="3" draft="contributed">3</month>
-							<month type="4" draft="contributed">4</month>
-							<month type="5" draft="contributed">5</month>
-							<month type="6" draft="contributed">6</month>
-							<month type="7" draft="contributed">7</month>
-							<month type="8" draft="contributed">8</month>
-							<month type="9" draft="contributed">9</month>
+							<month type="1">1</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
 						</monthWidth>
 						<monthWidth type="wide">
 							<month type="1">一月</month>
@@ -3169,18 +3177,18 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<month type="9">9月</month>
 						</monthWidth>
 						<monthWidth type="narrow">
-							<month type="1" draft="contributed">1</month>
-							<month type="10" draft="contributed">10</month>
-							<month type="11" draft="contributed">11</month>
-							<month type="12" draft="contributed">12</month>
-							<month type="2" draft="contributed">2</month>
-							<month type="3" draft="contributed">3</month>
-							<month type="4" draft="contributed">4</month>
-							<month type="5" draft="contributed">5</month>
-							<month type="6" draft="contributed">6</month>
-							<month type="7" draft="contributed">7</month>
-							<month type="8" draft="contributed">8</month>
-							<month type="9" draft="contributed">9</month>
+							<month type="1">1</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
 						</monthWidth>
 						<monthWidth type="wide">
 							<month type="1">一月</month>
@@ -3997,18 +4005,18 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<month type="9">9月</month>
 						</monthWidth>
 						<monthWidth type="narrow">
-							<month type="1" draft="contributed">1</month>
-							<month type="10" draft="contributed">10</month>
-							<month type="11" draft="contributed">11</month>
-							<month type="12" draft="contributed">12</month>
-							<month type="2" draft="contributed">2</month>
-							<month type="3" draft="contributed">3</month>
-							<month type="4" draft="contributed">4</month>
-							<month type="5" draft="contributed">5</month>
-							<month type="6" draft="contributed">6</month>
-							<month type="7" draft="contributed">7</month>
-							<month type="8" draft="contributed">8</month>
-							<month type="9" draft="contributed">9</month>
+							<month type="1">1</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
 						</monthWidth>
 						<monthWidth type="wide">
 							<month type="1">一月</month>
@@ -4490,7 +4498,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		</fields>
 		<timeZoneNames>
 			<hourFormat>+HH:mm;-HH:mm</hourFormat>
-			<gmtFormat draft="contributed">GMT {0}</gmtFormat>
+			<gmtFormat>GMT{0}</gmtFormat>
 			<gmtZeroFormat>GMT</gmtZeroFormat>
 			<regionFormat type="daylight">{0}夏令时间</regionFormat>
 			<regionFormat type="standard">{0}标准时间</regionFormat>
@@ -4770,7 +4778,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<exemplarCity>库拉索</exemplarCity>
 			</zone>
 			<zone type="America/Danmarkshavn">
-				<exemplarCity draft="contributed">丹马克沙伏</exemplarCity>
+				<exemplarCity>丹马沙文</exemplarCity>
 			</zone>
 			<zone type="America/Dawson">
 				<exemplarCity>道森</exemplarCity>
@@ -4977,7 +4985,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<exemplarCity>巴拿马</exemplarCity>
 			</zone>
 			<zone type="America/Pangnirtung">
-				<exemplarCity draft="contributed">旁尼唐</exemplarCity>
+				<exemplarCity>旁涅唐</exemplarCity>
 			</zone>
 			<zone type="America/Paramaribo">
 				<exemplarCity>帕拉马里博</exemplarCity>
@@ -5025,7 +5033,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<exemplarCity>圣地亚哥</exemplarCity>
 			</zone>
 			<zone type="America/Santo_Domingo">
-				<exemplarCity draft="contributed">圣多明戈</exemplarCity>
+				<exemplarCity>圣多明各</exemplarCity>
 			</zone>
 			<zone type="America/Sao_Paulo">
 				<exemplarCity>圣保罗</exemplarCity>
@@ -5037,10 +5045,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<exemplarCity>锡特卡</exemplarCity>
 			</zone>
 			<zone type="America/St_Barthelemy">
-				<exemplarCity draft="contributed">圣巴太累米</exemplarCity>
+				<exemplarCity>圣巴泰勒米岛</exemplarCity>
 			</zone>
 			<zone type="America/St_Johns">
-				<exemplarCity draft="contributed">圣约翰</exemplarCity>
+				<exemplarCity>圣约翰斯</exemplarCity>
 			</zone>
 			<zone type="America/St_Kitts">
 				<exemplarCity>圣基茨</exemplarCity>
@@ -5097,7 +5105,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<exemplarCity>戴维斯</exemplarCity>
 			</zone>
 			<zone type="Antarctica/DumontDUrville">
-				<exemplarCity draft="contributed">杜蒙杜威勒</exemplarCity>
+				<exemplarCity>迪蒙迪尔维尔</exemplarCity>
 			</zone>
 			<zone type="Antarctica/Macquarie">
 				<exemplarCity>麦格理</exemplarCity>
@@ -5174,9 +5182,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<zone type="Asia/Choibalsan">
 				<exemplarCity>乔巴山</exemplarCity>
 			</zone>
-			<zone type="Asia/Chongqing">
-				<exemplarCity>重庆</exemplarCity>
-			</zone>
 			<zone type="Asia/Colombo">
 				<exemplarCity>科伦坡</exemplarCity>
 			</zone>
@@ -5197,9 +5202,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Gaza">
 				<exemplarCity>加沙</exemplarCity>
-			</zone>
-			<zone type="Asia/Harbin">
-				<exemplarCity>哈尔滨</exemplarCity>
 			</zone>
 			<zone type="Asia/Hebron">
 				<exemplarCity>希伯伦</exemplarCity>
@@ -5230,9 +5232,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Karachi">
 				<exemplarCity>卡拉奇</exemplarCity>
-			</zone>
-			<zone type="Asia/Kashgar">
-				<exemplarCity>喀什</exemplarCity>
 			</zone>
 			<zone type="Asia/Katmandu">
 				<exemplarCity>加德满都</exemplarCity>
@@ -5601,7 +5600,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<exemplarCity>萨格勒布</exemplarCity>
 			</zone>
 			<zone type="Europe/Zaporozhye">
-				<exemplarCity draft="contributed">扎波罗什</exemplarCity>
+				<exemplarCity>扎波罗热</exemplarCity>
 			</zone>
 			<zone type="Europe/Zurich">
 				<exemplarCity>苏黎世</exemplarCity>
@@ -6022,7 +6021,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</metazone>
 			<metazone type="Cocos">
 				<long>
-					<standard draft="contributed">科科斯岛时间</standard>
+					<standard>科科斯群岛时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Colombia">
@@ -6053,7 +6052,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</metazone>
 			<metazone type="DumontDUrville">
 				<long>
-					<standard draft="contributed">杜蒙特杜维尔时间</standard>
+					<standard>迪蒙迪尔维尔时间</standard>
 				</long>
 			</metazone>
 			<metazone type="East_Timor">
@@ -6120,7 +6119,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</metazone>
 			<metazone type="French_Southern">
 				<long>
-					<standard draft="contributed">法属南部和南极洲时间</standard>
+					<standard>法属南方和南极领地时间</standard>
 				</long>
 			</metazone>
 			<metazone type="GMT">
@@ -6147,7 +6146,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</metazone>
 			<metazone type="Gilbert_Islands">
 				<long>
-					<standard draft="contributed">吉尔柏特群岛时间</standard>
+					<standard>吉尔伯特群岛时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Greenland_Eastern">
@@ -6507,14 +6506,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</metazone>
 			<metazone type="Phoenix_Islands">
 				<long>
-					<standard draft="contributed">凤凰岛时间</standard>
+					<standard>菲尼克斯群岛时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Pierre_Miquelon">
 				<long>
-					<generic draft="contributed">圣皮埃尔和密克隆时间</generic>
-					<standard draft="contributed">圣皮埃尔和密克隆标准时间</standard>
-					<daylight draft="contributed">圣皮埃尔和密克隆夏令时间</daylight>
+					<generic>圣皮埃尔和密克隆群岛时间</generic>
+					<standard>圣皮埃尔和密克隆群岛标准时间</standard>
+					<daylight>圣皮埃尔和密克隆群岛夏令时间</daylight>
 				</long>
 			</metazone>
 			<metazone type="Pitcairn">
@@ -6582,7 +6581,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</metazone>
 			<metazone type="South_Georgia">
 				<long>
-					<standard draft="contributed">南乔治亚时间</standard>
+					<standard>南乔治亚岛时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Suriname">
@@ -6597,7 +6596,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</metazone>
 			<metazone type="Tahiti">
 				<long>
-					<standard draft="contributed">大溪地时间</standard>
+					<standard>塔希提岛时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Taipei">
@@ -6626,7 +6625,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</metazone>
 			<metazone type="Truk">
 				<long>
-					<standard draft="contributed">特鲁克时间</standard>
+					<standard>楚克时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Turkmenistan">
@@ -6638,7 +6637,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</metazone>
 			<metazone type="Tuvalu">
 				<long>
-					<standard draft="contributed">吐瓦鲁时间</standard>
+					<standard>图瓦卢时间</standard>
 				</long>
 			</metazone>
 			<metazone type="Uruguay">
@@ -6814,7 +6813,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<perMille>‰</perMille>
 			<infinity>∞</infinity>
 			<nan>NaN</nan>
-			<timeSeparator draft="contributed">:</timeSeparator>
+			<timeSeparator>:</timeSeparator>
 		</symbols>
 		<symbols numberSystem="lepc">
 			<alias source="locale" path="../symbols[@numberSystem='latn']"/>
@@ -7548,7 +7547,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="ARS">
 				<displayName count="other">阿根廷比索</displayName>
 				<displayName>阿根廷比索</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>ARS</symbol>
 			</currency>
 			<currency type="ATS">
@@ -7559,7 +7558,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="AUD">
 				<displayName count="other">澳大利亚元</displayName>
 				<displayName>澳大利亚元</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>AU$</symbol>
 			</currency>
 			<currency type="AWG">
@@ -7596,13 +7595,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="BBD">
 				<displayName count="other">巴巴多斯元</displayName>
 				<displayName>巴巴多斯元</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BBD</symbol>
 			</currency>
 			<currency type="BDT">
 				<displayName count="other">孟加拉塔卡</displayName>
 				<displayName>孟加拉塔卡</displayName>
-				<symbol alt="narrow" draft="contributed">৳</symbol>
+				<symbol alt="narrow">৳</symbol>
 				<symbol>BDT</symbol>
 			</currency>
 			<currency type="BEC">
@@ -7653,14 +7652,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="BMD">
 				<displayName count="other">百慕大元</displayName>
 				<displayName>百慕大元</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BMD</symbol>
 			</currency>
 			<currency type="BND">
 				<displayName count="other">文莱元</displayName>
 				<displayName>文莱元</displayName>
 				<symbol draft="contributed">BND</symbol>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="BOB">
 				<displayName count="other">玻利维亚诺</displayName>
@@ -7701,7 +7700,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="BRL">
 				<displayName count="other">巴西雷亚尔</displayName>
 				<displayName>巴西雷亚尔</displayName>
-				<symbol alt="narrow" draft="contributed">R$</symbol>
+				<symbol alt="narrow">R$</symbol>
 				<symbol>R$</symbol>
 			</currency>
 			<currency type="BRN">
@@ -7722,7 +7721,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="BSD">
 				<displayName count="other">巴哈马元</displayName>
 				<displayName>巴哈马元</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BSD</symbol>
 			</currency>
 			<currency type="BTN">
@@ -7747,19 +7746,19 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="BYR">
 				<displayName count="other">白俄罗斯卢布</displayName>
 				<displayName>白俄罗斯卢布</displayName>
-				<symbol alt="narrow" draft="contributed">р.</symbol>
+				<symbol alt="narrow">р.</symbol>
 				<symbol>BYR</symbol>
 			</currency>
 			<currency type="BZD">
 				<displayName count="other">伯利兹元</displayName>
 				<displayName>伯利兹元</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BZD</symbol>
 			</currency>
 			<currency type="CAD">
 				<displayName count="other">加拿大元</displayName>
 				<displayName>加拿大元</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>CA$</symbol>
 			</currency>
 			<currency type="CDF">
@@ -7795,19 +7794,19 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="CLP">
 				<displayName count="other">智利比索</displayName>
 				<displayName>智利比索</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>CLP</symbol>
 			</currency>
 			<currency type="CNY">
 				<displayName count="other">人民币</displayName>
 				<displayName>人民币</displayName>
 				<symbol draft="contributed">CN¥</symbol>
-				<symbol alt="narrow" draft="contributed">¥</symbol>
+				<symbol alt="narrow">¥</symbol>
 			</currency>
 			<currency type="COP">
 				<displayName count="other">哥伦比亚比索</displayName>
 				<displayName>哥伦比亚比索</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>COP</symbol>
 			</currency>
 			<currency type="COU">
@@ -7818,7 +7817,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="CRC">
 				<displayName count="other">哥斯达黎加科朗</displayName>
 				<displayName>哥斯达黎加科朗</displayName>
-				<symbol alt="narrow" draft="contributed">₡</symbol>
+				<symbol alt="narrow">₡</symbol>
 				<symbol>CRC</symbol>
 			</currency>
 			<currency type="CSD">
@@ -7840,7 +7839,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="CUP">
 				<displayName count="other">古巴比索</displayName>
 				<displayName>古巴比索</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>CUP</symbol>
 			</currency>
 			<currency type="CVE">
@@ -7883,7 +7882,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="DOP">
 				<displayName count="other">多米尼加比索</displayName>
 				<displayName>多米尼加比索</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>DOP</symbol>
 			</currency>
 			<currency type="DZD">
@@ -7931,7 +7930,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">西班牙比塞塔</displayName>
 				<displayName>西班牙比塞塔</displayName>
 				<symbol draft="contributed">ESP</symbol>
-				<symbol alt="narrow" draft="contributed">₧</symbol>
+				<symbol alt="narrow">₧</symbol>
 			</currency>
 			<currency type="ETB">
 				<displayName count="other">埃塞俄比亚比尔</displayName>
@@ -7941,7 +7940,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="EUR">
 				<displayName count="other">欧元</displayName>
 				<displayName>欧元</displayName>
-				<symbol alt="narrow" draft="contributed">€</symbol>
+				<symbol alt="narrow">€</symbol>
 				<symbol>€</symbol>
 			</currency>
 			<currency type="FIM">
@@ -7952,7 +7951,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="FJD">
 				<displayName count="other">斐济元</displayName>
 				<displayName>斐济元</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>FJD</symbol>
 			</currency>
 			<currency type="FKP">
@@ -7969,7 +7968,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="GBP">
 				<displayName count="other">英镑</displayName>
 				<displayName>英镑</displayName>
-				<symbol alt="narrow" draft="contributed">£</symbol>
+				<symbol alt="narrow">£</symbol>
 				<symbol>£</symbol>
 			</currency>
 			<currency type="GEK">
@@ -7995,7 +7994,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="GIP">
 				<displayName count="other">直布罗陀镑</displayName>
 				<displayName>直布罗陀镑</displayName>
-				<symbol alt="narrow" draft="contributed">£</symbol>
+				<symbol alt="narrow">£</symbol>
 				<symbol>GIP</symbol>
 			</currency>
 			<currency type="GMD">
@@ -8043,18 +8042,18 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="GYD">
 				<displayName count="other">圭亚那元</displayName>
 				<displayName>圭亚那元</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>GYD</symbol>
 			</currency>
 			<currency type="HKD">
 				<displayName count="other">港元</displayName>
 				<displayName>港元</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>HK$</symbol>
 			</currency>
 			<currency type="HNL">
-				<displayName draft="contributed">洪都拉斯拉伦皮拉</displayName>
-				<displayName count="other" draft="contributed">洪都拉斯拉伦皮拉</displayName>
+				<displayName count="other">洪都拉斯伦皮拉</displayName>
+				<displayName>洪都拉斯伦皮拉</displayName>
 				<symbol alt="narrow">L</symbol>
 				<symbol>HNL</symbol>
 			</currency>
@@ -8104,13 +8103,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="ILS">
 				<displayName count="other">以色列新谢克尔</displayName>
 				<displayName>以色列新谢克尔</displayName>
-				<symbol alt="narrow" draft="contributed">₪</symbol>
+				<symbol alt="narrow">₪</symbol>
 				<symbol>₪</symbol>
 			</currency>
 			<currency type="INR">
 				<displayName count="other">印度卢比</displayName>
 				<displayName>印度卢比</displayName>
-				<symbol alt="narrow" draft="contributed">₹</symbol>
+				<symbol alt="narrow">₹</symbol>
 				<symbol>₹</symbol>
 			</currency>
 			<currency type="IQD">
@@ -8142,7 +8141,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="JMD">
 				<displayName count="other">牙买加元</displayName>
 				<displayName>牙买加元</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>JMD</symbol>
 			</currency>
 			<currency type="JOD">
@@ -8153,7 +8152,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="JPY">
 				<displayName count="other">日元</displayName>
 				<displayName>日元</displayName>
-				<symbol alt="narrow" draft="contributed">¥</symbol>
+				<symbol alt="narrow">¥</symbol>
 				<symbol>JP¥</symbol>
 			</currency>
 			<currency type="KES">
@@ -8169,7 +8168,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="KHR">
 				<displayName count="other">柬埔寨瑞尔</displayName>
 				<displayName>柬埔寨瑞尔</displayName>
-				<symbol alt="narrow" draft="contributed">៛</symbol>
+				<symbol alt="narrow">៛</symbol>
 				<symbol>KHR</symbol>
 			</currency>
 			<currency type="KMF">
@@ -8193,7 +8192,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="KRW">
 				<displayName count="other">韩元</displayName>
 				<displayName>韩元</displayName>
-				<symbol alt="narrow" draft="contributed">₩</symbol>
+				<symbol alt="narrow">₩</symbol>
 				<symbol>￦</symbol>
 			</currency>
 			<currency type="KWD">
@@ -8204,19 +8203,19 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="KYD">
 				<displayName draft="contributed">开曼群岛元</displayName>
 				<displayName count="other" draft="contributed">开曼群岛元</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>KYD</symbol>
 			</currency>
 			<currency type="KZT">
-				<displayName draft="contributed">哈萨克斯坦腾格</displayName>
-				<displayName count="other" draft="contributed">哈萨克斯坦腾格</displayName>
-				<symbol alt="narrow" draft="contributed">₸</symbol>
+				<displayName count="other">哈萨克斯坦坚戈</displayName>
+				<displayName>哈萨克斯坦坚戈</displayName>
+				<symbol alt="narrow">₸</symbol>
 				<symbol>KZT</symbol>
 			</currency>
 			<currency type="LAK">
 				<displayName count="other">老挝基普</displayName>
 				<displayName>老挝基普</displayName>
-				<symbol alt="narrow" draft="contributed">₭</symbol>
+				<symbol alt="narrow">₭</symbol>
 				<symbol>LAK</symbol>
 			</currency>
 			<currency type="LBP">
@@ -8234,7 +8233,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="LRD">
 				<displayName count="other">利比里亚元</displayName>
 				<displayName>利比里亚元</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>LRD</symbol>
 			</currency>
 			<currency type="LSL">
@@ -8344,7 +8343,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="MNT">
 				<displayName count="other">蒙古图格里克</displayName>
 				<displayName>蒙古图格里克</displayName>
-				<symbol alt="narrow" draft="contributed">₮</symbol>
+				<symbol alt="narrow">₮</symbol>
 				<symbol>MNT</symbol>
 			</currency>
 			<currency type="MOP">
@@ -8386,7 +8385,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="MXN">
 				<displayName count="other">墨西哥比索</displayName>
 				<displayName>墨西哥比索</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>MX$</symbol>
 			</currency>
 			<currency type="MXP">
@@ -8423,13 +8422,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="NAD">
 				<displayName count="other">纳米比亚元</displayName>
 				<displayName>纳米比亚元</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>NAD</symbol>
 			</currency>
 			<currency type="NGN">
 				<displayName count="other">尼日利亚奈拉</displayName>
 				<displayName>尼日利亚奈拉</displayName>
-				<symbol alt="narrow" draft="contributed">₦</symbol>
+				<symbol alt="narrow">₦</symbol>
 				<symbol>NGN</symbol>
 			</currency>
 			<currency type="NIC">
@@ -8463,7 +8462,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="NZD">
 				<displayName count="other">新西兰元</displayName>
 				<displayName>新西兰元</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>NZ$</symbol>
 			</currency>
 			<currency type="OMR">
@@ -8499,7 +8498,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="PHP">
 				<displayName count="other">菲律宾比索</displayName>
 				<displayName>菲律宾比索</displayName>
-				<symbol alt="narrow" draft="contributed">₱</symbol>
+				<symbol alt="narrow">₱</symbol>
 				<symbol>PHP</symbol>
 			</currency>
 			<currency type="PKR">
@@ -8527,7 +8526,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="PYG">
 				<displayName count="other">巴拉圭瓜拉尼</displayName>
 				<displayName>巴拉圭瓜拉尼</displayName>
-				<symbol alt="narrow" draft="contributed">₲</symbol>
+				<symbol alt="narrow">₲</symbol>
 				<symbol>PYG</symbol>
 			</currency>
 			<currency type="QAR">
@@ -8565,7 +8564,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">俄国卢布 (1991–1998)</displayName>
 				<displayName>俄国卢布 (1991–1998)</displayName>
 				<symbol draft="contributed">RUR</symbol>
-				<symbol alt="narrow" draft="contributed">р.</symbol>
+				<symbol alt="narrow">р.</symbol>
 			</currency>
 			<currency type="RWF">
 				<displayName count="other">卢旺达法郎</displayName>
@@ -8581,7 +8580,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="SBD">
 				<displayName count="other">所罗门群岛元</displayName>
 				<displayName>所罗门群岛元</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>SBD</symbol>
 			</currency>
 			<currency type="SCR">
@@ -8613,7 +8612,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="SGD">
 				<displayName count="other">新加坡元</displayName>
 				<displayName>新加坡元</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>SGD</symbol>
 			</currency>
 			<currency type="SHP">
@@ -8645,7 +8644,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="SRD">
 				<displayName count="other">苏里南元</displayName>
 				<displayName>苏里南元</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>SRD</symbol>
 			</currency>
 			<currency type="SRG">
@@ -8656,7 +8655,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="SSP">
 				<displayName count="other">南苏丹镑</displayName>
 				<displayName>南苏丹镑</displayName>
-				<symbol alt="narrow" draft="contributed">£</symbol>
+				<symbol alt="narrow">£</symbol>
 				<symbol>SSP</symbol>
 			</currency>
 			<currency type="STD">
@@ -8734,20 +8733,20 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="TRY">
 				<displayName count="other">土耳其里拉</displayName>
 				<displayName>土耳其里拉</displayName>
-				<symbol alt="narrow" draft="contributed">₺</symbol>
+				<symbol alt="narrow">₺</symbol>
 				<symbol alt="variant">TL</symbol>
 				<symbol>TRY</symbol>
 			</currency>
 			<currency type="TTD">
 				<displayName count="other">特立尼达和多巴哥元</displayName>
 				<displayName>特立尼达和多巴哥元</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>TTD</symbol>
 			</currency>
 			<currency type="TWD">
 				<displayName count="other">新台币</displayName>
 				<displayName>新台币</displayName>
-				<symbol alt="narrow" draft="contributed">NT$</symbol>
+				<symbol alt="narrow">NT$</symbol>
 				<symbol>NT$</symbol>
 			</currency>
 			<currency type="TZS">
@@ -8756,9 +8755,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>TZS</symbol>
 			</currency>
 			<currency type="UAH">
-				<displayName draft="contributed">乌克兰赫夫纳</displayName>
-				<displayName count="other" draft="contributed">乌克兰赫夫纳</displayName>
-				<symbol alt="narrow" draft="contributed">₴</symbol>
+				<displayName count="other">乌克兰格里夫纳</displayName>
+				<displayName>乌克兰格里夫纳</displayName>
+				<symbol alt="narrow">₴</symbol>
 				<symbol>UAH</symbol>
 			</currency>
 			<currency type="UAK">
@@ -8779,7 +8778,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="USD">
 				<displayName count="other">美元</displayName>
 				<displayName>美元</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>US$</symbol>
 			</currency>
 			<currency type="USN">
@@ -8805,7 +8804,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="UYU">
 				<displayName count="other">乌拉圭比索</displayName>
 				<displayName>乌拉圭比索</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>UYU</symbol>
 			</currency>
 			<currency type="UZS">
@@ -8827,7 +8826,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="VND">
 				<displayName count="other">越南盾</displayName>
 				<displayName>越南盾</displayName>
-				<symbol alt="narrow" draft="contributed">₫</symbol>
+				<symbol alt="narrow">₫</symbol>
 				<symbol>₫</symbol>
 			</currency>
 			<currency type="VNN">
@@ -9117,7 +9116,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<miscPatterns numberSystem="vaii">
 			<alias source="locale" path="../miscPatterns[@numberSystem='latn']"/>
 		</miscPatterns>
-		<minimumGroupingDigits draft="contributed">1</minimumGroupingDigits>
+		<minimumGroupingDigits>1</minimumGroupingDigits>
 	</numbers>
 	<units>
 		<unitLength type="long">
@@ -9483,8 +9482,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="other">{0}磅每平方英寸</unitPattern>
 			</unit>
 			<unit type="proportion-karat">
-				<displayName draft="contributed">开</displayName>
-				<unitPattern count="other" draft="contributed">{0}开</unitPattern>
+				<displayName draft="unconfirmed">开</displayName>
+				<unitPattern count="other" draft="unconfirmed">{0}开</unitPattern>
 			</unit>
 			<unit type="speed-kilometer-per-hour">
 				<displayName>千米每小时</displayName>
@@ -9666,34 +9665,34 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="other">{0}厘米</unitPattern>
 			</unit>
 			<unit type="length-foot">
-				<unitPattern count="other" draft="contributed">{0}英尺</unitPattern>
+				<unitPattern count="other" draft="unconfirmed">{0}英尺</unitPattern>
 			</unit>
 			<unit type="length-inch">
-				<unitPattern count="other" draft="contributed">{0}英寸</unitPattern>
+				<unitPattern count="other" draft="unconfirmed">{0}英寸</unitPattern>
 			</unit>
 			<unit type="length-kilometer">
 				<displayName draft="contributed">公里</displayName>
 				<unitPattern count="other">{0}公里</unitPattern>
 			</unit>
 			<unit type="length-light-year">
-				<unitPattern count="other" draft="contributed">{0}光年</unitPattern>
+				<unitPattern count="other" draft="unconfirmed">{0}光年</unitPattern>
 			</unit>
 			<unit type="length-meter">
 				<displayName draft="contributed">米</displayName>
 				<unitPattern count="other">{0}米</unitPattern>
 			</unit>
 			<unit type="length-mile">
-				<unitPattern count="other" draft="contributed">{0}英里</unitPattern>
+				<unitPattern count="other" draft="unconfirmed">{0}英里</unitPattern>
 			</unit>
 			<unit type="length-millimeter">
 				<displayName>毫米</displayName>
 				<unitPattern count="other">{0}毫米</unitPattern>
 			</unit>
 			<unit type="length-picometer">
-				<unitPattern count="other" draft="contributed">{0}皮米</unitPattern>
+				<unitPattern count="other" draft="unconfirmed">{0}皮米</unitPattern>
 			</unit>
 			<unit type="length-yard">
-				<unitPattern count="other" draft="contributed">{0}码</unitPattern>
+				<unitPattern count="other" draft="unconfirmed">{0}码</unitPattern>
 			</unit>
 			<unit type="mass-gram">
 				<displayName>克</displayName>
@@ -9761,7 +9760,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</compoundUnit>
 			<unit type="acceleration-g-force">
 				<displayName>G力</displayName>
-				<unitPattern count="other" draft="contributed">{0}G力</unitPattern>
+				<unitPattern count="other" draft="unconfirmed">{0}G力</unitPattern>
 			</unit>
 			<unit type="acceleration-meter-per-second-squared">
 				<displayName>米/秒²</displayName>
@@ -9999,11 +9998,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</unit>
 			<unit type="length-light-year">
 				<displayName draft="contributed">光年</displayName>
-				<unitPattern count="other" draft="contributed">{0}光年</unitPattern>
+				<unitPattern count="other" draft="unconfirmed">{0}光年</unitPattern>
 			</unit>
 			<unit type="length-meter">
 				<displayName draft="contributed">米</displayName>
-				<unitPattern count="other" draft="contributed">{0}米</unitPattern>
+				<unitPattern count="other" draft="unconfirmed">{0}米</unitPattern>
 			</unit>
 			<unit type="length-micrometer">
 				<displayName draft="contributed">微米</displayName>
@@ -10031,11 +10030,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</unit>
 			<unit type="length-picometer">
 				<displayName>皮米</displayName>
-				<unitPattern count="other" draft="contributed">{0}皮米</unitPattern>
+				<unitPattern count="other" draft="unconfirmed">{0}皮米</unitPattern>
 			</unit>
 			<unit type="length-yard">
 				<displayName>码</displayName>
-				<unitPattern count="other" draft="contributed">{0}码</unitPattern>
+				<unitPattern count="other" draft="unconfirmed">{0}码</unitPattern>
 			</unit>
 			<unit type="light-lux">
 				<displayName>勒克斯</displayName>
@@ -10130,8 +10129,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="other">{0}磅/平方英寸</unitPattern>
 			</unit>
 			<unit type="proportion-karat">
-				<displayName draft="contributed">开</displayName>
-				<unitPattern count="other" draft="contributed">{0}开</unitPattern>
+				<displayName draft="unconfirmed">开</displayName>
+				<unitPattern count="other" draft="unconfirmed">{0}开</unitPattern>
 			</unit>
 			<unit type="speed-kilometer-per-hour">
 				<displayName>千米/小时</displayName>
@@ -10153,8 +10152,12 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>华氏度</displayName>
 				<unitPattern count="other">{0}°F</unitPattern>
 			</unit>
+			<unit type="temperature-generic">
+				<displayName>°</displayName>
+				<unitPattern count="other">{0}°</unitPattern>
+			</unit>
 			<unit type="temperature-kelvin">
-				<displayName draft="contributed">开氏度</displayName>
+				<displayName draft="unconfirmed">开氏度</displayName>
 				<unitPattern count="other" draft="contributed">{0}°K</unitPattern>
 			</unit>
 			<unit type="volume-acre-foot">
@@ -10303,30 +10306,34 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*😁😂😃😄😅😆😉😊😋😌😍😎😏😐
 				<*😑😒😓😔😕😖😗😘😙😚😛😜😝😞😟😠
 				<*😡😢😣😤😥😦😧😨😩😪😫😬😭😮😯😰
-				<*😱😲😳😴😵😶😷😇😈👿👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
-				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
+				<*😱😲😳😴😵😶😷😇😈👿🙃🙄🤐
+				<*🤑🤒🤓🤔🤕🤗🤖👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
+				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭🏻🏼🏽🏾🏿👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
 				<*✍🖐
 				<*💅💪👣👀
 				<*👁👂👃👅💀
 				<*☠
-				<*💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
+				<*🤘💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
 				<*👡👢👑👒🎩⛑🐵🙈🙉🙊🐒🐶🐕🐩🐺🐱😸😹😺😻😼😽😾😿🙀
 				<*🐈🐯🐅🐆🐴🐎🐮🐂🐃🐄🐷🐖🐗🐽🐏🐑🐐
 				<*🐪🐫🐘🐭🐁🐀
 				<*🐹🐰
 				<*🐇🐿🐻🐨🐼🐾🐔🐓🐣🐤🐥🐦🐧🕊🐸🐊🐍🐢🐲🐉🐳🐋🐬🐟🐠
-				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸💩👹👺👻👽👾💐
-				<*🌸💮🏵🌹🌺🌻🌼🌷⸙☘🌱🌲🌳🌴🌵🌾🌿🍀
+				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸🦀
+				<*🦁🦂💩👹👺👻👽👾💐
+				<*🌸💮🏵🌹🌺🌻🌼🌷☘🌱🌲🌳🌴🌵🌾🌿🍀
 				<*🍁🍂🍃🍇🍈🍉🍊🍋🍌🍍🍎🍏🍐
 				<*🍑🍒🍓🍅🍆🌽🌶🍄🌰
 				<*🍞🍖🍗🍔🍟🍕🍲🍱🍘🍙🍚🍛🍜🍝🍠
 				<*🍢🍣🍤🍥🍡🍦🍧🍨🍩🍪🎂🍰
-				<*🍫🍬🍭🍮🍯☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🌍🌎🌏🌐
+				<*🍫🍬🍭🍮🍯🌭🌮🌯🍾🍿🦃🦄🧀
+				<*☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🏺🌍🌎🌏🌐
 				<*🗺🏔⛰
 				<*🌋🗻🏕🏖🏜🏝🏞🏟🏛🏗🏘🏙🏚🏠
 				<*🏡⛪🏢🏣🏤🏥🏦🏨🏩🏪🏫🏬🏭🏯🏰
 				<*💒🗼🗽🗾⛲⛺🌁🌃🌄🌅🌆🌇🌉🌊♨🗿🌌🎠
 				<*🎡🎢💈🎪🎫🎭🎰
+				<*🕋🕌🕍🛐
 				<*🚂🚃🚄🚅🚆🚇🚈🚉🚊🚝🚞🚋🚌🚍🚎🚏🚐
 				<*🚑🚒🚓🚔🚕🚖🚗🚘🚙🚚🚛🚜🚲🚳🚴🚵🏎🏍⛽🛣🛤🚨⎈⚓⛵🚣🚤🛳⛴🛥🚢✈🛩🛫🛬💺🚁🚟🚠
 				<*🚡🚀
@@ -10344,7 +10351,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*🌈🌂☂☔⛱❄☃⛄🌟🌠
 				<*☄🎲♠
 				<*♥♦♣🃏🀄🎮🕹⚽⚾🏀
-				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🔇🔈🔉🔊📢📣📯🔔🔕🔀
+				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🏏🏐
+				<*🏑🏒🏓🏸🔇🔈🔉🔊📢📣📯🔔🔕🔀
 				<*🔁🔂▶⏩⏭⏯◀
 				<*⏪⏮🔼⏫🔽⏬⏸⏹⏺⏏🎼🎵🎶🎙🎚🎛🎤🎧🎷🎸🎹🎺🎻📻📱📳📴📲📵☎📞
 				<#⃣
@@ -10368,7 +10376,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*💼📁📂🗂📅📆🗒🗓📇📈📉📊📋📌📍📎🖇📏📐
 				<*📛✂🗃🗄🗑🔒🔓🔏🔐
 				<*🔑🗝🔨⛏⚒🛠
-				<*🔧🔩⚙🗜⚗⚖💉🗡🔪⚔🔫🛡🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
+				<*🔧🔩⚙🗜⚗⚖💉📿🕎🗡🔪⚔🔫🛡🏹🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
 				<*⚱🔰
 				<*💯📡🏁🏳🏴🚩
 				<*🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿⬆↗➡↘⬇↙⬅↖↕↔↩↪⤴⤵🔃🔄🔙🔚🔛🔜🔝🕉✡☸☯✝☦⛩☪☮☢☣♻⚡⭐
@@ -21440,97 +21448,57 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</segmentRules>
 		</segmentation>
 		<segmentation type="LineBreak">
+			<!-- Placeholder until the rules here are updated to reflect the CSS line break variants -->
 			<variables>
 				<!-- Variables -->
 				<variable id="$AI">\p{Line_Break=Ambiguous}</variable>
-				<variable id="$AI">($AI $X)</variable>
 				<variable id="$AL">\p{Line_Break=Alphabetic}</variable>
-				<!-- LB 1  Assign a line breaking class to each code point of the input. -->
-				<!-- Resolve AI, CB, SA, SG, and XX into other line breaking classes depending on criteria outside the scope of this algorithm. -->
-				<!-- NOTE: CB is ok to fall through, but must handle others here. -->
-				<variable id="$AL">[$AI $AL $XX $SA $SG]</variable>
-				<variable id="$AL">($AL $X)</variable>
-				<!-- OUT OF ORDER ON PURPOSE -->
-				<!-- LB 10  Treat any remaining combining mark as AL. -->
-				<variable id="$AL">($AL | ^ $CM | (?&lt;=$Spec1_) $CM)</variable>
 				<variable id="$B2">\p{Line_Break=Break_Both}</variable>
-				<variable id="$B2">($B2 $X)</variable>
 				<variable id="$BA">\p{Line_Break=Break_After}</variable>
-				<variable id="$BA">($BA $X)</variable>
 				<variable id="$BB">\p{Line_Break=Break_Before}</variable>
-				<variable id="$BB">($BB $X)</variable>
 				<variable id="$BK">\p{Line_Break=Mandatory_Break}</variable>
 				<variable id="$CB">\p{Line_Break=Contingent_Break}</variable>
-				<variable id="$CB">($CB $X)</variable>
 				<variable id="$CJ">\p{Line_Break=Conditional_Japanese_Starter}</variable>
 				<variable id="$CL">\p{Line_Break=Close_Punctuation}</variable>
-				<variable id="$CL">($CL $X)</variable>
 				<variable id="$CM">\p{Line_Break=Combining_Mark}</variable>
-				<variable id="$CM">($CM $X)</variable>
-				<variable id="$CM">($CM $X)</variable>
 				<variable id="$CP">\p{Line_Break=CP}</variable>
-				<variable id="$CP">($CP $X)</variable>
 				<variable id="$CR">\p{Line_Break=Carriage_Return}</variable>
 				<variable id="$EX">\p{Line_Break=Exclamation}</variable>
 				<variable id="$GL">\p{Line_Break=Glue}</variable>
-				<variable id="$GL">($GL $X)</variable>
 				<variable id="$H2">\p{Line_Break=H2}</variable>
-				<variable id="$H2">($H2 $X)</variable>
 				<variable id="$H3">\p{Line_Break=H3}</variable>
-				<variable id="$H3">($H3 $X)</variable>
 				<variable id="$HL">\p{Line_Break=HL}</variable>
-				<variable id="$HL">($HL $X)</variable>
 				<variable id="$HY">\p{Line_Break=Hyphen}</variable>
-				<variable id="$HY">($HY $X)</variable>
-				<variable id="$ID">\p{Line_Break=Ideographic}</variable>
-				<variable id="$ID">($ID $X)</variable>
+				<variable id="$ID">[[\p{Line_Break=Ideographic}] [$CJ]]</variable>
 				<variable id="$IN">\p{Line_Break=Inseparable}</variable>
-				<variable id="$IN">($IN $X)</variable>
 				<variable id="$IS">\p{Line_Break=Infix_Numeric}</variable>
-				<variable id="$IS">($IS $X)</variable>
 				<variable id="$JL">\p{Line_Break=JL}</variable>
-				<variable id="$JL">($JL $X)</variable>
 				<variable id="$JT">\p{Line_Break=JT}</variable>
-				<variable id="$JT">($JT $X)</variable>
 				<variable id="$JV">\p{Line_Break=JV}</variable>
-				<variable id="$JV">($JV $X)</variable>
 				<variable id="$LF">\p{Line_Break=Line_Feed}</variable>
 				<variable id="$NL">\p{Line_Break=Next_Line}</variable>
 				<variable id="$NS">\p{Line_Break=Nonstarter}</variable>
-				<variable id="$NS">[$NS $CJ]</variable>
-				<variable id="$NS">($NS $X)</variable>
 				<variable id="$NU">\p{Line_Break=Numeric}</variable>
-				<variable id="$NU">($NU $X)</variable>
 				<variable id="$OP">\p{Line_Break=Open_Punctuation}</variable>
-				<variable id="$OP">($OP $X)</variable>
 				<variable id="$PO">\p{Line_Break=Postfix_Numeric}</variable>
-				<variable id="$PO">($PO $X)</variable>
 				<variable id="$PR">\p{Line_Break=Prefix_Numeric}</variable>
-				<variable id="$PR">($PR $X)</variable>
 				<variable id="$QU">\p{Line_Break=Quotation}</variable>
-				<variable id="$QU">($QU $X)</variable>
 				<variable id="$RI">\p{Line_Break=Regional_Indicator}</variable>
-				<variable id="$RI">($RI $X)</variable>
 				<variable id="$SA">\p{Line_Break=Complex_Context}</variable>
-				<variable id="$SA">($SA $X)</variable>
 				<variable id="$SG">\p{Line_Break=Surrogate}</variable>
-				<variable id="$SG">($SG $X)</variable>
 				<variable id="$SP">\p{Line_Break=Space}</variable>
 				<variable id="$SY">\p{Line_Break=Break_Symbols}</variable>
-				<variable id="$SY">($SY $X)</variable>
 				<variable id="$Spec1_">[$SP $BK $CR $LF $NL $ZW]</variable>
 				<variable id="$Spec2_">[^ $SP $BK $CR $LF $NL $ZW]</variable>
 				<variable id="$Spec3a_">[^ $SP $BA $HY $CM]</variable>
 				<variable id="$Spec3b_">[^ $BA $HY $CM]</variable>
 				<variable id="$Spec4_">[^ $NU $CM]</variable>
 				<variable id="$WJ">\p{Line_Break=Word_Joiner}</variable>
-				<variable id="$WJ">($WJ $X)</variable>
 				<!-- WARNING: Fixes for Rule 9 -->
 				<!-- Treat X CM* as if it were X. -->
 				<!-- Where X is any line break class except SP, BK, CR, LF, NL or ZW. -->
 				<variable id="$X">$CM*</variable>
 				<variable id="$XX">\p{Line_Break=Unknown}</variable>
-				<variable id="$XX">($XX $X)</variable>
 				<variable id="$ZW">\p{Line_Break=ZWSpace}</variable>
 			</variables>
 			<segmentRules>

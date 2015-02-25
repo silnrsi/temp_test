@@ -5,8 +5,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 -->
 <ldml>
 	<identity>
-		<version number="$Revision: 11105 $"/>
-		<generation date="$Date: 2015-01-09 00:13 +0000 $"/>
+		<version number="$Revision: 11294 $"/>
+		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="lt"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity source="cldr" draft="approved"/>
@@ -1430,7 +1430,46 @@ For terms of use, see http://www.unicode.org/copyright.html
 						</cyclicNameContext>
 					</cyclicNameSet>
 				</cyclicNameSets>
+				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>U MMMM d, EEEE</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>U MMMM d</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>U MMM d</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern>y-MM-dd</pattern>
+						</dateFormat>
+					</dateFormatLength>
+				</dateFormats>
 				<dateTimeFormats>
+					<availableFormats>
+						<dateFormatItem id="Gy">U</dateFormatItem>
+						<dateFormatItem id="GyMMM">U MMM</dateFormatItem>
+						<dateFormatItem id="GyMMMEd">U MMM d, E</dateFormatItem>
+						<dateFormatItem id="GyMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="y">U</dateFormatItem>
+						<dateFormatItem id="yMd">y-MM-dd</dateFormatItem>
+						<dateFormatItem id="yyyy">U</dateFormatItem>
+						<dateFormatItem id="yyyyM">y-MM</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">y-MM-dd, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">U MMM</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEd">U MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="yyyyMd">y-MM-dd</dateFormatItem>
+						<dateFormatItem id="yyyyQQQ">U QQQ</dateFormatItem>
+						<dateFormatItem id="yyyyQQQQ">U QQQQ</dateFormatItem>
+					</availableFormats>
 					<intervalFormats>
 						<intervalFormatItem id="MEd">
 							<greatestDifference id="M">MM-dd, E–MM-dd, E</greatestDifference>
@@ -4158,9 +4197,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<zone type="Asia/Choibalsan">
 				<exemplarCity>Čoibalsanas</exemplarCity>
 			</zone>
-			<zone type="Asia/Chongqing">
-				<exemplarCity>Čongčingas</exemplarCity>
-			</zone>
 			<zone type="Asia/Colombo">
 				<exemplarCity>Kolombas</exemplarCity>
 			</zone>
@@ -4181,9 +4217,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Gaza">
 				<exemplarCity>Gazos ruožas</exemplarCity>
-			</zone>
-			<zone type="Asia/Harbin">
-				<exemplarCity>Harbinas</exemplarCity>
 			</zone>
 			<zone type="Asia/Hebron">
 				<exemplarCity>Hebronas</exemplarCity>
@@ -4214,9 +4247,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Karachi">
 				<exemplarCity>Karačis</exemplarCity>
-			</zone>
-			<zone type="Asia/Kashgar">
-				<exemplarCity>Kašgaras</exemplarCity>
 			</zone>
 			<zone type="Asia/Katmandu">
 				<exemplarCity>Katmandu</exemplarCity>
@@ -7724,7 +7754,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">JAV doleris</displayName>
 				<displayName count="other">JAV dolerių</displayName>
 				<displayName>JAV doleris</displayName>
-				<symbol>USD</symbol>
+				<symbol>dol.</symbol>
 			</currency>
 			<currency type="USN">
 				<displayName count="few">JAV doleriai (kitą dieną)</displayName>

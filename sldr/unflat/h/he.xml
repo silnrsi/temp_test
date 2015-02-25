@@ -5,8 +5,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 -->
 <ldml>
 	<identity>
-		<version number="$Revision: 11166 $"/>
-		<generation date="$Date: 2015-02-06 03:27 +0000 $"/>
+		<version number="$Revision: 11294 $"/>
+		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="he"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity source="cldr" draft="approved"/>
@@ -1121,6 +1121,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="GyMMM">MMM y G</dateFormatItem>
 						<dateFormatItem id="GyMMMEd">E, d בMMM y G</dateFormatItem>
 						<dateFormatItem id="GyMMMd">d בMMM y G</dateFormatItem>
+						<dateFormatItem id="H">H</dateFormatItem>
+						<dateFormatItem id="Hm">H:mm</dateFormatItem>
+						<dateFormatItem id="Hms">H:mm:ss</dateFormatItem>
 						<dateFormatItem id="MEd">E, d/M</dateFormatItem>
 						<dateFormatItem id="MMMEd">E, d בMMM</dateFormatItem>
 						<dateFormatItem id="MMMd">d בMMM</dateFormatItem>
@@ -1137,6 +1140,20 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="yyyyMd">d.M.y G</dateFormatItem>
 					</availableFormats>
 					<intervalFormats>
+						<intervalFormatItem id="H">
+							<greatestDifference id="H" draft="contributed">H–H</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="Hm">
+							<greatestDifference id="H" draft="contributed">H:mm–H:mm</greatestDifference>
+							<greatestDifference id="m" draft="contributed">H:mm–H:mm</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="Hmv">
+							<greatestDifference id="H" draft="contributed">H:mm–H:mm v</greatestDifference>
+							<greatestDifference id="m" draft="contributed">H:mm–H:mm v</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="Hv">
+							<greatestDifference id="H" draft="contributed">H–H v</greatestDifference>
+						</intervalFormatItem>
 						<intervalFormatItem id="M">
 							<greatestDifference id="M">M–M</greatestDifference>
 						</intervalFormatItem>
@@ -1444,6 +1461,28 @@ For terms of use, see http://www.unicode.org/copyright.html
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern>H:mm:ss zzzz</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern>H:mm:ss z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern>H:mm:ss</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern>H:mm</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
 				<dateTimeFormats>
 					<dateTimeFormatLength type="full">
 						<dateTimeFormat>
@@ -1473,6 +1512,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="GyMMM">MMM y G</dateFormatItem>
 						<dateFormatItem id="GyMMMEd">E, d בMMM y G</dateFormatItem>
 						<dateFormatItem id="GyMMMd">d בMMM y G</dateFormatItem>
+						<dateFormatItem id="H">H</dateFormatItem>
+						<dateFormatItem id="Hm">H:mm</dateFormatItem>
+						<dateFormatItem id="Hms">H:mm:ss</dateFormatItem>
 						<dateFormatItem id="MEd">E, d.M</dateFormatItem>
 						<dateFormatItem id="MMMEd">E, d בMMM</dateFormatItem>
 						<dateFormatItem id="MMMd">d בMMM</dateFormatItem>
@@ -1907,8 +1949,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="GyMMM">MMM y G</dateFormatItem>
 						<dateFormatItem id="GyMMMEd">E, d בMMM y G</dateFormatItem>
 						<dateFormatItem id="GyMMMd">d בMMM y G</dateFormatItem>
-						<dateFormatItem id="Hm" draft="contributed">HH:mm</dateFormatItem>
-						<dateFormatItem id="Hms" draft="contributed">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="Hm" draft="contributed">H:mm</dateFormatItem>
+						<dateFormatItem id="Hms" draft="contributed">H:mm:ss</dateFormatItem>
 						<dateFormatItem id="M">L</dateFormatItem>
 						<dateFormatItem id="MEd">E, d/M</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
@@ -2437,6 +2479,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</field>
 		</fields>
 		<timeZoneNames>
+			<hourFormat>+H:mm;-H:mm</hourFormat>
 			<regionFormat type="daylight">שעון {0} (קיץ)</regionFormat>
 			<regionFormat type="standard" draft="contributed">שעון {0} (חורף)</regionFormat>
 			<regionFormat>שעון {0}</regionFormat>
@@ -3118,9 +3161,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<zone type="Asia/Choibalsan">
 				<exemplarCity draft="contributed">צ׳ואיבלסאן</exemplarCity>
 			</zone>
-			<zone type="Asia/Chongqing">
-				<exemplarCity>צ׳ונגקינג</exemplarCity>
-			</zone>
 			<zone type="Asia/Colombo">
 				<exemplarCity>קולומבו</exemplarCity>
 			</zone>
@@ -3141,9 +3181,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Gaza">
 				<exemplarCity>עזה</exemplarCity>
-			</zone>
-			<zone type="Asia/Harbin">
-				<exemplarCity>חרבין</exemplarCity>
 			</zone>
 			<zone type="Asia/Hebron">
 				<exemplarCity>חברון</exemplarCity>
@@ -3174,9 +3211,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Karachi">
 				<exemplarCity>קרצ׳י</exemplarCity>
-			</zone>
-			<zone type="Asia/Kashgar">
-				<exemplarCity>קשגר</exemplarCity>
 			</zone>
 			<zone type="Asia/Katmandu">
 				<exemplarCity>קטמנדו</exemplarCity>

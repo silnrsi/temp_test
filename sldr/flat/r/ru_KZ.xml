@@ -121,7 +121,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<language type="de_AT">австрийский немецкий</language>
 			<language type="de_CH">швейцарский верхненемецкий</language>
 			<language type="del">делаварский</language>
-			<language type="den" draft="contributed">славянский</language>
+			<language type="den">слейви</language>
 			<language type="dgr">догриб</language>
 			<language type="din">динка</language>
 			<language type="dje">зарма</language>
@@ -543,48 +543,48 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<script type="Afak" draft="contributed">афака</script>
 			<script type="Arab" alt="variant">персидско-арабская</script>
 			<script type="Arab">арабица</script>
-			<script type="Armi">Арамейская</script>
+			<script type="Armi">арамейская</script>
 			<script type="Armn">армянская</script>
-			<script type="Avst">Авестийская</script>
-			<script type="Bali">Балийская</script>
+			<script type="Avst">авестийская</script>
+			<script type="Bali">балийская</script>
 			<script type="Bamu" draft="contributed">бамум</script>
 			<script type="Bass" draft="contributed">басса (вах)</script>
-			<script type="Batk">Батакская</script>
+			<script type="Batk">батакская</script>
 			<script type="Beng">бенгальская</script>
-			<script type="Blis">Блиссимволика</script>
+			<script type="Blis">блиссимволика</script>
 			<script type="Bopo">бопомофо</script>
-			<script type="Brah">Брахми</script>
-			<script type="Brai">Брайля</script>
-			<script type="Bugi">Бугинизийская</script>
-			<script type="Buhd">Бухид</script>
-			<script type="Cakm">Чакмийская</script>
-			<script type="Cans">Канадское слоговое письмо</script>
-			<script type="Cari">Карийская</script>
-			<script type="Cham">Чамская</script>
-			<script type="Cher">Чероки</script>
-			<script type="Cirt">Кирт</script>
-			<script type="Copt">Коптская</script>
-			<script type="Cprt">Кипрская</script>
+			<script type="Brah">брахми</script>
+			<script type="Brai">брайля</script>
+			<script type="Bugi">бугинизийская</script>
+			<script type="Buhd">бухид</script>
+			<script type="Cakm">чакмийская</script>
+			<script type="Cans">канадское слоговое письмо</script>
+			<script type="Cari">карийская</script>
+			<script type="Cham">чамская</script>
+			<script type="Cher">чероки</script>
+			<script type="Cirt">кирт</script>
+			<script type="Copt">коптская</script>
+			<script type="Cprt">кипрская</script>
 			<script type="Cyrl">кириллица</script>
-			<script type="Cyrs">Старославянская</script>
+			<script type="Cyrs">старославянская</script>
 			<script type="Deva">деванагари</script>
-			<script type="Dsrt">Дезерет</script>
+			<script type="Dsrt">дезерет</script>
 			<script type="Dupl" draft="contributed">дуплоянская скоропись</script>
-			<script type="Egyd">Египетская демотическая</script>
-			<script type="Egyh">Египетская иератическая</script>
-			<script type="Egyp">Египетская иероглифическая</script>
+			<script type="Egyd">египетская демотическая</script>
+			<script type="Egyh">египетская иератическая</script>
+			<script type="Egyp">египетская иероглифическая</script>
 			<script type="Ethi">эфиопская</script>
-			<script type="Geok">Грузинская хуцури</script>
+			<script type="Geok">грузинская хуцури</script>
 			<script type="Geor">грузинская</script>
-			<script type="Glag">Глаголица</script>
-			<script type="Goth">Готская</script>
+			<script type="Glag">глаголица</script>
+			<script type="Goth">готская</script>
 			<script type="Gran" draft="contributed">грантха</script>
 			<script type="Grek">греческая</script>
 			<script type="Gujr">гуджарати</script>
 			<script type="Guru">гурмукхи</script>
 			<script type="Hang">хангыль</script>
 			<script type="Hani">китайская</script>
-			<script type="Hano">Хануну</script>
+			<script type="Hano">хануну</script>
 			<script type="Hans" alt="stand-alone">упрощенная китайская</script>
 			<script type="Hans">упрощенная китайская</script>
 			<script type="Hant" alt="stand-alone">традиционная китайская</script>
@@ -592,110 +592,110 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<script type="Hebr">иврит</script>
 			<script type="Hira">хирагана</script>
 			<script type="Hluw" draft="contributed">лувийские иероглифы</script>
-			<script type="Hmng" draft="contributed">Пахау хмонг</script>
-			<script type="Hrkt">Катакана или хирагана</script>
-			<script type="Hung">Старовенгерская</script>
-			<script type="Inds" draft="contributed">Хараппская (письменность долины Инда)</script>
-			<script type="Ital">Староитальянская</script>
-			<script type="Java">Яванская</script>
+			<script type="Hmng" draft="contributed">пахау хмонг</script>
+			<script type="Hrkt">катакана или хирагана</script>
+			<script type="Hung">старовенгерская</script>
+			<script type="Inds" draft="contributed">хараппская (письменность долины Инда)</script>
+			<script type="Ital">староитальянская</script>
+			<script type="Java">яванская</script>
 			<script type="Jpan">японская</script>
 			<script type="Jurc" draft="contributed">чжурчжэньская</script>
-			<script type="Kali">Кайа</script>
+			<script type="Kali">кайа</script>
 			<script type="Kana">катакана</script>
-			<script type="Khar">Кхароштхи</script>
+			<script type="Khar">кхароштхи</script>
 			<script type="Khmr">кхмерская</script>
 			<script type="Khoj" draft="contributed">ходжики</script>
 			<script type="Knda">каннада</script>
 			<script type="Kore">корейская</script>
 			<script type="Kpel" draft="contributed">кпелле</script>
-			<script type="Kthi">Кайтхи</script>
-			<script type="Lana">Ланна</script>
+			<script type="Kthi">кайтхи</script>
+			<script type="Lana">ланна</script>
 			<script type="Laoo">лаосская</script>
-			<script type="Latf">Латинская фрактура</script>
-			<script type="Latg">Гэльская латинская</script>
+			<script type="Latf">латинская фрактура</script>
+			<script type="Latg">гэльская латинская</script>
 			<script type="Latn">латиница</script>
-			<script type="Lepc">Лепха</script>
-			<script type="Limb">Лимбу</script>
-			<script type="Lina">Линейное письмо А</script>
-			<script type="Linb">Линейное письмо Б</script>
+			<script type="Lepc">лепха</script>
+			<script type="Limb">лимбу</script>
+			<script type="Lina">линейное письмо А</script>
+			<script type="Linb">линейное письмо Б</script>
 			<script type="Lisu" draft="contributed">лису</script>
 			<script type="Loma" draft="contributed">лома</script>
-			<script type="Lyci">Лициан</script>
-			<script type="Lydi">Лидийская</script>
-			<script type="Mand">Мандейская</script>
-			<script type="Mani" draft="contributed">Манихейская</script>
-			<script type="Maya">Майя</script>
+			<script type="Lyci">лициан</script>
+			<script type="Lydi">лидийская</script>
+			<script type="Mand">мандейская</script>
+			<script type="Mani" draft="contributed">манихейская</script>
+			<script type="Maya">майя</script>
 			<script type="Mend" draft="contributed">менде</script>
 			<script type="Merc" draft="contributed">мероитская курсивная</script>
-			<script type="Mero">Мероитская</script>
+			<script type="Mero">мероитская</script>
 			<script type="Mlym">малаяльская</script>
 			<script type="Mong">монгольская</script>
-			<script type="Moon" draft="contributed">Азбука Муна</script>
+			<script type="Moon" draft="contributed">азбука муна</script>
 			<script type="Mroo" draft="contributed">мро</script>
-			<script type="Mtei">Манипури</script>
+			<script type="Mtei">манипури</script>
 			<script type="Mymr">мьянманская</script>
 			<script type="Narb" draft="contributed">северноаравийское</script>
 			<script type="Nbat" draft="contributed">набатейская</script>
 			<script type="Nkgb" draft="contributed">наси геба</script>
-			<script type="Nkoo">Нко</script>
+			<script type="Nkoo">нко</script>
 			<script type="Nshu" draft="contributed">нюй-шу</script>
-			<script type="Ogam">Огамическая</script>
-			<script type="Olck" draft="contributed">Ол Чики</script>
-			<script type="Orkh" draft="contributed">Орхоно-енисейская</script>
+			<script type="Ogam">огамическая</script>
+			<script type="Olck" draft="contributed">ол чики</script>
+			<script type="Orkh" draft="contributed">орхоно-енисейская</script>
 			<script type="Orya">ория</script>
-			<script type="Osma">Османская</script>
+			<script type="Osma">османская</script>
 			<script type="Palm" draft="contributed">пальмиры</script>
-			<script type="Perm" draft="contributed">Древнепермская</script>
-			<script type="Phag" draft="contributed">Пагспа</script>
+			<script type="Perm" draft="contributed">древнепермская</script>
+			<script type="Phag" draft="contributed">пагспа</script>
 			<script type="Phli" draft="contributed">пехлевийская</script>
 			<script type="Phlp" draft="contributed">пахлави псалтирная</script>
-			<script type="Phlv">Пахлави книжная</script>
-			<script type="Phnx" draft="contributed">Финикийская</script>
-			<script type="Plrd" draft="contributed">Поллардовская фонетика</script>
+			<script type="Phlv">пахлави книжная</script>
+			<script type="Phnx" draft="contributed">финикийская</script>
+			<script type="Plrd" draft="contributed">поллардовская фонетика</script>
 			<script type="Prti" draft="contributed">парфянская</script>
-			<script type="Rjng" draft="contributed">Реджангская</script>
-			<script type="Roro">Ронго-ронго</script>
-			<script type="Runr">Руническая</script>
-			<script type="Samr" draft="contributed">Самаритянская</script>
-			<script type="Sara" draft="contributed">Сарати</script>
+			<script type="Rjng" draft="contributed">реджангская</script>
+			<script type="Roro">ронго-ронго</script>
+			<script type="Runr">руническая</script>
+			<script type="Samr" draft="contributed">самаритянская</script>
+			<script type="Sara" draft="contributed">сарати</script>
 			<script type="Sarb" draft="contributed">староюжноарабская</script>
-			<script type="Saur">Саураштра</script>
-			<script type="Sgnw">Язык знаков</script>
-			<script type="Shaw">Алфавит Шоу</script>
+			<script type="Saur">саураштра</script>
+			<script type="Sgnw">язык знаков</script>
+			<script type="Shaw">алфавит Шоу</script>
 			<script type="Shrd" draft="contributed">шарада</script>
 			<script type="Sind" draft="contributed">кхудавади</script>
 			<script type="Sinh">сингальская</script>
 			<script type="Sora" draft="contributed">сора-сонпенг</script>
-			<script type="Sund">Сунданская</script>
-			<script type="Sylo" draft="contributed">Силоти Нагри</script>
-			<script type="Syrc">Сирийская</script>
-			<script type="Syre">Сирийская эстрангело</script>
-			<script type="Syrj">Западносирийская</script>
-			<script type="Syrn">Восточно-сирийская</script>
-			<script type="Tagb">Тагбанва</script>
+			<script type="Sund">сунданская</script>
+			<script type="Sylo" draft="contributed">силоти нагри</script>
+			<script type="Syrc">сирийская</script>
+			<script type="Syre">сирийская эстрангело</script>
+			<script type="Syrj">западносирийская</script>
+			<script type="Syrn">восточно-сирийская</script>
+			<script type="Tagb">тагбанва</script>
 			<script type="Takr" draft="contributed">такри</script>
-			<script type="Tale" draft="contributed">Тайский Ле</script>
-			<script type="Talu" draft="contributed">Новый Тайский Ле</script>
+			<script type="Tale" draft="contributed">тайский ле</script>
+			<script type="Talu" draft="contributed">новый тайский ле</script>
 			<script type="Taml">тамильская</script>
 			<script type="Tang" draft="contributed">тангутское меня</script>
 			<script type="Tavt" draft="contributed">тай-вьет</script>
 			<script type="Telu">телугу</script>
-			<script type="Teng" draft="contributed">Тенгварская</script>
-			<script type="Tfng" draft="contributed">Древнеливийская</script>
-			<script type="Tglg">Тагалог</script>
+			<script type="Teng" draft="contributed">тенгварская</script>
+			<script type="Tfng" draft="contributed">древнеливийская</script>
+			<script type="Tglg">тагалог</script>
 			<script type="Thaa">таана</script>
 			<script type="Thai">тайская</script>
 			<script type="Tibt">тибетская</script>
 			<script type="Tirh" draft="contributed">тирхута</script>
-			<script type="Ugar">Угаритская</script>
-			<script type="Vaii" draft="contributed">Вайская</script>
-			<script type="Visp">Видимая речь</script>
+			<script type="Ugar">угаритская</script>
+			<script type="Vaii" draft="contributed">вайская</script>
+			<script type="Visp">видимая речь</script>
 			<script type="Wara" draft="contributed">варанг-кшити</script>
 			<script type="Wole" draft="contributed">волеаи</script>
-			<script type="Xpeo">Староперсидская</script>
-			<script type="Xsux">Шумеро-аккадская клинопись</script>
-			<script type="Yiii">И</script>
-			<script type="Zinh">Унаследованная</script>
+			<script type="Xpeo">староперсидская</script>
+			<script type="Xsux">шумеро-аккадская клинопись</script>
+			<script type="Yiii">и</script>
+			<script type="Zinh">унаследованная</script>
 			<script type="Zmth" draft="contributed">математические обозначения</script>
 			<script type="Zsym">символы</script>
 			<script type="Zxxx">бесписьменный</script>
@@ -1650,13 +1650,17 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MMMEd">ccc, d MMM</dateFormatItem>
 						<dateFormatItem id="MMMd">d MMM</dateFormatItem>
 						<dateFormatItem id="Md">dd.MM</dateFormatItem>
+						<dateFormatItem id="UM">U MM</dateFormatItem>
+						<dateFormatItem id="UMMM">U MMM</dateFormatItem>
+						<dateFormatItem id="UMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="UMd">U MM-d</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
-						<dateFormatItem id="h" draft="contributed">h a</dateFormatItem>
-						<dateFormatItem id="hm" draft="contributed">h:mm a</dateFormatItem>
-						<dateFormatItem id="hms" draft="contributed">h:mm:ss a</dateFormatItem>
+						<dateFormatItem id="h">h a</dateFormatItem>
+						<dateFormatItem id="hm">h:mm a</dateFormatItem>
+						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y">U</dateFormatItem>
-						<dateFormatItem id="yMd">y-MM-dd</dateFormatItem>
+						<dateFormatItem id="yMd">r-MM-dd</dateFormatItem>
 						<dateFormatItem id="yyyy">U</dateFormatItem>
 						<dateFormatItem id="yyyyM">MM.y</dateFormatItem>
 						<dateFormatItem id="yyyyMEd">E, dd.MM.y</dateFormatItem>
@@ -2178,7 +2182,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern>dd.MM.y G</pattern>
+							<pattern>d MMM y 'г'. G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
@@ -2232,9 +2236,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MMMd">d MMM</dateFormatItem>
 						<dateFormatItem id="Md">dd.MM</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
-						<dateFormatItem id="h" draft="contributed">h a</dateFormatItem>
-						<dateFormatItem id="hm" draft="contributed">h:mm a</dateFormatItem>
-						<dateFormatItem id="hms" draft="contributed">h:mm:ss a</dateFormatItem>
+						<dateFormatItem id="h">h a</dateFormatItem>
+						<dateFormatItem id="hm">h:mm a</dateFormatItem>
+						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y">y G</dateFormatItem>
 						<dateFormatItem id="yyyy">y G</dateFormatItem>
@@ -2686,6 +2690,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="H">H</dateFormatItem>
 						<dateFormatItem id="Hm">H:mm</dateFormatItem>
 						<dateFormatItem id="Hms">H:mm:ss</dateFormatItem>
+						<dateFormatItem id="Hmsv">H:mm:ss v</dateFormatItem>
+						<dateFormatItem id="Hmv">H:mm v</dateFormatItem>
 						<dateFormatItem id="M">L</dateFormatItem>
 						<dateFormatItem id="MEd">E, dd.MM</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
@@ -2697,6 +2703,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="h">h a</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
+						<dateFormatItem id="hmsv">h:mm:ss a v</dateFormatItem>
+						<dateFormatItem id="hmv">h:mm a v</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y">y</dateFormatItem>
 						<dateFormatItem id="yLLLL">LLLL y</dateFormatItem>
@@ -4461,7 +4469,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<gmtZeroFormat>GMT</gmtZeroFormat>
 			<regionFormat type="daylight">{0} (+1)</regionFormat>
 			<regionFormat type="standard">{0} (+0)</regionFormat>
-			<regionFormat>{0}, время</regionFormat>
+			<regionFormat>{0}</regionFormat>
 			<fallbackFormat>{1} ({0})</fallbackFormat>
 			<zone type="Africa/Abidjan">
 				<exemplarCity>Абиджан</exemplarCity>
@@ -5141,9 +5149,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<zone type="Asia/Choibalsan">
 				<exemplarCity>Чойбалсан</exemplarCity>
 			</zone>
-			<zone type="Asia/Chongqing">
-				<exemplarCity>Чунцин</exemplarCity>
-			</zone>
 			<zone type="Asia/Colombo">
 				<exemplarCity>Коломбо</exemplarCity>
 			</zone>
@@ -5164,9 +5169,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Gaza">
 				<exemplarCity>Газа</exemplarCity>
-			</zone>
-			<zone type="Asia/Harbin">
-				<exemplarCity>Харбин</exemplarCity>
 			</zone>
 			<zone type="Asia/Hebron">
 				<exemplarCity>Хеврон</exemplarCity>
@@ -5197,9 +5199,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Karachi">
 				<exemplarCity>Карачи</exemplarCity>
-			</zone>
-			<zone type="Asia/Kashgar">
-				<exemplarCity>Кашгар</exemplarCity>
 			</zone>
 			<zone type="Asia/Katmandu">
 				<exemplarCity>Катманду</exemplarCity>
@@ -6680,9 +6679,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 		</timeZoneNames>
 	</dates>
 	<numbers>
-		<defaultNumberingSystem draft="contributed">latn</defaultNumberingSystem>
+		<defaultNumberingSystem>latn</defaultNumberingSystem>
 		<otherNumberingSystems>
-			<native draft="contributed">latn</native>
+			<native>latn</native>
 		</otherNumberingSystems>
 		<symbols numberSystem="arab">
 			<decimal>٫</decimal>
@@ -6770,16 +6769,16 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<symbols numberSystem="latn">
 			<decimal>,</decimal>
 			<group/>
-			<list draft="contributed">;</list>
+			<list>;</list>
 			<percentSign>%</percentSign>
-			<plusSign draft="contributed">+</plusSign>
-			<minusSign draft="contributed">-</minusSign>
+			<plusSign>+</plusSign>
+			<minusSign>-</minusSign>
 			<exponential>E</exponential>
 			<superscriptingExponent>×</superscriptingExponent>
 			<perMille>‰</perMille>
 			<infinity>∞</infinity>
 			<nan>не число</nan>
-			<timeSeparator draft="contributed">:</timeSeparator>
+			<timeSeparator>:</timeSeparator>
 		</symbols>
 		<symbols numberSystem="lepc">
 			<alias source="locale" path="../symbols[@numberSystem='latn']"/>
@@ -7594,7 +7593,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">аргентинское песо</displayName>
 				<displayName count="other">аргентинского песо</displayName>
 				<displayName>Аргентинское песо</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>ARS</symbol>
 			</currency>
 			<currency type="ATS">
@@ -7606,7 +7605,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">австралийский доллар</displayName>
 				<displayName count="other">австралийского доллара</displayName>
 				<displayName>Австралийский доллар</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>A$</symbol>
 			</currency>
 			<currency type="AWG">
@@ -7646,7 +7645,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">барбадосский доллар</displayName>
 				<displayName count="other">барбадосского доллара</displayName>
 				<displayName>Барбадосский доллар</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BBD</symbol>
 			</currency>
 			<currency type="BDT">
@@ -7655,7 +7654,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">бангладешская така</displayName>
 				<displayName count="other">бангладешской таки</displayName>
 				<displayName>Бангладешская така</displayName>
-				<symbol alt="narrow" draft="contributed">৳</symbol>
+				<symbol alt="narrow">৳</symbol>
 				<symbol>BDT</symbol>
 			</currency>
 			<currency type="BEC">
@@ -7700,7 +7699,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">бермудский доллар</displayName>
 				<displayName count="other">бермудского доллара</displayName>
 				<displayName>Бермудский доллар</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BMD</symbol>
 			</currency>
 			<currency type="BND">
@@ -7709,7 +7708,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">брунейский доллар</displayName>
 				<displayName count="other">брунейского доллара</displayName>
 				<displayName>Брунейский доллар</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BND</symbol>
 			</currency>
 			<currency type="BOB">
@@ -7742,7 +7741,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">бразильский реал</displayName>
 				<displayName count="other">бразильского реала</displayName>
 				<displayName>Бразильский реал</displayName>
-				<symbol alt="narrow" draft="contributed">R$</symbol>
+				<symbol alt="narrow">R$</symbol>
 				<symbol>R$</symbol>
 			</currency>
 			<currency type="BRN">
@@ -7757,7 +7756,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">багамский доллар</displayName>
 				<displayName count="other">багамского доллара</displayName>
 				<displayName>Багамский доллар</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BSD</symbol>
 			</currency>
 			<currency type="BTN">
@@ -7789,7 +7788,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">белорусский рубль</displayName>
 				<displayName count="other">белорусского рубля</displayName>
 				<displayName>Белорусский рубль</displayName>
-				<symbol alt="narrow" draft="contributed">р.</symbol>
+				<symbol alt="narrow">р.</symbol>
 				<symbol>BYR</symbol>
 			</currency>
 			<currency type="BZD">
@@ -7798,7 +7797,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">белизский доллар</displayName>
 				<displayName count="other">белизского доллара</displayName>
 				<displayName>Белизский доллар</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BZD</symbol>
 			</currency>
 			<currency type="CAD">
@@ -7807,7 +7806,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">канадский доллар</displayName>
 				<displayName count="other">канадского доллара</displayName>
 				<displayName>Канадский доллар</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>CA$</symbol>
 			</currency>
 			<currency type="CDF">
@@ -7841,7 +7840,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">чилийское песо</displayName>
 				<displayName count="other">чилийского песо</displayName>
 				<displayName>Чилийское песо</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>CLP</symbol>
 			</currency>
 			<currency type="CNY">
@@ -7850,7 +7849,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">китайский юань</displayName>
 				<displayName count="other">китайского юаня</displayName>
 				<displayName>Китайский юань</displayName>
-				<symbol alt="narrow" draft="contributed">¥</symbol>
+				<symbol alt="narrow">¥</symbol>
 				<symbol>CN¥</symbol>
 			</currency>
 			<currency type="COP">
@@ -7859,7 +7858,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">колумбийское песо</displayName>
 				<displayName count="other">колумбийского песо</displayName>
 				<displayName>Колумбийское песо</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>COP</symbol>
 			</currency>
 			<currency type="COU">
@@ -7871,7 +7870,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">костариканский колон</displayName>
 				<displayName count="other">костариканского колона</displayName>
 				<displayName>Костариканский колон</displayName>
-				<symbol alt="narrow" draft="contributed">₡</symbol>
+				<symbol alt="narrow">₡</symbol>
 				<symbol>CRC</symbol>
 			</currency>
 			<currency type="CSD">
@@ -7895,7 +7894,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">кубинское песо</displayName>
 				<displayName count="other">кубинского песо</displayName>
 				<displayName>Кубинское песо</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>CUP</symbol>
 			</currency>
 			<currency type="CVE">
@@ -7947,7 +7946,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">доминиканское песо</displayName>
 				<displayName count="other">доминиканского песо</displayName>
 				<displayName>Доминиканское песо</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>DOP</symbol>
 			</currency>
 			<currency type="DZD">
@@ -8008,7 +8007,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">евро</displayName>
 				<displayName count="other">евро</displayName>
 				<displayName>Евро</displayName>
-				<symbol alt="narrow" draft="contributed">€</symbol>
+				<symbol alt="narrow">€</symbol>
 				<symbol>€</symbol>
 			</currency>
 			<currency type="FIM">
@@ -8020,7 +8019,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">доллар Фиджи</displayName>
 				<displayName count="other">доллара Фиджи</displayName>
 				<displayName>Доллар Фиджи</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>FJD</symbol>
 			</currency>
 			<currency type="FKP">
@@ -8041,7 +8040,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">английский фунт</displayName>
 				<displayName count="other">английского фунта</displayName>
 				<displayName>Английский фунт</displayName>
-				<symbol alt="narrow" draft="contributed">£</symbol>
+				<symbol alt="narrow">£</symbol>
 				<symbol>£</symbol>
 			</currency>
 			<currency type="GEK">
@@ -8072,7 +8071,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">гибралтарский фунт</displayName>
 				<displayName count="other">гибралтарского фунта</displayName>
 				<displayName>Гибралтарский фунт</displayName>
-				<symbol alt="narrow" draft="contributed">£</symbol>
+				<symbol alt="narrow">£</symbol>
 				<symbol>GIP</symbol>
 			</currency>
 			<currency type="GMD">
@@ -8122,7 +8121,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">гайанский доллар</displayName>
 				<displayName count="other">гайанского доллара</displayName>
 				<displayName>Гайанский доллар</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>GYD</symbol>
 			</currency>
 			<currency type="HKD">
@@ -8131,7 +8130,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">гонконгский доллар</displayName>
 				<displayName count="other">гонконгского доллара</displayName>
 				<displayName>Гонконгский доллар</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>HK$</symbol>
 			</currency>
 			<currency type="HNL">
@@ -8193,7 +8192,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">новый израильский шекель</displayName>
 				<displayName count="other">нового израильского шекеля</displayName>
 				<displayName>Новый израильский шекель</displayName>
-				<symbol alt="narrow" draft="contributed">₪</symbol>
+				<symbol alt="narrow">₪</symbol>
 				<symbol>₪</symbol>
 			</currency>
 			<currency type="INR">
@@ -8202,7 +8201,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">индийская рупия</displayName>
 				<displayName count="other">индийской рупии</displayName>
 				<displayName>Индийская рупия</displayName>
-				<symbol alt="narrow" draft="contributed">₹</symbol>
+				<symbol alt="narrow">₹</symbol>
 				<symbol>₹</symbol>
 			</currency>
 			<currency type="IQD">
@@ -8239,7 +8238,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">ямайский доллар</displayName>
 				<displayName count="other">ямайского доллара</displayName>
 				<displayName>Ямайский доллар</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>JMD</symbol>
 			</currency>
 			<currency type="JOD">
@@ -8256,7 +8255,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">японская иена</displayName>
 				<displayName count="other">японской иены</displayName>
 				<displayName>Японская иена</displayName>
-				<symbol alt="narrow" draft="contributed">¥</symbol>
+				<symbol alt="narrow">¥</symbol>
 				<symbol>¥</symbol>
 			</currency>
 			<currency type="KES">
@@ -8281,7 +8280,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">камбоджийский риель</displayName>
 				<displayName count="other">камбоджийского риеля</displayName>
 				<displayName>Камбоджийский риель</displayName>
-				<symbol alt="narrow" draft="contributed">៛</symbol>
+				<symbol alt="narrow">៛</symbol>
 				<symbol>KHR</symbol>
 			</currency>
 			<currency type="KMF">
@@ -8308,7 +8307,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">южнокорейская вона</displayName>
 				<displayName count="other">южнокорейской воны</displayName>
 				<displayName>Южнокорейская вона</displayName>
-				<symbol alt="narrow" draft="contributed">₩</symbol>
+				<symbol alt="narrow">₩</symbol>
 				<symbol>₩</symbol>
 			</currency>
 			<currency type="KWD">
@@ -8325,7 +8324,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">доллар Каймановых островов</displayName>
 				<displayName count="other">доллара Каймановых островов</displayName>
 				<displayName>Доллар Каймановых островов</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>KYD</symbol>
 			</currency>
 			<currency type="KZT">
@@ -8334,7 +8333,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">казахский тенге</displayName>
 				<displayName count="other">казахского тенге</displayName>
 				<displayName>Казахский тенге</displayName>
-				<symbol alt="narrow" draft="contributed">₸</symbol>
+				<symbol alt="narrow">₸</symbol>
 				<symbol>₸</symbol>
 			</currency>
 			<currency type="LAK">
@@ -8343,7 +8342,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">лаосский кип</displayName>
 				<displayName count="other">лаосского кипа</displayName>
 				<displayName>Лаосский кип</displayName>
-				<symbol alt="narrow" draft="contributed">₭</symbol>
+				<symbol alt="narrow">₭</symbol>
 				<symbol>LAK</symbol>
 			</currency>
 			<currency type="LBP">
@@ -8370,7 +8369,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">либерийский доллар</displayName>
 				<displayName count="other">либерийского доллара</displayName>
 				<displayName>Либерийский доллар</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>LRD</symbol>
 			</currency>
 			<currency type="LSL">
@@ -8474,7 +8473,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">монгольский тугрик</displayName>
 				<displayName count="other">монгольского тугрика</displayName>
 				<displayName>Монгольский тугрик</displayName>
-				<symbol alt="narrow" draft="contributed">₮</symbol>
+				<symbol alt="narrow">₮</symbol>
 				<symbol>MNT</symbol>
 			</currency>
 			<currency type="MOP">
@@ -8530,7 +8529,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">мексиканское песо</displayName>
 				<displayName count="other">мексиканского песо</displayName>
 				<displayName>Мексиканское песо</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>MX$</symbol>
 			</currency>
 			<currency type="MXP">
@@ -8568,7 +8567,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">доллар Намибии</displayName>
 				<displayName count="other">доллара Намибии</displayName>
 				<displayName>Доллар Намибии</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>NAD</symbol>
 			</currency>
 			<currency type="NGN">
@@ -8577,7 +8576,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">нигерийская найра</displayName>
 				<displayName count="other">нигерийской найры</displayName>
 				<displayName>Нигерийская найра</displayName>
-				<symbol alt="narrow" draft="contributed">₦</symbol>
+				<symbol alt="narrow">₦</symbol>
 				<symbol>NGN</symbol>
 			</currency>
 			<currency type="NIC">
@@ -8619,7 +8618,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">новозеландский доллар</displayName>
 				<displayName count="other">новозеландского доллара</displayName>
 				<displayName>Новозеландский доллар</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>NZ$</symbol>
 			</currency>
 			<currency type="OMR">
@@ -8666,7 +8665,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">филиппинское песо</displayName>
 				<displayName count="other">филиппинского песо</displayName>
 				<displayName>Филиппинское песо</displayName>
-				<symbol alt="narrow" draft="contributed">₱</symbol>
+				<symbol alt="narrow">₱</symbol>
 				<symbol>PHP</symbol>
 			</currency>
 			<currency type="PKR">
@@ -8699,7 +8698,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">парагвайский гуарани</displayName>
 				<displayName count="other">парагвайского гуарани</displayName>
 				<displayName>Парагвайский гуарани</displayName>
-				<symbol alt="narrow" draft="contributed">₲</symbol>
+				<symbol alt="narrow">₲</symbol>
 				<symbol>PYG</symbol>
 			</currency>
 			<currency type="QAR">
@@ -8769,7 +8768,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">доллар Соломоновых островов</displayName>
 				<displayName count="other">доллара Соломоновых островов</displayName>
 				<displayName>Доллар Соломоновых островов</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>SBD</symbol>
 			</currency>
 			<currency type="SCR">
@@ -8809,7 +8808,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">сингапурский доллар</displayName>
 				<displayName count="other">сингапурского доллара</displayName>
 				<displayName>Сингапурский доллар</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>SGD</symbol>
 			</currency>
 			<currency type="SHP">
@@ -8849,7 +8848,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">суринамский доллар</displayName>
 				<displayName count="other">суринамского доллара</displayName>
 				<displayName>Суринамский доллар</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>SRD</symbol>
 			</currency>
 			<currency type="SRG">
@@ -8861,7 +8860,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">южносуданский фунт</displayName>
 				<displayName count="other">южносуданского фунта</displayName>
 				<displayName>Южносуданский фунт</displayName>
-				<symbol alt="narrow" draft="contributed">£</symbol>
+				<symbol alt="narrow">£</symbol>
 				<symbol>SSP</symbol>
 			</currency>
 			<currency type="STD">
@@ -8960,7 +8959,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">новая турецкая лира</displayName>
 				<displayName count="other">турецкой лиры</displayName>
 				<displayName>Турецкая лира</displayName>
-				<symbol alt="narrow" draft="contributed">₺</symbol>
+				<symbol alt="narrow">₺</symbol>
 				<symbol alt="variant">TL</symbol>
 				<symbol>TRY</symbol>
 			</currency>
@@ -8970,7 +8969,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">доллар Тринидада и Тобаго</displayName>
 				<displayName count="other">доллара Тринидада и Тобаго</displayName>
 				<displayName>Доллар Тринидада и Тобаго</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>TTD</symbol>
 			</currency>
 			<currency type="TWD">
@@ -8979,7 +8978,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">новый тайваньский доллар</displayName>
 				<displayName count="other">нового тайваньского доллара</displayName>
 				<displayName>Новый тайваньский доллар</displayName>
-				<symbol alt="narrow" draft="contributed">NT$</symbol>
+				<symbol alt="narrow">NT$</symbol>
 				<symbol>NT$</symbol>
 			</currency>
 			<currency type="TZS">
@@ -8996,7 +8995,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">украинская гривна</displayName>
 				<displayName count="other">украинской гривны</displayName>
 				<displayName>Украинская гривна</displayName>
-				<symbol alt="narrow" draft="contributed">₴</symbol>
+				<symbol alt="narrow">₴</symbol>
 				<symbol>₴</symbol>
 			</currency>
 			<currency type="UAK">
@@ -9019,7 +9018,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">доллар США</displayName>
 				<displayName count="other">доллара США</displayName>
 				<displayName>Доллар США</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>$</symbol>
 			</currency>
 			<currency type="USN">
@@ -9040,7 +9039,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">уругвайское песо</displayName>
 				<displayName count="other">уругвайского песо</displayName>
 				<displayName>Уругвайское песо</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>UYU</symbol>
 			</currency>
 			<currency type="UZS">
@@ -9069,7 +9068,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">вьетнамский донг</displayName>
 				<displayName count="other">вьетнамского донга</displayName>
 				<displayName>Вьетнамский донг</displayName>
-				<symbol alt="narrow" draft="contributed">₫</symbol>
+				<symbol alt="narrow">₫</symbol>
 				<symbol>₫</symbol>
 			</currency>
 			<currency type="VUV">
@@ -9359,7 +9358,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<miscPatterns numberSystem="vaii">
 			<alias source="locale" path="../miscPatterns[@numberSystem='latn']"/>
 		</miscPatterns>
-		<minimumGroupingDigits draft="contributed">1</minimumGroupingDigits>
+		<minimumGroupingDigits>1</minimumGroupingDigits>
 	</numbers>
 	<units>
 		<unitLength type="long">
@@ -10489,7 +10488,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		</unitLength>
 		<unitLength type="short">
 			<compoundUnit type="per">
-				<compoundUnitPattern draft="contributed">{0}/{1}</compoundUnitPattern>
+				<compoundUnitPattern>{0}/{1}</compoundUnitPattern>
 			</compoundUnit>
 			<unit type="acceleration-g-force">
 				<displayName>g</displayName>
@@ -10517,7 +10516,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="few" draft="contributed">{0}″</unitPattern>
 				<unitPattern count="many" draft="contributed">{0}″</unitPattern>
 				<unitPattern count="one" draft="contributed">{0}″</unitPattern>
-				<unitPattern count="other" draft="contributed">{0}″</unitPattern>
+				<unitPattern count="other">{0}″</unitPattern>
 			</unit>
 			<unit type="angle-degree">
 				<displayName>градусы</displayName>
@@ -11170,6 +11169,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="one">{0}°F</unitPattern>
 				<unitPattern count="other">{0}°F</unitPattern>
 			</unit>
+			<unit type="temperature-generic">
+				<displayName>°</displayName>
+				<unitPattern count="other">{0}°</unitPattern>
+			</unit>
 			<unit type="temperature-kelvin">
 				<displayName>K</displayName>
 				<unitPattern count="few">{0} K</unitPattern>
@@ -11378,30 +11381,34 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*😁😂😃😄😅😆😉😊😋😌😍😎😏😐
 				<*😑😒😓😔😕😖😗😘😙😚😛😜😝😞😟😠
 				<*😡😢😣😤😥😦😧😨😩😪😫😬😭😮😯😰
-				<*😱😲😳😴😵😶😷😇😈👿👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
-				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
+				<*😱😲😳😴😵😶😷😇😈👿🙃🙄🤐
+				<*🤑🤒🤓🤔🤕🤗🤖👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
+				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭🏻🏼🏽🏾🏿👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
 				<*✍🖐
 				<*💅💪👣👀
 				<*👁👂👃👅💀
 				<*☠
-				<*💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
+				<*🤘💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
 				<*👡👢👑👒🎩⛑🐵🙈🙉🙊🐒🐶🐕🐩🐺🐱😸😹😺😻😼😽😾😿🙀
 				<*🐈🐯🐅🐆🐴🐎🐮🐂🐃🐄🐷🐖🐗🐽🐏🐑🐐
 				<*🐪🐫🐘🐭🐁🐀
 				<*🐹🐰
 				<*🐇🐿🐻🐨🐼🐾🐔🐓🐣🐤🐥🐦🐧🕊🐸🐊🐍🐢🐲🐉🐳🐋🐬🐟🐠
-				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸💩👹👺👻👽👾💐
-				<*🌸💮🏵🌹🌺🌻🌼🌷⸙☘🌱🌲🌳🌴🌵🌾🌿🍀
+				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸🦀
+				<*🦁🦂💩👹👺👻👽👾💐
+				<*🌸💮🏵🌹🌺🌻🌼🌷☘🌱🌲🌳🌴🌵🌾🌿🍀
 				<*🍁🍂🍃🍇🍈🍉🍊🍋🍌🍍🍎🍏🍐
 				<*🍑🍒🍓🍅🍆🌽🌶🍄🌰
 				<*🍞🍖🍗🍔🍟🍕🍲🍱🍘🍙🍚🍛🍜🍝🍠
 				<*🍢🍣🍤🍥🍡🍦🍧🍨🍩🍪🎂🍰
-				<*🍫🍬🍭🍮🍯☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🌍🌎🌏🌐
+				<*🍫🍬🍭🍮🍯🌭🌮🌯🍾🍿🦃🦄🧀
+				<*☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🏺🌍🌎🌏🌐
 				<*🗺🏔⛰
 				<*🌋🗻🏕🏖🏜🏝🏞🏟🏛🏗🏘🏙🏚🏠
 				<*🏡⛪🏢🏣🏤🏥🏦🏨🏩🏪🏫🏬🏭🏯🏰
 				<*💒🗼🗽🗾⛲⛺🌁🌃🌄🌅🌆🌇🌉🌊♨🗿🌌🎠
 				<*🎡🎢💈🎪🎫🎭🎰
+				<*🕋🕌🕍🛐
 				<*🚂🚃🚄🚅🚆🚇🚈🚉🚊🚝🚞🚋🚌🚍🚎🚏🚐
 				<*🚑🚒🚓🚔🚕🚖🚗🚘🚙🚚🚛🚜🚲🚳🚴🚵🏎🏍⛽🛣🛤🚨⎈⚓⛵🚣🚤🛳⛴🛥🚢✈🛩🛫🛬💺🚁🚟🚠
 				<*🚡🚀
@@ -11419,7 +11426,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*🌈🌂☂☔⛱❄☃⛄🌟🌠
 				<*☄🎲♠
 				<*♥♦♣🃏🀄🎮🕹⚽⚾🏀
-				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🔇🔈🔉🔊📢📣📯🔔🔕🔀
+				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🏏🏐
+				<*🏑🏒🏓🏸🔇🔈🔉🔊📢📣📯🔔🔕🔀
 				<*🔁🔂▶⏩⏭⏯◀
 				<*⏪⏮🔼⏫🔽⏬⏸⏹⏺⏏🎼🎵🎶🎙🎚🎛🎤🎧🎷🎸🎹🎺🎻📻📱📳📴📲📵☎📞
 				<#⃣
@@ -11443,7 +11451,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*💼📁📂🗂📅📆🗒🗓📇📈📉📊📋📌📍📎🖇📏📐
 				<*📛✂🗃🗄🗑🔒🔓🔏🔐
 				<*🔑🗝🔨⛏⚒🛠
-				<*🔧🔩⚙🗜⚗⚖💉🗡🔪⚔🔫🛡🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
+				<*🔧🔩⚙🗜⚗⚖💉📿🕎🗡🔪⚔🔫🛡🏹🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
 				<*⚱🔰
 				<*💯📡🏁🏳🏴🚩
 				<*🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿⬆↗➡↘⬇↙⬅↖↕↔↩↪⤴⤵🔃🔄🔙🔚🔛🔜🔝🕉✡☸☯✝☦⛩☪☮☢☣♻⚡⭐

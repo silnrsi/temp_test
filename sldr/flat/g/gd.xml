@@ -5,8 +5,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 -->
 <ldml>
 	<identity>
-		<version number="$Revision: 11093 $"/>
-		<generation date="$Date: 2015-01-03 03:36 +0000 $"/>
+		<version number="$Revision: 11294 $"/>
+		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="gd"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity source="cldr" draft="approved"/>
@@ -1130,23 +1130,23 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<dateFormats>
 					<dateFormatLength type="full">
 						<dateFormat>
-							<pattern>U MMMM d, EEEE</pattern>
+							<pattern>r(U) MMMM d, EEEE</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="long">
 						<dateFormat>
-							<pattern>U MMMM d</pattern>
+							<pattern>r(U) MMMM d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern>U MMM d</pattern>
+							<pattern>r MMM d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
 							<!-- using y here to be short in locales that may not understand U anyway -->
-							<pattern>y-MM-dd</pattern>
+							<pattern>r-MM-dd</pattern>
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
@@ -1177,10 +1177,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<availableFormats>
 						<dateFormatItem id="E">ccc</dateFormatItem>
 						<dateFormatItem id="Ed">d, E</dateFormatItem>
-						<dateFormatItem id="Gy">U</dateFormatItem>
-						<dateFormatItem id="GyMMM">U MMM</dateFormatItem>
-						<dateFormatItem id="GyMMMEd">U MMM d, E</dateFormatItem>
-						<dateFormatItem id="GyMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="Gy">r U</dateFormatItem>
+						<dateFormatItem id="GyMMM">r(U) MMM</dateFormatItem>
+						<dateFormatItem id="GyMMMEd">r(U) MMM d, E</dateFormatItem>
+						<dateFormatItem id="GyMMMd">r MMM d</dateFormatItem>
 						<dateFormatItem id="H">HH</dateFormatItem>
 						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
@@ -1190,22 +1190,26 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
+						<dateFormatItem id="UM">U MM</dateFormatItem>
+						<dateFormatItem id="UMMM">U MMM</dateFormatItem>
+						<dateFormatItem id="UMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="UMd">U MM-d</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
 						<dateFormatItem id="h">h a</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
-						<dateFormatItem id="y">U</dateFormatItem>
-						<dateFormatItem id="yMd">y-MM-dd</dateFormatItem>
-						<dateFormatItem id="yyyy">U</dateFormatItem>
-						<dateFormatItem id="yyyyM">y-MM</dateFormatItem>
-						<dateFormatItem id="yyyyMEd">y-MM-dd, E</dateFormatItem>
-						<dateFormatItem id="yyyyMMM">U MMM</dateFormatItem>
-						<dateFormatItem id="yyyyMMMEd">U MMM d, E</dateFormatItem>
-						<dateFormatItem id="yyyyMMMd">U MMM d</dateFormatItem>
-						<dateFormatItem id="yyyyMd">y-MM-dd</dateFormatItem>
-						<dateFormatItem id="yyyyQQQ">U QQQ</dateFormatItem>
-						<dateFormatItem id="yyyyQQQQ">U QQQQ</dateFormatItem>
+						<dateFormatItem id="y">r(U)</dateFormatItem>
+						<dateFormatItem id="yMd">r-MM-dd</dateFormatItem>
+						<dateFormatItem id="yyyy">r(U)</dateFormatItem>
+						<dateFormatItem id="yyyyM">r-MM</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">r-MM-dd, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">r(U) MMM</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEd">r(U) MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMd">r MMM d</dateFormatItem>
+						<dateFormatItem id="yyyyMd">r-MM-dd</dateFormatItem>
+						<dateFormatItem id="yyyyQQQ">r(U) QQQ</dateFormatItem>
+						<dateFormatItem id="yyyyQQQQ">r(U) QQQQ</dateFormatItem>
 					</availableFormats>
 					<appendItems>
 						<appendItem request="Day">{0} ({2}: {1})</appendItem>
@@ -1715,12 +1719,12 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<greatestDifference id="H">HH–HH</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hm">
-							<greatestDifference id="H" draft="unconfirmed">HH:mm–HH:mm</greatestDifference>
-							<greatestDifference id="m" draft="unconfirmed">HH:mm–HH:mm</greatestDifference>
+							<greatestDifference id="H">HH:mm–HH:mm</greatestDifference>
+							<greatestDifference id="m">HH:mm–HH:mm</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hmv">
-							<greatestDifference id="H" draft="unconfirmed">HH:mm–HH:mm v</greatestDifference>
-							<greatestDifference id="m" draft="unconfirmed">HH:mm–HH:mm v</greatestDifference>
+							<greatestDifference id="H">HH:mm–HH:mm v</greatestDifference>
+							<greatestDifference id="m">HH:mm–HH:mm v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hv">
 							<greatestDifference id="H">HH–HH v</greatestDifference>
@@ -1756,13 +1760,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 						</intervalFormatItem>
 						<intervalFormatItem id="hm">
 							<greatestDifference id="a">h:mm a – h:mm a</greatestDifference>
-							<greatestDifference id="h" draft="unconfirmed">h:mm–h:mm a</greatestDifference>
-							<greatestDifference id="m" draft="unconfirmed">h:mm–h:mm a</greatestDifference>
+							<greatestDifference id="h">h:mm–h:mm a</greatestDifference>
+							<greatestDifference id="m">h:mm–h:mm a</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hmv">
 							<greatestDifference id="a">h:mm a – h:mm a v</greatestDifference>
-							<greatestDifference id="h" draft="unconfirmed">h:mm–h:mm a v</greatestDifference>
-							<greatestDifference id="m" draft="unconfirmed">h:mm–h:mm a v</greatestDifference>
+							<greatestDifference id="h">h:mm–h:mm a v</greatestDifference>
+							<greatestDifference id="m">h:mm–h:mm a v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hv">
 							<greatestDifference id="a">h a – h a v</greatestDifference>
@@ -2134,6 +2138,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="H">HH</dateFormatItem>
 						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="Hmsv">HH:mm:ss v</dateFormatItem>
+						<dateFormatItem id="Hmv">HH:mm v</dateFormatItem>
 						<dateFormatItem id="M">L</dateFormatItem>
 						<dateFormatItem id="MEd">E, d/M</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
@@ -2146,6 +2152,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="h">ha</dateFormatItem>
 						<dateFormatItem id="hm">h:mma</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
+						<dateFormatItem id="hmsv">h:mm:ss a v</dateFormatItem>
+						<dateFormatItem id="hmv">h:mm a v</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y">y</dateFormatItem>
 						<dateFormatItem id="yM">M/y</dateFormatItem>
@@ -4455,9 +4463,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<zone type="Asia/Choibalsan">
 				<exemplarCity>Choibalsan</exemplarCity>
 			</zone>
-			<zone type="Asia/Chongqing">
-				<exemplarCity>Chongqing</exemplarCity>
-			</zone>
 			<zone type="Asia/Colombo">
 				<exemplarCity>Colombo</exemplarCity>
 			</zone>
@@ -4478,9 +4483,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Gaza">
 				<exemplarCity>Gàsa</exemplarCity>
-			</zone>
-			<zone type="Asia/Harbin">
-				<exemplarCity>Harbin</exemplarCity>
 			</zone>
 			<zone type="Asia/Hebron">
 				<exemplarCity>Hebron</exemplarCity>
@@ -4511,9 +4513,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Karachi">
 				<exemplarCity>Karācī</exemplarCity>
-			</zone>
-			<zone type="Asia/Kashgar">
-				<exemplarCity>Kashgar</exemplarCity>
 			</zone>
 			<zone type="Asia/Katmandu">
 				<exemplarCity>Kathmandu</exemplarCity>
@@ -6018,9 +6017,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 		</timeZoneNames>
 	</dates>
 	<numbers>
-		<defaultNumberingSystem draft="contributed">latn</defaultNumberingSystem>
+		<defaultNumberingSystem>latn</defaultNumberingSystem>
 		<otherNumberingSystems>
-			<native draft="contributed">latn</native>
+			<native>latn</native>
 		</otherNumberingSystems>
 		<symbols numberSystem="arab">
 			<decimal>٫</decimal>
@@ -6108,7 +6107,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<symbols numberSystem="latn">
 			<decimal>.</decimal>
 			<group>,</group>
-			<list draft="unconfirmed">;</list>
+			<list>;</list>
 			<percentSign>%</percentSign>
 			<plusSign>+</plusSign>
 			<minusSign>-</minusSign>
@@ -6117,7 +6116,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<perMille>‰</perMille>
 			<infinity>∞</infinity>
 			<nan>NaN</nan>
-			<timeSeparator draft="contributed">:</timeSeparator>
+			<timeSeparator>:</timeSeparator>
 		</symbols>
 		<symbols numberSystem="lepc">
 			<alias source="locale" path="../symbols[@numberSystem='latn']"/>
@@ -6979,7 +6978,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">peso Argantaineach</displayName>
 				<displayName count="two">pheso Argantaineach</displayName>
 				<displayName>Peso Argantaineach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>ARS</symbol>
 			</currency>
 			<currency type="ATS">
@@ -6996,7 +6995,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dolar Astràilianach</displayName>
 				<displayName count="two">dholar Astràilianach</displayName>
 				<displayName>Dolar Astràilianach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>A$</symbol>
 			</currency>
 			<currency type="AWG">
@@ -7054,7 +7053,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dolar Barbadach</displayName>
 				<displayName count="two">dholar Barbadach</displayName>
 				<displayName>Dolar Barbadach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BBD</symbol>
 			</currency>
 			<currency type="BDT">
@@ -7063,7 +7062,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">taka Bangladaiseach</displayName>
 				<displayName count="two">thaka Bangladaiseach</displayName>
 				<displayName>Taka Bangladaiseach</displayName>
-				<symbol alt="narrow" draft="contributed">৳</symbol>
+				<symbol alt="narrow">৳</symbol>
 				<symbol>BDT</symbol>
 			</currency>
 			<currency type="BEC">
@@ -7144,7 +7143,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dolar Bearmùdach</displayName>
 				<displayName count="two">dholar Bearmùdach</displayName>
 				<displayName>Dolar Bearmùdach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BMD</symbol>
 			</currency>
 			<currency type="BND">
@@ -7153,7 +7152,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dolar Brùnaigheach</displayName>
 				<displayName count="two">dholar Brùnaigheach</displayName>
 				<displayName>Dolar Brùnaigheach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BND</symbol>
 			</currency>
 			<currency type="BOB">
@@ -7219,7 +7218,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">real Braisileach</displayName>
 				<displayName count="two">real Braisileach</displayName>
 				<displayName>Real Braisileach</displayName>
-				<symbol alt="narrow" draft="contributed">R$</symbol>
+				<symbol alt="narrow">R$</symbol>
 				<symbol>R$</symbol>
 			</currency>
 			<currency type="BRN">
@@ -7252,7 +7251,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dolar Bathamach</displayName>
 				<displayName count="two">dholar Bathamach</displayName>
 				<displayName>Dolar Bathamach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BSD</symbol>
 			</currency>
 			<currency type="BTN">
@@ -7294,7 +7293,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">rùbal Bealaruiseach</displayName>
 				<displayName count="two">rùbal Bealaruiseach</displayName>
 				<displayName>Rùbal Bealaruiseach</displayName>
-				<symbol alt="narrow" draft="contributed">р.</symbol>
+				<symbol alt="narrow">р.</symbol>
 				<symbol>BYR</symbol>
 			</currency>
 			<currency type="BZD">
@@ -7303,7 +7302,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dolar Beilìseach</displayName>
 				<displayName count="two">dholar Beilìseach</displayName>
 				<displayName>Dolar Beilìseach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BZD</symbol>
 			</currency>
 			<currency type="CAD">
@@ -7312,7 +7311,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dolar Canadach</displayName>
 				<displayName count="two">dholar Canadach</displayName>
 				<displayName>Dolar Canadach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>CA$</symbol>
 			</currency>
 			<currency type="CDF">
@@ -7369,7 +7368,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">peso Sileach</displayName>
 				<displayName count="two">pheso Sileach</displayName>
 				<displayName>Peso Sileach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>CLP</symbol>
 			</currency>
 			<currency type="CNX">
@@ -7386,7 +7385,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">yuan Sìneach</displayName>
 				<displayName count="two">yuan Sìneach</displayName>
 				<displayName>Yuan Sìneach</displayName>
-				<symbol alt="narrow" draft="contributed">¥</symbol>
+				<symbol alt="narrow">¥</symbol>
 				<symbol>CN¥</symbol>
 			</currency>
 			<currency type="COP">
@@ -7395,7 +7394,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">peso Coloimbeach</displayName>
 				<displayName count="two">pheso Coloimbeach</displayName>
 				<displayName>Peso Coloimbeach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>COP</symbol>
 			</currency>
 			<currency type="COU">
@@ -7412,7 +7411,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">colón Costa Rìceach</displayName>
 				<displayName count="two">cholón Costa Rìceach</displayName>
 				<displayName>Colón Costa Rìceach</displayName>
-				<symbol alt="narrow" draft="contributed">₡</symbol>
+				<symbol alt="narrow">₡</symbol>
 				<symbol>CRC</symbol>
 			</currency>
 			<currency type="CSD">
@@ -7446,7 +7445,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">peso Cùbach</displayName>
 				<displayName count="two">pheso Cùbach</displayName>
 				<displayName>Peso Cùbach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>CUP</symbol>
 			</currency>
 			<currency type="CVE">
@@ -7513,7 +7512,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">peso Doiminiceach</displayName>
 				<displayName count="two">pheso Doiminiceach</displayName>
 				<displayName>Peso Doiminiceach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>DOP</symbol>
 			</currency>
 			<currency type="DZD">
@@ -7587,7 +7586,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">peseta Spàinnteach</displayName>
 				<displayName count="two">pheseta Spàinnteach</displayName>
 				<displayName>Peseta Spàinnteach</displayName>
-				<symbol alt="narrow" draft="contributed">₧</symbol>
+				<symbol alt="narrow">₧</symbol>
 				<symbol>ESP</symbol>
 			</currency>
 			<currency type="ETB">
@@ -7604,7 +7603,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">Eòro</displayName>
 				<displayName count="two">Eòro</displayName>
 				<displayName>Eòro</displayName>
-				<symbol alt="narrow" draft="contributed">€</symbol>
+				<symbol alt="narrow">€</symbol>
 				<symbol>€</symbol>
 			</currency>
 			<currency type="FIM">
@@ -7621,7 +7620,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dolar Fìditheach</displayName>
 				<displayName count="two">dholar Fìditheach</displayName>
 				<displayName>Dolar Fìditheach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>FJD</symbol>
 			</currency>
 			<currency type="FKP">
@@ -7647,7 +7646,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">punnd Sasannach</displayName>
 				<displayName count="two">phunnd Sasannach</displayName>
 				<displayName>Punnd Sasannach</displayName>
-				<symbol alt="narrow" draft="contributed">£</symbol>
+				<symbol alt="narrow">£</symbol>
 				<symbol>£</symbol>
 			</currency>
 			<currency type="GEK">
@@ -7688,7 +7687,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">punnd Diobraltarach</displayName>
 				<displayName count="two">phunnd Diobraltarach</displayName>
 				<displayName>Punnd Diobraltarach</displayName>
-				<symbol alt="narrow" draft="contributed">£</symbol>
+				<symbol alt="narrow">£</symbol>
 				<symbol>GIP</symbol>
 			</currency>
 			<currency type="GMD">
@@ -7763,7 +7762,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dolar Guidheànach</displayName>
 				<displayName count="two">dholar Guidheànach</displayName>
 				<displayName>Dolar Guidheànach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>GYD</symbol>
 			</currency>
 			<currency type="HKD">
@@ -7772,7 +7771,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dolar Hong Kong</displayName>
 				<displayName count="two">dholar Hong Kong</displayName>
 				<displayName>Dolar Hong Kong</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>HK$</symbol>
 			</currency>
 			<currency type="HNL">
@@ -7857,7 +7856,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">sheqel ùr Iosraeleach</displayName>
 				<displayName count="two">sheqel ùr Iosraeleach</displayName>
 				<displayName>Sheqel ùr Iosraeleach</displayName>
-				<symbol alt="narrow" draft="contributed">₪</symbol>
+				<symbol alt="narrow">₪</symbol>
 				<symbol>₪</symbol>
 			</currency>
 			<currency type="INR">
@@ -7866,7 +7865,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">rupee Innseanach</displayName>
 				<displayName count="two">rupee Innseanach</displayName>
 				<displayName>Rupee Innseanach</displayName>
-				<symbol alt="narrow" draft="contributed">₹</symbol>
+				<symbol alt="narrow">₹</symbol>
 				<symbol>₹</symbol>
 			</currency>
 			<currency type="IQD">
@@ -7916,7 +7915,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dolar Diameugach</displayName>
 				<displayName count="two">dholar Diameugach</displayName>
 				<displayName>Dolar Diameugach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>JMD</symbol>
 			</currency>
 			<currency type="JOD">
@@ -7933,7 +7932,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">yen Seapanach</displayName>
 				<displayName count="two">yen Seapanach</displayName>
 				<displayName>Yen Seapanach</displayName>
-				<symbol alt="narrow" draft="contributed">¥</symbol>
+				<symbol alt="narrow">¥</symbol>
 				<symbol>JP¥</symbol>
 			</currency>
 			<currency type="KES">
@@ -7958,7 +7957,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">riel Cambuideach</displayName>
 				<displayName count="two">riel Cambuideach</displayName>
 				<displayName>Riel Cambuideach</displayName>
-				<symbol alt="narrow" draft="contributed">៛</symbol>
+				<symbol alt="narrow">៛</symbol>
 				<symbol>KHR</symbol>
 			</currency>
 			<currency type="KMF">
@@ -8001,7 +8000,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">won Choirèa a Deas</displayName>
 				<displayName count="two">won Choirèa a Deas</displayName>
 				<displayName>Won Choirèa a Deas</displayName>
-				<symbol alt="narrow" draft="contributed">₩</symbol>
+				<symbol alt="narrow">₩</symbol>
 				<symbol>₩</symbol>
 			</currency>
 			<currency type="KWD">
@@ -8018,7 +8017,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dolar Caimeanach</displayName>
 				<displayName count="two">dholar Caimeanach</displayName>
 				<displayName>Dolar Caimeanach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>KYD</symbol>
 			</currency>
 			<currency type="KZT">
@@ -8027,7 +8026,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">tenge Casachach</displayName>
 				<displayName count="two">thenge Casachach</displayName>
 				<displayName>Tenge Casachach</displayName>
-				<symbol alt="narrow" draft="contributed">₸</symbol>
+				<symbol alt="narrow">₸</symbol>
 				<symbol>KZT</symbol>
 			</currency>
 			<currency type="LAK">
@@ -8036,7 +8035,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">kip Làthosach</displayName>
 				<displayName count="two">kip Làthosach</displayName>
 				<displayName>Kip Làthosach</displayName>
-				<symbol alt="narrow" draft="contributed">₭</symbol>
+				<symbol alt="narrow">₭</symbol>
 				<symbol>LAK</symbol>
 			</currency>
 			<currency type="LBP">
@@ -8063,7 +8062,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dolar Libèireach</displayName>
 				<displayName count="two">dholar Libèireach</displayName>
 				<displayName>Dolar Libèireach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>LRD</symbol>
 			</currency>
 			<currency type="LSL">
@@ -8236,7 +8235,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">tugrik Mongolach</displayName>
 				<displayName count="two">thugrik Mongolach</displayName>
 				<displayName>Tugrik Mongolach</displayName>
-				<symbol alt="narrow" draft="contributed">₮</symbol>
+				<symbol alt="narrow">₮</symbol>
 				<symbol>MNT</symbol>
 			</currency>
 			<currency type="MOP">
@@ -8310,7 +8309,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">peso Meagsagach</displayName>
 				<displayName count="two">pheso Meagsagach</displayName>
 				<displayName>Peso Meagsagach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>MX$</symbol>
 			</currency>
 			<currency type="MXP">
@@ -8368,7 +8367,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dolar Naimibitheach</displayName>
 				<displayName count="two">dholar Naimibitheach</displayName>
 				<displayName>Dolar Naimibitheach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>NAD</symbol>
 			</currency>
 			<currency type="NGN">
@@ -8377,7 +8376,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">naira Nigèiriach</displayName>
 				<displayName count="two">naira Nigèiriach</displayName>
 				<displayName>Naira Nigèiriach</displayName>
-				<symbol alt="narrow" draft="contributed">₦</symbol>
+				<symbol alt="narrow">₦</symbol>
 				<symbol>NGN</symbol>
 			</currency>
 			<currency type="NIC">
@@ -8429,7 +8428,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dolar Shealainn Nuaidh</displayName>
 				<displayName count="two">dholar Shealainn Nuaidh</displayName>
 				<displayName>Dolar Shealainn Nuaidh</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>NZ$</symbol>
 			</currency>
 			<currency type="OMR">
@@ -8486,7 +8485,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">peso Filipineach</displayName>
 				<displayName count="two">pheso Filipineach</displayName>
 				<displayName>Peso Filipineach</displayName>
-				<symbol alt="narrow" draft="contributed">₱</symbol>
+				<symbol alt="narrow">₱</symbol>
 				<symbol>PHP</symbol>
 			</currency>
 			<currency type="PKR">
@@ -8529,7 +8528,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">guaraní Paraguaidheach</displayName>
 				<displayName count="two">ghuaraní Paraguaidheach</displayName>
 				<displayName>Guaraní Paraguaidheach</displayName>
-				<symbol alt="narrow" draft="contributed">₲</symbol>
+				<symbol alt="narrow">₲</symbol>
 				<symbol>PYG</symbol>
 			</currency>
 			<currency type="QAR">
@@ -8587,7 +8586,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">rùbal Ruiseach (1991–1998)</displayName>
 				<displayName count="two">rùbal Ruiseach (1991–1998)</displayName>
 				<displayName>Rùbal Ruiseach (1991–1998)</displayName>
-				<symbol alt="narrow" draft="contributed">р.</symbol>
+				<symbol alt="narrow">р.</symbol>
 				<symbol>RUR</symbol>
 			</currency>
 			<currency type="RWF">
@@ -8613,7 +8612,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dolar Eileanan Sholaimh</displayName>
 				<displayName count="two">dholar Eileanan Sholaimh</displayName>
 				<displayName>Dolar Eileanan Sholaimh</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>SBD</symbol>
 			</currency>
 			<currency type="SCR">
@@ -8663,7 +8662,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dolar Singeapòrach</displayName>
 				<displayName count="two">dholar Singeapòrach</displayName>
 				<displayName>Dolar Singeapòrach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>SGD</symbol>
 			</currency>
 			<currency type="SHP">
@@ -8713,7 +8712,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dolar Suranamach</displayName>
 				<displayName count="two">dholar Suranamach</displayName>
 				<displayName>Dolar Suranamach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>SRD</symbol>
 			</currency>
 			<currency type="SRG">
@@ -8730,7 +8729,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">punnd Sudàin a Deas</displayName>
 				<displayName count="two">phunnd Sudàin a Deas</displayName>
 				<displayName>Punnd Sudàin a Deas</displayName>
-				<symbol alt="narrow" draft="contributed">£</symbol>
+				<symbol alt="narrow">£</symbol>
 				<symbol>SSP</symbol>
 			</currency>
 			<currency type="STD">
@@ -8855,7 +8854,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">lira Turcach</displayName>
 				<displayName count="two">lira Turcach</displayName>
 				<displayName>Lira Turcach</displayName>
-				<symbol alt="narrow" draft="contributed">₺</symbol>
+				<symbol alt="narrow">₺</symbol>
 				<symbol alt="variant">TL</symbol>
 				<symbol>TRY</symbol>
 			</currency>
@@ -8865,7 +8864,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dolar Thrianaid agus Thobago</displayName>
 				<displayName count="two">dholar Thrianaid agus Thobago</displayName>
 				<displayName>Dolar Thrianaid agus Thobago</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>TTD</symbol>
 			</currency>
 			<currency type="TWD">
@@ -8874,7 +8873,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dolar ùr Taidh-Bhànach</displayName>
 				<displayName count="two">dholar ùr Taidh-Bhànach</displayName>
 				<displayName>Dolar ùr Taidh-Bhànach</displayName>
-				<symbol alt="narrow" draft="contributed">NT$</symbol>
+				<symbol alt="narrow">NT$</symbol>
 				<symbol>NT$</symbol>
 			</currency>
 			<currency type="TZS">
@@ -8891,7 +8890,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">hryvnia Ucràineach</displayName>
 				<displayName count="two">hryvnia Ucràineach</displayName>
 				<displayName>Hryvnia Ucràineach</displayName>
-				<symbol alt="narrow" draft="contributed">₴</symbol>
+				<symbol alt="narrow">₴</symbol>
 				<symbol>UAH</symbol>
 			</currency>
 			<currency type="UAK">
@@ -8924,7 +8923,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dolar nan Stàitean Aonaichte</displayName>
 				<displayName count="two">dholar nan Stàitean Aonaichte</displayName>
 				<displayName>Dolar nan Stàitean Aonaichte</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>$</symbol>
 			</currency>
 			<currency type="USN">
@@ -8965,7 +8964,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">peso Uruguaidheach</displayName>
 				<displayName count="two">pheso Uruguaidheach</displayName>
 				<displayName>Peso Uruguaidheach</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>UYU</symbol>
 			</currency>
 			<currency type="UZS">
@@ -8999,7 +8998,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dong Bhiet-Namach</displayName>
 				<displayName count="two">dhong Bhiet-Namach</displayName>
 				<displayName>Dong Bhiet-Namach</displayName>
-				<symbol alt="narrow" draft="contributed">₫</symbol>
+				<symbol alt="narrow">₫</symbol>
 				<symbol>₫</symbol>
 			</currency>
 			<currency type="VNN">
@@ -9445,7 +9444,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<miscPatterns numberSystem="vaii">
 			<alias source="locale" path="../miscPatterns[@numberSystem='latn']"/>
 		</miscPatterns>
-		<minimumGroupingDigits draft="contributed">1</minimumGroupingDigits>
+		<minimumGroupingDigits>1</minimumGroupingDigits>
 	</numbers>
 	<units>
 		<unitLength type="long">
@@ -11740,6 +11739,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="other">{0}°F</unitPattern>
 				<unitPattern count="two">{0}°F</unitPattern>
 			</unit>
+			<unit type="temperature-generic">
+				<displayName>°</displayName>
+				<unitPattern count="other">{0}°</unitPattern>
+			</unit>
 			<unit type="temperature-kelvin">
 				<displayName>ceum K</displayName>
 				<unitPattern count="few">{0}°K</unitPattern>
@@ -11951,30 +11954,34 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*😁😂😃😄😅😆😉😊😋😌😍😎😏😐
 				<*😑😒😓😔😕😖😗😘😙😚😛😜😝😞😟😠
 				<*😡😢😣😤😥😦😧😨😩😪😫😬😭😮😯😰
-				<*😱😲😳😴😵😶😷😇😈👿👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
-				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
+				<*😱😲😳😴😵😶😷😇😈👿🙃🙄🤐
+				<*🤑🤒🤓🤔🤕🤗🤖👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
+				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭🏻🏼🏽🏾🏿👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
 				<*✍🖐
 				<*💅💪👣👀
 				<*👁👂👃👅💀
 				<*☠
-				<*💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
+				<*🤘💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
 				<*👡👢👑👒🎩⛑🐵🙈🙉🙊🐒🐶🐕🐩🐺🐱😸😹😺😻😼😽😾😿🙀
 				<*🐈🐯🐅🐆🐴🐎🐮🐂🐃🐄🐷🐖🐗🐽🐏🐑🐐
 				<*🐪🐫🐘🐭🐁🐀
 				<*🐹🐰
 				<*🐇🐿🐻🐨🐼🐾🐔🐓🐣🐤🐥🐦🐧🕊🐸🐊🐍🐢🐲🐉🐳🐋🐬🐟🐠
-				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸💩👹👺👻👽👾💐
-				<*🌸💮🏵🌹🌺🌻🌼🌷⸙☘🌱🌲🌳🌴🌵🌾🌿🍀
+				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸🦀
+				<*🦁🦂💩👹👺👻👽👾💐
+				<*🌸💮🏵🌹🌺🌻🌼🌷☘🌱🌲🌳🌴🌵🌾🌿🍀
 				<*🍁🍂🍃🍇🍈🍉🍊🍋🍌🍍🍎🍏🍐
 				<*🍑🍒🍓🍅🍆🌽🌶🍄🌰
 				<*🍞🍖🍗🍔🍟🍕🍲🍱🍘🍙🍚🍛🍜🍝🍠
 				<*🍢🍣🍤🍥🍡🍦🍧🍨🍩🍪🎂🍰
-				<*🍫🍬🍭🍮🍯☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🌍🌎🌏🌐
+				<*🍫🍬🍭🍮🍯🌭🌮🌯🍾🍿🦃🦄🧀
+				<*☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🏺🌍🌎🌏🌐
 				<*🗺🏔⛰
 				<*🌋🗻🏕🏖🏜🏝🏞🏟🏛🏗🏘🏙🏚🏠
 				<*🏡⛪🏢🏣🏤🏥🏦🏨🏩🏪🏫🏬🏭🏯🏰
 				<*💒🗼🗽🗾⛲⛺🌁🌃🌄🌅🌆🌇🌉🌊♨🗿🌌🎠
 				<*🎡🎢💈🎪🎫🎭🎰
+				<*🕋🕌🕍🛐
 				<*🚂🚃🚄🚅🚆🚇🚈🚉🚊🚝🚞🚋🚌🚍🚎🚏🚐
 				<*🚑🚒🚓🚔🚕🚖🚗🚘🚙🚚🚛🚜🚲🚳🚴🚵🏎🏍⛽🛣🛤🚨⎈⚓⛵🚣🚤🛳⛴🛥🚢✈🛩🛫🛬💺🚁🚟🚠
 				<*🚡🚀
@@ -11992,7 +11999,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*🌈🌂☂☔⛱❄☃⛄🌟🌠
 				<*☄🎲♠
 				<*♥♦♣🃏🀄🎮🕹⚽⚾🏀
-				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🔇🔈🔉🔊📢📣📯🔔🔕🔀
+				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🏏🏐
+				<*🏑🏒🏓🏸🔇🔈🔉🔊📢📣📯🔔🔕🔀
 				<*🔁🔂▶⏩⏭⏯◀
 				<*⏪⏮🔼⏫🔽⏬⏸⏹⏺⏏🎼🎵🎶🎙🎚🎛🎤🎧🎷🎸🎹🎺🎻📻📱📳📴📲📵☎📞
 				<#⃣
@@ -12016,7 +12024,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*💼📁📂🗂📅📆🗒🗓📇📈📉📊📋📌📍📎🖇📏📐
 				<*📛✂🗃🗄🗑🔒🔓🔏🔐
 				<*🔑🗝🔨⛏⚒🛠
-				<*🔧🔩⚙🗜⚗⚖💉🗡🔪⚔🔫🛡🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
+				<*🔧🔩⚙🗜⚗⚖💉📿🕎🗡🔪⚔🔫🛡🏹🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
 				<*⚱🔰
 				<*💯📡🏁🏳🏴🚩
 				<*🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿⬆↗➡↘⬇↙⬅↖↕↔↩↪⤴⤵🔃🔄🔙🔚🔛🔜🔝🕉✡☸☯✝☦⛩☪☮☢☣♻⚡⭐

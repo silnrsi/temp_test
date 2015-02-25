@@ -5,8 +5,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 -->
 <ldml>
 	<identity>
-		<version number="$Revision: 11093 $"/>
-		<generation date="$Date: 2015-01-03 03:36 +0000 $"/>
+		<version number="$Revision: 11294 $"/>
+		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="ee"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity source="cldr" draft="approved"/>
@@ -2028,9 +2028,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				</relativeTime>
 			</field>
 			<field type="sun">
-				<relative type="-1">kɔsiɖa si va yi</relative>
-				<relative type="0">kɔsiɖa sia</relative>
-				<relative type="1">kɔsiɖa si gbɔ na</relative>
+				<relative type="-1">kɔsiɖagbe si va yi</relative>
+				<relative type="0">kɔsiɖa sia gbe</relative>
+				<relative type="1">kɔsiɖagbe si gbɔ na</relative>
 			</field>
 			<field type="thu">
 				<relative type="-1">yawoɖa si va yi</relative>
@@ -2729,9 +2729,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<zone type="Asia/Choibalsan">
 				<exemplarCity>Tsoibalsan nutomegaƒoƒome</exemplarCity>
 			</zone>
-			<zone type="Asia/Chongqing">
-				<exemplarCity>Tsongking nutomegaƒoƒome</exemplarCity>
-			</zone>
 			<zone type="Asia/Colombo">
 				<exemplarCity>Kolombo nutomegaƒoƒome</exemplarCity>
 			</zone>
@@ -2752,9 +2749,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Gaza">
 				<exemplarCity>Gaza nutomegaƒoƒome</exemplarCity>
-			</zone>
-			<zone type="Asia/Harbin">
-				<exemplarCity>Harbin nutomegaƒoƒome</exemplarCity>
 			</zone>
 			<zone type="Asia/Hong_Kong">
 				<exemplarCity>Hɔng Kɔng nutomegaƒoƒome</exemplarCity>
@@ -2782,9 +2776,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Karachi">
 				<exemplarCity>Karatsi nutomegaƒoƒome</exemplarCity>
-			</zone>
-			<zone type="Asia/Kashgar">
-				<exemplarCity>Kashgar nutomegaƒoƒome</exemplarCity>
 			</zone>
 			<zone type="Asia/Katmandu">
 				<exemplarCity>Kathmandu nutomegaƒoƒome</exemplarCity>

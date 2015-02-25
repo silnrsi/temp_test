@@ -5,8 +5,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 -->
 <ldml>
 	<identity>
-		<version number="$Revision: 11113 $"/>
-		<generation date="$Date: 2015-01-16 22:12 +0000 $"/>
+		<version number="$Revision: 11294 $"/>
+		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="uk"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity source="cldr" draft="approved"/>
@@ -3369,9 +3369,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<zone type="Asia/Choibalsan">
 				<exemplarCity>Чойбалсан</exemplarCity>
 			</zone>
-			<zone type="Asia/Chongqing">
-				<exemplarCity>Чунцін</exemplarCity>
-			</zone>
 			<zone type="Asia/Colombo">
 				<exemplarCity>Коломбо</exemplarCity>
 			</zone>
@@ -3392,9 +3389,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Gaza">
 				<exemplarCity>Газа</exemplarCity>
-			</zone>
-			<zone type="Asia/Harbin">
-				<exemplarCity>Харбін</exemplarCity>
 			</zone>
 			<zone type="Asia/Hebron">
 				<exemplarCity>Хеврон</exemplarCity>
@@ -3425,9 +3419,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Karachi">
 				<exemplarCity>Карачі</exemplarCity>
-			</zone>
-			<zone type="Asia/Kashgar">
-				<exemplarCity>Кашгар</exemplarCity>
 			</zone>
 			<zone type="Asia/Katmandu">
 				<exemplarCity>Катманду</exemplarCity>

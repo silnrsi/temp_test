@@ -5,8 +5,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 -->
 <ldml>
 	<identity>
-		<version number="$Revision: 11093 $"/>
-		<generation date="$Date: 2015-01-03 03:36 +0000 $"/>
+		<version number="$Revision: 11294 $"/>
+		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="th"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity source="cldr" draft="approved"/>
@@ -1363,6 +1363,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="Ed">E d</dateFormatItem>
 						<dateFormatItem id="Gy">G y</dateFormatItem>
 						<dateFormatItem id="GyMMM">MMM G y</dateFormatItem>
+						<dateFormatItem id="GyMMMEEEEd">EEEEที่ d MMM G y</dateFormatItem>
 						<dateFormatItem id="GyMMMEd">E d MMM G y</dateFormatItem>
 						<dateFormatItem id="GyMMMd">d MMM G y</dateFormatItem>
 						<dateFormatItem id="H">HH</dateFormatItem>
@@ -1371,7 +1372,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="M">L</dateFormatItem>
 						<dateFormatItem id="MEd">E d/M</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
+						<dateFormatItem id="MMMEEEEd">EEEEที่ d MMM</dateFormatItem>
 						<dateFormatItem id="MMMEd">E d MMM</dateFormatItem>
+						<dateFormatItem id="MMMMEEEEd">EEEEที่ d MMMM</dateFormatItem>
 						<dateFormatItem id="MMMMEd">E d MMMM</dateFormatItem>
 						<dateFormatItem id="MMMMd">d MMMM</dateFormatItem>
 						<dateFormatItem id="MMMd">d MMM</dateFormatItem>
@@ -1380,13 +1383,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="h" draft="contributed">h a</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
-						<dateFormatItem id="mmss">mm:ss</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y">G y</dateFormatItem>
 						<dateFormatItem id="yyyy">G y</dateFormatItem>
 						<dateFormatItem id="yyyyM">M/y</dateFormatItem>
 						<dateFormatItem id="yyyyMEd">E d/M/y</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">MMM y</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEEEEd">EEEEที่ d MMM y</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">E d MMM y</dateFormatItem>
 						<dateFormatItem id="yyyyMMMM">MMMM y</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">d MMM y</dateFormatItem>
@@ -1419,6 +1422,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 						</intervalFormatItem>
 						<intervalFormatItem id="MMM">
 							<greatestDifference id="M">LLL–LLL</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMEEEEd">
+							<greatestDifference id="M">EEEEที่ d MMM – EEEEที่ d MMM</greatestDifference>
+							<greatestDifference id="d">EEEEที่ d – EEEEที่ d MMM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MMMEd">
 							<greatestDifference id="M">E d MMM – E d MMM</greatestDifference>
@@ -1468,6 +1475,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<intervalFormatItem id="yMMM">
 							<greatestDifference id="M">MMM–MMM y</greatestDifference>
 							<greatestDifference id="y">MMM y – MMM y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMEEEEd">
+							<greatestDifference id="M">EEEEที่ d MMM – EEEEที่ d MMM y</greatestDifference>
+							<greatestDifference id="d">EEEEที่ d – EEEEที่ d MMM y</greatestDifference>
+							<greatestDifference id="y">EEEEที่ d MMM y – EEEEที่ d MMM y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMEd">
 							<greatestDifference id="M">E d MMM – E d MMM y</greatestDifference>
@@ -1683,6 +1695,16 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<dateFormatLength type="full">
 						<dateFormat>
 							<pattern draft="contributed">EEEE, U MMMM d</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern draft="contributed">U MMMM d</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern draft="contributed">U MMM d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
@@ -2103,15 +2125,18 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<availableFormats>
 						<dateFormatItem id="Ed">E d</dateFormatItem>
 						<dateFormatItem id="GyMMM">MMM G y</dateFormatItem>
+						<dateFormatItem id="GyMMMEEEEd">EEEEที่ d MMM G y</dateFormatItem>
 						<dateFormatItem id="GyMMMEd">E d MMM G y</dateFormatItem>
 						<dateFormatItem id="GyMMMd">d MMM G y</dateFormatItem>
 						<dateFormatItem id="MEd">E d/M</dateFormatItem>
+						<dateFormatItem id="MMMEEEEd">EEEEที่ d MMM</dateFormatItem>
 						<dateFormatItem id="MMMEd">E d MMM</dateFormatItem>
 						<dateFormatItem id="MMMd">d MMM</dateFormatItem>
 						<dateFormatItem id="Md">d/M</dateFormatItem>
 						<dateFormatItem id="yyyyM">M/y G</dateFormatItem>
 						<dateFormatItem id="yyyyMEd">E d/M/y GGGGG</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">MMM G y</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEEEEd">EEEEที่ d MMM G y</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">E d MMM G y</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">d MMM G y</dateFormatItem>
 						<dateFormatItem id="yyyyMd">d/M/y GGGGG</dateFormatItem>
@@ -2137,9 +2162,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<greatestDifference id="M">E d/M – E d/M</greatestDifference>
 							<greatestDifference id="d">E d – E d/M</greatestDifference>
 						</intervalFormatItem>
+						<intervalFormatItem id="MMMEEEEd">
+							<greatestDifference id="M">EEEEที่ d MMM – EEEEที่ d MMM</greatestDifference>
+							<greatestDifference id="d">EEEEที่ d – EEEEที่ d MMM</greatestDifference>
+						</intervalFormatItem>
 						<intervalFormatItem id="MMMEd">
 							<greatestDifference id="M">E d MMM – E d MMM</greatestDifference>
-							<greatestDifference id="d">E d MMM – E d MMM</greatestDifference>
+							<greatestDifference id="d">E d – E d MMM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MMMd">
 							<greatestDifference id="M">d MMM – d MMM</greatestDifference>
@@ -2160,21 +2189,26 @@ For terms of use, see http://www.unicode.org/copyright.html
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMM">
 							<greatestDifference id="M">MMM–MMM G y</greatestDifference>
-							<greatestDifference id="y">MMM y – MMM G y</greatestDifference>
+							<greatestDifference id="y">MMM G y – MMM y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMEEEEd">
+							<greatestDifference id="M">EEEEที่ d MMM – EEEEที่ d MMM G y</greatestDifference>
+							<greatestDifference id="d">EEEEที่ d – EEEEที่ d MMM G y</greatestDifference>
+							<greatestDifference id="y">EEEEที่ d MMM G y – EEEEที่ d MMM y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMEd">
 							<greatestDifference id="M">E d MMM – E d MMM G y</greatestDifference>
 							<greatestDifference id="d">E d – E d MMM G y</greatestDifference>
-							<greatestDifference id="y">E d MMM y – E d MMM G y</greatestDifference>
+							<greatestDifference id="y">E d MMM G y – E d MMM y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMM">
 							<greatestDifference id="M">MMMM – MMMM G y</greatestDifference>
-							<greatestDifference id="y">MMMM y – MMMM G y</greatestDifference>
+							<greatestDifference id="y">MMMM G y – MMMM y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMd">
 							<greatestDifference id="M">d MMM – d MMM G y</greatestDifference>
 							<greatestDifference id="d">d–d MMM G y</greatestDifference>
-							<greatestDifference id="y">d MMM y – d MMM G y</greatestDifference>
+							<greatestDifference id="y">d MMM G y – d MMM y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMd">
 							<greatestDifference id="M">d/M/y – d/M/y G</greatestDifference>
@@ -2456,10 +2490,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<availableFormats>
 						<dateFormatItem id="Ed">E d</dateFormatItem>
 						<dateFormatItem id="GyMMM">MMM G y</dateFormatItem>
+						<dateFormatItem id="GyMMMEEEEd">EEEEที่ d MMM G y</dateFormatItem>
 						<dateFormatItem id="GyMMMEd">E d MMM G y</dateFormatItem>
 						<dateFormatItem id="GyMMMd">d MMM G y</dateFormatItem>
 						<dateFormatItem id="MEd">E d/M</dateFormatItem>
+						<dateFormatItem id="MMMEEEEd">EEEEที่ d MMM</dateFormatItem>
 						<dateFormatItem id="MMMEd">E d MMM</dateFormatItem>
+						<dateFormatItem id="MMMMEEEEd">EEEEที่ d MMMM</dateFormatItem>
 						<dateFormatItem id="MMMMEd">E d MMMM</dateFormatItem>
 						<dateFormatItem id="MMMMd">d MMMM</dateFormatItem>
 						<dateFormatItem id="MMMd">d MMM</dateFormatItem>
@@ -2468,12 +2505,16 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="yM">M/y</dateFormatItem>
 						<dateFormatItem id="yMEd">E d/M/y</dateFormatItem>
 						<dateFormatItem id="yMMM">MMM y</dateFormatItem>
+						<dateFormatItem id="yMMMEEEEd">EEEEที่ d MMM y</dateFormatItem>
 						<dateFormatItem id="yMMMEd">E d MMM y</dateFormatItem>
-						<dateFormatItem id="yMMMM">MMMM y</dateFormatItem>
+						<dateFormatItem id="yMMMM">MMMM G y</dateFormatItem>
+						<dateFormatItem id="yMMMMEEEEd">EEEEที่ d MMMM G y</dateFormatItem>
+						<dateFormatItem id="yMMMMEd">E d MMMM G y</dateFormatItem>
+						<dateFormatItem id="yMMMMd">d MMMM G y</dateFormatItem>
 						<dateFormatItem id="yMMMd">d MMM y</dateFormatItem>
 						<dateFormatItem id="yMd">d/M/y</dateFormatItem>
 						<dateFormatItem id="yQQQ">QQQ y</dateFormatItem>
-						<dateFormatItem id="yQQQQ">QQQQ y</dateFormatItem>
+						<dateFormatItem id="yQQQQ">QQQQ G y</dateFormatItem>
 					</availableFormats>
 					<intervalFormats>
 						<intervalFormatItem id="Hmv">
@@ -2486,6 +2527,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<intervalFormatItem id="MEd">
 							<greatestDifference id="M">E d/M – E d/M</greatestDifference>
 							<greatestDifference id="d">E d – E d/M</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="MMMEEEEd">
+							<greatestDifference id="M">EEEEที่ d MMM – EEEEที่ d MMM</greatestDifference>
+							<greatestDifference id="d">EEEEที่ d – EEEEที่ d MMM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MMMEd">
 							<greatestDifference id="M">E d MMM – E d MMM</greatestDifference>
@@ -2512,14 +2557,34 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<greatestDifference id="M">MMM–MMM y</greatestDifference>
 							<greatestDifference id="y">MMM y – MMM y</greatestDifference>
 						</intervalFormatItem>
+						<intervalFormatItem id="yMMMEEEEd">
+							<greatestDifference id="M">EEEEที่ d MMM – EEEEที่ d MMM y</greatestDifference>
+							<greatestDifference id="d">EEEEที่ d – EEEEที่ d MMM y</greatestDifference>
+							<greatestDifference id="y">EEEEที่ d MMM y – EEEEที่ d MMM y</greatestDifference>
+						</intervalFormatItem>
 						<intervalFormatItem id="yMMMEd">
 							<greatestDifference id="M">E d MMM – E d MMM y</greatestDifference>
 							<greatestDifference id="d">E d – E d MMM y</greatestDifference>
 							<greatestDifference id="y">E d MMM y – E d MMM y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMM">
-							<greatestDifference id="M">MMMM–MMMM y</greatestDifference>
-							<greatestDifference id="y">MMMM y – MMMM y</greatestDifference>
+							<greatestDifference id="M">MMMM–MMMM G y</greatestDifference>
+							<greatestDifference id="y">MMMM G y – MMMM y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMMEEEEd">
+							<greatestDifference id="M">EEEEที่ d MMMM – EEEEที่ d MMMM G y</greatestDifference>
+							<greatestDifference id="d">EEEEที่ d – EEEEที่ d MMMM G y</greatestDifference>
+							<greatestDifference id="y">EEEEที่ d MMMM G y – EEEEที่ d MMMM y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMMEd">
+							<greatestDifference id="M">E d MMMM – E d MMMM G y</greatestDifference>
+							<greatestDifference id="d">E d – E d MMMM G y</greatestDifference>
+							<greatestDifference id="y">E d MMMM G y – E d MMMM y</greatestDifference>
+						</intervalFormatItem>
+						<intervalFormatItem id="yMMMMd">
+							<greatestDifference id="M">d MMMM – d MMMM G y</greatestDifference>
+							<greatestDifference id="d">d–d MMMM G y</greatestDifference>
+							<greatestDifference id="y">d MMMM G y – d MMMM y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMd">
 							<greatestDifference id="M">d MMM – d MMM y</greatestDifference>
@@ -2796,8 +2861,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<monthWidth type="wide">
 							<month type="1">มุฮะร์รอม</month>
 							<month type="10">เชาวัล</month>
-							<month type="11">ดฮุอัลกิดะห์</month>
-							<month type="12">ดฮุอัลฮิจจะห์</month>
+							<month type="11">ซุลกิอฺดะฮฺ</month>
+							<month type="12">ซุลหิจญะฮฺ</month>
 							<month type="2">ซอฟาร์</month>
 							<month type="3">รอบี I</month>
 							<month type="4">รอบี II</month>
@@ -4361,9 +4426,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<zone type="Asia/Choibalsan">
 				<exemplarCity>ชอยบาลซาน</exemplarCity>
 			</zone>
-			<zone type="Asia/Chongqing">
-				<exemplarCity>ฉงชิ่ง</exemplarCity>
-			</zone>
 			<zone type="Asia/Colombo">
 				<exemplarCity>โคลัมโบ</exemplarCity>
 			</zone>
@@ -4384,9 +4446,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Gaza">
 				<exemplarCity>กาซา</exemplarCity>
-			</zone>
-			<zone type="Asia/Harbin">
-				<exemplarCity>ฮาร์บิน</exemplarCity>
 			</zone>
 			<zone type="Asia/Hebron">
 				<exemplarCity>เฮบรอน</exemplarCity>
@@ -4417,9 +4476,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Karachi">
 				<exemplarCity>การาจี</exemplarCity>
-			</zone>
-			<zone type="Asia/Kashgar">
-				<exemplarCity>กัชการ์</exemplarCity>
 			</zone>
 			<zone type="Asia/Katmandu">
 				<exemplarCity>กาตมันดุ</exemplarCity>

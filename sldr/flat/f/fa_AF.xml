@@ -5,8 +5,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 -->
 <ldml>
 	<identity>
-		<version number="$Revision: 10669 $"/>
-		<generation date="$Date: 2014-07-23 21:10 +0000 $"/>
+		<version number="$Revision: 11217 $"/>
+		<generation date="$Date: 2015-02-18 05:51 +0000 $"/>
 		<language type="fa"/>
 		<territory type="AF"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
@@ -154,7 +154,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<language type="et">استونیایی</language>
 			<language type="eu">باسکی</language>
 			<language type="ewo" draft="contributed">اواندو</language>
-			<language type="fa">دری</language>
+			<language type="fa">فارسی</language>
 			<language type="fan">فانکی</language>
 			<language type="fat">فانتیایی</language>
 			<language type="ff">فولایی</language>
@@ -695,7 +695,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="AO">انگولا</territory>
 			<territory type="AQ">جنوبگان</territory>
 			<territory type="AR">ارجنتاین</territory>
-			<territory type="AS">ساموآی آمریکا</territory>
+			<territory type="AS">ساموآی امریکا</territory>
 			<territory type="AT">اتریش</territory>
 			<territory type="AU">آسترالیا</territory>
 			<territory type="AW">آروبا</territory>
@@ -724,11 +724,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="BZ">بلیز</territory>
 			<territory type="CA">کانادا</territory>
 			<territory type="CC">جزایر کوکوس</territory>
+			<territory type="CD" draft="contributed">کانگو - کینشاسا</territory>
 			<territory type="CD" alt="variant">کنگو (جمهوری دموکراتیک)</territory>
-			<territory type="CD">جمهوری دموکراتیک کانگو</territory>
-			<territory type="CF">افریقای مرکزی</territory>
+			<territory type="CF">جمهوری افریقای مرکزی</territory>
+			<territory type="CG" draft="contributed">کانگو - برازویل</territory>
 			<territory type="CG" alt="variant">کنگو (جمهوری)</territory>
-			<territory type="CG">کانگو</territory>
 			<territory type="CH">سویس</territory>
 			<territory type="CI">ساحل عاج</territory>
 			<territory type="CK">جزایر کوک</territory>
@@ -814,7 +814,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="KH">کمپوچیا</territory>
 			<territory type="KI">کیریباتی</territory>
 			<territory type="KM">کومورو</territory>
-			<territory type="KN">سنت کیتس و نیویس</territory>
+			<territory type="KN">سنت کیتس و نویس</territory>
 			<territory type="KP">کوریای شمالی</territory>
 			<territory type="KR">کوریای جنوبی</territory>
 			<territory type="KW">کویت</territory>
@@ -893,7 +893,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="RW">روآندا</territory>
 			<territory type="SA" alt="short">عربستان</territory>
 			<territory type="SA">عربستان سعودی</territory>
-			<territory type="SB">جزایر سلومون</territory>
+			<territory type="SB">جزایر سلیمان</territory>
 			<territory type="SC">سیشل</territory>
 			<territory type="SD">سودان</territory>
 			<territory type="SE">سویدن</territory>
@@ -908,7 +908,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="SO">سومالیه</territory>
 			<territory type="SR">سورینام</territory>
 			<territory type="SS">سودان جنوبی</territory>
-			<territory type="ST">سائو تومه و پرینسیپ</territory>
+			<territory type="ST">پرینسیپ و سائوتومه</territory>
 			<territory type="SV">السلوادور</territory>
 			<territory type="SX">سنت مارتن</territory>
 			<territory type="SY">سوریه</territory>
@@ -938,7 +938,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="UY">یوروگوای</territory>
 			<territory type="UZ">ازبکستان</territory>
 			<territory type="VA">واتیکان</territory>
-			<territory type="VC">سنت وینسنت و گرینادین</territory>
+			<territory type="VC">سنت وینسنت و گرنادین‌ها</territory>
 			<territory type="VE">ونزویلا</territory>
 			<territory type="VG">جزایر ویرجین بریتانیا</territory>
 			<territory type="VI">جزایر ویرجین ایالات متحده</territory>
@@ -1111,7 +1111,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		</orientation>
 	</layout>
 	<characters>
-		<exemplarCharacters type="auxiliary">[\u200C \u200D \u0656 \u0670 ټ ځ څ ډ ړ ږ ښ ګ ڼ ي]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[\u200C \u200D \u200E\u200F \u064E \u0650 \u064F \u0652 \u0656 \u0670 إ ټ ځ څ ډ ړ ږ ښ ك ګ ڼ ى ي]</exemplarCharacters>
 		<exemplarCharacters type="index">[آ ا ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ه ی]</exemplarCharacters>
 		<exemplarCharacters type="punctuation">[\- ‐ ، ٫ ٬ ؛ \: ! ؟ . … ‹ › « » ( ) \[ \] * / \\]</exemplarCharacters>
 		<exemplarCharacters>[\u064B \u064D \u064C \u0651 \u0654 آ ا ء أ ؤ ئ ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ه ة ی]</exemplarCharacters>
@@ -1418,23 +1418,23 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<dateFormats>
 					<dateFormatLength type="full">
 						<dateFormat>
-							<pattern>U MMMM d, EEEE</pattern>
+							<pattern>r(U) MMMM d, EEEE</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="long">
 						<dateFormat>
-							<pattern>U MMMM d</pattern>
+							<pattern>r(U) MMMM d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern>U MMM d</pattern>
+							<pattern>r MMM d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
 							<!-- using y here to be short in locales that may not understand U anyway -->
-							<pattern>y-MM-dd</pattern>
+							<pattern>r-MM-dd</pattern>
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
@@ -1465,10 +1465,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<availableFormats>
 						<dateFormatItem id="E">ccc</dateFormatItem>
 						<dateFormatItem id="Ed">d, E</dateFormatItem>
-						<dateFormatItem id="Gy">U</dateFormatItem>
-						<dateFormatItem id="GyMMM">U MMM</dateFormatItem>
-						<dateFormatItem id="GyMMMEd">U MMM d, E</dateFormatItem>
-						<dateFormatItem id="GyMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="Gy">r U</dateFormatItem>
+						<dateFormatItem id="GyMMM">r(U) MMM</dateFormatItem>
+						<dateFormatItem id="GyMMMEd">r(U) MMM d, E</dateFormatItem>
+						<dateFormatItem id="GyMMMd">r MMM d</dateFormatItem>
 						<dateFormatItem id="H">HH</dateFormatItem>
 						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
@@ -1478,22 +1478,26 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
+						<dateFormatItem id="UM">U MM</dateFormatItem>
+						<dateFormatItem id="UMMM">U MMM</dateFormatItem>
+						<dateFormatItem id="UMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="UMd">U MM-d</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
 						<dateFormatItem id="h">h a</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
-						<dateFormatItem id="y">U</dateFormatItem>
-						<dateFormatItem id="yMd">y-MM-dd</dateFormatItem>
-						<dateFormatItem id="yyyy">U</dateFormatItem>
-						<dateFormatItem id="yyyyM">y-MM</dateFormatItem>
-						<dateFormatItem id="yyyyMEd">y-MM-dd, E</dateFormatItem>
-						<dateFormatItem id="yyyyMMM">U MMM</dateFormatItem>
-						<dateFormatItem id="yyyyMMMEd">U MMM d, E</dateFormatItem>
-						<dateFormatItem id="yyyyMMMd">U MMM d</dateFormatItem>
-						<dateFormatItem id="yyyyMd">y-MM-dd</dateFormatItem>
-						<dateFormatItem id="yyyyQQQ">U QQQ</dateFormatItem>
-						<dateFormatItem id="yyyyQQQQ">U QQQQ</dateFormatItem>
+						<dateFormatItem id="y">r(U)</dateFormatItem>
+						<dateFormatItem id="yMd">r-MM-dd</dateFormatItem>
+						<dateFormatItem id="yyyy">r(U)</dateFormatItem>
+						<dateFormatItem id="yyyyM">r-MM</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">r-MM-dd, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">r(U) MMM</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEd">r(U) MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMd">r MMM d</dateFormatItem>
+						<dateFormatItem id="yyyyMd">r-MM-dd</dateFormatItem>
+						<dateFormatItem id="yyyyQQQ">r(U) QQQ</dateFormatItem>
+						<dateFormatItem id="yyyyQQQQ">r(U) QQQQ</dateFormatItem>
 					</availableFormats>
 					<appendItems>
 						<appendItem request="Day">{0} ({2}: {1})</appendItem>
@@ -2428,6 +2432,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="HHmmZ">HH:mm (Z)</dateFormatItem>
 						<dateFormatItem id="Hm">H:mm</dateFormatItem>
 						<dateFormatItem id="Hms">H:mm:ss</dateFormatItem>
+						<dateFormatItem id="Hmsv">HH:mm:ss v</dateFormatItem>
+						<dateFormatItem id="Hmv">HH:mm v</dateFormatItem>
 						<dateFormatItem id="M">L</dateFormatItem>
 						<dateFormatItem id="MEd">E M/d</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
@@ -2440,6 +2446,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="h">h a</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
+						<dateFormatItem id="hmsv">h:mm:ss a v</dateFormatItem>
+						<dateFormatItem id="hmv">h:mm a v</dateFormatItem>
 						<dateFormatItem id="mmss">mm:ss</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y">y</dateFormatItem>
@@ -3671,7 +3679,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<era type="0">هجری شمسی</era>
 					</eraNames>
 					<eraAbbr>
-						<era type="0">ه‍. ش.</era>
+						<era type="0">ه‍.ش.</era>
 					</eraAbbr>
 					<eraNarrow>
 						<alias source="locale" path="../eraAbbr"/>
@@ -4811,9 +4819,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<zone type="Asia/Choibalsan">
 				<exemplarCity>چویبالسان</exemplarCity>
 			</zone>
-			<zone type="Asia/Chongqing">
-				<exemplarCity>چونگ‌کینگ</exemplarCity>
-			</zone>
 			<zone type="Asia/Colombo">
 				<exemplarCity>کلمبو</exemplarCity>
 			</zone>
@@ -4834,9 +4839,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Gaza">
 				<exemplarCity>غزه</exemplarCity>
-			</zone>
-			<zone type="Asia/Harbin">
-				<exemplarCity>هاربین</exemplarCity>
 			</zone>
 			<zone type="Asia/Hebron">
 				<exemplarCity>الخلیل</exemplarCity>
@@ -4867,9 +4869,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Karachi">
 				<exemplarCity>کراچی</exemplarCity>
-			</zone>
-			<zone type="Asia/Kashgar">
-				<exemplarCity>کاشغر</exemplarCity>
 			</zone>
 			<zone type="Asia/Katmandu">
 				<exemplarCity>کاتماندو</exemplarCity>
@@ -6889,7 +6888,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<percentFormats numberSystem="latn">
 			<percentFormatLength>
 				<percentFormat>
-					<pattern>'‪'#,##0%'‬'</pattern>
+					<pattern>#,##0%</pattern>
 				</percentFormat>
 			</percentFormatLength>
 		</percentFormats>
@@ -7838,9 +7837,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>تالای ساموا</displayName>
 			</currency>
 			<currency type="XAF">
-				<displayName count="one">فرانک CFA مرکز آفریقا</displayName>
-				<displayName count="other">فرانک CFA مرکز آفریقا</displayName>
-				<displayName>فرانک CFA مرکز آفریقا</displayName>
+				<displayName count="one">فرانک CFA مرکز افریقا</displayName>
+				<displayName count="other">فرانک CFA مرکز افریقا</displayName>
+				<displayName>فرانک CFA مرکز افریقا</displayName>
 				<symbol>FCFA</symbol>
 			</currency>
 			<currency type="XAG">
@@ -7858,9 +7857,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>فرانک طلای فرانسه</displayName>
 			</currency>
 			<currency type="XOF">
-				<displayName count="one">فرانک CFA غرب آفریقا</displayName>
-				<displayName count="other">فرانک CFA غرب آفریقا</displayName>
-				<displayName>فرانک CFA غرب آفریقا</displayName>
+				<displayName count="one">فرانک CFA غرب افریقا</displayName>
+				<displayName count="other">فرانک CFA غرب افریقا</displayName>
+				<displayName>فرانک CFA غرب افریقا</displayName>
 				<symbol>CFA</symbol>
 			</currency>
 			<currency type="XPD">
@@ -8034,7 +8033,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<miscPatterns numberSystem="vaii">
 			<alias source="locale" path="../miscPatterns[@numberSystem='latn']"/>
 		</miscPatterns>
-		<minimumGroupingDigits draft="contributed">1</minimumGroupingDigits>
+		<minimumGroupingDigits>1</minimumGroupingDigits>
 	</numbers>
 	<units>
 		<unitLength type="long">
@@ -9362,6 +9361,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="one">{0}°F</unitPattern>
 				<unitPattern count="other">{0}°F</unitPattern>
 			</unit>
+			<unit type="temperature-generic">
+				<displayName>°</displayName>
+				<unitPattern count="other">{0}°</unitPattern>
+			</unit>
 			<unit type="temperature-kelvin">
 				<displayName>درجهٔ کلوین</displayName>
 				<unitPattern count="one">‎{0} K</unitPattern>
@@ -9526,30 +9529,34 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*😁😂😃😄😅😆😉😊😋😌😍😎😏😐
 				<*😑😒😓😔😕😖😗😘😙😚😛😜😝😞😟😠
 				<*😡😢😣😤😥😦😧😨😩😪😫😬😭😮😯😰
-				<*😱😲😳😴😵😶😷😇😈👿👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
-				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
+				<*😱😲😳😴😵😶😷😇😈👿🙃🙄🤐
+				<*🤑🤒🤓🤔🤕🤗🤖👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
+				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭🏻🏼🏽🏾🏿👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
 				<*✍🖐
 				<*💅💪👣👀
 				<*👁👂👃👅💀
 				<*☠
-				<*💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
+				<*🤘💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
 				<*👡👢👑👒🎩⛑🐵🙈🙉🙊🐒🐶🐕🐩🐺🐱😸😹😺😻😼😽😾😿🙀
 				<*🐈🐯🐅🐆🐴🐎🐮🐂🐃🐄🐷🐖🐗🐽🐏🐑🐐
 				<*🐪🐫🐘🐭🐁🐀
 				<*🐹🐰
 				<*🐇🐿🐻🐨🐼🐾🐔🐓🐣🐤🐥🐦🐧🕊🐸🐊🐍🐢🐲🐉🐳🐋🐬🐟🐠
-				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸💩👹👺👻👽👾💐
-				<*🌸💮🏵🌹🌺🌻🌼🌷⸙☘🌱🌲🌳🌴🌵🌾🌿🍀
+				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸🦀
+				<*🦁🦂💩👹👺👻👽👾💐
+				<*🌸💮🏵🌹🌺🌻🌼🌷☘🌱🌲🌳🌴🌵🌾🌿🍀
 				<*🍁🍂🍃🍇🍈🍉🍊🍋🍌🍍🍎🍏🍐
 				<*🍑🍒🍓🍅🍆🌽🌶🍄🌰
 				<*🍞🍖🍗🍔🍟🍕🍲🍱🍘🍙🍚🍛🍜🍝🍠
 				<*🍢🍣🍤🍥🍡🍦🍧🍨🍩🍪🎂🍰
-				<*🍫🍬🍭🍮🍯☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🌍🌎🌏🌐
+				<*🍫🍬🍭🍮🍯🌭🌮🌯🍾🍿🦃🦄🧀
+				<*☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🏺🌍🌎🌏🌐
 				<*🗺🏔⛰
 				<*🌋🗻🏕🏖🏜🏝🏞🏟🏛🏗🏘🏙🏚🏠
 				<*🏡⛪🏢🏣🏤🏥🏦🏨🏩🏪🏫🏬🏭🏯🏰
 				<*💒🗼🗽🗾⛲⛺🌁🌃🌄🌅🌆🌇🌉🌊♨🗿🌌🎠
 				<*🎡🎢💈🎪🎫🎭🎰
+				<*🕋🕌🕍🛐
 				<*🚂🚃🚄🚅🚆🚇🚈🚉🚊🚝🚞🚋🚌🚍🚎🚏🚐
 				<*🚑🚒🚓🚔🚕🚖🚗🚘🚙🚚🚛🚜🚲🚳🚴🚵🏎🏍⛽🛣🛤🚨⎈⚓⛵🚣🚤🛳⛴🛥🚢✈🛩🛫🛬💺🚁🚟🚠
 				<*🚡🚀
@@ -9567,7 +9574,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*🌈🌂☂☔⛱❄☃⛄🌟🌠
 				<*☄🎲♠
 				<*♥♦♣🃏🀄🎮🕹⚽⚾🏀
-				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🔇🔈🔉🔊📢📣📯🔔🔕🔀
+				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🏏🏐
+				<*🏑🏒🏓🏸🔇🔈🔉🔊📢📣📯🔔🔕🔀
 				<*🔁🔂▶⏩⏭⏯◀
 				<*⏪⏮🔼⏫🔽⏬⏸⏹⏺⏏🎼🎵🎶🎙🎚🎛🎤🎧🎷🎸🎹🎺🎻📻📱📳📴📲📵☎📞
 				<#⃣
@@ -9591,7 +9599,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*💼📁📂🗂📅📆🗒🗓📇📈📉📊📋📌📍📎🖇📏📐
 				<*📛✂🗃🗄🗑🔒🔓🔏🔐
 				<*🔑🗝🔨⛏⚒🛠
-				<*🔧🔩⚙🗜⚗⚖💉🗡🔪⚔🔫🛡🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
+				<*🔧🔩⚙🗜⚗⚖💉📿🕎🗡🔪⚔🔫🛡🏹🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
 				<*⚱🔰
 				<*💯📡🏁🏳🏴🚩
 				<*🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿⬆↗➡↘⬇↙⬅↖↕↔↩↪⤴⤵🔃🔄🔙🔚🔛🔜🔝🕉✡☸☯✝☦⛩☪☮☢☣♻⚡⭐

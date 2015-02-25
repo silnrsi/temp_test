@@ -5,8 +5,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 -->
 <ldml>
 	<identity>
-		<version number="$Revision: 11166 $"/>
-		<generation date="$Date: 2015-02-06 03:27 +0000 $"/>
+		<version number="$Revision: 11294 $"/>
+		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="el"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity source="cldr" draft="approved"/>
@@ -2809,9 +2809,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<zone type="Asia/Choibalsan">
 				<exemplarCity>Χόιμπαλσαν</exemplarCity>
 			</zone>
-			<zone type="Asia/Chongqing">
-				<exemplarCity>Τσονγκίνγκ</exemplarCity>
-			</zone>
 			<zone type="Asia/Colombo">
 				<exemplarCity>Κολόμπο</exemplarCity>
 			</zone>
@@ -2832,9 +2829,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Gaza">
 				<exemplarCity>Γάζα</exemplarCity>
-			</zone>
-			<zone type="Asia/Harbin">
-				<exemplarCity>Χαρμπίν</exemplarCity>
 			</zone>
 			<zone type="Asia/Hebron">
 				<exemplarCity>Χεμπρόν</exemplarCity>
@@ -2865,9 +2859,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Karachi">
 				<exemplarCity>Καράτσι</exemplarCity>
-			</zone>
-			<zone type="Asia/Kashgar">
-				<exemplarCity>Κάσγκαρ</exemplarCity>
 			</zone>
 			<zone type="Asia/Katmandu">
 				<exemplarCity>Κατμαντού</exemplarCity>
@@ -6660,9 +6651,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="other">{0} γρ.</unitPattern>
 			</unit>
 			<unit type="mass-kilogram">
-				<displayName>χγρ.</displayName>
-				<unitPattern count="one">{0} χγρ.</unitPattern>
-				<unitPattern count="other">{0} χγρ.</unitPattern>
+				<displayName>kg</displayName>
+				<unitPattern count="one">{0} kg</unitPattern>
+				<unitPattern count="other">{0} kg</unitPattern>
 			</unit>
 			<unit type="mass-ounce">
 				<unitPattern count="one">{0} oz</unitPattern>
@@ -7025,9 +7016,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="other">{0} γρ.</unitPattern>
 			</unit>
 			<unit type="mass-kilogram">
-				<displayName>χιλιόγραμμα</displayName>
-				<unitPattern count="one">{0} χλγρ.</unitPattern>
-				<unitPattern count="other">{0} χλγρ.</unitPattern>
+				<displayName>κιλά</displayName>
+				<unitPattern count="one">{0} κιλό</unitPattern>
+				<unitPattern count="other">{0} κιλά</unitPattern>
 			</unit>
 			<unit type="mass-metric-ton">
 				<displayName>mt</displayName>

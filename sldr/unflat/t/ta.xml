@@ -5,8 +5,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 -->
 <ldml>
 	<identity>
-		<version number="$Revision: 11174 $"/>
-		<generation date="$Date: 2015-02-11 03:20 +0000 $"/>
+		<version number="$Revision: 11294 $"/>
+		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="ta"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity source="cldr" draft="approved"/>
@@ -1174,6 +1174,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 					</monthContext>
 				</months>
 				<dateFormats>
+					<dateFormatLength type="full">
+						<dateFormat>
+							<pattern>U MMMM d, EEEE</pattern>
+						</dateFormat>
+					</dateFormatLength>
 					<dateFormatLength type="long">
 						<dateFormat>
 							<pattern>U, d MMMM</pattern>
@@ -2809,9 +2814,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<zone type="Asia/Choibalsan">
 				<exemplarCity>சோய்பால்சான்</exemplarCity>
 			</zone>
-			<zone type="Asia/Chongqing">
-				<exemplarCity>சாங்குயிங்</exemplarCity>
-			</zone>
 			<zone type="Asia/Colombo">
 				<exemplarCity>கொழும்பு</exemplarCity>
 			</zone>
@@ -2832,9 +2834,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Gaza">
 				<exemplarCity>காஸா</exemplarCity>
-			</zone>
-			<zone type="Asia/Harbin">
-				<exemplarCity>ஹர்பின்</exemplarCity>
 			</zone>
 			<zone type="Asia/Hebron">
 				<exemplarCity>ஹெப்ரான்</exemplarCity>
@@ -2865,9 +2864,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Karachi">
 				<exemplarCity>கராச்சி</exemplarCity>
-			</zone>
-			<zone type="Asia/Kashgar">
-				<exemplarCity>கஷ்கர்</exemplarCity>
 			</zone>
 			<zone type="Asia/Katmandu">
 				<exemplarCity>காத்மாண்டு</exemplarCity>

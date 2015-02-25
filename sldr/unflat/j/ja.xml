@@ -5,8 +5,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 -->
 <ldml>
 	<identity>
-		<version number="$Revision: 11110 $"/>
-		<generation date="$Date: 2015-01-16 21:44 +0000 $"/>
+		<version number="$Revision: 11294 $"/>
+		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="ja"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity source="cldr" draft="approved"/>
@@ -2632,6 +2632,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="H">H時</dateFormatItem>
 						<dateFormatItem id="Hm">H:mm</dateFormatItem>
 						<dateFormatItem id="Hms">H:mm:ss</dateFormatItem>
+						<dateFormatItem id="Hmsv">H:mm:ss v</dateFormatItem>
+						<dateFormatItem id="Hmv">H:mm v</dateFormatItem>
 						<dateFormatItem id="M">M月</dateFormatItem>
 						<dateFormatItem id="MEEEEd">M/dEEEE</dateFormatItem>
 						<dateFormatItem id="MEd">M/d(E)</dateFormatItem>
@@ -2644,6 +2646,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="h">aK時</dateFormatItem>
 						<dateFormatItem id="hm">aK:mm</dateFormatItem>
 						<dateFormatItem id="hms">aK:mm:ss</dateFormatItem>
+						<dateFormatItem id="hmsv">aK:mm:ss v</dateFormatItem>
+						<dateFormatItem id="hmv">aK:mm v</dateFormatItem>
 						<dateFormatItem id="y">y年</dateFormatItem>
 						<dateFormatItem id="yM">y/M</dateFormatItem>
 						<dateFormatItem id="yMEEEEd">y/M/dEEEE</dateFormatItem>
@@ -4774,9 +4778,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<zone type="Asia/Choibalsan">
 				<exemplarCity>チョイバルサン</exemplarCity>
 			</zone>
-			<zone type="Asia/Chongqing">
-				<exemplarCity>重慶</exemplarCity>
-			</zone>
 			<zone type="Asia/Colombo">
 				<exemplarCity>コロンボ</exemplarCity>
 			</zone>
@@ -4797,9 +4798,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Gaza">
 				<exemplarCity>ガザ</exemplarCity>
-			</zone>
-			<zone type="Asia/Harbin">
-				<exemplarCity>ハルビン</exemplarCity>
 			</zone>
 			<zone type="Asia/Hebron">
 				<exemplarCity>ヘブロン</exemplarCity>
@@ -4830,9 +4828,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Karachi">
 				<exemplarCity>カラチ</exemplarCity>
-			</zone>
-			<zone type="Asia/Kashgar">
-				<exemplarCity>カシュガル</exemplarCity>
 			</zone>
 			<zone type="Asia/Katmandu">
 				<exemplarCity>カトマンズ</exemplarCity>

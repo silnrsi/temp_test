@@ -5,8 +5,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 -->
 <ldml>
 	<identity>
-		<version number="$Revision: 11130 $"/>
-		<generation date="$Date: 2015-01-19 06:46 +0000 $"/>
+		<version number="$Revision: 11294 $"/>
+		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="cs"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity source="cldr" draft="approved"/>
@@ -1272,7 +1272,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<ellipsis type="initial">… {0}</ellipsis>
 		<ellipsis type="medial">{0}… {1}</ellipsis>
 		<ellipsis type="word-final">{0}…</ellipsis>
-		<ellipsis type="word-initial" draft="contributed">… {0}</ellipsis>
+		<ellipsis type="word-initial">… {0}</ellipsis>
 		<ellipsis type="word-medial">{0}… {1}</ellipsis>
 		<moreInformation>?</moreInformation>
 	</characters>
@@ -1363,18 +1363,18 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<alias source="locale" path="../../monthContext[@type='format']/monthWidth[@type='abbreviated']"/>
 						</monthWidth>
 						<monthWidth type="narrow">
-							<month type="1" draft="contributed">1</month>
-							<month type="10" draft="contributed">10</month>
-							<month type="11" draft="contributed">11</month>
-							<month type="12" draft="contributed">12</month>
-							<month type="2" draft="contributed">2</month>
-							<month type="3" draft="contributed">3</month>
-							<month type="4" draft="contributed">4</month>
-							<month type="5" draft="contributed">5</month>
-							<month type="6" draft="contributed">6</month>
-							<month type="7" draft="contributed">7</month>
-							<month type="8" draft="contributed">8</month>
-							<month type="9" draft="contributed">9</month>
+							<month type="1">1</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
 						</monthWidth>
 						<monthWidth type="wide">
 							<alias source="locale" path="../../monthContext[@type='format']/monthWidth[@type='wide']"/>
@@ -1622,10 +1622,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<availableFormats>
 						<dateFormatItem id="E">ccc</dateFormatItem>
 						<dateFormatItem id="Ed">d, E</dateFormatItem>
-						<dateFormatItem id="Gy">U</dateFormatItem>
-						<dateFormatItem id="GyMMM">U MMM</dateFormatItem>
-						<dateFormatItem id="GyMMMEd">U MMM d, E</dateFormatItem>
-						<dateFormatItem id="GyMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="Gy">r U</dateFormatItem>
+						<dateFormatItem id="GyMMM">r(U) MMM</dateFormatItem>
+						<dateFormatItem id="GyMMMEd">r(U) MMM d, E</dateFormatItem>
+						<dateFormatItem id="GyMMMd">r MMM d</dateFormatItem>
 						<dateFormatItem id="H">HH</dateFormatItem>
 						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
@@ -1635,22 +1635,26 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
+						<dateFormatItem id="UM">U MM</dateFormatItem>
+						<dateFormatItem id="UMMM">U MMM</dateFormatItem>
+						<dateFormatItem id="UMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="UMd">U MM-d</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
 						<dateFormatItem id="h">h a</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
-						<dateFormatItem id="y">U</dateFormatItem>
-						<dateFormatItem id="yMd">y-MM-dd</dateFormatItem>
-						<dateFormatItem id="yyyy">U</dateFormatItem>
-						<dateFormatItem id="yyyyM">y-MM</dateFormatItem>
-						<dateFormatItem id="yyyyMEd">y-MM-dd, E</dateFormatItem>
-						<dateFormatItem id="yyyyMMM">U MMM</dateFormatItem>
-						<dateFormatItem id="yyyyMMMEd">U MMM d, E</dateFormatItem>
-						<dateFormatItem id="yyyyMMMd">U MMM d</dateFormatItem>
-						<dateFormatItem id="yyyyMd">y-MM-dd</dateFormatItem>
-						<dateFormatItem id="yyyyQQQ">U QQQ</dateFormatItem>
-						<dateFormatItem id="yyyyQQQQ">U QQQQ</dateFormatItem>
+						<dateFormatItem id="y">r(U)</dateFormatItem>
+						<dateFormatItem id="yMd">r-MM-dd</dateFormatItem>
+						<dateFormatItem id="yyyy">r(U)</dateFormatItem>
+						<dateFormatItem id="yyyyM">r-MM</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">r-MM-dd, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">r(U) MMM</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEd">r(U) MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMd">r MMM d</dateFormatItem>
+						<dateFormatItem id="yyyyMd">r-MM-dd</dateFormatItem>
+						<dateFormatItem id="yyyyQQQ">r(U) QQQ</dateFormatItem>
+						<dateFormatItem id="yyyyQQQQ">r(U) QQQQ</dateFormatItem>
 					</availableFormats>
 					<appendItems>
 						<appendItem request="Day">{0} ({2}: {1})</appendItem>
@@ -1804,19 +1808,19 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<alias source="locale" path="../../monthContext[@type='format']/monthWidth[@type='abbreviated']"/>
 						</monthWidth>
 						<monthWidth type="narrow">
-							<month type="1" draft="contributed">1</month>
-							<month type="10" draft="contributed">10</month>
-							<month type="11" draft="contributed">11</month>
-							<month type="12" draft="contributed">12</month>
-							<month type="13" draft="contributed">13</month>
-							<month type="2" draft="contributed">2</month>
-							<month type="3" draft="contributed">3</month>
-							<month type="4" draft="contributed">4</month>
-							<month type="5" draft="contributed">5</month>
-							<month type="6" draft="contributed">6</month>
-							<month type="7" draft="contributed">7</month>
-							<month type="8" draft="contributed">8</month>
-							<month type="9" draft="contributed">9</month>
+							<month type="1">1</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
+							<month type="13">13</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
 						</monthWidth>
 						<monthWidth type="wide">
 							<alias source="locale" path="../../monthContext[@type='format']/monthWidth[@type='wide']"/>
@@ -1925,19 +1929,19 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<alias source="locale" path="../../monthContext[@type='format']/monthWidth[@type='abbreviated']"/>
 						</monthWidth>
 						<monthWidth type="narrow">
-							<month type="1" draft="contributed">1</month>
-							<month type="10" draft="contributed">10</month>
-							<month type="11" draft="contributed">11</month>
-							<month type="12" draft="contributed">12</month>
-							<month type="13" draft="contributed">13</month>
-							<month type="2" draft="contributed">2</month>
-							<month type="3" draft="contributed">3</month>
-							<month type="4" draft="contributed">4</month>
-							<month type="5" draft="contributed">5</month>
-							<month type="6" draft="contributed">6</month>
-							<month type="7" draft="contributed">7</month>
-							<month type="8" draft="contributed">8</month>
-							<month type="9" draft="contributed">9</month>
+							<month type="1">1</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
+							<month type="13">13</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
 						</monthWidth>
 						<monthWidth type="wide">
 							<alias source="locale" path="../../monthContext[@type='format']/monthWidth[@type='wide']"/>
@@ -2221,7 +2225,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<greatestDifference id="d">d.–d.</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="h">
-							<greatestDifference id="a" draft="contributed">h a – h a</greatestDifference>
+							<greatestDifference id="a">h a – h a</greatestDifference>
 							<greatestDifference id="h">h–h a</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hm">
@@ -2605,6 +2609,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="H">H</dateFormatItem>
 						<dateFormatItem id="Hm">H:mm</dateFormatItem>
 						<dateFormatItem id="Hms">H:mm:ss</dateFormatItem>
+						<dateFormatItem id="Hmsv">HH:mm:ss v</dateFormatItem>
+						<dateFormatItem id="Hmv">HH:mm v</dateFormatItem>
 						<dateFormatItem id="M">L</dateFormatItem>
 						<dateFormatItem id="MEd">E d. M.</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
@@ -2617,6 +2623,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="h">h a</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
+						<dateFormatItem id="hmsv">h:mm:ss a v</dateFormatItem>
+						<dateFormatItem id="hmv">h:mm a v</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y">y</dateFormatItem>
 						<dateFormatItem id="yM">M/y</dateFormatItem>
@@ -2878,18 +2886,18 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<alias source="locale" path="../../monthContext[@type='format']/monthWidth[@type='abbreviated']"/>
 						</monthWidth>
 						<monthWidth type="narrow">
-							<month type="1" draft="contributed">1</month>
-							<month type="10" draft="contributed">10</month>
-							<month type="11" draft="contributed">11</month>
-							<month type="12" draft="contributed">12</month>
-							<month type="2" draft="contributed">2</month>
-							<month type="3" draft="contributed">3</month>
-							<month type="4" draft="contributed">4</month>
-							<month type="5" draft="contributed">5</month>
-							<month type="6" draft="contributed">6</month>
-							<month type="7" draft="contributed">7</month>
-							<month type="8" draft="contributed">8</month>
-							<month type="9" draft="contributed">9</month>
+							<month type="1">1</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
 						</monthWidth>
 						<monthWidth type="wide">
 							<alias source="locale" path="../../monthContext[@type='format']/monthWidth[@type='wide']"/>
@@ -2977,18 +2985,18 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<alias source="locale" path="../../monthContext[@type='format']/monthWidth[@type='abbreviated']"/>
 						</monthWidth>
 						<monthWidth type="narrow">
-							<month type="1" draft="contributed">1</month>
-							<month type="10" draft="contributed">10</month>
-							<month type="11" draft="contributed">11</month>
-							<month type="12" draft="contributed">12</month>
-							<month type="2" draft="contributed">2</month>
-							<month type="3" draft="contributed">3</month>
-							<month type="4" draft="contributed">4</month>
-							<month type="5" draft="contributed">5</month>
-							<month type="6" draft="contributed">6</month>
-							<month type="7" draft="contributed">7</month>
-							<month type="8" draft="contributed">8</month>
-							<month type="9" draft="contributed">9</month>
+							<month type="1">1</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
 						</monthWidth>
 						<monthWidth type="wide">
 							<alias source="locale" path="../../monthContext[@type='format']/monthWidth[@type='wide']"/>
@@ -3702,18 +3710,18 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<alias source="locale" path="../../monthContext[@type='format']/monthWidth[@type='abbreviated']"/>
 						</monthWidth>
 						<monthWidth type="narrow">
-							<month type="1" draft="contributed">1</month>
-							<month type="10" draft="contributed">10</month>
-							<month type="11" draft="contributed">11</month>
-							<month type="12" draft="contributed">12</month>
-							<month type="2" draft="contributed">2</month>
-							<month type="3" draft="contributed">3</month>
-							<month type="4" draft="contributed">4</month>
-							<month type="5" draft="contributed">5</month>
-							<month type="6" draft="contributed">6</month>
-							<month type="7" draft="contributed">7</month>
-							<month type="8" draft="contributed">8</month>
-							<month type="9" draft="contributed">9</month>
+							<month type="1">1</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
 						</monthWidth>
 						<monthWidth type="wide">
 							<alias source="locale" path="../../monthContext[@type='format']/monthWidth[@type='wide']"/>
@@ -3734,7 +3742,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<alias source="locale" path="../eraAbbr"/>
 					</eraNames>
 					<eraAbbr>
-						<era type="0" draft="contributed">AP</era>
+						<era type="0">AP</era>
 					</eraAbbr>
 					<eraNarrow>
 						<alias source="locale" path="../eraAbbr"/>
@@ -4969,9 +4977,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<zone type="Asia/Choibalsan">
 				<exemplarCity>Čojbalsan</exemplarCity>
 			</zone>
-			<zone type="Asia/Chongqing">
-				<exemplarCity>Čchung-čching</exemplarCity>
-			</zone>
 			<zone type="Asia/Colombo">
 				<exemplarCity>Kolombo</exemplarCity>
 			</zone>
@@ -4992,9 +4997,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Gaza">
 				<exemplarCity>Gaza</exemplarCity>
-			</zone>
-			<zone type="Asia/Harbin">
-				<exemplarCity>Charbin</exemplarCity>
 			</zone>
 			<zone type="Asia/Hebron">
 				<exemplarCity>Hebron</exemplarCity>
@@ -5025,9 +5027,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Karachi">
 				<exemplarCity>Karáčí</exemplarCity>
-			</zone>
-			<zone type="Asia/Kashgar">
-				<exemplarCity>Kašghar</exemplarCity>
 			</zone>
 			<zone type="Asia/Katmandu">
 				<exemplarCity>Káthmándú</exemplarCity>
@@ -6513,9 +6512,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 		</timeZoneNames>
 	</dates>
 	<numbers>
-		<defaultNumberingSystem draft="contributed">latn</defaultNumberingSystem>
+		<defaultNumberingSystem>latn</defaultNumberingSystem>
 		<otherNumberingSystems>
-			<native draft="contributed">latn</native>
+			<native>latn</native>
 		</otherNumberingSystems>
 		<symbols numberSystem="arab">
 			<decimal>٫</decimal>
@@ -6603,7 +6602,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<symbols numberSystem="latn">
 			<decimal>,</decimal>
 			<group/>
-			<list draft="contributed">;</list>
+			<list>;</list>
 			<percentSign>%</percentSign>
 			<plusSign>+</plusSign>
 			<minusSign>-</minusSign>
@@ -6612,7 +6611,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<perMille>‰</perMille>
 			<infinity>∞</infinity>
 			<nan>NaN</nan>
-			<timeSeparator draft="contributed">:</timeSeparator>
+			<timeSeparator>:</timeSeparator>
 		</symbols>
 		<symbols numberSystem="lepc">
 			<alias source="locale" path="../symbols[@numberSystem='latn']"/>
@@ -7474,7 +7473,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">argentinské peso</displayName>
 				<displayName count="other">argentinských pes</displayName>
 				<displayName>argentinské peso</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>ARS</symbol>
 			</currency>
 			<currency type="ATS">
@@ -7491,7 +7490,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">australský dolar</displayName>
 				<displayName count="other">australských dolarů</displayName>
 				<displayName>australský dolar</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>AU$</symbol>
 			</currency>
 			<currency type="AWG">
@@ -7549,7 +7548,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">barbadoský dolar</displayName>
 				<displayName count="other">barbadoských dolarů</displayName>
 				<displayName>barbadoský dolar</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BBD</symbol>
 			</currency>
 			<currency type="BDT">
@@ -7558,7 +7557,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">bangladéšská taka</displayName>
 				<displayName count="other">bangladéšských tak</displayName>
 				<displayName>bangladéšská taka</displayName>
-				<symbol alt="narrow" draft="contributed">৳</symbol>
+				<symbol alt="narrow">৳</symbol>
 				<symbol>BDT</symbol>
 			</currency>
 			<currency type="BEC">
@@ -7630,7 +7629,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">bermudský dolar</displayName>
 				<displayName count="other">bermudských dolarů</displayName>
 				<displayName>bermudský dolar</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BMD</symbol>
 			</currency>
 			<currency type="BND">
@@ -7639,7 +7638,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">brunejský dolar</displayName>
 				<displayName count="other">brunejských dolarů</displayName>
 				<displayName>brunejský dolar</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BND</symbol>
 			</currency>
 			<currency type="BOB">
@@ -7705,7 +7704,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">brazilský real</displayName>
 				<displayName count="other">brazilských realů</displayName>
 				<displayName>brazilský real</displayName>
-				<symbol alt="narrow" draft="contributed">R$</symbol>
+				<symbol alt="narrow">R$</symbol>
 				<symbol>R$</symbol>
 			</currency>
 			<currency type="BRN">
@@ -7738,7 +7737,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">bahamský dolar</displayName>
 				<displayName count="other">bahamských dolarů</displayName>
 				<displayName>bahamský dolar</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BSD</symbol>
 			</currency>
 			<currency type="BTN">
@@ -7780,7 +7779,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">běloruský rubl</displayName>
 				<displayName count="other">běloruských rublů</displayName>
 				<displayName>běloruský rubl</displayName>
-				<symbol alt="narrow" draft="contributed">р.</symbol>
+				<symbol alt="narrow">р.</symbol>
 				<symbol>BYR</symbol>
 			</currency>
 			<currency type="BZD">
@@ -7789,7 +7788,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">belizský dolar</displayName>
 				<displayName count="other">belizských dolarů</displayName>
 				<displayName>belizský dolar</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BZD</symbol>
 			</currency>
 			<currency type="CAD">
@@ -7798,7 +7797,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">kanadský dolar</displayName>
 				<displayName count="other">kanadských dolarů</displayName>
 				<displayName>kanadský dolar</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>CA$</symbol>
 			</currency>
 			<currency type="CDF">
@@ -7855,7 +7854,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">chilské peso</displayName>
 				<displayName count="other">chilských pes</displayName>
 				<displayName>chilské peso</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>CLP</symbol>
 			</currency>
 			<currency type="CNY">
@@ -7864,7 +7863,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">čínský jüan</displayName>
 				<displayName count="other">čínských jüanů</displayName>
 				<displayName>čínský jüan</displayName>
-				<symbol alt="narrow" draft="contributed">¥</symbol>
+				<symbol alt="narrow">¥</symbol>
 				<symbol>CN¥</symbol>
 			</currency>
 			<currency type="COP">
@@ -7873,7 +7872,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">kolumbijské peso</displayName>
 				<displayName count="other">kolumbijských pes</displayName>
 				<displayName>kolumbijské peso</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>COP</symbol>
 			</currency>
 			<currency type="COU">
@@ -7890,7 +7889,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">kostarický colón</displayName>
 				<displayName count="other">kostarických colónů</displayName>
 				<displayName>kostarický colón</displayName>
-				<symbol alt="narrow" draft="contributed">₡</symbol>
+				<symbol alt="narrow">₡</symbol>
 				<symbol>CRC</symbol>
 			</currency>
 			<currency type="CSD">
@@ -7924,7 +7923,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">kubánské peso</displayName>
 				<displayName count="other">kubánských pes</displayName>
 				<displayName>kubánské peso</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>CUP</symbol>
 			</currency>
 			<currency type="CVE">
@@ -7991,7 +7990,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dominikánské peso</displayName>
 				<displayName count="other">dominikánských pes</displayName>
 				<displayName>dominikánské peso</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>DOP</symbol>
 			</currency>
 			<currency type="DZD">
@@ -8065,7 +8064,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">španělská peseta</displayName>
 				<displayName count="other">španělských peset</displayName>
 				<displayName>španělská peseta</displayName>
-				<symbol alt="narrow" draft="contributed">₧</symbol>
+				<symbol alt="narrow">₧</symbol>
 				<symbol>ESP</symbol>
 			</currency>
 			<currency type="ETB">
@@ -8082,7 +8081,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">euro</displayName>
 				<displayName count="other">eur</displayName>
 				<displayName>euro</displayName>
-				<symbol alt="narrow" draft="contributed">€</symbol>
+				<symbol alt="narrow">€</symbol>
 				<symbol>€</symbol>
 			</currency>
 			<currency type="FIM">
@@ -8099,7 +8098,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">fidžijský dolar</displayName>
 				<displayName count="other">fidžijských dolarů</displayName>
 				<displayName>fidžijský dolar</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>FJD</symbol>
 			</currency>
 			<currency type="FKP">
@@ -8125,7 +8124,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">britská libra</displayName>
 				<displayName count="other">britských liber</displayName>
 				<displayName>britská libra</displayName>
-				<symbol alt="narrow" draft="contributed">£</symbol>
+				<symbol alt="narrow">£</symbol>
 				<symbol>£</symbol>
 			</currency>
 			<currency type="GEK">
@@ -8166,7 +8165,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">gibraltarská libra</displayName>
 				<displayName count="other">gibraltarských liber</displayName>
 				<displayName>gibraltarská libra</displayName>
-				<symbol alt="narrow" draft="contributed">£</symbol>
+				<symbol alt="narrow">£</symbol>
 				<symbol>GIP</symbol>
 			</currency>
 			<currency type="GMD">
@@ -8241,7 +8240,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">guyanský dolar</displayName>
 				<displayName count="other">guyanských dolarů</displayName>
 				<displayName>guyanský dolar</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>GYD</symbol>
 			</currency>
 			<currency type="HKD">
@@ -8250,7 +8249,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">hongkongský dolar</displayName>
 				<displayName count="other">hongkongských dolarů</displayName>
 				<displayName>hongkongský dolar</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>HK$</symbol>
 			</currency>
 			<currency type="HNL">
@@ -8335,7 +8334,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">izraelský nový šekel</displayName>
 				<displayName count="other">izraelských nový šekelů</displayName>
 				<displayName>izraelský nový šekel</displayName>
-				<symbol alt="narrow" draft="contributed">₪</symbol>
+				<symbol alt="narrow">₪</symbol>
 				<symbol>ILS</symbol>
 			</currency>
 			<currency type="INR">
@@ -8344,7 +8343,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">indická rupie</displayName>
 				<displayName count="other">indických rupií</displayName>
 				<displayName>indická rupie</displayName>
-				<symbol alt="narrow" draft="contributed">₹</symbol>
+				<symbol alt="narrow">₹</symbol>
 				<symbol>INR</symbol>
 			</currency>
 			<currency type="IQD">
@@ -8394,7 +8393,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">jamajský dolar</displayName>
 				<displayName count="other">jamajských dolarů</displayName>
 				<displayName>jamajský dolar</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>JMD</symbol>
 			</currency>
 			<currency type="JOD">
@@ -8411,7 +8410,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">japonský jen</displayName>
 				<displayName count="other">japonských jenů</displayName>
 				<displayName>japonský jen</displayName>
-				<symbol alt="narrow" draft="contributed">¥</symbol>
+				<symbol alt="narrow">¥</symbol>
 				<symbol>JP¥</symbol>
 			</currency>
 			<currency type="KES">
@@ -8436,7 +8435,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">kambodžský riel</displayName>
 				<displayName count="other">kambodžských rielů</displayName>
 				<displayName>kambodžský riel</displayName>
-				<symbol alt="narrow" draft="contributed">៛</symbol>
+				<symbol alt="narrow">៛</symbol>
 				<symbol>KHR</symbol>
 			</currency>
 			<currency type="KMF">
@@ -8479,7 +8478,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">jihokorejský won</displayName>
 				<displayName count="other">jihokorejských wonů</displayName>
 				<displayName>jihokorejský won</displayName>
-				<symbol alt="narrow" draft="contributed">₩</symbol>
+				<symbol alt="narrow">₩</symbol>
 				<symbol>₩</symbol>
 			</currency>
 			<currency type="KWD">
@@ -8496,7 +8495,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">kajmanský dolar</displayName>
 				<displayName count="other">kajmanských dolarů</displayName>
 				<displayName>kajmanský dolar</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>KYD</symbol>
 			</currency>
 			<currency type="KZT">
@@ -8505,7 +8504,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">kazašské tenge</displayName>
 				<displayName count="other">kazašských tenge</displayName>
 				<displayName>kazašské tenge</displayName>
-				<symbol alt="narrow" draft="contributed">₸</symbol>
+				<symbol alt="narrow">₸</symbol>
 				<symbol>KZT</symbol>
 			</currency>
 			<currency type="LAK">
@@ -8514,7 +8513,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">laoský kip</displayName>
 				<displayName count="other">laoských kipů</displayName>
 				<displayName>laoský kip</displayName>
-				<symbol alt="narrow" draft="contributed">₭</symbol>
+				<symbol alt="narrow">₭</symbol>
 				<symbol>LAK</symbol>
 			</currency>
 			<currency type="LBP">
@@ -8541,7 +8540,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">liberijský dolar</displayName>
 				<displayName count="other">liberijských dolarů</displayName>
 				<displayName>liberijský dolar</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>LRD</symbol>
 			</currency>
 			<currency type="LSL">
@@ -8714,7 +8713,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">mongolský tugrik</displayName>
 				<displayName count="other">mongolských tugriků</displayName>
 				<displayName>mongolský tugrik</displayName>
-				<symbol alt="narrow" draft="contributed">₮</symbol>
+				<symbol alt="narrow">₮</symbol>
 				<symbol>MNT</symbol>
 			</currency>
 			<currency type="MOP">
@@ -8788,7 +8787,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">mexické peso</displayName>
 				<displayName count="other">mexických pes</displayName>
 				<displayName>mexické peso</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>MX$</symbol>
 			</currency>
 			<currency type="MXP">
@@ -8846,7 +8845,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">namibijský dolar</displayName>
 				<displayName count="other">namibijských dolarů</displayName>
 				<displayName>namibijský dolar</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>NAD</symbol>
 			</currency>
 			<currency type="NGN">
@@ -8855,7 +8854,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">nigerijská naira</displayName>
 				<displayName count="other">nigerijských nair</displayName>
 				<displayName>nigerijská naira</displayName>
-				<symbol alt="narrow" draft="contributed">₦</symbol>
+				<symbol alt="narrow">₦</symbol>
 				<symbol>NGN</symbol>
 			</currency>
 			<currency type="NIC">
@@ -8907,7 +8906,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">novozélandský dolar</displayName>
 				<displayName count="other">novozélandských dolarů</displayName>
 				<displayName>novozélandský dolar</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>NZ$</symbol>
 			</currency>
 			<currency type="OMR">
@@ -8964,7 +8963,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">filipínské peso</displayName>
 				<displayName count="other">filipínských pes</displayName>
 				<displayName>filipínské peso</displayName>
-				<symbol alt="narrow" draft="contributed">₱</symbol>
+				<symbol alt="narrow">₱</symbol>
 				<symbol>PHP</symbol>
 			</currency>
 			<currency type="PKR">
@@ -9007,7 +9006,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">paraguajské guarani</displayName>
 				<displayName count="other">paraguajských guarani</displayName>
 				<displayName>paraguajské guarani</displayName>
-				<symbol alt="narrow" draft="contributed">₲</symbol>
+				<symbol alt="narrow">₲</symbol>
 				<symbol>PYG</symbol>
 			</currency>
 			<currency type="QAR">
@@ -9065,7 +9064,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">ruský rubl (1991–1998)</displayName>
 				<displayName count="other">ruských rublů (1991–1998)</displayName>
 				<displayName>ruský rubl (1991–1998)</displayName>
-				<symbol alt="narrow" draft="contributed">р.</symbol>
+				<symbol alt="narrow">р.</symbol>
 				<symbol>RUR</symbol>
 			</currency>
 			<currency type="RWF">
@@ -9091,7 +9090,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">šalamounský dolar</displayName>
 				<displayName count="other">šalamounských dolarů</displayName>
 				<displayName>šalamounský dolar</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>SBD</symbol>
 			</currency>
 			<currency type="SCR">
@@ -9141,7 +9140,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">singapurský dolar</displayName>
 				<displayName count="other">singapurských dolarů</displayName>
 				<displayName>singapurský dolar</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>SGD</symbol>
 			</currency>
 			<currency type="SHP">
@@ -9191,7 +9190,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">surinamský dolar</displayName>
 				<displayName count="other">surinamských dolarů</displayName>
 				<displayName>surinamský dolar</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>SRD</symbol>
 			</currency>
 			<currency type="SRG">
@@ -9208,7 +9207,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">jihosúdánská libra</displayName>
 				<displayName count="other">jihosúdánských liber</displayName>
 				<displayName>jihosúdánská libra</displayName>
-				<symbol alt="narrow" draft="contributed">£</symbol>
+				<symbol alt="narrow">£</symbol>
 				<symbol>SSP</symbol>
 			</currency>
 			<currency type="STD">
@@ -9333,7 +9332,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">turecká lira</displayName>
 				<displayName count="other">tureckých lir</displayName>
 				<displayName>turecká lira</displayName>
-				<symbol alt="narrow" draft="contributed">₺</symbol>
+				<symbol alt="narrow">₺</symbol>
 				<symbol alt="variant">TL</symbol>
 				<symbol>TRY</symbol>
 			</currency>
@@ -9343,7 +9342,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">trinidadský dolar</displayName>
 				<displayName count="other">trinidadských dolarů</displayName>
 				<displayName>trinidadský dolar</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>TTD</symbol>
 			</currency>
 			<currency type="TWD">
@@ -9352,7 +9351,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">tchajwanský dolar</displayName>
 				<displayName count="other">tchajwanských dolarů</displayName>
 				<displayName>tchajwanský dolar</displayName>
-				<symbol alt="narrow" draft="contributed">NT$</symbol>
+				<symbol alt="narrow">NT$</symbol>
 				<symbol>NT$</symbol>
 			</currency>
 			<currency type="TZS">
@@ -9369,7 +9368,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">ukrajinská hřivna</displayName>
 				<displayName count="other">ukrajinských hřiven</displayName>
 				<displayName>ukrajinská hřivna</displayName>
-				<symbol alt="narrow" draft="contributed">₴</symbol>
+				<symbol alt="narrow">₴</symbol>
 				<symbol>UAH</symbol>
 			</currency>
 			<currency type="UAK">
@@ -9402,7 +9401,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">americký dolar</displayName>
 				<displayName count="other">amerických dolarů</displayName>
 				<displayName>americký dolar</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>US$</symbol>
 			</currency>
 			<currency type="USN">
@@ -9443,7 +9442,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">uruguayské peso</displayName>
 				<displayName count="other">uruguayských pes</displayName>
 				<displayName>uruguayské peso</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>UYU</symbol>
 			</currency>
 			<currency type="UZS">
@@ -9477,7 +9476,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">vietnamský dong</displayName>
 				<displayName count="other">vietnamských dongů</displayName>
 				<displayName>vietnamský dong</displayName>
-				<symbol alt="narrow" draft="contributed">₫</symbol>
+				<symbol alt="narrow">₫</symbol>
 				<symbol>VND</symbol>
 			</currency>
 			<currency type="VNN">
@@ -9910,7 +9909,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<miscPatterns numberSystem="vaii">
 			<alias source="locale" path="../miscPatterns[@numberSystem='latn']"/>
 		</miscPatterns>
-		<minimumGroupingDigits draft="contributed">1</minimumGroupingDigits>
+		<minimumGroupingDigits>1</minimumGroupingDigits>
 	</numbers>
 	<units>
 		<unitLength type="long">
@@ -12312,6 +12311,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="one">{0} °F</unitPattern>
 				<unitPattern count="other">{0} °F</unitPattern>
 			</unit>
+			<unit type="temperature-generic">
+				<displayName>°</displayName>
+				<unitPattern count="other">{0}°</unitPattern>
+			</unit>
 			<unit type="temperature-kelvin">
 				<displayName>K</displayName>
 				<unitPattern count="few">{0} K</unitPattern>
@@ -12533,30 +12536,34 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*😁😂😃😄😅😆😉😊😋😌😍😎😏😐
 				<*😑😒😓😔😕😖😗😘😙😚😛😜😝😞😟😠
 				<*😡😢😣😤😥😦😧😨😩😪😫😬😭😮😯😰
-				<*😱😲😳😴😵😶😷😇😈👿👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
-				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
+				<*😱😲😳😴😵😶😷😇😈👿🙃🙄🤐
+				<*🤑🤒🤓🤔🤕🤗🤖👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
+				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭🏻🏼🏽🏾🏿👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
 				<*✍🖐
 				<*💅💪👣👀
 				<*👁👂👃👅💀
 				<*☠
-				<*💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
+				<*🤘💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
 				<*👡👢👑👒🎩⛑🐵🙈🙉🙊🐒🐶🐕🐩🐺🐱😸😹😺😻😼😽😾😿🙀
 				<*🐈🐯🐅🐆🐴🐎🐮🐂🐃🐄🐷🐖🐗🐽🐏🐑🐐
 				<*🐪🐫🐘🐭🐁🐀
 				<*🐹🐰
 				<*🐇🐿🐻🐨🐼🐾🐔🐓🐣🐤🐥🐦🐧🕊🐸🐊🐍🐢🐲🐉🐳🐋🐬🐟🐠
-				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸💩👹👺👻👽👾💐
-				<*🌸💮🏵🌹🌺🌻🌼🌷⸙☘🌱🌲🌳🌴🌵🌾🌿🍀
+				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸🦀
+				<*🦁🦂💩👹👺👻👽👾💐
+				<*🌸💮🏵🌹🌺🌻🌼🌷☘🌱🌲🌳🌴🌵🌾🌿🍀
 				<*🍁🍂🍃🍇🍈🍉🍊🍋🍌🍍🍎🍏🍐
 				<*🍑🍒🍓🍅🍆🌽🌶🍄🌰
 				<*🍞🍖🍗🍔🍟🍕🍲🍱🍘🍙🍚🍛🍜🍝🍠
 				<*🍢🍣🍤🍥🍡🍦🍧🍨🍩🍪🎂🍰
-				<*🍫🍬🍭🍮🍯☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🌍🌎🌏🌐
+				<*🍫🍬🍭🍮🍯🌭🌮🌯🍾🍿🦃🦄🧀
+				<*☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🏺🌍🌎🌏🌐
 				<*🗺🏔⛰
 				<*🌋🗻🏕🏖🏜🏝🏞🏟🏛🏗🏘🏙🏚🏠
 				<*🏡⛪🏢🏣🏤🏥🏦🏨🏩🏪🏫🏬🏭🏯🏰
 				<*💒🗼🗽🗾⛲⛺🌁🌃🌄🌅🌆🌇🌉🌊♨🗿🌌🎠
 				<*🎡🎢💈🎪🎫🎭🎰
+				<*🕋🕌🕍🛐
 				<*🚂🚃🚄🚅🚆🚇🚈🚉🚊🚝🚞🚋🚌🚍🚎🚏🚐
 				<*🚑🚒🚓🚔🚕🚖🚗🚘🚙🚚🚛🚜🚲🚳🚴🚵🏎🏍⛽🛣🛤🚨⎈⚓⛵🚣🚤🛳⛴🛥🚢✈🛩🛫🛬💺🚁🚟🚠
 				<*🚡🚀
@@ -12574,7 +12581,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*🌈🌂☂☔⛱❄☃⛄🌟🌠
 				<*☄🎲♠
 				<*♥♦♣🃏🀄🎮🕹⚽⚾🏀
-				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🔇🔈🔉🔊📢📣📯🔔🔕🔀
+				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🏏🏐
+				<*🏑🏒🏓🏸🔇🔈🔉🔊📢📣📯🔔🔕🔀
 				<*🔁🔂▶⏩⏭⏯◀
 				<*⏪⏮🔼⏫🔽⏬⏸⏹⏺⏏🎼🎵🎶🎙🎚🎛🎤🎧🎷🎸🎹🎺🎻📻📱📳📴📲📵☎📞
 				<#⃣
@@ -12598,7 +12606,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*💼📁📂🗂📅📆🗒🗓📇📈📉📊📋📌📍📎🖇📏📐
 				<*📛✂🗃🗄🗑🔒🔓🔏🔐
 				<*🔑🗝🔨⛏⚒🛠
-				<*🔧🔩⚙🗜⚗⚖💉🗡🔪⚔🔫🛡🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
+				<*🔧🔩⚙🗜⚗⚖💉📿🕎🗡🔪⚔🔫🛡🏹🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
 				<*⚱🔰
 				<*💯📡🏁🏳🏴🚩
 				<*🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿⬆↗➡↘⬇↙⬅↖↕↔↩↪⤴⤵🔃🔄🔙🔚🔛🔜🔝🕉✡☸☯✝☦⛩☪☮☢☣♻⚡⭐

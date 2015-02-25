@@ -5,8 +5,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 -->
 <ldml>
 	<identity>
-		<version number="$Revision: 11173 $"/>
-		<generation date="$Date: 2015-02-10 23:51 +0000 $"/>
+		<version number="$Revision: 11294 $"/>
+		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="nl"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity source="cldr" draft="approved"/>
@@ -698,9 +698,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<script type="Kthi">Kaithi</script>
 			<script type="Lana">Lanna</script>
 			<script type="Laoo">Laotiaans</script>
-			<script type="Latf">Gotisch Latijn</script>
-			<script type="Latg">Gaelisch Latijn</script>
-			<script type="Latn">Latijn</script>
+			<script type="Latf">Gotisch Latijns</script>
+			<script type="Latg">Gaelisch Latijns</script>
+			<script type="Latn">Latijns</script>
 			<script type="Lepc">Lepcha</script>
 			<script type="Limb">Limbu</script>
 			<script type="Lina">Lineair A</script>
@@ -1558,6 +1558,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<dateTimeFormats>
 					<availableFormats>
 						<dateFormatItem id="Ed">E d</dateFormatItem>
+						<dateFormatItem id="Gy">U</dateFormatItem>
 						<dateFormatItem id="GyMMM">MMM U</dateFormatItem>
 						<dateFormatItem id="GyMMMEd">E d MMM U</dateFormatItem>
 						<dateFormatItem id="GyMMMd">d MMM U</dateFormatItem>
@@ -1566,6 +1567,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MMMMd" draft="contributed">d MMMM</dateFormatItem>
 						<dateFormatItem id="MMMd" draft="contributed">d MMM</dateFormatItem>
 						<dateFormatItem id="Md" draft="contributed">d-M</dateFormatItem>
+						<dateFormatItem id="y" draft="contributed">U</dateFormatItem>
+						<dateFormatItem id="yMd" draft="contributed">y-MM-dd</dateFormatItem>
+						<dateFormatItem id="yyyy" draft="contributed">U</dateFormatItem>
 						<dateFormatItem id="yyyyM" draft="contributed">M-y</dateFormatItem>
 						<dateFormatItem id="yyyyMEd">E d-M-y</dateFormatItem>
 						<dateFormatItem id="yyyyMMM" draft="contributed">MMM U</dateFormatItem>
@@ -2662,9 +2666,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<month type="7">Adar</month>
 							<month type="8">Nisan</month>
 							<month type="9">Ijar</month>
-						</monthWidth>
-						<monthWidth type="narrow">
-							<month type="7" yeartype="leap" draft="contributed">7</month>
 						</monthWidth>
 						<monthWidth type="wide">
 							<month type="1">Tisjrie</month>
@@ -4132,9 +4133,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<zone type="Asia/Choibalsan">
 				<exemplarCity draft="contributed">Choibalsan</exemplarCity>
 			</zone>
-			<zone type="Asia/Chongqing">
-				<exemplarCity draft="contributed">Chongqing</exemplarCity>
-			</zone>
 			<zone type="Asia/Colombo">
 				<exemplarCity draft="contributed">Colombo</exemplarCity>
 			</zone>
@@ -4155,9 +4153,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Gaza">
 				<exemplarCity draft="contributed">Gaza</exemplarCity>
-			</zone>
-			<zone type="Asia/Harbin">
-				<exemplarCity draft="contributed">Harbin</exemplarCity>
 			</zone>
 			<zone type="Asia/Hebron">
 				<exemplarCity draft="contributed">Hebron</exemplarCity>
@@ -4188,9 +4183,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Karachi">
 				<exemplarCity draft="contributed">Karachi</exemplarCity>
-			</zone>
-			<zone type="Asia/Kashgar">
-				<exemplarCity draft="contributed">Kashgar</exemplarCity>
 			</zone>
 			<zone type="Asia/Khandyga">
 				<exemplarCity draft="contributed">Khandyga</exemplarCity>

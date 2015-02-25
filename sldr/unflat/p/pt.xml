@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright © 1991-2014 Unicode, Inc.
+<!-- Copyright © 1991-2015 Unicode, Inc.
 CLDR data files are interpreted according to the LDML specification (http://unicode.org/reports/tr35/)
 For terms of use, see http://www.unicode.org/copyright.html
 -->
 <ldml>
 	<identity>
-		<version number="$Revision: 11167 $"/>
-		<generation date="$Date: 2015-02-06 16:48 +0000 $"/>
+		<version number="$Revision: 11294 $"/>
+		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="pt"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity source="cldr" draft="approved"/>
@@ -74,7 +74,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<language type="bs">bósnio</language>
 			<language type="bss" draft="contributed">akoose</language>
 			<language type="bua">buriat</language>
-			<language type="bug">buguinês</language>
+			<language type="bug">buginês</language>
 			<language type="bum" draft="contributed">bulu</language>
 			<language type="byn">blin</language>
 			<language type="byv" draft="contributed">medumba</language>
@@ -119,7 +119,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<language type="din">dinka</language>
 			<language type="dje">zarma</language>
 			<language type="doi">dogri</language>
-			<language type="dsb">sérvio baixo</language>
+			<language type="dsb">sorábio baixo</language>
 			<language type="dua">duala</language>
 			<language type="dum">holandês médio</language>
 			<language type="dv">divehi</language>
@@ -200,7 +200,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<language type="hmn">hmong</language>
 			<language type="ho">hiri motu</language>
 			<language type="hr">croata</language>
-			<language type="hsb">sorábio superior</language>
+			<language type="hsb">sorábio alto</language>
 			<language type="ht">haitiano</language>
 			<language type="hu">húngaro</language>
 			<language type="hup">hupa</language>
@@ -339,7 +339,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<language type="naq">nama</language>
 			<language type="nb">bokmål norueguês</language>
 			<language type="nd">ndebele do norte</language>
-			<language type="nds">baixo-alemão</language>
+			<language type="nds">baixo alemão</language>
 			<language type="ne">nepali</language>
 			<language type="new">newari</language>
 			<language type="ng">dongo</language>
@@ -401,7 +401,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<language type="rom">romani</language>
 			<language type="ru">russo</language>
 			<language type="rup">aromeno</language>
-			<language type="rw">ruanda</language>
+			<language type="rw">kinyarwanda</language>
 			<language type="rwk">rwa</language>
 			<language type="sa">sânscrito</language>
 			<language type="sad">sandawe</language>
@@ -488,8 +488,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<language type="tw">twi</language>
 			<language type="twq">tasawaq</language>
 			<language type="ty">taitiano</language>
-			<language type="tyv">tuvinian</language>
-			<language type="tzm">tamazight</language>
+			<language type="tyv">tuviniano</language>
+			<language type="tzm">tamazight do Atlas Central</language>
 			<language type="udm">udmurt</language>
 			<language type="ug">uigur</language>
 			<language type="uga">ugarítico</language>
@@ -602,8 +602,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<script type="Latn">latim</script>
 			<script type="Lepc" draft="contributed">lepcha</script>
 			<script type="Limb">limbu</script>
-			<script type="Lina">A linear</script>
-			<script type="Linb">B linear</script>
+			<script type="Lina">linear A</script>
+			<script type="Linb">linear B</script>
 			<script type="Lisu" draft="contributed">lisu</script>
 			<script type="Lyci">lício</script>
 			<script type="Lydi">lídio</script>
@@ -1001,7 +1001,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<variant type="PINYIN">romanização Pinyin</variant>
 			<variant type="POLYTON">politônico</variant>
 			<variant type="POSIX">computador</variant>
-			<variant type="REVISED">Ortografia Revisada</variant>
+			<variant type="REVISED">ortografia revisada</variant>
 			<variant type="ROZAJ">resiano</variant>
 			<variant type="SAAHO">saho</variant>
 			<variant type="SCOTLAND">inglês padrão escocês</variant>
@@ -1046,7 +1046,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<type type="dictionary" key="collation">Ordem do dicionário</type>
 			<type type="ducet" key="collation">Ordem padrão do Unicode</type>
 			<type type="ethi" key="numbers">Algarismos etiopianos</type>
-			<type type="ethiopic" key="calendar">Calendário etiopiano</type>
+			<type type="ethiopic" key="calendar">Calendário etiópico</type>
 			<type type="ethiopic-amete-alem" key="calendar">Calendário Amete Alem da Etiópia</type>
 			<type type="finance" key="numbers" draft="contributed">Numerais financeiros</type>
 			<type type="fullwide" key="numbers">Algarismos em extensão total</type>
@@ -1166,6 +1166,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 	<characters>
 		<exemplarCharacters type="auxiliary">[ª ă å ä ā æ è ĕ ë ē ì ĭ î ï ī ñ º ŏ ö ø ō œ ù ŭ û ü ū ÿ]</exemplarCharacters>
 		<exemplarCharacters type="index">[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]</exemplarCharacters>
+		<exemplarCharacters type="punctuation">[\- ‐ – — , ; \: ! ? . … ' ‘ ’ " “ ” ( ) \[ \] § @ * / \&amp; # † ‡ ′ ″]</exemplarCharacters>
 		<exemplarCharacters>[a á à â ã b c ç d e é ê f g h i í j k l m n o ó ò ô õ p q r s t u ú v w x y z]</exemplarCharacters>
 		<ellipsis type="medial">{0}… {1}</ellipsis>
 		<ellipsis type="word-final">{0}…</ellipsis>
@@ -1798,8 +1799,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="GyMMM">MMM 'de' y G</dateFormatItem>
 						<dateFormatItem id="GyMMMEd">E, d 'de' MMM 'de' y G</dateFormatItem>
 						<dateFormatItem id="GyMMMd">d 'de' MMM 'de' y G</dateFormatItem>
-						<dateFormatItem id="HHmm">HH:mm</dateFormatItem>
-						<dateFormatItem id="HHmmss">HH:mm:ss</dateFormatItem>
 						<dateFormatItem id="MEd">E, dd/MM</dateFormatItem>
 						<dateFormatItem id="MMMEd">E, d 'de' MMM</dateFormatItem>
 						<dateFormatItem id="MMMd">d 'de' MMM</dateFormatItem>
@@ -1925,9 +1924,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<month type="7" yeartype="leap" draft="contributed">Adar II</month>
 							<month type="8" draft="contributed">Nisan</month>
 							<month type="9" draft="contributed">Iyar</month>
-						</monthWidth>
-						<monthWidth type="wide">
-							<month type="7" yeartype="leap" draft="contributed">Adar II</month>
 						</monthWidth>
 					</monthContext>
 					<monthContext type="stand-alone">
@@ -3153,9 +3149,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<zone type="Asia/Choibalsan">
 				<exemplarCity>Choibalsan</exemplarCity>
 			</zone>
-			<zone type="Asia/Chongqing">
-				<exemplarCity>Chongqing</exemplarCity>
-			</zone>
 			<zone type="Asia/Colombo">
 				<exemplarCity>Colombo</exemplarCity>
 			</zone>
@@ -3176,9 +3169,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Gaza">
 				<exemplarCity>Gaza</exemplarCity>
-			</zone>
-			<zone type="Asia/Harbin">
-				<exemplarCity>Harbin</exemplarCity>
 			</zone>
 			<zone type="Asia/Hebron">
 				<exemplarCity>Hebron</exemplarCity>
@@ -3209,9 +3199,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Karachi">
 				<exemplarCity>Carachi</exemplarCity>
-			</zone>
-			<zone type="Asia/Kashgar">
-				<exemplarCity>Kashgar</exemplarCity>
 			</zone>
 			<zone type="Asia/Katmandu">
 				<exemplarCity>Catmandu</exemplarCity>
@@ -7159,12 +7146,12 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</unit>
 			<unit type="temperature-celsius">
 				<displayName draft="contributed">°C</displayName>
-				<unitPattern count="one">{0} °C</unitPattern>
-				<unitPattern count="other">{0} °C</unitPattern>
+				<unitPattern count="one">{0}°C</unitPattern>
+				<unitPattern count="other">{0}°C</unitPattern>
 			</unit>
 			<unit type="temperature-fahrenheit">
-				<unitPattern count="one">{0} °F</unitPattern>
-				<unitPattern count="other">{0} °F</unitPattern>
+				<unitPattern count="one">{0}°F</unitPattern>
+				<unitPattern count="other">{0}°F</unitPattern>
 			</unit>
 			<unit type="volume-cubic-kilometer">
 				<unitPattern count="one">{0} km³</unitPattern>

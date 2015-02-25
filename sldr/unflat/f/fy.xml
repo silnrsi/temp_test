@@ -1334,6 +1334,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<dateTimeFormats>
 					<availableFormats>
 						<dateFormatItem id="Ed" draft="contributed">E d</dateFormatItem>
+						<dateFormatItem id="Gy" draft="contributed">U</dateFormatItem>
 						<dateFormatItem id="GyMMM" draft="contributed">MMM U</dateFormatItem>
 						<dateFormatItem id="GyMMMEd" draft="contributed">E d MMM U</dateFormatItem>
 						<dateFormatItem id="GyMMMd" draft="contributed">d MMM U</dateFormatItem>
@@ -1342,6 +1343,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MMMMd" draft="contributed">d MMMM</dateFormatItem>
 						<dateFormatItem id="MMMd" draft="contributed">d MMM</dateFormatItem>
 						<dateFormatItem id="Md" draft="contributed">d-M</dateFormatItem>
+						<dateFormatItem id="y" draft="contributed">U</dateFormatItem>
+						<dateFormatItem id="yyyy" draft="contributed">U</dateFormatItem>
 						<dateFormatItem id="yyyyM" draft="contributed">M-y</dateFormatItem>
 						<dateFormatItem id="yyyyMEd" draft="contributed">E d-M-y</dateFormatItem>
 						<dateFormatItem id="yyyyMMM" draft="contributed">MMM U</dateFormatItem>

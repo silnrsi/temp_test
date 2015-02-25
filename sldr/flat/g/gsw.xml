@@ -1268,23 +1268,23 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<dateFormats>
 					<dateFormatLength type="full">
 						<dateFormat>
-							<pattern>U MMMM d, EEEE</pattern>
+							<pattern>r(U) MMMM d, EEEE</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="long">
 						<dateFormat>
-							<pattern>U MMMM d</pattern>
+							<pattern>r(U) MMMM d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern>U MMM d</pattern>
+							<pattern>r MMM d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
 							<!-- using y here to be short in locales that may not understand U anyway -->
-							<pattern>y-MM-dd</pattern>
+							<pattern>r-MM-dd</pattern>
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
@@ -1315,10 +1315,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<availableFormats>
 						<dateFormatItem id="E">ccc</dateFormatItem>
 						<dateFormatItem id="Ed">d, E</dateFormatItem>
-						<dateFormatItem id="Gy">U</dateFormatItem>
-						<dateFormatItem id="GyMMM">U MMM</dateFormatItem>
-						<dateFormatItem id="GyMMMEd">U MMM d, E</dateFormatItem>
-						<dateFormatItem id="GyMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="Gy">r U</dateFormatItem>
+						<dateFormatItem id="GyMMM">r(U) MMM</dateFormatItem>
+						<dateFormatItem id="GyMMMEd">r(U) MMM d, E</dateFormatItem>
+						<dateFormatItem id="GyMMMd">r MMM d</dateFormatItem>
 						<dateFormatItem id="H">HH</dateFormatItem>
 						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
@@ -1328,22 +1328,26 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
+						<dateFormatItem id="UM">U MM</dateFormatItem>
+						<dateFormatItem id="UMMM">U MMM</dateFormatItem>
+						<dateFormatItem id="UMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="UMd">U MM-d</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
 						<dateFormatItem id="h">h a</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
-						<dateFormatItem id="y">U</dateFormatItem>
-						<dateFormatItem id="yMd">y-MM-dd</dateFormatItem>
-						<dateFormatItem id="yyyy">U</dateFormatItem>
-						<dateFormatItem id="yyyyM">y-MM</dateFormatItem>
-						<dateFormatItem id="yyyyMEd">y-MM-dd, E</dateFormatItem>
-						<dateFormatItem id="yyyyMMM">U MMM</dateFormatItem>
-						<dateFormatItem id="yyyyMMMEd">U MMM d, E</dateFormatItem>
-						<dateFormatItem id="yyyyMMMd">U MMM d</dateFormatItem>
-						<dateFormatItem id="yyyyMd">y-MM-dd</dateFormatItem>
-						<dateFormatItem id="yyyyQQQ">U QQQ</dateFormatItem>
-						<dateFormatItem id="yyyyQQQQ">U QQQQ</dateFormatItem>
+						<dateFormatItem id="y">r(U)</dateFormatItem>
+						<dateFormatItem id="yMd">r-MM-dd</dateFormatItem>
+						<dateFormatItem id="yyyy">r(U)</dateFormatItem>
+						<dateFormatItem id="yyyyM">r-MM</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">r-MM-dd, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">r(U) MMM</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEd">r(U) MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMd">r MMM d</dateFormatItem>
+						<dateFormatItem id="yyyyMd">r-MM-dd</dateFormatItem>
+						<dateFormatItem id="yyyyQQQ">r(U) QQQ</dateFormatItem>
+						<dateFormatItem id="yyyyQQQQ">r(U) QQQQ</dateFormatItem>
 					</availableFormats>
 					<appendItems>
 						<appendItem request="Day">{0} ({2}: {1})</appendItem>
@@ -2221,6 +2225,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="HHmmss">HH:mm:ss</dateFormatItem>
 						<dateFormatItem id="Hm">H:mm</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="Hmsv">HH:mm:ss v</dateFormatItem>
+						<dateFormatItem id="Hmv">HH:mm v</dateFormatItem>
 						<dateFormatItem id="M">L</dateFormatItem>
 						<dateFormatItem id="MEd">E, d.M.</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
@@ -2235,6 +2241,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="h">h a</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
+						<dateFormatItem id="hmsv">h:mm:ss a v</dateFormatItem>
+						<dateFormatItem id="hmv">h:mm a v</dateFormatItem>
 						<dateFormatItem id="mmss">mm:ss</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y">y</dateFormatItem>
@@ -6775,12 +6783,12 @@ For terms of use, see http://www.unicode.org/copyright.html
 		</unitLength>
 		<unitLength type="short">
 			<compoundUnit type="per">
-				<compoundUnitPattern draft="unconfirmed">{0}/{1}</compoundUnitPattern>
+				<compoundUnitPattern>{0}/{1}</compoundUnitPattern>
 			</compoundUnit>
 			<unit type="acceleration-g-force">
 				<displayName draft="provisional">-fachi Erdbeschlünigung</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} G</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} G</unitPattern>
+				<unitPattern count="other">{0} G</unitPattern>
 			</unit>
 			<unit type="acceleration-meter-per-second-squared">
 				<displayName>m/s²</displayName>
@@ -6789,17 +6797,17 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="angle-arc-minute">
 				<displayName draft="provisional">Winkelminute</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0}′</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0}′</unitPattern>
+				<unitPattern count="other">{0}′</unitPattern>
 			</unit>
 			<unit type="angle-arc-second">
 				<displayName draft="provisional">Winkelsekunde</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0}″</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0}″</unitPattern>
+				<unitPattern count="other">{0}″</unitPattern>
 			</unit>
 			<unit type="angle-degree">
 				<displayName draft="provisional">Grad</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0}°</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0}°</unitPattern>
+				<unitPattern count="other">{0}°</unitPattern>
 			</unit>
 			<unit type="angle-radian">
 				<displayName>rad</displayName>
@@ -6813,7 +6821,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="area-hectare">
 				<displayName draft="provisional">Hektar</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} ha</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} ha</unitPattern>
+				<unitPattern count="other">{0} ha</unitPattern>
 			</unit>
 			<unit type="area-square-centimeter">
 				<displayName>cm²</displayName>
@@ -6831,12 +6839,12 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="area-square-kilometer">
 				<displayName draft="provisional">Quadratkilometer</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} km²</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} km²</unitPattern>
+				<unitPattern count="other">{0} km²</unitPattern>
 			</unit>
 			<unit type="area-square-meter">
 				<displayName draft="provisional">Quadratmeter</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} m²</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} m²</unitPattern>
+				<unitPattern count="other">{0} m²</unitPattern>
 			</unit>
 			<unit type="area-square-mile">
 				<displayName draft="provisional">Quadratmeile</displayName>
@@ -6898,12 +6906,12 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="duration-day">
 				<displayName draft="provisional">Tääg</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} d</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} d</unitPattern>
+				<unitPattern count="other">{0} d</unitPattern>
 			</unit>
 			<unit type="duration-hour">
 				<displayName draft="provisional">Schtunde</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} h</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} h</unitPattern>
+				<unitPattern count="other">{0} h</unitPattern>
 				<perUnitPattern>{0}/h</perUnitPattern>
 			</unit>
 			<unit type="duration-microsecond">
@@ -6913,12 +6921,12 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="duration-millisecond">
 				<displayName draft="provisional">Millisekunde</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} ms</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} ms</unitPattern>
+				<unitPattern count="other">{0} ms</unitPattern>
 			</unit>
 			<unit type="duration-minute">
 				<displayName draft="provisional">Minuute</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} min</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} min</unitPattern>
+				<unitPattern count="other">{0} min</unitPattern>
 			</unit>
 			<unit type="duration-month">
 				<displayName draft="provisional">Mönet</displayName>
@@ -6931,7 +6939,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="duration-second">
 				<displayName draft="provisional">Sekunde</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} s</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} s</unitPattern>
+				<unitPattern count="other">{0} s</unitPattern>
 				<perUnitPattern>{0}/s</perUnitPattern>
 			</unit>
 			<unit type="duration-week">
@@ -7005,7 +7013,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="length-centimeter">
 				<displayName draft="provisional">Zentimeter</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} cm</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} cm</unitPattern>
+				<unitPattern count="other">{0} cm</unitPattern>
 			</unit>
 			<unit type="length-decimeter">
 				<displayName>dm</displayName>
@@ -7032,7 +7040,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="length-kilometer">
 				<displayName draft="provisional">Kilometer</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} km</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} km</unitPattern>
+				<unitPattern count="other">{0} km</unitPattern>
 			</unit>
 			<unit type="length-light-year">
 				<displayName draft="provisional">Liechtjahr</displayName>
@@ -7042,7 +7050,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="length-meter">
 				<displayName draft="provisional">Meter</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} m</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} m</unitPattern>
+				<unitPattern count="other">{0} m</unitPattern>
 			</unit>
 			<unit type="length-micrometer">
 				<displayName>µm</displayName>
@@ -7056,7 +7064,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="length-millimeter">
 				<displayName draft="provisional">Millimeter</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} mm</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} mm</unitPattern>
+				<unitPattern count="other">{0} mm</unitPattern>
 			</unit>
 			<unit type="length-nanometer">
 				<displayName>nm</displayName>
@@ -7073,7 +7081,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="length-picometer">
 				<displayName draft="provisional">Pikometer</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} pm</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} pm</unitPattern>
+				<unitPattern count="other">{0} pm</unitPattern>
 			</unit>
 			<unit type="length-yard">
 				<displayName draft="provisional">Yard</displayName>
@@ -7091,12 +7099,12 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="mass-gram">
 				<displayName draft="provisional">Gramm</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} g</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} g</unitPattern>
+				<unitPattern count="other">{0} g</unitPattern>
 			</unit>
 			<unit type="mass-kilogram">
 				<displayName draft="provisional">Kilogramm</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} kg</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} kg</unitPattern>
+				<unitPattern count="other">{0} kg</unitPattern>
 			</unit>
 			<unit type="mass-metric-ton">
 				<displayName>t</displayName>
@@ -7144,7 +7152,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="power-kilowatt">
 				<displayName draft="provisional">Kilowatt</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} kW</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} kW</unitPattern>
+				<unitPattern count="other">{0} kW</unitPattern>
 			</unit>
 			<unit type="power-megawatt">
 				<displayName>MW</displayName>
@@ -7157,12 +7165,12 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="power-watt">
 				<displayName draft="provisional">Watt</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} W</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} W</unitPattern>
+				<unitPattern count="other">{0} W</unitPattern>
 			</unit>
 			<unit type="pressure-hectopascal">
 				<displayName draft="provisional">Hektopascal</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} hPa</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} hPa</unitPattern>
+				<unitPattern count="other">{0} hPa</unitPattern>
 			</unit>
 			<unit type="pressure-inch-hg">
 				<displayName draft="provisional">Zoll Quecksilbersüüle</displayName>
@@ -7172,7 +7180,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="pressure-millibar">
 				<displayName draft="provisional">Millibar</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} mbar</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} mbar</unitPattern>
+				<unitPattern count="other">{0} mbar</unitPattern>
 			</unit>
 			<unit type="pressure-millimeter-of-mercury">
 				<displayName>mm Hg</displayName>
@@ -7189,12 +7197,12 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="speed-kilometer-per-hour">
 				<displayName draft="provisional">Kilometer pro Stund</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} km/h</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} km/h</unitPattern>
+				<unitPattern count="other">{0} km/h</unitPattern>
 			</unit>
 			<unit type="speed-meter-per-second">
 				<displayName draft="provisional">Meter pro Sekunde</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} m/s</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} m/s</unitPattern>
+				<unitPattern count="other">{0} m/s</unitPattern>
 			</unit>
 			<unit type="speed-mile-per-hour">
 				<displayName draft="provisional">Meile pro Stund</displayName>
@@ -7204,12 +7212,16 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="temperature-celsius">
 				<displayName draft="provisional">Grad Celsius</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0}°C</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0}°C</unitPattern>
+				<unitPattern count="other">{0}°C</unitPattern>
 			</unit>
 			<unit type="temperature-fahrenheit">
 				<displayName draft="provisional">Grad Fahrenheit</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0}°F</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0}°F</unitPattern>
+				<unitPattern count="other">{0}°F</unitPattern>
+			</unit>
+			<unit type="temperature-generic">
+				<displayName>°</displayName>
+				<unitPattern count="other">{0}°</unitPattern>
 			</unit>
 			<unit type="temperature-kelvin">
 				<displayName>K</displayName>
@@ -7242,7 +7254,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="volume-cubic-kilometer">
 				<displayName draft="provisional">Kubikkilometer</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} km³</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} km³</unitPattern>
+				<unitPattern count="other">{0} km³</unitPattern>
 			</unit>
 			<unit type="volume-cubic-meter">
 				<displayName>m³</displayName>
@@ -7280,7 +7292,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="volume-liter">
 				<displayName draft="provisional">Liter</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} l</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} l</unitPattern>
+				<unitPattern count="other">{0} l</unitPattern>
 			</unit>
 			<unit type="volume-megaliter">
 				<displayName>ML</displayName>
@@ -7342,8 +7354,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<listPattern>
 			<listPatternPart type="2" draft="contributed">{0} und {1}</listPatternPart>
 			<listPatternPart type="end" draft="contributed">{0} und {1}</listPatternPart>
-			<listPatternPart type="middle" draft="unconfirmed">{0}, {1}</listPatternPart>
-			<listPatternPart type="start" draft="unconfirmed">{0}, {1}</listPatternPart>
+			<listPatternPart type="middle">{0}, {1}</listPatternPart>
+			<listPatternPart type="start">{0}, {1}</listPatternPart>
 		</listPattern>
 	</listPatterns>
 	<collations>
@@ -7356,30 +7368,34 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*😁😂😃😄😅😆😉😊😋😌😍😎😏😐
 				<*😑😒😓😔😕😖😗😘😙😚😛😜😝😞😟😠
 				<*😡😢😣😤😥😦😧😨😩😪😫😬😭😮😯😰
-				<*😱😲😳😴😵😶😷😇😈👿👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
-				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
+				<*😱😲😳😴😵😶😷😇😈👿🙃🙄🤐
+				<*🤑🤒🤓🤔🤕🤗🤖👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
+				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭🏻🏼🏽🏾🏿👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
 				<*✍🖐
 				<*💅💪👣👀
 				<*👁👂👃👅💀
 				<*☠
-				<*💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
+				<*🤘💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
 				<*👡👢👑👒🎩⛑🐵🙈🙉🙊🐒🐶🐕🐩🐺🐱😸😹😺😻😼😽😾😿🙀
 				<*🐈🐯🐅🐆🐴🐎🐮🐂🐃🐄🐷🐖🐗🐽🐏🐑🐐
 				<*🐪🐫🐘🐭🐁🐀
 				<*🐹🐰
 				<*🐇🐿🐻🐨🐼🐾🐔🐓🐣🐤🐥🐦🐧🕊🐸🐊🐍🐢🐲🐉🐳🐋🐬🐟🐠
-				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸💩👹👺👻👽👾💐
-				<*🌸💮🏵🌹🌺🌻🌼🌷⸙☘🌱🌲🌳🌴🌵🌾🌿🍀
+				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸🦀
+				<*🦁🦂💩👹👺👻👽👾💐
+				<*🌸💮🏵🌹🌺🌻🌼🌷☘🌱🌲🌳🌴🌵🌾🌿🍀
 				<*🍁🍂🍃🍇🍈🍉🍊🍋🍌🍍🍎🍏🍐
 				<*🍑🍒🍓🍅🍆🌽🌶🍄🌰
 				<*🍞🍖🍗🍔🍟🍕🍲🍱🍘🍙🍚🍛🍜🍝🍠
 				<*🍢🍣🍤🍥🍡🍦🍧🍨🍩🍪🎂🍰
-				<*🍫🍬🍭🍮🍯☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🌍🌎🌏🌐
+				<*🍫🍬🍭🍮🍯🌭🌮🌯🍾🍿🦃🦄🧀
+				<*☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🏺🌍🌎🌏🌐
 				<*🗺🏔⛰
 				<*🌋🗻🏕🏖🏜🏝🏞🏟🏛🏗🏘🏙🏚🏠
 				<*🏡⛪🏢🏣🏤🏥🏦🏨🏩🏪🏫🏬🏭🏯🏰
 				<*💒🗼🗽🗾⛲⛺🌁🌃🌄🌅🌆🌇🌉🌊♨🗿🌌🎠
 				<*🎡🎢💈🎪🎫🎭🎰
+				<*🕋🕌🕍🛐
 				<*🚂🚃🚄🚅🚆🚇🚈🚉🚊🚝🚞🚋🚌🚍🚎🚏🚐
 				<*🚑🚒🚓🚔🚕🚖🚗🚘🚙🚚🚛🚜🚲🚳🚴🚵🏎🏍⛽🛣🛤🚨⎈⚓⛵🚣🚤🛳⛴🛥🚢✈🛩🛫🛬💺🚁🚟🚠
 				<*🚡🚀
@@ -7397,7 +7413,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*🌈🌂☂☔⛱❄☃⛄🌟🌠
 				<*☄🎲♠
 				<*♥♦♣🃏🀄🎮🕹⚽⚾🏀
-				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🔇🔈🔉🔊📢📣📯🔔🔕🔀
+				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🏏🏐
+				<*🏑🏒🏓🏸🔇🔈🔉🔊📢📣📯🔔🔕🔀
 				<*🔁🔂▶⏩⏭⏯◀
 				<*⏪⏮🔼⏫🔽⏬⏸⏹⏺⏏🎼🎵🎶🎙🎚🎛🎤🎧🎷🎸🎹🎺🎻📻📱📳📴📲📵☎📞
 				<#⃣
@@ -7421,7 +7438,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*💼📁📂🗂📅📆🗒🗓📇📈📉📊📋📌📍📎🖇📏📐
 				<*📛✂🗃🗄🗑🔒🔓🔏🔐
 				<*🔑🗝🔨⛏⚒🛠
-				<*🔧🔩⚙🗜⚗⚖💉🗡🔪⚔🔫🛡🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
+				<*🔧🔩⚙🗜⚗⚖💉📿🕎🗡🔪⚔🔫🛡🏹🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
 				<*⚱🔰
 				<*💯📡🏁🏳🏴🚩
 				<*🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿⬆↗➡↘⬇↙⬅↖↕↔↩↪⤴⤵🔃🔄🔙🔚🔛🔜🔝🕉✡☸☯✝☦⛩☪☮☢☣♻⚡⭐

@@ -5,8 +5,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 -->
 <ldml>
 	<identity>
-		<version number="$Revision: 11093 $"/>
-		<generation date="$Date: 2015-01-03 03:36 +0000 $"/>
+		<version number="$Revision: 11294 $"/>
+		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="gu"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity source="cldr" draft="approved"/>
@@ -1406,23 +1406,23 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<dateFormats>
 					<dateFormatLength type="full">
 						<dateFormat>
-							<pattern>U MMMM d, EEEE</pattern>
+							<pattern>r(U) MMMM d, EEEE</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="long">
 						<dateFormat>
-							<pattern>U MMMM d</pattern>
+							<pattern>r(U) MMMM d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern>U MMM d</pattern>
+							<pattern>r MMM d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
 							<!-- using y here to be short in locales that may not understand U anyway -->
-							<pattern>y-MM-dd</pattern>
+							<pattern>r-MM-dd</pattern>
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
@@ -1453,10 +1453,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<availableFormats>
 						<dateFormatItem id="E">ccc</dateFormatItem>
 						<dateFormatItem id="Ed">d, E</dateFormatItem>
-						<dateFormatItem id="Gy">U</dateFormatItem>
-						<dateFormatItem id="GyMMM">U MMM</dateFormatItem>
-						<dateFormatItem id="GyMMMEd">U MMM d, E</dateFormatItem>
-						<dateFormatItem id="GyMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="Gy">r U</dateFormatItem>
+						<dateFormatItem id="GyMMM">r(U) MMM</dateFormatItem>
+						<dateFormatItem id="GyMMMEd">r(U) MMM d, E</dateFormatItem>
+						<dateFormatItem id="GyMMMd">r MMM d</dateFormatItem>
 						<dateFormatItem id="H">HH</dateFormatItem>
 						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
@@ -1466,22 +1466,26 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
+						<dateFormatItem id="UM">U MM</dateFormatItem>
+						<dateFormatItem id="UMMM">U MMM</dateFormatItem>
+						<dateFormatItem id="UMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="UMd">U MM-d</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
 						<dateFormatItem id="h">h a</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
-						<dateFormatItem id="y">U</dateFormatItem>
-						<dateFormatItem id="yMd">y-MM-dd</dateFormatItem>
-						<dateFormatItem id="yyyy">U</dateFormatItem>
-						<dateFormatItem id="yyyyM">y-MM</dateFormatItem>
-						<dateFormatItem id="yyyyMEd">y-MM-dd, E</dateFormatItem>
-						<dateFormatItem id="yyyyMMM">U MMM</dateFormatItem>
-						<dateFormatItem id="yyyyMMMEd">U MMM d, E</dateFormatItem>
-						<dateFormatItem id="yyyyMMMd">U MMM d</dateFormatItem>
-						<dateFormatItem id="yyyyMd">y-MM-dd</dateFormatItem>
-						<dateFormatItem id="yyyyQQQ">U QQQ</dateFormatItem>
-						<dateFormatItem id="yyyyQQQQ">U QQQQ</dateFormatItem>
+						<dateFormatItem id="y">r(U)</dateFormatItem>
+						<dateFormatItem id="yMd">r-MM-dd</dateFormatItem>
+						<dateFormatItem id="yyyy">r(U)</dateFormatItem>
+						<dateFormatItem id="yyyyM">r-MM</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">r-MM-dd, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">r(U) MMM</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEd">r(U) MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMd">r MMM d</dateFormatItem>
+						<dateFormatItem id="yyyyMd">r-MM-dd</dateFormatItem>
+						<dateFormatItem id="yyyyQQQ">r(U) QQQ</dateFormatItem>
+						<dateFormatItem id="yyyyQQQQ">r(U) QQQQ</dateFormatItem>
 					</availableFormats>
 					<appendItems>
 						<appendItem request="Day">{0} ({2}: {1})</appendItem>
@@ -2408,6 +2412,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="H">HH</dateFormatItem>
 						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="Hmsv">HH:mm:ss v</dateFormatItem>
+						<dateFormatItem id="Hmv">HH:mm v</dateFormatItem>
 						<dateFormatItem id="M">L</dateFormatItem>
 						<dateFormatItem id="MEd">E, d/M</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
@@ -2420,6 +2426,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="h">h a</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
+						<dateFormatItem id="hmsv">h:mm:ss a v</dateFormatItem>
+						<dateFormatItem id="hmv">h:mm a v</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y">y</dateFormatItem>
 						<dateFormatItem id="yM">M/y</dateFormatItem>
@@ -4608,9 +4616,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<zone type="Asia/Choibalsan">
 				<exemplarCity>ચોઇબાલ્સન</exemplarCity>
 			</zone>
-			<zone type="Asia/Chongqing">
-				<exemplarCity>ચોંગકિંગ</exemplarCity>
-			</zone>
 			<zone type="Asia/Colombo">
 				<exemplarCity>કોલંબો</exemplarCity>
 			</zone>
@@ -4631,9 +4636,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Gaza">
 				<exemplarCity>ગાઝા</exemplarCity>
-			</zone>
-			<zone type="Asia/Harbin">
-				<exemplarCity>હારબિન</exemplarCity>
 			</zone>
 			<zone type="Asia/Hebron">
 				<exemplarCity>હેબ્રોન</exemplarCity>
@@ -4664,9 +4666,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Karachi">
 				<exemplarCity>કરાચી</exemplarCity>
-			</zone>
-			<zone type="Asia/Kashgar">
-				<exemplarCity>કાશ્ગર</exemplarCity>
 			</zone>
 			<zone type="Asia/Katmandu">
 				<exemplarCity>કાઠમંડુ</exemplarCity>
@@ -6244,7 +6243,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<perMille>‰</perMille>
 			<infinity>∞</infinity>
 			<nan>NaN</nan>
-			<timeSeparator draft="contributed">:</timeSeparator>
+			<timeSeparator>:</timeSeparator>
 		</symbols>
 		<symbols numberSystem="lepc">
 			<alias source="locale" path="../symbols[@numberSystem='latn']"/>
@@ -6962,14 +6961,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">અર્જેન્ટીના પેસો</displayName>
 				<displayName count="other">અર્જેન્ટીના પેસો</displayName>
 				<displayName>અર્જેન્ટીના પેસો</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>ARS</symbol>
 			</currency>
 			<currency type="AUD">
 				<displayName count="one">ઑસ્ટ્રેલિયન ડૉલર</displayName>
 				<displayName count="other">ઑસ્ટ્રેલિયન ડૉલર</displayName>
 				<displayName>ઑસ્ટ્રેલિયન ડૉલર</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>A$</symbol>
 			</currency>
 			<currency type="AWG">
@@ -6995,14 +6994,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">બાર્બાડિયન ડોલર</displayName>
 				<displayName count="other">બાર્બાડિયન ડોલર</displayName>
 				<displayName>બાર્બાડિયન ડોલર</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BBD</symbol>
 			</currency>
 			<currency type="BDT">
 				<displayName count="one">બાંગલાદેશી ટાકા</displayName>
 				<displayName count="other">બાંગલાદેશી ટાકા</displayName>
 				<displayName>બાંગલાદેશી ટાકા</displayName>
-				<symbol alt="narrow" draft="contributed">৳</symbol>
+				<symbol alt="narrow">৳</symbol>
 				<symbol>BDT</symbol>
 			</currency>
 			<currency type="BGN">
@@ -7027,14 +7026,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">બર્મુડન ડોલર</displayName>
 				<displayName count="other">બર્મુડન ડોલર</displayName>
 				<displayName>બર્મુડન ડોલર</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BMD</symbol>
 			</currency>
 			<currency type="BND">
 				<displayName count="one">બ્રુનેઇ ડોલર</displayName>
 				<displayName count="other">બ્રુનેઇ ડોલર</displayName>
 				<displayName>બ્રુનેઇ ડોલર</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BND</symbol>
 			</currency>
 			<currency type="BOB">
@@ -7048,14 +7047,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">બ્રાઝિલીયન રિઆલ</displayName>
 				<displayName count="other">બ્રાઝિલીયન રિઆલ</displayName>
 				<displayName>બ્રાઝિલીયન રિઆલ</displayName>
-				<symbol alt="narrow" draft="contributed">R$</symbol>
+				<symbol alt="narrow">R$</symbol>
 				<symbol>R$</symbol>
 			</currency>
 			<currency type="BSD">
 				<displayName count="one">બહામિયન ડોલર</displayName>
 				<displayName count="other">બહામિયન ડોલર</displayName>
 				<displayName>બહામિયન ડોલર</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BSD</symbol>
 			</currency>
 			<currency type="BTN">
@@ -7075,21 +7074,21 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">બેલારુશિયન રૂબલ</displayName>
 				<displayName count="other">બેલારુશિયન રૂબલ</displayName>
 				<displayName>બેલારુશિયન રૂબલ</displayName>
-				<symbol alt="narrow" draft="contributed">р.</symbol>
+				<symbol alt="narrow">р.</symbol>
 				<symbol>BYR</symbol>
 			</currency>
 			<currency type="BZD">
 				<displayName count="one">બેલિઝ ડોલર</displayName>
 				<displayName count="other">બેલિઝ ડોલર</displayName>
 				<displayName>બેલિઝ ડોલર</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BZD</symbol>
 			</currency>
 			<currency type="CAD">
 				<displayName count="one">કેનેડિયન ડૉલર</displayName>
 				<displayName count="other">કેનેડિયન ડૉલર</displayName>
 				<displayName>કેનેડિયન ડૉલર</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>CA$</symbol>
 			</currency>
 			<currency type="CDF">
@@ -7108,28 +7107,28 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">ચિલિઅન પેસો</displayName>
 				<displayName count="other">ચિલિઅન પેસો</displayName>
 				<displayName>ચિલિઅન પેસો</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>CLP</symbol>
 			</currency>
 			<currency type="CNY">
 				<displayName count="one">ચાઇનિઝ યુઆન</displayName>
 				<displayName count="other">ચાઇનિઝ યુઆન</displayName>
 				<displayName>ચાઇનિઝ યુઆન</displayName>
-				<symbol alt="narrow" draft="contributed">¥</symbol>
+				<symbol alt="narrow">¥</symbol>
 				<symbol>CN¥</symbol>
 			</currency>
 			<currency type="COP">
 				<displayName count="one">કોલમ્બિયન પેસો</displayName>
 				<displayName count="other">કોલમ્બિયન પેસો</displayName>
 				<displayName>કોલમ્બિયન પેસો</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>COP</symbol>
 			</currency>
 			<currency type="CRC">
 				<displayName count="one">કોસ્ટા રિકન કોલોન</displayName>
 				<displayName count="other">કોસ્ટા રિકન કોલોન</displayName>
 				<displayName>કોસ્ટા રિકન કોલોન</displayName>
-				<symbol alt="narrow" draft="contributed">₡</symbol>
+				<symbol alt="narrow">₡</symbol>
 				<symbol>CRC</symbol>
 			</currency>
 			<currency type="CUC">
@@ -7143,7 +7142,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">ક્યુબન પેસો</displayName>
 				<displayName count="other">ક્યુબન પેસો</displayName>
 				<displayName>ક્યુબન પેસો</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>CUP</symbol>
 			</currency>
 			<currency type="CVE">
@@ -7176,7 +7175,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">ડોમિનિકન પેસો</displayName>
 				<displayName count="other">ડોમિનિકન પેસો</displayName>
 				<displayName>ડોમિનિકન પેસો</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>DOP</symbol>
 			</currency>
 			<currency type="DZD">
@@ -7211,14 +7210,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">યુરો</displayName>
 				<displayName count="other">યુરો</displayName>
 				<displayName>યુરો</displayName>
-				<symbol alt="narrow" draft="contributed">€</symbol>
+				<symbol alt="narrow">€</symbol>
 				<symbol>€</symbol>
 			</currency>
 			<currency type="FJD">
 				<displayName count="one">ફિજિઅન ડોલર</displayName>
 				<displayName count="other">ફિજિઅન ડોલર</displayName>
 				<displayName>ફિજિઅન ડોલર</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>FJD</symbol>
 			</currency>
 			<currency type="FKP">
@@ -7232,7 +7231,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">બ્રિટિશ પાઉન્ડ સ્ટર્લિંગ</displayName>
 				<displayName count="other">બ્રિટિશ પાઉન્ડ સ્ટર્લિંગ</displayName>
 				<displayName>બ્રિટિશ પાઉન્ડ સ્ટર્લિંગ</displayName>
-				<symbol alt="narrow" draft="contributed">£</symbol>
+				<symbol alt="narrow">£</symbol>
 				<symbol>£</symbol>
 			</currency>
 			<currency type="GEL">
@@ -7251,7 +7250,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">જીબ્રાલ્ટર પાઉન્ડ</displayName>
 				<displayName count="other">જીબ્રાલ્ટર પાઉન્ડ</displayName>
 				<displayName>જીબ્રાલ્ટર પાઉન્ડ</displayName>
-				<symbol alt="narrow" draft="contributed">£</symbol>
+				<symbol alt="narrow">£</symbol>
 				<symbol>GIP</symbol>
 			</currency>
 			<currency type="GMD">
@@ -7278,14 +7277,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">ગયાનિઝ ડોલર</displayName>
 				<displayName count="other">ગયાનિઝ ડોલર</displayName>
 				<displayName>ગયાનિઝ ડોલર</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>GYD</symbol>
 			</currency>
 			<currency type="HKD">
 				<displayName count="one">હોંગ કોંગ ડૉલર</displayName>
 				<displayName count="other">હોંગ કોંગ ડૉલર</displayName>
 				<displayName>હોંગ કોંગ ડૉલર</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>HK$</symbol>
 			</currency>
 			<currency type="HNL">
@@ -7326,14 +7325,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">ઇઝરાયેલી ન્યુ શેકલ</displayName>
 				<displayName count="other">ઇઝરાયેલી ન્યુ શેકલ</displayName>
 				<displayName>ઇઝરાયેલી ન્યુ શેકલ</displayName>
-				<symbol alt="narrow" draft="contributed">₪</symbol>
+				<symbol alt="narrow">₪</symbol>
 				<symbol>₪</symbol>
 			</currency>
 			<currency type="INR">
 				<displayName count="one">ભારતીય રૂપિયા</displayName>
 				<displayName count="other">ભારતીય રૂપિયા</displayName>
 				<displayName>ભારતીય રૂપિયા</displayName>
-				<symbol alt="narrow" draft="contributed">₹</symbol>
+				<symbol alt="narrow">₹</symbol>
 				<symbol>₹</symbol>
 			</currency>
 			<currency type="IQD">
@@ -7359,7 +7358,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">જમૈકિયન ડોલર</displayName>
 				<displayName count="other">જમૈકિયન ડોલર</displayName>
 				<displayName>જમૈકિયન ડોલર</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>JMD</symbol>
 			</currency>
 			<currency type="JOD">
@@ -7372,7 +7371,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">જાપાનીઝ યેન</displayName>
 				<displayName count="other">જાપાનીઝ યેન</displayName>
 				<displayName>જાપાનીઝ યેન</displayName>
-				<symbol alt="narrow" draft="contributed">¥</symbol>
+				<symbol alt="narrow">¥</symbol>
 				<symbol>JP¥</symbol>
 			</currency>
 			<currency type="KES">
@@ -7391,7 +7390,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">કેમ્બોડિયન રીઅલ</displayName>
 				<displayName count="other">કેમ્બોડિયન રીઅલ</displayName>
 				<displayName>કેમ્બોડિયન રીઅલ</displayName>
-				<symbol alt="narrow" draft="contributed">៛</symbol>
+				<symbol alt="narrow">៛</symbol>
 				<symbol>KHR</symbol>
 			</currency>
 			<currency type="KMF">
@@ -7412,7 +7411,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">દક્ષિણ કોરિયન વન</displayName>
 				<displayName count="other">દક્ષિણ કોરિયન વન</displayName>
 				<displayName>દક્ષિણ કોરિયન વન</displayName>
-				<symbol alt="narrow" draft="contributed">₩</symbol>
+				<symbol alt="narrow">₩</symbol>
 				<symbol>₩</symbol>
 			</currency>
 			<currency type="KWD">
@@ -7425,21 +7424,21 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">કેયમેન આઇલેંડ્સ ડોલર</displayName>
 				<displayName count="other">કેયમેન આઇલેંડ્સ ડોલર</displayName>
 				<displayName>કેયમેન આઇલેંડ્સ ડોલર</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>KYD</symbol>
 			</currency>
 			<currency type="KZT">
 				<displayName count="one">કઝાકિસ્તાની ટેંગ</displayName>
 				<displayName count="other">કઝાકિસ્તાની ટેંગ</displayName>
 				<displayName>કઝાકિસ્તાની ટેંગ</displayName>
-				<symbol alt="narrow" draft="contributed">₸</symbol>
+				<symbol alt="narrow">₸</symbol>
 				<symbol>KZT</symbol>
 			</currency>
 			<currency type="LAK">
 				<displayName count="one">લાઓશિયન કિપ</displayName>
 				<displayName count="other">લાઓશિયન કિપ</displayName>
 				<displayName>લાઓશિયન કિપ</displayName>
-				<symbol alt="narrow" draft="contributed">₭</symbol>
+				<symbol alt="narrow">₭</symbol>
 				<symbol>LAK</symbol>
 			</currency>
 			<currency type="LBP">
@@ -7460,7 +7459,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">લિબેરિયન ડોલર</displayName>
 				<displayName count="other">લિબેરિયન ડોલર</displayName>
 				<displayName>લિબેરિયન ડોલર</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>LRD</symbol>
 			</currency>
 			<currency type="LSL">
@@ -7522,7 +7521,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">મોંગોલિયન ટગરિક</displayName>
 				<displayName count="other">મોંગોલિયન ટગરિક</displayName>
 				<displayName>મોંગોલિયન ટગરિક</displayName>
-				<symbol alt="narrow" draft="contributed">₮</symbol>
+				<symbol alt="narrow">₮</symbol>
 				<symbol>MNT</symbol>
 			</currency>
 			<currency type="MOP">
@@ -7560,7 +7559,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">મેક્સિકન પેસો</displayName>
 				<displayName count="other">મેક્સિકન પેસો</displayName>
 				<displayName>મેક્સિકન પેસો</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>MX$</symbol>
 			</currency>
 			<currency type="MYR">
@@ -7580,14 +7579,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">નામિબિયન ડોલર</displayName>
 				<displayName count="other">નામિબિયન ડોલર</displayName>
 				<displayName>નામિબિયન ડોલર</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>NAD</symbol>
 			</currency>
 			<currency type="NGN">
 				<displayName count="one">નાઇજીરિયન નૈરા</displayName>
 				<displayName count="other">નાઇજીરિયન નૈરા</displayName>
 				<displayName>નાઇજીરિયન નૈરા</displayName>
-				<symbol alt="narrow" draft="contributed">₦</symbol>
+				<symbol alt="narrow">₦</symbol>
 				<symbol>NGN</symbol>
 			</currency>
 			<currency type="NIO">
@@ -7615,7 +7614,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">ન્યૂઝિલેંડ ડૉલર</displayName>
 				<displayName count="other">ન્યૂઝિલેંડ ડૉલર</displayName>
 				<displayName>ન્યૂઝિલેંડ ડૉલર</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>NZ$</symbol>
 			</currency>
 			<currency type="OMR">
@@ -7646,7 +7645,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">ફિલીપાઇન પેસો</displayName>
 				<displayName count="other">ફિલીપાઇન પેસો</displayName>
 				<displayName>ફિલીપાઇન પેસો</displayName>
-				<symbol alt="narrow" draft="contributed">₱</symbol>
+				<symbol alt="narrow">₱</symbol>
 				<symbol>PHP</symbol>
 			</currency>
 			<currency type="PKR">
@@ -7667,7 +7666,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">પરાગ્વેયન ગુઆરાની</displayName>
 				<displayName count="other">પરાગ્વેયન ગુઆરાની</displayName>
 				<displayName>પરાગ્વેયન ગુઆરાની</displayName>
-				<symbol alt="narrow" draft="contributed">₲</symbol>
+				<symbol alt="narrow">₲</symbol>
 				<symbol>PYG</symbol>
 			</currency>
 			<currency type="QAR">
@@ -7715,7 +7714,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">સોલોમન આઇલેંડ્સ ડોલર</displayName>
 				<displayName count="other">સોલોમન આઇલેંડ્સ ડોલર</displayName>
 				<displayName>સોલોમન આઇલેંડ્સ ડોલર</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>SBD</symbol>
 			</currency>
 			<currency type="SCR">
@@ -7741,7 +7740,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">સિંગાપુર ડૉલર</displayName>
 				<displayName count="other">સિંગાપુર ડૉલર</displayName>
 				<displayName>સિંગાપુર ડૉલર</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>SGD</symbol>
 			</currency>
 			<currency type="SHP">
@@ -7767,14 +7766,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">સૂરીનામિઝ ડોલર</displayName>
 				<displayName count="other">સૂરીનામિઝ ડોલર</displayName>
 				<displayName>સૂરીનામિઝ ડોલર</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>SRD</symbol>
 			</currency>
 			<currency type="SSP">
 				<displayName count="one">દક્ષિણ સુદાનિઝ પાઉન્ડ</displayName>
 				<displayName count="other">દક્ષિણ સુદાનિઝ પાઉન્ડ</displayName>
 				<displayName>દક્ષિણ સુદાનિઝ પાઉન્ડ</displayName>
-				<symbol alt="narrow" draft="contributed">£</symbol>
+				<symbol alt="narrow">£</symbol>
 				<symbol>SSP</symbol>
 			</currency>
 			<currency type="STD">
@@ -7833,7 +7832,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">તુર્કિશ લિરા</displayName>
 				<displayName count="other">તુર્કિશ લિરા</displayName>
 				<displayName>તુર્કિશ લિરા</displayName>
-				<symbol alt="narrow" draft="contributed">₺</symbol>
+				<symbol alt="narrow">₺</symbol>
 				<symbol alt="variant">TL</symbol>
 				<symbol>TRY</symbol>
 			</currency>
@@ -7841,14 +7840,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">ત્રિનિદાદ અને ટોબેગો ડોલર</displayName>
 				<displayName count="other">ત્રિનિદાદ અને ટોબેગો ડોલર</displayName>
 				<displayName>ત્રિનિદાદ અને ટોબેગો ડોલર</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>TTD</symbol>
 			</currency>
 			<currency type="TWD">
 				<displayName count="one">ન્યુ તાઇવાન ડૉલર</displayName>
 				<displayName count="other">ન્યુ તાઇવાન ડૉલર</displayName>
 				<displayName>ન્યુ તાઇવાન ડૉલર</displayName>
-				<symbol alt="narrow" draft="contributed">NT$</symbol>
+				<symbol alt="narrow">NT$</symbol>
 				<symbol>NT$</symbol>
 			</currency>
 			<currency type="TZS">
@@ -7861,7 +7860,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">યુક્રેનિયન હ્રિવિનિયા</displayName>
 				<displayName count="other">યુક્રેનિયન હ્રિવિનિયા</displayName>
 				<displayName>યુક્રેનિયન હ્રિવિનિયા</displayName>
-				<symbol alt="narrow" draft="contributed">₴</symbol>
+				<symbol alt="narrow">₴</symbol>
 				<symbol>UAH</symbol>
 			</currency>
 			<currency type="UGX">
@@ -7874,14 +7873,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">યુઍસ ડોલર</displayName>
 				<displayName count="other">યુઍસ ડોલર</displayName>
 				<displayName>યુઍસ ડોલર</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>US$</symbol>
 			</currency>
 			<currency type="UYU">
 				<displayName count="one">ઉરુગ્વેયન પેસો</displayName>
 				<displayName count="other">ઉરુગ્વેયન પેસો</displayName>
 				<displayName>ઉરુગ્વેયન પેસો</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>UYU</symbol>
 			</currency>
 			<currency type="UZS">
@@ -7901,7 +7900,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">વિયેતનામીસ ડોંગ</displayName>
 				<displayName count="other">વિયેતનામીસ ડોંગ</displayName>
 				<displayName>વિયેતનામીસ ડોંગ</displayName>
-				<symbol alt="narrow" draft="contributed">₫</symbol>
+				<symbol alt="narrow">₫</symbol>
 				<symbol>₫</symbol>
 			</currency>
 			<currency type="VUV">
@@ -8097,7 +8096,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<miscPatterns numberSystem="vaii">
 			<alias source="locale" path="../miscPatterns[@numberSystem='latn']"/>
 		</miscPatterns>
-		<minimumGroupingDigits draft="contributed">1</minimumGroupingDigits>
+		<minimumGroupingDigits>1</minimumGroupingDigits>
 	</numbers>
 	<units>
 		<unitLength type="long">
@@ -9392,6 +9391,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="one">{0}°F</unitPattern>
 				<unitPattern count="other">{0}°F</unitPattern>
 			</unit>
+			<unit type="temperature-generic">
+				<displayName>°</displayName>
+				<unitPattern count="other">{0}°</unitPattern>
+			</unit>
 			<unit type="temperature-kelvin">
 				<displayName>કેલ્વિન</displayName>
 				<unitPattern count="one">{0} K</unitPattern>
@@ -9556,30 +9559,34 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*😁😂😃😄😅😆😉😊😋😌😍😎😏😐
 				<*😑😒😓😔😕😖😗😘😙😚😛😜😝😞😟😠
 				<*😡😢😣😤😥😦😧😨😩😪😫😬😭😮😯😰
-				<*😱😲😳😴😵😶😷😇😈👿👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
-				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
+				<*😱😲😳😴😵😶😷😇😈👿🙃🙄🤐
+				<*🤑🤒🤓🤔🤕🤗🤖👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
+				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭🏻🏼🏽🏾🏿👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
 				<*✍🖐
 				<*💅💪👣👀
 				<*👁👂👃👅💀
 				<*☠
-				<*💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
+				<*🤘💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
 				<*👡👢👑👒🎩⛑🐵🙈🙉🙊🐒🐶🐕🐩🐺🐱😸😹😺😻😼😽😾😿🙀
 				<*🐈🐯🐅🐆🐴🐎🐮🐂🐃🐄🐷🐖🐗🐽🐏🐑🐐
 				<*🐪🐫🐘🐭🐁🐀
 				<*🐹🐰
 				<*🐇🐿🐻🐨🐼🐾🐔🐓🐣🐤🐥🐦🐧🕊🐸🐊🐍🐢🐲🐉🐳🐋🐬🐟🐠
-				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸💩👹👺👻👽👾💐
-				<*🌸💮🏵🌹🌺🌻🌼🌷⸙☘🌱🌲🌳🌴🌵🌾🌿🍀
+				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸🦀
+				<*🦁🦂💩👹👺👻👽👾💐
+				<*🌸💮🏵🌹🌺🌻🌼🌷☘🌱🌲🌳🌴🌵🌾🌿🍀
 				<*🍁🍂🍃🍇🍈🍉🍊🍋🍌🍍🍎🍏🍐
 				<*🍑🍒🍓🍅🍆🌽🌶🍄🌰
 				<*🍞🍖🍗🍔🍟🍕🍲🍱🍘🍙🍚🍛🍜🍝🍠
 				<*🍢🍣🍤🍥🍡🍦🍧🍨🍩🍪🎂🍰
-				<*🍫🍬🍭🍮🍯☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🌍🌎🌏🌐
+				<*🍫🍬🍭🍮🍯🌭🌮🌯🍾🍿🦃🦄🧀
+				<*☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🏺🌍🌎🌏🌐
 				<*🗺🏔⛰
 				<*🌋🗻🏕🏖🏜🏝🏞🏟🏛🏗🏘🏙🏚🏠
 				<*🏡⛪🏢🏣🏤🏥🏦🏨🏩🏪🏫🏬🏭🏯🏰
 				<*💒🗼🗽🗾⛲⛺🌁🌃🌄🌅🌆🌇🌉🌊♨🗿🌌🎠
 				<*🎡🎢💈🎪🎫🎭🎰
+				<*🕋🕌🕍🛐
 				<*🚂🚃🚄🚅🚆🚇🚈🚉🚊🚝🚞🚋🚌🚍🚎🚏🚐
 				<*🚑🚒🚓🚔🚕🚖🚗🚘🚙🚚🚛🚜🚲🚳🚴🚵🏎🏍⛽🛣🛤🚨⎈⚓⛵🚣🚤🛳⛴🛥🚢✈🛩🛫🛬💺🚁🚟🚠
 				<*🚡🚀
@@ -9597,7 +9604,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*🌈🌂☂☔⛱❄☃⛄🌟🌠
 				<*☄🎲♠
 				<*♥♦♣🃏🀄🎮🕹⚽⚾🏀
-				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🔇🔈🔉🔊📢📣📯🔔🔕🔀
+				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🏏🏐
+				<*🏑🏒🏓🏸🔇🔈🔉🔊📢📣📯🔔🔕🔀
 				<*🔁🔂▶⏩⏭⏯◀
 				<*⏪⏮🔼⏫🔽⏬⏸⏹⏺⏏🎼🎵🎶🎙🎚🎛🎤🎧🎷🎸🎹🎺🎻📻📱📳📴📲📵☎📞
 				<#⃣
@@ -9621,7 +9629,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*💼📁📂🗂📅📆🗒🗓📇📈📉📊📋📌📍📎🖇📏📐
 				<*📛✂🗃🗄🗑🔒🔓🔏🔐
 				<*🔑🗝🔨⛏⚒🛠
-				<*🔧🔩⚙🗜⚗⚖💉🗡🔪⚔🔫🛡🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
+				<*🔧🔩⚙🗜⚗⚖💉📿🕎🗡🔪⚔🔫🛡🏹🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
 				<*⚱🔰
 				<*💯📡🏁🏳🏴🚩
 				<*🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿⬆↗➡↘⬇↙⬅↖↕↔↩↪⤴⤵🔃🔄🔙🔚🔛🔜🔝🕉✡☸☯✝☦⛩☪☮☢☣♻⚡⭐

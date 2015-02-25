@@ -1,4 +1,4 @@
-This directory is used for temporary files for Sharon's localhost.
+This directory is used for temporary and auto-generated files:
 
 * flattened/unflattened SLDR files generated as needed by the ldmlflatten.py script, returned by ldml_server script
 

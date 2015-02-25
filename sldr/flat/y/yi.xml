@@ -5,8 +5,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 -->
 <ldml>
 	<identity>
-		<version number="$Revision: 10741 $"/>
-		<generation date="$Date: 2014-08-07 18:24 +0000 $"/>
+		<version number="$Revision: 11202 $"/>
+		<generation date="$Date: 2015-02-17 05:26 +0000 $"/>
 		<language type="yi"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity source="cldr" draft="approved"/>
@@ -15,8 +15,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 	</identity>
 	<localeDisplayNames>
 		<localeDisplayPattern>
-			<localePattern draft="provisional">{0} ({1})</localePattern>
-			<localeSeparator draft="provisional">{0}, {1}</localeSeparator>
+			<localePattern>{0} ({1})</localePattern>
+			<localeSeparator>{0}, {1}</localeSeparator>
 			<localeKeyTypePattern draft="provisional">{0}:‏ {1}</localeKeyTypePattern>
 		</localeDisplayPattern>
 		<languages>
@@ -724,23 +724,23 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<dateFormats>
 					<dateFormatLength type="full">
 						<dateFormat>
-							<pattern>U MMMM d, EEEE</pattern>
+							<pattern>r(U) MMMM d, EEEE</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="long">
 						<dateFormat>
-							<pattern>U MMMM d</pattern>
+							<pattern>r(U) MMMM d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern>U MMM d</pattern>
+							<pattern>r MMM d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
 							<!-- using y here to be short in locales that may not understand U anyway -->
-							<pattern>y-MM-dd</pattern>
+							<pattern>r-MM-dd</pattern>
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
@@ -771,10 +771,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<availableFormats>
 						<dateFormatItem id="E">ccc</dateFormatItem>
 						<dateFormatItem id="Ed">d, E</dateFormatItem>
-						<dateFormatItem id="Gy">U</dateFormatItem>
-						<dateFormatItem id="GyMMM">U MMM</dateFormatItem>
-						<dateFormatItem id="GyMMMEd">U MMM d, E</dateFormatItem>
-						<dateFormatItem id="GyMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="Gy">r U</dateFormatItem>
+						<dateFormatItem id="GyMMM">r(U) MMM</dateFormatItem>
+						<dateFormatItem id="GyMMMEd">r(U) MMM d, E</dateFormatItem>
+						<dateFormatItem id="GyMMMd">r MMM d</dateFormatItem>
 						<dateFormatItem id="H">HH</dateFormatItem>
 						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
@@ -784,22 +784,26 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
+						<dateFormatItem id="UM">U MM</dateFormatItem>
+						<dateFormatItem id="UMMM">U MMM</dateFormatItem>
+						<dateFormatItem id="UMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="UMd">U MM-d</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
 						<dateFormatItem id="h">h a</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
-						<dateFormatItem id="y">U</dateFormatItem>
-						<dateFormatItem id="yMd">y-MM-dd</dateFormatItem>
-						<dateFormatItem id="yyyy">U</dateFormatItem>
-						<dateFormatItem id="yyyyM">y-MM</dateFormatItem>
-						<dateFormatItem id="yyyyMEd">y-MM-dd, E</dateFormatItem>
-						<dateFormatItem id="yyyyMMM">U MMM</dateFormatItem>
-						<dateFormatItem id="yyyyMMMEd">U MMM d, E</dateFormatItem>
-						<dateFormatItem id="yyyyMMMd">U MMM d</dateFormatItem>
-						<dateFormatItem id="yyyyMd">y-MM-dd</dateFormatItem>
-						<dateFormatItem id="yyyyQQQ">U QQQ</dateFormatItem>
-						<dateFormatItem id="yyyyQQQQ">U QQQQ</dateFormatItem>
+						<dateFormatItem id="y">r(U)</dateFormatItem>
+						<dateFormatItem id="yMd">r-MM-dd</dateFormatItem>
+						<dateFormatItem id="yyyy">r(U)</dateFormatItem>
+						<dateFormatItem id="yyyyM">r-MM</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">r-MM-dd, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">r(U) MMM</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEd">r(U) MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMd">r MMM d</dateFormatItem>
+						<dateFormatItem id="yyyyMd">r-MM-dd</dateFormatItem>
+						<dateFormatItem id="yyyyQQQ">r(U) QQQ</dateFormatItem>
+						<dateFormatItem id="yyyyQQQQ">r(U) QQQQ</dateFormatItem>
 					</availableFormats>
 					<appendItems>
 						<appendItem request="Day">{0} ({2}: {1})</appendItem>
@@ -1230,12 +1234,12 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<dateTimeFormats>
 					<dateTimeFormatLength type="full">
 						<dateTimeFormat>
-							<pattern draft="provisional">{1} {0}</pattern>
+							<pattern>{1} {0}</pattern>
 						</dateTimeFormat>
 					</dateTimeFormatLength>
 					<dateTimeFormatLength type="long">
 						<dateTimeFormat>
-							<pattern draft="provisional">{1} {0}</pattern>
+							<pattern>{1} {0}</pattern>
 						</dateTimeFormat>
 					</dateTimeFormatLength>
 					<dateTimeFormatLength type="medium">
@@ -1259,20 +1263,20 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="GyMMM" draft="provisional">MMM y G</dateFormatItem>
 						<dateFormatItem id="GyMMMEd" draft="provisional">E, d בMMM y G</dateFormatItem>
 						<dateFormatItem id="GyMMMd" draft="provisional">d בMMM y G</dateFormatItem>
-						<dateFormatItem id="H" draft="provisional">HH</dateFormatItem>
-						<dateFormatItem id="Hm" draft="provisional">HH:mm</dateFormatItem>
-						<dateFormatItem id="Hms" draft="provisional">HH:mm:ss</dateFormatItem>
-						<dateFormatItem id="M" draft="provisional">L</dateFormatItem>
+						<dateFormatItem id="H">HH</dateFormatItem>
+						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
+						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="M">L</dateFormatItem>
 						<dateFormatItem id="MEd" draft="provisional">E, d/M</dateFormatItem>
-						<dateFormatItem id="MMM" draft="provisional">LLL</dateFormatItem>
+						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd" draft="provisional">E, d בMMM</dateFormatItem>
 						<dateFormatItem id="MMMd" draft="provisional">d בMMM</dateFormatItem>
 						<dateFormatItem id="Md" draft="provisional">d/M</dateFormatItem>
-						<dateFormatItem id="d" draft="provisional">d</dateFormatItem>
+						<dateFormatItem id="d">d</dateFormatItem>
 						<dateFormatItem id="h" draft="provisional">‏h a</dateFormatItem>
-						<dateFormatItem id="hm" draft="provisional">h:mm a</dateFormatItem>
-						<dateFormatItem id="hms" draft="provisional">h:mm:ss a</dateFormatItem>
-						<dateFormatItem id="ms" draft="provisional">mm:ss</dateFormatItem>
+						<dateFormatItem id="hm">h:mm a</dateFormatItem>
+						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
+						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y" draft="provisional">y G</dateFormatItem>
 						<dateFormatItem id="yyyy" draft="provisional">y G</dateFormatItem>
 						<dateFormatItem id="yyyyM" draft="provisional">M.y G</dateFormatItem>
@@ -1282,8 +1286,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="yyyyMMMEd" draft="provisional">E, d בMMM y G</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd" draft="provisional">d בMMM y G</dateFormatItem>
 						<dateFormatItem id="yyyyMd" draft="provisional">d.M.y G</dateFormatItem>
-						<dateFormatItem id="yyyyQQQ" draft="provisional">G y QQQ</dateFormatItem>
-						<dateFormatItem id="yyyyQQQQ" draft="provisional">G y QQQQ</dateFormatItem>
+						<dateFormatItem id="yyyyQQQ">G y QQQ</dateFormatItem>
+						<dateFormatItem id="yyyyQQQQ">G y QQQQ</dateFormatItem>
 					</availableFormats>
 					<appendItems>
 						<appendItem request="Day">{0} ({2}: {1})</appendItem>
@@ -1299,20 +1303,20 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<appendItem request="Year">{1} {0}</appendItem>
 					</appendItems>
 					<intervalFormats>
-						<intervalFormatFallback draft="contributed">{0} – {1}</intervalFormatFallback>
+						<intervalFormatFallback>{0} – {1}</intervalFormatFallback>
 						<intervalFormatItem id="H">
-							<greatestDifference id="H" draft="provisional">HH–HH</greatestDifference>
+							<greatestDifference id="H">HH–HH</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hm">
-							<greatestDifference id="H" draft="provisional">HH:mm–HH:mm</greatestDifference>
-							<greatestDifference id="m" draft="provisional">HH:mm–HH:mm</greatestDifference>
+							<greatestDifference id="H">HH:mm–HH:mm</greatestDifference>
+							<greatestDifference id="m">HH:mm–HH:mm</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hmv">
-							<greatestDifference id="H" draft="provisional">HH:mm–HH:mm v</greatestDifference>
-							<greatestDifference id="m" draft="provisional">HH:mm–HH:mm v</greatestDifference>
+							<greatestDifference id="H">HH:mm–HH:mm v</greatestDifference>
+							<greatestDifference id="m">HH:mm–HH:mm v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hv">
-							<greatestDifference id="H" draft="provisional">HH–HH v</greatestDifference>
+							<greatestDifference id="H">HH–HH v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="M">
 							<greatestDifference id="M" draft="provisional">M–M</greatestDifference>
@@ -1340,25 +1344,25 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<greatestDifference id="d" draft="provisional">dd/MM – dd/MM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="d">
-							<greatestDifference id="d" draft="provisional">d–d</greatestDifference>
+							<greatestDifference id="d">d–d</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="h">
-							<greatestDifference id="a" draft="provisional">h a – h a</greatestDifference>
-							<greatestDifference id="h" draft="provisional">h–h a</greatestDifference>
+							<greatestDifference id="a">h a – h a</greatestDifference>
+							<greatestDifference id="h">h–h a</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hm">
-							<greatestDifference id="a" draft="provisional">h:mm a – h:mm a</greatestDifference>
-							<greatestDifference id="h" draft="provisional">h:mm–h:mm a</greatestDifference>
-							<greatestDifference id="m" draft="provisional">h:mm–h:mm a</greatestDifference>
+							<greatestDifference id="a">h:mm a – h:mm a</greatestDifference>
+							<greatestDifference id="h">h:mm–h:mm a</greatestDifference>
+							<greatestDifference id="m">h:mm–h:mm a</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hmv">
-							<greatestDifference id="a" draft="provisional">h:mm a – h:mm a v</greatestDifference>
-							<greatestDifference id="h" draft="provisional">h:mm–h:mm a v</greatestDifference>
-							<greatestDifference id="m" draft="provisional">h:mm–h:mm a v</greatestDifference>
+							<greatestDifference id="a">h:mm a – h:mm a v</greatestDifference>
+							<greatestDifference id="h">h:mm–h:mm a v</greatestDifference>
+							<greatestDifference id="m">h:mm–h:mm a v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hv">
-							<greatestDifference id="a" draft="provisional">h a – h a v</greatestDifference>
-							<greatestDifference id="h" draft="provisional">h–h a v</greatestDifference>
+							<greatestDifference id="a">h a – h a v</greatestDifference>
+							<greatestDifference id="h">h–h a v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="y">
 							<greatestDifference id="y" draft="provisional">y–y</greatestDifference>
@@ -1637,34 +1641,34 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<timeFormats>
 					<timeFormatLength type="full">
 						<timeFormat>
-							<pattern draft="provisional">HH:mm:ss zzzz</pattern>
+							<pattern>HH:mm:ss zzzz</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="long">
 						<timeFormat>
-							<pattern draft="provisional">HH:mm:ss z</pattern>
+							<pattern>HH:mm:ss z</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="medium">
 						<timeFormat>
-							<pattern draft="provisional">HH:mm:ss</pattern>
+							<pattern>HH:mm:ss</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="short">
 						<timeFormat>
-							<pattern draft="provisional">HH:mm</pattern>
+							<pattern>HH:mm</pattern>
 						</timeFormat>
 					</timeFormatLength>
 				</timeFormats>
 				<dateTimeFormats>
 					<dateTimeFormatLength type="full">
 						<dateTimeFormat>
-							<pattern draft="provisional">{1} {0}</pattern>
+							<pattern>{1} {0}</pattern>
 						</dateTimeFormat>
 					</dateTimeFormatLength>
 					<dateTimeFormatLength type="long">
 						<dateTimeFormat>
-							<pattern draft="provisional">{1} {0}</pattern>
+							<pattern>{1} {0}</pattern>
 						</dateTimeFormat>
 					</dateTimeFormatLength>
 					<dateTimeFormatLength type="medium">
@@ -1688,21 +1692,25 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="GyMMM" draft="provisional">MMM y G</dateFormatItem>
 						<dateFormatItem id="GyMMMEd">E דעם dטן MMM yG</dateFormatItem>
 						<dateFormatItem id="GyMMMd">dטן MMM y G</dateFormatItem>
-						<dateFormatItem id="H" draft="provisional">HH</dateFormatItem>
-						<dateFormatItem id="Hm" draft="provisional">HH:mm</dateFormatItem>
+						<dateFormatItem id="H">HH</dateFormatItem>
+						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
-						<dateFormatItem id="M" draft="provisional">L</dateFormatItem>
+						<dateFormatItem id="Hmsv">HH:mm:ss v</dateFormatItem>
+						<dateFormatItem id="Hmv">HH:mm v</dateFormatItem>
+						<dateFormatItem id="M">L</dateFormatItem>
 						<dateFormatItem id="MEd">E, d/M</dateFormatItem>
-						<dateFormatItem id="MMM" draft="provisional">LLL</dateFormatItem>
+						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd" draft="provisional">E, d בMMM</dateFormatItem>
 						<dateFormatItem id="MMMd" draft="provisional">d בMMM</dateFormatItem>
 						<dateFormatItem id="Md" draft="provisional">d/M</dateFormatItem>
-						<dateFormatItem id="d" draft="provisional">d</dateFormatItem>
+						<dateFormatItem id="d">d</dateFormatItem>
 						<dateFormatItem id="h" draft="provisional">‏h a</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
+						<dateFormatItem id="hmsv">h:mm:ss a v</dateFormatItem>
+						<dateFormatItem id="hmv">h:mm a v</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
-						<dateFormatItem id="y" draft="provisional">y</dateFormatItem>
+						<dateFormatItem id="y">y</dateFormatItem>
 						<dateFormatItem id="yM" draft="provisional">M.y</dateFormatItem>
 						<dateFormatItem id="yMEd">E, d/M/y</dateFormatItem>
 						<dateFormatItem id="yMM">MM/y</dateFormatItem>
@@ -1711,8 +1719,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="yMMMM" draft="provisional">MMMM y</dateFormatItem>
 						<dateFormatItem id="yMMMd">dטן MMM y</dateFormatItem>
 						<dateFormatItem id="yMd">d-M-y</dateFormatItem>
-						<dateFormatItem id="yQQQ" draft="provisional">y QQQ</dateFormatItem>
-						<dateFormatItem id="yQQQQ" draft="provisional">y QQQQ</dateFormatItem>
+						<dateFormatItem id="yQQQ">y QQQ</dateFormatItem>
+						<dateFormatItem id="yQQQQ">y QQQQ</dateFormatItem>
 					</availableFormats>
 					<appendItems>
 						<appendItem request="Day">{0} ({2}: {1})</appendItem>
@@ -1728,20 +1736,20 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<appendItem request="Year">{1} {0}</appendItem>
 					</appendItems>
 					<intervalFormats>
-						<intervalFormatFallback draft="contributed">{0} – {1}</intervalFormatFallback>
+						<intervalFormatFallback>{0} – {1}</intervalFormatFallback>
 						<intervalFormatItem id="H">
-							<greatestDifference id="H" draft="provisional">HH–HH</greatestDifference>
+							<greatestDifference id="H">HH–HH</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hm">
-							<greatestDifference id="H" draft="provisional">HH:mm–HH:mm</greatestDifference>
-							<greatestDifference id="m" draft="provisional">HH:mm–HH:mm</greatestDifference>
+							<greatestDifference id="H">HH:mm–HH:mm</greatestDifference>
+							<greatestDifference id="m">HH:mm–HH:mm</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hmv">
-							<greatestDifference id="H" draft="provisional">HH:mm–HH:mm v</greatestDifference>
-							<greatestDifference id="m" draft="provisional">HH:mm–HH:mm v</greatestDifference>
+							<greatestDifference id="H">HH:mm–HH:mm v</greatestDifference>
+							<greatestDifference id="m">HH:mm–HH:mm v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hv">
-							<greatestDifference id="H" draft="provisional">HH–HH v</greatestDifference>
+							<greatestDifference id="H">HH–HH v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="M">
 							<greatestDifference id="M" draft="provisional">M–M</greatestDifference>
@@ -1769,25 +1777,25 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<greatestDifference id="d">dd/MM – dd/MM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="d">
-							<greatestDifference id="d" draft="provisional">d–d</greatestDifference>
+							<greatestDifference id="d">d–d</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="h">
-							<greatestDifference id="a" draft="provisional">h a – h a</greatestDifference>
-							<greatestDifference id="h" draft="provisional">h–h a</greatestDifference>
+							<greatestDifference id="a">h a – h a</greatestDifference>
+							<greatestDifference id="h">h–h a</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hm">
 							<greatestDifference id="a">h:mm a – h:mm a</greatestDifference>
-							<greatestDifference id="h" draft="provisional">h:mm–h:mm a</greatestDifference>
-							<greatestDifference id="m" draft="provisional">h:mm–h:mm a</greatestDifference>
+							<greatestDifference id="h">h:mm–h:mm a</greatestDifference>
+							<greatestDifference id="m">h:mm–h:mm a</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hmv">
-							<greatestDifference id="a" draft="provisional">h:mm a – h:mm a v</greatestDifference>
-							<greatestDifference id="h" draft="provisional">h:mm–h:mm a v</greatestDifference>
-							<greatestDifference id="m" draft="provisional">h:mm–h:mm a v</greatestDifference>
+							<greatestDifference id="a">h:mm a – h:mm a v</greatestDifference>
+							<greatestDifference id="h">h:mm–h:mm a v</greatestDifference>
+							<greatestDifference id="m">h:mm–h:mm a v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hv">
-							<greatestDifference id="a" draft="provisional">h a – h a v</greatestDifference>
-							<greatestDifference id="h" draft="provisional">h–h a v</greatestDifference>
+							<greatestDifference id="a">h a – h a v</greatestDifference>
+							<greatestDifference id="h">h–h a v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="y">
 							<greatestDifference id="y">y–y</greatestDifference>
@@ -3437,17 +3445,17 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<alias source="locale" path="../symbols[@numberSystem='latn']"/>
 		</symbols>
 		<symbols numberSystem="latn">
-			<decimal draft="contributed">.</decimal>
-			<group draft="contributed">,</group>
-			<list draft="contributed">;</list>
-			<percentSign draft="contributed">%</percentSign>
-			<plusSign draft="contributed">+</plusSign>
-			<minusSign draft="contributed">-</minusSign>
-			<exponential draft="contributed">E</exponential>
+			<decimal>.</decimal>
+			<group>,</group>
+			<list>;</list>
+			<percentSign>%</percentSign>
+			<plusSign>+</plusSign>
+			<minusSign>-</minusSign>
+			<exponential>E</exponential>
 			<superscriptingExponent>×</superscriptingExponent>
-			<perMille draft="contributed">‰</perMille>
-			<infinity draft="contributed">∞</infinity>
-			<nan draft="contributed">NaN</nan>
+			<perMille>‰</perMille>
+			<infinity>∞</infinity>
+			<nan>NaN</nan>
 			<timeSeparator>:</timeSeparator>
 		</symbols>
 		<symbols numberSystem="lepc">
@@ -4951,6 +4959,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>°F</displayName>
 				<unitPattern count="other">{0}°F</unitPattern>
 			</unit>
+			<unit type="temperature-generic">
+				<displayName>°</displayName>
+				<unitPattern count="other">{0}°</unitPattern>
+			</unit>
 			<unit type="temperature-kelvin">
 				<displayName>K</displayName>
 				<unitPattern count="other">{0} K</unitPattern>
@@ -5065,7 +5077,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<alias source="locale" path="../listPattern[@type='unit-short']"/>
 		</listPattern>
 		<listPattern type="unit-short">
-			<alias source="locale" path="../listPattern[@type='']"/>
+			<alias source="locale" path="../listPattern"/>
 		</listPattern>
 		<listPattern>
 			<listPatternPart type="2">{0}, {1}</listPatternPart>
@@ -5084,30 +5096,34 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*😁😂😃😄😅😆😉😊😋😌😍😎😏😐
 				<*😑😒😓😔😕😖😗😘😙😚😛😜😝😞😟😠
 				<*😡😢😣😤😥😦😧😨😩😪😫😬😭😮😯😰
-				<*😱😲😳😴😵😶😷😇😈👿👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
-				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
+				<*😱😲😳😴😵😶😷😇😈👿🙃🙄🤐
+				<*🤑🤒🤓🤔🤕🤗🤖👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
+				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭🏻🏼🏽🏾🏿👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
 				<*✍🖐
 				<*💅💪👣👀
 				<*👁👂👃👅💀
 				<*☠
-				<*💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
+				<*🤘💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
 				<*👡👢👑👒🎩⛑🐵🙈🙉🙊🐒🐶🐕🐩🐺🐱😸😹😺😻😼😽😾😿🙀
 				<*🐈🐯🐅🐆🐴🐎🐮🐂🐃🐄🐷🐖🐗🐽🐏🐑🐐
 				<*🐪🐫🐘🐭🐁🐀
 				<*🐹🐰
 				<*🐇🐿🐻🐨🐼🐾🐔🐓🐣🐤🐥🐦🐧🕊🐸🐊🐍🐢🐲🐉🐳🐋🐬🐟🐠
-				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸💩👹👺👻👽👾💐
-				<*🌸💮🏵🌹🌺🌻🌼🌷⸙☘🌱🌲🌳🌴🌵🌾🌿🍀
+				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸🦀
+				<*🦁🦂💩👹👺👻👽👾💐
+				<*🌸💮🏵🌹🌺🌻🌼🌷☘🌱🌲🌳🌴🌵🌾🌿🍀
 				<*🍁🍂🍃🍇🍈🍉🍊🍋🍌🍍🍎🍏🍐
 				<*🍑🍒🍓🍅🍆🌽🌶🍄🌰
 				<*🍞🍖🍗🍔🍟🍕🍲🍱🍘🍙🍚🍛🍜🍝🍠
 				<*🍢🍣🍤🍥🍡🍦🍧🍨🍩🍪🎂🍰
-				<*🍫🍬🍭🍮🍯☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🌍🌎🌏🌐
+				<*🍫🍬🍭🍮🍯🌭🌮🌯🍾🍿🦃🦄🧀
+				<*☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🏺🌍🌎🌏🌐
 				<*🗺🏔⛰
 				<*🌋🗻🏕🏖🏜🏝🏞🏟🏛🏗🏘🏙🏚🏠
 				<*🏡⛪🏢🏣🏤🏥🏦🏨🏩🏪🏫🏬🏭🏯🏰
 				<*💒🗼🗽🗾⛲⛺🌁🌃🌄🌅🌆🌇🌉🌊♨🗿🌌🎠
 				<*🎡🎢💈🎪🎫🎭🎰
+				<*🕋🕌🕍🛐
 				<*🚂🚃🚄🚅🚆🚇🚈🚉🚊🚝🚞🚋🚌🚍🚎🚏🚐
 				<*🚑🚒🚓🚔🚕🚖🚗🚘🚙🚚🚛🚜🚲🚳🚴🚵🏎🏍⛽🛣🛤🚨⎈⚓⛵🚣🚤🛳⛴🛥🚢✈🛩🛫🛬💺🚁🚟🚠
 				<*🚡🚀
@@ -5125,7 +5141,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*🌈🌂☂☔⛱❄☃⛄🌟🌠
 				<*☄🎲♠
 				<*♥♦♣🃏🀄🎮🕹⚽⚾🏀
-				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🔇🔈🔉🔊📢📣📯🔔🔕🔀
+				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🏏🏐
+				<*🏑🏒🏓🏸🔇🔈🔉🔊📢📣📯🔔🔕🔀
 				<*🔁🔂▶⏩⏭⏯◀
 				<*⏪⏮🔼⏫🔽⏬⏸⏹⏺⏏🎼🎵🎶🎙🎚🎛🎤🎧🎷🎸🎹🎺🎻📻📱📳📴📲📵☎📞
 				<#⃣
@@ -5149,7 +5166,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*💼📁📂🗂📅📆🗒🗓📇📈📉📊📋📌📍📎🖇📏📐
 				<*📛✂🗃🗄🗑🔒🔓🔏🔐
 				<*🔑🗝🔨⛏⚒🛠
-				<*🔧🔩⚙🗜⚗⚖💉🗡🔪⚔🔫🛡🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
+				<*🔧🔩⚙🗜⚗⚖💉📿🕎🗡🔪⚔🔫🛡🏹🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
 				<*⚱🔰
 				<*💯📡🏁🏳🏴🚩
 				<*🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿⬆↗➡↘⬇↙⬅↖↕↔↩↪⤴⤵🔃🔄🔙🔚🔛🔜🔝🕉✡☸☯✝☦⛩☪☮☢☣♻⚡⭐
@@ -5962,129 +5979,12 @@ For terms of use, see http://www.unicode.org/copyright.html
 			]]></cr>
 		</collation>
 		<collation type="search">
-			<settings normalization="on"/>
-			<!-- root search, suppress contractions for Thai, Lao -->
-			<suppress_contractions>[เ-ไ ເ-ໄ]</suppress_contractions>
+			<import type="search" source="und"/>
 			<cr><![CDATA[
-				# root search rules for Symbols
-				&'='<'≠'
-				# root search rules for Arabic, Hebrew, plus two Hebrew-specific additions
-				&ا	# 0627 ARABIC LETTER ALEF
-				<<<ﺎ<<<ﺍ	# FE8E, FE8D: FINAL FORM, ISOLATED FORM
-				<<آ		# 0622 ARABIC LETTER ALEF WITH MADDA ABOVE
-				<<<ﺂ<<<ﺁ	# FE82, FE81: FINAL FORM, ISOLATED FORM
-				<<أ		# 0623 ARABIC LETTER ALEF WITH HAMZA ABOVE
-				<<<ﺄ<<<ﺃ	# FE84, FE83: FINAL FORM, ISOLATED FORM
-				<<إ		# 0625 ARABIC LETTER ALEF WITH HAMZA BELOW
-				<<<ﺈ<<<ﺇ	# FE88, FE87: FINAL FORM, ISOLATED FORM
-				&و	# 0648 ARABIC LETTER WAW
-				<<<ۥ	# 06E5: SMALL WAW
-				<<<ﻮ<<<ﻭ	# FEEE, FEED: FINAL FORM, ISOLATED FORM
-				<<ؤ		# 0624 ARABIC LETTER WAW WITH HAMZA ABOVE
-				<<<ﺆ<<<ﺅ	# FE86, FE85: FINAL FORM, ISOLATED FORM
-				&ي	# 064A ARABIC LETTER YEH
-				<<<ۦ	# 06E6: ARABIC SMALL YEH
-				<<<ﻳ<<<ﻴ<<<ﻲ<<<ﻱ	# FEF3, FEF4, FEF2, FEF1: INITIAL FORM, MEDIAL FORM, FINAL FORM, ISOLATED FORM
-				<<ئ		# 0626 ARABIC LETTER YEH WITH HAMZA ABOVE
-				<<<ﺋ<<<ﺌ<<<ﺊ<<<ﺉ	# FE8B, FE8C, FE8A, FE89: INITIAL FORM, MEDIAL FORM. FINAL FORM, ISOLATED FORM
-				<<ى		# 0649 ARABIC LETTER ALEF MAKSURA
-				<<<ﯨ<<<ﯩ	# FBE8, FBE9: UIGHUR KAZAKH KIRGHIZ ALEF MAKSURA INITIAL FORM, MEDIAL FORM
-				<<<ﻰ<<<ﻯ	# FEF0, FEEF: FINAL FORM, ISOLATED FORM
-				&ه	# 0647 ARABIC LETTER HEH
-				<<<ﻫ<<<ﻬ<<<ﻪ<<<ﻩ	# FEEB, FEEC, FEEA, FEE9: INITIAL FORM, MEDIAL FORM, FINAL FORM;, ISOLATED FORM
-				<<ة		# 0629 ARABIC LETTER TEH MARBUTA
-				<<<ﺔ<<<ﺓ	# FE94, FE93: FINAL FORM, ISOLATED FORM
-				&[last primary ignorable]<<׳	# 05F3 HEBREW PUNCTUATION GERESH, ignorable
+				‎&׳	# 05F3 HEBREW PUNCTUATION GERESH, ignorable
 				<<''	# APOSTROPHE, Hebrew-specific addition, should match GERESH
-				<<״	# 05F4 HEBREW PUNCTUATION GERSHAYIM, ignorable
+				‎&״	# 05F4 HEBREW PUNCTUATION GERSHAYIM, ignorable
 				<<'\"'	# QUOTATION MARK, Hebrew-specific addition, should match GERSHAYIM
-				<<ـ	# 0640 ARABIC TATWEEL
-				# Don't need explicit entries for 064B - 0652 ARABIC FATHATAN - ARABIC SUKUN;
-				# these are already ignorable at level 1, and are not involved in contractions
-				<<ฺ	# 0E3A THAI CHARACTER PHINTHU
-				# root search rules for modern Korean jamos
-				# Korean modern complex consonants, decompose: x(L) = CHOSEONG x, x(T) = JONGSEONG x
-				&ᄀ	# 1100 KIYEOK(L) = 11A8 KIYEOK(T)
-				=ᆨ
-				&ᄀᄀ	# 1100 KIYEOK(L) + 1100 KIYEOK(L) = 1101 SSANGKIYEOK(L) = 11A9 SSANGKIYEOK(T)
-				=ᄁ=ᆩ
-				&ᄀᄉ	# 1100 KIYEOK(L) + 1109 SIOS(L) = 11AA KIYEOK-SIOS(T)
-				=ᆪ
-				&ᄂ	# 1102 NIEUN(L) = 11AB NIEUN(T)
-				=ᆫ
-				&ᄂᄌ	# 1102 NIEUN(L) + 110C CIEUC(L) = 11AC NIEUN-CIEUC(T), also archaic 115C NIEUN-CIEUC(L)
-				=ᆬ
-				&ᄂᄒ	# 1102 NIEUN(L) + 1112 HIEUH(L) = 11AD NIEUN-HIEUH(T), also archaic 115D NIEUN-HIEUH(L)
-				=ᆭ
-				&ᄃ	# 1103 TIKEUT(L) = 11AE TIKEUT(T)
-				=ᆮ
-				&ᄃᄃ	# 1103 TIKEUT(L) + 1103 TIKEUT(L) = 1104 SSANGTIKEUT(L)
-				=ᄄ
-				&ᄅ	# 1105 RIEUL(L) = 11AF RIEUL(T)
-				=ᆯ
-				&ᄅᄀ	# 1105 RIEUL(L) + 1100 KIYEOK(L) = 11B0 RIEUL-KIYEOK(T)
-				=ᆰ
-				&ᄅᄆ	# 1105 RIEUL(L) + 1106 MIEUM(L) = 11B1 RIEUL-MIEUM(T)
-				=ᆱ
-				&ᄅᄇ	# 1105 RIEUL(L) + 1107 PIEUP(L) = 11B2 RIEUL-PIEUP(T)
-				=ᆲ
-				&ᄅᄉ	# 1105 RIEUL(L) + 1109 SIOS(L) = 11B3 RIEUL-SIOS(T)
-				=ᆳ
-				&ᄅᄐ	# 1105 RIEUL(L) + 1110 THIEUTH(L) = 11B4 RIEUL-THIEUTH(T)
-				=ᆴ
-				&ᄅᄑ	# 1105 RIEUL(L) + 1111 PHIEUPH(L) = 11B5 RIEUL-PHIEUPH(T)
-				=ᆵ
-				&ᄅᄒ	# 1105 RIEUL(L) + 1112 HIEUH(L) = 11B6 RIEUL-HIEUH(T), also archic 111A RIEUL-HIEUH(L)
-				=ᆶ
-				&ᄆ	# 1106 MIEUM(L) = 11B7 MIEUM(T)
-				=ᆷ
-				&ᄇ	# 1107 PIEUP(L) = 11B8 PIEUP(T)
-				=ᆸ
-				&ᄇᄇ	# 1107 PIEUP(L) + 1107 PIEUP(L) = 1108 SSANGPIEUP(L)
-				=ᄈ
-				&ᄇᄉ	# 1107 PIEUP(L) + 1109 SIOS(L) = 11B9 PIEUP-SIOS(T), also archaic 1121 PIEUP-SIOS(L)
-				=ᆹ
-				&ᄉ	# 1109 SIOS(L) = 11BA SIOS(T)
-				=ᆺ
-				&ᄉᄉ	# 1109 SIOS(L) + 1109 SIOS(L) = 110A SSANGSIOS(L) = 11BB SSANGSIOS(T)
-				=ᄊ=ᆻ
-				&ᄋ	# 110B IEUNG(L) = 11BC IEUNG(T)
-				=ᆼ
-				&ᄌ	# 110C CIEUC(L) = 11BD CIEUC(T)
-				=ᆽ
-				&ᄌᄌ	# 110C CIEUC(L) + 110C CIEUC(L) = 110D SSANGCIEUC(L)
-				=ᄍ
-				&ᄎ	# 110E CHIEUCH(L) = 11BE CHIEUCH(T)
-				=ᆾ
-				&ᄏ	# 110F KHIEUKH(L) = 11BF KHIEUKH(T)
-				=ᆿ
-				&ᄐ	# 1110 THIEUTH(L) = 11C0 THIEUTH(T)
-				=ᇀ
-				&ᄑ	# 1111 PHIEUPH(L) = 11C1 PHIEUPH(T)
-				=ᇁ
-				&ᄒ	# 1112 HIEUH(L) = 11C2 HIEUH(T)
-				=ᇂ
-				# Korean modern complex vowels, decompose
-				&ᅡᅵ	# 1161 A(V) + 1175 I(V) = 1162 AE(V)
-				=ᅢ
-				&ᅣᅵ	# 1163 YA(V) + 1175 I(V) = 1164 YAE(V)
-				=ᅤ
-				&ᅥᅵ	# 1165 EO(V) + 1175 I(V) = 1166 E(V)
-				=ᅦ
-				&ᅧᅵ	# 1167 YEO(V) + 1175 I(V) = 1168 YE(V)
-				=ᅨ
-				&ᅩᅡ	# 1169 O(V) + 1161 A(V) = 116A WA(V)
-				=ᅪ
-				&ᅩᅡᅵ	# 1169 O(V) + 1161 A(V) + 1175 I(V) = 116B WAE(V)
-				=ᅫ
-				&ᅩᅵ	# 1169 O(V) + 1175 I(V) = 116C OE(V)
-				=ᅬ
-				&ᅮᅴ	# 116E U(V) + 1174 YI(V) = 116F WEO(V)
-				=ᅯ
-				&ᅮᅴᅵ	# 116E U(V) + 1174 YI(V) + 1175 I(V) = 1170 WE(V)
-				=ᅰ
-				&ᅮᅵ	# 116E U(V) + 1175 I(V) = 1171 WI(V)
-				=ᅱ
 			]]></cr>
 		</collation>
 		<collation type="standard">

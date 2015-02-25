@@ -489,9 +489,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 	</characters>
 	<delimiters>
 		<quotationStart draft="contributed">”</quotationStart>
-		<quotationEnd draft="contributed">”</quotationEnd>
+		<quotationEnd>”</quotationEnd>
 		<alternateQuotationStart draft="contributed">’</alternateQuotationStart>
-		<alternateQuotationEnd draft="contributed">’</alternateQuotationEnd>
+		<alternateQuotationEnd>’</alternateQuotationEnd>
 	</delimiters>
 	<dates>
 		<calendars>
@@ -772,23 +772,23 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<dateFormats>
 					<dateFormatLength type="full">
 						<dateFormat>
-							<pattern>U MMMM d, EEEE</pattern>
+							<pattern>r(U) MMMM d, EEEE</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="long">
 						<dateFormat>
-							<pattern>U MMMM d</pattern>
+							<pattern>r(U) MMMM d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern>U MMM d</pattern>
+							<pattern>r MMM d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
 							<!-- using y here to be short in locales that may not understand U anyway -->
-							<pattern>y-MM-dd</pattern>
+							<pattern>r-MM-dd</pattern>
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
@@ -819,10 +819,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<availableFormats>
 						<dateFormatItem id="E">ccc</dateFormatItem>
 						<dateFormatItem id="Ed">d, E</dateFormatItem>
-						<dateFormatItem id="Gy">U</dateFormatItem>
-						<dateFormatItem id="GyMMM">U MMM</dateFormatItem>
-						<dateFormatItem id="GyMMMEd">U MMM d, E</dateFormatItem>
-						<dateFormatItem id="GyMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="Gy">r U</dateFormatItem>
+						<dateFormatItem id="GyMMM">r(U) MMM</dateFormatItem>
+						<dateFormatItem id="GyMMMEd">r(U) MMM d, E</dateFormatItem>
+						<dateFormatItem id="GyMMMd">r MMM d</dateFormatItem>
 						<dateFormatItem id="H">HH</dateFormatItem>
 						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
@@ -832,22 +832,26 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
+						<dateFormatItem id="UM">U MM</dateFormatItem>
+						<dateFormatItem id="UMMM">U MMM</dateFormatItem>
+						<dateFormatItem id="UMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="UMd">U MM-d</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
 						<dateFormatItem id="h">h a</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
-						<dateFormatItem id="y">U</dateFormatItem>
-						<dateFormatItem id="yMd">y-MM-dd</dateFormatItem>
-						<dateFormatItem id="yyyy">U</dateFormatItem>
-						<dateFormatItem id="yyyyM">y-MM</dateFormatItem>
-						<dateFormatItem id="yyyyMEd">y-MM-dd, E</dateFormatItem>
-						<dateFormatItem id="yyyyMMM">U MMM</dateFormatItem>
-						<dateFormatItem id="yyyyMMMEd">U MMM d, E</dateFormatItem>
-						<dateFormatItem id="yyyyMMMd">U MMM d</dateFormatItem>
-						<dateFormatItem id="yyyyMd">y-MM-dd</dateFormatItem>
-						<dateFormatItem id="yyyyQQQ">U QQQ</dateFormatItem>
-						<dateFormatItem id="yyyyQQQQ">U QQQQ</dateFormatItem>
+						<dateFormatItem id="y">r(U)</dateFormatItem>
+						<dateFormatItem id="yMd">r-MM-dd</dateFormatItem>
+						<dateFormatItem id="yyyy">r(U)</dateFormatItem>
+						<dateFormatItem id="yyyyM">r-MM</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">r-MM-dd, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">r(U) MMM</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEd">r(U) MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMd">r MMM d</dateFormatItem>
+						<dateFormatItem id="yyyyMd">r-MM-dd</dateFormatItem>
+						<dateFormatItem id="yyyyQQQ">r(U) QQQ</dateFormatItem>
+						<dateFormatItem id="yyyyQQQQ">r(U) QQQQ</dateFormatItem>
 					</availableFormats>
 					<appendItems>
 						<appendItem request="Day">{0} ({2}: {1})</appendItem>
@@ -1535,7 +1539,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<day type="fri" draft="contributed">B</day>
 							<day type="mon" draft="contributed">V</day>
 							<day type="sat" draft="contributed">L</day>
-							<day type="sun" draft="contributed">S</day>
+							<day type="sun">S</day>
 							<day type="thu" draft="contributed">D</day>
 							<day type="tue" draft="contributed">M</day>
 							<day type="wed" draft="contributed">G</day>
@@ -1694,6 +1698,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="H">HH</dateFormatItem>
 						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="Hmsv">HH:mm:ss v</dateFormatItem>
+						<dateFormatItem id="Hmv">HH:mm v</dateFormatItem>
 						<dateFormatItem id="M">L</dateFormatItem>
 						<dateFormatItem id="MEd">MM-dd, E</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
@@ -1704,6 +1710,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="h">h a</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
+						<dateFormatItem id="hmsv">h:mm:ss a v</dateFormatItem>
+						<dateFormatItem id="hmv">h:mm a v</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y">y</dateFormatItem>
 						<dateFormatItem id="yM">y-MM</dateFormatItem>
@@ -3144,7 +3152,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<exemplarCity>St. Vincent</exemplarCity>
 			</zone>
 			<zone type="Antarctica/DumontDUrville">
-				<exemplarCity draft="contributed">Dumont d’Urville</exemplarCity>
+				<exemplarCity>Dumont d’Urville</exemplarCity>
 			</zone>
 			<zone type="Asia/Calcutta">
 				<exemplarCity>Kolkata</exemplarCity>
@@ -3314,14 +3322,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<symbols numberSystem="latn">
 			<decimal draft="contributed">,</decimal>
 			<group draft="contributed"/>
-			<list draft="contributed">;</list>
-			<percentSign draft="contributed">%</percentSign>
-			<plusSign draft="contributed">+</plusSign>
+			<list>;</list>
+			<percentSign>%</percentSign>
+			<plusSign>+</plusSign>
 			<minusSign draft="contributed">−</minusSign>
 			<exponential draft="contributed">×10^</exponential>
 			<superscriptingExponent draft="contributed">·</superscriptingExponent>
-			<perMille draft="contributed">‰</perMille>
-			<infinity draft="contributed">∞</infinity>
+			<perMille>‰</perMille>
+			<infinity>∞</infinity>
 			<nan draft="contributed">¤¤¤</nan>
 			<timeSeparator>:</timeSeparator>
 		</symbols>
@@ -3534,7 +3542,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</decimalFormatLength>
 			<decimalFormatLength>
 				<decimalFormat>
-					<pattern draft="contributed">#,##0.###</pattern>
+					<pattern>#,##0.###</pattern>
 				</decimalFormat>
 			</decimalFormatLength>
 		</decimalFormats>
@@ -3667,7 +3675,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<scientificFormats numberSystem="latn">
 			<scientificFormatLength>
 				<scientificFormat>
-					<pattern draft="contributed">#E0</pattern>
+					<pattern>#E0</pattern>
 				</scientificFormat>
 			</scientificFormatLength>
 		</scientificFormats>
@@ -3952,7 +3960,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				</currencyFormat>
 			</currencyFormatLength>
 			<unitPattern count="one" draft="contributed">{0} {1}</unitPattern>
-			<unitPattern count="other" draft="contributed">{0} {1}</unitPattern>
+			<unitPattern count="other">{0} {1}</unitPattern>
 			<unitPattern count="two" draft="contributed">{0} {1}</unitPattern>
 		</currencyFormats>
 		<currencyFormats numberSystem="lepc">
@@ -4113,8 +4121,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one" draft="contributed">euro</displayName>
 				<displayName count="other" draft="contributed">euro</displayName>
 				<displayName count="two" draft="contributed">euro</displayName>
-				<symbol draft="contributed">€</symbol>
 				<symbol alt="narrow">€</symbol>
+				<symbol>€</symbol>
 			</currency>
 			<currency type="FIM">
 				<displayName>suoma márkki</displayName>
@@ -4142,8 +4150,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="HKD">
-				<symbol draft="contributed">HK$</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol>HK$</symbol>
 			</currency>
 			<currency type="HNL">
 				<symbol alt="narrow">L</symbol>
@@ -4162,8 +4170,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>₪</symbol>
 			</currency>
 			<currency type="INR">
-				<symbol draft="contributed">₹</symbol>
 				<symbol alt="narrow">₹</symbol>
+				<symbol>₹</symbol>
 			</currency>
 			<currency type="ISK">
 				<symbol alt="narrow">kr</symbol>
@@ -4172,8 +4180,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="JPY">
-				<symbol draft="contributed">JP¥</symbol>
 				<symbol alt="narrow">¥</symbol>
+				<symbol>JP¥</symbol>
 			</currency>
 			<currency type="KHR">
 				<symbol alt="narrow">៛</symbol>
@@ -4225,8 +4233,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol alt="narrow">Rs</symbol>
 			</currency>
 			<currency type="MXN">
-				<symbol draft="contributed">MX$</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol>MX$</symbol>
 			</currency>
 			<currency type="MYR">
 				<symbol alt="narrow">RM</symbol>
@@ -5014,12 +5022,12 @@ For terms of use, see http://www.unicode.org/copyright.html
 		</unitLength>
 		<unitLength type="short">
 			<compoundUnit type="per">
-				<compoundUnitPattern draft="contributed">{0}/{1}</compoundUnitPattern>
+				<compoundUnitPattern>{0}/{1}</compoundUnitPattern>
 			</compoundUnit>
 			<unit type="acceleration-g-force">
 				<displayName draft="contributed">Maapallo gravitaatiovoimat</displayName>
 				<unitPattern count="one" draft="contributed">{0} G</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} G</unitPattern>
+				<unitPattern count="other">{0} G</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} G</unitPattern>
 			</unit>
 			<unit type="acceleration-meter-per-second-squared">
@@ -5029,19 +5037,19 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="angle-arc-minute">
 				<displayName draft="contributed">jorbbas minuhtta</displayName>
 				<unitPattern count="one" draft="contributed">{0}′</unitPattern>
-				<unitPattern count="other" draft="contributed">{0}′</unitPattern>
+				<unitPattern count="other">{0}′</unitPattern>
 				<unitPattern count="two" draft="contributed">{0}′</unitPattern>
 			</unit>
 			<unit type="angle-arc-second">
 				<displayName draft="contributed">jorbbas sekundda</displayName>
 				<unitPattern count="one" draft="contributed">{0}″</unitPattern>
-				<unitPattern count="other" draft="contributed">{0}″</unitPattern>
+				<unitPattern count="other">{0}″</unitPattern>
 				<unitPattern count="two" draft="contributed">{0}″</unitPattern>
 			</unit>
 			<unit type="angle-degree">
 				<displayName draft="contributed">grádat</displayName>
 				<unitPattern count="one" draft="contributed">{0}°</unitPattern>
-				<unitPattern count="other" draft="contributed">{0}°</unitPattern>
+				<unitPattern count="other">{0}°</unitPattern>
 				<unitPattern count="two" draft="contributed">{0}°</unitPattern>
 			</unit>
 			<unit type="angle-radian">
@@ -5057,7 +5065,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="area-hectare">
 				<displayName draft="contributed">hehtaaria</displayName>
 				<unitPattern count="one" draft="contributed">{0} ha</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} ha</unitPattern>
+				<unitPattern count="other">{0} ha</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} ha</unitPattern>
 			</unit>
 			<unit type="area-square-centimeter">
@@ -5077,13 +5085,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="area-square-kilometer">
 				<displayName draft="contributed">neliökilomehtera</displayName>
 				<unitPattern count="one" draft="contributed">{0} km²</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} km²</unitPattern>
+				<unitPattern count="other">{0} km²</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} km²</unitPattern>
 			</unit>
 			<unit type="area-square-meter">
 				<displayName draft="contributed">neliömehtera</displayName>
 				<unitPattern count="one" draft="contributed">{0} m²</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} m²</unitPattern>
+				<unitPattern count="other">{0} m²</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} m²</unitPattern>
 			</unit>
 			<unit type="area-square-mile">
@@ -5147,13 +5155,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="duration-day">
 				<displayName draft="contributed">jándora</displayName>
 				<unitPattern count="one" draft="contributed">{0} d</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} d</unitPattern>
+				<unitPattern count="other">{0} d</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} d</unitPattern>
 			</unit>
 			<unit type="duration-hour">
 				<displayName draft="contributed">diibmur</displayName>
 				<unitPattern count="one" draft="contributed">{0} h</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} h</unitPattern>
+				<unitPattern count="other">{0} h</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} h</unitPattern>
 				<perUnitPattern>{0}/h</perUnitPattern>
 			</unit>
@@ -5164,13 +5172,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="duration-millisecond">
 				<displayName draft="contributed">millisekundda</displayName>
 				<unitPattern count="one" draft="contributed">{0} ms</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} ms</unitPattern>
+				<unitPattern count="other">{0} ms</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} ms</unitPattern>
 			</unit>
 			<unit type="duration-minute">
 				<displayName draft="contributed">minuhtta</displayName>
 				<unitPattern count="one" draft="contributed">{0} min</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} min</unitPattern>
+				<unitPattern count="other">{0} min</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} min</unitPattern>
 			</unit>
 			<unit type="duration-month">
@@ -5186,7 +5194,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="duration-second">
 				<displayName draft="contributed">sekundda</displayName>
 				<unitPattern count="one" draft="contributed">{0} s</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} s</unitPattern>
+				<unitPattern count="other">{0} s</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} s</unitPattern>
 				<perUnitPattern>{0}/s</perUnitPattern>
 			</unit>
@@ -5265,7 +5273,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="length-centimeter">
 				<displayName draft="contributed">sentimehtera</displayName>
 				<unitPattern count="one" draft="contributed">{0} cm</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} cm</unitPattern>
+				<unitPattern count="other">{0} cm</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} cm</unitPattern>
 			</unit>
 			<unit type="length-decimeter">
@@ -5295,7 +5303,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="length-kilometer">
 				<displayName draft="contributed">kilomehtera</displayName>
 				<unitPattern count="one" draft="contributed">{0} km</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} km</unitPattern>
+				<unitPattern count="other">{0} km</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} km</unitPattern>
 			</unit>
 			<unit type="length-light-year">
@@ -5307,7 +5315,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="length-meter">
 				<displayName draft="contributed">mehtera</displayName>
 				<unitPattern count="one" draft="contributed">{0} m</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} m</unitPattern>
+				<unitPattern count="other">{0} m</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} m</unitPattern>
 			</unit>
 			<unit type="length-micrometer">
@@ -5323,7 +5331,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="length-millimeter">
 				<displayName draft="contributed">millimehtera</displayName>
 				<unitPattern count="one" draft="contributed">{0} mm</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} mm</unitPattern>
+				<unitPattern count="other">{0} mm</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} mm</unitPattern>
 			</unit>
 			<unit type="length-nanometer">
@@ -5341,7 +5349,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="length-picometer">
 				<displayName draft="contributed">pikomehtera</displayName>
 				<unitPattern count="one" draft="contributed">{0} pm</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} pm</unitPattern>
+				<unitPattern count="other">{0} pm</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} pm</unitPattern>
 			</unit>
 			<unit type="length-yard">
@@ -5359,15 +5367,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="other">{0} CD</unitPattern>
 			</unit>
 			<unit type="mass-gram">
-				<displayName draft="contributed">gram</displayName>
+				<displayName>gram</displayName>
 				<unitPattern count="one" draft="contributed">{0} g</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} g</unitPattern>
+				<unitPattern count="other">{0} g</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} g</unitPattern>
 			</unit>
 			<unit type="mass-kilogram">
 				<displayName draft="contributed">kilogram</displayName>
 				<unitPattern count="one" draft="contributed">{0} kg</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} kg</unitPattern>
+				<unitPattern count="other">{0} kg</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} kg</unitPattern>
 			</unit>
 			<unit type="mass-metric-ton">
@@ -5419,7 +5427,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="power-kilowatt">
 				<displayName draft="contributed">kilowatt</displayName>
 				<unitPattern count="one" draft="contributed">{0} kW</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} kW</unitPattern>
+				<unitPattern count="other">{0} kW</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} kW</unitPattern>
 			</unit>
 			<unit type="power-megawatt">
@@ -5431,15 +5439,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="other">{0} mW</unitPattern>
 			</unit>
 			<unit type="power-watt">
-				<displayName draft="contributed">watt</displayName>
+				<displayName>watt</displayName>
 				<unitPattern count="one" draft="contributed">{0} W</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} W</unitPattern>
+				<unitPattern count="other">{0} W</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} W</unitPattern>
 			</unit>
 			<unit type="pressure-hectopascal">
 				<displayName draft="contributed">hehtopascal</displayName>
 				<unitPattern count="one" draft="contributed">{0} hPa</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} hPa</unitPattern>
+				<unitPattern count="other">{0} hPa</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} hPa</unitPattern>
 			</unit>
 			<unit type="pressure-inch-hg">
@@ -5451,7 +5459,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="pressure-millibar">
 				<displayName draft="contributed">millibar</displayName>
 				<unitPattern count="one" draft="contributed">{0} mbar</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} mbar</unitPattern>
+				<unitPattern count="other">{0} mbar</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} mbar</unitPattern>
 			</unit>
 			<unit type="pressure-millimeter-of-mercury">
@@ -5469,13 +5477,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="speed-kilometer-per-hour">
 				<displayName draft="contributed">kilomehtera kohti diibmu</displayName>
 				<unitPattern count="one" draft="contributed">{0} km/h</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} km/h</unitPattern>
+				<unitPattern count="other">{0} km/h</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} km/h</unitPattern>
 			</unit>
 			<unit type="speed-meter-per-second">
 				<displayName draft="contributed">mehtera kohti sekunti</displayName>
 				<unitPattern count="one" draft="contributed">{0} m/s</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} m/s</unitPattern>
+				<unitPattern count="other">{0} m/s</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} m/s</unitPattern>
 			</unit>
 			<unit type="speed-mile-per-hour">
@@ -5487,14 +5495,18 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="temperature-celsius">
 				<displayName draft="contributed">grádat Celsius</displayName>
 				<unitPattern count="one" draft="contributed">{0}°C</unitPattern>
-				<unitPattern count="other" draft="contributed">{0}°C</unitPattern>
+				<unitPattern count="other">{0}°C</unitPattern>
 				<unitPattern count="two" draft="contributed">{0}°C</unitPattern>
 			</unit>
 			<unit type="temperature-fahrenheit">
 				<displayName draft="contributed">grádat Fahrenheit</displayName>
 				<unitPattern count="one" draft="contributed">{0}°F</unitPattern>
-				<unitPattern count="other" draft="contributed">{0}°F</unitPattern>
+				<unitPattern count="other">{0}°F</unitPattern>
 				<unitPattern count="two" draft="contributed">{0}°F</unitPattern>
+			</unit>
+			<unit type="temperature-generic">
+				<displayName>°</displayName>
+				<unitPattern count="other">{0}°</unitPattern>
 			</unit>
 			<unit type="temperature-kelvin">
 				<displayName>K</displayName>
@@ -5527,7 +5539,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="volume-cubic-kilometer">
 				<displayName draft="contributed">kubikkilomehtera</displayName>
 				<unitPattern count="one" draft="contributed">{0} km³</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} km³</unitPattern>
+				<unitPattern count="other">{0} km³</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} km³</unitPattern>
 			</unit>
 			<unit type="volume-cubic-meter">
@@ -5567,7 +5579,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="volume-liter">
 				<displayName draft="contributed">lihtara</displayName>
 				<unitPattern count="one" draft="contributed">{0} l</unitPattern>
-				<unitPattern count="other" draft="contributed">{0} l</unitPattern>
+				<unitPattern count="other">{0} l</unitPattern>
 				<unitPattern count="two" draft="contributed">{0} l</unitPattern>
 			</unit>
 			<unit type="volume-megaliter">
@@ -5630,8 +5642,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<listPattern>
 			<listPatternPart type="2" draft="contributed">{0} ja {1}</listPatternPart>
 			<listPatternPart type="end" draft="contributed">{0} ja {1}</listPatternPart>
-			<listPatternPart type="middle" draft="contributed">{0}, {1}</listPatternPart>
-			<listPatternPart type="start" draft="contributed">{0}, {1}</listPatternPart>
+			<listPatternPart type="middle">{0}, {1}</listPatternPart>
+			<listPatternPart type="start">{0}, {1}</listPatternPart>
 		</listPattern>
 	</listPatterns>
 	<collations>
@@ -5644,30 +5656,34 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*😁😂😃😄😅😆😉😊😋😌😍😎😏😐
 				<*😑😒😓😔😕😖😗😘😙😚😛😜😝😞😟😠
 				<*😡😢😣😤😥😦😧😨😩😪😫😬😭😮😯😰
-				<*😱😲😳😴😵😶😷😇😈👿👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
-				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
+				<*😱😲😳😴😵😶😷😇😈👿🙃🙄🤐
+				<*🤑🤒🤓🤔🤕🤗🤖👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
+				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭🏻🏼🏽🏾🏿👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
 				<*✍🖐
 				<*💅💪👣👀
 				<*👁👂👃👅💀
 				<*☠
-				<*💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
+				<*🤘💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
 				<*👡👢👑👒🎩⛑🐵🙈🙉🙊🐒🐶🐕🐩🐺🐱😸😹😺😻😼😽😾😿🙀
 				<*🐈🐯🐅🐆🐴🐎🐮🐂🐃🐄🐷🐖🐗🐽🐏🐑🐐
 				<*🐪🐫🐘🐭🐁🐀
 				<*🐹🐰
 				<*🐇🐿🐻🐨🐼🐾🐔🐓🐣🐤🐥🐦🐧🕊🐸🐊🐍🐢🐲🐉🐳🐋🐬🐟🐠
-				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸💩👹👺👻👽👾💐
-				<*🌸💮🏵🌹🌺🌻🌼🌷⸙☘🌱🌲🌳🌴🌵🌾🌿🍀
+				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸🦀
+				<*🦁🦂💩👹👺👻👽👾💐
+				<*🌸💮🏵🌹🌺🌻🌼🌷☘🌱🌲🌳🌴🌵🌾🌿🍀
 				<*🍁🍂🍃🍇🍈🍉🍊🍋🍌🍍🍎🍏🍐
 				<*🍑🍒🍓🍅🍆🌽🌶🍄🌰
 				<*🍞🍖🍗🍔🍟🍕🍲🍱🍘🍙🍚🍛🍜🍝🍠
 				<*🍢🍣🍤🍥🍡🍦🍧🍨🍩🍪🎂🍰
-				<*🍫🍬🍭🍮🍯☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🌍🌎🌏🌐
+				<*🍫🍬🍭🍮🍯🌭🌮🌯🍾🍿🦃🦄🧀
+				<*☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🏺🌍🌎🌏🌐
 				<*🗺🏔⛰
 				<*🌋🗻🏕🏖🏜🏝🏞🏟🏛🏗🏘🏙🏚🏠
 				<*🏡⛪🏢🏣🏤🏥🏦🏨🏩🏪🏫🏬🏭🏯🏰
 				<*💒🗼🗽🗾⛲⛺🌁🌃🌄🌅🌆🌇🌉🌊♨🗿🌌🎠
 				<*🎡🎢💈🎪🎫🎭🎰
+				<*🕋🕌🕍🛐
 				<*🚂🚃🚄🚅🚆🚇🚈🚉🚊🚝🚞🚋🚌🚍🚎🚏🚐
 				<*🚑🚒🚓🚔🚕🚖🚗🚘🚙🚚🚛🚜🚲🚳🚴🚵🏎🏍⛽🛣🛤🚨⎈⚓⛵🚣🚤🛳⛴🛥🚢✈🛩🛫🛬💺🚁🚟🚠
 				<*🚡🚀
@@ -5685,7 +5701,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*🌈🌂☂☔⛱❄☃⛄🌟🌠
 				<*☄🎲♠
 				<*♥♦♣🃏🀄🎮🕹⚽⚾🏀
-				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🔇🔈🔉🔊📢📣📯🔔🔕🔀
+				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🏏🏐
+				<*🏑🏒🏓🏸🔇🔈🔉🔊📢📣📯🔔🔕🔀
 				<*🔁🔂▶⏩⏭⏯◀
 				<*⏪⏮🔼⏫🔽⏬⏸⏹⏺⏏🎼🎵🎶🎙🎚🎛🎤🎧🎷🎸🎹🎺🎻📻📱📳📴📲📵☎📞
 				<#⃣
@@ -5709,7 +5726,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*💼📁📂🗂📅📆🗒🗓📇📈📉📊📋📌📍📎🖇📏📐
 				<*📛✂🗃🗄🗑🔒🔓🔏🔐
 				<*🔑🗝🔨⛏⚒🛠
-				<*🔧🔩⚙🗜⚗⚖💉🗡🔪⚔🔫🛡🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
+				<*🔧🔩⚙🗜⚗⚖💉📿🕎🗡🔪⚔🔫🛡🏹🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
 				<*⚱🔰
 				<*💯📡🏁🏳🏴🚩
 				<*🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿⬆↗➡↘⬇↙⬅↖↕↔↩↪⤴⤵🔃🔄🔙🔚🔛🔜🔝🕉✡☸☯✝☦⛩☪☮☢☣♻⚡⭐

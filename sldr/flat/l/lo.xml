@@ -5,8 +5,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 -->
 <ldml>
 	<identity>
-		<version number="$Revision: 10809 $"/>
-		<generation date="$Date: 2014-08-14 20:10 +0000 $"/>
+		<version number="$Revision: 11294 $"/>
+		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="lo"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity source="cldr" draft="approved"/>
@@ -1563,10 +1563,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<availableFormats>
 						<dateFormatItem id="E">ccc</dateFormatItem>
 						<dateFormatItem id="Ed">d, E</dateFormatItem>
-						<dateFormatItem id="Gy">U</dateFormatItem>
-						<dateFormatItem id="GyMMM">U MMM</dateFormatItem>
-						<dateFormatItem id="GyMMMEd">U MMM d, E</dateFormatItem>
-						<dateFormatItem id="GyMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="Gy">r U</dateFormatItem>
+						<dateFormatItem id="GyMMM">r(U) MMM</dateFormatItem>
+						<dateFormatItem id="GyMMMEd">r(U) MMM d, E</dateFormatItem>
+						<dateFormatItem id="GyMMMd">r MMM d</dateFormatItem>
 						<dateFormatItem id="H">HH</dateFormatItem>
 						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
@@ -1576,22 +1576,26 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
+						<dateFormatItem id="UM">U MM</dateFormatItem>
+						<dateFormatItem id="UMMM">U MMM</dateFormatItem>
+						<dateFormatItem id="UMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="UMd">U MM-d</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
 						<dateFormatItem id="h">h a</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
-						<dateFormatItem id="y">U</dateFormatItem>
-						<dateFormatItem id="yMd">y-MM-dd</dateFormatItem>
-						<dateFormatItem id="yyyy">U</dateFormatItem>
-						<dateFormatItem id="yyyyM">y-MM</dateFormatItem>
-						<dateFormatItem id="yyyyMEd">y-MM-dd, E</dateFormatItem>
-						<dateFormatItem id="yyyyMMM">U MMM</dateFormatItem>
-						<dateFormatItem id="yyyyMMMEd">U MMM d, E</dateFormatItem>
-						<dateFormatItem id="yyyyMMMd">U MMM d</dateFormatItem>
-						<dateFormatItem id="yyyyMd">y-MM-dd</dateFormatItem>
-						<dateFormatItem id="yyyyQQQ">U QQQ</dateFormatItem>
-						<dateFormatItem id="yyyyQQQQ">U QQQQ</dateFormatItem>
+						<dateFormatItem id="y">r(U)</dateFormatItem>
+						<dateFormatItem id="yMd">r-MM-dd</dateFormatItem>
+						<dateFormatItem id="yyyy">r(U)</dateFormatItem>
+						<dateFormatItem id="yyyyM">r-MM</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">r-MM-dd, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">r(U) MMM</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEd">r(U) MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMd">r MMM d</dateFormatItem>
+						<dateFormatItem id="yyyyMd">r-MM-dd</dateFormatItem>
+						<dateFormatItem id="yyyyQQQ">r(U) QQQ</dateFormatItem>
+						<dateFormatItem id="yyyyQQQQ">r(U) QQQQ</dateFormatItem>
 					</availableFormats>
 					<appendItems>
 						<appendItem request="Day">{0} ({2}: {1})</appendItem>
@@ -2607,6 +2611,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="H">HH</dateFormatItem>
 						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="Hmsv">HH:mm:ss v</dateFormatItem>
+						<dateFormatItem id="Hmv">HH:mm v</dateFormatItem>
 						<dateFormatItem id="M">L</dateFormatItem>
 						<dateFormatItem id="MEd">E, d/M</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
@@ -2617,6 +2623,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="h">h ໂມງa</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
+						<dateFormatItem id="hmsv">h:mm:ss a v</dateFormatItem>
+						<dateFormatItem id="hmv">h:mm a v</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y">y</dateFormatItem>
 						<dateFormatItem id="yM">M/y</dateFormatItem>
@@ -4939,9 +4947,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<zone type="Asia/Choibalsan">
 				<exemplarCity>ຊອຍບອລຊານ</exemplarCity>
 			</zone>
-			<zone type="Asia/Chongqing">
-				<exemplarCity>ຈົງຊິງ</exemplarCity>
-			</zone>
 			<zone type="Asia/Colombo">
 				<exemplarCity>ໂຄລຳໂບ</exemplarCity>
 			</zone>
@@ -4959,9 +4964,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Gaza">
 				<exemplarCity>ກາຊາ</exemplarCity>
-			</zone>
-			<zone type="Asia/Harbin">
-				<exemplarCity>ຮາບິນ</exemplarCity>
 			</zone>
 			<zone type="Asia/Hebron">
 				<exemplarCity>ເຮບຣອນ</exemplarCity>
@@ -4992,9 +4994,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Karachi">
 				<exemplarCity>ກາຣາຈີ</exemplarCity>
-			</zone>
-			<zone type="Asia/Kashgar">
-				<exemplarCity>ຄາສຊ໌ກາ</exemplarCity>
 			</zone>
 			<zone type="Asia/Katmandu">
 				<exemplarCity>ຄັດມັນດູ</exemplarCity>
@@ -6553,7 +6552,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<perMille>‰</perMille>
 			<infinity>∞</infinity>
 			<nan>ບໍ່​ແມ່ນ​ໂຕ​ເລກ</nan>
-			<timeSeparator draft="contributed">:</timeSeparator>
+			<timeSeparator>:</timeSeparator>
 		</symbols>
 		<symbols numberSystem="lepc">
 			<alias source="locale" path="../symbols[@numberSystem='latn']"/>
@@ -7297,7 +7296,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="ARS">
 				<displayName count="other">ອາ​ເຈນ​ທິ​ນາ ເປ​ໂຊ</displayName>
 				<displayName>ອາ​ເຈນ​ທິ​ນາ ເປ​ໂຊ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>ARS</symbol>
 			</currency>
 			<currency type="ATS">
@@ -7306,7 +7305,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="AUD">
 				<displayName count="other">ອອສ​ເຕຣ​ລຽນ ໂດ​ລ່າ</displayName>
 				<displayName>ອອສ​ເຕຣ​ລຽນ ໂດ​ລ່າ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>A$</symbol>
 			</currency>
 			<currency type="AWG">
@@ -7337,13 +7336,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="BBD">
 				<displayName count="other">ໂດລ່າ ບາບາດຽນ</displayName>
 				<displayName>ໂດລ່າ ບາບາດຽນ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BBD</symbol>
 			</currency>
 			<currency type="BDT">
 				<displayName count="other">ບັງ​ຄລາ​ເທດ ຕາ​ກາ</displayName>
 				<displayName>ບັງ​ຄລາ​ເທດ ຕາ​ກາ</displayName>
-				<symbol alt="narrow" draft="contributed">৳</symbol>
+				<symbol alt="narrow">৳</symbol>
 				<symbol>BDT</symbol>
 			</currency>
 			<currency type="BEC">
@@ -7381,13 +7380,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="BMD">
 				<displayName count="other">ໂດ​ລ່າ​ເບີ​ມິວ​ດາ</displayName>
 				<displayName>ໂດ​ລ່າ​ເບີ​ມິວ​ດາ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BMD</symbol>
 			</currency>
 			<currency type="BND">
 				<displayName count="other">ບຣູ​ໄນ ໂດ​ລ່າ</displayName>
 				<displayName>ບຣູ​ໄນ ໂດ​ລ່າ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BND</symbol>
 			</currency>
 			<currency type="BOB">
@@ -7417,7 +7416,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="BRL">
 				<displayName count="other">ບຣາ​ຊິ​ລຽນ ຣຽວ</displayName>
 				<displayName>ບຣາ​ຊິ​ລຽນ ຣຽວ</displayName>
-				<symbol alt="narrow" draft="contributed">R$</symbol>
+				<symbol alt="narrow">R$</symbol>
 				<symbol>R$</symbol>
 			</currency>
 			<currency type="BRN">
@@ -7432,7 +7431,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="BSD">
 				<displayName count="other">ໂດລ່າ ບາຮາມຽນ</displayName>
 				<displayName>ໂດລ່າ ບາຮາມຽນ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BSD</symbol>
 			</currency>
 			<currency type="BTN">
@@ -7455,19 +7454,19 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="BYR">
 				<displayName count="other">ເບ​ລາ​ຣຸ​ສ​ຊຽນ ຣູ​ເບິນ</displayName>
 				<displayName>ເບ​ລາ​ຣຸ​ສ​ຊຽນ ຣູ​ເບິນ</displayName>
-				<symbol alt="narrow" draft="contributed">р.</symbol>
+				<symbol alt="narrow">р.</symbol>
 				<symbol>BYR</symbol>
 			</currency>
 			<currency type="BZD">
 				<displayName count="other">ໂດ​ລ່າ​ເບ​ລິ​ຊ</displayName>
 				<displayName>ໂດ​ລ່າ​ເບ​ລິ​ຊ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>BZD</symbol>
 			</currency>
 			<currency type="CAD">
 				<displayName count="other">ໂດລ່າຄານາດາ</displayName>
 				<displayName>ໂດລ່າຄານາດາ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>CA$</symbol>
 			</currency>
 			<currency type="CDF">
@@ -7495,19 +7494,19 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="CLP">
 				<displayName count="other">ຊິ​ລຽນ ເປ​ໂຊ</displayName>
 				<displayName>ຊິ​ລຽນ ເປ​ໂຊ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>CLP</symbol>
 			</currency>
 			<currency type="CNY">
 				<displayName count="other">ຈີນ ຢວນ</displayName>
 				<displayName>ຈີນ ຢວນ</displayName>
-				<symbol alt="narrow" draft="contributed">¥</symbol>
+				<symbol alt="narrow">¥</symbol>
 				<symbol>CN¥</symbol>
 			</currency>
 			<currency type="COP">
 				<displayName count="other">ໂຄ​ລົມ​ບຽນ ເປ​ໂຊ</displayName>
 				<displayName>ໂຄ​ລົມ​ບຽນ ເປ​ໂຊ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>COP</symbol>
 			</currency>
 			<currency type="COU">
@@ -7516,7 +7515,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="CRC">
 				<displayName count="other">ໂຄສຕາ ຣິກັນ ໂຄລອນ</displayName>
 				<displayName>ໂຄສຕາ ຣິກັນ ໂຄລອນ</displayName>
-				<symbol alt="narrow" draft="contributed">₡</symbol>
+				<symbol alt="narrow">₡</symbol>
 				<symbol>CRC</symbol>
 			</currency>
 			<currency type="CSD">
@@ -7534,7 +7533,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="CUP">
 				<displayName count="other">ຄິວແບນ ເປໂຊ</displayName>
 				<displayName>ຄິວແບນ ເປໂຊ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>CUP</symbol>
 			</currency>
 			<currency type="CVE">
@@ -7571,7 +7570,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="DOP">
 				<displayName count="other">ໂດ​ມິ​ນິ​ກັນ ເປ​ໂຊ</displayName>
 				<displayName>ໂດ​ມິ​ນິ​ກັນ ເປ​ໂຊ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>DOP</symbol>
 			</currency>
 			<currency type="DZD">
@@ -7617,7 +7616,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="EUR">
 				<displayName count="other">ຢູ​ໂຣ</displayName>
 				<displayName>ຢູ​ໂຣ</displayName>
-				<symbol alt="narrow" draft="contributed">€</symbol>
+				<symbol alt="narrow">€</symbol>
 				<symbol>€</symbol>
 			</currency>
 			<currency type="FIM">
@@ -7626,7 +7625,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="FJD">
 				<displayName count="other">ຟິ​ຈຽນ ໂດ​ລ່າ</displayName>
 				<displayName>ຟິ​ຈຽນ ໂດ​ລ່າ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="FKP">
 				<displayName count="other">ຟອ​ລ໌ກ​ແລນ ໄອ​ແລນ​ສ໌ ພາວ​ດ໌</displayName>
@@ -7640,7 +7639,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="GBP">
 				<displayName count="other">ພາວ​ດ໌ ສະ​ເຕີ​ຣິງ (ອັງ​ກິດ)</displayName>
 				<displayName>ພາວ​ດ໌ ສະ​ເຕີ​ຣິງ (ອັງ​ກິດ)</displayName>
-				<symbol alt="narrow" draft="contributed">£</symbol>
+				<symbol alt="narrow">£</symbol>
 				<symbol>£</symbol>
 			</currency>
 			<currency type="GEK">
@@ -7662,7 +7661,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="GIP">
 				<displayName count="other">ກິບ​ຣາ​ທາ ພາ​ວດ໌</displayName>
 				<displayName>ກິບ​ຣາ​ທາ ພາ​ວດ໌</displayName>
-				<symbol alt="narrow" draft="contributed">£</symbol>
+				<symbol alt="narrow">£</symbol>
 				<symbol>GIP</symbol>
 			</currency>
 			<currency type="GMD">
@@ -7700,13 +7699,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="GYD">
 				<displayName count="other">ກາຍ​ຢາ​ນີ​ສ ໂດ​ລ່າ</displayName>
 				<displayName>ກາຍ​ຢາ​ນີ​ສ ໂດ​ລ່າ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>GYD</symbol>
 			</currency>
 			<currency type="HKD">
 				<displayName count="other">ຮອງ​ກົງ ໂດ​ລ່າ</displayName>
 				<displayName>ຮອງ​ກົງ ໂດ​ລ່າ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>HK$</symbol>
 			</currency>
 			<currency type="HNL">
@@ -7749,13 +7748,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="ILS">
 				<displayName count="other">ອິສ​ຣາ​ເອວ​ລິ ນິວ ເຊ​ເກວ</displayName>
 				<displayName>ອິສ​ຣາ​ເອວ​ລິ ນິວ ເຊ​ເກວ</displayName>
-				<symbol alt="narrow" draft="contributed">₪</symbol>
+				<symbol alt="narrow">₪</symbol>
 				<symbol>₪</symbol>
 			</currency>
 			<currency type="INR">
 				<displayName count="other">ອິນ​ເດຍ ຣູ​ປີ</displayName>
 				<displayName>ອິນ​ເດຍ ຣູ​ປີ</displayName>
-				<symbol alt="narrow" draft="contributed">₹</symbol>
+				<symbol alt="narrow">₹</symbol>
 				<symbol>₹</symbol>
 			</currency>
 			<currency type="IQD">
@@ -7780,7 +7779,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="JMD">
 				<displayName count="other">​ຈາ​ໄມ​ກັນ ໂດ​ລ່າ</displayName>
 				<displayName>​ຈາ​ໄມ​ກັນ ໂດ​ລ່າ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>JMD</symbol>
 			</currency>
 			<currency type="JOD">
@@ -7791,7 +7790,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="JPY">
 				<displayName count="other">ຍີ່​ປຸ່ນ ເຢນ</displayName>
 				<displayName>ຍີ່​ປຸ່ນ ເຢນ</displayName>
-				<symbol alt="narrow" draft="contributed">¥</symbol>
+				<symbol alt="narrow">¥</symbol>
 				<symbol>JP¥</symbol>
 			</currency>
 			<currency type="KES">
@@ -7807,7 +7806,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="KHR">
 				<displayName count="other">ກຳ​ປູ​ເຈຍ ຣຽວ</displayName>
 				<displayName>ກຳ​ປູ​ເຈຍ ຣຽວ</displayName>
-				<symbol alt="narrow" draft="contributed">៛</symbol>
+				<symbol alt="narrow">៛</symbol>
 				<symbol>KHR</symbol>
 			</currency>
 			<currency type="KMF">
@@ -7831,7 +7830,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="KRW">
 				<displayName count="other">ເກົາ​ຫລີໃຕ້ ວອນ</displayName>
 				<displayName>ເກົາ​ຫລີໃຕ້ ວອນ</displayName>
-				<symbol alt="narrow" draft="contributed">₩</symbol>
+				<symbol alt="narrow">₩</symbol>
 				<symbol>₩</symbol>
 			</currency>
 			<currency type="KWD">
@@ -7842,19 +7841,19 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="KYD">
 				<displayName count="other">ເຄ​ແມນ ໄອ​ແລນ ໂດ​ລ່າ</displayName>
 				<displayName>ເຄ​ແມນ ໄອ​ແລນ ໂດ​ລ່າ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>KYD</symbol>
 			</currency>
 			<currency type="KZT">
 				<displayName count="other">ຄາ​ຊັກ​ສະ​ຖາ​ນິ ເຕັງ​ເຈ</displayName>
 				<displayName>ຄາ​ຊັກ​ສະ​ຖາ​ນິ ເຕັງ​ເຈ</displayName>
-				<symbol alt="narrow" draft="contributed">₸</symbol>
+				<symbol alt="narrow">₸</symbol>
 				<symbol>KZT</symbol>
 			</currency>
 			<currency type="LAK">
 				<displayName count="other">ລາວ ກີບ</displayName>
 				<displayName>ລາວ ກີບ</displayName>
-				<symbol alt="narrow" draft="contributed">₭</symbol>
+				<symbol alt="narrow">₭</symbol>
 				<symbol>₭</symbol>
 			</currency>
 			<currency type="LBP">
@@ -7872,7 +7871,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="LRD">
 				<displayName count="other">ລິ​ເບີ​ຣຽນ ໂດ​ລ່າ</displayName>
 				<displayName>ລິ​ເບີ​ຣຽນ ໂດ​ລ່າ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>LRD</symbol>
 			</currency>
 			<currency type="LSL">
@@ -7958,7 +7957,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="MNT">
 				<displayName count="other">ມອງ​ໂກ​ລຽນ ຕູກຣິກ</displayName>
 				<displayName>ມອງ​ໂກ​ລຽນ ຕູກຣິກ</displayName>
-				<symbol alt="narrow" draft="contributed">₮</symbol>
+				<symbol alt="narrow">₮</symbol>
 				<symbol>MNT</symbol>
 			</currency>
 			<currency type="MOP">
@@ -7996,7 +7995,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="MXN">
 				<displayName count="other">ເມັກຊິກັນ ເປໂຊ</displayName>
 				<displayName>ເມັກຊິກັນ ເປໂຊ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>MX$</symbol>
 			</currency>
 			<currency type="MXP">
@@ -8025,13 +8024,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="NAD">
 				<displayName count="other">ນາ​ມິ​ບຽນ ໂດ​ລ່າ</displayName>
 				<displayName>ນາ​ມິ​ບຽນ ໂດ​ລ່າ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>NAD</symbol>
 			</currency>
 			<currency type="NGN">
 				<displayName count="other">ໄນ​ຣາ ​ໄນເຈີ​ຣຽນ</displayName>
 				<displayName>ໄນ​ຣາ ​ໄນເຈີ​ຣຽນ</displayName>
-				<symbol alt="narrow" draft="contributed">₦</symbol>
+				<symbol alt="narrow">₦</symbol>
 				<symbol>NGN</symbol>
 			</currency>
 			<currency type="NIC">
@@ -8061,7 +8060,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="NZD">
 				<displayName count="other">ນິວ​ຊີ​ແລນ ໂດ​ລ່າ</displayName>
 				<displayName>ນິວ​ຊີ​ແລນ ໂດ​ລ່າ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>NZ$</symbol>
 			</currency>
 			<currency type="OMR">
@@ -8093,7 +8092,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="PHP">
 				<displayName count="other">ຟິ​ລິບ​ປິນ ເປ​ໂຊ</displayName>
 				<displayName>ຟິ​ລິບ​ປິນ ເປ​ໂຊ</displayName>
-				<symbol alt="narrow" draft="contributed">₱</symbol>
+				<symbol alt="narrow">₱</symbol>
 				<symbol>PHP</symbol>
 			</currency>
 			<currency type="PKR">
@@ -8116,7 +8115,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</currency>
 			<currency type="PYG">
 				<displayName>ກວາຣານີ ປາຣາກວາຍ</displayName>
-				<symbol alt="narrow" draft="contributed">₲</symbol>
+				<symbol alt="narrow">₲</symbol>
 				<symbol>PYG</symbol>
 			</currency>
 			<currency type="QAR">
@@ -8164,7 +8163,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="SBD">
 				<displayName count="other">ໂຊ​ໂລມອນ ໄອ​ແລນ ໂດ​ລ່າ</displayName>
 				<displayName>ໂຊ​ໂລມອນ ໄອ​ແລນ ໂດ​ລ່າ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>SBD</symbol>
 			</currency>
 			<currency type="SCR">
@@ -8192,7 +8191,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="SGD">
 				<displayName count="other">ສິງ​ກະ​ໂປ ໂດ​ລ່າ</displayName>
 				<displayName>ສິງ​ກະ​ໂປ ໂດ​ລ່າ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>SGD</symbol>
 			</currency>
 			<currency type="SHP">
@@ -8220,7 +8219,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="SRD">
 				<displayName count="other">ຊູ​ຣິ​ນາ​ມີ​ສ ໂດ​ລ່າ</displayName>
 				<displayName>ຊູ​ຣິ​ນາ​ມີ​ສ ໂດ​ລ່າ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>SRD</symbol>
 			</currency>
 			<currency type="SRG">
@@ -8229,7 +8228,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="SSP">
 				<displayName count="other">ເຊົາ​ທ໌ ຊູ​ດານ​ນີ​ສ ພາວດ໌</displayName>
 				<displayName>ເຊົາ​ທ໌ ຊູ​ດານ​ນີ​ສ ພາວດ໌</displayName>
-				<symbol alt="narrow" draft="contributed">£</symbol>
+				<symbol alt="narrow">£</symbol>
 				<symbol>SSP</symbol>
 			</currency>
 			<currency type="STD">
@@ -8297,19 +8296,19 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="TRY">
 				<displayName count="other">ເຕີ​ກິ​ຊ ລິ​ຣາ</displayName>
 				<displayName>ເຕີ​ກິ​ຊ ລິ​ຣາ</displayName>
-				<symbol alt="narrow" draft="contributed">₺</symbol>
+				<symbol alt="narrow">₺</symbol>
 				<symbol alt="variant">TL</symbol>
 				<symbol>TRY</symbol>
 			</currency>
 			<currency type="TTD">
 				<displayName count="other">ທ​ຣິ​ນິ​ແດດ ແອນ ໂທ​ບາ​ໂກ ໂດ​ລ່າ</displayName>
 				<displayName>ທ​ຣິ​ນິ​ແດດ ແອນ ໂທ​ບາ​ໂກ ໂດ​ລ່າ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>TTD</symbol>
 			</currency>
 			<currency type="TWD">
 				<displayName>ນິວ ໄຕ້​ຫວັນ ໂດ​ລ່າ</displayName>
-				<symbol alt="narrow" draft="contributed">NT$</symbol>
+				<symbol alt="narrow">NT$</symbol>
 				<symbol>NT$</symbol>
 			</currency>
 			<currency type="TZS">
@@ -8320,7 +8319,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="UAH">
 				<displayName count="other">ຢູ​ເຄຣ​ນຽນ ຮະ​ຣີບ​ເນຍ</displayName>
 				<displayName>ຢູ​ເຄຣ​ນຽນ ຮະ​ຣີບ​ເນຍ</displayName>
-				<symbol alt="narrow" draft="contributed">₴</symbol>
+				<symbol alt="narrow">₴</symbol>
 				<symbol>UAH</symbol>
 			</currency>
 			<currency type="UAK">
@@ -8337,7 +8336,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="USD">
 				<displayName count="other">​ໂດ​ລ່າ​ສະ​ຫະ​ລັດຯ</displayName>
 				<displayName>​ໂດ​ລ່າ​ສະ​ຫະ​ລັດຯ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>US$</symbol>
 			</currency>
 			<currency type="USN">
@@ -8355,7 +8354,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="UYU">
 				<displayName count="other">ອູ​ຣຸ​ກົວ​ຢານ ເປ​ໂຊ</displayName>
 				<displayName>ອູ​ຣຸ​ກົວ​ຢານ ເປ​ໂຊ</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>UYU</symbol>
 			</currency>
 			<currency type="UZS">
@@ -8375,7 +8374,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="VND">
 				<displayName count="other">ຫວຽດ​ນາມ ດົງ</displayName>
 				<displayName>ຫວຽດ​ນາມ ດົງ</displayName>
-				<symbol alt="narrow" draft="contributed">₫</symbol>
+				<symbol alt="narrow">₫</symbol>
 				<symbol>₫</symbol>
 			</currency>
 			<currency type="VNN">
@@ -8637,7 +8636,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<miscPatterns numberSystem="vaii">
 			<alias source="locale" path="../miscPatterns[@numberSystem='latn']"/>
 		</miscPatterns>
-		<minimumGroupingDigits draft="contributed">1</minimumGroupingDigits>
+		<minimumGroupingDigits>1</minimumGroupingDigits>
 	</numbers>
 	<units>
 		<unitLength type="long">
@@ -9679,6 +9678,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>ອົງ​ສາ ຟ.</displayName>
 				<unitPattern count="other">{0} ອົງສາ ຟ.</unitPattern>
 			</unit>
+			<unit type="temperature-generic">
+				<displayName>°</displayName>
+				<unitPattern count="other">{0}°</unitPattern>
+			</unit>
 			<unit type="temperature-kelvin">
 				<displayName>ອົງສາ ເຄ.</displayName>
 				<unitPattern count="other">{0}°K</unitPattern>
@@ -9796,7 +9799,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<alias source="locale" path="../listPattern[@type='unit-short']"/>
 		</listPattern>
 		<listPattern type="unit-short">
-			<alias source="locale" path="../listPattern[@type='']"/>
+			<alias source="locale" path="../listPattern"/>
 		</listPattern>
 		<listPattern>
 			<listPatternPart type="2">{0} ແລະ {1}</listPatternPart>
@@ -9815,30 +9818,34 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*😁😂😃😄😅😆😉😊😋😌😍😎😏😐
 				<*😑😒😓😔😕😖😗😘😙😚😛😜😝😞😟😠
 				<*😡😢😣😤😥😦😧😨😩😪😫😬😭😮😯😰
-				<*😱😲😳😴😵😶😷😇😈👿👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
-				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
+				<*😱😲😳😴😵😶😷😇😈👿🙃🙄🤐
+				<*🤑🤒🤓🤔🤕🤗🤖👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
+				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭🏻🏼🏽🏾🏿👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
 				<*✍🖐
 				<*💅💪👣👀
 				<*👁👂👃👅💀
 				<*☠
-				<*💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
+				<*🤘💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
 				<*👡👢👑👒🎩⛑🐵🙈🙉🙊🐒🐶🐕🐩🐺🐱😸😹😺😻😼😽😾😿🙀
 				<*🐈🐯🐅🐆🐴🐎🐮🐂🐃🐄🐷🐖🐗🐽🐏🐑🐐
 				<*🐪🐫🐘🐭🐁🐀
 				<*🐹🐰
 				<*🐇🐿🐻🐨🐼🐾🐔🐓🐣🐤🐥🐦🐧🕊🐸🐊🐍🐢🐲🐉🐳🐋🐬🐟🐠
-				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸💩👹👺👻👽👾💐
-				<*🌸💮🏵🌹🌺🌻🌼🌷⸙☘🌱🌲🌳🌴🌵🌾🌿🍀
+				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸🦀
+				<*🦁🦂💩👹👺👻👽👾💐
+				<*🌸💮🏵🌹🌺🌻🌼🌷☘🌱🌲🌳🌴🌵🌾🌿🍀
 				<*🍁🍂🍃🍇🍈🍉🍊🍋🍌🍍🍎🍏🍐
 				<*🍑🍒🍓🍅🍆🌽🌶🍄🌰
 				<*🍞🍖🍗🍔🍟🍕🍲🍱🍘🍙🍚🍛🍜🍝🍠
 				<*🍢🍣🍤🍥🍡🍦🍧🍨🍩🍪🎂🍰
-				<*🍫🍬🍭🍮🍯☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🌍🌎🌏🌐
+				<*🍫🍬🍭🍮🍯🌭🌮🌯🍾🍿🦃🦄🧀
+				<*☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🏺🌍🌎🌏🌐
 				<*🗺🏔⛰
 				<*🌋🗻🏕🏖🏜🏝🏞🏟🏛🏗🏘🏙🏚🏠
 				<*🏡⛪🏢🏣🏤🏥🏦🏨🏩🏪🏫🏬🏭🏯🏰
 				<*💒🗼🗽🗾⛲⛺🌁🌃🌄🌅🌆🌇🌉🌊♨🗿🌌🎠
 				<*🎡🎢💈🎪🎫🎭🎰
+				<*🕋🕌🕍🛐
 				<*🚂🚃🚄🚅🚆🚇🚈🚉🚊🚝🚞🚋🚌🚍🚎🚏🚐
 				<*🚑🚒🚓🚔🚕🚖🚗🚘🚙🚚🚛🚜🚲🚳🚴🚵🏎🏍⛽🛣🛤🚨⎈⚓⛵🚣🚤🛳⛴🛥🚢✈🛩🛫🛬💺🚁🚟🚠
 				<*🚡🚀
@@ -9856,7 +9863,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*🌈🌂☂☔⛱❄☃⛄🌟🌠
 				<*☄🎲♠
 				<*♥♦♣🃏🀄🎮🕹⚽⚾🏀
-				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🔇🔈🔉🔊📢📣📯🔔🔕🔀
+				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🏏🏐
+				<*🏑🏒🏓🏸🔇🔈🔉🔊📢📣📯🔔🔕🔀
 				<*🔁🔂▶⏩⏭⏯◀
 				<*⏪⏮🔼⏫🔽⏬⏸⏹⏺⏏🎼🎵🎶🎙🎚🎛🎤🎧🎷🎸🎹🎺🎻📻📱📳📴📲📵☎📞
 				<#⃣
@@ -9880,7 +9888,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*💼📁📂🗂📅📆🗒🗓📇📈📉📊📋📌📍📎🖇📏📐
 				<*📛✂🗃🗄🗑🔒🔓🔏🔐
 				<*🔑🗝🔨⛏⚒🛠
-				<*🔧🔩⚙🗜⚗⚖💉🗡🔪⚔🔫🛡🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
+				<*🔧🔩⚙🗜⚗⚖💉📿🕎🗡🔪⚔🔫🛡🏹🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
 				<*⚱🔰
 				<*💯📡🏁🏳🏴🚩
 				<*🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿⬆↗➡↘⬇↙⬅↖↕↔↩↪⤴⤵🔃🔄🔙🔚🔛🔜🔝🕉✡☸☯✝☦⛩☪☮☢☣♻⚡⭐

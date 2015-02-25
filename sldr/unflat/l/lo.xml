@@ -5,8 +5,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 -->
 <ldml>
 	<identity>
-		<version number="$Revision: 10809 $"/>
-		<generation date="$Date: 2014-08-14 20:10 +0000 $"/>
+		<version number="$Revision: 11294 $"/>
+		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="lo"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity source="cldr" draft="approved"/>
@@ -1349,6 +1349,16 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<dateFormatLength type="full">
 						<dateFormat>
 							<pattern>EEEE, U MMMM dd</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern>U MMMM d</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="medium">
+						<dateFormat>
+							<pattern>U MMM d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
@@ -3624,9 +3634,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<zone type="Asia/Choibalsan">
 				<exemplarCity>ຊອຍບອລຊານ</exemplarCity>
 			</zone>
-			<zone type="Asia/Chongqing">
-				<exemplarCity>ຈົງຊິງ</exemplarCity>
-			</zone>
 			<zone type="Asia/Colombo">
 				<exemplarCity>ໂຄລຳໂບ</exemplarCity>
 			</zone>
@@ -3644,9 +3651,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Gaza">
 				<exemplarCity>ກາຊາ</exemplarCity>
-			</zone>
-			<zone type="Asia/Harbin">
-				<exemplarCity>ຮາບິນ</exemplarCity>
 			</zone>
 			<zone type="Asia/Hebron">
 				<exemplarCity>ເຮບຣອນ</exemplarCity>
@@ -3677,9 +3681,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Karachi">
 				<exemplarCity>ກາຣາຈີ</exemplarCity>
-			</zone>
-			<zone type="Asia/Kashgar">
-				<exemplarCity>ຄາສຊ໌ກາ</exemplarCity>
 			</zone>
 			<zone type="Asia/Katmandu">
 				<exemplarCity>ຄັດມັນດູ</exemplarCity>

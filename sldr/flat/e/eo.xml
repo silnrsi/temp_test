@@ -15,9 +15,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 	</identity>
 	<localeDisplayNames>
 		<localeDisplayPattern>
-			<localePattern draft="unconfirmed">{0} ({1})</localePattern>
-			<localeSeparator draft="unconfirmed">{0}, {1}</localeSeparator>
-			<localeKeyTypePattern draft="unconfirmed">{0}: {1}</localeKeyTypePattern>
+			<localePattern>{0} ({1})</localePattern>
+			<localeSeparator>{0}, {1}</localeSeparator>
+			<localeKeyTypePattern>{0}: {1}</localeKeyTypePattern>
 		</localeDisplayPattern>
 		<languages>
 			<language type="aa">afara</language>
@@ -467,19 +467,19 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<exemplarCharacters type="index">[A B C Ĉ D E F G Ĝ H Ĥ I J Ĵ K L M N O P R S Ŝ T U Ŭ V Z]</exemplarCharacters>
 		<exemplarCharacters type="punctuation">[\- ‐ – — , ; \: ! ? . … ' ‘ ’ " “ ” ( ) \[ \] \{ \} /]</exemplarCharacters>
 		<exemplarCharacters>[a b c ĉ d e f g ĝ h ĥ i j ĵ k l m n o p r s ŝ t u ŭ v z]</exemplarCharacters>
-		<ellipsis type="final" draft="unconfirmed">{0}…</ellipsis>
-		<ellipsis type="initial" draft="unconfirmed">…{0}</ellipsis>
-		<ellipsis type="medial" draft="unconfirmed">{0}…{1}</ellipsis>
+		<ellipsis type="final">{0}…</ellipsis>
+		<ellipsis type="initial">…{0}</ellipsis>
+		<ellipsis type="medial">{0}…{1}</ellipsis>
 		<ellipsis type="word-final">{0} …</ellipsis>
 		<ellipsis type="word-initial">… {0}</ellipsis>
 		<ellipsis type="word-medial">{0} … {1}</ellipsis>
-		<moreInformation draft="unconfirmed">?</moreInformation>
+		<moreInformation>?</moreInformation>
 	</characters>
 	<delimiters>
-		<quotationStart draft="unconfirmed">“</quotationStart>
-		<quotationEnd draft="unconfirmed">”</quotationEnd>
-		<alternateQuotationStart draft="unconfirmed">‘</alternateQuotationStart>
-		<alternateQuotationEnd draft="unconfirmed">’</alternateQuotationEnd>
+		<quotationStart>“</quotationStart>
+		<quotationEnd>”</quotationEnd>
+		<alternateQuotationStart>‘</alternateQuotationStart>
+		<alternateQuotationEnd>’</alternateQuotationEnd>
 	</delimiters>
 	<dates>
 		<calendars>
@@ -760,23 +760,23 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<dateFormats>
 					<dateFormatLength type="full">
 						<dateFormat>
-							<pattern>U MMMM d, EEEE</pattern>
+							<pattern>r(U) MMMM d, EEEE</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="long">
 						<dateFormat>
-							<pattern>U MMMM d</pattern>
+							<pattern>r(U) MMMM d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern>U MMM d</pattern>
+							<pattern>r MMM d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
 							<!-- using y here to be short in locales that may not understand U anyway -->
-							<pattern>y-MM-dd</pattern>
+							<pattern>r-MM-dd</pattern>
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
@@ -807,10 +807,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<availableFormats>
 						<dateFormatItem id="E">ccc</dateFormatItem>
 						<dateFormatItem id="Ed">d, E</dateFormatItem>
-						<dateFormatItem id="Gy">U</dateFormatItem>
-						<dateFormatItem id="GyMMM">U MMM</dateFormatItem>
-						<dateFormatItem id="GyMMMEd">U MMM d, E</dateFormatItem>
-						<dateFormatItem id="GyMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="Gy">r U</dateFormatItem>
+						<dateFormatItem id="GyMMM">r(U) MMM</dateFormatItem>
+						<dateFormatItem id="GyMMMEd">r(U) MMM d, E</dateFormatItem>
+						<dateFormatItem id="GyMMMd">r MMM d</dateFormatItem>
 						<dateFormatItem id="H">HH</dateFormatItem>
 						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
@@ -820,22 +820,26 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
+						<dateFormatItem id="UM">U MM</dateFormatItem>
+						<dateFormatItem id="UMMM">U MMM</dateFormatItem>
+						<dateFormatItem id="UMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="UMd">U MM-d</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
 						<dateFormatItem id="h">h a</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
-						<dateFormatItem id="y">U</dateFormatItem>
-						<dateFormatItem id="yMd">y-MM-dd</dateFormatItem>
-						<dateFormatItem id="yyyy">U</dateFormatItem>
-						<dateFormatItem id="yyyyM">y-MM</dateFormatItem>
-						<dateFormatItem id="yyyyMEd">y-MM-dd, E</dateFormatItem>
-						<dateFormatItem id="yyyyMMM">U MMM</dateFormatItem>
-						<dateFormatItem id="yyyyMMMEd">U MMM d, E</dateFormatItem>
-						<dateFormatItem id="yyyyMMMd">U MMM d</dateFormatItem>
-						<dateFormatItem id="yyyyMd">y-MM-dd</dateFormatItem>
-						<dateFormatItem id="yyyyQQQ">U QQQ</dateFormatItem>
-						<dateFormatItem id="yyyyQQQQ">U QQQQ</dateFormatItem>
+						<dateFormatItem id="y">r(U)</dateFormatItem>
+						<dateFormatItem id="yMd">r-MM-dd</dateFormatItem>
+						<dateFormatItem id="yyyy">r(U)</dateFormatItem>
+						<dateFormatItem id="yyyyM">r-MM</dateFormatItem>
+						<dateFormatItem id="yyyyMEd">r-MM-dd, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMM">r(U) MMM</dateFormatItem>
+						<dateFormatItem id="yyyyMMMEd">r(U) MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMd">r MMM d</dateFormatItem>
+						<dateFormatItem id="yyyyMd">r-MM-dd</dateFormatItem>
+						<dateFormatItem id="yyyyQQQ">r(U) QQQ</dateFormatItem>
+						<dateFormatItem id="yyyyQQQQ">r(U) QQQQ</dateFormatItem>
 					</availableFormats>
 					<appendItems>
 						<appendItem request="Day">{0} ({2}: {1})</appendItem>
@@ -1334,20 +1338,20 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<appendItem request="Year">{1} {0}</appendItem>
 					</appendItems>
 					<intervalFormats>
-						<intervalFormatFallback draft="unconfirmed">{0} – {1}</intervalFormatFallback>
+						<intervalFormatFallback>{0} – {1}</intervalFormatFallback>
 						<intervalFormatItem id="H">
-							<greatestDifference id="H" draft="unconfirmed">HH–HH</greatestDifference>
+							<greatestDifference id="H">HH–HH</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hm">
-							<greatestDifference id="H" draft="unconfirmed">HH:mm–HH:mm</greatestDifference>
-							<greatestDifference id="m" draft="unconfirmed">HH:mm–HH:mm</greatestDifference>
+							<greatestDifference id="H">HH:mm–HH:mm</greatestDifference>
+							<greatestDifference id="m">HH:mm–HH:mm</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hmv">
-							<greatestDifference id="H" draft="unconfirmed">HH:mm–HH:mm v</greatestDifference>
-							<greatestDifference id="m" draft="unconfirmed">HH:mm–HH:mm v</greatestDifference>
+							<greatestDifference id="H">HH:mm–HH:mm v</greatestDifference>
+							<greatestDifference id="m">HH:mm–HH:mm v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hv">
-							<greatestDifference id="H" draft="unconfirmed">HH–HH v</greatestDifference>
+							<greatestDifference id="H">HH–HH v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="M">
 							<greatestDifference id="M" draft="unconfirmed">M–M</greatestDifference>
@@ -1368,32 +1372,32 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<greatestDifference id="d" draft="unconfirmed">MMM-dd – MMM-dd</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Md">
-							<greatestDifference id="M" draft="unconfirmed">MM-dd – MM-dd</greatestDifference>
-							<greatestDifference id="d" draft="unconfirmed">MM-dd – MM-dd</greatestDifference>
+							<greatestDifference id="M">MM-dd – MM-dd</greatestDifference>
+							<greatestDifference id="d">MM-dd – MM-dd</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="d">
-							<greatestDifference id="d" draft="unconfirmed">d–d</greatestDifference>
+							<greatestDifference id="d">d–d</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="h">
 							<greatestDifference id="a">h a – h a</greatestDifference>
-							<greatestDifference id="h" draft="unconfirmed">h–h a</greatestDifference>
+							<greatestDifference id="h">h–h a</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hm">
 							<greatestDifference id="a">h:mm a – h:mm a</greatestDifference>
-							<greatestDifference id="h" draft="unconfirmed">h:mm–h:mm a</greatestDifference>
-							<greatestDifference id="m" draft="unconfirmed">h:mm–h:mm a</greatestDifference>
+							<greatestDifference id="h">h:mm–h:mm a</greatestDifference>
+							<greatestDifference id="m">h:mm–h:mm a</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hmv">
 							<greatestDifference id="a">h:mm a – h:mm a v</greatestDifference>
-							<greatestDifference id="h" draft="unconfirmed">h:mm–h:mm a v</greatestDifference>
-							<greatestDifference id="m" draft="unconfirmed">h:mm–h:mm a v</greatestDifference>
+							<greatestDifference id="h">h:mm–h:mm a v</greatestDifference>
+							<greatestDifference id="m">h:mm–h:mm a v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hv">
 							<greatestDifference id="a">h a – h a v</greatestDifference>
-							<greatestDifference id="h" draft="unconfirmed">h–h a v</greatestDifference>
+							<greatestDifference id="h">h–h a v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="y">
-							<greatestDifference id="y" draft="unconfirmed">G y–y</greatestDifference>
+							<greatestDifference id="y">G y–y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yM">
 							<greatestDifference id="M" draft="unconfirmed">G y-MM – y-MM</greatestDifference>
@@ -1533,7 +1537,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dayWidth type="narrow">
 							<day type="fri" draft="unconfirmed">V</day>
 							<day type="mon" draft="unconfirmed">L</day>
-							<day type="sat" draft="unconfirmed">S</day>
+							<day type="sat">S</day>
 							<day type="sun" draft="unconfirmed">D</day>
 							<day type="thu" draft="unconfirmed">Ĵ</day>
 							<day type="tue" draft="unconfirmed">M</day>
@@ -1576,10 +1580,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<alias source="locale" path="../../quarterContext[@type='format']/quarterWidth[@type='abbreviated']"/>
 						</quarterWidth>
 						<quarterWidth type="narrow">
-							<quarter type="1" draft="unconfirmed">1</quarter>
-							<quarter type="2" draft="unconfirmed">2</quarter>
-							<quarter type="3" draft="unconfirmed">3</quarter>
-							<quarter type="4" draft="unconfirmed">4</quarter>
+							<quarter type="1">1</quarter>
+							<quarter type="2">2</quarter>
+							<quarter type="3">3</quarter>
+							<quarter type="4">4</quarter>
 						</quarterWidth>
 						<quarterWidth type="wide">
 							<quarter type="1" draft="unconfirmed">1-a kvaronjaro</quarter>
@@ -1595,9 +1599,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<alias source="locale" path="../dayPeriodWidth[@type='wide']"/>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am" draft="unconfirmed">a</dayPeriod>
+							<dayPeriod type="am">a</dayPeriod>
 							<dayPeriod type="noon" draft="unconfirmed">t</dayPeriod>
-							<dayPeriod type="pm" draft="unconfirmed">p</dayPeriod>
+							<dayPeriod type="pm">p</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">atm</dayPeriod>
@@ -1659,17 +1663,17 @@ For terms of use, see http://www.unicode.org/copyright.html
 					</timeFormatLength>
 					<timeFormatLength type="long">
 						<timeFormat>
-							<pattern draft="unconfirmed">HH:mm:ss z</pattern>
+							<pattern>HH:mm:ss z</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="medium">
 						<timeFormat>
-							<pattern draft="unconfirmed">HH:mm:ss</pattern>
+							<pattern>HH:mm:ss</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="short">
 						<timeFormat>
-							<pattern draft="unconfirmed">HH:mm</pattern>
+							<pattern>HH:mm</pattern>
 						</timeFormat>
 					</timeFormatLength>
 				</timeFormats>
@@ -1708,18 +1712,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="H">HH</dateFormatItem>
 						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="Hmsv">HH:mm:ss v</dateFormatItem>
+						<dateFormatItem id="Hmv">HH:mm v</dateFormatItem>
 						<dateFormatItem id="M">L</dateFormatItem>
 						<dateFormatItem id="MEd">MM-dd, E</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd" draft="unconfirmed">E 'la' d-'an' 'de' MMM</dateFormatItem>
 						<dateFormatItem id="MMMd" draft="unconfirmed">d MMM</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
-						<dateFormatItem id="d" draft="unconfirmed">d</dateFormatItem>
+						<dateFormatItem id="d">d</dateFormatItem>
 						<dateFormatItem id="h">h a</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
+						<dateFormatItem id="hmsv">h:mm:ss a v</dateFormatItem>
+						<dateFormatItem id="hmv">h:mm a v</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
-						<dateFormatItem id="y" draft="unconfirmed">y</dateFormatItem>
+						<dateFormatItem id="y">y</dateFormatItem>
 						<dateFormatItem id="yM">y-MM</dateFormatItem>
 						<dateFormatItem id="yMEd">y-MM-dd, E</dateFormatItem>
 						<dateFormatItem id="yMMM" draft="unconfirmed">MMM y</dateFormatItem>
@@ -1743,20 +1751,20 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<appendItem request="Year">{1} {0}</appendItem>
 					</appendItems>
 					<intervalFormats>
-						<intervalFormatFallback draft="unconfirmed">{0} – {1}</intervalFormatFallback>
+						<intervalFormatFallback>{0} – {1}</intervalFormatFallback>
 						<intervalFormatItem id="H">
-							<greatestDifference id="H" draft="unconfirmed">HH–HH</greatestDifference>
+							<greatestDifference id="H">HH–HH</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hm">
-							<greatestDifference id="H" draft="unconfirmed">HH:mm–HH:mm</greatestDifference>
-							<greatestDifference id="m" draft="unconfirmed">HH:mm–HH:mm</greatestDifference>
+							<greatestDifference id="H">HH:mm–HH:mm</greatestDifference>
+							<greatestDifference id="m">HH:mm–HH:mm</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hmv">
-							<greatestDifference id="H" draft="unconfirmed">HH:mm–HH:mm v</greatestDifference>
-							<greatestDifference id="m" draft="unconfirmed">HH:mm–HH:mm v</greatestDifference>
+							<greatestDifference id="H">HH:mm–HH:mm v</greatestDifference>
+							<greatestDifference id="m">HH:mm–HH:mm v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Hv">
-							<greatestDifference id="H" draft="unconfirmed">HH–HH v</greatestDifference>
+							<greatestDifference id="H">HH–HH v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="M">
 							<greatestDifference id="M" draft="unconfirmed">M–M</greatestDifference>
@@ -1777,36 +1785,36 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<greatestDifference id="d" draft="unconfirmed">MMM-dd – MMM-dd</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Md">
-							<greatestDifference id="M" draft="unconfirmed">MM-dd – MM-dd</greatestDifference>
-							<greatestDifference id="d" draft="unconfirmed">MM-dd – MM-dd</greatestDifference>
+							<greatestDifference id="M">MM-dd – MM-dd</greatestDifference>
+							<greatestDifference id="d">MM-dd – MM-dd</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="d">
-							<greatestDifference id="d" draft="unconfirmed">d–d</greatestDifference>
+							<greatestDifference id="d">d–d</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="h">
 							<greatestDifference id="a">h a – h a</greatestDifference>
-							<greatestDifference id="h" draft="unconfirmed">h–h a</greatestDifference>
+							<greatestDifference id="h">h–h a</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hm">
 							<greatestDifference id="a">h:mm a – h:mm a</greatestDifference>
-							<greatestDifference id="h" draft="unconfirmed">h:mm–h:mm a</greatestDifference>
-							<greatestDifference id="m" draft="unconfirmed">h:mm–h:mm a</greatestDifference>
+							<greatestDifference id="h">h:mm–h:mm a</greatestDifference>
+							<greatestDifference id="m">h:mm–h:mm a</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hmv">
 							<greatestDifference id="a">h:mm a – h:mm a v</greatestDifference>
-							<greatestDifference id="h" draft="unconfirmed">h:mm–h:mm a v</greatestDifference>
-							<greatestDifference id="m" draft="unconfirmed">h:mm–h:mm a v</greatestDifference>
+							<greatestDifference id="h">h:mm–h:mm a v</greatestDifference>
+							<greatestDifference id="m">h:mm–h:mm a v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="hv">
 							<greatestDifference id="a">h a – h a v</greatestDifference>
-							<greatestDifference id="h" draft="unconfirmed">h–h a v</greatestDifference>
+							<greatestDifference id="h">h–h a v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="y">
-							<greatestDifference id="y" draft="unconfirmed">y–y</greatestDifference>
+							<greatestDifference id="y">y–y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yM">
-							<greatestDifference id="M" draft="unconfirmed">y-MM – y-MM</greatestDifference>
-							<greatestDifference id="y" draft="unconfirmed">y-MM – y-MM</greatestDifference>
+							<greatestDifference id="M">y-MM – y-MM</greatestDifference>
+							<greatestDifference id="y">y-MM – y-MM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMEd">
 							<greatestDifference id="M" draft="unconfirmed">E, y-MM-dd – E, y-MM-dd</greatestDifference>
@@ -1832,9 +1840,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<greatestDifference id="y" draft="unconfirmed">y-MMM-dd – y-MMM-dd</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMd">
-							<greatestDifference id="M" draft="unconfirmed">y-MM-dd – y-MM-dd</greatestDifference>
-							<greatestDifference id="d" draft="unconfirmed">y-MM-dd – y-MM-dd</greatestDifference>
-							<greatestDifference id="y" draft="unconfirmed">y-MM-dd – y-MM-dd</greatestDifference>
+							<greatestDifference id="M">y-MM-dd – y-MM-dd</greatestDifference>
+							<greatestDifference id="d">y-MM-dd – y-MM-dd</greatestDifference>
+							<greatestDifference id="y">y-MM-dd – y-MM-dd</greatestDifference>
 						</intervalFormatItem>
 					</intervalFormats>
 				</dateTimeFormats>
@@ -3067,7 +3075,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<regionFormat type="daylight" draft="unconfirmed">somera tempo de {0}</regionFormat>
 			<regionFormat type="standard" draft="unconfirmed">norma tempo de {0}</regionFormat>
 			<regionFormat draft="unconfirmed">tempo de {0}</regionFormat>
-			<fallbackFormat draft="unconfirmed">{1} ({0})</fallbackFormat>
+			<fallbackFormat>{1} ({0})</fallbackFormat>
 			<zone type="Africa/Asmera">
 				<exemplarCity>Asmara</exemplarCity>
 			</zone>
@@ -3342,9 +3350,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 		</timeZoneNames>
 	</dates>
 	<numbers>
-		<defaultNumberingSystem draft="unconfirmed">latn</defaultNumberingSystem>
+		<defaultNumberingSystem>latn</defaultNumberingSystem>
 		<otherNumberingSystems>
-			<native draft="unconfirmed">latn</native>
+			<native>latn</native>
 		</otherNumberingSystems>
 		<symbols numberSystem="arab">
 			<decimal>٫</decimal>
@@ -3433,13 +3441,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<decimal>,</decimal>
 			<group/>
 			<list>;</list>
-			<percentSign draft="unconfirmed">%</percentSign>
-			<plusSign draft="unconfirmed">+</plusSign>
+			<percentSign>%</percentSign>
+			<plusSign>+</plusSign>
 			<minusSign draft="unconfirmed">−</minusSign>
 			<exponential>E</exponential>
 			<superscriptingExponent>×</superscriptingExponent>
-			<perMille draft="unconfirmed">‰</perMille>
-			<infinity draft="unconfirmed">∞</infinity>
+			<perMille>‰</perMille>
+			<infinity>∞</infinity>
 			<nan>NaN</nan>
 			<timeSeparator>:</timeSeparator>
 		</symbols>
@@ -3591,7 +3599,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</decimalFormatLength>
 			<decimalFormatLength>
 				<decimalFormat>
-					<pattern draft="unconfirmed">#,##0.###</pattern>
+					<pattern>#,##0.###</pattern>
 				</decimalFormat>
 			</decimalFormatLength>
 		</decimalFormats>
@@ -3857,7 +3865,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<percentFormats numberSystem="latn">
 			<percentFormatLength>
 				<percentFormat>
-					<pattern draft="unconfirmed">#,##0%</pattern>
+					<pattern>#,##0%</pattern>
 				</percentFormat>
 			</percentFormatLength>
 		</percentFormats>
@@ -4009,7 +4017,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				</currencyFormat>
 			</currencyFormatLength>
 			<unitPattern count="one" draft="unconfirmed">{0} {1}</unitPattern>
-			<unitPattern count="other" draft="unconfirmed">{0} {1}</unitPattern>
+			<unitPattern count="other">{0} {1}</unitPattern>
 		</currencyFormats>
 		<currencyFormats numberSystem="lepc">
 			<alias source="locale" path="../currencyFormats[@numberSystem='latn']"/>
@@ -4091,7 +4099,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one" draft="unconfirmed">aŭstralia dolaro</displayName>
 				<displayName count="other" draft="unconfirmed">aŭstraliaj dolaroj</displayName>
 				<displayName draft="unconfirmed">Aŭstralia dolaro</displayName>
-				<symbol alt="narrow" draft="unconfirmed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol draft="unconfirmed">AU$</symbol>
 			</currency>
 			<currency type="BAM">
@@ -4116,8 +4124,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one" draft="unconfirmed">brazila realo</displayName>
 				<displayName count="other" draft="unconfirmed">brazilaj realoj</displayName>
 				<displayName draft="unconfirmed">Brazila realo</displayName>
-				<symbol alt="narrow" draft="unconfirmed">R$</symbol>
-				<symbol draft="unconfirmed">R$</symbol>
+				<symbol alt="narrow">R$</symbol>
+				<symbol>R$</symbol>
 			</currency>
 			<currency type="BSD">
 				<symbol alt="narrow">$</symbol>
@@ -4135,8 +4143,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one" draft="unconfirmed">kanada dolaro</displayName>
 				<displayName count="other" draft="unconfirmed">kanadaj dolaroj</displayName>
 				<displayName draft="unconfirmed">Kanada dolaro</displayName>
-				<symbol alt="narrow" draft="unconfirmed">$</symbol>
-				<symbol draft="unconfirmed">CA$</symbol>
+				<symbol alt="narrow">$</symbol>
+				<symbol>CA$</symbol>
 			</currency>
 			<currency type="CHF">
 				<displayName count="one" draft="unconfirmed">svisa franko</displayName>
@@ -4151,8 +4159,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one" draft="unconfirmed">ĉina juano</displayName>
 				<displayName count="other" draft="unconfirmed">ĉinaj juanoj</displayName>
 				<displayName draft="unconfirmed">Ĉina juano</displayName>
-				<symbol alt="narrow" draft="unconfirmed">¥</symbol>
-				<symbol draft="unconfirmed">CN¥</symbol>
+				<symbol alt="narrow">¥</symbol>
+				<symbol>CN¥</symbol>
 			</currency>
 			<currency type="COP">
 				<symbol alt="narrow">$</symbol>
@@ -4189,8 +4197,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one" draft="unconfirmed">eŭro</displayName>
 				<displayName count="other" draft="unconfirmed">eŭroj</displayName>
 				<displayName draft="unconfirmed">Eŭro</displayName>
-				<symbol alt="narrow" draft="unconfirmed">€</symbol>
-				<symbol draft="unconfirmed">€</symbol>
+				<symbol alt="narrow">€</symbol>
+				<symbol>€</symbol>
 			</currency>
 			<currency type="FJD">
 				<symbol alt="narrow">$</symbol>
@@ -4202,8 +4210,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one" draft="unconfirmed">brita pundo</displayName>
 				<displayName count="other" draft="unconfirmed">britaj pundoj</displayName>
 				<displayName draft="unconfirmed">Brita pundo</displayName>
-				<symbol alt="narrow" draft="unconfirmed">£</symbol>
-				<symbol draft="unconfirmed">£</symbol>
+				<symbol alt="narrow">£</symbol>
+				<symbol>£</symbol>
 			</currency>
 			<currency type="GIP">
 				<symbol alt="narrow">£</symbol>
@@ -4221,8 +4229,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one" draft="unconfirmed">honkonga dolaro</displayName>
 				<displayName count="other" draft="unconfirmed">honkongaj dolaroj</displayName>
 				<displayName draft="unconfirmed">Honkonga dolaro</displayName>
-				<symbol alt="narrow" draft="unconfirmed">$</symbol>
-				<symbol draft="unconfirmed">HK$</symbol>
+				<symbol alt="narrow">$</symbol>
+				<symbol>HK$</symbol>
 			</currency>
 			<currency type="HNL">
 				<symbol alt="narrow">L</symbol>
@@ -4248,8 +4256,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one" draft="unconfirmed">barata rupio</displayName>
 				<displayName count="other" draft="unconfirmed">barataj rupioj</displayName>
 				<displayName draft="unconfirmed">Barata rupio</displayName>
-				<symbol alt="narrow" draft="unconfirmed">₹</symbol>
-				<symbol draft="unconfirmed">₹</symbol>
+				<symbol alt="narrow">₹</symbol>
+				<symbol>₹</symbol>
 			</currency>
 			<currency type="ISK">
 				<symbol alt="narrow">kr</symbol>
@@ -4261,8 +4269,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one" draft="unconfirmed">japana eno</displayName>
 				<displayName count="other" draft="unconfirmed">japanaj enoj</displayName>
 				<displayName draft="unconfirmed">Japana eno</displayName>
-				<symbol alt="narrow" draft="unconfirmed">¥</symbol>
-				<symbol draft="unconfirmed">JP¥</symbol>
+				<symbol alt="narrow">¥</symbol>
+				<symbol>JP¥</symbol>
 			</currency>
 			<currency type="KHR">
 				<symbol alt="narrow">៛</symbol>
@@ -4277,8 +4285,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one" draft="unconfirmed">sud-korea ŭono</displayName>
 				<displayName count="other" draft="unconfirmed">sud-koreaj ŭonoj</displayName>
 				<displayName draft="unconfirmed">Sud-korea ŭono</displayName>
-				<symbol alt="narrow" draft="unconfirmed">₩</symbol>
-				<symbol draft="unconfirmed">₩</symbol>
+				<symbol alt="narrow">₩</symbol>
+				<symbol>₩</symbol>
 			</currency>
 			<currency type="KYD">
 				<symbol alt="narrow">$</symbol>
@@ -4320,8 +4328,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one" draft="unconfirmed">meksika peso</displayName>
 				<displayName count="other" draft="unconfirmed">meksikaj pesoj</displayName>
 				<displayName draft="unconfirmed">Meksika peso</displayName>
-				<symbol alt="narrow" draft="unconfirmed">$</symbol>
-				<symbol draft="unconfirmed">MX$</symbol>
+				<symbol alt="narrow">$</symbol>
+				<symbol>MX$</symbol>
 			</currency>
 			<currency type="MYR">
 				<symbol alt="narrow">RM</symbol>
@@ -4426,7 +4434,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one" draft="unconfirmed">turka liro</displayName>
 				<displayName count="other" draft="unconfirmed">turkaj liroj</displayName>
 				<displayName draft="unconfirmed">Turka liro</displayName>
-				<symbol alt="narrow" draft="unconfirmed">₺</symbol>
+				<symbol alt="narrow">₺</symbol>
 				<symbol draft="unconfirmed">₺</symbol>
 				<symbol alt="variant">TL</symbol>
 			</currency>
@@ -4437,8 +4445,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one" draft="unconfirmed">nova tajvana dolaro</displayName>
 				<displayName count="other" draft="unconfirmed">novaj tajvanaj dolaroj</displayName>
 				<displayName draft="unconfirmed">Nova tajvana dolaro</displayName>
-				<symbol alt="narrow" draft="unconfirmed">NT$</symbol>
-				<symbol draft="unconfirmed">NT$</symbol>
+				<symbol alt="narrow">NT$</symbol>
+				<symbol>NT$</symbol>
 			</currency>
 			<currency type="UAH">
 				<symbol alt="narrow">₴</symbol>
@@ -4447,8 +4455,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one" draft="unconfirmed">usona dolaro</displayName>
 				<displayName count="other" draft="unconfirmed">usonaj dolaroj</displayName>
 				<displayName draft="unconfirmed">Usona dolaro</displayName>
-				<symbol alt="narrow" draft="unconfirmed">$</symbol>
-				<symbol draft="unconfirmed">US$</symbol>
+				<symbol alt="narrow">$</symbol>
+				<symbol>US$</symbol>
 			</currency>
 			<currency type="UYU">
 				<symbol alt="narrow">$</symbol>
@@ -4566,7 +4574,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		</miscPatterns>
 		<miscPatterns numberSystem="latn">
 			<pattern type="atLeast">⩾{0}</pattern>
-			<pattern type="range" draft="unconfirmed">{0}–{1}</pattern>
+			<pattern type="range">{0}–{1}</pattern>
 		</miscPatterns>
 		<miscPatterns numberSystem="lepc">
 			<alias source="locale" path="../miscPatterns[@numberSystem='latn']"/>
@@ -5064,12 +5072,12 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="area-hectare">
 				<displayName draft="unconfirmed">ha</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} ha</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} ha</unitPattern>
+				<unitPattern count="other">{0} ha</unitPattern>
 			</unit>
 			<unit type="area-square-centimeter">
-				<displayName draft="unconfirmed">cm²</displayName>
+				<displayName>cm²</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} cm²</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} cm²</unitPattern>
+				<unitPattern count="other">{0} cm²</unitPattern>
 			</unit>
 			<unit type="area-square-foot">
 				<displayName>ft²</displayName>
@@ -5080,14 +5088,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="other">{0} in²</unitPattern>
 			</unit>
 			<unit type="area-square-kilometer">
-				<displayName draft="unconfirmed">km²</displayName>
+				<displayName>km²</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} km²</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} km²</unitPattern>
+				<unitPattern count="other">{0} km²</unitPattern>
 			</unit>
 			<unit type="area-square-meter">
-				<displayName draft="unconfirmed">m²</displayName>
+				<displayName>m²</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} m²</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} m²</unitPattern>
+				<unitPattern count="other">{0} m²</unitPattern>
 			</unit>
 			<unit type="area-square-mile">
 				<displayName>mi²</displayName>
@@ -5251,19 +5259,19 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="other">{0} MHz</unitPattern>
 			</unit>
 			<unit type="length-astronomical-unit">
-				<displayName draft="unconfirmed">au</displayName>
+				<displayName>au</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} au</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} au</unitPattern>
+				<unitPattern count="other">{0} au</unitPattern>
 			</unit>
 			<unit type="length-centimeter">
-				<displayName draft="unconfirmed">cm</displayName>
+				<displayName>cm</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} cm</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} cm</unitPattern>
+				<unitPattern count="other">{0} cm</unitPattern>
 			</unit>
 			<unit type="length-decimeter">
-				<displayName draft="unconfirmed">dm</displayName>
+				<displayName>dm</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} dm</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} dm</unitPattern>
+				<unitPattern count="other">{0} dm</unitPattern>
 			</unit>
 			<unit type="length-fathom">
 				<displayName>fm</displayName>
@@ -5282,9 +5290,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="other">{0} in</unitPattern>
 			</unit>
 			<unit type="length-kilometer">
-				<displayName draft="unconfirmed">km</displayName>
+				<displayName>km</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} km</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} km</unitPattern>
+				<unitPattern count="other">{0} km</unitPattern>
 			</unit>
 			<unit type="length-light-year">
 				<displayName draft="unconfirmed">lj</displayName>
@@ -5294,40 +5302,40 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="length-meter">
 				<displayName draft="unconfirmed">m</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} m</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} m</unitPattern>
+				<unitPattern count="other">{0} m</unitPattern>
 			</unit>
 			<unit type="length-micrometer">
-				<displayName draft="unconfirmed">µm</displayName>
+				<displayName>µm</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} µm</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} µm</unitPattern>
+				<unitPattern count="other">{0} µm</unitPattern>
 			</unit>
 			<unit type="length-mile">
 				<displayName>mi</displayName>
 				<unitPattern count="other">{0} mi</unitPattern>
 			</unit>
 			<unit type="length-millimeter">
-				<displayName draft="unconfirmed">mm</displayName>
+				<displayName>mm</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} mm</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} mm</unitPattern>
+				<unitPattern count="other">{0} mm</unitPattern>
 			</unit>
 			<unit type="length-nanometer">
-				<displayName draft="unconfirmed">nm</displayName>
+				<displayName>nm</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} nm</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} nm</unitPattern>
+				<unitPattern count="other">{0} nm</unitPattern>
 			</unit>
 			<unit type="length-nautical-mile">
 				<displayName>nmi</displayName>
 				<unitPattern count="other">{0} nmi</unitPattern>
 			</unit>
 			<unit type="length-parsec">
-				<displayName draft="unconfirmed">pc</displayName>
+				<displayName>pc</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} pc</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} pc</unitPattern>
+				<unitPattern count="other">{0} pc</unitPattern>
 			</unit>
 			<unit type="length-picometer">
-				<displayName draft="unconfirmed">pm</displayName>
+				<displayName>pm</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} pm</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} pm</unitPattern>
+				<unitPattern count="other">{0} pm</unitPattern>
 			</unit>
 			<unit type="length-yard">
 				<displayName>yd</displayName>
@@ -5344,12 +5352,12 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="mass-gram">
 				<displayName draft="unconfirmed">g</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} g</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} g</unitPattern>
+				<unitPattern count="other">{0} g</unitPattern>
 			</unit>
 			<unit type="mass-kilogram">
-				<displayName draft="unconfirmed">kg</displayName>
+				<displayName>kg</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} kg</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} kg</unitPattern>
+				<unitPattern count="other">{0} kg</unitPattern>
 			</unit>
 			<unit type="mass-metric-ton">
 				<displayName>t</displayName>
@@ -5432,9 +5440,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="other">{0} kt</unitPattern>
 			</unit>
 			<unit type="speed-kilometer-per-hour">
-				<displayName draft="unconfirmed">km/h</displayName>
+				<displayName>km/h</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} km/h</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} km/h</unitPattern>
+				<unitPattern count="other">{0} km/h</unitPattern>
 			</unit>
 			<unit type="speed-meter-per-second">
 				<displayName>m/s</displayName>
@@ -5445,13 +5453,17 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="other">{0} mi/h</unitPattern>
 			</unit>
 			<unit type="temperature-celsius">
-				<displayName draft="unconfirmed">°C</displayName>
+				<displayName>°C</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} °C</unitPattern>
 				<unitPattern count="other" draft="unconfirmed">{0} °C</unitPattern>
 			</unit>
 			<unit type="temperature-fahrenheit">
 				<displayName>°F</displayName>
 				<unitPattern count="other">{0}°F</unitPattern>
+			</unit>
+			<unit type="temperature-generic">
+				<displayName>°</displayName>
+				<unitPattern count="other">{0}°</unitPattern>
 			</unit>
 			<unit type="temperature-kelvin">
 				<displayName>K</displayName>
@@ -5548,13 +5560,16 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</unit>
 		</unitLength>
 		<durationUnit type="hm">
-			<durationUnitPattern draft="unconfirmed">h:mm</durationUnitPattern>
+			<durationUnitPattern>h:mm</durationUnitPattern>
+			<!-- 33:59 -->
 		</durationUnit>
 		<durationUnit type="hms">
-			<durationUnitPattern draft="unconfirmed">h:mm:ss</durationUnitPattern>
+			<durationUnitPattern>h:mm:ss</durationUnitPattern>
+			<!-- 33:04:59 -->
 		</durationUnit>
 		<durationUnit type="ms">
-			<durationUnitPattern draft="unconfirmed">m:ss</durationUnitPattern>
+			<durationUnitPattern>m:ss</durationUnitPattern>
+			<!-- 33:59 -->
 		</durationUnit>
 	</units>
 	<listPatterns>
@@ -5565,13 +5580,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<alias source="locale" path="../listPattern[@type='unit-short']"/>
 		</listPattern>
 		<listPattern type="unit-short">
-			<alias source="locale" path="../listPattern[@type='']"/>
+			<alias source="locale" path="../listPattern"/>
 		</listPattern>
 		<listPattern>
 			<listPatternPart type="2" draft="unconfirmed">{0} kaj {1}</listPatternPart>
 			<listPatternPart type="end" draft="unconfirmed">{0} kaj {1}</listPatternPart>
-			<listPatternPart type="middle" draft="unconfirmed">{0}, {1}</listPatternPart>
-			<listPatternPart type="start" draft="unconfirmed">{0}, {1}</listPatternPart>
+			<listPatternPart type="middle">{0}, {1}</listPatternPart>
+			<listPatternPart type="start">{0}, {1}</listPatternPart>
 		</listPattern>
 	</listPatterns>
 	<collations>
@@ -5584,30 +5599,34 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*😁😂😃😄😅😆😉😊😋😌😍😎😏😐
 				<*😑😒😓😔😕😖😗😘😙😚😛😜😝😞😟😠
 				<*😡😢😣😤😥😦😧😨😩😪😫😬😭😮😯😰
-				<*😱😲😳😴😵😶😷😇😈👿👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
-				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
+				<*😱😲😳😴😵😶😷😇😈👿🙃🙄🤐
+				<*🤑🤒🤓🤔🤕🤗🤖👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
+				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭🏻🏼🏽🏾🏿👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
 				<*✍🖐
 				<*💅💪👣👀
 				<*👁👂👃👅💀
 				<*☠
-				<*💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
+				<*🤘💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
 				<*👡👢👑👒🎩⛑🐵🙈🙉🙊🐒🐶🐕🐩🐺🐱😸😹😺😻😼😽😾😿🙀
 				<*🐈🐯🐅🐆🐴🐎🐮🐂🐃🐄🐷🐖🐗🐽🐏🐑🐐
 				<*🐪🐫🐘🐭🐁🐀
 				<*🐹🐰
 				<*🐇🐿🐻🐨🐼🐾🐔🐓🐣🐤🐥🐦🐧🕊🐸🐊🐍🐢🐲🐉🐳🐋🐬🐟🐠
-				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸💩👹👺👻👽👾💐
-				<*🌸💮🏵🌹🌺🌻🌼🌷⸙☘🌱🌲🌳🌴🌵🌾🌿🍀
+				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸🦀
+				<*🦁🦂💩👹👺👻👽👾💐
+				<*🌸💮🏵🌹🌺🌻🌼🌷☘🌱🌲🌳🌴🌵🌾🌿🍀
 				<*🍁🍂🍃🍇🍈🍉🍊🍋🍌🍍🍎🍏🍐
 				<*🍑🍒🍓🍅🍆🌽🌶🍄🌰
 				<*🍞🍖🍗🍔🍟🍕🍲🍱🍘🍙🍚🍛🍜🍝🍠
 				<*🍢🍣🍤🍥🍡🍦🍧🍨🍩🍪🎂🍰
-				<*🍫🍬🍭🍮🍯☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🌍🌎🌏🌐
+				<*🍫🍬🍭🍮🍯🌭🌮🌯🍾🍿🦃🦄🧀
+				<*☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🏺🌍🌎🌏🌐
 				<*🗺🏔⛰
 				<*🌋🗻🏕🏖🏜🏝🏞🏟🏛🏗🏘🏙🏚🏠
 				<*🏡⛪🏢🏣🏤🏥🏦🏨🏩🏪🏫🏬🏭🏯🏰
 				<*💒🗼🗽🗾⛲⛺🌁🌃🌄🌅🌆🌇🌉🌊♨🗿🌌🎠
 				<*🎡🎢💈🎪🎫🎭🎰
+				<*🕋🕌🕍🛐
 				<*🚂🚃🚄🚅🚆🚇🚈🚉🚊🚝🚞🚋🚌🚍🚎🚏🚐
 				<*🚑🚒🚓🚔🚕🚖🚗🚘🚙🚚🚛🚜🚲🚳🚴🚵🏎🏍⛽🛣🛤🚨⎈⚓⛵🚣🚤🛳⛴🛥🚢✈🛩🛫🛬💺🚁🚟🚠
 				<*🚡🚀
@@ -5625,7 +5644,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*🌈🌂☂☔⛱❄☃⛄🌟🌠
 				<*☄🎲♠
 				<*♥♦♣🃏🀄🎮🕹⚽⚾🏀
-				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🔇🔈🔉🔊📢📣📯🔔🔕🔀
+				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🏏🏐
+				<*🏑🏒🏓🏸🔇🔈🔉🔊📢📣📯🔔🔕🔀
 				<*🔁🔂▶⏩⏭⏯◀
 				<*⏪⏮🔼⏫🔽⏬⏸⏹⏺⏏🎼🎵🎶🎙🎚🎛🎤🎧🎷🎸🎹🎺🎻📻📱📳📴📲📵☎📞
 				<#⃣
@@ -5649,7 +5669,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*💼📁📂🗂📅📆🗒🗓📇📈📉📊📋📌📍📎🖇📏📐
 				<*📛✂🗃🗄🗑🔒🔓🔏🔐
 				<*🔑🗝🔨⛏⚒🛠
-				<*🔧🔩⚙🗜⚗⚖💉🗡🔪⚔🔫🛡🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
+				<*🔧🔩⚙🗜⚗⚖💉📿🕎🗡🔪⚔🔫🛡🏹🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
 				<*⚱🔰
 				<*💯📡🏁🏳🏴🚩
 				<*🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿⬆↗➡↘⬇↙⬅↖↕↔↩↪⤴⤵🔃🔄🔙🔚🔛🔜🔝🕉✡☸☯✝☦⛩☪☮☢☣♻⚡⭐

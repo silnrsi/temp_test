@@ -5,8 +5,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 -->
 <ldml>
 	<identity>
-		<version number="$Revision: 11093 $"/>
-		<generation date="$Date: 2015-01-03 03:36 +0000 $"/>
+		<version number="$Revision: 11294 $"/>
+		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="hy"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 			<sil:identity source="cldr" draft="approved"/>
@@ -597,6 +597,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="ZW">Զիմբաբվե</territory>
 			<territory type="ZZ">Անհայտ տարածաշրջան</territory>
 		</territories>
+		<variants>
+			<variant type="AREVELA" draft="contributed">արևելահայերեն</variant>
+			<variant type="AREVMDA" draft="contributed">արեւմտահայերէն</variant>
+		</variants>
 		<keys>
 			<key type="calendar">Տոմար</key>
 			<key type="collation">Տեսակավորման կարգ</key>
@@ -2310,9 +2314,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<zone type="Asia/Choibalsan">
 				<exemplarCity>Չոյբալսան</exemplarCity>
 			</zone>
-			<zone type="Asia/Chongqing">
-				<exemplarCity>Չունցին</exemplarCity>
-			</zone>
 			<zone type="Asia/Colombo">
 				<exemplarCity>Կոլոմբո</exemplarCity>
 			</zone>
@@ -2333,9 +2334,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Gaza">
 				<exemplarCity>Գազա</exemplarCity>
-			</zone>
-			<zone type="Asia/Harbin">
-				<exemplarCity>Հարբին</exemplarCity>
 			</zone>
 			<zone type="Asia/Hebron">
 				<exemplarCity>Հեբրոն</exemplarCity>
@@ -2366,9 +2364,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Karachi">
 				<exemplarCity>Կարաչի</exemplarCity>
-			</zone>
-			<zone type="Asia/Kashgar">
-				<exemplarCity>Քաշգար</exemplarCity>
 			</zone>
 			<zone type="Asia/Katmandu">
 				<exemplarCity>Կատմանդու</exemplarCity>

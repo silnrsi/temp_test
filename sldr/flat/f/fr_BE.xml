@@ -173,7 +173,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<language type="eo">espéranto</language>
 			<language type="es">espagnol</language>
 			<language type="es_419">espagnol latino-américain</language>
-			<language type="es_ES">espagnol d’Europe</language>
+			<language type="es_ES">espagnol européen</language>
 			<language type="es_MX">espagnol mexicain</language>
 			<language type="esu" draft="unconfirmed">youpik central</language>
 			<language type="et">estonien</language>
@@ -458,7 +458,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<language type="ps">pachto</language>
 			<language type="pt">portugais</language>
 			<language type="pt_BR">portugais brésilien</language>
-			<language type="pt_PT">portugais d’Europe</language>
+			<language type="pt_PT">portugais européen</language>
 			<language type="qu">quechua</language>
 			<language type="quc">k’iche’</language>
 			<language type="qug" draft="unconfirmed">quichua du Haut-Chimborazo</language>
@@ -928,7 +928,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="GP">Guadeloupe</territory>
 			<territory type="GQ">Guinée équatoriale</territory>
 			<territory type="GR">Grèce</territory>
-			<territory type="GS">Îles Géorgie du Sud et Sandwich du Sud</territory>
+			<territory type="GS">Géorgie du Sud et îles Sandwich du Sud</territory>
 			<territory type="GT">Guatemala</territory>
 			<territory type="GU">Guam</territory>
 			<territory type="GW">Guinée-Bissau</territory>
@@ -1290,7 +1290,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<type type="tibt" key="numbers">chiffres tibétains</type>
 			<type type="traditional" key="collation">Ordre traditionnel</type>
 			<type type="traditional" key="numbers" draft="contributed">Chiffres traditionnels</type>
-			<type type="unihan" key="collation">Ordre par radical et nombre de traits</type>
+			<type type="unihan" key="collation">Ordre de tri radical-traits</type>
 			<type type="upper" key="colCaseFirst" draft="contributed">Trier avec les majuscules d’abord</type>
 			<type type="vaii" key="numbers" draft="contributed">Chiffres en vaï</type>
 			<type type="yes" key="colBackwards" draft="contributed">Trier les caractères accentués dans l’ordre inverse</type>
@@ -1492,18 +1492,18 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<month type="9" draft="contributed">9yuè</month>
 						</monthWidth>
 						<monthWidth type="narrow">
-							<month type="1" draft="unconfirmed">1</month>
-							<month type="10" draft="unconfirmed">10</month>
-							<month type="11" draft="unconfirmed">11</month>
-							<month type="12" draft="unconfirmed">12</month>
-							<month type="2" draft="unconfirmed">2</month>
-							<month type="3" draft="unconfirmed">3</month>
-							<month type="4" draft="unconfirmed">4</month>
-							<month type="5" draft="unconfirmed">5</month>
-							<month type="6" draft="unconfirmed">6</month>
-							<month type="7" draft="unconfirmed">7</month>
-							<month type="8" draft="unconfirmed">8</month>
-							<month type="9" draft="unconfirmed">9</month>
+							<month type="1">1</month>
+							<month type="10">10</month>
+							<month type="11">11</month>
+							<month type="12">12</month>
+							<month type="2">2</month>
+							<month type="3">3</month>
+							<month type="4">4</month>
+							<month type="5">5</month>
+							<month type="6">6</month>
+							<month type="7">7</month>
+							<month type="8">8</month>
+							<month type="9">9</month>
 						</monthWidth>
 						<monthWidth type="wide">
 							<month type="1" draft="contributed">zhēngyuè</month>
@@ -1563,18 +1563,18 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<cyclicNameSet type="dayParts">
 						<cyclicNameContext type="format">
 							<cyclicNameWidth type="abbreviated">
-								<cyclicName type="1" draft="unconfirmed">zi</cyclicName>
-								<cyclicName type="10" draft="unconfirmed">you</cyclicName>
-								<cyclicName type="11" draft="unconfirmed">xu</cyclicName>
-								<cyclicName type="12" draft="unconfirmed">hai</cyclicName>
-								<cyclicName type="2" draft="unconfirmed">chou</cyclicName>
-								<cyclicName type="3" draft="unconfirmed">yin</cyclicName>
-								<cyclicName type="4" draft="unconfirmed">mao</cyclicName>
-								<cyclicName type="5" draft="unconfirmed">chen</cyclicName>
-								<cyclicName type="6" draft="unconfirmed">si</cyclicName>
-								<cyclicName type="7" draft="unconfirmed">wu</cyclicName>
-								<cyclicName type="8" draft="unconfirmed">wei</cyclicName>
-								<cyclicName type="9" draft="unconfirmed">shen</cyclicName>
+								<cyclicName type="1">zi</cyclicName>
+								<cyclicName type="10">you</cyclicName>
+								<cyclicName type="11">xu</cyclicName>
+								<cyclicName type="12">hai</cyclicName>
+								<cyclicName type="2">chou</cyclicName>
+								<cyclicName type="3">yin</cyclicName>
+								<cyclicName type="4">mao</cyclicName>
+								<cyclicName type="5">chen</cyclicName>
+								<cyclicName type="6">si</cyclicName>
+								<cyclicName type="7">wu</cyclicName>
+								<cyclicName type="8">wei</cyclicName>
+								<cyclicName type="9">shen</cyclicName>
 							</cyclicNameWidth>
 							<cyclicNameWidth type="narrow">
 								<alias source="locale" path="../cyclicNameWidth[@type='abbreviated']"/>
@@ -1629,66 +1629,66 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<cyclicNameSet type="years">
 						<cyclicNameContext type="format">
 							<cyclicNameWidth type="abbreviated">
-								<cyclicName type="1" draft="unconfirmed">jia-zi</cyclicName>
-								<cyclicName type="10" draft="unconfirmed">gui-you</cyclicName>
-								<cyclicName type="11" draft="unconfirmed">jia-xu</cyclicName>
-								<cyclicName type="12" draft="unconfirmed">yi-hai</cyclicName>
-								<cyclicName type="13" draft="unconfirmed">bing-zi</cyclicName>
-								<cyclicName type="14" draft="unconfirmed">ding-chou</cyclicName>
-								<cyclicName type="15" draft="unconfirmed">wu-yin</cyclicName>
-								<cyclicName type="16" draft="unconfirmed">ji-mao</cyclicName>
-								<cyclicName type="17" draft="unconfirmed">geng-chen</cyclicName>
-								<cyclicName type="18" draft="unconfirmed">xin-si</cyclicName>
-								<cyclicName type="19" draft="unconfirmed">ren-wu</cyclicName>
-								<cyclicName type="2" draft="unconfirmed">yi-chou</cyclicName>
-								<cyclicName type="20" draft="unconfirmed">gui-wei</cyclicName>
-								<cyclicName type="21" draft="unconfirmed">jia-shen</cyclicName>
-								<cyclicName type="22" draft="unconfirmed">yi-you</cyclicName>
-								<cyclicName type="23" draft="unconfirmed">bing-xu</cyclicName>
-								<cyclicName type="24" draft="unconfirmed">ding-hai</cyclicName>
-								<cyclicName type="25" draft="unconfirmed">wu-zi</cyclicName>
-								<cyclicName type="26" draft="unconfirmed">ji-chou</cyclicName>
-								<cyclicName type="27" draft="unconfirmed">geng-yin</cyclicName>
-								<cyclicName type="28" draft="unconfirmed">xin-mao</cyclicName>
-								<cyclicName type="29" draft="unconfirmed">ren-chen</cyclicName>
-								<cyclicName type="3" draft="unconfirmed">bing-yin</cyclicName>
-								<cyclicName type="30" draft="unconfirmed">gui-si</cyclicName>
-								<cyclicName type="31" draft="unconfirmed">jia-wu</cyclicName>
-								<cyclicName type="32" draft="unconfirmed">yi-wei</cyclicName>
-								<cyclicName type="33" draft="unconfirmed">bing-shen</cyclicName>
-								<cyclicName type="34" draft="unconfirmed">ding-you</cyclicName>
-								<cyclicName type="35" draft="unconfirmed">wu-xu</cyclicName>
-								<cyclicName type="36" draft="unconfirmed">ji-hai</cyclicName>
-								<cyclicName type="37" draft="unconfirmed">geng-zi</cyclicName>
-								<cyclicName type="38" draft="unconfirmed">xin-chou</cyclicName>
-								<cyclicName type="39" draft="unconfirmed">ren-yin</cyclicName>
-								<cyclicName type="4" draft="unconfirmed">ding-mao</cyclicName>
-								<cyclicName type="40" draft="unconfirmed">gui-mao</cyclicName>
-								<cyclicName type="41" draft="unconfirmed">jia-chen</cyclicName>
-								<cyclicName type="42" draft="unconfirmed">yi-si</cyclicName>
-								<cyclicName type="43" draft="unconfirmed">bing-wu</cyclicName>
-								<cyclicName type="44" draft="unconfirmed">ding-wei</cyclicName>
-								<cyclicName type="45" draft="unconfirmed">wu-shen</cyclicName>
-								<cyclicName type="46" draft="unconfirmed">ji-you</cyclicName>
-								<cyclicName type="47" draft="unconfirmed">geng-xu</cyclicName>
-								<cyclicName type="48" draft="unconfirmed">xin-hai</cyclicName>
-								<cyclicName type="49" draft="unconfirmed">ren-zi</cyclicName>
-								<cyclicName type="5" draft="unconfirmed">wu-chen</cyclicName>
-								<cyclicName type="50" draft="unconfirmed">gui-chou</cyclicName>
-								<cyclicName type="51" draft="unconfirmed">jia-yin</cyclicName>
-								<cyclicName type="52" draft="unconfirmed">yi-mao</cyclicName>
-								<cyclicName type="53" draft="unconfirmed">bing-chen</cyclicName>
-								<cyclicName type="54" draft="unconfirmed">ding-si</cyclicName>
-								<cyclicName type="55" draft="unconfirmed">wu-wu</cyclicName>
-								<cyclicName type="56" draft="unconfirmed">ji-wei</cyclicName>
-								<cyclicName type="57" draft="unconfirmed">geng-shen</cyclicName>
-								<cyclicName type="58" draft="unconfirmed">xin-you</cyclicName>
-								<cyclicName type="59" draft="unconfirmed">ren-xu</cyclicName>
-								<cyclicName type="6" draft="unconfirmed">ji-si</cyclicName>
-								<cyclicName type="60" draft="unconfirmed">gui-hai</cyclicName>
-								<cyclicName type="7" draft="unconfirmed">geng-wu</cyclicName>
-								<cyclicName type="8" draft="unconfirmed">xin-wei</cyclicName>
-								<cyclicName type="9" draft="unconfirmed">ren-shen</cyclicName>
+								<cyclicName type="1">jia-zi</cyclicName>
+								<cyclicName type="10">gui-you</cyclicName>
+								<cyclicName type="11">jia-xu</cyclicName>
+								<cyclicName type="12">yi-hai</cyclicName>
+								<cyclicName type="13">bing-zi</cyclicName>
+								<cyclicName type="14">ding-chou</cyclicName>
+								<cyclicName type="15">wu-yin</cyclicName>
+								<cyclicName type="16">ji-mao</cyclicName>
+								<cyclicName type="17">geng-chen</cyclicName>
+								<cyclicName type="18">xin-si</cyclicName>
+								<cyclicName type="19">ren-wu</cyclicName>
+								<cyclicName type="2">yi-chou</cyclicName>
+								<cyclicName type="20">gui-wei</cyclicName>
+								<cyclicName type="21">jia-shen</cyclicName>
+								<cyclicName type="22">yi-you</cyclicName>
+								<cyclicName type="23">bing-xu</cyclicName>
+								<cyclicName type="24">ding-hai</cyclicName>
+								<cyclicName type="25">wu-zi</cyclicName>
+								<cyclicName type="26">ji-chou</cyclicName>
+								<cyclicName type="27">geng-yin</cyclicName>
+								<cyclicName type="28">xin-mao</cyclicName>
+								<cyclicName type="29">ren-chen</cyclicName>
+								<cyclicName type="3">bing-yin</cyclicName>
+								<cyclicName type="30">gui-si</cyclicName>
+								<cyclicName type="31">jia-wu</cyclicName>
+								<cyclicName type="32">yi-wei</cyclicName>
+								<cyclicName type="33">bing-shen</cyclicName>
+								<cyclicName type="34">ding-you</cyclicName>
+								<cyclicName type="35">wu-xu</cyclicName>
+								<cyclicName type="36">ji-hai</cyclicName>
+								<cyclicName type="37">geng-zi</cyclicName>
+								<cyclicName type="38">xin-chou</cyclicName>
+								<cyclicName type="39">ren-yin</cyclicName>
+								<cyclicName type="4">ding-mao</cyclicName>
+								<cyclicName type="40">gui-mao</cyclicName>
+								<cyclicName type="41">jia-chen</cyclicName>
+								<cyclicName type="42">yi-si</cyclicName>
+								<cyclicName type="43">bing-wu</cyclicName>
+								<cyclicName type="44">ding-wei</cyclicName>
+								<cyclicName type="45">wu-shen</cyclicName>
+								<cyclicName type="46">ji-you</cyclicName>
+								<cyclicName type="47">geng-xu</cyclicName>
+								<cyclicName type="48">xin-hai</cyclicName>
+								<cyclicName type="49">ren-zi</cyclicName>
+								<cyclicName type="5">wu-chen</cyclicName>
+								<cyclicName type="50">gui-chou</cyclicName>
+								<cyclicName type="51">jia-yin</cyclicName>
+								<cyclicName type="52">yi-mao</cyclicName>
+								<cyclicName type="53">bing-chen</cyclicName>
+								<cyclicName type="54">ding-si</cyclicName>
+								<cyclicName type="55">wu-wu</cyclicName>
+								<cyclicName type="56">ji-wei</cyclicName>
+								<cyclicName type="57">geng-shen</cyclicName>
+								<cyclicName type="58">xin-you</cyclicName>
+								<cyclicName type="59">ren-xu</cyclicName>
+								<cyclicName type="6">ji-si</cyclicName>
+								<cyclicName type="60">gui-hai</cyclicName>
+								<cyclicName type="7">geng-wu</cyclicName>
+								<cyclicName type="8">xin-wei</cyclicName>
+								<cyclicName type="9">ren-shen</cyclicName>
 							</cyclicNameWidth>
 							<cyclicNameWidth type="narrow">
 								<alias source="locale" path="../cyclicNameWidth[@type='abbreviated']"/>
@@ -1785,6 +1785,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MMMEd">E d MMM</dateFormatItem>
 						<dateFormatItem id="MMMd">d MMM</dateFormatItem>
 						<dateFormatItem id="Md">d/M</dateFormatItem>
+						<dateFormatItem id="UM">U MM</dateFormatItem>
+						<dateFormatItem id="UMMM">U MMM</dateFormatItem>
+						<dateFormatItem id="UMMMd">U MMM d</dateFormatItem>
+						<dateFormatItem id="UMd">U MM-d</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
 						<dateFormatItem id="h">h a</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
@@ -2592,7 +2596,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<greatestDifference id="d" draft="unconfirmed">E d/MM – E d/MM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MMM">
-							<greatestDifference id="M" draft="unconfirmed">MMM–MMM</greatestDifference>
+							<greatestDifference id="M">MMM–MMM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MMMEd">
 							<greatestDifference id="M" draft="unconfirmed">E d MMM 'au' E d MMM</greatestDifference>
@@ -2600,7 +2604,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						</intervalFormatItem>
 						<intervalFormatItem id="MMMd">
 							<greatestDifference id="M" draft="unconfirmed">d MMM 'au' d MMM</greatestDifference>
-							<greatestDifference id="d" draft="unconfirmed">d–d MMM</greatestDifference>
+							<greatestDifference id="d">d–d MMM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Md">
 							<greatestDifference id="M" draft="unconfirmed">d/MM – d/MM</greatestDifference>
@@ -2631,7 +2635,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<greatestDifference id="y">y – y G</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yM">
-							<greatestDifference id="M" draft="unconfirmed">MM/y – MM/y G</greatestDifference>
+							<greatestDifference id="M">MM/y – MM/y G</greatestDifference>
 							<greatestDifference id="y" draft="unconfirmed">MM/y – MM/y G</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMEd">
@@ -2640,7 +2644,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<greatestDifference id="y" draft="unconfirmed">E d/MM/y – E d/MM/y G</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMM">
-							<greatestDifference id="M" draft="unconfirmed">MMM–MMM y G</greatestDifference>
+							<greatestDifference id="M">MMM–MMM y G</greatestDifference>
 							<greatestDifference id="y" draft="unconfirmed">MMM y 'a'` MMM y G</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMEd">
@@ -2889,7 +2893,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<dayPeriod type="morning">matin</dayPeriod>
 							<dayPeriod type="night">soir</dayPeriod>
 							<dayPeriod type="noon">midi</dayPeriod>
-							<dayPeriod type="pm" draft="contributed">p</dayPeriod>
+							<dayPeriod type="pm">p</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="afternoon">après-midi</dayPeriod>
@@ -3015,6 +3019,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="H">HH 'h'</dateFormatItem>
 						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
+						<dateFormatItem id="Hmsv">HH:mm:ss v</dateFormatItem>
+						<dateFormatItem id="Hmv">HH:mm v</dateFormatItem>
 						<dateFormatItem id="M">L</dateFormatItem>
 						<dateFormatItem id="MEd">E d/M</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
@@ -3025,6 +3031,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="h">h a</dateFormatItem>
 						<dateFormatItem id="hm">h:mm a</dateFormatItem>
 						<dateFormatItem id="hms">h:mm:ss a</dateFormatItem>
+						<dateFormatItem id="hmsv">h:mm:ss a v</dateFormatItem>
+						<dateFormatItem id="hmv">h:mm a v</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y">y</dateFormatItem>
 						<dateFormatItem id="yM">M/y</dateFormatItem>
@@ -3046,7 +3054,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<appendItem request="Month">{0} ({2}: {1})</appendItem>
 						<appendItem request="Quarter">{0} ({2}: {1})</appendItem>
 						<appendItem request="Second">{0} ({2}: {1})</appendItem>
-						<appendItem request="Timezone" draft="contributed">{0} {1}</appendItem>
+						<appendItem request="Timezone">{0} {1}</appendItem>
 						<appendItem request="Week">{0} ({2}: {1})</appendItem>
 						<appendItem request="Year">{1} {0}</appendItem>
 					</appendItems>
@@ -3067,14 +3075,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<greatestDifference id="H" draft="unconfirmed">HH–HH v</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="M">
-							<greatestDifference id="M" draft="unconfirmed">M–M</greatestDifference>
+							<greatestDifference id="M">M–M</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MEd">
 							<greatestDifference id="M" draft="unconfirmed">E d/MM – E d/MM</greatestDifference>
 							<greatestDifference id="d" draft="unconfirmed">E d/MM – E d/MM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MMM">
-							<greatestDifference id="M" draft="unconfirmed">MMM–MMM</greatestDifference>
+							<greatestDifference id="M">MMM–MMM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="MMMEd">
 							<greatestDifference id="M" draft="unconfirmed">E d MMM 'au' E d MMM</greatestDifference>
@@ -3082,7 +3090,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						</intervalFormatItem>
 						<intervalFormatItem id="MMMd">
 							<greatestDifference id="M" draft="unconfirmed">d MMM 'au' d MMM</greatestDifference>
-							<greatestDifference id="d" draft="unconfirmed">d–d MMM</greatestDifference>
+							<greatestDifference id="d">d–d MMM</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Md">
 							<greatestDifference id="M" draft="unconfirmed">d/MM – d/MM</greatestDifference>
@@ -3113,7 +3121,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<greatestDifference id="y">y–y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yM">
-							<greatestDifference id="M" draft="unconfirmed">MM/y – MM/y</greatestDifference>
+							<greatestDifference id="M">MM/y – MM/y</greatestDifference>
 							<greatestDifference id="y" draft="unconfirmed">MM/y – MM/y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMEd">
@@ -3122,7 +3130,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<greatestDifference id="y" draft="unconfirmed">E d/MM/y – E d/MM/y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMM">
-							<greatestDifference id="M" draft="unconfirmed">MMM–MMM y</greatestDifference>
+							<greatestDifference id="M">MMM–MMM y</greatestDifference>
 							<greatestDifference id="y" draft="unconfirmed">MMM y 'a'` MMM y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMEd">
@@ -3136,7 +3144,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						</intervalFormatItem>
 						<intervalFormatItem id="yMMMd">
 							<greatestDifference id="M" draft="unconfirmed">d MMM 'au' d MMM y</greatestDifference>
-							<greatestDifference id="d" draft="unconfirmed">d–d MMM y</greatestDifference>
+							<greatestDifference id="d">d–d MMM y</greatestDifference>
 							<greatestDifference id="y" draft="unconfirmed">d MMM y 'au' d MMM y</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="yMd">
@@ -3263,7 +3271,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<era type="0" draft="unconfirmed">Anno Mundi</era>
 					</eraNames>
 					<eraAbbr>
-						<era type="0" draft="unconfirmed">AM</era>
+						<era type="0">AM</era>
+						<!-- HY = Anno Mundi
+							 = -180799862400000 milliseconds since 1/1/1970 AD
+						-->
 					</eraAbbr>
 					<eraNarrow>
 						<alias source="locale" path="../eraAbbr"/>
@@ -3861,10 +3872,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<era type="23">Kajō (848-851)</era>
 						<era type="230">Genji (1864-1865)</era>
 						<era type="231">Keiō (1865-1868)</era>
-						<era type="232" draft="unconfirmed">Meiji</era>
-						<era type="233" draft="unconfirmed">Taishō</era>
-						<era type="234" draft="unconfirmed">Shōwa</era>
-						<era type="235" draft="unconfirmed">Heisei</era>
+						<era type="232">Meiji</era>
+						<era type="233">Taishō</era>
+						<era type="234">Shōwa</era>
+						<era type="235">Heisei</era>
 						<era type="24">Ninju (851-854)</era>
 						<era type="25">Saiko (854-857)</era>
 						<era type="26">Tennan (857-859)</era>
@@ -4325,7 +4336,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<alias source="locale" path="../eraAbbr"/>
 					</eraNames>
 					<eraAbbr>
-						<era type="0" draft="unconfirmed">AP</era>
+						<era type="0">AP</era>
 					</eraAbbr>
 					<eraNarrow>
 						<alias source="locale" path="../eraAbbr"/>
@@ -5464,9 +5475,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<zone type="Asia/Choibalsan">
 				<exemplarCity>Tchoïbalsan</exemplarCity>
 			</zone>
-			<zone type="Asia/Chongqing">
-				<exemplarCity>Chongqing</exemplarCity>
-			</zone>
 			<zone type="Asia/Colombo">
 				<exemplarCity>Colombo</exemplarCity>
 			</zone>
@@ -5487,9 +5495,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Gaza">
 				<exemplarCity>Gaza</exemplarCity>
-			</zone>
-			<zone type="Asia/Harbin">
-				<exemplarCity>Harbin</exemplarCity>
 			</zone>
 			<zone type="Asia/Hebron">
 				<exemplarCity>Hébron</exemplarCity>
@@ -5520,9 +5525,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</zone>
 			<zone type="Asia/Karachi">
 				<exemplarCity>Karachi</exemplarCity>
-			</zone>
-			<zone type="Asia/Kashgar">
-				<exemplarCity>Kachgar</exemplarCity>
 			</zone>
 			<zone type="Asia/Katmandu">
 				<exemplarCity>Katmandou</exemplarCity>
@@ -6991,9 +6993,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 		</timeZoneNames>
 	</dates>
 	<numbers>
-		<defaultNumberingSystem draft="contributed">latn</defaultNumberingSystem>
+		<defaultNumberingSystem>latn</defaultNumberingSystem>
 		<otherNumberingSystems>
-			<native draft="contributed">latn</native>
+			<native>latn</native>
 		</otherNumberingSystems>
 		<symbols numberSystem="arab">
 			<decimal>٫</decimal>
@@ -7090,7 +7092,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<perMille>‰</perMille>
 			<infinity>∞</infinity>
 			<nan>NaN</nan>
-			<timeSeparator draft="contributed">:</timeSeparator>
+			<timeSeparator>:</timeSeparator>
 		</symbols>
 		<symbols numberSystem="lepc">
 			<alias source="locale" path="../symbols[@numberSystem='latn']"/>
@@ -7866,7 +7868,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">peso argentin</displayName>
 				<displayName count="other">pesos argentins</displayName>
 				<displayName>peso argentin</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>$AR</symbol>
 			</currency>
 			<currency type="ATS">
@@ -7878,7 +7880,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dollar australien</displayName>
 				<displayName count="other">dollars australiens</displayName>
 				<displayName>dollar australien</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>$AU</symbol>
 			</currency>
 			<currency type="AWG">
@@ -7916,13 +7918,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dollars barbadiens</displayName>
 				<displayName>dollar barbadien</displayName>
 				<symbol draft="contributed">BBD</symbol>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="BDT">
 				<displayName count="one">taka bangladeshi</displayName>
 				<displayName count="other">takas bangladeshis</displayName>
 				<displayName>taka bangladeshi</displayName>
-				<symbol alt="narrow" draft="contributed">৳</symbol>
+				<symbol alt="narrow">৳</symbol>
 				<symbol>BDT</symbol>
 			</currency>
 			<currency type="BEC">
@@ -7968,14 +7970,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dollar bermudien</displayName>
 				<displayName count="other">dollars bermudiens</displayName>
 				<displayName>dollar bermudien</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>$BM</symbol>
 			</currency>
 			<currency type="BND">
 				<displayName count="one">dollar brunéien</displayName>
 				<displayName count="other">dollars brunéiens</displayName>
 				<displayName>dollar brunéien</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>$BN</symbol>
 			</currency>
 			<currency type="BOB">
@@ -8025,8 +8027,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">réal brésilien</displayName>
 				<displayName count="other">réals brésiliens</displayName>
 				<displayName>réal brésilien</displayName>
-				<symbol draft="contributed">R$</symbol>
-				<symbol alt="narrow" draft="contributed">R$</symbol>
+				<symbol alt="narrow">R$</symbol>
+				<symbol>R$</symbol>
 			</currency>
 			<currency type="BRN">
 				<displayName count="one">nouveau cruzado brésilien (1989–1990)</displayName>
@@ -8050,7 +8052,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dollar bahaméen</displayName>
 				<displayName count="other">dollars bahaméens</displayName>
 				<displayName>dollar bahaméen</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>$BS</symbol>
 			</currency>
 			<currency type="BTN">
@@ -8082,20 +8084,20 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">roubles biélorusses</displayName>
 				<displayName>rouble biélorusse</displayName>
 				<symbol draft="contributed">BYR</symbol>
-				<symbol alt="narrow" draft="contributed">р.</symbol>
+				<symbol alt="narrow">р.</symbol>
 			</currency>
 			<currency type="BZD">
 				<displayName count="one">dollar bélizéen</displayName>
 				<displayName count="other">dollars bélizéens</displayName>
 				<displayName>dollar bélizéen</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>$BZ</symbol>
 			</currency>
 			<currency type="CAD">
 				<displayName count="one">dollar canadien</displayName>
 				<displayName count="other">dollars canadiens</displayName>
 				<displayName>dollar canadien</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>$CA</symbol>
 			</currency>
 			<currency type="CDF">
@@ -8136,7 +8138,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">peso chilien</displayName>
 				<displayName count="other">pesos chiliens</displayName>
 				<displayName>peso chilien</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>$CL</symbol>
 			</currency>
 			<currency type="CNX">
@@ -8149,14 +8151,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">yuan renminbi chinois</displayName>
 				<displayName count="other">yuans renminbi chinois</displayName>
 				<displayName>yuan renminbi chinois</displayName>
-				<symbol alt="narrow" draft="contributed">¥</symbol>
+				<symbol alt="narrow">¥</symbol>
 				<symbol>CNY</symbol>
 			</currency>
 			<currency type="COP">
 				<displayName count="one">peso colombien</displayName>
 				<displayName count="other">pesos colombiens</displayName>
 				<displayName>peso colombien</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>$CO</symbol>
 			</currency>
 			<currency type="COU">
@@ -8170,7 +8172,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">colóns costaricains</displayName>
 				<displayName>colón costaricain</displayName>
 				<symbol draft="contributed">CRC</symbol>
-				<symbol alt="narrow" draft="contributed">₡</symbol>
+				<symbol alt="narrow">₡</symbol>
 			</currency>
 			<currency type="CSD">
 				<displayName count="one">dinar serbo-monténégrin</displayName>
@@ -8193,7 +8195,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">peso cubain</displayName>
 				<displayName count="other">pesos cubains</displayName>
 				<displayName>peso cubain</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>CUP</symbol>
 			</currency>
 			<currency type="CVE">
@@ -8243,7 +8245,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">pesos dominicains</displayName>
 				<displayName>peso dominicain</displayName>
 				<symbol draft="contributed">DOP</symbol>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="DZD">
 				<displayName count="one">dinar algérien</displayName>
@@ -8307,7 +8309,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">euro</displayName>
 				<displayName count="other">euros</displayName>
 				<displayName>euro</displayName>
-				<symbol alt="narrow" draft="contributed">€</symbol>
+				<symbol alt="narrow">€</symbol>
 				<symbol>€</symbol>
 			</currency>
 			<currency type="FIM">
@@ -8319,13 +8321,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dollar fidjien</displayName>
 				<displayName count="other">dollars fidjiens</displayName>
 				<displayName>dollar fidjien</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>$FJ</symbol>
 			</currency>
 			<currency type="FKP">
-				<displayName count="one">livre des Falkland</displayName>
-				<displayName count="other">livres des Falkland</displayName>
-				<displayName>livre des Falkland</displayName>
+				<displayName count="one">livre des îles Malouines</displayName>
+				<displayName count="other">livres des îles Malouines</displayName>
+				<displayName>livre des îles Malouines</displayName>
 				<symbol alt="narrow">£</symbol>
 				<symbol>£FK</symbol>
 			</currency>
@@ -8339,7 +8341,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">livre sterling</displayName>
 				<displayName count="other">livres sterling</displayName>
 				<displayName>livre sterling</displayName>
-				<symbol alt="narrow" draft="contributed">£</symbol>
+				<symbol alt="narrow">£</symbol>
 				<symbol>£GB</symbol>
 			</currency>
 			<currency type="GEK">
@@ -8369,7 +8371,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">livre de Gibraltar</displayName>
 				<displayName count="other">livres de Gibraltar</displayName>
 				<displayName>livre de Gibraltar</displayName>
-				<symbol alt="narrow" draft="contributed">£</symbol>
+				<symbol alt="narrow">£</symbol>
 				<symbol>£GI</symbol>
 			</currency>
 			<currency type="GMD">
@@ -8423,13 +8425,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dollars du Guyana</displayName>
 				<displayName>dollar du Guyana</displayName>
 				<symbol draft="contributed">GYD</symbol>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="HKD">
 				<displayName count="one">dollar de Hong Kong</displayName>
 				<displayName count="other">dollars de Hong Kong</displayName>
 				<displayName>dollar de Hong Kong</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>HKD</symbol>
 			</currency>
 			<currency type="HNL">
@@ -8493,14 +8495,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">nouveau shekel israélien</displayName>
 				<displayName count="other">nouveaux shekels israéliens</displayName>
 				<displayName>nouveau shekel israélien</displayName>
-				<symbol alt="narrow" draft="contributed">₪</symbol>
+				<symbol alt="narrow">₪</symbol>
 				<symbol>₪</symbol>
 			</currency>
 			<currency type="INR">
 				<displayName count="one">roupie indienne</displayName>
 				<displayName count="other">roupies indiennes</displayName>
 				<displayName>roupie indienne</displayName>
-				<symbol alt="narrow" draft="contributed">₹</symbol>
+				<symbol alt="narrow">₹</symbol>
 				<symbol>₹</symbol>
 			</currency>
 			<currency type="IQD">
@@ -8533,7 +8535,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dollars jamaïcains</displayName>
 				<displayName>dollar jamaïcain</displayName>
 				<symbol draft="contributed">JMD</symbol>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="JOD">
 				<displayName count="one">dinar jordanien</displayName>
@@ -8545,7 +8547,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">yen japonais</displayName>
 				<displayName count="other">yens japonais</displayName>
 				<displayName>yen japonais</displayName>
-				<symbol alt="narrow" draft="contributed">¥</symbol>
+				<symbol alt="narrow">¥</symbol>
 				<symbol>JPY</symbol>
 			</currency>
 			<currency type="KES">
@@ -8565,7 +8567,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">riels cambodgiens</displayName>
 				<displayName>riel cambodgien</displayName>
 				<symbol draft="contributed">KHR</symbol>
-				<symbol alt="narrow" draft="contributed">៛</symbol>
+				<symbol alt="narrow">៛</symbol>
 			</currency>
 			<currency type="KMF">
 				<displayName count="one">franc comorien</displayName>
@@ -8597,7 +8599,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">won sud-coréen</displayName>
 				<displayName count="other">wons sud-coréens</displayName>
 				<displayName>won sud-coréen</displayName>
-				<symbol alt="narrow" draft="contributed">₩</symbol>
+				<symbol alt="narrow">₩</symbol>
 				<symbol>₩</symbol>
 			</currency>
 			<currency type="KWD">
@@ -8611,21 +8613,21 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">dollars des îles Caïmans</displayName>
 				<displayName>dollar des îles Caïmans</displayName>
 				<symbol draft="contributed">KYD</symbol>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="KZT">
 				<displayName count="one">tenge kazakh</displayName>
 				<displayName count="other">tenges kazakhs</displayName>
 				<displayName>tenge kazakh</displayName>
 				<symbol draft="contributed">KZT</symbol>
-				<symbol alt="narrow" draft="contributed">₸</symbol>
+				<symbol alt="narrow">₸</symbol>
 			</currency>
 			<currency type="LAK">
 				<displayName count="one">kip loatien</displayName>
 				<displayName count="other">kips loatiens</displayName>
 				<displayName>kip loatien</displayName>
 				<symbol draft="contributed">LAK</symbol>
-				<symbol alt="narrow" draft="contributed">₭</symbol>
+				<symbol alt="narrow">₭</symbol>
 			</currency>
 			<currency type="LBP">
 				<displayName count="one">livre libanaise</displayName>
@@ -8645,7 +8647,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dollar libérien</displayName>
 				<displayName count="other">dollars libériens</displayName>
 				<displayName>dollar libérien</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>LRD</symbol>
 			</currency>
 			<currency type="LSL">
@@ -8752,7 +8754,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">tugrik mongol</displayName>
 				<displayName count="other">tugriks mongols</displayName>
 				<displayName>tugrik mongol</displayName>
-				<symbol alt="narrow" draft="contributed">₮</symbol>
+				<symbol alt="narrow">₮</symbol>
 				<symbol>MNT</symbol>
 			</currency>
 			<currency type="MOP">
@@ -8808,7 +8810,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">pesos mexicains</displayName>
 				<displayName>peso mexicain</displayName>
 				<symbol draft="contributed">$MX</symbol>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="MXP">
 				<displayName count="one">peso d’argent mexicain (1861–1992)</displayName>
@@ -8851,14 +8853,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dollar namibien</displayName>
 				<displayName count="other">dollars namibiens</displayName>
 				<displayName>dollar namibien</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>$NA</symbol>
 			</currency>
 			<currency type="NGN">
 				<displayName count="one">naira nigérian</displayName>
 				<displayName count="other">nairas nigérians</displayName>
 				<displayName>naira nigérian</displayName>
-				<symbol alt="narrow" draft="contributed">₦</symbol>
+				<symbol alt="narrow">₦</symbol>
 				<symbol>NGN</symbol>
 			</currency>
 			<currency type="NIC">
@@ -8897,7 +8899,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dollar néo-zélandais</displayName>
 				<displayName count="other">dollars néo-zélandais</displayName>
 				<displayName>dollar néo-zélandais</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>$NZ</symbol>
 			</currency>
 			<currency type="OMR">
@@ -8941,7 +8943,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">pesos philippins</displayName>
 				<displayName>peso philippin</displayName>
 				<symbol draft="contributed">PHP</symbol>
-				<symbol alt="narrow" draft="contributed">₱</symbol>
+				<symbol alt="narrow">₱</symbol>
 			</currency>
 			<currency type="PKR">
 				<displayName count="one">roupie pakistanaise</displayName>
@@ -8972,7 +8974,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">guaranís paraguayens</displayName>
 				<displayName>guaraní paraguayen</displayName>
 				<symbol draft="contributed">PYG</symbol>
-				<symbol alt="narrow" draft="contributed">₲</symbol>
+				<symbol alt="narrow">₲</symbol>
 			</currency>
 			<currency type="QAR">
 				<displayName count="one">rial qatari</displayName>
@@ -9033,7 +9035,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dollar des îles Salomon</displayName>
 				<displayName count="other">dollars des îles Salomon</displayName>
 				<displayName>dollar des îles Salomon</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>$SB</symbol>
 			</currency>
 			<currency type="SCR">
@@ -9071,7 +9073,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dollar de Singapour</displayName>
 				<displayName count="other">dollars de Singapour</displayName>
 				<displayName>dollar de Singapour</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>$SG</symbol>
 			</currency>
 			<currency type="SHP">
@@ -9107,7 +9109,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dollar surinamais</displayName>
 				<displayName count="other">dollars surinamais</displayName>
 				<displayName>dollar surinamais</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>$SR</symbol>
 			</currency>
 			<currency type="SRG">
@@ -9120,7 +9122,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">livre sud-soudanaise</displayName>
 				<displayName count="other">livres sud-soudanaises</displayName>
 				<displayName>livre sud-soudanaise</displayName>
-				<symbol alt="narrow" draft="contributed">£</symbol>
+				<symbol alt="narrow">£</symbol>
 				<symbol>SSP</symbol>
 			</currency>
 			<currency type="STD">
@@ -9213,21 +9215,21 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">livres turques</displayName>
 				<displayName>livre turque</displayName>
 				<symbol draft="contributed">TRY</symbol>
-				<symbol alt="narrow" draft="contributed">₺</symbol>
+				<symbol alt="narrow">₺</symbol>
 				<symbol alt="variant">TL</symbol>
 			</currency>
 			<currency type="TTD">
 				<displayName count="one">dollar de Trinité-et-Tobago</displayName>
 				<displayName count="other">dollars de Trinité-et-Tobago</displayName>
 				<displayName>dollar trinidadien</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>$TT</symbol>
 			</currency>
 			<currency type="TWD">
 				<displayName count="one">nouveau dollar taïwanais</displayName>
 				<displayName count="other">nouveaux dollars taïwanais</displayName>
 				<displayName>nouveau dollar taïwanais</displayName>
-				<symbol alt="narrow" draft="contributed">NT$</symbol>
+				<symbol alt="narrow">NT$</symbol>
 				<symbol>TWD</symbol>
 			</currency>
 			<currency type="TZS">
@@ -9241,7 +9243,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">hryvnias ukrainiennes</displayName>
 				<displayName>hryvnia ukrainienne</displayName>
 				<symbol draft="contributed">UAH</symbol>
-				<symbol alt="narrow" draft="contributed">₴</symbol>
+				<symbol alt="narrow">₴</symbol>
 			</currency>
 			<currency type="UAK">
 				<displayName count="one">karbovanets ukrainien (1992–1996)</displayName>
@@ -9264,7 +9266,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dollar des États-Unis</displayName>
 				<displayName count="other">dollars des États-Unis</displayName>
 				<displayName>dollar des États-Unis</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>$US</symbol>
 			</currency>
 			<currency type="USN">
@@ -9295,7 +9297,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">peso uruguayen</displayName>
 				<displayName count="other">pesos uruguayens</displayName>
 				<displayName>peso uruguayen</displayName>
-				<symbol alt="narrow" draft="contributed">$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>$UY</symbol>
 			</currency>
 			<currency type="UZS">
@@ -9321,7 +9323,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dông vietnamien</displayName>
 				<displayName count="other">dôngs vietnamiens</displayName>
 				<displayName>dông vietnamien</displayName>
-				<symbol alt="narrow" draft="contributed">₫</symbol>
+				<symbol alt="narrow">₫</symbol>
 				<symbol>₫</symbol>
 			</currency>
 			<currency type="VNN">
@@ -9611,7 +9613,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		</miscPatterns>
 		<miscPatterns numberSystem="latn">
 			<pattern type="atLeast" draft="contributed">au moins {0}</pattern>
-			<pattern type="range" draft="contributed">{0}–{1}</pattern>
+			<pattern type="range">{0}–{1}</pattern>
 		</miscPatterns>
 		<miscPatterns numberSystem="lepc">
 			<alias source="locale" path="../miscPatterns[@numberSystem='latn']"/>
@@ -9679,7 +9681,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<miscPatterns numberSystem="vaii">
 			<alias source="locale" path="../miscPatterns[@numberSystem='latn']"/>
 		</miscPatterns>
-		<minimumGroupingDigits draft="contributed">1</minimumGroupingDigits>
+		<minimumGroupingDigits>1</minimumGroupingDigits>
 	</numbers>
 	<units>
 		<unitLength type="long">
@@ -9899,9 +9901,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="other">{0} calories</unitPattern>
 			</unit>
 			<unit type="energy-foodcalorie">
-				<displayName>grandes calories</displayName>
-				<unitPattern count="one">{0} grande calorie</unitPattern>
-				<unitPattern count="other">{0} grandes calories</unitPattern>
+				<displayName>kilocalories</displayName>
+				<unitPattern count="one">{0} kilocalorie</unitPattern>
+				<unitPattern count="other">{0} kilocalories</unitPattern>
 			</unit>
 			<unit type="energy-joule">
 				<displayName>joules</displayName>
@@ -11004,9 +11006,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="other">{0} cal</unitPattern>
 			</unit>
 			<unit type="energy-foodcalorie">
-				<displayName>Cal</displayName>
-				<unitPattern count="one">{0} Cal</unitPattern>
-				<unitPattern count="other">{0} Cal</unitPattern>
+				<displayName>kcal</displayName>
+				<unitPattern count="one">{0} kcal</unitPattern>
+				<unitPattern count="other">{0} kcal</unitPattern>
 			</unit>
 			<unit type="energy-joule">
 				<displayName>J</displayName>
@@ -11189,9 +11191,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="other">{0} lb</unitPattern>
 			</unit>
 			<unit type="mass-stone">
-				<displayName draft="unconfirmed">st</displayName>
+				<displayName>st</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} st</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} st</unitPattern>
+				<unitPattern count="other">{0} st</unitPattern>
 			</unit>
 			<unit type="mass-ton">
 				<displayName>sh tn</displayName>
@@ -11264,7 +11266,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="other">{0} km/h</unitPattern>
 			</unit>
 			<unit type="speed-meter-per-second">
-				<displayName draft="contributed">m/s</displayName>
+				<displayName>m/s</displayName>
 				<unitPattern count="one">{0} m/s</unitPattern>
 				<unitPattern count="other">{0} m/s</unitPattern>
 			</unit>
@@ -11283,6 +11285,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="one">{0} °F</unitPattern>
 				<unitPattern count="other">{0} °F</unitPattern>
 			</unit>
+			<unit type="temperature-generic">
+				<displayName>°</displayName>
+				<unitPattern count="other">{0}°</unitPattern>
+			</unit>
 			<unit type="temperature-kelvin">
 				<displayName>K</displayName>
 				<unitPattern count="one">{0} K</unitPattern>
@@ -11296,7 +11302,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="volume-bushel">
 				<displayName draft="unconfirmed">boisseaux</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} bu</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">{0} bu</unitPattern>
+				<unitPattern count="other">{0} bu</unitPattern>
 			</unit>
 			<unit type="volume-centiliter">
 				<displayName>cl</displayName>
@@ -11445,30 +11451,34 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*😁😂😃😄😅😆😉😊😋😌😍😎😏😐
 				<*😑😒😓😔😕😖😗😘😙😚😛😜😝😞😟😠
 				<*😡😢😣😤😥😦😧😨😩😪😫😬😭😮😯😰
-				<*😱😲😳😴😵😶😷😇😈👿👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
-				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
+				<*😱😲😳😴😵😶😷😇😈👿🙃🙄🤐
+				<*🤑🤒🤓🤔🤕🤗🤖👦👧👨👩👴👵👶👱👮👲👳👷👸💂🎅👼🕵👯💆💇👰
+				<*🙍🙎🙅🙆💁🙋🙇🙌🙏🗣👤👥🚶🏃💃🕴💏💑👪👫👬👭🏻🏼🏽🏾🏿👈👉☝👆🖕👇✌🖖✊✋👊👋👌👍👎👏👐
 				<*✍🖐
 				<*💅💪👣👀
 				<*👁👂👃👅💀
 				<*☠
-				<*💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
+				<*🤘💋👄💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣💌💧💤💢💣💥💦💨💫💬💭🕳🗯👓🕶👔👕👖👗👘👙👚👛👜👝👞👟👠
 				<*👡👢👑👒🎩⛑🐵🙈🙉🙊🐒🐶🐕🐩🐺🐱😸😹😺😻😼😽😾😿🙀
 				<*🐈🐯🐅🐆🐴🐎🐮🐂🐃🐄🐷🐖🐗🐽🐏🐑🐐
 				<*🐪🐫🐘🐭🐁🐀
 				<*🐹🐰
 				<*🐇🐿🐻🐨🐼🐾🐔🐓🐣🐤🐥🐦🐧🕊🐸🐊🐍🐢🐲🐉🐳🐋🐬🐟🐠
-				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸💩👹👺👻👽👾💐
-				<*🌸💮🏵🌹🌺🌻🌼🌷⸙☘🌱🌲🌳🌴🌵🌾🌿🍀
+				<*🐡🐙🐚🐌🐛🐜🐝🐞🕷🕸🦀
+				<*🦁🦂💩👹👺👻👽👾💐
+				<*🌸💮🏵🌹🌺🌻🌼🌷☘🌱🌲🌳🌴🌵🌾🌿🍀
 				<*🍁🍂🍃🍇🍈🍉🍊🍋🍌🍍🍎🍏🍐
 				<*🍑🍒🍓🍅🍆🌽🌶🍄🌰
 				<*🍞🍖🍗🍔🍟🍕🍲🍱🍘🍙🍚🍛🍜🍝🍠
 				<*🍢🍣🍤🍥🍡🍦🍧🍨🍩🍪🎂🍰
-				<*🍫🍬🍭🍮🍯☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🌍🌎🌏🌐
+				<*🍫🍬🍭🍮🍯🌭🌮🌯🍾🍿🦃🦄🧀
+				<*☕🍵🍶🍷🍸🍹🍺🍻🍼🍽🍴🍳🏺🌍🌎🌏🌐
 				<*🗺🏔⛰
 				<*🌋🗻🏕🏖🏜🏝🏞🏟🏛🏗🏘🏙🏚🏠
 				<*🏡⛪🏢🏣🏤🏥🏦🏨🏩🏪🏫🏬🏭🏯🏰
 				<*💒🗼🗽🗾⛲⛺🌁🌃🌄🌅🌆🌇🌉🌊♨🗿🌌🎠
 				<*🎡🎢💈🎪🎫🎭🎰
+				<*🕋🕌🕍🛐
 				<*🚂🚃🚄🚅🚆🚇🚈🚉🚊🚝🚞🚋🚌🚍🚎🚏🚐
 				<*🚑🚒🚓🚔🚕🚖🚗🚘🚙🚚🚛🚜🚲🚳🚴🚵🏎🏍⛽🛣🛤🚨⎈⚓⛵🚣🚤🛳⛴🛥🚢✈🛩🛫🛬💺🚁🚟🚠
 				<*🚡🚀
@@ -11486,7 +11496,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*🌈🌂☂☔⛱❄☃⛄🌟🌠
 				<*☄🎲♠
 				<*♥♦♣🃏🀄🎮🕹⚽⚾🏀
-				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🔇🔈🔉🔊📢📣📯🔔🔕🔀
+				<*🏈🏉🎾🎱🎳⛳🏌⛸🎣🎽🎿⛷🏂🏄🏇🏊⛹🏋🏅🏆🏏🏐
+				<*🏑🏒🏓🏸🔇🔈🔉🔊📢📣📯🔔🔕🔀
 				<*🔁🔂▶⏩⏭⏯◀
 				<*⏪⏮🔼⏫🔽⏬⏸⏹⏺⏏🎼🎵🎶🎙🎚🎛🎤🎧🎷🎸🎹🎺🎻📻📱📳📴📲📵☎📞
 				<#⃣
@@ -11510,7 +11521,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<*💼📁📂🗂📅📆🗒🗓📇📈📉📊📋📌📍📎🖇📏📐
 				<*📛✂🗃🗄🗑🔒🔓🔏🔐
 				<*🔑🗝🔨⛏⚒🛠
-				<*🔧🔩⚙🗜⚗⚖💉🗡🔪⚔🔫🛡🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
+				<*🔧🔩⚙🗜⚗⚖💉📿🕎🗡🔪⚔🔫🛡🏹🎒🔋🔌🔗⛓🚬💄💍💎🛢🔮🔯🔱🗳💊⚛⚜⚰
 				<*⚱🔰
 				<*💯📡🏁🏳🏴🚩
 				<*🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿⬆↗➡↘⬇↙⬅↖↕↔↩↪⤴⤵🔃🔄🔙🔚🔛🔜🔝🕉✡☸☯✝☦⛩☪☮☢☣♻⚡⭐
