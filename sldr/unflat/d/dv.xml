@@ -4,6 +4,9 @@
 		<!-- name.en(div)="Dhivehi" -->
 		<language type="div"/>
 		<script type="Thaa"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+		</special>
 	</identity>
 	<characters>
 		<exemplarCharacters draft="unconfirmed">[\u07A6 \u07A7 \u07A8 \u07A9 \u07AA \u07AB \u07AC \u07AD \u07AE \u07AF ހ ށ ނ ރ ބ ޅ ކ އ ވ މ ފ ދ ތ ލ ގ ޏ ސ ޑ ޒ ޓ ޔ ޕ ޖ ޗ ޘ ޙ ޚ ޛ ޜ ޝ ޞ ޟ ޠ ޡ ޢ ޣ ޤ ޥ ]</exemplarCharacters>

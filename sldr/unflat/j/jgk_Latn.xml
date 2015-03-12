@@ -5,11 +5,11 @@
 		<!-- name.en(jgk)="Gwak" -->
 		<language type="jgk"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="NG"/>
+			<sil:identity defaultRegion="NG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[f h q v x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b ɓ c d ɗ e ǝ g i j k l m n {ng} {ny} o p r s {sh} t u w y z {zh} ’]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[f h q v x]</exemplarCharacters>
 	</characters>
 </ldml>

@@ -5,11 +5,11 @@
 		<!-- name.en(ikk)="Ika" -->
 		<language type="ikk"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="NG"/>
+			<sil:identity defaultRegion="NG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b c {ch} d e {ẹ} f g {gb} {gh} {gw} h i {ị} j k {kp} {kw} l m n {ṅ} {nw} {ny} o {ọ} p r s {sh} t u {ụ} v w y z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 	</characters>
 </ldml>

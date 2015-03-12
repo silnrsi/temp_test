@@ -10,7 +10,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<language type="zh"/>
 		<territory type="HK"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -23,10 +23,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<language type="de_CH" draft="contributed">瑞士德語</language>
 			<language type="en_AU" draft="provisional">澳洲英文</language>
 			<language type="en_CA" draft="provisional">加拿大英文</language>
-			<language type="en_GB" draft="provisional">英國英文</language>
 			<language type="en_GB" alt="short" draft="provisional">英式英文</language>
-			<language type="en_US" draft="provisional">美國英文</language>
+			<language type="en_GB" draft="provisional">英國英文</language>
 			<language type="en_US" alt="short" draft="provisional">美式英文</language>
+			<language type="en_US" draft="provisional">美國英文</language>
 			<language type="eo" draft="unconfirmed">世界語</language>
 			<language type="es_419" draft="provisional">拉丁美洲西班牙文</language>
 			<language type="es_ES" draft="provisional">歐洲西班牙文</language>
@@ -85,8 +85,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="BZ" draft="provisional">伯利茲</territory>
 			<territory type="CD" draft="contributed">剛果 - 金夏沙</territory>
 			<territory type="CG" draft="contributed">剛果 - 布拉薩</territory>
-			<territory type="CI" draft="unconfirmed">科特迪瓦</territory>
 			<territory type="CI" alt="variant">象牙海岸</territory>
+			<territory type="CI" draft="unconfirmed">科特迪瓦</territory>
 			<territory type="CR">哥斯達黎加</territory>
 			<territory type="CV" draft="unconfirmed">佛得角</territory>
 			<territory type="CY" draft="contributed">塞浦路斯</territory>
@@ -362,10 +362,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<era type="1" draft="provisional">公元</era>
 					</eraNames>
 					<eraAbbr>
-						<era type="0" draft="provisional">BC</era>
 						<era type="0" alt="variant" draft="provisional">BCE</era>
-						<era type="1" draft="provisional">AD</era>
+						<era type="0" draft="provisional">BC</era>
 						<era type="1" alt="variant" draft="provisional">CE</era>
+						<era type="1" draft="provisional">AD</era>
 					</eraAbbr>
 				</eras>
 				<dateFormats>
@@ -1008,8 +1008,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 		</decimalFormats>
 		<currencies>
 			<currency type="AED">
-				<displayName draft="contributed">阿拉伯聯合酋長國迪爾汗</displayName>
 				<displayName count="other" draft="contributed">阿拉伯聯合酋長國迪爾汗</displayName>
+				<displayName draft="contributed">阿拉伯聯合酋長國迪爾汗</displayName>
 			</currency>
 			<currency type="AUD">
 				<displayName count="other" draft="unconfirmed">澳元</displayName>
@@ -1020,8 +1020,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>阿魯巴盾</displayName>
 			</currency>
 			<currency type="AZN">
-				<displayName draft="contributed">亞塞拜疆馬納特</displayName>
 				<displayName count="other" draft="contributed">亞塞拜疆馬納特</displayName>
+				<displayName draft="contributed">亞塞拜疆馬納特</displayName>
 			</currency>
 			<currency type="BAD">
 				<displayName draft="contributed">波斯尼亞-赫塞哥維納第納爾</displayName>
@@ -1061,12 +1061,12 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other" draft="unconfirmed">丹麥克羅納</displayName>
 			</currency>
 			<currency type="ETB">
-				<displayName draft="contributed">埃塞俄比亞比爾</displayName>
 				<displayName count="other" draft="contributed">埃塞俄比亞比爾</displayName>
+				<displayName draft="contributed">埃塞俄比亞比爾</displayName>
 			</currency>
 			<currency type="GEL">
-				<displayName draft="contributed">格魯吉亞拉里</displayName>
 				<displayName count="other" draft="contributed">格魯吉亞拉里</displayName>
+				<displayName draft="contributed">格魯吉亞拉里</displayName>
 			</currency>
 			<currency type="GHS">
 				<displayName count="other" draft="provisional">加納塞地</displayName>
@@ -1098,8 +1098,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other">開曼群島美元</displayName>
 			</currency>
 			<currency type="LRD">
-				<displayName draft="contributed">利比利亞元</displayName>
 				<displayName count="other" draft="contributed">利比利亞元</displayName>
+				<displayName draft="contributed">利比利亞元</displayName>
 			</currency>
 			<currency type="LTL">
 				<displayName count="other" draft="unconfirmed">立陶宛里塔</displayName>
@@ -1152,8 +1152,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>盧旺達法郎</displayName>
 			</currency>
 			<currency type="SAR">
-				<displayName draft="contributed">沙特阿拉伯里亞爾</displayName>
 				<displayName count="other" draft="contributed">沙特阿拉伯里亞爾</displayName>
+				<displayName draft="contributed">沙特阿拉伯里亞爾</displayName>
 			</currency>
 			<currency type="SBD">
 				<displayName count="other" draft="provisional">所羅門群島元</displayName>
@@ -1194,8 +1194,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="provisional">東加勒比元</displayName>
 			</currency>
 			<currency type="XOF">
-				<displayName draft="contributed">多哥非洲共同體法郎</displayName>
 				<displayName count="other" draft="provisional">多哥非洲共同體法郎</displayName>
+				<displayName draft="contributed">多哥非洲共同體法郎</displayName>
 			</currency>
 			<currency type="XPF">
 				<displayName count="other">太平洋法郎</displayName>
@@ -7628,8 +7628,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			]]></cr>
 		</collation>
 		<collation type="unihan">
-			<import type="private-unihan" source="und"/>
 			<import type="private-pinyin" source="zh"/>
+			<import type="private-unihan" source="und"/>
 			<settings reorder="Hani Bopo"/>
 		</collation>
 		<collation type="zhuyin" alt="short">

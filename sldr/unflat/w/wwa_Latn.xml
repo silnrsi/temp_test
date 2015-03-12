@@ -5,12 +5,12 @@
 		<!-- name.en(wwa)="Waama" -->
 		<language type="wwa"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="BJ"/>
+			<sil:identity defaultRegion="BJ" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
+		<exemplarCharacters draft="unconfirmed">[a {ã} b c d e ɛ {ɛ̃} f i k {kp} m n o ɔ {ɔ̃} p r s t u {ũ} w y]</exemplarCharacters>
 		<exemplarCharacters type="auxiliary" draft="unconfirmed">[g h j l q v x z]</exemplarCharacters>
 		<exemplarCharacters type="index" draft="unconfirmed">[A B C D E Ɛ F I K {Kp} M N O Ɔ P R S T U W Y]</exemplarCharacters>
-		<exemplarCharacters draft="unconfirmed">[a {ã} b c d e ɛ {ɛ̃} f i k {kp} m n o ɔ {ɔ̃} p r s t u {ũ} w y]</exemplarCharacters>
 	</characters>
 </ldml>

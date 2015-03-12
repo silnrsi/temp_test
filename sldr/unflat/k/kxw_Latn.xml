@@ -5,11 +5,11 @@
 		<!-- name.en(kxw)="Konai" -->
 		<language type="kxw"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c j q r v x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {a̠} b d e {e̠} f g h i {i̠} k l m n o {o̠} {ȏu} {ȏ͟u} p s t u {u̠} w y]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c j q r v x z]</exemplarCharacters>
 	</characters>
 </ldml>

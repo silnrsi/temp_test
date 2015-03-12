@@ -5,11 +5,11 @@
 		<!-- name.en(mif)="Mofu-Gudur" -->
 		<language type="mif"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="CM"/>
+			<sil:identity defaultRegion="CM" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[o q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b ɓ c d ɗ e ə f g {gb} {gw} h {hw} i j k {kw} l m {mb} {mgb} n {nd} {nj} ŋ {ŋg} {ŋgw} p r s {sl} t u v w y z {zl} ʼ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[o q x]</exemplarCharacters>
 	</characters>
 </ldml>

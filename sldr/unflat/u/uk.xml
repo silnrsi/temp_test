@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="uk"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -1778,8 +1778,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<month type="4" draft="provisional">Тевет</month>
 							<month type="5" draft="provisional">Шват</month>
 							<month type="6" draft="provisional">Адар I</month>
-							<month type="7" yeartype="leap" draft="provisional">Адар II</month>
 							<month type="7" draft="provisional">Адар</month>
+							<month type="7" yeartype="leap" draft="provisional">Адар II</month>
 							<month type="8" draft="provisional">Нісан</month>
 							<month type="9" draft="provisional">Іяр</month>
 						</monthWidth>

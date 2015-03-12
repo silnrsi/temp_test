@@ -5,11 +5,11 @@
 		<!-- name.en(zne)="Zande (individual language)" -->
 		<language type="zne"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="CF"/>
+			<sil:identity defaultRegion="CF" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c h j l q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b d e f g {gb} i k {kp} m {mb} {mv} n {nd} {ng} {ngb} {ny} {nz} o p r s t u v w y z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c h j l q x]</exemplarCharacters>
 	</characters>
 </ldml>

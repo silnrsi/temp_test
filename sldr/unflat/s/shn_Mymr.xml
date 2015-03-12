@@ -2,6 +2,9 @@
 <ldml>
 	<identity>
 		<language type="shn"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+		</special>
 	</identity>
 	<characters>
 		<exemplarCharacters type="punctuation">[ ]</exemplarCharacters>
@@ -51,12 +54,12 @@
 	</collations>
 	<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 		<sil:external-resources>
-			<sil:kbd type="kmn" id="mywine">
-				<sil:url>http://wirl.scripts.sil.org/mywinekmn</sil:url>
-			</sil:kbd>
 			<sil:font isGraphite="true" name="Padauk" types="default">
 				<sil:url>http://wirl.scripts.sil.org/padauk</sil:url>
 			</sil:font>
+			<sil:kbd type="kmn" id="mywine">
+				<sil:url>http://wirl.scripts.sil.org/mywinekmn</sil:url>
+			</sil:kbd>
 		</sil:external-resources>
 	</special>
 </ldml>

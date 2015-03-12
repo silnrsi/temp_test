@@ -5,11 +5,11 @@
 		<!-- name.en(nin)="Ninzo" -->
 		<language type="nin"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="NG"/>
+			<sil:identity defaultRegion="NG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {á} {ā} {à} {â} {ǎ} b ɓ c d e {é} {ē} {è} {ê} {ě} {e̱} {é̱} {ē̱} {è̱} {ê̱} {ě̱} f g h i {í} {ī} {ì} {î} {ǐ} {ɨ} {ɨ́} {ɨ̄} {ɨ̀} {ɨ̂} {ɨ̌} j k ƙ {kp} {kyw} l m n {ng} {ny} o {ó} {ō} {ò} {ô} {ǒ} p q r s t u {ú} {ū} {ù} {û} {ǔ} v w y {ywh} z {zh}]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[x]</exemplarCharacters>
 	</characters>
 </ldml>

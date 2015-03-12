@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2014-08-11 16:10 +0000 $"/>
 		<language type="ksh"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -89,10 +89,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<language type="en" draft="contributed">Änglesch</language>
 			<language type="en_AU" draft="contributed">Änglesch uß Außtraalije</language>
 			<language type="en_CA" draft="contributed">Änglesch uß Kanada</language>
-			<language type="en_GB" draft="contributed">Änglesch uß Jruußbrettannije</language>
 			<language type="en_GB" alt="short" draft="contributed">Brittesch Änglesch</language>
-			<language type="en_US" draft="contributed">Amärrekaanesch Änglesch</language>
+			<language type="en_GB" draft="contributed">Änglesch uß Jruußbrettannije</language>
 			<language type="en_US" alt="short" draft="contributed">Amärrekaanesch Änglesch</language>
+			<language type="en_US" draft="contributed">Amärrekaanesch Änglesch</language>
 			<language type="enm" draft="contributed">Meddelänglesch</language>
 			<language type="eo" draft="contributed">Esperanto</language>
 			<language type="es" draft="contributed">Schpahnesch</language>
@@ -258,10 +258,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<script type="Guru" draft="contributed">indesche Gurmukhi-Schreff</script>
 			<script type="Hang" draft="contributed">korrejaanesche Schreff</script>
 			<script type="Hani" draft="contributed">en schineesesche Schreff</script>
-			<script type="Hans" draft="contributed">eijfacher</script>
 			<script type="Hans" alt="stand-alone" draft="contributed">eijfacher schineesesche Schreff</script>
-			<script type="Hant" draft="contributed">tradizjonäll</script>
+			<script type="Hans" draft="contributed">eijfacher</script>
 			<script type="Hant" alt="stand-alone" draft="contributed">tradizjonäll schineesesche Schreff</script>
+			<script type="Hant" draft="contributed">tradizjonäll</script>
 			<script type="Hebr" draft="contributed">hebrääjesche Schreff</script>
 			<script type="Hira" draft="contributed">japaanesche Hiddajaana-Schreff</script>
 			<script type="Jpan" draft="contributed">en japaanesche Schreff</script>
@@ -358,14 +358,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="BZ" draft="contributed">Belize</territory>
 			<territory type="CA" draft="contributed">Kanada</territory>
 			<territory type="CC" draft="contributed">de Kokkos-Enselle</territory>
-			<territory type="CD" draft="contributed">dä Konggo (Kinschasa)</territory>
 			<territory type="CD" alt="variant" draft="contributed">de Demmokraatesche Republik Konggo</territory>
+			<territory type="CD" draft="contributed">dä Konggo (Kinschasa)</territory>
 			<territory type="CF" draft="contributed">de Zäntraalaffrikaanesche Republik</territory>
-			<territory type="CG" draft="contributed">dä Konggo (Brassavill)</territory>
 			<territory type="CG" alt="variant" draft="contributed">de Republik Konggo</territory>
+			<territory type="CG" draft="contributed">dä Konggo (Brassavill)</territory>
 			<territory type="CH" draft="contributed">de Schweiz</territory>
-			<territory type="CI" draft="contributed">Älfebeijn-Köß</territory>
 			<territory type="CI" alt="variant" draft="contributed">de Älfebeijnköß</territory>
+			<territory type="CI" draft="contributed">Älfebeijn-Köß</territory>
 			<territory type="CK" draft="contributed">de Kuuk-Enselle</territory>
 			<territory type="CL" draft="contributed">Schiile</territory>
 			<territory type="CM" draft="contributed">Kammeruhn</territory>
@@ -397,14 +397,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="EU" draft="contributed">de Europäjesche Unijon</territory>
 			<territory type="FI" draft="contributed">Finnland</territory>
 			<territory type="FJ" draft="contributed">de Fidschi-Endelle</territory>
-			<territory type="FK" draft="contributed">de Falkland-Enselle</territory>
 			<territory type="FK" alt="variant" draft="contributed">de malleviinesche Enselle</territory>
+			<territory type="FK" draft="contributed">de Falkland-Enselle</territory>
 			<territory type="FM" draft="contributed">Mikroneesije</territory>
 			<territory type="FO" draft="contributed">de Färrör-Enselle</territory>
 			<territory type="FR" draft="contributed">Frankrisch</territory>
 			<territory type="GA" draft="contributed">Jabuhn</territory>
-			<territory type="GB" draft="contributed">Jruußbrettannije</territory>
 			<territory type="GB" alt="short" draft="contributed">Jruußbrettannije</territory>
+			<territory type="GB" draft="contributed">Jruußbrettannije</territory>
 			<territory type="GD" draft="contributed">Jrenaada</territory>
 			<territory type="GE" draft="contributed">Jeorrjije</territory>
 			<territory type="GF" draft="contributed">Franzüüsesch Jujaana</territory>
@@ -422,8 +422,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="GU" draft="contributed">Juham</territory>
 			<territory type="GW" draft="contributed">Jinneha_Bißau</territory>
 			<territory type="GY" draft="contributed">Jujaana</territory>
-			<territory type="HK" draft="contributed">Hongkong</territory>
 			<territory type="HK" alt="short" draft="contributed">Hongkong</territory>
+			<territory type="HK" draft="contributed">Hongkong</territory>
 			<territory type="HM" draft="contributed">de Heart Ensel un de McDonald-Enselle</territory>
 			<territory type="HN" draft="contributed">Honduras</territory>
 			<territory type="HR" draft="contributed">Krowazije</territory>
@@ -473,13 +473,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="MF" draft="contributed">de Zint-Määtes-Ensel</territory>
 			<territory type="MG" draft="contributed">Maddajaska</territory>
 			<territory type="MH" draft="contributed">de Machschall-Enselle</territory>
-			<territory type="MK" draft="contributed">Mazedoonije</territory>
 			<territory type="MK" alt="variant" draft="contributed">de vörmaals ens jugoßlaawesch jewääse Republik Mazedoonije</territory>
+			<territory type="MK" draft="contributed">Mazedoonije</territory>
 			<territory type="ML" draft="contributed">Maali</territory>
 			<territory type="MM" draft="contributed">Birma</territory>
 			<territory type="MN" draft="contributed">Mongjolei</territory>
-			<territory type="MO" draft="contributed">Makau</territory>
 			<territory type="MO" alt="short" draft="contributed">Makau</territory>
+			<territory type="MO" draft="contributed">Makau</territory>
 			<territory type="MP" draft="contributed">de nöödlijje Marijanne-Enselle</territory>
 			<territory type="MQ" draft="contributed">Machtinik</territory>
 			<territory type="MR" draft="contributed">Mautitaanije</territory>
@@ -566,8 +566,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="UA" draft="contributed">de Ukra’iine</territory>
 			<territory type="UG" draft="contributed">Ujanda</territory>
 			<territory type="UM" draft="contributed">de Vereineschte Schtaate vun Amärrika ier ußerhallef jelääje Enselsche</territory>
-			<territory type="US" draft="contributed">de vereineschte Schtaate vun Ammärrika</territory>
 			<territory type="US" alt="short" draft="contributed">USA</territory>
+			<territory type="US" draft="contributed">de vereineschte Schtaate vun Ammärrika</territory>
 			<territory type="UY" draft="contributed">Urrujwai</territory>
 			<territory type="UZ" draft="contributed">Ußbeekistahn</territory>
 			<territory type="VA" draft="contributed">der Vattikahn</territory>
@@ -947,22 +947,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 				</dayPeriods>
 				<eras>
 					<eraNames>
-						<era type="0" draft="contributed">vür Chrestus</era>
 						<era type="0" alt="variant" draft="contributed">vür der gewöhnlichen Zeitrechnung</era>
-						<era type="1" draft="contributed">noh Chrestus</era>
+						<era type="0" draft="contributed">vür Chrestus</era>
 						<era type="1" alt="variant" draft="contributed">der gewöhnlichen Zeitrechnung</era>
+						<era type="1" draft="contributed">noh Chrestus</era>
 					</eraNames>
 					<eraAbbr>
-						<era type="0" draft="contributed">v. Chr.</era>
 						<era type="0" alt="variant" draft="contributed">v. d. Z.</era>
-						<era type="1" draft="contributed">n. Chr.</era>
+						<era type="0" draft="contributed">v. Chr.</era>
 						<era type="1" alt="variant" draft="contributed">d. Z.</era>
+						<era type="1" draft="contributed">n. Chr.</era>
 					</eraAbbr>
 					<eraNarrow>
-						<era type="0" draft="contributed">vC</era>
 						<era type="0" alt="variant" draft="contributed">vdZ</era>
-						<era type="1" draft="contributed">nC</era>
+						<era type="0" draft="contributed">vC</era>
 						<era type="1" alt="variant" draft="contributed">dZ</era>
+						<era type="1" draft="contributed">nC</era>
 					</eraNarrow>
 				</eras>
 				<dateFormats>
@@ -1644,10 +1644,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">Asserbaidschaani Manat</displayName>
 			</currency>
 			<currency type="BAM">
-				<displayName draft="contributed">ömtuuschbaa Mark us Boßnije un dä Hächejovvina</displayName>
 				<displayName count="one">öpmtuuschbaa Mark us Boßnije un dä Hächejovvina</displayName>
 				<displayName count="other">öpmtuuschbaa Mark us Boßnije un dä Hächejovvina</displayName>
 				<displayName count="zero">öpmtuuschbaa Mark us Boßnije un dä Hächejovvina</displayName>
+				<displayName draft="contributed">ömtuuschbaa Mark us Boßnije un dä Hächejovvina</displayName>
 			</currency>
 			<currency type="BBD">
 				<displayName draft="contributed">Barbados-Dollaa</displayName>
@@ -1668,10 +1668,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">Bermuuda-Dollaa</displayName>
 			</currency>
 			<currency type="BND">
-				<displayName draft="contributed">Brunei-Dollaa</displayName>
 				<displayName count="one">Brunei-Dollaaa</displayName>
 				<displayName count="other">Brunei-Dollaaa</displayName>
 				<displayName count="zero">Brunei-Dollaaa</displayName>
+				<displayName draft="contributed">Brunei-Dollaa</displayName>
 			</currency>
 			<currency type="BOB">
 				<displayName count="one">Bollivijano</displayName>
@@ -1686,10 +1686,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">bahama’sche Dollaa</displayName>
 			</currency>
 			<currency type="BTN">
-				<displayName draft="contributed">bhutanesesche Ngultrum</displayName>
 				<displayName count="one">Bhutanesesche Ngultrum</displayName>
 				<displayName count="other">Bhutanesesche Ngultrum</displayName>
 				<displayName count="zero">Bhutanesesche Ngultrum</displayName>
+				<displayName draft="contributed">bhutanesesche Ngultrum</displayName>
 			</currency>
 			<currency type="BWP">
 				<displayName draft="contributed">Pula us Bozwaana</displayName>
@@ -1698,10 +1698,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">wiißrußesche Rubel</displayName>
 			</currency>
 			<currency type="BZD">
-				<displayName draft="contributed">belizjaanesche Dollaa</displayName>
 				<displayName count="one">Belizjaanesche Dollaa</displayName>
 				<displayName count="other">Belizjaanesche Dollaa</displayName>
 				<displayName count="zero">Belizjaanesche Dollaa</displayName>
+				<displayName draft="contributed">belizjaanesche Dollaa</displayName>
 			</currency>
 			<currency type="CAD">
 				<displayName draft="contributed">kannaadesche Dollaa</displayName>
@@ -1728,10 +1728,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>kolumbesche Peso</displayName>
 			</currency>
 			<currency type="CRC">
-				<displayName draft="contributed">koßtarikaanesche Colón</displayName>
 				<displayName count="one">Kaßtarikaanesche Colón</displayName>
 				<displayName count="other">Kaßtarikaanesche Colón</displayName>
 				<displayName count="zero">Kaßtarikaanesche Colón</displayName>
+				<displayName draft="contributed">koßtarikaanesche Colón</displayName>
 			</currency>
 			<currency type="CUC">
 				<displayName count="one">ömtuuschbaa kubaanesche Pesos</displayName>
@@ -1767,10 +1767,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>dänesche Kruhne</displayName>
 			</currency>
 			<currency type="DOP">
-				<displayName draft="contributed">dommenikaanesche Peesos</displayName>
 				<displayName count="one" draft="contributed">dommenikaanesche Peeso</displayName>
 				<displayName count="other" draft="contributed">dommenikaanesche Peesos</displayName>
 				<displayName count="zero" draft="contributed">dommenikaanesche Peesos</displayName>
+				<displayName draft="contributed">dommenikaanesche Peesos</displayName>
 			</currency>
 			<currency type="DZD">
 				<displayName draft="contributed">aljeresche Denaa</displayName>
@@ -1800,10 +1800,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">brittesche £</displayName>
 			</currency>
 			<currency type="GEL">
-				<displayName draft="contributed">jeorjesche Lari</displayName>
 				<displayName count="one">jeorjesche LAri</displayName>
 				<displayName count="other">jeorjesche LAri</displayName>
 				<displayName count="zero">jeorjesche LAri</displayName>
+				<displayName draft="contributed">jeorjesche Lari</displayName>
 			</currency>
 			<currency type="GHS">
 				<displayName draft="contributed">janaaesche Cedi</displayName>
@@ -1815,10 +1815,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">jambesche Dalasi</displayName>
 			</currency>
 			<currency type="GNF">
-				<displayName draft="contributed">Jineea-Frang</displayName>
 				<displayName count="one">Jineea-Franke</displayName>
 				<displayName count="other">Jineea-Franke</displayName>
 				<displayName count="zero">Jineea-Franke</displayName>
+				<displayName draft="contributed">Jineea-Frang</displayName>
 			</currency>
 			<currency type="GTQ">
 				<displayName draft="contributed">juatemalesche Quetzal</displayName>
@@ -1899,10 +1899,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">Kaimann-Dollaa</displayName>
 			</currency>
 			<currency type="KZT">
-				<displayName draft="contributed">kasakesche Tenge</displayName>
 				<displayName count="one">kasakstaanesche Tenge</displayName>
 				<displayName count="other">kasakstaanesche Tenge</displayName>
 				<displayName count="zero">kasakstaanesche Tenge</displayName>
+				<displayName draft="contributed">kasakesche Tenge</displayName>
 			</currency>
 			<currency type="LAK">
 				<displayName draft="contributed">loaatesche Kip</displayName>
@@ -1911,10 +1911,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">libaneesesche Pongk</displayName>
 			</currency>
 			<currency type="LKR">
-				<displayName draft="contributed">schrilankesche Ruupije</displayName>
 				<displayName count="one">schri-lankesche Ruupije</displayName>
 				<displayName count="other">schri-lankesche Ruupije</displayName>
 				<displayName count="zero">schri-lankesche Ruupije</displayName>
+				<displayName draft="contributed">schrilankesche Ruupije</displayName>
 			</currency>
 			<currency type="LRD">
 				<displayName draft="contributed">liberijaanesche Dollaa</displayName>
@@ -2094,10 +2094,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">sürinameesesche Dollaa</displayName>
 			</currency>
 			<currency type="SSP">
-				<displayName draft="contributed">södsudaneesesche Pongk</displayName>
 				<displayName count="one" draft="contributed">södsudaneesesche Pongk</displayName>
 				<displayName count="other" draft="contributed">södsudaneesesche Pongk</displayName>
 				<displayName count="zero" draft="contributed">södsudaneesesche Pongk</displayName>
+				<displayName draft="contributed">södsudaneesesche Pongk</displayName>
 			</currency>
 			<currency type="STD">
 				<displayName count="one">Dobra vun São Tomé un Príncipe</displayName>
@@ -2139,10 +2139,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">törkesche Liire</displayName>
 			</currency>
 			<currency type="TTD">
-				<displayName draft="contributed">Dollaa uß Trinidad un Tobääjo</displayName>
 				<displayName count="one" draft="contributed">Dollaa uß Trinidad un Tobääjo</displayName>
 				<displayName count="other" draft="contributed">Dollaa uß Trinidad un Tobääjo</displayName>
 				<displayName count="zero" draft="contributed">Dollaa uß Trinidad un Tobääjo</displayName>
+				<displayName draft="contributed">Dollaa uß Trinidad un Tobääjo</displayName>
 			</currency>
 			<currency type="TWD">
 				<displayName draft="contributed">neu taiwaneesesche Dollaa</displayName>
@@ -2208,10 +2208,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">Palladijum</displayName>
 			</currency>
 			<currency type="XPF">
-				<displayName draft="contributed">polineesesche Frang</displayName>
 				<displayName count="one" draft="contributed">polineesesche Frang</displayName>
 				<displayName count="other" draft="contributed">polineesesche Frang</displayName>
 				<displayName count="zero" draft="contributed">polineesesche Frang</displayName>
+				<displayName draft="contributed">polineesesche Frang</displayName>
 			</currency>
 			<currency type="XPT">
 				<displayName draft="contributed">Plaatin</displayName>

@@ -5,11 +5,11 @@
 		<!-- name.en(kbq)="Kamano" -->
 		<language type="kbq"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[b c d j l q w x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {ä} e f g h i k m n o p r s t u v y ꞌ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[b c d j l q w x z]</exemplarCharacters>
 	</characters>
 </ldml>

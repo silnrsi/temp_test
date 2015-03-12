@@ -4,9 +4,12 @@
 	<identity>
 		<!-- name.en(lor)="Téén" -->
 		<language type="lor"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q y]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {ä} b c d e ɛ f g {gb} x h i ɩ j k {kp} l {ʼl} m n {ny} {ŋm} o ɔ p {ʼp} r s t u ʋ v w {ʼw} y {ʼy} z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q y]</exemplarCharacters>
 	</characters>
 </ldml>

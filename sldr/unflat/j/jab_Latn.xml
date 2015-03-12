@@ -5,11 +5,11 @@
 		<!-- name.en(jab)="Hyam" -->
 		<language type="jab"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="NG"/>
+			<sil:identity defaultRegion="NG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[{á} a {à} {â} {ǎ} {á̱} {a̱} {à̱} {â̱} {ǎ̱} b c d {dz} {é} e {è} {ê} {ě} {é̱} {e̱} {è̱} {ê̱} {ě̱} f g {gb} h {í} i {ì} {î} {ǐ} {ī} {í̱} {i̱} {ì̱} {î̱} {ǐ̱} j k {kh} {kp} l m n {ng} {ny} {ó} o {ò} {ô} {ǒ} {ō} p r s {sh} t {th} {thn} {ts} {ú} u {ù} {û} {ǔ} v w y {yw} z  {zh}]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 	</characters>
 </ldml>

@@ -8,11 +8,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<version number="$Revision: 10669 $"/>
 		<generation date="$Date: 2014-07-23 21:10 +0000 $"/>
 		<language type="sv"/>
+		<script type="Latn"/>
 		<territory type="SE"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
-		<script type="Latn"/>
 	</identity>
 	<localeDisplayNames>
 		<localeDisplayPattern>
@@ -7515,14 +7515,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>argentinsk austral</displayName>
 			</currency>
 			<currency type="ARL">
-				<displayName draft="contributed">argentisk peso (1970–1983)</displayName>
 				<displayName count="one" draft="contributed">argentisk peso (1970–1983)</displayName>
 				<displayName count="other" draft="contributed">argentiska pesos (1970–1983)</displayName>
+				<displayName draft="contributed">argentisk peso (1970–1983)</displayName>
 			</currency>
 			<currency type="ARM">
-				<displayName draft="contributed">argentisk peso (1881–1969)</displayName>
 				<displayName count="one" draft="contributed">argentisk peso (1881–1969)</displayName>
 				<displayName count="other" draft="contributed">argentiska pesos (1881–1969)</displayName>
+				<displayName draft="contributed">argentisk peso (1881–1969)</displayName>
 			</currency>
 			<currency type="ARP">
 				<displayName count="one">argentinsk peso (1983–1985)</displayName>
@@ -7579,9 +7579,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>BAM</symbol>
 			</currency>
 			<currency type="BAN">
-				<displayName draft="contributed">bosnisk-hercegovinsk dinar (1994–1998)</displayName>
 				<displayName count="one" draft="contributed">bosnisk-hercegovinsk dinar (1994–1998)</displayName>
 				<displayName count="other" draft="contributed">bosnisk-hercegovinska dinarer (1994–1998)</displayName>
+				<displayName draft="contributed">bosnisk-hercegovinsk dinar (1994–1998)</displayName>
 			</currency>
 			<currency type="BBD">
 				<displayName count="one">Barbados-dollar</displayName>
@@ -7613,14 +7613,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>belgisk franc (finansiell)</displayName>
 			</currency>
 			<currency type="BGL">
-				<displayName draft="contributed">bulgarisk hård lev (1962–1999)</displayName>
 				<displayName count="one" draft="contributed">bulgarisk hård lev (1962–1999)</displayName>
 				<displayName count="other" draft="contributed">bulgariska hård lev (1962–1999)</displayName>
+				<displayName draft="contributed">bulgarisk hård lev (1962–1999)</displayName>
 			</currency>
 			<currency type="BGM">
-				<displayName draft="contributed">bulgarisk lev (1952–1962)</displayName>
 				<displayName count="one" draft="contributed">bulgarisk lev (1952–1962)</displayName>
 				<displayName count="other" draft="contributed">bulgariska lev (1952–1962)</displayName>
+				<displayName draft="contributed">bulgarisk lev (1952–1962)</displayName>
 			</currency>
 			<currency type="BGN">
 				<displayName count="one">bulgarisk lev</displayName>
@@ -7629,9 +7629,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>BGN</symbol>
 			</currency>
 			<currency type="BGO">
-				<displayName draft="contributed">bulgarisk lev (1881–1952)</displayName>
 				<displayName count="one" draft="contributed">bulgarisk lev (1881–1952)</displayName>
 				<displayName count="other" draft="contributed">bulgarisk lev (1881–1952)</displayName>
+				<displayName draft="contributed">bulgarisk lev (1881–1952)</displayName>
 			</currency>
 			<currency type="BHD">
 				<displayName count="one">bahrainsk dinar</displayName>
@@ -7667,9 +7667,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>BOB</symbol>
 			</currency>
 			<currency type="BOL">
-				<displayName draft="contributed">boliviansk boliviano (1864–1963)</displayName>
 				<displayName count="one" draft="contributed">boliviansk boliviano (1864–1963)</displayName>
 				<displayName count="other" draft="contributed">bolivianska bolivianos (1864–1963)</displayName>
+				<displayName draft="contributed">boliviansk boliviano (1864–1963)</displayName>
 			</currency>
 			<currency type="BOP">
 				<displayName count="one">boliviansk peso</displayName>
@@ -7714,9 +7714,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>brasiliansk cruzeiro</displayName>
 			</currency>
 			<currency type="BRZ">
-				<displayName draft="contributed">brasiliansk cruzeiro (1942–1967)</displayName>
 				<displayName count="one" draft="contributed">brasiliansk cruzeiro (1942–1967)</displayName>
 				<displayName count="other" draft="contributed">brasilianska cruzeiros (1942–1967)</displayName>
+				<displayName draft="contributed">brasiliansk cruzeiro (1942–1967)</displayName>
 			</currency>
 			<currency type="BSD">
 				<displayName count="one">bahamansk dollar</displayName>
@@ -7766,8 +7766,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">kanadensisk dollar</displayName>
 				<displayName count="other">kanadensiska dollar</displayName>
 				<displayName>kanadensisk dollar</displayName>
-				<symbol draft="contributed">CAN$</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">CAN$</symbol>
 			</currency>
 			<currency type="CDF">
 				<displayName count="one">kongolesisk franc</displayName>
@@ -7792,9 +7792,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>franc (konvertibelt konto, WIR Bank, Schweiz)</displayName>
 			</currency>
 			<currency type="CLE">
-				<displayName draft="contributed">chilensk escudo (1960–1975)</displayName>
 				<displayName count="one" draft="contributed">chilensk escudo (1960–1975)</displayName>
 				<displayName count="other" draft="contributed">chilenska escudos (1960–1975)</displayName>
+				<displayName draft="contributed">chilensk escudo (1960–1975)</displayName>
 			</currency>
 			<currency type="CLF">
 				<displayName count="one">chilensk unidad de fomento</displayName>
@@ -8249,14 +8249,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>KPW</symbol>
 			</currency>
 			<currency type="KRH">
-				<displayName draft="contributed">sydkoreansk hwan (1953–1962)</displayName>
 				<displayName count="one" draft="contributed">sydkoreansk hwan (1953–1962)</displayName>
 				<displayName count="other" draft="contributed">sydkoreanska hwan (1953–1962)</displayName>
+				<displayName draft="contributed">sydkoreansk hwan (1953–1962)</displayName>
 			</currency>
 			<currency type="KRO">
-				<displayName draft="contributed">sydkoreansk won (1945–1953)</displayName>
 				<displayName count="one" draft="contributed">sydkoreansk won (1945–1953)</displayName>
 				<displayName count="other" draft="contributed">sydkoreanska won (1945–1953)</displayName>
+				<displayName draft="contributed">sydkoreansk won (1945–1953)</displayName>
 			</currency>
 			<currency type="KRW">
 				<displayName count="one">sydkoreansk won</displayName>
@@ -8375,14 +8375,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>marockansk franc</displayName>
 			</currency>
 			<currency type="MCF">
-				<displayName draft="contributed">monegaskisk franc (–2001)</displayName>
 				<displayName count="one" draft="contributed">monegaskisk franc (–2001)</displayName>
 				<displayName count="other" draft="contributed">monegaskiska franc (–2001)</displayName>
+				<displayName draft="contributed">monegaskisk franc (–2001)</displayName>
 			</currency>
 			<currency type="MDC">
-				<displayName draft="contributed">moldavisk cupon (1992–1993)</displayName>
 				<displayName count="one" draft="contributed">moldavisk cupon (1992–1993)</displayName>
 				<displayName count="other" draft="contributed">moldaviska cupon (1992–1993)</displayName>
+				<displayName draft="contributed">moldavisk cupon (1992–1993)</displayName>
 			</currency>
 			<currency type="MDL">
 				<displayName count="one">moldavisk leu</displayName>
@@ -8464,9 +8464,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>MUR</symbol>
 			</currency>
 			<currency type="MVP">
-				<displayName draft="contributed">maldivisk rupie</displayName>
 				<displayName count="one" draft="contributed">maldivisk rupie</displayName>
 				<displayName count="other" draft="contributed">maldiviska rupier</displayName>
+				<displayName draft="contributed">maldivisk rupie</displayName>
 				<symbol draft="contributed">MVP</symbol>
 			</currency>
 			<currency type="MVR">
@@ -8986,9 +8986,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>VND</symbol>
 			</currency>
 			<currency type="VNN">
-				<displayName draft="contributed">vietnamesisk dong (1978–1985)</displayName>
 				<displayName count="one" draft="contributed">vietnamesisk dong (1978–1985)</displayName>
 				<displayName count="other" draft="contributed">vietnamesiska dong (1978–1985)</displayName>
+				<displayName draft="contributed">vietnamesisk dong (1978–1985)</displayName>
 			</currency>
 			<currency type="VUV">
 				<displayName count="one">vanuatisk vatu</displayName>
@@ -9093,9 +9093,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>RINET-fond</displayName>
 			</currency>
 			<currency type="XSU">
-				<displayName draft="contributed">latinamerikansk sucre</displayName>
 				<displayName count="one" draft="contributed">latinamerikansk sucre</displayName>
 				<displayName count="other" draft="contributed">latinamerikanska sucre</displayName>
+				<displayName draft="contributed">latinamerikansk sucre</displayName>
 			</currency>
 			<currency type="XTS">
 				<displayName count="one">(valutakod för teständamål)</displayName>
@@ -9104,9 +9104,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">XTS</symbol>
 			</currency>
 			<currency type="XUA">
-				<displayName draft="contributed">afrikansk kontoenhet</displayName>
 				<displayName count="one" draft="contributed">afrikansk kontoenhet</displayName>
 				<displayName count="other" draft="contributed">afrikanska kontoenheter</displayName>
+				<displayName draft="contributed">afrikansk kontoenhet</displayName>
 			</currency>
 			<currency type="XXX">
 				<displayName count="one">(okänd valutaenhet)</displayName>
@@ -9143,9 +9143,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">YUN</symbol>
 			</currency>
 			<currency type="YUR">
-				<displayName draft="contributed">jugoslavisk dinar (1992–1993)</displayName>
 				<displayName count="one" draft="contributed">jugoslavisk dinar (1992–1993)</displayName>
 				<displayName count="other" draft="contributed">jugoslaviska dinarer (1992–1993)</displayName>
+				<displayName draft="contributed">jugoslavisk dinar (1992–1993)</displayName>
 			</currency>
 			<currency type="ZAL">
 				<displayName count="one">sydafrikansk rand (finansiell)</displayName>
@@ -9187,14 +9187,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>Zimbabwe-dollar</displayName>
 			</currency>
 			<currency type="ZWL">
-				<displayName draft="contributed">Zimbabwe-dollar (2009)</displayName>
 				<displayName count="one" draft="contributed">Zimbabwe-dollar (2009)</displayName>
 				<displayName count="other" draft="contributed">Zimbabwe-dollar (2009)</displayName>
+				<displayName draft="contributed">Zimbabwe-dollar (2009)</displayName>
 			</currency>
 			<currency type="ZWR">
-				<displayName draft="contributed">Zimbabwe-dollar (2008)</displayName>
 				<displayName count="one" draft="contributed">Zimbabwe-dollar (2008)</displayName>
 				<displayName count="other" draft="contributed">Zimbabwe-dollar (2008)</displayName>
+				<displayName draft="contributed">Zimbabwe-dollar (2008)</displayName>
 			</currency>
 		</currencies>
 		<miscPatterns numberSystem="arab">
@@ -12226,6 +12226,23 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$ZW">\p{Line_Break=ZWSpace}</variable>
 			</variables>
 			<segmentRules>
+				<!-- LB 4  Always break after hard line breaks (but never between CR and LF). -->
+				<rule id="4">$BK ÷</rule>
+				<!-- LB 5  Treat CR followed by LF, as well as CR, LF and NL as hard line breaks. -->
+				<rule id="5.01">$CR × $LF</rule>
+				<rule id="5.02">$CR ÷</rule>
+				<rule id="5.03">$LF ÷</rule>
+				<rule id="5.04">$NL ÷</rule>
+				<!-- LB 6  Do not break before hard line breaks. -->
+				<rule id="6">× ( $BK | $CR | $LF | $NL )</rule>
+				<!-- LB 7  Do not break before spaces or zero-width space. -->
+				<rule id="7.01">× $SP</rule>
+				<rule id="7.02">× $ZW</rule>
+				<!-- LB 8  Break before any character following a zero-width space, even if one or more spaces intervene. -->
+				<rule id="8">$ZW $SP* ÷</rule>
+				<!-- LB 9  Do not break a combining character sequence; treat it as if it has the LB class of the base character -->
+				<!-- in all of the following rules. (Where X is any line break class except SP, BK, CR, LF, NL or ZW.) -->
+				<rule id="9">$Spec2_ × $CM</rule>
 				<!-- WARNING: this is done by modifying the variable values for all but SP.... That is, $AL is really ($AI $CM*)! -->
 				<!-- LB 11  Do not break before or after WORD JOINER and related characters. -->
 				<rule id="11.01">× $WJ</rule>
@@ -12305,23 +12322,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="30.02">$CP × ($AL | $HL | $NU)</rule>
 				<!-- LB 30a  Do not break between Regional Indicators. -->
 				<rule id="30.11">$RI × $RI</rule>
-				<!-- LB 4  Always break after hard line breaks (but never between CR and LF). -->
-				<rule id="4">$BK ÷</rule>
-				<!-- LB 5  Treat CR followed by LF, as well as CR, LF and NL as hard line breaks. -->
-				<rule id="5.01">$CR × $LF</rule>
-				<rule id="5.02">$CR ÷</rule>
-				<rule id="5.03">$LF ÷</rule>
-				<rule id="5.04">$NL ÷</rule>
-				<!-- LB 6  Do not break before hard line breaks. -->
-				<rule id="6">× ( $BK | $CR | $LF | $NL )</rule>
-				<!-- LB 7  Do not break before spaces or zero-width space. -->
-				<rule id="7.01">× $SP</rule>
-				<rule id="7.02">× $ZW</rule>
-				<!-- LB 8  Break before any character following a zero-width space, even if one or more spaces intervene. -->
-				<rule id="8">$ZW $SP* ÷</rule>
-				<!-- LB 9  Do not break a combining character sequence; treat it as if it has the LB class of the base character -->
-				<!-- in all of the following rules. (Where X is any line break class except SP, BK, CR, LF, NL or ZW.) -->
-				<rule id="9">$Spec2_ × $CM</rule>
 			</segmentRules>
 		</segmentation>
 		<segmentation type="SentenceBreak">
@@ -12356,11 +12356,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$Upper">($Upper $FE*)</variable>
 			</variables>
 			<segmentRules>
-				<!-- Note the fix to $Sp*, $Sep? -->
-				<rule id="10">( $STerm | $ATerm ) $Close* $Sp* × ( $Sp | $Sep | $CR | $LF )</rule>
-				<rule id="11">( $STerm | $ATerm ) $Close* $Sp* ($Sep | $CR | $LF)? ÷</rule>
-				<!-- Otherwise, do not break -->
-				<rule id="12">× $Any</rule>
 				<!-- Do not break within CRLF -->
 				<rule id="3">$CR × $LF</rule>
 				<!-- Break after paragraph separators. -->
@@ -12379,6 +12374,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="8.1">($STerm | $ATerm) $Close* $Sp* × ($SContinue | $STerm | $ATerm)</rule>
 				<!-- Break after sentence terminators, but include closing punctuation, trailing spaces, and (optionally) a paragraph separator. -->
 				<rule id="9">( $STerm | $ATerm ) $Close* × ( $Close | $Sp | $Sep | $CR | $LF )</rule>
+				<!-- Note the fix to $Sp*, $Sep? -->
+				<rule id="10">( $STerm | $ATerm ) $Close* $Sp* × ( $Sp | $Sep | $CR | $LF )</rule>
+				<rule id="11">( $STerm | $ATerm ) $Close* $Sp* ($Sep | $CR | $LF)? ÷</rule>
+				<!-- Otherwise, do not break -->
+				<rule id="12">× $Any</rule>
 			</segmentRules>
 		</segmentation>
 		<segmentation type="WordBreak">
@@ -12411,13 +12411,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$Regional_Indicator">($Regional_Indicator $FE*)</variable>
 			</variables>
 			<segmentRules>
-				<rule id="10">$Numeric × $ALetter</rule>
-				<rule id="11">$Numeric ($MidNum | $MidNumLet) × $Numeric</rule>
-				<rule id="12">$Numeric × ($MidNum | $MidNumLet) $Numeric</rule>
-				<rule id="13">$Katakana × $Katakana</rule>
-				<rule id="13.1">($ALetter | $Numeric | $Katakana | $ExtendNumLet) × $ExtendNumLet</rule>
-				<rule id="13.2">$ExtendNumLet × ($ALetter | $Numeric | $Katakana)</rule>
-				<rule id="13.3">$Regional_Indicator × $Regional_Indicator</rule>
 				<rule id="3">$CR × $LF</rule>
 				<rule id="3.1">($Newline | $CR | $LF) ÷</rule>
 				<rule id="3.2">÷ ($Newline | $CR | $LF)</rule>
@@ -12432,6 +12425,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="7">$ALetter ($MidLetter | $MidNumLet) × $ALetter</rule>
 				<rule id="8">$Numeric × $Numeric</rule>
 				<rule id="9">$ALetter × $Numeric</rule>
+				<rule id="10">$Numeric × $ALetter</rule>
+				<rule id="11">$Numeric ($MidNum | $MidNumLet) × $Numeric</rule>
+				<rule id="12">$Numeric × ($MidNum | $MidNumLet) $Numeric</rule>
+				<rule id="13">$Katakana × $Katakana</rule>
+				<rule id="13.1">($ALetter | $Numeric | $Katakana | $ExtendNumLet) × $ExtendNumLet</rule>
+				<rule id="13.2">$ExtendNumLet × ($ALetter | $Numeric | $Katakana)</rule>
+				<rule id="13.3">$Regional_Indicator × $Regional_Indicator</rule>
 			</segmentRules>
 		</segmentation>
 	</segmentations>

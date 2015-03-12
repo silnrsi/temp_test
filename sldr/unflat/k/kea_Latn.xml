@@ -5,7 +5,7 @@
 		<!-- name.en(kea)="Kabuverdianu" -->
 		<language type="kea"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="CV"/>
+			<sil:identity defaultRegion="CV" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<layout>
@@ -15,7 +15,7 @@
 		</orientation>
 	</layout>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c y]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a á ã â b d {dj} e é ê f g h i í j k l {lh} m n {nh} ñ  o ó ô p r s t {tx} u ú v x z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c y]</exemplarCharacters>
 	</characters>
 </ldml>

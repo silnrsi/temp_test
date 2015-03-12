@@ -4,9 +4,12 @@
 	<identity>
 		<!-- name.en(nwb)="Nyabwa" -->
 		<language type="nwb"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b {bh} c d e ɛ f g {gb} {gw} i ɩ j k {kp} {kw} l m n {ng} {ny} o ɔ p r s t u ʋ v w y z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 	</characters>
 </ldml>

@@ -5,11 +5,11 @@
 		<!-- name.en(ade)="Adele" -->
 		<language type="ade"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="GH"/>
+			<sil:identity defaultRegion="GH" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c j q v x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b {bw} d e ɛ f {fw} g {gb} {gy} h i ɩ k {kp} {ky} {kw} l m n {ny} ŋ {ŋm} {ŋw} o ɔ p {pw} r s t u ʋ w y]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c j q v x z]</exemplarCharacters>
 	</characters>
 </ldml>

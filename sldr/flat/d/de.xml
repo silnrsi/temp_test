@@ -8,10 +8,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<version number="$Revision: 11294 $"/>
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="de"/>
-		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
-		</special>
 		<script type="Latn"/>
+		<territory type="DE"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+		</special>
 	</identity>
 	<localeDisplayNames>
 		<localeDisplayPattern>
@@ -7206,9 +7207,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>AFN</symbol>
 			</currency>
 			<currency type="ALK">
-				<displayName draft="contributed">Albanischer Lek (1946–1965)</displayName>
 				<displayName count="one" draft="contributed">Albanischer Lek (1946–1965)</displayName>
 				<displayName count="other" draft="contributed">Albanische Lek (1946–1965)</displayName>
+				<displayName draft="contributed">Albanischer Lek (1946–1965)</displayName>
 			</currency>
 			<currency type="ALL">
 				<displayName count="one">Albanischer Lek</displayName>
@@ -7260,15 +7261,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">ARA</symbol>
 			</currency>
 			<currency type="ARL">
-				<displayName draft="contributed">Argentinischer Peso Ley (1970–1983)</displayName>
 				<displayName count="one" draft="contributed">Argentinischer Peso Ley (1970–1983)</displayName>
 				<displayName count="other" draft="contributed">Argentinische Pesos Ley (1970–1983)</displayName>
+				<displayName draft="contributed">Argentinischer Peso Ley (1970–1983)</displayName>
 				<symbol draft="contributed">ARL</symbol>
 			</currency>
 			<currency type="ARM">
-				<displayName draft="contributed">Argentinischer Peso (1881–1970)</displayName>
 				<displayName count="one" draft="contributed">Argentinischer Peso (1881–1970)</displayName>
 				<displayName count="other" draft="contributed">Argentinische Pesos (1881–1970)</displayName>
+				<displayName draft="contributed">Argentinischer Peso (1881–1970)</displayName>
 				<symbol draft="contributed">ARM</symbol>
 			</currency>
 			<currency type="ARP">
@@ -7329,9 +7330,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>BAM</symbol>
 			</currency>
 			<currency type="BAN">
-				<displayName draft="contributed">Bosnien und Herzegowina Neuer Dinar (1994–1997)</displayName>
 				<displayName count="one" draft="contributed">Bosnien und Herzegowina Neuer Dinar (1994–1997)</displayName>
 				<displayName count="other" draft="contributed">Bosnien und Herzegowina Neue Dinar (1994–1997)</displayName>
+				<displayName draft="contributed">Bosnien und Herzegowina Neuer Dinar (1994–1997)</displayName>
 				<symbol draft="contributed">BAN</symbol>
 			</currency>
 			<currency type="BBD">
@@ -7372,9 +7373,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>Bulgarische Lew (1962–1999)</displayName>
 			</currency>
 			<currency type="BGM">
-				<displayName draft="contributed">Bulgarischer Lew (1952–1962)</displayName>
 				<displayName count="one" draft="contributed">Bulgarischer Lew (1952–1962)</displayName>
 				<displayName count="other" draft="contributed">Bulgarische Lew (1952–1962)</displayName>
+				<displayName draft="contributed">Bulgarischer Lew (1952–1962)</displayName>
 				<symbol draft="contributed">BGK</symbol>
 			</currency>
 			<currency type="BGN">
@@ -7384,9 +7385,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>BGN</symbol>
 			</currency>
 			<currency type="BGO">
-				<displayName draft="contributed">Bulgarischer Lew (1879–1952)</displayName>
 				<displayName count="one" draft="contributed">Bulgarischer Lew (1879–1952)</displayName>
 				<displayName count="other" draft="contributed">Bulgarische Lew (1879–1952)</displayName>
+				<displayName draft="contributed">Bulgarischer Lew (1879–1952)</displayName>
 				<symbol draft="contributed">BGJ</symbol>
 			</currency>
 			<currency type="BHD">
@@ -7423,9 +7424,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>BOB</symbol>
 			</currency>
 			<currency type="BOL">
-				<displayName draft="contributed">Bolivianischer Boliviano (1863–1963)</displayName>
 				<displayName count="one" draft="contributed">Bolivianischer Boliviano (1863–1963)</displayName>
 				<displayName count="other" draft="contributed">Bolivianische Bolivianos (1863–1963)</displayName>
+				<displayName draft="contributed">Bolivianischer Boliviano (1863–1963)</displayName>
 				<symbol draft="contributed">BOL</symbol>
 			</currency>
 			<currency type="BOP">
@@ -7560,9 +7561,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">CHW</symbol>
 			</currency>
 			<currency type="CLE">
-				<displayName draft="contributed">Chilenischer Escudo</displayName>
 				<displayName count="one" draft="contributed">Chilenischer Escudo</displayName>
 				<displayName count="other" draft="contributed">Chilenische Escudo</displayName>
+				<displayName draft="contributed">Chilenischer Escudo</displayName>
 				<symbol draft="contributed">CLE</symbol>
 			</currency>
 			<currency type="CLF">
@@ -7579,9 +7580,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>CLP</symbol>
 			</currency>
 			<currency type="CNX">
-				<displayName draft="contributed">Dollar der Chinesischen Volksbank</displayName>
 				<displayName count="one" draft="contributed">Dollar der Chinesischen Volksbank</displayName>
 				<displayName count="other" draft="contributed">Dollar der Chinesischen Volksbank</displayName>
+				<displayName draft="contributed">Dollar der Chinesischen Volksbank</displayName>
 				<symbol draft="contributed">CNX</symbol>
 			</currency>
 			<currency type="CNY">
@@ -7599,9 +7600,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>COP</symbol>
 			</currency>
 			<currency type="COU">
-				<displayName draft="contributed">Kolumbianische Unidades de valor real</displayName>
 				<displayName count="one" draft="contributed">Kolumbianische Unidad de valor real</displayName>
 				<displayName count="other" draft="contributed">Kolumbianische Unidades de valor real</displayName>
+				<displayName draft="contributed">Kolumbianische Unidades de valor real</displayName>
 				<symbol draft="contributed">COU</symbol>
 			</currency>
 			<currency type="CRC">
@@ -7741,8 +7742,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">Spanische Peseta</displayName>
 				<displayName count="other">Spanische Peseten</displayName>
 				<displayName>Spanische Peseta</displayName>
-				<symbol draft="contributed">ESP</symbol>
 				<symbol alt="narrow">₧</symbol>
+				<symbol draft="contributed">ESP</symbol>
 			</currency>
 			<currency type="ETB">
 				<displayName count="one">Äthiopischer Birr</displayName>
@@ -7936,9 +7937,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">ILP</symbol>
 			</currency>
 			<currency type="ILR">
-				<displayName draft="contributed">Israelischer Schekel (1980–1985)</displayName>
 				<displayName count="one" draft="contributed">Israelischer Schekel (1980–1985)</displayName>
 				<displayName count="other" draft="contributed">Israelische Schekel (1980–1985)</displayName>
+				<displayName draft="contributed">Israelischer Schekel (1980–1985)</displayName>
 			</currency>
 			<currency type="ILS">
 				<displayName count="one">Israelischer Neuer Schekel</displayName>
@@ -7967,9 +7968,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>IRR</symbol>
 			</currency>
 			<currency type="ISJ">
-				<displayName draft="contributed">Isländische Krone (1918–1981)</displayName>
 				<displayName count="one" draft="contributed">Isländische Krone (1918–1981)</displayName>
 				<displayName count="other" draft="contributed">Isländische Kronen (1918–1981)</displayName>
+				<displayName draft="contributed">Isländische Krone (1918–1981)</displayName>
 			</currency>
 			<currency type="ISK">
 				<displayName count="one">Isländische Krone</displayName>
@@ -8038,15 +8039,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>KPW</symbol>
 			</currency>
 			<currency type="KRH">
-				<displayName draft="contributed">Südkoreanischer Hwan (1953–1962)</displayName>
 				<displayName count="one" draft="contributed">Südkoreanischer Hwan (1953–1962)</displayName>
 				<displayName count="other" draft="contributed">Südkoreanischer Hwan (1953–1962)</displayName>
+				<displayName draft="contributed">Südkoreanischer Hwan (1953–1962)</displayName>
 				<symbol draft="contributed">KRH</symbol>
 			</currency>
 			<currency type="KRO">
-				<displayName draft="contributed">Südkoreanischer Won (1945–1953)</displayName>
 				<displayName count="one" draft="contributed">Südkoreanischer Won (1945–1953)</displayName>
 				<displayName count="other" draft="contributed">Südkoreanischer Won (1945–1953)</displayName>
+				<displayName draft="contributed">Südkoreanischer Won (1945–1953)</displayName>
 				<symbol draft="contributed">KRO</symbol>
 			</currency>
 			<currency type="KRW">
@@ -8173,15 +8174,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">MAF</symbol>
 			</currency>
 			<currency type="MCF">
-				<displayName draft="contributed">Monegassischer Franc</displayName>
 				<displayName count="one" draft="contributed">Monegassischer Franc</displayName>
 				<displayName count="other" draft="contributed">Monegassische Franc</displayName>
+				<displayName draft="contributed">Monegassischer Franc</displayName>
 				<symbol draft="contributed">MCF</symbol>
 			</currency>
 			<currency type="MDC">
-				<displayName draft="contributed">Moldau-Cupon</displayName>
 				<displayName count="one" draft="contributed">Moldau-Cupon</displayName>
 				<displayName count="other" draft="contributed">Moldau-Cupon</displayName>
+				<displayName draft="contributed">Moldau-Cupon</displayName>
 				<symbol draft="contributed">MDC</symbol>
 			</currency>
 			<currency type="MDL">
@@ -8210,9 +8211,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>MKD</symbol>
 			</currency>
 			<currency type="MKN">
-				<displayName draft="contributed">Mazedonischer Denar (1992–1993)</displayName>
 				<displayName count="one" draft="contributed">Mazedonischer Denar (1992–1993)</displayName>
 				<displayName count="other" draft="contributed">Mazedonische Denar (1992–1993)</displayName>
+				<displayName draft="contributed">Mazedonischer Denar (1992–1993)</displayName>
 				<symbol draft="contributed">MKN</symbol>
 			</currency>
 			<currency type="MLF">
@@ -8267,9 +8268,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>MUR</symbol>
 			</currency>
 			<currency type="MVP">
-				<displayName draft="contributed">Malediven-Rupie (alt)</displayName>
 				<displayName count="one" draft="contributed">Malediven-Rupie (alt)</displayName>
 				<displayName count="other" draft="contributed">Malediven-Rupien (alt)</displayName>
+				<displayName draft="contributed">Malediven-Rupie (alt)</displayName>
 			</currency>
 			<currency type="MVR">
 				<displayName count="one">Malediven-Rufiyaa</displayName>
@@ -8496,8 +8497,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">Russischer Rubel (1991–1998)</displayName>
 				<displayName count="other">Russische Rubel (1991–1998)</displayName>
 				<displayName>Russischer Rubel (1991–1998)</displayName>
-				<symbol draft="contributed">RUR</symbol>
 				<symbol alt="narrow">р.</symbol>
+				<symbol draft="contributed">RUR</symbol>
 			</currency>
 			<currency type="RWF">
 				<displayName count="one">Ruanda-Franc</displayName>
@@ -8769,9 +8770,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">USS</symbol>
 			</currency>
 			<currency type="UYI">
-				<displayName draft="contributed">Uruguayischer Peso (Indexierte Rechnungseinheiten)</displayName>
 				<displayName count="one" draft="contributed">Uruguayischer Peso (Indexierte Rechnungseinheiten)</displayName>
 				<displayName count="other" draft="contributed">Uruguayische Pesos (Indexierte Rechnungseinheiten)</displayName>
+				<displayName draft="contributed">Uruguayischer Peso (Indexierte Rechnungseinheiten)</displayName>
 				<symbol draft="contributed">UYI</symbol>
 			</currency>
 			<currency type="UYP">
@@ -8814,9 +8815,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>₫</symbol>
 			</currency>
 			<currency type="VNN">
-				<displayName draft="contributed">Vietnamesischer Dong(1978–1985)</displayName>
 				<displayName count="one" draft="contributed">Vietnamesischer Dong(1978–1985)</displayName>
 				<displayName count="other" draft="contributed">Vietnamesische Dong(1978–1985)</displayName>
+				<displayName draft="contributed">Vietnamesischer Dong(1978–1985)</displayName>
 				<symbol draft="contributed">VNN</symbol>
 			</currency>
 			<currency type="VUV">
@@ -8935,9 +8936,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">XRE</symbol>
 			</currency>
 			<currency type="XSU">
-				<displayName draft="contributed">SUCRE</displayName>
 				<displayName count="one" draft="contributed">SUCRE</displayName>
 				<displayName count="other" draft="contributed">SUCRE</displayName>
+				<displayName draft="contributed">SUCRE</displayName>
 				<symbol draft="contributed">XSU</symbol>
 			</currency>
 			<currency type="XTS">
@@ -8947,9 +8948,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">XTS</symbol>
 			</currency>
 			<currency type="XUA">
-				<displayName draft="contributed">Rechnungseinheit der AfEB</displayName>
 				<displayName count="one" draft="contributed">Rechnungseinheit der AfEB</displayName>
 				<displayName count="other" draft="contributed">Rechnungseinheiten der AfEB</displayName>
+				<displayName draft="contributed">Rechnungseinheit der AfEB</displayName>
 				<symbol draft="contributed">XUA</symbol>
 			</currency>
 			<currency type="XXX">
@@ -8989,9 +8990,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">YUN</symbol>
 			</currency>
 			<currency type="YUR">
-				<displayName draft="contributed">Jugoslawischer reformierter Dinar (1992–1993)</displayName>
 				<displayName count="one" draft="contributed">Jugoslawischer reformierter Dinar (1992–1993)</displayName>
 				<displayName count="other" draft="contributed">Jugoslawische reformierte Dinar (1992–1993)</displayName>
+				<displayName draft="contributed">Jugoslawischer reformierter Dinar (1992–1993)</displayName>
 				<symbol draft="contributed">YUR</symbol>
 			</currency>
 			<currency type="ZAL">
@@ -11349,12 +11350,12 @@ For terms of use, see http://www.unicode.org/copyright.html
 			]]></cr>
 		</collation>
 		<collation type="search">
-			<import type="search" source="und"/>
 			<!--
 			Below are the rules specific to de.
 			Per Apple language group, these rules match phonebook collation below.
 			-->
 			<import type="phonebk" source="de"/>
+			<import type="search" source="und"/>
 		</collation>
 		<collation type="standard"/>
 	</collations>
@@ -11488,6 +11489,23 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$ZW">\p{Line_Break=ZWSpace}</variable>
 			</variables>
 			<segmentRules>
+				<!-- LB 4  Always break after hard line breaks (but never between CR and LF). -->
+				<rule id="4">$BK ÷</rule>
+				<!-- LB 5  Treat CR followed by LF, as well as CR, LF and NL as hard line breaks. -->
+				<rule id="5.01">$CR × $LF</rule>
+				<rule id="5.02">$CR ÷</rule>
+				<rule id="5.03">$LF ÷</rule>
+				<rule id="5.04">$NL ÷</rule>
+				<!-- LB 6  Do not break before hard line breaks. -->
+				<rule id="6">× ( $BK | $CR | $LF | $NL )</rule>
+				<!-- LB 7  Do not break before spaces or zero-width space. -->
+				<rule id="7.01">× $SP</rule>
+				<rule id="7.02">× $ZW</rule>
+				<!-- LB 8  Break before any character following a zero-width space, even if one or more spaces intervene. -->
+				<rule id="8">$ZW $SP* ÷</rule>
+				<!-- LB 9  Do not break a combining character sequence; treat it as if it has the LB class of the base character -->
+				<!-- in all of the following rules. (Where X is any line break class except SP, BK, CR, LF, NL or ZW.) -->
+				<rule id="9">$Spec2_ × $CM</rule>
 				<!-- WARNING: this is done by modifying the variable values for all but SP.... That is, $AL is really ($AI $CM*)! -->
 				<!-- LB 11  Do not break before or after WORD JOINER and related characters. -->
 				<rule id="11.01">× $WJ</rule>
@@ -11567,23 +11585,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="30.02">$CP × ($AL | $HL | $NU)</rule>
 				<!-- LB 30a  Do not break between Regional Indicators. -->
 				<rule id="30.11">$RI × $RI</rule>
-				<!-- LB 4  Always break after hard line breaks (but never between CR and LF). -->
-				<rule id="4">$BK ÷</rule>
-				<!-- LB 5  Treat CR followed by LF, as well as CR, LF and NL as hard line breaks. -->
-				<rule id="5.01">$CR × $LF</rule>
-				<rule id="5.02">$CR ÷</rule>
-				<rule id="5.03">$LF ÷</rule>
-				<rule id="5.04">$NL ÷</rule>
-				<!-- LB 6  Do not break before hard line breaks. -->
-				<rule id="6">× ( $BK | $CR | $LF | $NL )</rule>
-				<!-- LB 7  Do not break before spaces or zero-width space. -->
-				<rule id="7.01">× $SP</rule>
-				<rule id="7.02">× $ZW</rule>
-				<!-- LB 8  Break before any character following a zero-width space, even if one or more spaces intervene. -->
-				<rule id="8">$ZW $SP* ÷</rule>
-				<!-- LB 9  Do not break a combining character sequence; treat it as if it has the LB class of the base character -->
-				<!-- in all of the following rules. (Where X is any line break class except SP, BK, CR, LF, NL or ZW.) -->
-				<rule id="9">$Spec2_ × $CM</rule>
 			</segmentRules>
 		</segmentation>
 		<segmentation type="SentenceBreak">
@@ -11618,11 +11619,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$Upper">($Upper $FE*)</variable>
 			</variables>
 			<segmentRules>
-				<!-- Note the fix to $Sp*, $Sep? -->
-				<rule id="10">( $STerm | $ATerm ) $Close* $Sp* × ( $Sp | $Sep | $CR | $LF )</rule>
-				<rule id="11">( $STerm | $ATerm ) $Close* $Sp* ($Sep | $CR | $LF)? ÷</rule>
-				<!-- Otherwise, do not break -->
-				<rule id="12">× $Any</rule>
 				<!-- Do not break within CRLF -->
 				<rule id="3">$CR × $LF</rule>
 				<!-- Break after paragraph separators. -->
@@ -11641,6 +11637,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="8.1">($STerm | $ATerm) $Close* $Sp* × ($SContinue | $STerm | $ATerm)</rule>
 				<!-- Break after sentence terminators, but include closing punctuation, trailing spaces, and (optionally) a paragraph separator. -->
 				<rule id="9">( $STerm | $ATerm ) $Close* × ( $Close | $Sp | $Sep | $CR | $LF )</rule>
+				<!-- Note the fix to $Sp*, $Sep? -->
+				<rule id="10">( $STerm | $ATerm ) $Close* $Sp* × ( $Sp | $Sep | $CR | $LF )</rule>
+				<rule id="11">( $STerm | $ATerm ) $Close* $Sp* ($Sep | $CR | $LF)? ÷</rule>
+				<!-- Otherwise, do not break -->
+				<rule id="12">× $Any</rule>
 			</segmentRules>
 			<!--From ULI data, http://uli.unicode.org-->
 			<suppressions type="standard">
@@ -11917,13 +11918,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$Regional_Indicator">($Regional_Indicator $FE*)</variable>
 			</variables>
 			<segmentRules>
-				<rule id="10">$Numeric × $ALetter</rule>
-				<rule id="11">$Numeric ($MidNum | $MidNumLet) × $Numeric</rule>
-				<rule id="12">$Numeric × ($MidNum | $MidNumLet) $Numeric</rule>
-				<rule id="13">$Katakana × $Katakana</rule>
-				<rule id="13.1">($ALetter | $Numeric | $Katakana | $ExtendNumLet) × $ExtendNumLet</rule>
-				<rule id="13.2">$ExtendNumLet × ($ALetter | $Numeric | $Katakana)</rule>
-				<rule id="13.3">$Regional_Indicator × $Regional_Indicator</rule>
 				<rule id="3">$CR × $LF</rule>
 				<rule id="3.1">($Newline | $CR | $LF) ÷</rule>
 				<rule id="3.2">÷ ($Newline | $CR | $LF)</rule>
@@ -11938,6 +11932,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="7">$ALetter ($MidLetter | $MidNumLet) × $ALetter</rule>
 				<rule id="8">$Numeric × $Numeric</rule>
 				<rule id="9">$ALetter × $Numeric</rule>
+				<rule id="10">$Numeric × $ALetter</rule>
+				<rule id="11">$Numeric ($MidNum | $MidNumLet) × $Numeric</rule>
+				<rule id="12">$Numeric × ($MidNum | $MidNumLet) $Numeric</rule>
+				<rule id="13">$Katakana × $Katakana</rule>
+				<rule id="13.1">($ALetter | $Numeric | $Katakana | $ExtendNumLet) × $ExtendNumLet</rule>
+				<rule id="13.2">$ExtendNumLet × ($ALetter | $Numeric | $Katakana)</rule>
+				<rule id="13.3">$Regional_Indicator × $Regional_Indicator</rule>
 			</segmentRules>
 		</segmentation>
 	</segmentations>

@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="it"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -4715,9 +4715,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>corona forte cecoslovacca</displayName>
 			</currency>
 			<currency type="CUC">
-				<displayName draft="contributed">peso cubano convertibile</displayName>
 				<displayName count="one">peso cubano convertibile</displayName>
 				<displayName count="other">pesos cubani convertibili</displayName>
+				<displayName draft="contributed">peso cubano convertibile</displayName>
 				<symbol>CUC</symbol>
 			</currency>
 			<currency type="CUP">
@@ -5335,9 +5335,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>leu della Romania</displayName>
 			</currency>
 			<currency type="RON">
-				<displayName draft="contributed">leu rumeno</displayName>
 				<displayName count="one" draft="contributed">leu rumeno</displayName>
 				<displayName count="other" draft="contributed">lei rumeni</displayName>
+				<displayName draft="contributed">leu rumeno</displayName>
 				<symbol>RON</symbol>
 			</currency>
 			<currency type="RSD">

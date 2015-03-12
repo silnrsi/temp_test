@@ -5,11 +5,11 @@
 		<!-- name.en(jen)="Dza" -->
 		<language type="jen"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="NG"/>
+			<sil:identity defaultRegion="NG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a à ǎ ã b c d e è ě ẽ ɛ ǝ f g h i ì ǐ ĩ ɨ j k l m n o ò ǒ õ ɔ p r s t u ù ǔ ũ v w y z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 	</characters>
 </ldml>

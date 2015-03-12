@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="pt"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -4777,9 +4777,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>AFN</symbol>
 			</currency>
 			<currency type="ALK">
-				<displayName draft="contributed">Lek Albanês (1946–1965)</displayName>
 				<displayName count="one" draft="contributed">Lek Albanês (1946–1965)</displayName>
 				<displayName count="other" draft="contributed">Leks Albaneses (1946–1965)</displayName>
+				<displayName draft="contributed">Lek Albanês (1946–1965)</displayName>
 			</currency>
 			<currency type="ALL">
 				<displayName count="one">Lek albanês</displayName>
@@ -5615,14 +5615,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>Franco marroquino</displayName>
 			</currency>
 			<currency type="MCF">
-				<displayName draft="contributed">Franco monegasco</displayName>
 				<displayName count="one" draft="contributed">Franco monegasco</displayName>
 				<displayName count="other" draft="contributed">Francos monegascos</displayName>
+				<displayName draft="contributed">Franco monegasco</displayName>
 			</currency>
 			<currency type="MDC">
-				<displayName draft="contributed">Cupon moldávio</displayName>
 				<displayName count="one" draft="contributed">Cupon moldávio</displayName>
 				<displayName count="other" draft="contributed">Cupon moldávio</displayName>
+				<displayName draft="contributed">Cupon moldávio</displayName>
 			</currency>
 			<currency type="MDL">
 				<displayName count="one">Leu moldávio</displayName>

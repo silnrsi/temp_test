@@ -5,11 +5,11 @@
 		<!-- name.en(tlx)="Khehek" -->
 		<language type="tlx"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c f g q v x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b {bw} {ch} d e h i j k {kh} l m {mb} {mw} n {nd} {ndr} {nʼdr} {ng} {ng} {ny} o ø p {pw} r s t u w y]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c f g q v x z]</exemplarCharacters>
 	</characters>
 </ldml>

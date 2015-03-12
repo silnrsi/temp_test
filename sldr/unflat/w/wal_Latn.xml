@@ -3,10 +3,13 @@
 	<identity>
 		<!-- name.en(wal)="Wolaytta" -->
 		<language type="wal"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="index" draft="proposed">[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z {Ch} {Dh} {Ph} {Sh} 7]</exemplarCharacters>
 		<exemplarCharacters draft="proposed">[a b c d e f g h i j k l m n o p q r s t u v w x y z {ch} {dh} {ph} {sh} 7]</exemplarCharacters>
+		<exemplarCharacters type="index" draft="proposed">[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z {Ch} {Dh} {Ph} {Sh} 7]</exemplarCharacters>
 	</characters>
 	<delimiters>
 		<quotationStart>«</quotationStart>

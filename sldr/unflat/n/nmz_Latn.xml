@@ -5,12 +5,12 @@
 		<!-- name.en(nmz)="Nawdm" -->
 		<language type="nmz"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="TG"/>
+			<sil:identity defaultRegion="TG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
+		<exemplarCharacters draft="unconfirmed">[a {à} {á} b d e ɛ f g {g̈} {gb} {gw} h ɦ i j k {kp} {kw} l m n {n̈} {ny} ŋ {ŋ̈} {ŋm} o ɔ r s t u v w y ʹ]</exemplarCharacters>
 		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c p q x z]</exemplarCharacters>
 		<exemplarCharacters type="index" draft="unconfirmed">[A B D E Ɛ F G {Gb} {Gw} H {Ĥ} I J K {Kp} {Kw} L M N {Ny} Ŋ {Ŋm} O Ɔ R S T U V W Y]</exemplarCharacters>
-		<exemplarCharacters draft="unconfirmed">[a {à} {á} b d e ɛ f g {g̈} {gb} {gw} h ɦ i j k {kp} {kw} l m n {n̈} {ny} ŋ {ŋ̈} {ŋm} o ɔ r s t u v w y ʹ]</exemplarCharacters>
 	</characters>
 </ldml>

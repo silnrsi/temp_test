@@ -5,11 +5,11 @@
 		<!-- name.en(idu)="Idoma" -->
 		<language type="idu"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="NG"/>
+			<sil:identity defaultRegion="NG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q v x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {á} {ā} b d e {é} {ē} ɛ f g h i {í} {ī} j k l m n ŋ o {ó} {ō} ɔ p r s t u {ú} {ū} w y c]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q v x z]</exemplarCharacters>
 	</characters>
 </ldml>

@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="ca"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -4654,9 +4654,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">ARL</symbol>
 			</currency>
 			<currency type="ARM">
-				<displayName draft="contributed">peso argentí (1981–1970)</displayName>
 				<displayName count="one" draft="contributed">peso argentí moneda nacional</displayName>
 				<displayName count="other" draft="contributed">pesos argentins moneda nacional</displayName>
+				<displayName draft="contributed">peso argentí (1981–1970)</displayName>
 				<symbol draft="contributed">ARM</symbol>
 			</currency>
 			<currency type="ARP">
@@ -4858,9 +4858,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">BRR</symbol>
 			</currency>
 			<currency type="BRZ">
-				<displayName draft="contributed">antic cruzeiro brasiler</displayName>
 				<displayName count="one" draft="contributed">antic cruzeiro brasiler</displayName>
 				<displayName count="other" draft="contributed">antics cruzeiros brasilers</displayName>
+				<displayName draft="contributed">antic cruzeiro brasiler</displayName>
 				<symbol draft="contributed">BRZ</symbol>
 			</currency>
 			<currency type="BSD">
@@ -4937,9 +4937,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">CHW</symbol>
 			</currency>
 			<currency type="CLE">
-				<displayName draft="contributed">escut xilè</displayName>
 				<displayName count="one" draft="contributed">escudo xilè</displayName>
 				<displayName count="other" draft="contributed">escudos xilens</displayName>
+				<displayName draft="contributed">escut xilè</displayName>
 				<symbol draft="contributed">CLE</symbol>
 			</currency>
 			<currency type="CLF">
@@ -5380,15 +5380,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>KPW</symbol>
 			</currency>
 			<currency type="KRH">
-				<displayName draft="contributed">hwan sud-coreà (1953–1962)</displayName>
 				<displayName count="one" draft="contributed">hwan sud-coreà</displayName>
 				<displayName count="other" draft="contributed">hwans sud-coreans</displayName>
+				<displayName draft="contributed">hwan sud-coreà (1953–1962)</displayName>
 				<symbol draft="contributed">KRH</symbol>
 			</currency>
 			<currency type="KRO">
-				<displayName draft="contributed">antic won sud-coreà</displayName>
 				<displayName count="one" draft="contributed">antic won sud-coreà</displayName>
 				<displayName count="other" draft="contributed">antics wons sud-coreans</displayName>
+				<displayName draft="contributed">antic won sud-coreà</displayName>
 				<symbol draft="contributed">KRO</symbol>
 			</currency>
 			<currency type="KRW">
@@ -5505,15 +5505,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">MAF</symbol>
 			</currency>
 			<currency type="MCF">
-				<displayName draft="contributed">franc monegasc</displayName>
 				<displayName count="one" draft="contributed">franc monegasc</displayName>
 				<displayName count="other" draft="contributed">francs monegascos</displayName>
+				<displayName draft="contributed">franc monegasc</displayName>
 				<symbol draft="contributed">MCF</symbol>
 			</currency>
 			<currency type="MDC">
-				<displayName draft="contributed">cupó moldau</displayName>
 				<displayName count="one" draft="contributed">cupó moldau</displayName>
 				<displayName count="other" draft="contributed">cupons moldaus</displayName>
+				<displayName draft="contributed">cupó moldau</displayName>
 				<symbol draft="contributed">MDC</symbol>
 			</currency>
 			<currency type="MDL">
@@ -6262,9 +6262,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">YUN</symbol>
 			</currency>
 			<currency type="YUR">
-				<displayName draft="contributed">dinar iugoslau reformat (1992–1993)</displayName>
 				<displayName count="one" draft="contributed">dinar reformat iugoslau</displayName>
 				<displayName count="other" draft="contributed">dinars reformats iugoslaus</displayName>
+				<displayName draft="contributed">dinar iugoslau reformat (1992–1993)</displayName>
 				<symbol draft="contributed">YUR</symbol>
 			</currency>
 			<currency type="ZAL">

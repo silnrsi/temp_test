@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="sl"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -5499,11 +5499,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>surinamski gulden</displayName>
 			</currency>
 			<currency type="SSP">
-				<displayName draft="contributed">južnosudanski funt</displayName>
 				<displayName count="few" draft="contributed">južnosudanski funti</displayName>
 				<displayName count="one" draft="contributed">južnosudanski funt</displayName>
 				<displayName count="other" draft="contributed">južnosudanskih funtov</displayName>
 				<displayName count="two" draft="contributed">južnosudanska funta</displayName>
+				<displayName draft="contributed">južnosudanski funt</displayName>
 				<symbol draft="contributed">SSP</symbol>
 			</currency>
 			<currency type="STD">
@@ -7615,17 +7615,17 @@ For terms of use, see http://www.unicode.org/copyright.html
 		</listPattern>
 	</listPatterns>
 	<collations>
-		<collation type="standard" references="Anton Bajec: Slovar slovenskega knjižnega jezika ISBN 86-341-1111-3">
+		<collation type="standard" alt="proposed" draft="unconfirmed">
 			<cr><![CDATA[
-				&C<č<<<Č<ć<<<Ć
-				&D<đ<<<Đ
+				&C<č<<<Č
 				&S<š<<<Š
 				&Z<ž<<<Ž
 			]]></cr>
 		</collation>
-		<collation type="standard" alt="proposed" draft="unconfirmed">
+		<collation type="standard" references="Anton Bajec: Slovar slovenskega knjižnega jezika ISBN 86-341-1111-3">
 			<cr><![CDATA[
-				&C<č<<<Č
+				&C<č<<<Č<ć<<<Ć
+				&D<đ<<<Đ
 				&S<š<<<Š
 				&Z<ž<<<Ž
 			]]></cr>

@@ -5,11 +5,11 @@
 		<!-- name.en(ada)="Adangme" -->
 		<language type="ada"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="GH"/>
+			<sil:identity defaultRegion="GH" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c q r x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b d e ɛ f g {gb} h i j k {kp} l m n {ny} ŋ {ŋm} o ɔ p s t {ts} u v w y z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c q r x]</exemplarCharacters>
 	</characters>
 </ldml>

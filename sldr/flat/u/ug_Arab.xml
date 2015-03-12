@@ -8,10 +8,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<version number="$Revision: 10669 $"/>
 		<generation date="$Date: 2014-07-23 21:10 +0000 $"/>
 		<language type="ug"/>
-		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
-		</special>
 		<script type="Arab"/>
+		<territory type="CN"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+		</special>
 	</identity>
 	<localeDisplayNames>
 		<localeDisplayPattern>
@@ -142,10 +143,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<language type="en" draft="contributed">ئىنگلىزچە</language>
 			<language type="en_AU" draft="contributed">ئاۋسترالىيە ئىنگلىزچە</language>
 			<language type="en_CA" draft="contributed">كانادا ئىنگلىزچە</language>
-			<language type="en_GB" draft="contributed">ئەنگلىيە ئىنگلىزچە</language>
 			<language type="en_GB" alt="short" draft="contributed">ئەنگلىيە ئىنگلىزچە</language>
-			<language type="en_US" draft="contributed">ئامېرىكا ئىنگلىزچە</language>
+			<language type="en_GB" draft="contributed">ئەنگلىيە ئىنگلىزچە</language>
 			<language type="en_US" alt="short" draft="contributed">ئامېرىكا ئىنگلىزچە</language>
+			<language type="en_US" draft="contributed">ئامېرىكا ئىنگلىزچە</language>
 			<language type="enm" draft="contributed">ئوتتۇرا ئەسىر ئىنگلىزچە</language>
 			<language type="eo" draft="contributed">دۇنيا تىلى</language>
 			<language type="es" draft="contributed">ئىسپانچە</language>
@@ -575,10 +576,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<script type="Guru" draft="contributed">گۇرمۇكىچە</script>
 			<script type="Hani" draft="contributed">خەنچە</script>
 			<script type="Hano" draft="contributed">خانۇنۇچە</script>
-			<script type="Hans" draft="contributed">ئاددىي خەنچە</script>
 			<script type="Hans" alt="stand-alone" draft="contributed">ئاددىي خەنچە</script>
-			<script type="Hant" draft="contributed">مۇرەككەپ خەنچە</script>
+			<script type="Hans" draft="contributed">ئاددىي خەنچە</script>
 			<script type="Hant" alt="stand-alone" draft="contributed">مۇرەككەپ خەنچە</script>
+			<script type="Hant" draft="contributed">مۇرەككەپ خەنچە</script>
 			<script type="Hebr" draft="contributed">ئىبرانىچە</script>
 			<script type="Hira" draft="contributed">خىراگانا</script>
 			<script type="Hluw" draft="contributed">ئاناتولىيە تەسۋىرىي يېزىق</script>
@@ -763,14 +764,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="BZ" draft="contributed">بېلىز</territory>
 			<territory type="CA" draft="contributed">كانادا</territory>
 			<territory type="CC" draft="contributed">كەئەلىڭ كوكۇس ئاراللىرى</territory>
-			<territory type="CD" draft="contributed">كونگو - كىنشاسا</territory>
 			<territory type="CD" alt="variant" draft="contributed">كونگو (دېموكراتىك كونگو جۇمھۇرىيىتى)</territory>
+			<territory type="CD" draft="contributed">كونگو - كىنشاسا</territory>
 			<territory type="CF" draft="contributed">ئوتتۇرا ئافرىقا جۇمھۇرىيىتى</territory>
-			<territory type="CG" draft="contributed">كونگو - بىراززاۋىل</territory>
 			<territory type="CG" alt="variant" draft="contributed">كونگو (جۇمھۇرىيىتى)</territory>
+			<territory type="CG" draft="contributed">كونگو - بىراززاۋىل</territory>
 			<territory type="CH" draft="contributed">شىۋىتسارىيە</territory>
-			<territory type="CI" draft="contributed">كوتې دې ئىۋوئىر</territory>
 			<territory type="CI" alt="variant" draft="contributed">پىل چىشى قىرغىقى</territory>
+			<territory type="CI" draft="contributed">كوتې دې ئىۋوئىر</territory>
 			<territory type="CK" draft="contributed">كۇك ئاراللىرى</territory>
 			<territory type="CL" draft="contributed">چىلى</territory>
 			<territory type="CM" draft="contributed">كامېرون</territory>
@@ -802,14 +803,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="EU" draft="contributed">ياۋروپا ئىتتىپاقى</territory>
 			<territory type="FI" draft="contributed">فىنلاندىيە</territory>
 			<territory type="FJ" draft="contributed">فىجى</territory>
-			<territory type="FK" draft="contributed">فالكلاند ئاراللىرى</territory>
 			<territory type="FK" alt="variant" draft="contributed">فالكلاند ئاراللىرى (ئىسلاس مالۋىناس)</territory>
+			<territory type="FK" draft="contributed">فالكلاند ئاراللىرى</territory>
 			<territory type="FM" draft="contributed">مىكرونېزىيە</territory>
 			<territory type="FO" draft="contributed">فائېرو ئاراللىرى</territory>
 			<territory type="FR" draft="contributed">فىرانسىيە</territory>
 			<territory type="GA" draft="contributed">گابون</territory>
-			<territory type="GB" draft="contributed">ئەنگلىيە پادىشاھلىقى</territory>
 			<territory type="GB" alt="short" draft="contributed">ئەنگلىيە</territory>
+			<territory type="GB" draft="contributed">ئەنگلىيە پادىشاھلىقى</territory>
 			<territory type="GD" draft="contributed">گىرېنادا</territory>
 			<territory type="GE" draft="contributed">گىروزىيە</territory>
 			<territory type="GF" draft="contributed">فىرانسىيەگە قاراشلىق گىۋىيانا</territory>
@@ -827,8 +828,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="GU" draft="contributed">گۇئام</territory>
 			<territory type="GW" draft="contributed">گىۋىنېيە-بىسسائۇ</territory>
 			<territory type="GY" draft="contributed">گىۋىيانا</territory>
-			<territory type="HK" draft="contributed">شياڭگاڭ ئالاھىدە مەمۇرىي رايونى (جۇڭگو)</territory>
 			<territory type="HK" alt="short" draft="contributed">شياڭگاڭ</territory>
+			<territory type="HK" draft="contributed">شياڭگاڭ ئالاھىدە مەمۇرىي رايونى (جۇڭگو)</territory>
 			<territory type="HM" draft="contributed">خېرد ۋە ماك-دونالد ئارىلى</territory>
 			<territory type="HN" draft="contributed">ھوندۇراس</territory>
 			<territory type="HR" draft="contributed">كىرودىيە</territory>
@@ -878,13 +879,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="MF" draft="contributed">ساينىت-مارتېن</territory>
 			<territory type="MG" draft="contributed">ماداغاسقار</territory>
 			<territory type="MH" draft="contributed">مارشال ئاراللىرى</territory>
-			<territory type="MK" draft="contributed">ماكېدونىيە</territory>
 			<territory type="MK" alt="variant" draft="contributed">ماكېدونىيە (سابىق يۇگۇسلاۋىيە ماكېدونىيە جۇمھۇرىيىتى)</territory>
+			<territory type="MK" draft="contributed">ماكېدونىيە</territory>
 			<territory type="ML" draft="contributed">مالى</territory>
 			<territory type="MM" draft="contributed">بىرما</territory>
 			<territory type="MN" draft="contributed">موڭغۇلىيە</territory>
-			<territory type="MO" draft="contributed">ئاۋمېن ئالاھىدە مەمۇرىي رايونى (جۇڭگو)</territory>
 			<territory type="MO" alt="short" draft="contributed">ئاۋمېن</territory>
+			<territory type="MO" draft="contributed">ئاۋمېن ئالاھىدە مەمۇرىي رايونى (جۇڭگو)</territory>
 			<territory type="MP" draft="contributed">شىمالىي مارىيانا ئاراللىرى</territory>
 			<territory type="MQ" draft="contributed">مارتىنىكا</territory>
 			<territory type="MR" draft="contributed">ماۋرىتانىيە</territory>
@@ -919,8 +920,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="PM" draft="contributed">ساينىت-پىئېر ۋە مىكېلون ئاراللىرى</territory>
 			<territory type="PN" draft="contributed">پىتكاير ئاراللىرى</territory>
 			<territory type="PR" draft="contributed">پۇئېرتو-رىكو</territory>
-			<territory type="PS" draft="contributed">پەلەستىن زېمىنى</territory>
 			<territory type="PS" alt="short" draft="contributed">پەلەستىن</territory>
+			<territory type="PS" draft="contributed">پەلەستىن زېمىنى</territory>
 			<territory type="PT" draft="contributed">پورتۇگالىيە</territory>
 			<territory type="PW" draft="contributed">پالاۋ</territory>
 			<territory type="PY" draft="contributed">پاراگۋاي</territory>
@@ -972,8 +973,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="UA" draft="contributed">ئۇكرائىنا</territory>
 			<territory type="UG" draft="contributed">ئۇگاندا</territory>
 			<territory type="UM" draft="contributed">ئامېرىكا تەۋەلىكىدىكى سىرتقى كىچىك ئاراللار</territory>
-			<territory type="US" draft="contributed">ئامېرىكا قوشما شتاتلىرى</territory>
 			<territory type="US" alt="short" draft="contributed">ئا ق ش</territory>
+			<territory type="US" draft="contributed">ئامېرىكا قوشما شتاتلىرى</territory>
 			<territory type="UY" draft="contributed">ئۇرۇگۋاي</territory>
 			<territory type="UZ" draft="contributed">ئۆزبېكىستان</territory>
 			<territory type="VA" draft="contributed">ۋاتىكان شەھىرى</territory>
@@ -1157,8 +1158,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 		</orientation>
 	</layout>
 	<characters>
-		<exemplarCharacters type="auxiliary">[]</exemplarCharacters>
 		<exemplarCharacters draft="contributed">[ئ ا ە ب پ ت ج چ خ د ر ز ژ س ش غ ف ق ك گ ڭ ل م ن ھ و ۇ ۆ ۈ ۋ ې ى ي]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[]</exemplarCharacters>
 		<exemplarCharacters type="index" draft="contributed">[ئ ا ە ب پ ت ج چ خ د ر ز ژ س ش غ ف ق ك گ ڭ ل م ن ھ و ۇ ۆ ۈ ۋ ې ى ي]</exemplarCharacters>
 		<exemplarCharacters type="punctuation">[\- , ; \: ! ? . ( ) \[ \] \{ \}]</exemplarCharacters>
 		<ellipsis type="final">{0}…</ellipsis>
@@ -5649,1606 +5650,1606 @@ For terms of use, see http://www.unicode.org/copyright.html
 		</currencyFormats>
 		<currencies>
 			<currency type="ADP">
-				<displayName draft="contributed">ئاندورران پېسېتاسى</displayName>
 				<displayName count="one" draft="contributed">ئاندورران پېسېتاسى</displayName>
 				<displayName count="other" draft="contributed">ئاندورران پېسېتاسى</displayName>
+				<displayName draft="contributed">ئاندورران پېسېتاسى</displayName>
 			</currency>
 			<currency type="AED">
-				<displayName draft="contributed">ئەرەب بىرلەشمە خەلىپىلىكى دەرھەمى</displayName>
 				<displayName count="one" draft="contributed">ئەرەب بىرلەشمە خەلىپىلىكى دەرھەمى</displayName>
 				<displayName count="other" draft="contributed">ئەرەب بىرلەشمە خەلىپىلىكى دەرھەمى</displayName>
+				<displayName draft="contributed">ئەرەب بىرلەشمە خەلىپىلىكى دەرھەمى</displayName>
 			</currency>
 			<currency type="AFA">
-				<displayName draft="contributed">ئافغان ئافغانى (1927–2002)</displayName>
 				<displayName count="one" draft="contributed">ئافغان ئافغانى (1927–2002)</displayName>
 				<displayName count="other" draft="contributed">Aئافغان ئافغانى (1927–2002)</displayName>
+				<displayName draft="contributed">ئافغان ئافغانى (1927–2002)</displayName>
 			</currency>
 			<currency type="AFN">
-				<displayName draft="contributed">ئافغان ئافغانى</displayName>
 				<displayName count="one" draft="contributed">ئافغان ئافغانى</displayName>
 				<displayName count="other" draft="contributed">ئافغان ئافغانى</displayName>
+				<displayName draft="contributed">ئافغان ئافغانى</displayName>
 			</currency>
 			<currency type="ALK">
-				<displayName draft="contributed">ئالبانىيە لېكى (1946–1965)</displayName>
 				<displayName count="one" draft="contributed">ئالبانىيە لېكى (1946–1965)</displayName>
 				<displayName count="other" draft="contributed">ئالبانىيە لېكى (1946–1965)</displayName>
+				<displayName draft="contributed">ئالبانىيە لېكى (1946–1965)</displayName>
 			</currency>
 			<currency type="ALL">
-				<displayName draft="contributed">ئالبانىيە لېكى</displayName>
 				<displayName count="one" draft="contributed">ئالبانىيە لېكى</displayName>
 				<displayName count="other" draft="contributed">ئالبانىيە لېكى</displayName>
+				<displayName draft="contributed">ئالبانىيە لېكى</displayName>
 			</currency>
 			<currency type="AMD">
-				<displayName draft="contributed">ئەرمېنىيە دىرامى</displayName>
 				<displayName count="one" draft="contributed">ئەرمېنىيە دىرامى</displayName>
 				<displayName count="other" draft="contributed">ئەرمېنىيە دىرامى</displayName>
+				<displayName draft="contributed">ئەرمېنىيە دىرامى</displayName>
 			</currency>
 			<currency type="ANG">
-				<displayName draft="contributed">گوللاندىيەگە قاراشلىق ئانتىللېن گۇلدېنى</displayName>
 				<displayName count="one" draft="contributed">گوللاندىيەگە قاراشلىق ئانتىللېن گۇلدېنى</displayName>
 				<displayName count="other" draft="contributed">گوللاندىيەگە قاراشلىق ئانتىللېن گۇلدېنى</displayName>
+				<displayName draft="contributed">گوللاندىيەگە قاراشلىق ئانتىللېن گۇلدېنى</displayName>
 			</currency>
 			<currency type="AOA">
-				<displayName draft="contributed">ئانگولا كۇۋانزاسى</displayName>
 				<displayName count="one" draft="contributed">ئانگولا كۇۋانزاسى</displayName>
 				<displayName count="other" draft="contributed">ئانگولا كۇۋانزاسى</displayName>
+				<displayName draft="contributed">ئانگولا كۇۋانزاسى</displayName>
 				<symbol alt="narrow">Kz</symbol>
 			</currency>
 			<currency type="AOK">
-				<displayName draft="contributed">ئانگولا كۇۋانزاسى (1977–1991)</displayName>
 				<displayName count="one" draft="contributed">ئانگولا كۇۋانزاسى (1977–1991)</displayName>
 				<displayName count="other" draft="contributed">ئانگولا كۇۋانزاسى (1977–1991))</displayName>
+				<displayName draft="contributed">ئانگولا كۇۋانزاسى (1977–1991)</displayName>
 			</currency>
 			<currency type="AON">
-				<displayName draft="contributed">ئانگولا يېڭى كۇۋانزاسى (1990–2000)</displayName>
 				<displayName count="one" draft="contributed">ئانگولا يېڭى كۇۋانزاسى (1990–2000)</displayName>
 				<displayName count="other" draft="contributed">ئانگولا يېڭى كۇۋانزاسى (1990–2000)</displayName>
+				<displayName draft="contributed">ئانگولا يېڭى كۇۋانزاسى (1990–2000)</displayName>
 			</currency>
 			<currency type="AOR">
-				<displayName draft="contributed">ئانگولا قايتا تەڭشەلگەن كۇۋانزاسى (1995–1999)</displayName>
 				<displayName count="one" draft="contributed">ئانگولا قايتا تەڭشەلگەن كۇۋانزاسى (1995–1999)</displayName>
 				<displayName count="other" draft="contributed">ئانگولا قايتا تەڭشەلگەن كۇۋانزاسى (1995–1999)</displayName>
+				<displayName draft="contributed">ئانگولا قايتا تەڭشەلگەن كۇۋانزاسى (1995–1999)</displayName>
 			</currency>
 			<currency type="ARA">
-				<displayName draft="contributed">ئارگېنتىنا ئاۋسترالى</displayName>
 				<displayName count="one" draft="contributed">ئارگېنتىنا ئاۋسترالى</displayName>
 				<displayName count="other" draft="contributed">ئارگېنتىنا ئاۋسترالى</displayName>
+				<displayName draft="contributed">ئارگېنتىنا ئاۋسترالى</displayName>
 			</currency>
 			<currency type="ARL">
-				<displayName draft="contributed">ئارگېنتىنا پېسو لېيى (1970–1983)</displayName>
 				<displayName count="one" draft="contributed">ئارگېنتىنا پېسو لېيى (1970–1983)</displayName>
 				<displayName count="other" draft="contributed">ئارگېنتىنا پېسو لېيى (1970–1983)</displayName>
+				<displayName draft="contributed">ئارگېنتىنا پېسو لېيى (1970–1983)</displayName>
 			</currency>
 			<currency type="ARM">
-				<displayName draft="contributed">ئارگېنتىنا پېسوسى (1881–1970)</displayName>
 				<displayName count="one" draft="contributed">ئارگېنتىنا پېسوسى (1881–1970)</displayName>
 				<displayName count="other" draft="contributed">ئارگېنتىنا پېسوسى (1881–1970)</displayName>
+				<displayName draft="contributed">ئارگېنتىنا پېسوسى (1881–1970)</displayName>
 			</currency>
 			<currency type="ARP">
-				<displayName draft="contributed">ئارگېنتىنا پېسوسى (1983–1985)</displayName>
 				<displayName count="one" draft="contributed">ئارگېنتىنا پېسوسى (1983–1985)</displayName>
 				<displayName count="other" draft="contributed">ئارگېنتىنا پېسوسى (1983–1985)</displayName>
+				<displayName draft="contributed">ئارگېنتىنا پېسوسى (1983–1985)</displayName>
 			</currency>
 			<currency type="ARS">
-				<displayName draft="contributed">ئارگېنتىنا پېسوسى</displayName>
 				<displayName count="one" draft="contributed">ئارگېنتىنا پېسوسى</displayName>
 				<displayName count="other" draft="contributed">ئارگېنتىنا پېسوسى</displayName>
+				<displayName draft="contributed">ئارگېنتىنا پېسوسى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="ATS">
-				<displayName draft="contributed">ئاۋسترىيە شىللىڭى</displayName>
 				<displayName count="one" draft="contributed">ئاۋسترىيە شىللىڭى</displayName>
 				<displayName count="other" draft="contributed">ئاۋسترىيە شىللىڭى</displayName>
+				<displayName draft="contributed">ئاۋسترىيە شىللىڭى</displayName>
 			</currency>
 			<currency type="AUD">
-				<displayName draft="contributed">ئاۋسترالىيە دوللىرى</displayName>
 				<displayName count="one" draft="contributed">ئاۋسترالىيە دوللىرى</displayName>
 				<displayName count="other" draft="contributed">ئاۋسترالىيە دوللىرى</displayName>
+				<displayName draft="contributed">ئاۋسترالىيە دوللىرى</displayName>
 				<symbol alt="narrow">$</symbol>
 				<symbol>A$</symbol>
 			</currency>
 			<currency type="AWG">
-				<displayName draft="contributed">ئارۇبان فىلورۇنى</displayName>
 				<displayName count="one" draft="contributed">ئارۇبان فىلورۇنى</displayName>
 				<displayName count="other" draft="contributed">ئارۇبان فىلورۇنى</displayName>
+				<displayName draft="contributed">ئارۇبان فىلورۇنى</displayName>
 			</currency>
 			<currency type="AZM">
-				<displayName draft="contributed">ئەزەربەيجان ماناتى (1993–2006)</displayName>
 				<displayName count="one" draft="contributed">ئەزەربەيجان ماناتى (1993–2006)</displayName>
 				<displayName count="other" draft="contributed">ئەزەربەيجان ماناتى (1993–2006)</displayName>
+				<displayName draft="contributed">ئەزەربەيجان ماناتى (1993–2006)</displayName>
 			</currency>
 			<currency type="AZN">
-				<displayName draft="contributed">ئەزەربەيجان ماناتى</displayName>
 				<displayName count="one" draft="contributed">ئەزەربەيجان ماناتى</displayName>
 				<displayName count="other" draft="contributed">ئەزەربەيجان ماناتى</displayName>
+				<displayName draft="contributed">ئەزەربەيجان ماناتى</displayName>
 			</currency>
 			<currency type="BAD">
-				<displayName draft="contributed">بوسنىيە-خېرتسېگوۋىنا دىنارى (1992–1994)</displayName>
 				<displayName count="one" draft="contributed">بوسنىيە-خېرتسېگوۋىنا دىنارى (1992–1994)</displayName>
 				<displayName count="other" draft="contributed">بوسنىيە-خېرتسېگوۋىنا دىنارى (1992–1994)</displayName>
+				<displayName draft="contributed">بوسنىيە-خېرتسېگوۋىنا دىنارى (1992–1994)</displayName>
 			</currency>
 			<currency type="BAM">
-				<displayName draft="contributed">بوسنىيە-خېرتسېگوۋىنا ئالماشتۇرۇشچان ماركى</displayName>
 				<displayName count="one" draft="contributed">بوسنىيە-خېرتسېگوۋىنا ئالماشتۇرۇشچان ماركى</displayName>
 				<displayName count="other" draft="contributed">بوسنىيە-خېرتسېگوۋىنا ئالماشتۇرۇشچان ماركى</displayName>
+				<displayName draft="contributed">بوسنىيە-خېرتسېگوۋىنا ئالماشتۇرۇشچان ماركى</displayName>
 				<symbol alt="narrow">KM</symbol>
 			</currency>
 			<currency type="BAN">
-				<displayName draft="contributed">بوسنىيە-خېرتسېگوۋىنا يېڭى دىنارى (1994–1997)</displayName>
 				<displayName count="one" draft="contributed">بوسنىيە-خېرتسېگوۋىنا يېڭى دىنارى (1994–1997)</displayName>
 				<displayName count="other" draft="contributed">بوسنىيە-خېرتسېگوۋىنا يېڭى دىنارى (1994–1997)</displayName>
+				<displayName draft="contributed">بوسنىيە-خېرتسېگوۋىنا يېڭى دىنارى (1994–1997)</displayName>
 			</currency>
 			<currency type="BBD">
-				<displayName draft="contributed">باربادوس دوللىرى</displayName>
 				<displayName count="one" draft="contributed">باربادوس دوللىرى</displayName>
 				<displayName count="other" draft="contributed">باربادوس دوللىرى</displayName>
+				<displayName draft="contributed">باربادوس دوللىرى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="BDT">
-				<displayName draft="contributed">باڭلادىش تاكاسى</displayName>
 				<displayName count="one" draft="contributed">باڭلادىش تاكاسى</displayName>
 				<displayName count="other" draft="contributed">باڭلادىش تاكاسى</displayName>
+				<displayName draft="contributed">باڭلادىش تاكاسى</displayName>
 				<symbol alt="narrow">৳</symbol>
 			</currency>
 			<currency type="BEC">
-				<displayName draft="contributed">بېلگىيە فرانكى (ئالماشتۇرۇشچان)</displayName>
 				<displayName count="one" draft="contributed">بېلگىيە فرانكى (ئالماشتۇرۇشچان)</displayName>
 				<displayName count="other" draft="contributed">بېلگىيە فرانكى (ئالماشتۇرۇشچان)</displayName>
+				<displayName draft="contributed">بېلگىيە فرانكى (ئالماشتۇرۇشچان)</displayName>
 			</currency>
 			<currency type="BEF">
-				<displayName draft="contributed">بېلگىيە فرانكى</displayName>
 				<displayName count="one" draft="contributed">بېلگىيە فرانكى</displayName>
 				<displayName count="other" draft="contributed">بېلگىيە فرانكى</displayName>
+				<displayName draft="contributed">بېلگىيە فرانكى</displayName>
 			</currency>
 			<currency type="BEL">
-				<displayName draft="contributed">بېلگىيە فرانكى (پۇل–مۇئامىلە)</displayName>
 				<displayName count="one" draft="contributed">بېلگىيە فرانكى (پۇل–مۇئامىلە)</displayName>
 				<displayName count="other" draft="contributed">بېلگىيە فرانكى (پۇل–مۇئامىلە)</displayName>
+				<displayName draft="contributed">بېلگىيە فرانكى (پۇل–مۇئامىلە)</displayName>
 			</currency>
 			<currency type="BGL">
-				<displayName draft="contributed">بۇلغارىيە قاتتىق لېۋاسى</displayName>
 				<displayName count="one" draft="contributed">بۇلغارىيە قاتتىق لېۋاسى</displayName>
 				<displayName count="other" draft="contributed">بۇلغارىيە قاتتىق لېۋاسى</displayName>
+				<displayName draft="contributed">بۇلغارىيە قاتتىق لېۋاسى</displayName>
 			</currency>
 			<currency type="BGM">
-				<displayName draft="contributed">بۇلغارىيە ئىجتىمائىي لېۋاسى</displayName>
 				<displayName count="one" draft="contributed">بۇلغارىيە ئىجتىمائىي لېۋاسى</displayName>
 				<displayName count="other" draft="contributed">بۇلغارىيە ئىجتىمائىي لېۋاسى</displayName>
+				<displayName draft="contributed">بۇلغارىيە ئىجتىمائىي لېۋاسى</displayName>
 			</currency>
 			<currency type="BGN">
-				<displayName draft="contributed">بۇلغارىيە لېۋاسى</displayName>
 				<displayName count="one" draft="contributed">بۇلغارىيە لېۋاسى</displayName>
 				<displayName count="other" draft="contributed">بۇلغارىيە لېۋاسى</displayName>
+				<displayName draft="contributed">بۇلغارىيە لېۋاسى</displayName>
 			</currency>
 			<currency type="BGO">
-				<displayName draft="contributed">بۇلغارىيە لېۋاسى (1879–1952)</displayName>
 				<displayName count="one" draft="contributed">بۇلغارىيە لېۋاسى (1879–1952)</displayName>
 				<displayName count="other" draft="contributed">بۇلغارىيە لېۋاسى (1879–1952)</displayName>
+				<displayName draft="contributed">بۇلغارىيە لېۋاسى (1879–1952)</displayName>
 			</currency>
 			<currency type="BHD">
-				<displayName draft="contributed">بەھرەين دىنارى</displayName>
 				<displayName count="one" draft="contributed">بەھرەين دىنارى</displayName>
 				<displayName count="other" draft="contributed">بەھرەين دىنارى</displayName>
+				<displayName draft="contributed">بەھرەين دىنارى</displayName>
 			</currency>
 			<currency type="BIF">
-				<displayName draft="contributed">بۇرۇندى فرانكى</displayName>
 				<displayName count="one" draft="contributed">بۇرۇندى فرانكى</displayName>
 				<displayName count="other" draft="contributed">بۇرۇندى فرانكى</displayName>
+				<displayName draft="contributed">بۇرۇندى فرانكى</displayName>
 			</currency>
 			<currency type="BMD">
-				<displayName draft="contributed">بېرمۇدا دوللىرى</displayName>
 				<displayName count="one" draft="contributed">بېرمۇدا دوللىرى</displayName>
 				<displayName count="other" draft="contributed">بېرمۇدا دوللىرى</displayName>
+				<displayName draft="contributed">بېرمۇدا دوللىرى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="BND">
-				<displayName draft="contributed">بىرۇنېي دوللىرى</displayName>
 				<displayName count="one" draft="contributed">بىرۇنېي دوللىرى</displayName>
 				<displayName count="other" draft="contributed">بىرۇنېي دوللىرى</displayName>
+				<displayName draft="contributed">بىرۇنېي دوللىرى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="BOB">
-				<displayName draft="contributed">بولىۋىيە بولىۋىيانوسى</displayName>
 				<displayName count="one" draft="contributed">بولىۋىيە بولىۋىيانوسى</displayName>
 				<displayName count="other" draft="contributed">بولىۋىيە بولىۋىيانوسى</displayName>
+				<displayName draft="contributed">بولىۋىيە بولىۋىيانوسى</displayName>
 				<symbol alt="narrow">Bs</symbol>
 			</currency>
 			<currency type="BOL">
-				<displayName draft="contributed">بولىۋىيە بولىۋىيانوسى (1863–1963)</displayName>
 				<displayName count="one" draft="contributed">بولىۋىيە بولىۋىيانوسى (1863–1963)</displayName>
 				<displayName count="other" draft="contributed">بولىۋىيە بولىۋىيانوسى (1863–1963)</displayName>
+				<displayName draft="contributed">بولىۋىيە بولىۋىيانوسى (1863–1963)</displayName>
 			</currency>
 			<currency type="BOP">
-				<displayName draft="contributed">بولىۋىيە پىسوسى</displayName>
 				<displayName count="one" draft="contributed">بولىۋىيە پىسوسى</displayName>
 				<displayName count="other" draft="contributed">بولىۋىيە پىسوسى</displayName>
+				<displayName draft="contributed">بولىۋىيە پىسوسى</displayName>
 			</currency>
 			<currency type="BOV">
-				<displayName draft="contributed">بولىۋىيە مۇدولى</displayName>
 				<displayName count="one" draft="contributed">بولىۋىيە مۇدولى</displayName>
 				<displayName count="other" draft="contributed">بولىۋىيە مۇدولى</displayName>
+				<displayName draft="contributed">بولىۋىيە مۇدولى</displayName>
 			</currency>
 			<currency type="BRB">
-				<displayName draft="contributed">بىرازىلىيە يېڭى كرۇزېروسى (1967–1986)</displayName>
 				<displayName count="one" draft="contributed">بىرازىلىيە يېڭى كرۇزېروسى (1967–1986)</displayName>
 				<displayName count="other" draft="contributed">بىرازىلىيە يېڭى كرۇزېروسى (1967–1986)</displayName>
+				<displayName draft="contributed">بىرازىلىيە يېڭى كرۇزېروسى (1967–1986)</displayName>
 			</currency>
 			<currency type="BRC">
-				<displayName draft="contributed">بىرازىلىيە كرۇزادوسى (1986–1989)</displayName>
 				<displayName count="one" draft="contributed">بىرازىلىيە كرۇزادوسى (1986–1989)</displayName>
 				<displayName count="other" draft="contributed">بىرازىلىيە كرۇزادوسى (1986–1989)</displayName>
+				<displayName draft="contributed">بىرازىلىيە كرۇزادوسى (1986–1989)</displayName>
 			</currency>
 			<currency type="BRE">
-				<displayName draft="contributed">بىرازىلىيە يېڭى كرۇزېروسى (1990–1993)</displayName>
 				<displayName count="one" draft="contributed">بىرازىلىيە يېڭى كرۇزېروسى (1990–1993)</displayName>
 				<displayName count="other" draft="contributed">بىرازىلىيە يېڭى كرۇزېروسى (1990–1993)</displayName>
+				<displayName draft="contributed">بىرازىلىيە يېڭى كرۇزېروسى (1990–1993)</displayName>
 			</currency>
 			<currency type="BRL">
-				<displayName draft="contributed">بىرازىلىيە رىيالى</displayName>
 				<displayName count="one" draft="contributed">بىرازىلىيە رىيالى</displayName>
 				<displayName count="other" draft="contributed">بىرازىلىيە رىيالى</displayName>
+				<displayName draft="contributed">بىرازىلىيە رىيالى</displayName>
 				<symbol alt="narrow">R$</symbol>
 				<symbol>R$</symbol>
 			</currency>
 			<currency type="BRN">
-				<displayName draft="contributed">بىرازىلىيە يېڭى كرۇزادوسى (1989–1990)</displayName>
 				<displayName count="one" draft="contributed">بىرازىلىيە يېڭى كرۇزادوسى (1989–1990)</displayName>
 				<displayName count="other" draft="contributed">بىرازىلىيە يېڭى كرۇزادوسى (1989–1990)</displayName>
+				<displayName draft="contributed">بىرازىلىيە يېڭى كرۇزادوسى (1989–1990)</displayName>
 			</currency>
 			<currency type="BRR">
-				<displayName draft="contributed">بىرازىلىيە كرۇزېروسى (1993–1994)</displayName>
 				<displayName count="one" draft="contributed">بىرازىلىيە كرۇزېروسى (1993–1994)</displayName>
 				<displayName count="other" draft="contributed">بىرازىلىيە كرۇزېروسى (1993–1994)</displayName>
+				<displayName draft="contributed">بىرازىلىيە كرۇزېروسى (1993–1994)</displayName>
 			</currency>
 			<currency type="BRZ">
-				<displayName draft="contributed">بىرازىلىيە كرۇزېروسى (1942–1967)</displayName>
 				<displayName count="one" draft="contributed">بىرازىلىيە كرۇزېروسى (1942–1967)</displayName>
 				<displayName count="other" draft="contributed">بىرازىلىيە كرۇزېروسى (1942–1967)</displayName>
+				<displayName draft="contributed">بىرازىلىيە كرۇزېروسى (1942–1967)</displayName>
 			</currency>
 			<currency type="BSD">
-				<displayName draft="contributed">باھاما دوللىرى</displayName>
 				<displayName count="one" draft="contributed">باھاما دوللىرى</displayName>
 				<displayName count="other" draft="contributed">باھاما دوللىرى</displayName>
+				<displayName draft="contributed">باھاما دوللىرى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="BTN">
-				<displayName draft="contributed">بۇتان نگۇلترۇمى</displayName>
 				<displayName count="one" draft="contributed">بۇتان نگۇلترۇمى</displayName>
 				<displayName count="other" draft="contributed">بۇتان نگۇلترۇمى</displayName>
+				<displayName draft="contributed">بۇتان نگۇلترۇمى</displayName>
 			</currency>
 			<currency type="BUK">
-				<displayName draft="contributed">بىرما كىياتى</displayName>
 				<displayName count="one" draft="contributed">بىرما كىياتى</displayName>
 				<displayName count="other" draft="contributed">بىرما كىياتى</displayName>
+				<displayName draft="contributed">بىرما كىياتى</displayName>
 			</currency>
 			<currency type="BWP">
-				<displayName draft="contributed">بوتسۋانا پۇلاسى</displayName>
 				<displayName count="one" draft="contributed">بوتسۋانا پۇلاسى</displayName>
 				<displayName count="other" draft="contributed">بوتسۋانا پۇلاسى</displayName>
+				<displayName draft="contributed">بوتسۋانا پۇلاسى</displayName>
 				<symbol alt="narrow">P</symbol>
 			</currency>
 			<currency type="BYB">
-				<displayName draft="contributed">بېلارۇسىيە يېڭى رۇبلىسى (1994–1999)</displayName>
 				<displayName count="one" draft="contributed">بېلارۇسىيە يېڭى رۇبلىسى (1994–1999)</displayName>
 				<displayName count="other" draft="contributed">بېلارۇسىيە يېڭى رۇبلىسى (1994–1999)</displayName>
+				<displayName draft="contributed">بېلارۇسىيە يېڭى رۇبلىسى (1994–1999)</displayName>
 			</currency>
 			<currency type="BYR">
-				<displayName draft="contributed">بېلارۇسىيە رۇبلىسى</displayName>
 				<displayName count="one" draft="contributed">بېلارۇسىيە رۇبلىسى</displayName>
 				<displayName count="other" draft="contributed">بېلارۇسىيە رۇبلىسى</displayName>
+				<displayName draft="contributed">بېلارۇسىيە رۇبلىسى</displayName>
 				<symbol alt="narrow">р.</symbol>
 			</currency>
 			<currency type="BZD">
-				<displayName draft="contributed">بېلىز دوللىرى</displayName>
 				<displayName count="one" draft="contributed">بېلىز دوللىرى</displayName>
 				<displayName count="other" draft="contributed">بېلىز دوللىرى</displayName>
+				<displayName draft="contributed">بېلىز دوللىرى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="CAD">
-				<displayName draft="contributed">كانادا دوللىرى</displayName>
 				<displayName count="one" draft="contributed">كانادا دوللىرى</displayName>
 				<displayName count="other" draft="contributed">كانادا دوللىرى</displayName>
+				<displayName draft="contributed">كانادا دوللىرى</displayName>
 				<symbol alt="narrow">$</symbol>
 				<symbol>CA$</symbol>
 			</currency>
 			<currency type="CDF">
-				<displayName draft="contributed">كونگو فرانكى</displayName>
 				<displayName count="one" draft="contributed">كونگو فرانكى</displayName>
 				<displayName count="other" draft="contributed">كونگو فرانكى</displayName>
+				<displayName draft="contributed">كونگو فرانكى</displayName>
 			</currency>
 			<currency type="CHE">
-				<displayName draft="contributed">WIR ياۋرو</displayName>
 				<displayName count="one" draft="contributed">WIR ياۋرو</displayName>
 				<displayName count="other" draft="contributed">WIR ياۋرو</displayName>
+				<displayName draft="contributed">WIR ياۋرو</displayName>
 			</currency>
 			<currency type="CHF">
-				<displayName draft="contributed">شىۋېتسىيە فرانكى</displayName>
 				<displayName count="one" draft="contributed">شىۋېتسىيە فرانكى</displayName>
 				<displayName count="other" draft="contributed">شىۋېتسىيە فرانكى</displayName>
+				<displayName draft="contributed">شىۋېتسىيە فرانكى</displayName>
 			</currency>
 			<currency type="CHW">
-				<displayName draft="contributed">WIR فرانكى</displayName>
 				<displayName count="one" draft="contributed">WIR فرانكى</displayName>
 				<displayName count="other" draft="contributed">WIR فرانكى</displayName>
+				<displayName draft="contributed">WIR فرانكى</displayName>
 			</currency>
 			<currency type="CLE">
-				<displayName draft="contributed">چىلى ئېسكۇدوسى</displayName>
 				<displayName count="one" draft="contributed">چىلى ئېسكۇدوسى</displayName>
 				<displayName count="other" draft="contributed">چىلى ئېسكۇدوسى</displayName>
+				<displayName draft="contributed">چىلى ئېسكۇدوسى</displayName>
 			</currency>
 			<currency type="CLF">
-				<displayName draft="contributed">چىلى ھېسابات بىرلىكى (UF)</displayName>
 				<displayName count="one" draft="contributed">چىلى ھېسابات بىرلىكى (UF)</displayName>
 				<displayName count="other" draft="contributed">چىلى ھېسابات بىرلىكى (UF)</displayName>
+				<displayName draft="contributed">چىلى ھېسابات بىرلىكى (UF)</displayName>
 			</currency>
 			<currency type="CLP">
-				<displayName draft="contributed">چىلى پېسوسى</displayName>
 				<displayName count="one" draft="contributed">چىلى پېسوسى</displayName>
 				<displayName count="other" draft="contributed">چىلى پېسوسى</displayName>
+				<displayName draft="contributed">چىلى پېسوسى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="CNX">
-				<displayName draft="contributed">جۇڭگو خەلق بانكىسى دوللىرى</displayName>
 				<displayName count="one" draft="contributed">جۇڭگو خەلق بانكىسى دوللىرى</displayName>
 				<displayName count="other" draft="contributed">جۇڭگو خەلق بانكىسى دوللىرى</displayName>
+				<displayName draft="contributed">جۇڭگو خەلق بانكىسى دوللىرى</displayName>
 			</currency>
 			<currency type="CNY">
-				<displayName draft="contributed">جۇڭگو يۈەنى</displayName>
 				<displayName count="one" draft="contributed">جۇڭگو يۈەنى</displayName>
 				<displayName count="other" draft="contributed">جۇڭگو يۈەنى</displayName>
+				<displayName draft="contributed">جۇڭگو يۈەنى</displayName>
 				<symbol alt="narrow">¥</symbol>
 				<symbol>￥</symbol>
 			</currency>
 			<currency type="COP">
-				<displayName draft="contributed">كولومبىيە پېسوسى</displayName>
 				<displayName count="one" draft="contributed">كولومبىيە پېسوسى</displayName>
 				<displayName count="other" draft="contributed">كولومبىيە پېسوسى</displayName>
+				<displayName draft="contributed">كولومبىيە پېسوسى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="COU">
-				<displayName draft="contributed">كولومبىيە ھەقىقىي قىممەت بىرلىكى</displayName>
 				<displayName count="one" draft="contributed">كولومبىيە ھەقىقىي قىممەت بىرلىكى</displayName>
 				<displayName count="other" draft="contributed">كولومبىيە ھەقىقىي قىممەت بىرلىكى</displayName>
+				<displayName draft="contributed">كولومبىيە ھەقىقىي قىممەت بىرلىكى</displayName>
 			</currency>
 			<currency type="CRC">
-				<displayName draft="contributed">كوستارىكا كولونى</displayName>
 				<displayName count="one" draft="contributed">كوستارىكا كولونى</displayName>
 				<displayName count="other" draft="contributed">كوستارىكا كولونى</displayName>
+				<displayName draft="contributed">كوستارىكا كولونى</displayName>
 				<symbol alt="narrow">₡</symbol>
 			</currency>
 			<currency type="CSD">
-				<displayName draft="contributed">سېربىيە دىنارى (2002–2006)</displayName>
 				<displayName count="one" draft="contributed">سېربىيە دىنارى (2002–2006)</displayName>
 				<displayName count="other" draft="contributed">سېربىيە دىنارى (2002–2006)</displayName>
+				<displayName draft="contributed">سېربىيە دىنارى (2002–2006)</displayName>
 			</currency>
 			<currency type="CSK">
-				<displayName draft="contributed">چېخسىلوۋاكىيە قاتتىق كورۇناسى</displayName>
 				<displayName count="one" draft="contributed">چېخسىلوۋاكىيە قاتتىق كورۇناسى</displayName>
 				<displayName count="other" draft="contributed">چېخسىلوۋاكىيە قاتتىق كورۇناسى</displayName>
+				<displayName draft="contributed">چېخسىلوۋاكىيە قاتتىق كورۇناسى</displayName>
 			</currency>
 			<currency type="CUC">
-				<displayName draft="contributed">كۇبا ئالماشتۇرۇشچان پېسوسى</displayName>
 				<displayName count="one" draft="contributed">كۇبا ئالماشتۇرۇشچان پېسوسى</displayName>
 				<displayName count="other" draft="contributed">كۇبا ئالماشتۇرۇشچان پېسوسى</displayName>
+				<displayName draft="contributed">كۇبا ئالماشتۇرۇشچان پېسوسى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="CUP">
-				<displayName draft="contributed">كۇبا پېسوسى</displayName>
 				<displayName count="one" draft="contributed">كۇبا پېسوسى</displayName>
 				<displayName count="other" draft="contributed">كۇبا پېسوسى</displayName>
+				<displayName draft="contributed">كۇبا پېسوسى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="CVE">
-				<displayName draft="contributed">يېشىل تۇمشۇق ئېسكۇدوسى</displayName>
 				<displayName count="one" draft="contributed">يېشىل تۇمشۇق ئېسكۇدوسى</displayName>
 				<displayName count="other" draft="contributed">يېشىل تۇمشۇق ئېسكۇدوسى</displayName>
+				<displayName draft="contributed">يېشىل تۇمشۇق ئېسكۇدوسى</displayName>
 			</currency>
 			<currency type="CYP">
-				<displayName draft="contributed">سىپرۇس فوند ستېرلىڭى</displayName>
 				<displayName count="one" draft="contributed">سىپرۇس فوند ستېرلىڭى</displayName>
 				<displayName count="other" draft="contributed">سىپرۇس فوند ستېرلىڭى</displayName>
+				<displayName draft="contributed">سىپرۇس فوند ستېرلىڭى</displayName>
 			</currency>
 			<currency type="CZK">
-				<displayName draft="contributed">چېخ جۇمھۇرىيىتى كورۇناسى</displayName>
 				<displayName count="one" draft="contributed">چېخ جۇمھۇرىيىتى كورۇناسى</displayName>
 				<displayName count="other" draft="contributed">چېخ جۇمھۇرىيىتى كورۇناسى</displayName>
+				<displayName draft="contributed">چېخ جۇمھۇرىيىتى كورۇناسى</displayName>
 				<symbol alt="narrow">Kč</symbol>
 			</currency>
 			<currency type="DDM">
-				<displayName draft="contributed">شەرقىي گېرمانىيە ماركى</displayName>
 				<displayName count="one" draft="contributed">شەرقىي گېرمانىيە ماركى</displayName>
 				<displayName count="other" draft="contributed">شەرقىي گېرمانىيە ماركى</displayName>
+				<displayName draft="contributed">شەرقىي گېرمانىيە ماركى</displayName>
 			</currency>
 			<currency type="DEM">
-				<displayName draft="contributed">گېرمانىيە ماركى</displayName>
 				<displayName count="one" draft="contributed">گېرمانىيە ماركى</displayName>
 				<displayName count="other" draft="contributed">گېرمانىيە ماركى</displayName>
+				<displayName draft="contributed">گېرمانىيە ماركى</displayName>
 			</currency>
 			<currency type="DJF">
-				<displayName draft="contributed">جىبۇتى فرانكى</displayName>
 				<displayName count="one" draft="contributed">جىبۇتى فرانكى</displayName>
 				<displayName count="other" draft="contributed">جىبۇتى فرانكى</displayName>
+				<displayName draft="contributed">جىبۇتى فرانكى</displayName>
 			</currency>
 			<currency type="DKK">
-				<displayName draft="contributed">دانىيە كرونى</displayName>
 				<displayName count="one" draft="contributed">دانىيە كرونى</displayName>
 				<displayName count="other" draft="contributed">دانىيە كرونى</displayName>
+				<displayName draft="contributed">دانىيە كرونى</displayName>
 				<symbol alt="narrow">kr</symbol>
 			</currency>
 			<currency type="DOP">
-				<displayName draft="contributed">دومىنىكا پېسوسى</displayName>
 				<displayName count="one" draft="contributed">دومىنىكا پېسوسى</displayName>
 				<displayName count="other" draft="contributed">دومىنىكا پېسوسى</displayName>
+				<displayName draft="contributed">دومىنىكا پېسوسى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="DZD">
-				<displayName draft="contributed">ئالجىرىيە دىنارى</displayName>
 				<displayName count="one" draft="contributed">ئالجىرىيە دىنارى</displayName>
 				<displayName count="other" draft="contributed">ئالجىرىيە دىنارى</displayName>
+				<displayName draft="contributed">ئالجىرىيە دىنارى</displayName>
 			</currency>
 			<currency type="ECS">
-				<displayName draft="contributed">ئېكۋادور سۇكرېسى</displayName>
 				<displayName count="one" draft="contributed">ئېكۋادور سۇكرېسى</displayName>
 				<displayName count="other" draft="contributed">ئېكۋادور سۇكرېسى</displayName>
+				<displayName draft="contributed">ئېكۋادور سۇكرېسى</displayName>
 			</currency>
 			<currency type="ECV">
-				<displayName draft="contributed">ئېكۋادور تۇراقلىق قىممەت بىرلىكى</displayName>
 				<displayName count="one" draft="contributed">ئېكۋادور تۇراقلىق قىممەت بىرلىكى</displayName>
 				<displayName count="other" draft="contributed">ئېكۋادور تۇراقلىق قىممەت بىرلىكى</displayName>
+				<displayName draft="contributed">ئېكۋادور تۇراقلىق قىممەت بىرلىكى</displayName>
 			</currency>
 			<currency type="EEK">
-				<displayName draft="contributed">ئېستونىيە كرۇنى</displayName>
 				<displayName count="one" draft="contributed">ئېستونىيە كرۇنى</displayName>
 				<displayName count="other" draft="contributed">ئېستونىيە كرۇنى</displayName>
+				<displayName draft="contributed">ئېستونىيە كرۇنى</displayName>
 			</currency>
 			<currency type="EGP">
-				<displayName draft="contributed">مىسىر فوند سىتېرلىڭى</displayName>
 				<displayName count="one" draft="contributed">مىسىر فوند سىتېرلىڭى</displayName>
 				<displayName count="other" draft="contributed">مىسىر فوند سىتېرلىڭى</displayName>
+				<displayName draft="contributed">مىسىر فوند سىتېرلىڭى</displayName>
 				<symbol alt="narrow">E£</symbol>
 			</currency>
 			<currency type="ERN">
-				<displayName draft="contributed">ئېرىترېيە ناكفاسى</displayName>
 				<displayName count="one" draft="contributed">ئېرىترېيە ناكفاسى</displayName>
 				<displayName count="other" draft="contributed">ئېرىترېيە ناكفاسى</displayName>
+				<displayName draft="contributed">ئېرىترېيە ناكفاسى</displayName>
 			</currency>
 			<currency type="ESA">
-				<displayName draft="contributed">ئىسپانىيە پېسېتاسى (A ھېسابات)</displayName>
 				<displayName count="one" draft="contributed">ئىسپانىيە پېسېتاسى (A ھېسابات)</displayName>
 				<displayName count="other" draft="contributed">ئىسپانىيە پېسېتاسى (A ھېسابات)</displayName>
+				<displayName draft="contributed">ئىسپانىيە پېسېتاسى (A ھېسابات)</displayName>
 			</currency>
 			<currency type="ESB">
-				<displayName draft="contributed">ئىسپانىيە پېسېتاسى (ئالماشتۇرۇش ھېساباتى)</displayName>
 				<displayName count="one" draft="contributed">ئىسپانىيە پېسېتاسى (ئالماشتۇرۇش ھېساباتى)</displayName>
 				<displayName count="other" draft="contributed">ئىسپانىيە پېسېتاسى (ئالماشتۇرۇش ھېساباتى)</displayName>
+				<displayName draft="contributed">ئىسپانىيە پېسېتاسى (ئالماشتۇرۇش ھېساباتى)</displayName>
 			</currency>
 			<currency type="ESP">
-				<displayName draft="contributed">ئىسپانىيە پېسېتاسى</displayName>
 				<displayName count="one" draft="contributed">ئىسپانىيە پېسېتاسى</displayName>
 				<displayName count="other" draft="contributed">ئىسپانىيە پېسېتاسى</displayName>
+				<displayName draft="contributed">ئىسپانىيە پېسېتاسى</displayName>
 				<symbol alt="narrow">₧</symbol>
 			</currency>
 			<currency type="ETB">
-				<displayName draft="contributed">ئېفىيوپىيە بىررى</displayName>
 				<displayName count="one" draft="contributed">ئېفىيوپىيە بىررى</displayName>
 				<displayName count="other" draft="contributed">ئېفىيوپىيە بىررى</displayName>
+				<displayName draft="contributed">ئېفىيوپىيە بىررى</displayName>
 			</currency>
 			<currency type="EUR">
-				<displayName draft="contributed">ياۋرو</displayName>
 				<displayName count="one" draft="contributed">ياۋرو</displayName>
 				<displayName count="other" draft="contributed">ياۋرو</displayName>
+				<displayName draft="contributed">ياۋرو</displayName>
 				<symbol alt="narrow">€</symbol>
 				<symbol>€</symbol>
 			</currency>
 			<currency type="FIM">
-				<displayName draft="contributed">فىنلاندىيە مارككاسى</displayName>
 				<displayName count="one" draft="contributed">فىنلاندىيە مارككاسى</displayName>
 				<displayName count="other" draft="contributed">فىنلاندىيە مارككاسى</displayName>
+				<displayName draft="contributed">فىنلاندىيە مارككاسى</displayName>
 			</currency>
 			<currency type="FJD">
-				<displayName draft="contributed">فىجى دوللىرى</displayName>
 				<displayName count="one" draft="contributed">فىجى دوللىرى</displayName>
 				<displayName count="other" draft="contributed">فىجى دوللىرى</displayName>
+				<displayName draft="contributed">فىجى دوللىرى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="FKP">
-				<displayName draft="contributed">فالكلاند ئاراللىرى فوند سىتېرلىڭى</displayName>
 				<displayName count="one" draft="contributed">فالكلاند ئاراللىرى فوند سىتېرلىڭى</displayName>
 				<displayName count="other" draft="contributed">فالكلاند ئاراللىرى فوند سىتېرلىڭى</displayName>
+				<displayName draft="contributed">فالكلاند ئاراللىرى فوند سىتېرلىڭى</displayName>
 				<symbol alt="narrow">£</symbol>
 			</currency>
 			<currency type="FRF">
-				<displayName draft="contributed">فىرانسىيە فرانكى</displayName>
 				<displayName count="one" draft="contributed">فىرانسىيە فرانكى</displayName>
 				<displayName count="other" draft="contributed">فىرانسىيە فرانكى</displayName>
+				<displayName draft="contributed">فىرانسىيە فرانكى</displayName>
 			</currency>
 			<currency type="GBP">
-				<displayName draft="contributed">ئەنگلىيە فوند سىتېرلىڭى</displayName>
 				<displayName count="one" draft="contributed">ئەنگلىيە فوند سىتېرلىڭى</displayName>
 				<displayName count="other" draft="contributed">ئەنگلىيە فوند سىتېرلىڭى</displayName>
+				<displayName draft="contributed">ئەنگلىيە فوند سىتېرلىڭى</displayName>
 				<symbol alt="narrow">£</symbol>
 				<symbol>£</symbol>
 			</currency>
 			<currency type="GEK">
-				<displayName draft="contributed">گىرۇزىيە كۇپون لارىتى</displayName>
 				<displayName count="one" draft="contributed">گىرۇزىيە كۇپون لارىتى</displayName>
 				<displayName count="other" draft="contributed">گىرۇزىيە كۇپون لارىتى</displayName>
+				<displayName draft="contributed">گىرۇزىيە كۇپون لارىتى</displayName>
 			</currency>
 			<currency type="GEL">
-				<displayName draft="contributed">گىرۇزىيە لارىسى</displayName>
 				<displayName count="one" draft="contributed">گىرۇزىيە لارىسى</displayName>
 				<displayName count="other" draft="contributed">گىرۇزىيە لارىسى</displayName>
+				<displayName draft="contributed">گىرۇزىيە لارىسى</displayName>
 			</currency>
 			<currency type="GHC">
-				<displayName draft="contributed">گانا سېدىسى (1979–2007)</displayName>
 				<displayName count="one" draft="contributed">گانا سېدىسى (1979–2007)</displayName>
 				<displayName count="other" draft="contributed">گانا سېدىسى (1979–2007)</displayName>
+				<displayName draft="contributed">گانا سېدىسى (1979–2007)</displayName>
 			</currency>
 			<currency type="GHS">
-				<displayName draft="contributed">گانا سېدىسى</displayName>
 				<displayName count="one" draft="contributed">گانا سېدىسى</displayName>
 				<displayName count="other" draft="contributed">گانا سېدىسى</displayName>
+				<displayName draft="contributed">گانا سېدىسى</displayName>
 			</currency>
 			<currency type="GIP">
-				<displayName draft="contributed">جەبىلتارىق فوند سىتېرلىڭى</displayName>
 				<displayName count="one" draft="contributed">جەبىلتارىق فوند سىتېرلىڭى</displayName>
 				<displayName count="other" draft="contributed">جەبىلتارىق فوند سىتېرلىڭى</displayName>
+				<displayName draft="contributed">جەبىلتارىق فوند سىتېرلىڭى</displayName>
 				<symbol alt="narrow">£</symbol>
 			</currency>
 			<currency type="GMD">
-				<displayName draft="contributed">گامبىيە دالاسى</displayName>
 				<displayName count="one" draft="contributed">گامبىيە دالاسى</displayName>
 				<displayName count="other" draft="contributed">گامبىيە دالاسى</displayName>
+				<displayName draft="contributed">گامبىيە دالاسى</displayName>
 			</currency>
 			<currency type="GNF">
-				<displayName draft="contributed">گىۋىنېيە فرانكى</displayName>
 				<displayName count="one" draft="contributed">گىۋىنېيە فرانكى</displayName>
 				<displayName count="other" draft="contributed">گىۋىنېيە فرانكى</displayName>
+				<displayName draft="contributed">گىۋىنېيە فرانكى</displayName>
 				<symbol alt="narrow">FG</symbol>
 			</currency>
 			<currency type="GNS">
-				<displayName draft="contributed">گىۋىنېيە سىلىسى</displayName>
 				<displayName count="one" draft="contributed">گىۋىنېيە سىلىسى</displayName>
 				<displayName count="other" draft="contributed">گىۋىنېيە سىلىسى</displayName>
+				<displayName draft="contributed">گىۋىنېيە سىلىسى</displayName>
 			</currency>
 			<currency type="GQE">
-				<displayName draft="contributed">ئېكۋاتور گىۋىنېيە ئېكۋېلېسى</displayName>
 				<displayName count="one" draft="contributed">ئېكۋاتور گىۋىنېيە ئېكۋېلېسى</displayName>
 				<displayName count="other" draft="contributed">ئېكۋاتور گىۋىنېيە ئېكۋېلېسى</displayName>
+				<displayName draft="contributed">ئېكۋاتور گىۋىنېيە ئېكۋېلېسى</displayName>
 			</currency>
 			<currency type="GRD">
-				<displayName draft="contributed">گىرېتسىيە دراخماسى</displayName>
 				<displayName count="one" draft="contributed">گىرېتسىيە دراخماسى</displayName>
 				<displayName count="other" draft="contributed">گىرېتسىيە دراخماسى</displayName>
+				<displayName draft="contributed">گىرېتسىيە دراخماسى</displayName>
 			</currency>
 			<currency type="GTQ">
-				<displayName draft="contributed">گىۋاتېمالا كۇۋېتزالى</displayName>
 				<displayName count="one" draft="contributed">گىۋاتېمالا كۇۋېتزالى</displayName>
 				<displayName count="other" draft="contributed">گىۋاتېمالا كۇۋېتزالى</displayName>
+				<displayName draft="contributed">گىۋاتېمالا كۇۋېتزالى</displayName>
 				<symbol alt="narrow">Q</symbol>
 			</currency>
 			<currency type="GWE">
-				<displayName draft="contributed">پورتۇگالىيە گىۋىنېيە ئېسكۇدوسى</displayName>
 				<displayName count="one" draft="contributed">پورتۇگالىيە گىۋىنېيە ئېسكۇدوسى</displayName>
 				<displayName count="other" draft="contributed">پورتۇگالىيە گىۋىنېيە ئېسكۇدوسى</displayName>
+				<displayName draft="contributed">پورتۇگالىيە گىۋىنېيە ئېسكۇدوسى</displayName>
 			</currency>
 			<currency type="GWP">
-				<displayName draft="contributed">گىۋىنېيە-بىسسائۇ پېسوسى</displayName>
 				<displayName count="one" draft="contributed">گىۋىنېيە-بىسسائۇ پېسوسى</displayName>
 				<displayName count="other" draft="contributed">گىۋىنېيە-بىسسائۇ پېسوسى</displayName>
+				<displayName draft="contributed">گىۋىنېيە-بىسسائۇ پېسوسى</displayName>
 			</currency>
 			<currency type="GYD">
-				<displayName draft="contributed">گىۋىئانا دوللىرى</displayName>
 				<displayName count="one" draft="contributed">گىۋىئانا دوللىرى</displayName>
 				<displayName count="other" draft="contributed">گىۋىئانا دوللىرى</displayName>
+				<displayName draft="contributed">گىۋىئانا دوللىرى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="HKD">
-				<displayName draft="contributed">شياڭگاڭ دوللىرى</displayName>
 				<displayName count="one" draft="contributed">شياڭگاڭ دوللىرى</displayName>
 				<displayName count="other" draft="contributed">شياڭگاڭ دوللىرى</displayName>
+				<displayName draft="contributed">شياڭگاڭ دوللىرى</displayName>
 				<symbol alt="narrow">$</symbol>
 				<symbol>HK$</symbol>
 			</currency>
 			<currency type="HNL">
-				<displayName draft="contributed">ھوندۇراس لېمپىراسى</displayName>
 				<displayName count="one" draft="contributed">ھوندۇراس لېمپىراسى</displayName>
 				<displayName count="other" draft="contributed">ھوندۇراس لېمپىراسى</displayName>
+				<displayName draft="contributed">ھوندۇراس لېمپىراسى</displayName>
 				<symbol alt="narrow">L</symbol>
 			</currency>
 			<currency type="HRD">
-				<displayName draft="contributed">كىرودىيە دىنارى</displayName>
 				<displayName count="one" draft="contributed">كىرودىيە دىنارى</displayName>
 				<displayName count="other" draft="contributed">كىرودىيە دىنارى</displayName>
+				<displayName draft="contributed">كىرودىيە دىنارى</displayName>
 			</currency>
 			<currency type="HRK">
-				<displayName draft="contributed">كىرودىيە كۇناسى</displayName>
 				<displayName count="one" draft="contributed">كىرودىيە كۇناسى</displayName>
 				<displayName count="other" draft="contributed">كىرودىيە كۇناسى</displayName>
+				<displayName draft="contributed">كىرودىيە كۇناسى</displayName>
 				<symbol alt="narrow">kn</symbol>
 			</currency>
 			<currency type="HTG">
-				<displayName draft="contributed">ھايتى گۇردېسى</displayName>
 				<displayName count="one" draft="contributed">ھايتى گۇردېسى</displayName>
 				<displayName count="other" draft="contributed">ھايتى گۇردېسى</displayName>
+				<displayName draft="contributed">ھايتى گۇردېسى</displayName>
 			</currency>
 			<currency type="HUF">
-				<displayName draft="contributed">ۋېنگىرىيە فورېنتى</displayName>
 				<displayName count="one" draft="contributed">ۋېنگىرىيە فورېنتى</displayName>
 				<displayName count="other" draft="contributed">ۋېنگىرىيە فورېنتى</displayName>
+				<displayName draft="contributed">ۋېنگىرىيە فورېنتى</displayName>
 				<symbol alt="narrow">Ft</symbol>
 			</currency>
 			<currency type="IDR">
-				<displayName draft="contributed">ھىندونېزىيە رۇپىيەسى</displayName>
 				<displayName count="one" draft="contributed">ھىندونېزىيە رۇپىيەسى</displayName>
 				<displayName count="other" draft="contributed">ھىندونېزىيە رۇپىيەسى</displayName>
+				<displayName draft="contributed">ھىندونېزىيە رۇپىيەسى</displayName>
 				<symbol alt="narrow">Rp</symbol>
 			</currency>
 			<currency type="IEP">
-				<displayName draft="contributed">ئىرېلاندىيە فوندستېرلىڭى</displayName>
 				<displayName count="one" draft="contributed">ئىرېلاندىيە فوندستېرلىڭى</displayName>
 				<displayName count="other" draft="contributed">ئىرېلاندىيە فوندستېرلىڭى</displayName>
+				<displayName draft="contributed">ئىرېلاندىيە فوندستېرلىڭى</displayName>
 			</currency>
 			<currency type="ILP">
-				<displayName draft="contributed">ئىسرائىلىيە فوندستېرلىڭى</displayName>
 				<displayName count="one" draft="contributed">ئىسرائىلىيە فوندستېرلىڭى</displayName>
 				<displayName count="other" draft="contributed">ئىسرائىلىيە فوندستېرلىڭى</displayName>
+				<displayName draft="contributed">ئىسرائىلىيە فوندستېرلىڭى</displayName>
 			</currency>
 			<currency type="ILR">
-				<displayName draft="contributed">ئىسرائىل شېكېلى (1980–1985)</displayName>
 				<displayName count="one" draft="contributed">ئىسرائىل شېكېلى (1980–1985)</displayName>
 				<displayName count="other" draft="contributed">ئىسرائىل شېكېلى (1980–1985)</displayName>
+				<displayName draft="contributed">ئىسرائىل شېكېلى (1980–1985)</displayName>
 			</currency>
 			<currency type="ILS">
-				<displayName draft="contributed">ئىسرائىل يېڭى شېكېلى</displayName>
 				<displayName count="one" draft="contributed">ئىسرائىل يېڭى شېكېلى</displayName>
 				<displayName count="other" draft="contributed">ئىسرائىل يېڭى شېكېلى</displayName>
+				<displayName draft="contributed">ئىسرائىل يېڭى شېكېلى</displayName>
 				<symbol alt="narrow">₪</symbol>
 				<symbol>₪</symbol>
 			</currency>
 			<currency type="INR">
-				<displayName draft="contributed">ھىندىستان رۇپىسى</displayName>
 				<displayName count="one" draft="contributed">ھىندىستان رۇپىسى</displayName>
 				<displayName count="other" draft="contributed">ھىندىستان رۇپىسى</displayName>
+				<displayName draft="contributed">ھىندىستان رۇپىسى</displayName>
 				<symbol alt="narrow">₹</symbol>
 				<symbol>₹</symbol>
 			</currency>
 			<currency type="IQD">
-				<displayName draft="contributed">ئىراق دىنارى</displayName>
 				<displayName count="one" draft="contributed">ئىراق دىنارى</displayName>
 				<displayName count="other" draft="contributed">ئىراق دىنارى</displayName>
+				<displayName draft="contributed">ئىراق دىنارى</displayName>
 			</currency>
 			<currency type="IRR">
-				<displayName draft="contributed">ئىران رىيالى</displayName>
 				<displayName count="one" draft="contributed">ئىران رىيالى</displayName>
 				<displayName count="other" draft="contributed">ئىران رىيالى</displayName>
+				<displayName draft="contributed">ئىران رىيالى</displayName>
 			</currency>
 			<currency type="ISJ">
-				<displayName draft="contributed">ئىسلاندىيە كروناسى (1918–1981)</displayName>
 				<displayName count="one" draft="contributed">ئىسلاندىيە كروناسى (1918–1981)</displayName>
 				<displayName count="other" draft="contributed">ئىسلاندىيە كروناسى (1918–1981)</displayName>
+				<displayName draft="contributed">ئىسلاندىيە كروناسى (1918–1981)</displayName>
 			</currency>
 			<currency type="ISK">
-				<displayName draft="contributed">ئىسلاندىيە كروناسى</displayName>
 				<displayName count="one" draft="contributed">ئىسلاندىيە كروناسى</displayName>
 				<displayName count="other" draft="contributed">ئىسلاندىيە كروناسى</displayName>
+				<displayName draft="contributed">ئىسلاندىيە كروناسى</displayName>
 				<symbol alt="narrow">kr</symbol>
 			</currency>
 			<currency type="ITL">
-				<displayName draft="contributed">ئىتالىيە لىراسى</displayName>
 				<displayName count="one" draft="contributed">ئىتالىيە لىراسى</displayName>
 				<displayName count="other" draft="contributed">ئىتالىيە لىراسى</displayName>
+				<displayName draft="contributed">ئىتالىيە لىراسى</displayName>
 			</currency>
 			<currency type="JMD">
-				<displayName draft="contributed">يامايكا دوللىرى</displayName>
 				<displayName count="one" draft="contributed">يامايكا دوللىرى</displayName>
 				<displayName count="other" draft="contributed">يامايكا دوللىرى</displayName>
+				<displayName draft="contributed">يامايكا دوللىرى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="JOD">
-				<displayName draft="contributed">ئىيوردانىيە دىنارى</displayName>
 				<displayName count="one" draft="contributed">ئىيوردانىيە دىنارى</displayName>
 				<displayName count="other" draft="contributed">ئىيوردانىيە دىنارى</displayName>
+				<displayName draft="contributed">ئىيوردانىيە دىنارى</displayName>
 			</currency>
 			<currency type="JPY">
-				<displayName draft="contributed">ياپونىيە يېنى</displayName>
 				<displayName count="one" draft="contributed">ياپونىيە يېنى</displayName>
 				<displayName count="other" draft="contributed">ياپونىيە يېنى</displayName>
+				<displayName draft="contributed">ياپونىيە يېنى</displayName>
 				<symbol alt="narrow">¥</symbol>
 				<symbol>JP¥</symbol>
 			</currency>
 			<currency type="KES">
-				<displayName draft="contributed">كېنىيە شىللىڭى</displayName>
 				<displayName count="one" draft="contributed">كېنىيە شىللىڭى</displayName>
 				<displayName count="other" draft="contributed">كېنىيە شىللىڭى</displayName>
+				<displayName draft="contributed">كېنىيە شىللىڭى</displayName>
 			</currency>
 			<currency type="KGS">
-				<displayName draft="contributed">قىرغىزىستان سومى</displayName>
 				<displayName count="one" draft="contributed">قىرغىزىستان سومى</displayName>
 				<displayName count="other" draft="contributed">قىرغىزىستان سومى</displayName>
+				<displayName draft="contributed">قىرغىزىستان سومى</displayName>
 			</currency>
 			<currency type="KHR">
-				<displayName draft="contributed">كامبودژا رىئېلى</displayName>
 				<displayName count="one" draft="contributed">كامبودژا رىئېلى</displayName>
 				<displayName count="other" draft="contributed">كامبودژا رىئېلى</displayName>
+				<displayName draft="contributed">كامبودژا رىئېلى</displayName>
 				<symbol alt="narrow">៛</symbol>
 			</currency>
 			<currency type="KMF">
-				<displayName draft="contributed">كومورو فرانكى</displayName>
 				<displayName count="one" draft="contributed">كومورو فرانكى</displayName>
 				<displayName count="other" draft="contributed">كومورو فرانكى</displayName>
+				<displayName draft="contributed">كومورو فرانكى</displayName>
 				<symbol alt="narrow">CF</symbol>
 			</currency>
 			<currency type="KPW">
-				<displayName draft="contributed">شىمالىي كورېيە ۋونى</displayName>
 				<displayName count="one" draft="contributed">شىمالىي كورېيە ۋونى</displayName>
 				<displayName count="other" draft="contributed">شىمالىي كورېيە ۋونى</displayName>
+				<displayName draft="contributed">شىمالىي كورېيە ۋونى</displayName>
 				<symbol alt="narrow">₩</symbol>
 			</currency>
 			<currency type="KRH">
-				<displayName draft="contributed">جەنۇبىي كورېيە خۋانى (1953–1962)</displayName>
 				<displayName count="one" draft="contributed">جەنۇبىي كورېيە خۋانى (1953–1962)</displayName>
 				<displayName count="other" draft="contributed">جەنۇبىي كورېيە خۋانى (1953–1962)</displayName>
+				<displayName draft="contributed">جەنۇبىي كورېيە خۋانى (1953–1962)</displayName>
 			</currency>
 			<currency type="KRO">
-				<displayName draft="contributed">جەنۇبىي كورېيە ۋونى (1945–1953)</displayName>
 				<displayName count="one" draft="contributed">جەنۇبىي كورېيە ۋونى (1945–1953)</displayName>
 				<displayName count="other" draft="contributed">جەنۇبىي كورېيە ۋونى (1945–1953)</displayName>
+				<displayName draft="contributed">جەنۇبىي كورېيە ۋونى (1945–1953)</displayName>
 			</currency>
 			<currency type="KRW">
-				<displayName draft="contributed">جەنۇبىي كورېيە ۋونى</displayName>
 				<displayName count="one" draft="contributed">جەنۇبىي كورېيە ۋونى</displayName>
 				<displayName count="other" draft="contributed">جەنۇبىي كورېيە ۋونى</displayName>
+				<displayName draft="contributed">جەنۇبىي كورېيە ۋونى</displayName>
 				<symbol alt="narrow">₩</symbol>
 				<symbol>₩</symbol>
 			</currency>
 			<currency type="KWD">
-				<displayName draft="contributed">كۇۋەيت دىنارى</displayName>
 				<displayName count="one" draft="contributed">كۇۋەيت دىنارى</displayName>
 				<displayName count="other" draft="contributed">كۇۋەيت دىنارى</displayName>
+				<displayName draft="contributed">كۇۋەيت دىنارى</displayName>
 			</currency>
 			<currency type="KYD">
-				<displayName draft="contributed">كايمان ئاراللىرى دوللىرى</displayName>
 				<displayName count="one" draft="contributed">كايمان ئاراللىرى دوللىرى</displayName>
 				<displayName count="other" draft="contributed">كايمان ئاراللىرى دوللىرى</displayName>
+				<displayName draft="contributed">كايمان ئاراللىرى دوللىرى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="KZT">
-				<displayName draft="contributed">قازاقىستان تەڭگىسى</displayName>
 				<displayName count="one" draft="contributed">قازاقىستان تەڭگىسى</displayName>
 				<displayName count="other" draft="contributed">قازاقىستان تەڭگىسى</displayName>
+				<displayName draft="contributed">قازاقىستان تەڭگىسى</displayName>
 				<symbol alt="narrow">₸</symbol>
 			</currency>
 			<currency type="LAK">
-				<displayName draft="contributed">لائوس كىپى</displayName>
 				<displayName count="one" draft="contributed">لائوس كىپى</displayName>
 				<displayName count="other" draft="contributed">لائوس كىپى</displayName>
+				<displayName draft="contributed">لائوس كىپى</displayName>
 				<symbol alt="narrow">₭</symbol>
 			</currency>
 			<currency type="LBP">
-				<displayName draft="contributed">لىۋان فوند سىتېرلىڭى</displayName>
 				<displayName count="one" draft="contributed">لىۋان فوند سىتېرلىڭى</displayName>
 				<displayName count="other" draft="contributed">لىۋان فوند سىتېرلىڭى</displayName>
+				<displayName draft="contributed">لىۋان فوند سىتېرلىڭى</displayName>
 				<symbol alt="narrow">L£</symbol>
 			</currency>
 			<currency type="LKR">
-				<displayName draft="contributed">سىرىلانكا رۇپىسى</displayName>
 				<displayName count="one" draft="contributed">سىرىلانكا رۇپىسى</displayName>
 				<displayName count="other" draft="contributed">سىرىلانكا رۇپىسى</displayName>
+				<displayName draft="contributed">سىرىلانكا رۇپىسى</displayName>
 				<symbol alt="narrow">Rs</symbol>
 			</currency>
 			<currency type="LRD">
-				<displayName draft="contributed">لىبېرىيە دوللىرى</displayName>
 				<displayName count="one" draft="contributed">لىبېرىيە دوللىرى</displayName>
 				<displayName count="other" draft="contributed">لىبېرىيە دوللىرى</displayName>
+				<displayName draft="contributed">لىبېرىيە دوللىرى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="LSL">
-				<displayName draft="contributed">لېسوتو لوتىسى</displayName>
 				<displayName count="one" draft="contributed">لېسوتو لوتىسى</displayName>
 				<displayName count="other" draft="contributed">لېسوتو لوتىسى</displayName>
+				<displayName draft="contributed">لېسوتو لوتىسى</displayName>
 			</currency>
 			<currency type="LTL">
-				<displayName draft="contributed">لىتۋا لىتاسى</displayName>
 				<displayName count="one" draft="contributed">لىتۋا لىتاسى</displayName>
 				<displayName count="other" draft="contributed">لىتۋا لىتاسى</displayName>
+				<displayName draft="contributed">لىتۋا لىتاسى</displayName>
 				<symbol alt="narrow">Lt</symbol>
 			</currency>
 			<currency type="LTT">
-				<displayName draft="contributed">لىتۋا تالوناسى</displayName>
 				<displayName count="one" draft="contributed">لىتۋا تالوناسى</displayName>
 				<displayName count="other" draft="contributed">لىتۋا تالوناسى</displayName>
+				<displayName draft="contributed">لىتۋا تالوناسى</displayName>
 			</currency>
 			<currency type="LUC">
-				<displayName draft="contributed">ليۇكسېمبۇرگ ئالماشتۇرۇشچان پېسوسى</displayName>
 				<displayName count="one" draft="contributed">ليۇكسېمبۇرگ ئالماشتۇرۇشچان پېسوسى</displayName>
 				<displayName count="other" draft="contributed">ليۇكسېمبۇرگ ئالماشتۇرۇشچان پېسوسى</displayName>
+				<displayName draft="contributed">ليۇكسېمبۇرگ ئالماشتۇرۇشچان پېسوسى</displayName>
 			</currency>
 			<currency type="LUF">
-				<displayName draft="contributed">ليۇكسېمبۇرگ فرانكى</displayName>
 				<displayName count="one" draft="contributed">ليۇكسېمبۇرگ فرانكى</displayName>
 				<displayName count="other" draft="contributed">ليۇكسېمبۇرگ فرانكى</displayName>
+				<displayName draft="contributed">ليۇكسېمبۇرگ فرانكى</displayName>
 			</currency>
 			<currency type="LUL">
-				<displayName draft="contributed">لىيۇكسېمبۇرگ پۇل-مۇئامىلە فرانكى</displayName>
 				<displayName count="one" draft="contributed">لىيۇكسېمبۇرگ پۇل-مۇئامىلە فرانكى</displayName>
 				<displayName count="other" draft="contributed">لىيۇكسېمبۇرگ پۇل-مۇئامىلە فرانكى</displayName>
+				<displayName draft="contributed">لىيۇكسېمبۇرگ پۇل-مۇئامىلە فرانكى</displayName>
 			</currency>
 			<currency type="LVL">
-				<displayName draft="contributed">لاتۋىيە لاتى</displayName>
 				<displayName count="one" draft="contributed">لاتۋىيە لاتى</displayName>
 				<displayName count="other" draft="contributed">لاتۋىيە لاتى</displayName>
+				<displayName draft="contributed">لاتۋىيە لاتى</displayName>
 				<symbol alt="narrow">Ls</symbol>
 			</currency>
 			<currency type="LVR">
-				<displayName draft="contributed">لاتۋىيە رۇبلىسى</displayName>
 				<displayName count="one" draft="contributed">لاتۋىيە رۇبلىسى</displayName>
 				<displayName count="other" draft="contributed">لاتۋىيە رۇبلىسى</displayName>
+				<displayName draft="contributed">لاتۋىيە رۇبلىسى</displayName>
 			</currency>
 			<currency type="LYD">
-				<displayName draft="contributed">لىۋىيە دىنارى</displayName>
 				<displayName count="one" draft="contributed">لىۋىيە دىنارى</displayName>
 				<displayName count="other" draft="contributed">لىۋىيە دىنارى</displayName>
+				<displayName draft="contributed">لىۋىيە دىنارى</displayName>
 			</currency>
 			<currency type="MAD">
-				<displayName draft="contributed">ماراكەش دىرھەمى</displayName>
 				<displayName count="one" draft="contributed">ماراكەش دىرھەمى</displayName>
 				<displayName count="other" draft="contributed">ماراكەش دىرھەمى</displayName>
+				<displayName draft="contributed">ماراكەش دىرھەمى</displayName>
 			</currency>
 			<currency type="MAF">
-				<displayName draft="contributed">ماراكەش فرانكى</displayName>
 				<displayName count="one" draft="contributed">ماراكەش فرانكى</displayName>
 				<displayName count="other" draft="contributed">ماراكەش فرانكى</displayName>
+				<displayName draft="contributed">ماراكەش فرانكى</displayName>
 			</currency>
 			<currency type="MCF">
-				<displayName draft="contributed">موناكو فرانكى</displayName>
 				<displayName count="one" draft="contributed">موناكو فرانكى</displayName>
 				<displayName count="other" draft="contributed">موناكو فرانكى</displayName>
+				<displayName draft="contributed">موناكو فرانكى</displayName>
 			</currency>
 			<currency type="MDC">
-				<displayName draft="contributed">مولدوۋا كۇپونى</displayName>
 				<displayName count="one" draft="contributed">مولدوۋا كۇپونى</displayName>
 				<displayName count="other" draft="contributed">مولدوۋا كۇپونى</displayName>
+				<displayName draft="contributed">مولدوۋا كۇپونى</displayName>
 			</currency>
 			<currency type="MDL">
-				<displayName draft="contributed">مولدوۋا لېۋى</displayName>
 				<displayName count="one" draft="contributed">مولدوۋا لېۋى</displayName>
 				<displayName count="other" draft="contributed">مولدوۋا لېۋى</displayName>
+				<displayName draft="contributed">مولدوۋا لېۋى</displayName>
 			</currency>
 			<currency type="MGA">
-				<displayName draft="contributed">ماداغاسقار ئارىئارىسى</displayName>
 				<displayName count="one" draft="contributed">ماداغاسقار ئارىئارىسى</displayName>
 				<displayName count="other" draft="contributed">ماداغاسقار ئارىئارىسى</displayName>
+				<displayName draft="contributed">ماداغاسقار ئارىئارىسى</displayName>
 				<symbol alt="narrow">Ar</symbol>
 			</currency>
 			<currency type="MGF">
-				<displayName draft="contributed">ماداغاسقار فرانكى</displayName>
 				<displayName count="one" draft="contributed">ماداغاسقار فرانكى</displayName>
 				<displayName count="other" draft="contributed">ماداغاسقار فرانكى</displayName>
+				<displayName draft="contributed">ماداغاسقار فرانكى</displayName>
 			</currency>
 			<currency type="MKD">
-				<displayName draft="contributed">ماكېدونىيە دىنارى</displayName>
 				<displayName count="one" draft="contributed">ماكېدونىيە دىنارى</displayName>
 				<displayName count="other" draft="contributed">ماكېدونىيە دىنارى</displayName>
+				<displayName draft="contributed">ماكېدونىيە دىنارى</displayName>
 			</currency>
 			<currency type="MKN">
-				<displayName draft="contributed">ماكېدونىيە دىنارى (1992–1993)</displayName>
 				<displayName count="one" draft="contributed">ماكېدونىيە دىنارى (1992–1993)</displayName>
 				<displayName count="other" draft="contributed">ماكېدونىيە دىنارى (1992–1993)</displayName>
+				<displayName draft="contributed">ماكېدونىيە دىنارى (1992–1993)</displayName>
 			</currency>
 			<currency type="MLF">
-				<displayName draft="contributed">مالى فرانكى</displayName>
 				<displayName count="one" draft="contributed">مالى فرانكى</displayName>
 				<displayName count="other" draft="contributed">مالى فرانكى</displayName>
+				<displayName draft="contributed">مالى فرانكى</displayName>
 			</currency>
 			<currency type="MMK">
-				<displayName draft="contributed">مىيانمار كىياتى</displayName>
 				<displayName count="one" draft="contributed">مىيانمار كىياتى</displayName>
 				<displayName count="other" draft="contributed">مىيانمار كىياتى</displayName>
+				<displayName draft="contributed">مىيانمار كىياتى</displayName>
 				<symbol alt="narrow">K</symbol>
 			</currency>
 			<currency type="MNT">
-				<displayName draft="contributed">موڭغۇلىيە تۈگرىكى</displayName>
 				<displayName count="one" draft="contributed">موڭغۇلىيە تۈگرىكى</displayName>
 				<displayName count="other" draft="contributed">موڭغۇلىيە تۈگرىكى</displayName>
+				<displayName draft="contributed">موڭغۇلىيە تۈگرىكى</displayName>
 				<symbol alt="narrow">₮</symbol>
 			</currency>
 			<currency type="MOP">
-				<displayName draft="contributed">ئاۋمېن پاتاكاسى</displayName>
 				<displayName count="one" draft="contributed">ئاۋمېن پاتاكاسى</displayName>
 				<displayName count="other" draft="contributed">ئاۋمېن پاتاكاسى</displayName>
+				<displayName draft="contributed">ئاۋمېن پاتاكاسى</displayName>
 			</currency>
 			<currency type="MRO">
-				<displayName draft="contributed">ماۋرىتانىيە ئۇگىيەسى</displayName>
 				<displayName count="one" draft="contributed">ماۋرىتانىيە ئۇگىيەسى</displayName>
 				<displayName count="other" draft="contributed">ماۋرىتانىيە ئۇگىيەسى</displayName>
+				<displayName draft="contributed">ماۋرىتانىيە ئۇگىيەسى</displayName>
 			</currency>
 			<currency type="MTL">
-				<displayName draft="contributed">مالتا لىراسى</displayName>
 				<displayName count="one" draft="contributed">مالتا لىراسى</displayName>
 				<displayName count="other" draft="contributed">مالتا لىراسى</displayName>
+				<displayName draft="contributed">مالتا لىراسى</displayName>
 			</currency>
 			<currency type="MTP">
-				<displayName draft="contributed">مالتا فوندستېرلىڭى</displayName>
 				<displayName count="one" draft="contributed">مالتا فوندستېرلىڭى</displayName>
 				<displayName count="other" draft="contributed">مالتا فوندستېرلىڭى</displayName>
+				<displayName draft="contributed">مالتا فوندستېرلىڭى</displayName>
 			</currency>
 			<currency type="MUR">
-				<displayName draft="contributed">ماۋرىتىئۇس رۇپىسى</displayName>
 				<displayName count="one" draft="contributed">ماۋرىتىئۇس رۇپىسى</displayName>
 				<displayName count="other" draft="contributed">ماۋرىتىئۇس رۇپىسى</displayName>
+				<displayName draft="contributed">ماۋرىتىئۇس رۇپىسى</displayName>
 				<symbol alt="narrow">Rs</symbol>
 			</currency>
 			<currency type="MVP">
-				<displayName draft="contributed">مالدىۋى رۇپىسى</displayName>
 				<displayName count="one" draft="contributed">مالدىۋى رۇپىسى</displayName>
 				<displayName count="other" draft="contributed">مالدىۋى رۇپىسى</displayName>
+				<displayName draft="contributed">مالدىۋى رۇپىسى</displayName>
 			</currency>
 			<currency type="MVR">
-				<displayName draft="contributed">مالدىۋى رۇفىياسى</displayName>
 				<displayName count="one" draft="contributed">مالدىۋى رۇفىياسى</displayName>
 				<displayName count="other" draft="contributed">مالدىۋى رۇفىياسى</displayName>
+				<displayName draft="contributed">مالدىۋى رۇفىياسى</displayName>
 			</currency>
 			<currency type="MWK">
-				<displayName draft="contributed">مالاۋى كۋاچاسى</displayName>
 				<displayName count="one" draft="contributed">مالاۋى كۋاچاسى</displayName>
 				<displayName count="other" draft="contributed">مالاۋى كۋاچاسى</displayName>
+				<displayName draft="contributed">مالاۋى كۋاچاسى</displayName>
 			</currency>
 			<currency type="MXN">
-				<displayName draft="contributed">مېكسىكا پېسوسى</displayName>
 				<displayName count="one" draft="contributed">مېكسىكا پېسوسى</displayName>
 				<displayName count="other" draft="contributed">مېكسىكا پېسوسى</displayName>
+				<displayName draft="contributed">مېكسىكا پېسوسى</displayName>
 				<symbol alt="narrow">$</symbol>
 				<symbol>MX$</symbol>
 			</currency>
 			<currency type="MXP">
-				<displayName draft="contributed">مېكسىكا كۈمۈش پېسوسى (1861–1992)</displayName>
 				<displayName count="one" draft="contributed">مېكسىكا كۈمۈش پېسوسى (1861–1992)</displayName>
 				<displayName count="other" draft="contributed">مېكسىكا كۈمۈش پېسوسى (1861–1992)</displayName>
+				<displayName draft="contributed">مېكسىكا كۈمۈش پېسوسى (1861–1992)</displayName>
 			</currency>
 			<currency type="MXV">
-				<displayName draft="contributed">مېكسىكا مەبلەغ بىرلىكى</displayName>
 				<displayName count="one" draft="contributed">مېكسىكا مەبلەغ بىرلىكى</displayName>
 				<displayName count="other" draft="contributed">مېكسىكا مەبلەغ بىرلىكى</displayName>
+				<displayName draft="contributed">مېكسىكا مەبلەغ بىرلىكى</displayName>
 			</currency>
 			<currency type="MYR">
-				<displayName draft="contributed">مالايشىيا رىڭگىتى</displayName>
 				<displayName count="one" draft="contributed">مالايشىيا رىڭگىتى</displayName>
 				<displayName count="other" draft="contributed">مالايشىيا رىڭگىتى</displayName>
+				<displayName draft="contributed">مالايشىيا رىڭگىتى</displayName>
 				<symbol alt="narrow">RM</symbol>
 			</currency>
 			<currency type="MZE">
-				<displayName draft="contributed">موزامبىك ئېسكۇدوسى</displayName>
 				<displayName count="one" draft="contributed">موزامبىك ئېسكۇدوسى</displayName>
 				<displayName count="other" draft="contributed">موزامبىك ئېسكۇدوسى</displayName>
+				<displayName draft="contributed">موزامبىك ئېسكۇدوسى</displayName>
 			</currency>
 			<currency type="MZM">
-				<displayName draft="contributed">موزامبىك مېتىكالى (1980–2006)</displayName>
 				<displayName count="one" draft="contributed">موزامبىك مېتىكالى (1980–2006)</displayName>
 				<displayName count="other" draft="contributed">موزامبىك مېتىكالى (1980–2006)</displayName>
+				<displayName draft="contributed">موزامبىك مېتىكالى (1980–2006)</displayName>
 			</currency>
 			<currency type="MZN">
-				<displayName draft="contributed">موزامبىك مېتىكالى</displayName>
 				<displayName count="one" draft="contributed">موزامبىك مېتىكالى</displayName>
 				<displayName count="other" draft="contributed">موزامبىك مېتىكالى</displayName>
+				<displayName draft="contributed">موزامبىك مېتىكالى</displayName>
 			</currency>
 			<currency type="NAD">
-				<displayName draft="contributed">نامىبىيە دوللىرى</displayName>
 				<displayName count="one" draft="contributed">نامىبىيە دوللىرى</displayName>
 				<displayName count="other" draft="contributed">نامىبىيە دوللىرى</displayName>
+				<displayName draft="contributed">نامىبىيە دوللىرى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="NGN">
-				<displayName draft="contributed">نىگېرىيە نايراسى</displayName>
 				<displayName count="one" draft="contributed">نىگېرىيە نايراسى</displayName>
 				<displayName count="other" draft="contributed">نىگېرىيە نايراسى</displayName>
+				<displayName draft="contributed">نىگېرىيە نايراسى</displayName>
 				<symbol alt="narrow">₦</symbol>
 			</currency>
 			<currency type="NIC">
-				<displayName draft="contributed">نىگېرىيە كوردوباسى (1988–1991)</displayName>
 				<displayName count="one" draft="contributed">نىگېرىيە كوردوباسى (1988–1991)</displayName>
 				<displayName count="other" draft="contributed">نىگېرىيە كوردوباسى (1988–1991)</displayName>
+				<displayName draft="contributed">نىگېرىيە كوردوباسى (1988–1991)</displayName>
 			</currency>
 			<currency type="NIO">
-				<displayName draft="contributed">نىگېرىيە كوردوباسى</displayName>
 				<displayName count="one" draft="contributed">نىگېرىيە كوردوباسى</displayName>
 				<displayName count="other" draft="contributed">نىگېرىيە كوردوباسى</displayName>
+				<displayName draft="contributed">نىگېرىيە كوردوباسى</displayName>
 				<symbol alt="narrow">C$</symbol>
 			</currency>
 			<currency type="NLG">
-				<displayName draft="contributed">گوللاندىيە گۈلدىنى</displayName>
 				<displayName count="one" draft="contributed">گوللاندىيە گۈلدىنى</displayName>
 				<displayName count="other" draft="contributed">گوللاندىيە گۈلدىنى</displayName>
+				<displayName draft="contributed">گوللاندىيە گۈلدىنى</displayName>
 			</currency>
 			<currency type="NOK">
-				<displayName draft="contributed">نورۋېگىيە كرونى</displayName>
 				<displayName count="one" draft="contributed">نورۋېگىيە كرونى</displayName>
 				<displayName count="other" draft="contributed">نورۋېگىيە كرونى</displayName>
+				<displayName draft="contributed">نورۋېگىيە كرونى</displayName>
 				<symbol alt="narrow">kr</symbol>
 			</currency>
 			<currency type="NPR">
-				<displayName draft="contributed">نېپال رۇپىسى</displayName>
 				<displayName count="one" draft="contributed">نېپال رۇپىسى</displayName>
 				<displayName count="other" draft="contributed">نېپال رۇپىسى</displayName>
+				<displayName draft="contributed">نېپال رۇپىسى</displayName>
 				<symbol alt="narrow">Rs</symbol>
 			</currency>
 			<currency type="NZD">
-				<displayName draft="contributed">يېڭى زېلاندىيە دوللىرى</displayName>
 				<displayName count="one" draft="contributed">يېڭى زېلاندىيە دوللىرى</displayName>
 				<displayName count="other" draft="contributed">يېڭى زېلاندىيە دوللىرى</displayName>
+				<displayName draft="contributed">يېڭى زېلاندىيە دوللىرى</displayName>
 				<symbol alt="narrow">$</symbol>
 				<symbol>NZ$</symbol>
 			</currency>
 			<currency type="OMR">
-				<displayName draft="contributed">ئومان رىيالى</displayName>
 				<displayName count="one" draft="contributed">ئومان رىيالى</displayName>
 				<displayName count="other" draft="contributed">ئومان رىيالى</displayName>
+				<displayName draft="contributed">ئومان رىيالى</displayName>
 			</currency>
 			<currency type="PAB">
-				<displayName draft="contributed">پاناما بالبوئاسى</displayName>
 				<displayName count="one" draft="contributed">پاناما بالبوئاسى</displayName>
 				<displayName count="other" draft="contributed">پاناما بالبوئاسى</displayName>
+				<displayName draft="contributed">پاناما بالبوئاسى</displayName>
 			</currency>
 			<currency type="PEI">
-				<displayName draft="contributed">پېرۇ ئىنتىسى</displayName>
 				<displayName count="one" draft="contributed">پېرۇ ئىنتىسى</displayName>
 				<displayName count="other" draft="contributed">پېرۇ ئىنتىسى</displayName>
+				<displayName draft="contributed">پېرۇ ئىنتىسى</displayName>
 			</currency>
 			<currency type="PEN">
-				<displayName draft="contributed">پېرۇ يېڭى سولى</displayName>
 				<displayName count="one" draft="contributed">پېرۇ يېڭى سولى</displayName>
 				<displayName count="other" draft="contributed">پېرۇ يېڭى سولى</displayName>
+				<displayName draft="contributed">پېرۇ يېڭى سولى</displayName>
 			</currency>
 			<currency type="PES">
-				<displayName draft="contributed">پېرۇ سولى (1863–1965)</displayName>
 				<displayName count="one" draft="contributed">پېرۇ سولى (1863–1965)</displayName>
 				<displayName count="other" draft="contributed">پېرۇ سولى (1863–1965)</displayName>
+				<displayName draft="contributed">پېرۇ سولى (1863–1965)</displayName>
 			</currency>
 			<currency type="PGK">
-				<displayName draft="contributed">پاپۇئا يېڭى گىۋىنېيە كىناسى</displayName>
 				<displayName count="one" draft="contributed">پاپۇئا يېڭى گىۋىنېيە كىناسى</displayName>
 				<displayName count="other" draft="contributed">پاپۇئا يېڭى گىۋىنېيە كىناسى</displayName>
+				<displayName draft="contributed">پاپۇئا يېڭى گىۋىنېيە كىناسى</displayName>
 			</currency>
 			<currency type="PHP">
-				<displayName draft="contributed">فىلىپپىن پېسوسى</displayName>
 				<displayName count="one" draft="contributed">فىلىپپىن پېسوسى</displayName>
 				<displayName count="other" draft="contributed">فىلىپپىن پېسوسى</displayName>
+				<displayName draft="contributed">فىلىپپىن پېسوسى</displayName>
 				<symbol alt="narrow">₱</symbol>
 			</currency>
 			<currency type="PKR">
-				<displayName draft="contributed">پاكىستان رۇپىسى</displayName>
 				<displayName count="one" draft="contributed">پاكىستان رۇپىسى</displayName>
 				<displayName count="other" draft="contributed">پاكىستان رۇپىسى</displayName>
+				<displayName draft="contributed">پاكىستان رۇپىسى</displayName>
 				<symbol alt="narrow">Rs</symbol>
 			</currency>
 			<currency type="PLN">
-				<displayName draft="contributed">پولشا زىلوتى</displayName>
 				<displayName count="one" draft="contributed">پولشا زىلوتى</displayName>
 				<displayName count="other" draft="contributed">پولشا زىلوتى</displayName>
+				<displayName draft="contributed">پولشا زىلوتى</displayName>
 				<symbol alt="narrow">zł</symbol>
 			</currency>
 			<currency type="PLZ">
-				<displayName draft="contributed">پولشا زىلوتى (1950–1995)</displayName>
 				<displayName count="one" draft="contributed">پولشا زىلوتى (1950–1995)</displayName>
 				<displayName count="other" draft="contributed">پولشا زىلوتى (1950–1995)</displayName>
+				<displayName draft="contributed">پولشا زىلوتى (1950–1995)</displayName>
 			</currency>
 			<currency type="PTE">
-				<displayName draft="contributed">پورتۇگالىيە ئېسكۇدوسى</displayName>
 				<displayName count="one" draft="contributed">پورتۇگالىيە ئېسكۇدوسى</displayName>
 				<displayName count="other" draft="contributed">پورتۇگالىيە ئېسكۇدوسى</displayName>
+				<displayName draft="contributed">پورتۇگالىيە ئېسكۇدوسى</displayName>
 			</currency>
 			<currency type="PYG">
-				<displayName draft="contributed">پاراگۋاي گۇئارانىسى</displayName>
 				<displayName count="one" draft="contributed">پاراگۋاي گۇئارانىسى</displayName>
 				<displayName count="other" draft="contributed">پاراگۋاي گۇئارانىسى</displayName>
+				<displayName draft="contributed">پاراگۋاي گۇئارانىسى</displayName>
 				<symbol alt="narrow">₲</symbol>
 			</currency>
 			<currency type="QAR">
-				<displayName draft="contributed">قاتار رىيالى</displayName>
 				<displayName count="one" draft="contributed">قاتار رىيالى</displayName>
 				<displayName count="other" draft="contributed">قاتار رىيالى</displayName>
+				<displayName draft="contributed">قاتار رىيالى</displayName>
 			</currency>
 			<currency type="RHD">
-				<displayName draft="contributed">رودېزىيە دوللىرى</displayName>
 				<displayName count="one" draft="contributed">رودېزىيە دوللىرى</displayName>
 				<displayName count="other" draft="contributed">رودېزىيە دوللىرى</displayName>
+				<displayName draft="contributed">رودېزىيە دوللىرى</displayName>
 			</currency>
 			<currency type="ROL">
-				<displayName draft="contributed">رۇمىنىيە لېيى (1952–2006)</displayName>
 				<displayName count="one" draft="contributed">رۇمىنىيە لېيى (1952–2006)</displayName>
 				<displayName count="other" draft="contributed">رۇمىنىيە لېيى (1952–2006)</displayName>
+				<displayName draft="contributed">رۇمىنىيە لېيى (1952–2006)</displayName>
 			</currency>
 			<currency type="RON">
-				<displayName draft="contributed">رۇمىنىيە لېيى</displayName>
 				<displayName count="one" draft="contributed">رۇمىنىيە لېيى</displayName>
 				<displayName count="other" draft="contributed">رۇمىنىيە لېيى</displayName>
+				<displayName draft="contributed">رۇمىنىيە لېيى</displayName>
 			</currency>
 			<currency type="RSD">
-				<displayName draft="contributed">سېربىيە دىنارى</displayName>
 				<displayName count="one" draft="contributed">سېربىيە دىنارى</displayName>
 				<displayName count="other" draft="contributed">سېربىيە دىنارى</displayName>
+				<displayName draft="contributed">سېربىيە دىنارى</displayName>
 			</currency>
 			<currency type="RUB">
-				<displayName draft="contributed">رۇسىيە رۇبلىسى</displayName>
 				<displayName count="one" draft="contributed">رۇسىيە رۇبلىسى</displayName>
 				<displayName count="other" draft="contributed">رۇسىيە رۇبلىسى</displayName>
+				<displayName draft="contributed">رۇسىيە رۇبلىسى</displayName>
 				<symbol alt="variant">₽</symbol>
 			</currency>
 			<currency type="RUR">
-				<displayName draft="contributed">رۇسىيە رۇبلىسى (1991–1998)</displayName>
 				<displayName count="one" draft="contributed">رۇسىيە رۇبلىسى (1991–1998)</displayName>
 				<displayName count="other" draft="contributed">رۇسىيە رۇبلىسى (1991–1998)</displayName>
+				<displayName draft="contributed">رۇسىيە رۇبلىسى (1991–1998)</displayName>
 				<symbol alt="narrow">р.</symbol>
 			</currency>
 			<currency type="RWF">
-				<displayName draft="contributed">رۋاندا فرانكى</displayName>
 				<displayName count="one" draft="contributed">رۋاندا فرانكى</displayName>
 				<displayName count="other" draft="contributed">رۋاندا فرانكى</displayName>
+				<displayName draft="contributed">رۋاندا فرانكى</displayName>
 				<symbol alt="narrow">RF</symbol>
 			</currency>
 			<currency type="SAR">
-				<displayName draft="contributed">سەئۇدى رىيالى</displayName>
 				<displayName count="one" draft="contributed">سەئۇدى رىيالى</displayName>
 				<displayName count="other" draft="contributed">سەئۇدى رىيالى</displayName>
+				<displayName draft="contributed">سەئۇدى رىيالى</displayName>
 			</currency>
 			<currency type="SBD">
-				<displayName draft="contributed">سولومون ئاراللىرى دوللىرى</displayName>
 				<displayName count="one" draft="contributed">سولومون ئاراللىرى دوللىرى</displayName>
 				<displayName count="other" draft="contributed">سولومون ئاراللىرى دوللىرى</displayName>
+				<displayName draft="contributed">سولومون ئاراللىرى دوللىرى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="SCR">
-				<displayName draft="contributed">سېيشېل رۇپىسى</displayName>
 				<displayName count="one" draft="contributed">سېيشېل رۇپىسى</displayName>
 				<displayName count="other" draft="contributed">سېيشېل رۇپىسى</displayName>
+				<displayName draft="contributed">سېيشېل رۇپىسى</displayName>
 			</currency>
 			<currency type="SDD">
-				<displayName draft="contributed">سۇدان دىنارى (1992–2007)</displayName>
 				<displayName count="one" draft="contributed">سۇدان دىنارى (1992–2007)</displayName>
 				<displayName count="other" draft="contributed">سۇدان دىنارى (1992–2007)</displayName>
+				<displayName draft="contributed">سۇدان دىنارى (1992–2007)</displayName>
 			</currency>
 			<currency type="SDG">
-				<displayName draft="contributed">سۇدان فوندستېرلىڭى</displayName>
 				<displayName count="one" draft="contributed">سۇدان فوندستېرلىڭى</displayName>
 				<displayName count="other" draft="contributed">سۇدان فوندستېرلىڭى</displayName>
+				<displayName draft="contributed">سۇدان فوندستېرلىڭى</displayName>
 			</currency>
 			<currency type="SDP">
-				<displayName draft="contributed">سۇدان فوندستېرلىڭى (1957–1998)</displayName>
 				<displayName count="one" draft="contributed">سۇدان فوندستېرلىڭى (1957–1998)</displayName>
 				<displayName count="other" draft="contributed">سۇدان فوندستېرلىڭى (1957–1998)</displayName>
+				<displayName draft="contributed">سۇدان فوندستېرلىڭى (1957–1998)</displayName>
 			</currency>
 			<currency type="SEK">
-				<displayName draft="contributed">شىۋېتسىيە كروناسى</displayName>
 				<displayName count="one" draft="contributed">شىۋېتسىيە كروناسى</displayName>
 				<displayName count="other" draft="contributed">شىۋېتسىيە كروناسى</displayName>
+				<displayName draft="contributed">شىۋېتسىيە كروناسى</displayName>
 				<symbol alt="narrow">kr</symbol>
 			</currency>
 			<currency type="SGD">
-				<displayName draft="contributed">سىنگاپور دوللىرى</displayName>
 				<displayName count="one" draft="contributed">سىنگاپور دوللىرى</displayName>
 				<displayName count="other" draft="contributed">سىنگاپور دوللىرى</displayName>
+				<displayName draft="contributed">سىنگاپور دوللىرى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="SHP">
-				<displayName draft="contributed">ساينىت-ھېلېنا فوندستېرلىڭى</displayName>
 				<displayName count="one" draft="contributed">ساينىت-ھېلېنا فوندستېرلىڭى</displayName>
 				<displayName count="other" draft="contributed">ساينىت-ھېلېنا فوندستېرلىڭى</displayName>
+				<displayName draft="contributed">ساينىت-ھېلېنا فوندستېرلىڭى</displayName>
 				<symbol alt="narrow">£</symbol>
 			</currency>
 			<currency type="SIT">
-				<displayName draft="contributed">سىلوۋېنىيە تولارى</displayName>
 				<displayName count="one" draft="contributed">سىلوۋېنىيە تولارى</displayName>
 				<displayName count="other" draft="contributed">سىلوۋېنىيە تولارى</displayName>
+				<displayName draft="contributed">سىلوۋېنىيە تولارى</displayName>
 			</currency>
 			<currency type="SKK">
-				<displayName draft="contributed">سىلوۋاكىيە كورۇناسى</displayName>
 				<displayName count="one" draft="contributed">سىلوۋاكىيە كورۇناسى</displayName>
 				<displayName count="other" draft="contributed">سىلوۋاكىيە كورۇناسى</displayName>
+				<displayName draft="contributed">سىلوۋاكىيە كورۇناسى</displayName>
 			</currency>
 			<currency type="SLL">
-				<displayName draft="contributed">سېررالېئون لېئونېسى</displayName>
 				<displayName count="one" draft="contributed">سېررالېئون لېئونېسى</displayName>
 				<displayName count="other" draft="contributed">سېررالېئون لېئونېسى</displayName>
+				<displayName draft="contributed">سېررالېئون لېئونېسى</displayName>
 			</currency>
 			<currency type="SOS">
-				<displayName draft="contributed">سومالى شىللىڭى</displayName>
 				<displayName count="one" draft="contributed">سومالى شىللىڭى</displayName>
 				<displayName count="other" draft="contributed">سومالى شىللىڭى</displayName>
+				<displayName draft="contributed">سومالى شىللىڭى</displayName>
 			</currency>
 			<currency type="SRD">
-				<displayName draft="contributed">سۇرىنام دوللىرى</displayName>
 				<displayName count="one" draft="contributed">سۇرىنام دوللىرى</displayName>
 				<displayName count="other" draft="contributed">سۇرىنام دوللىرى</displayName>
+				<displayName draft="contributed">سۇرىنام دوللىرى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="SRG">
-				<displayName draft="contributed">سۇرىنام گۈلدىنى</displayName>
 				<displayName count="one" draft="contributed">سۇرىنام گۈلدىنى</displayName>
 				<displayName count="other" draft="contributed">سۇرىنام گۈلدىنى</displayName>
+				<displayName draft="contributed">سۇرىنام گۈلدىنى</displayName>
 			</currency>
 			<currency type="SSP">
-				<displayName draft="contributed">جەنۇبىي سۇدان فوندستېرلىڭى</displayName>
 				<displayName count="one" draft="contributed">جەنۇبىي سۇدان فوندستېرلىڭى</displayName>
 				<displayName count="other" draft="contributed">جەنۇبىي سۇدان فوندستېرلىڭى</displayName>
+				<displayName draft="contributed">جەنۇبىي سۇدان فوندستېرلىڭى</displayName>
 				<symbol alt="narrow">£</symbol>
 			</currency>
 			<currency type="STD">
-				<displayName draft="contributed">سان-تومې ۋە پىرىنسىپى دوبراسى</displayName>
 				<displayName count="one" draft="contributed">سان-تومې ۋە پىرىنسىپى دوبراسى</displayName>
 				<displayName count="other" draft="contributed">سان-تومې ۋە پىرىنسىپى دوبراسى</displayName>
+				<displayName draft="contributed">سان-تومې ۋە پىرىنسىپى دوبراسى</displayName>
 				<symbol alt="narrow">Db</symbol>
 			</currency>
 			<currency type="SUR">
-				<displayName draft="contributed">سوۋىت رۇبلىسى</displayName>
 				<displayName count="one" draft="contributed">سوۋىت رۇبلىسى</displayName>
 				<displayName count="other" draft="contributed">سوۋىت رۇبلىسى</displayName>
+				<displayName draft="contributed">سوۋىت رۇبلىسى</displayName>
 			</currency>
 			<currency type="SVC">
-				<displayName draft="contributed">سالۋادور كولونى</displayName>
 				<displayName count="one" draft="contributed">سالۋادور كولونى</displayName>
 				<displayName count="other" draft="contributed">سالۋادور كولونى</displayName>
+				<displayName draft="contributed">سالۋادور كولونى</displayName>
 			</currency>
 			<currency type="SYP">
-				<displayName draft="contributed">سۈرىيە فوندستېرلىڭى</displayName>
 				<displayName count="one" draft="contributed">سۈرىيە فوندستېرلىڭى</displayName>
 				<displayName count="other" draft="contributed">سۈرىيە فوندستېرلىڭى</displayName>
+				<displayName draft="contributed">سۈرىيە فوندستېرلىڭى</displayName>
 				<symbol alt="narrow">£</symbol>
 			</currency>
 			<currency type="SZL">
-				<displayName draft="contributed">سىۋېزىلاند لىلانگېنى</displayName>
 				<displayName count="one" draft="contributed">سىۋېزىلاند لىلانگېنى</displayName>
 				<displayName count="other" draft="contributed">سىۋېزىلاند لىلانگېنى</displayName>
+				<displayName draft="contributed">سىۋېزىلاند لىلانگېنى</displayName>
 			</currency>
 			<currency type="THB">
-				<displayName draft="contributed">تايلاند باختى</displayName>
 				<displayName count="one" draft="contributed">تايلاند باختى</displayName>
 				<displayName count="other" draft="contributed">تايلاند باختى</displayName>
+				<displayName draft="contributed">تايلاند باختى</displayName>
 				<symbol alt="narrow">฿</symbol>
 			</currency>
 			<currency type="TJR">
-				<displayName draft="contributed">تاجىكىستان رۇبلىسى</displayName>
 				<displayName count="one" draft="contributed">تاجىكىستان رۇبلىسى</displayName>
 				<displayName count="other" draft="contributed">تاجىكىستان رۇبلىسى</displayName>
+				<displayName draft="contributed">تاجىكىستان رۇبلىسى</displayName>
 			</currency>
 			<currency type="TJS">
-				<displayName draft="contributed">تاجىكىستان سومونىسى</displayName>
 				<displayName count="one" draft="contributed">تاجىكىستان سومونىسى</displayName>
 				<displayName count="other" draft="contributed">تاجىكىستان سومونىسى</displayName>
+				<displayName draft="contributed">تاجىكىستان سومونىسى</displayName>
 			</currency>
 			<currency type="TMM">
-				<displayName draft="contributed">تۈركمەنىستان ماناتى (1993–2009)</displayName>
 				<displayName count="one" draft="contributed">تۈركمەنىستان ماناتى (1993–2009)</displayName>
 				<displayName count="other" draft="contributed">تۈركمەنىستان ماناتى (1993–2009)</displayName>
+				<displayName draft="contributed">تۈركمەنىستان ماناتى (1993–2009)</displayName>
 			</currency>
 			<currency type="TMT">
-				<displayName draft="contributed">تۈركمەنىستان ماناتى</displayName>
 				<displayName count="one" draft="contributed">تۈركمەنىستان ماناتى</displayName>
 				<displayName count="other" draft="contributed">تۈركمەنىستان ماناتى</displayName>
+				<displayName draft="contributed">تۈركمەنىستان ماناتى</displayName>
 			</currency>
 			<currency type="TND">
-				<displayName draft="contributed">تۇنىس دىنارى</displayName>
 				<displayName count="one" draft="contributed">تۇنىس دىنارى</displayName>
 				<displayName count="other" draft="contributed">تۇنىس دىنارى</displayName>
+				<displayName draft="contributed">تۇنىس دىنارى</displayName>
 			</currency>
 			<currency type="TOP">
-				<displayName draft="contributed">تونگا پائانگاسى</displayName>
 				<displayName count="one" draft="contributed">تونگا پائانگاسى</displayName>
 				<displayName count="other" draft="contributed">تونگا پائانگاسى</displayName>
+				<displayName draft="contributed">تونگا پائانگاسى</displayName>
 				<symbol alt="narrow">T$</symbol>
 			</currency>
 			<currency type="TPE">
-				<displayName draft="contributed">تىمور ئېسكۇدوسى</displayName>
 				<displayName count="one" draft="contributed">تىمور ئېسكۇدوسى</displayName>
 				<displayName count="other" draft="contributed">تىمور ئېسكۇدوسى</displayName>
+				<displayName draft="contributed">تىمور ئېسكۇدوسى</displayName>
 			</currency>
 			<currency type="TRL">
-				<displayName draft="contributed">تۈركىيە لىراسى (1922–2005)</displayName>
 				<displayName count="one" draft="contributed">تۈركىيە لىراسى (1922–2005)</displayName>
 				<displayName count="other" draft="contributed">تۈركىيە لىراسى (1922–2005)</displayName>
+				<displayName draft="contributed">تۈركىيە لىراسى (1922–2005)</displayName>
 			</currency>
 			<currency type="TRY">
-				<displayName draft="contributed">تۈركىيە لىراسى</displayName>
 				<displayName count="one" draft="contributed">تۈركىيە لىراسى</displayName>
 				<displayName count="other" draft="contributed">تۈركىيە لىراسى</displayName>
+				<displayName draft="contributed">تۈركىيە لىراسى</displayName>
 				<symbol alt="narrow">₺</symbol>
 				<symbol alt="variant">TL</symbol>
 			</currency>
 			<currency type="TTD">
-				<displayName draft="contributed">تىرىنىداد ۋە توباگو دوللىرى</displayName>
 				<displayName count="one" draft="contributed">تىرىنىداد ۋە توباگو دوللىرى</displayName>
 				<displayName count="other" draft="contributed">تىرىنىداد ۋە توباگو دوللىرى</displayName>
+				<displayName draft="contributed">تىرىنىداد ۋە توباگو دوللىرى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="TWD">
-				<displayName draft="contributed">يېڭى تەيۋەن دوللىرى</displayName>
 				<displayName count="one" draft="contributed">يېڭى تەيۋەن دوللىرى</displayName>
 				<displayName count="other" draft="contributed">يېڭى تەيۋەن دوللىرى</displayName>
+				<displayName draft="contributed">يېڭى تەيۋەن دوللىرى</displayName>
 				<symbol alt="narrow">NT$</symbol>
 				<symbol>NT$</symbol>
 			</currency>
 			<currency type="TZS">
-				<displayName draft="contributed">تانزانىيە شىللىڭى</displayName>
 				<displayName count="one" draft="contributed">تانزانىيە شىللىڭى</displayName>
 				<displayName count="other" draft="contributed">تانزانىيە شىللىڭى</displayName>
+				<displayName draft="contributed">تانزانىيە شىللىڭى</displayName>
 			</currency>
 			<currency type="UAH">
-				<displayName draft="contributed">ئۇكرائىنا خرىۋناسى</displayName>
 				<displayName count="one" draft="contributed">ئۇكرائىنا خرىۋناسى</displayName>
 				<displayName count="other" draft="contributed">ئۇكرائىنا خرىۋناسى</displayName>
+				<displayName draft="contributed">ئۇكرائىنا خرىۋناسى</displayName>
 				<symbol alt="narrow">₴</symbol>
 			</currency>
 			<currency type="UAK">
-				<displayName draft="contributed">ئۇكرائىنا كاربوۋانېتسى</displayName>
 				<displayName count="one" draft="contributed">ئۇكرائىنا كاربوۋانېتسى</displayName>
 				<displayName count="other" draft="contributed">ئۇكرائىنا كاربوۋانېتسى</displayName>
+				<displayName draft="contributed">ئۇكرائىنا كاربوۋانېتسى</displayName>
 			</currency>
 			<currency type="UGS">
-				<displayName draft="contributed">ئۇگاندا شىللىڭى (1966–1987)</displayName>
 				<displayName count="one" draft="contributed">ئۇگاندا شىللىڭى (1966–1987)</displayName>
 				<displayName count="other" draft="contributed">ئۇگاندا شىللىڭى (1966–1987)</displayName>
+				<displayName draft="contributed">ئۇگاندا شىللىڭى (1966–1987)</displayName>
 			</currency>
 			<currency type="UGX">
-				<displayName draft="contributed">ئۇگاندا شىللىڭى</displayName>
 				<displayName count="one" draft="contributed">ئۇگاندا شىللىڭى</displayName>
 				<displayName count="other" draft="contributed">ئۇگاندا شىللىڭى</displayName>
+				<displayName draft="contributed">ئۇگاندا شىللىڭى</displayName>
 			</currency>
 			<currency type="USD">
-				<displayName draft="contributed">ئامېرىكا دوللىرى</displayName>
 				<displayName count="one" draft="contributed">ئامېرىكا دوللىرى</displayName>
 				<displayName count="other" draft="contributed">ئامېرىكا دوللىرى</displayName>
-				<symbol draft="contributed">$</symbol>
+				<displayName draft="contributed">ئامېرىكا دوللىرى</displayName>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">$</symbol>
 			</currency>
 			<currency type="USN">
-				<displayName draft="contributed">ئامېرىكا دوللىرى (كېيىنكى كۈن)</displayName>
 				<displayName count="one" draft="contributed">ئامېرىكا دوللىرى (كېيىنكى كۈن)</displayName>
 				<displayName count="other" draft="contributed">ئامېرىكا دوللىرى (كېيىنكى كۈن)</displayName>
+				<displayName draft="contributed">ئامېرىكا دوللىرى (كېيىنكى كۈن)</displayName>
 			</currency>
 			<currency type="USS">
-				<displayName draft="contributed">ئامېرىكا دوللىرى (ئوخشاش كۈن)</displayName>
 				<displayName count="one" draft="contributed">ئامېرىكا دوللىرى (ئوخشاش كۈن)</displayName>
 				<displayName count="other" draft="contributed">ئامېرىكا دوللىرى (ئوخشاش كۈن)</displayName>
+				<displayName draft="contributed">ئامېرىكا دوللىرى (ئوخشاش كۈن)</displayName>
 			</currency>
 			<currency type="UYI">
-				<displayName draft="contributed">ئۇرۇگۋاي پېسوسى (ئىندېكىسلاش بىرلىكى)</displayName>
 				<displayName count="one" draft="contributed">ئۇرۇگۋاي پېسوسى (ئىندېكىسلاش بىرلىكى)</displayName>
 				<displayName count="other" draft="contributed">ئۇرۇگۋاي پېسوسى (ئىندېكىسلاش بىرلىكى)</displayName>
+				<displayName draft="contributed">ئۇرۇگۋاي پېسوسى (ئىندېكىسلاش بىرلىكى)</displayName>
 			</currency>
 			<currency type="UYP">
-				<displayName draft="contributed">ئۇرۇگۋاي پېسوسى (1975–1993)</displayName>
 				<displayName count="one" draft="contributed">ئۇرۇگۋاي پېسوسى (1975–1993)</displayName>
 				<displayName count="other" draft="contributed">ئۇرۇگۋاي پېسوسى (1975–1993)</displayName>
+				<displayName draft="contributed">ئۇرۇگۋاي پېسوسى (1975–1993)</displayName>
 			</currency>
 			<currency type="UYU">
-				<displayName draft="contributed">ئۇرۇگۋاي پېسوسى</displayName>
 				<displayName count="one" draft="contributed">ئۇرۇگۋاي پېسوسى</displayName>
 				<displayName count="other" draft="contributed">ئۇرۇگۋاي پېسوسى</displayName>
+				<displayName draft="contributed">ئۇرۇگۋاي پېسوسى</displayName>
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="UZS">
-				<displayName draft="contributed">ئۆزبېكىستان سومى</displayName>
 				<displayName count="one" draft="contributed">ئۆزبېكىستان سومى</displayName>
 				<displayName count="other" draft="contributed">ئۆزبېكىستان سومى</displayName>
+				<displayName draft="contributed">ئۆزبېكىستان سومى</displayName>
 			</currency>
 			<currency type="VEB">
-				<displayName draft="contributed">ۋېنېزۇئېلا بولىۋارى (1871–2008)</displayName>
 				<displayName count="one" draft="contributed">ۋېنېزۇئېلا بولىۋارى (1871–2008)</displayName>
 				<displayName count="other" draft="contributed">ۋېنېزۇئېلا بولىۋارى (1871–2008)</displayName>
+				<displayName draft="contributed">ۋېنېزۇئېلا بولىۋارى (1871–2008)</displayName>
 			</currency>
 			<currency type="VEF">
-				<displayName draft="contributed">ۋېنېزۇئېلا بولىۋارى</displayName>
 				<displayName count="one" draft="contributed">ۋېنېزۇئېلا بولىۋارى</displayName>
 				<displayName count="other" draft="contributed">ۋېنېزۇئېلا بولىۋارى</displayName>
+				<displayName draft="contributed">ۋېنېزۇئېلا بولىۋارى</displayName>
 				<symbol alt="narrow">Bs</symbol>
 			</currency>
 			<currency type="VND">
-				<displayName draft="contributed">ۋىيېتنام دوڭى</displayName>
 				<displayName count="one" draft="contributed">ۋىيېتنام دوڭى</displayName>
 				<displayName count="other" draft="contributed">ۋىيېتنام دوڭى</displayName>
+				<displayName draft="contributed">ۋىيېتنام دوڭى</displayName>
 				<symbol alt="narrow">₫</symbol>
 				<symbol>₫</symbol>
 			</currency>
 			<currency type="VNN">
-				<displayName draft="contributed">ۋىيېتنام دوڭى (1978–1985)</displayName>
 				<displayName count="one" draft="contributed">ۋىيېتنام دوڭى (1978–1985)</displayName>
 				<displayName count="other" draft="contributed">ۋىيېتنام دوڭى (1978–1985)</displayName>
+				<displayName draft="contributed">ۋىيېتنام دوڭى (1978–1985)</displayName>
 			</currency>
 			<currency type="VUV">
-				<displayName draft="contributed">ۋانۇئاتۇ ۋاتۇسى</displayName>
 				<displayName count="one" draft="contributed">ۋانۇئاتۇ ۋاتۇسى</displayName>
 				<displayName count="other" draft="contributed">ۋانۇئاتۇ ۋاتۇسى</displayName>
+				<displayName draft="contributed">ۋانۇئاتۇ ۋاتۇسى</displayName>
 			</currency>
 			<currency type="WST">
-				<displayName draft="contributed">ساموئا تالاسى</displayName>
 				<displayName count="one" draft="contributed">ساموئا تالاسى</displayName>
 				<displayName count="other" draft="contributed">ساموئا تالاسى</displayName>
+				<displayName draft="contributed">ساموئا تالاسى</displayName>
 			</currency>
 			<currency type="XAF">
-				<displayName draft="contributed">ئافرىقا قىتئەسى پۇل-مۇئامىلە ئىتتىپاقى فرانكى</displayName>
 				<displayName count="one" draft="contributed">ئافرىقا قىتئەسى پۇل-مۇئامىلە ئىتتىپاقى فرانكى</displayName>
 				<displayName count="other" draft="contributed">ئافرىقا قىتئەسى پۇل-مۇئامىلە ئىتتىپاقى فرانكى</displayName>
+				<displayName draft="contributed">ئافرىقا قىتئەسى پۇل-مۇئامىلە ئىتتىپاقى فرانكى</displayName>
 				<symbol>FCFA</symbol>
 			</currency>
 			<currency type="XAG">
-				<displayName draft="contributed">كۈمۈش</displayName>
 				<displayName count="one" draft="contributed">ئالتۇن ئۈنسىيە بىرلىكىدىكى كۈمۈش</displayName>
 				<displayName count="other" draft="contributed">ئالتۇن ئۈنسىيە بىرلىكىدىكى كۈمۈش</displayName>
+				<displayName draft="contributed">كۈمۈش</displayName>
 			</currency>
 			<currency type="XAU">
-				<displayName draft="contributed">ئالتۇن</displayName>
 				<displayName count="one" draft="contributed">ئالتۇن ئۈنسىيە بىرلىكىدىكى ئالتۇن</displayName>
 				<displayName count="other" draft="contributed">ئالتۇن ئۈنسىيە بىرلىكىدىكى ئالتۇن</displayName>
+				<displayName draft="contributed">ئالتۇن</displayName>
 			</currency>
 			<currency type="XBA">
-				<displayName draft="contributed">ياۋروپا مۇرەككەپ بىرلىكى</displayName>
 				<displayName count="one" draft="contributed">ياۋروپا مۇرەككەپ بىرلىكى</displayName>
 				<displayName count="other" draft="contributed">ياۋروپا مۇرەككەپ بىرلىكى</displayName>
+				<displayName draft="contributed">ياۋروپا مۇرەككەپ بىرلىكى</displayName>
 			</currency>
 			<currency type="XBB">
-				<displayName draft="contributed">ياۋروپا پۇل بىرلىكى (XBB)</displayName>
 				<displayName count="one" draft="contributed">ياۋروپا پۇل بىرلىكى (XBB)</displayName>
 				<displayName count="other" draft="contributed">ياۋروپا پۇل بىرلىكى (XBB)</displayName>
+				<displayName draft="contributed">ياۋروپا پۇل بىرلىكى (XBB)</displayName>
 			</currency>
 			<currency type="XBC">
-				<displayName draft="contributed">ياۋروپا ھېسابات بىرلىكى (XBC)</displayName>
 				<displayName count="one" draft="contributed">ياۋروپا ھېسابات بىرلىكى (XBC)</displayName>
 				<displayName count="other" draft="contributed">ياۋروپا ھېسابات بىرلىكى (XBC)</displayName>
+				<displayName draft="contributed">ياۋروپا ھېسابات بىرلىكى (XBC)</displayName>
 			</currency>
 			<currency type="XBD">
-				<displayName draft="contributed">ياۋروپا ھېسابات بىرلىكى (XBD)</displayName>
 				<displayName count="one" draft="contributed">ياۋروپا ھېسابات بىرلىكى (XBD)</displayName>
 				<displayName count="other" draft="contributed">ياۋروپا ھېسابات بىرلىكى (XBD)</displayName>
+				<displayName draft="contributed">ياۋروپا ھېسابات بىرلىكى (XBD)</displayName>
 			</currency>
 			<currency type="XCD">
-				<displayName draft="contributed">شەرقىي كارىب دوللىرى</displayName>
 				<displayName count="one" draft="contributed">شەرقىي كارىب دوللىرى</displayName>
 				<displayName count="other" draft="contributed">شەرقىي كارىب دوللىرى</displayName>
+				<displayName draft="contributed">شەرقىي كارىب دوللىرى</displayName>
 				<symbol alt="narrow">$</symbol>
 				<symbol>EC$</symbol>
 			</currency>
 			<currency type="XDR">
-				<displayName draft="contributed">ئالاھىدە پۇل ئېلىش ھوقۇقى</displayName>
 				<displayName count="one" draft="contributed">ئالاھىدە پۇل ئېلىش ھوقۇقى</displayName>
 				<displayName count="other" draft="contributed">ئالاھىدە پۇل ئېلىش ھوقۇقى</displayName>
+				<displayName draft="contributed">ئالاھىدە پۇل ئېلىش ھوقۇقى</displayName>
 			</currency>
 			<currency type="XEU">
-				<displayName draft="contributed">ياۋروپا پۇل بىرلىكى</displayName>
 				<displayName count="one" draft="contributed">ياۋروپا پۇل بىرلىكى</displayName>
 				<displayName count="other" draft="contributed">ياۋروپا پۇل بىرلىكى</displayName>
+				<displayName draft="contributed">ياۋروپا پۇل بىرلىكى</displayName>
 			</currency>
 			<currency type="XFO">
-				<displayName draft="contributed">فىرانسىيە ئالتۇن فرانكى</displayName>
 				<displayName count="one" draft="contributed">فىرانسىيە ئالتۇن فرانكى</displayName>
 				<displayName count="other" draft="contributed">فىرانسىيە ئالتۇن فرانكى</displayName>
+				<displayName draft="contributed">فىرانسىيە ئالتۇن فرانكى</displayName>
 			</currency>
 			<currency type="XFU">
-				<displayName draft="contributed">فىرانسىيە UIC فرانكى</displayName>
 				<displayName count="one" draft="contributed">فىرانسىيە UIC فرانكى</displayName>
 				<displayName count="other" draft="contributed">فىرانسىيە UIC فرانكى</displayName>
+				<displayName draft="contributed">فىرانسىيە UIC فرانكى</displayName>
 			</currency>
 			<currency type="XOF">
-				<displayName draft="contributed">ئافرىقا قىتئەسى پۇل-مۇئامىلە ئىتتىپاقى فرانكى (BCEAO)</displayName>
 				<displayName count="one" draft="contributed">ئافرىقا قىتئەسى پۇل-مۇئامىلە ئىتتىپاقى فرانكى (BCEAO)</displayName>
 				<displayName count="other" draft="contributed">ئافرىقا قىتئەسى پۇل-مۇئامىلە ئىتتىپاقى فرانكى (BCEAO)</displayName>
+				<displayName draft="contributed">ئافرىقا قىتئەسى پۇل-مۇئامىلە ئىتتىپاقى فرانكى (BCEAO)</displayName>
 				<symbol>CFA</symbol>
 			</currency>
 			<currency type="XPD">
-				<displayName draft="contributed">پاللادىي</displayName>
 				<displayName count="one" draft="contributed">ئالتۇن ئۈنسىيە بىرلىكىدىكى پاللادىي</displayName>
 				<displayName count="other" draft="contributed">ئالتۇن ئۈنسىيە بىرلىكىدىكى پاللادىي</displayName>
+				<displayName draft="contributed">پاللادىي</displayName>
 			</currency>
 			<currency type="XPF">
-				<displayName draft="contributed">تىنچ ئوكيان پۇل-مۇئامىلە ئورتاق گەۋدىسى فرانكى</displayName>
 				<displayName count="one" draft="contributed">تىنچ ئوكيان پۇل-مۇئامىلە ئورتاق گەۋدىسى فرانكى</displayName>
 				<displayName count="other" draft="contributed">تىنچ ئوكيان پۇل-مۇئامىلە ئورتاق گەۋدىسى فرانكى</displayName>
+				<displayName draft="contributed">تىنچ ئوكيان پۇل-مۇئامىلە ئورتاق گەۋدىسى فرانكى</displayName>
 				<symbol>CFPF</symbol>
 			</currency>
 			<currency type="XPT">
-				<displayName draft="contributed">پىلاتىنا</displayName>
 				<displayName count="one" draft="contributed">ئالتۇن ئۈنسىيە بىرلىكىدىكى پىلاتىنا</displayName>
 				<displayName count="other" draft="contributed">ئالتۇن ئۈنسىيە بىرلىكىدىكى پىلاتىنا</displayName>
+				<displayName draft="contributed">پىلاتىنا</displayName>
 			</currency>
 			<currency type="XRE">
-				<displayName draft="contributed">RINET فوندى</displayName>
 				<displayName count="one" draft="contributed">RINET فوندى بىرلىكى</displayName>
 				<displayName count="other" draft="contributed">RINET فوندى بىرلىكى</displayName>
+				<displayName draft="contributed">RINET فوندى</displayName>
 			</currency>
 			<currency type="XSU">
-				<displayName draft="contributed">سۇكرې</displayName>
 				<displayName count="one" draft="contributed">سۇكرې</displayName>
 				<displayName count="other" draft="contributed">سۇكرې</displayName>
+				<displayName draft="contributed">سۇكرې</displayName>
 			</currency>
 			<currency type="XTS">
-				<displayName draft="contributed">پۇل سىناش بىرلىكى</displayName>
 				<displayName count="one" draft="contributed">پۇل سىناش بىرلىكى</displayName>
 				<displayName count="other" draft="contributed">پۇل سىناش بىرلىكى</displayName>
+				<displayName draft="contributed">پۇل سىناش بىرلىكى</displayName>
 			</currency>
 			<currency type="XUA">
-				<displayName draft="contributed">ئاسىيا تەرەققىيات بانكىسى ھېسابات بىرلىكى</displayName>
 				<displayName count="one" draft="contributed">ئاسىيا تەرەققىيات بانكىسى ھېسابات بىرلىكى</displayName>
 				<displayName count="other" draft="contributed">ئاسىيا تەرەققىيات بانكىسى ھېسابات بىرلىكى</displayName>
+				<displayName draft="contributed">ئاسىيا تەرەققىيات بانكىسى ھېسابات بىرلىكى</displayName>
 			</currency>
 			<currency type="XXX">
-				<displayName draft="contributed">يوچۇن پۇل</displayName>
 				<displayName count="one" draft="contributed">(يوچۇن پۇل بىرلىكى)</displayName>
 				<displayName count="other" draft="contributed">(يوچۇن پۇل)</displayName>
+				<displayName draft="contributed">يوچۇن پۇل</displayName>
 			</currency>
 			<currency type="YDD">
-				<displayName draft="contributed">يەمەن دىنارى</displayName>
 				<displayName count="one" draft="contributed">يەمەن دىنارى</displayName>
 				<displayName count="other" draft="contributed">يەمەن دىنارى</displayName>
+				<displayName draft="contributed">يەمەن دىنارى</displayName>
 			</currency>
 			<currency type="YER">
-				<displayName draft="contributed">يەمەن رىيالى</displayName>
 				<displayName count="one" draft="contributed">يەمەن رىيالى</displayName>
 				<displayName count="other" draft="contributed">يەمەن رىيالى</displayName>
+				<displayName draft="contributed">يەمەن رىيالى</displayName>
 			</currency>
 			<currency type="YUD">
-				<displayName draft="contributed">يۇگوسلاۋىيە قاتتىق دىنارى (1966–1990)</displayName>
 				<displayName count="one" draft="contributed">يۇگوسلاۋىيە قاتتىق دىنارى (1966–1990)</displayName>
 				<displayName count="other" draft="contributed">يۇگوسلاۋىيە قاتتىق دىنارى (1966–1990)</displayName>
+				<displayName draft="contributed">يۇگوسلاۋىيە قاتتىق دىنارى (1966–1990)</displayName>
 			</currency>
 			<currency type="YUM">
-				<displayName draft="contributed">يۇگوسلاۋىيە يېڭى دىنارى (1994–2002)</displayName>
 				<displayName count="one" draft="contributed">يۇگوسلاۋىيە يېڭى دىنارى (1994–2002)</displayName>
 				<displayName count="other" draft="contributed">يۇگوسلاۋىيە يېڭى دىنارى (1994–2002)</displayName>
+				<displayName draft="contributed">يۇگوسلاۋىيە يېڭى دىنارى (1994–2002)</displayName>
 			</currency>
 			<currency type="YUN">
-				<displayName draft="contributed">يۇگوسلاۋىيە ئالماشتۇرۇشچان دىنارى (1990–1992)</displayName>
 				<displayName count="one" draft="contributed">يۇگوسلاۋىيە ئالماشتۇرۇشچان دىنارى (1990–1992)</displayName>
 				<displayName count="other" draft="contributed">يۇگوسلاۋىيە ئالماشتۇرۇشچان دىنارى (1990–1992)</displayName>
+				<displayName draft="contributed">يۇگوسلاۋىيە ئالماشتۇرۇشچان دىنارى (1990–1992)</displayName>
 			</currency>
 			<currency type="YUR">
-				<displayName draft="contributed">يۇگوسلاۋىيە ئىسلاھات دىنارى (1992–1993)</displayName>
 				<displayName count="one" draft="contributed">يۇگوسلاۋىيە ئىسلاھات دىنارى (1992–1993)</displayName>
 				<displayName count="other" draft="contributed">يۇگوسلاۋىيە ئىسلاھات دىنارى (1992–1993)</displayName>
+				<displayName draft="contributed">يۇگوسلاۋىيە ئىسلاھات دىنارى (1992–1993)</displayName>
 			</currency>
 			<currency type="ZAL">
-				<displayName draft="contributed">جەنۇبىي ئافرىقا راندى (پۇل–مۇئامىلە)</displayName>
 				<displayName count="one" draft="contributed">جەنۇبىي ئافرىقا راندى (پۇل–مۇئامىلە)</displayName>
 				<displayName count="other" draft="contributed">جەنۇبىي ئافرىقا راندى (پۇل–مۇئامىلە)</displayName>
+				<displayName draft="contributed">جەنۇبىي ئافرىقا راندى (پۇل–مۇئامىلە)</displayName>
 			</currency>
 			<currency type="ZAR">
-				<displayName draft="contributed">جەنۇبىي ئافرىقا راندى</displayName>
 				<displayName count="one" draft="contributed">جەنۇبىي ئافرىقا راندى</displayName>
 				<displayName count="other" draft="contributed">جەنۇبىي ئافرىقا راندى</displayName>
+				<displayName draft="contributed">جەنۇبىي ئافرىقا راندى</displayName>
 				<symbol alt="narrow">R</symbol>
 			</currency>
 			<currency type="ZMK">
-				<displayName draft="contributed">زامبىيە كۋاچاسى (1968–2012)</displayName>
 				<displayName count="one" draft="contributed">زامبىيە كۋاچاسى (1968–2012)</displayName>
 				<displayName count="other" draft="contributed">زامبىيە كۋاچاسى (1968–2012)</displayName>
+				<displayName draft="contributed">زامبىيە كۋاچاسى (1968–2012)</displayName>
 			</currency>
 			<currency type="ZMW">
-				<displayName draft="contributed">زامبىيە كۋاچاسى</displayName>
 				<displayName count="one" draft="contributed">زامبىيە كۋاچاسى</displayName>
 				<displayName count="other" draft="contributed">زامبىيە كۋاچاسى</displayName>
+				<displayName draft="contributed">زامبىيە كۋاچاسى</displayName>
 				<symbol alt="narrow">ZK</symbol>
 			</currency>
 			<currency type="ZRN">
-				<displayName draft="contributed">زايىر يېڭى زايىرى (1993–1998)</displayName>
 				<displayName count="one" draft="contributed">زايىر يېڭى زايىرى (1993–1998)</displayName>
 				<displayName count="other" draft="contributed">زايىر يېڭى زايىرى (1993–1998)</displayName>
+				<displayName draft="contributed">زايىر يېڭى زايىرى (1993–1998)</displayName>
 			</currency>
 			<currency type="ZRZ">
-				<displayName draft="contributed">زايىر زايىرى (1971–1993)</displayName>
 				<displayName count="one" draft="contributed">زايىر زايىرى (1971–1993)</displayName>
 				<displayName count="other" draft="contributed">زايىر زايىرى (1971–1993)</displayName>
+				<displayName draft="contributed">زايىر زايىرى (1971–1993)</displayName>
 			</currency>
 			<currency type="ZWD">
-				<displayName draft="contributed">زىمبابۋې دوللىرى (1980–2008)</displayName>
 				<displayName count="one" draft="contributed">زىمبابۋې دوللىرى (1980–2008)</displayName>
 				<displayName count="other" draft="contributed">زىمبابۋې دوللىرى (1980–2008)</displayName>
+				<displayName draft="contributed">زىمبابۋې دوللىرى (1980–2008)</displayName>
 			</currency>
 			<currency type="ZWL">
-				<displayName draft="contributed">زىمبابۋې دوللىرى (2009)</displayName>
 				<displayName count="one" draft="contributed">زىمبابۋې دوللىرى (2009)</displayName>
 				<displayName count="other" draft="contributed">زىمبابۋې دوللىرى (2009)</displayName>
+				<displayName draft="contributed">زىمبابۋې دوللىرى (2009)</displayName>
 			</currency>
 			<currency type="ZWR">
-				<displayName draft="contributed">زىمبابۋې دوللىرى (2008)</displayName>
 				<displayName count="one" draft="contributed">زىمبابۋې دوللىرى (2008)</displayName>
 				<displayName count="other" draft="contributed">زىمبابۋې دوللىرى (2008)</displayName>
+				<displayName draft="contributed">زىمبابۋې دوللىرى (2008)</displayName>
 			</currency>
 		</currencies>
 		<miscPatterns numberSystem="arab">
@@ -9500,6 +9501,23 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$ZW">\p{Line_Break=ZWSpace}</variable>
 			</variables>
 			<segmentRules>
+				<!-- LB 4  Always break after hard line breaks (but never between CR and LF). -->
+				<rule id="4">$BK ÷</rule>
+				<!-- LB 5  Treat CR followed by LF, as well as CR, LF and NL as hard line breaks. -->
+				<rule id="5.01">$CR × $LF</rule>
+				<rule id="5.02">$CR ÷</rule>
+				<rule id="5.03">$LF ÷</rule>
+				<rule id="5.04">$NL ÷</rule>
+				<!-- LB 6  Do not break before hard line breaks. -->
+				<rule id="6">× ( $BK | $CR | $LF | $NL )</rule>
+				<!-- LB 7  Do not break before spaces or zero-width space. -->
+				<rule id="7.01">× $SP</rule>
+				<rule id="7.02">× $ZW</rule>
+				<!-- LB 8  Break before any character following a zero-width space, even if one or more spaces intervene. -->
+				<rule id="8">$ZW $SP* ÷</rule>
+				<!-- LB 9  Do not break a combining character sequence; treat it as if it has the LB class of the base character -->
+				<!-- in all of the following rules. (Where X is any line break class except SP, BK, CR, LF, NL or ZW.) -->
+				<rule id="9">$Spec2_ × $CM</rule>
 				<!-- WARNING: this is done by modifying the variable values for all but SP.... That is, $AL is really ($AI $CM*)! -->
 				<!-- LB 11  Do not break before or after WORD JOINER and related characters. -->
 				<rule id="11.01">× $WJ</rule>
@@ -9579,23 +9597,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="30.02">$CP × ($AL | $HL | $NU)</rule>
 				<!-- LB 30a  Do not break between Regional Indicators. -->
 				<rule id="30.11">$RI × $RI</rule>
-				<!-- LB 4  Always break after hard line breaks (but never between CR and LF). -->
-				<rule id="4">$BK ÷</rule>
-				<!-- LB 5  Treat CR followed by LF, as well as CR, LF and NL as hard line breaks. -->
-				<rule id="5.01">$CR × $LF</rule>
-				<rule id="5.02">$CR ÷</rule>
-				<rule id="5.03">$LF ÷</rule>
-				<rule id="5.04">$NL ÷</rule>
-				<!-- LB 6  Do not break before hard line breaks. -->
-				<rule id="6">× ( $BK | $CR | $LF | $NL )</rule>
-				<!-- LB 7  Do not break before spaces or zero-width space. -->
-				<rule id="7.01">× $SP</rule>
-				<rule id="7.02">× $ZW</rule>
-				<!-- LB 8  Break before any character following a zero-width space, even if one or more spaces intervene. -->
-				<rule id="8">$ZW $SP* ÷</rule>
-				<!-- LB 9  Do not break a combining character sequence; treat it as if it has the LB class of the base character -->
-				<!-- in all of the following rules. (Where X is any line break class except SP, BK, CR, LF, NL or ZW.) -->
-				<rule id="9">$Spec2_ × $CM</rule>
 			</segmentRules>
 		</segmentation>
 		<segmentation type="SentenceBreak">
@@ -9630,11 +9631,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$Upper">($Upper $FE*)</variable>
 			</variables>
 			<segmentRules>
-				<!-- Note the fix to $Sp*, $Sep? -->
-				<rule id="10">( $STerm | $ATerm ) $Close* $Sp* × ( $Sp | $Sep | $CR | $LF )</rule>
-				<rule id="11">( $STerm | $ATerm ) $Close* $Sp* ($Sep | $CR | $LF)? ÷</rule>
-				<!-- Otherwise, do not break -->
-				<rule id="12">× $Any</rule>
 				<!-- Do not break within CRLF -->
 				<rule id="3">$CR × $LF</rule>
 				<!-- Break after paragraph separators. -->
@@ -9653,6 +9649,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="8.1">($STerm | $ATerm) $Close* $Sp* × ($SContinue | $STerm | $ATerm)</rule>
 				<!-- Break after sentence terminators, but include closing punctuation, trailing spaces, and (optionally) a paragraph separator. -->
 				<rule id="9">( $STerm | $ATerm ) $Close* × ( $Close | $Sp | $Sep | $CR | $LF )</rule>
+				<!-- Note the fix to $Sp*, $Sep? -->
+				<rule id="10">( $STerm | $ATerm ) $Close* $Sp* × ( $Sp | $Sep | $CR | $LF )</rule>
+				<rule id="11">( $STerm | $ATerm ) $Close* $Sp* ($Sep | $CR | $LF)? ÷</rule>
+				<!-- Otherwise, do not break -->
+				<rule id="12">× $Any</rule>
 			</segmentRules>
 		</segmentation>
 		<segmentation type="WordBreak">
@@ -9685,13 +9686,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$Regional_Indicator">($Regional_Indicator $FE*)</variable>
 			</variables>
 			<segmentRules>
-				<rule id="10">$Numeric × $ALetter</rule>
-				<rule id="11">$Numeric ($MidNum | $MidNumLet) × $Numeric</rule>
-				<rule id="12">$Numeric × ($MidNum | $MidNumLet) $Numeric</rule>
-				<rule id="13">$Katakana × $Katakana</rule>
-				<rule id="13.1">($ALetter | $Numeric | $Katakana | $ExtendNumLet) × $ExtendNumLet</rule>
-				<rule id="13.2">$ExtendNumLet × ($ALetter | $Numeric | $Katakana)</rule>
-				<rule id="13.3">$Regional_Indicator × $Regional_Indicator</rule>
 				<rule id="3">$CR × $LF</rule>
 				<rule id="3.1">($Newline | $CR | $LF) ÷</rule>
 				<rule id="3.2">÷ ($Newline | $CR | $LF)</rule>
@@ -9706,6 +9700,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="7">$ALetter ($MidLetter | $MidNumLet) × $ALetter</rule>
 				<rule id="8">$Numeric × $Numeric</rule>
 				<rule id="9">$ALetter × $Numeric</rule>
+				<rule id="10">$Numeric × $ALetter</rule>
+				<rule id="11">$Numeric ($MidNum | $MidNumLet) × $Numeric</rule>
+				<rule id="12">$Numeric × ($MidNum | $MidNumLet) $Numeric</rule>
+				<rule id="13">$Katakana × $Katakana</rule>
+				<rule id="13.1">($ALetter | $Numeric | $Katakana | $ExtendNumLet) × $ExtendNumLet</rule>
+				<rule id="13.2">$ExtendNumLet × ($ALetter | $Numeric | $Katakana)</rule>
+				<rule id="13.3">$Regional_Indicator × $Regional_Indicator</rule>
 			</segmentRules>
 		</segmentation>
 	</segmentations>

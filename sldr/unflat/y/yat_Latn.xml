@@ -6,14 +6,14 @@
 		<!-- name.en(yat)="Yambeta" -->
 		<language type="yat"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="CM"/>
+			<sil:identity defaultRegion="CM" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
+		<exemplarCharacters draft="unconfirmed">[a á b c d e é ɛ {ɛ́} ə {ə́} f g i í j k l m n {ny} ŋ o ó ɔ {ɔ́} p s t u ú w y ʼ]</exemplarCharacters>
 		<exemplarCharacters type="auxiliary" draft="unconfirmed">[h q r v x z]</exemplarCharacters>
 		<exemplarCharacters type="index" draft="unconfirmed">[A B C D E Ɛ Ə F G I J K L M N {Ny} Ŋ O Ɔ P S T U W Y ʼ]</exemplarCharacters>
 		<exemplarCharacters type="punctuation" draft="unconfirmed">[, . ; ' "! ?]</exemplarCharacters>
-		<exemplarCharacters draft="unconfirmed">[a á b c d e é ɛ {ɛ́} ə {ə́} f g i í j k l m n {ny} ŋ o ó ɔ {ɔ́} p s t u ú w y ʼ]</exemplarCharacters>
 	</characters>
 	<!--  Enter the plural rules (template example is for only one plural form)  -->
 	<plurals>

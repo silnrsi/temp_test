@@ -5,11 +5,11 @@
 		<!-- name.en(ttq)="Tawallammat Tamajaq" -->
 		<language type="ttq"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="NE"/>
+			<sil:identity defaultRegion="NE" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[p v x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a ɑ b c d {ḍ} e ə f g {gh} h i j k {kh} l {ḷ} m n ŋ o q r s {sh} t {ṭ} u w y z {ẓ}]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[p v x]</exemplarCharacters>
 	</characters>
 </ldml>

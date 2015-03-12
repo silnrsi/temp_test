@@ -5,11 +5,11 @@
 		<!-- name.en(taq)="Tamasheq" -->
 		<language type="taq"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="ML"/>
+			<sil:identity defaultRegion="ML" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c p v]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {ă} b {ḅ} d {ḍ} e ə f g h {ḥ} ʕ i j k l {ḷ} m n ŋ o q ɾ r s {ṣ} {š} t {ṭ} u w x y z {ẓ} {ž}]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c p v]</exemplarCharacters>
 	</characters>
 </ldml>

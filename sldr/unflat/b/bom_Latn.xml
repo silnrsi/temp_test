@@ -5,11 +5,11 @@
 		<!-- name.en(bom)="Berom" -->
 		<language type="bom"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="NG"/>
+			<sil:identity defaultRegion="NG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {à} {á} {ã} {ã̀} {ã́} b c d e {è} {é} {ẹ} {ẹ̀} {ẹ́} {ẽ} {ẽ̀} {ẽ́} f g {gb} h i {ì} {í} {ĩ} {ĩ̀} {ĩ́} j k {kp} l m {m̀} {ḿ} {m̄} n {ǹ} {ń} {n̄} o {ò} {ó} {ọ} {ọ̀} {ọ́} {õ} {õ̀} {ṍ} p r s t u {ù} {ú} {ũ} {ũ̀} {ṹ} v w y z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 	</characters>
 </ldml>

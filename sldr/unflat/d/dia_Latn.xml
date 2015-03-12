@@ -5,11 +5,11 @@
 		<!-- name.en(dia)="Dia" -->
 		<language type="dia"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG" usage="unused"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794" usage="unused"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c j q r v x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b d e f g h i ɨ k l m n o p s t u w y]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c j q r v x z]</exemplarCharacters>
 	</characters>
 </ldml>

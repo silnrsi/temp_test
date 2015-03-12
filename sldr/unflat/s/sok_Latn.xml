@@ -3,9 +3,12 @@
 	<identity>
 		<!-- name.en(sok)="Sokoro" -->
 		<language type="sok"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[f q v x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {a\u0301} b \u0253 c d \u0257 e ɛ \u0259 g h i j k l m n {n\u0330} \u014b o ɔ p r s t u w y \u01b4]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[f q v x z]</exemplarCharacters>
 	</characters>
 </ldml>

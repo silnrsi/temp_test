@@ -5,11 +5,11 @@
 		<!-- name.en(mdj)="Mangbetu" -->
 		<language type="mdj"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="CD"/>
+			<sil:identity defaultRegion="CD" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c j q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b {bh} d {dh} {dj} {dr} e ɛ f g {gb} h i ɨ k {kp} l m {mb} n {nd} {ndj} {ndr} {ng} {ngb} {nv} {nz} ŋ o ɔ p r s t {tr} {ts} u ʉ v {vh} w y z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c j q x]</exemplarCharacters>
 	</characters>
 </ldml>

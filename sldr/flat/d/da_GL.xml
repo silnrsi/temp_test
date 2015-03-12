@@ -8,11 +8,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<version number="$Revision: 10669 $"/>
 		<generation date="$Date: 2014-07-23 21:10 +0000 $"/>
 		<language type="da"/>
+		<script type="Latn"/>
 		<territory type="GL"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
-		<script type="Latn"/>
 	</identity>
 	<localeDisplayNames>
 		<localeDisplayPattern>
@@ -2456,10 +2456,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<era type="1">e.Kr.</era>
 					</eraAbbr>
 					<eraNarrow>
-						<era type="0" draft="contributed">fKr</era>
 						<era type="0" alt="variant" draft="contributed">fvt</era>
-						<era type="1" draft="contributed">eKr</era>
+						<era type="0" draft="contributed">fKr</era>
 						<era type="1" alt="variant" draft="contributed">vt</era>
+						<era type="1" draft="contributed">eKr</era>
 					</eraNarrow>
 				</eras>
 				<dateFormats>
@@ -7338,8 +7338,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">Botswansk pula</displayName>
 				<displayName count="other">Botswanske pula</displayName>
 				<displayName>Botswansk pula</displayName>
-				<symbol draft="contributed">BWP</symbol>
 				<symbol alt="narrow">P</symbol>
+				<symbol draft="contributed">BWP</symbol>
 			</currency>
 			<currency type="BYB">
 				<displayName count="one">Hviderussisk rubel (1994–1999)</displayName>
@@ -7556,8 +7556,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">Fijiansk dollar</displayName>
 				<displayName count="other">Fijianske dollar</displayName>
 				<displayName>Fijiansk dollar</displayName>
-				<symbol draft="contributed">FJD</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">FJD</symbol>
 			</currency>
 			<currency type="FKP">
 				<displayName count="one">Pund fra Falklandsøerne</displayName>
@@ -7796,8 +7796,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">Comorisk franc</displayName>
 				<displayName count="other">Comoriske franc</displayName>
 				<displayName>Comorisk franc</displayName>
-				<symbol draft="contributed">KMF</symbol>
 				<symbol alt="narrow">CF</symbol>
+				<symbol draft="contributed">KMF</symbol>
 			</currency>
 			<currency type="KPW">
 				<displayName count="one">Nordkoreansk won</displayName>
@@ -7830,8 +7830,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">Kasakhisk tenge</displayName>
 				<displayName count="other">Kasakhiske tenge</displayName>
 				<displayName>Kasakhisk tenge</displayName>
-				<symbol draft="contributed">KZT</symbol>
 				<symbol alt="narrow">₸</symbol>
+				<symbol draft="contributed">KZT</symbol>
 			</currency>
 			<currency type="LAK">
 				<displayName count="one">Laotisk kip</displayName>
@@ -7844,8 +7844,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">Libanesisk pund</displayName>
 				<displayName count="other">Libanesiske pund</displayName>
 				<displayName>Libanesisk pund</displayName>
-				<symbol draft="contributed">LBP</symbol>
 				<symbol alt="narrow">L£</symbol>
+				<symbol draft="contributed">LBP</symbol>
 			</currency>
 			<currency type="LKR">
 				<displayName count="one">Srilankansk rupee</displayName>
@@ -7932,8 +7932,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">Madagaskisk ariary</displayName>
 				<displayName count="other">Madagaskiske ariary</displayName>
 				<displayName>Madagaskisk ariary</displayName>
-				<symbol draft="contributed">MGA</symbol>
 				<symbol alt="narrow">Ar</symbol>
+				<symbol draft="contributed">MGA</symbol>
 			</currency>
 			<currency type="MGF">
 				<displayName count="one">Madagaskisk franc</displayName>
@@ -7991,8 +7991,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">Mauritisk rupee</displayName>
 				<displayName count="other">Mauritiske rupees</displayName>
 				<displayName>Mauritisk rupee</displayName>
-				<symbol draft="contributed">MUR</symbol>
 				<symbol alt="narrow">Rs</symbol>
+				<symbol draft="contributed">MUR</symbol>
 			</currency>
 			<currency type="MVR">
 				<displayName count="one">Maldivisk rufiyaa</displayName>
@@ -8045,8 +8045,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">Namibisk dollar</displayName>
 				<displayName count="other">Namibiske dollar</displayName>
 				<displayName>Namibisk dollar</displayName>
-				<symbol draft="contributed">NAD</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">NAD</symbol>
 			</currency>
 			<currency type="NGN">
 				<displayName count="one">Nigeriansk naira</displayName>
@@ -8205,8 +8205,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">Rwandisk franc</displayName>
 				<displayName count="other">Rwandiske franc</displayName>
 				<displayName>Rwandisk franc</displayName>
-				<symbol draft="contributed">RWF</symbol>
 				<symbol alt="narrow">RF</symbol>
+				<symbol draft="contributed">RWF</symbol>
 			</currency>
 			<currency type="SAR">
 				<displayName count="one">Saudiarabisk riyal</displayName>
@@ -8218,8 +8218,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">Salomonsk dollar</displayName>
 				<displayName count="other">Salomonske dollar</displayName>
 				<displayName>Salomonsk dollar</displayName>
-				<symbol draft="contributed">SBD</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">SBD</symbol>
 			</currency>
 			<currency type="SCR">
 				<displayName count="one">Seychellisk rupee</displayName>
@@ -8326,8 +8326,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">Syrisk pund</displayName>
 				<displayName count="other">Syriske pund</displayName>
 				<displayName>Syrisk pund</displayName>
-				<symbol draft="contributed">SYP</symbol>
 				<symbol alt="narrow">£</symbol>
+				<symbol draft="contributed">SYP</symbol>
 			</currency>
 			<currency type="SZL">
 				<displayName count="one">Swazilandsk lilangeni</displayName>
@@ -8391,9 +8391,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">Tyrkisk lira</displayName>
 				<displayName count="other">Tyrkiske lira</displayName>
 				<displayName>Tyrkisk lira</displayName>
-				<symbol draft="contributed">TRY</symbol>
 				<symbol alt="narrow">₺</symbol>
 				<symbol alt="variant">TL</symbol>
+				<symbol draft="contributed">TRY</symbol>
 			</currency>
 			<currency type="TTD">
 				<displayName count="one">Dollar fra Trinidad og Tobago</displayName>
@@ -8611,8 +8611,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">Sydafrikansk rand</displayName>
 				<displayName count="other">Sydafrikanske rand</displayName>
 				<displayName>Sydafrikansk rand</displayName>
-				<symbol draft="contributed">ZAR</symbol>
 				<symbol alt="narrow">R</symbol>
+				<symbol draft="contributed">ZAR</symbol>
 			</currency>
 			<currency type="ZMK">
 				<displayName count="one">Zambisk kwacha (1968–2012)</displayName>
@@ -8623,8 +8623,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">Zambisk kwacha</displayName>
 				<displayName count="other">Zambiske kwacha</displayName>
 				<displayName>Zambisk kwacha</displayName>
-				<symbol draft="contributed">ZMW</symbol>
 				<symbol alt="narrow">ZK</symbol>
+				<symbol draft="contributed">ZMW</symbol>
 			</currency>
 			<currency type="ZRN">
 				<displayName count="one">Ny zairisk zaire (1993–1998)</displayName>
@@ -11374,6 +11374,23 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$ZW">\p{Line_Break=ZWSpace}</variable>
 			</variables>
 			<segmentRules>
+				<!-- LB 4  Always break after hard line breaks (but never between CR and LF). -->
+				<rule id="4">$BK ÷</rule>
+				<!-- LB 5  Treat CR followed by LF, as well as CR, LF and NL as hard line breaks. -->
+				<rule id="5.01">$CR × $LF</rule>
+				<rule id="5.02">$CR ÷</rule>
+				<rule id="5.03">$LF ÷</rule>
+				<rule id="5.04">$NL ÷</rule>
+				<!-- LB 6  Do not break before hard line breaks. -->
+				<rule id="6">× ( $BK | $CR | $LF | $NL )</rule>
+				<!-- LB 7  Do not break before spaces or zero-width space. -->
+				<rule id="7.01">× $SP</rule>
+				<rule id="7.02">× $ZW</rule>
+				<!-- LB 8  Break before any character following a zero-width space, even if one or more spaces intervene. -->
+				<rule id="8">$ZW $SP* ÷</rule>
+				<!-- LB 9  Do not break a combining character sequence; treat it as if it has the LB class of the base character -->
+				<!-- in all of the following rules. (Where X is any line break class except SP, BK, CR, LF, NL or ZW.) -->
+				<rule id="9">$Spec2_ × $CM</rule>
 				<!-- WARNING: this is done by modifying the variable values for all but SP.... That is, $AL is really ($AI $CM*)! -->
 				<!-- LB 11  Do not break before or after WORD JOINER and related characters. -->
 				<rule id="11.01">× $WJ</rule>
@@ -11453,23 +11470,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="30.02">$CP × ($AL | $HL | $NU)</rule>
 				<!-- LB 30a  Do not break between Regional Indicators. -->
 				<rule id="30.11">$RI × $RI</rule>
-				<!-- LB 4  Always break after hard line breaks (but never between CR and LF). -->
-				<rule id="4">$BK ÷</rule>
-				<!-- LB 5  Treat CR followed by LF, as well as CR, LF and NL as hard line breaks. -->
-				<rule id="5.01">$CR × $LF</rule>
-				<rule id="5.02">$CR ÷</rule>
-				<rule id="5.03">$LF ÷</rule>
-				<rule id="5.04">$NL ÷</rule>
-				<!-- LB 6  Do not break before hard line breaks. -->
-				<rule id="6">× ( $BK | $CR | $LF | $NL )</rule>
-				<!-- LB 7  Do not break before spaces or zero-width space. -->
-				<rule id="7.01">× $SP</rule>
-				<rule id="7.02">× $ZW</rule>
-				<!-- LB 8  Break before any character following a zero-width space, even if one or more spaces intervene. -->
-				<rule id="8">$ZW $SP* ÷</rule>
-				<!-- LB 9  Do not break a combining character sequence; treat it as if it has the LB class of the base character -->
-				<!-- in all of the following rules. (Where X is any line break class except SP, BK, CR, LF, NL or ZW.) -->
-				<rule id="9">$Spec2_ × $CM</rule>
 			</segmentRules>
 		</segmentation>
 		<segmentation type="SentenceBreak">
@@ -11504,11 +11504,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$Upper">($Upper $FE*)</variable>
 			</variables>
 			<segmentRules>
-				<!-- Note the fix to $Sp*, $Sep? -->
-				<rule id="10">( $STerm | $ATerm ) $Close* $Sp* × ( $Sp | $Sep | $CR | $LF )</rule>
-				<rule id="11">( $STerm | $ATerm ) $Close* $Sp* ($Sep | $CR | $LF)? ÷</rule>
-				<!-- Otherwise, do not break -->
-				<rule id="12">× $Any</rule>
 				<!-- Do not break within CRLF -->
 				<rule id="3">$CR × $LF</rule>
 				<!-- Break after paragraph separators. -->
@@ -11527,6 +11522,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="8.1">($STerm | $ATerm) $Close* $Sp* × ($SContinue | $STerm | $ATerm)</rule>
 				<!-- Break after sentence terminators, but include closing punctuation, trailing spaces, and (optionally) a paragraph separator. -->
 				<rule id="9">( $STerm | $ATerm ) $Close* × ( $Close | $Sp | $Sep | $CR | $LF )</rule>
+				<!-- Note the fix to $Sp*, $Sep? -->
+				<rule id="10">( $STerm | $ATerm ) $Close* $Sp* × ( $Sp | $Sep | $CR | $LF )</rule>
+				<rule id="11">( $STerm | $ATerm ) $Close* $Sp* ($Sep | $CR | $LF)? ÷</rule>
+				<!-- Otherwise, do not break -->
+				<rule id="12">× $Any</rule>
 			</segmentRules>
 		</segmentation>
 		<segmentation type="WordBreak">
@@ -11559,13 +11559,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$Regional_Indicator">($Regional_Indicator $FE*)</variable>
 			</variables>
 			<segmentRules>
-				<rule id="10">$Numeric × $ALetter</rule>
-				<rule id="11">$Numeric ($MidNum | $MidNumLet) × $Numeric</rule>
-				<rule id="12">$Numeric × ($MidNum | $MidNumLet) $Numeric</rule>
-				<rule id="13">$Katakana × $Katakana</rule>
-				<rule id="13.1">($ALetter | $Numeric | $Katakana | $ExtendNumLet) × $ExtendNumLet</rule>
-				<rule id="13.2">$ExtendNumLet × ($ALetter | $Numeric | $Katakana)</rule>
-				<rule id="13.3">$Regional_Indicator × $Regional_Indicator</rule>
 				<rule id="3">$CR × $LF</rule>
 				<rule id="3.1">($Newline | $CR | $LF) ÷</rule>
 				<rule id="3.2">÷ ($Newline | $CR | $LF)</rule>
@@ -11580,6 +11573,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="7">$ALetter ($MidLetter | $MidNumLet) × $ALetter</rule>
 				<rule id="8">$Numeric × $Numeric</rule>
 				<rule id="9">$ALetter × $Numeric</rule>
+				<rule id="10">$Numeric × $ALetter</rule>
+				<rule id="11">$Numeric ($MidNum | $MidNumLet) × $Numeric</rule>
+				<rule id="12">$Numeric × ($MidNum | $MidNumLet) $Numeric</rule>
+				<rule id="13">$Katakana × $Katakana</rule>
+				<rule id="13.1">($ALetter | $Numeric | $Katakana | $ExtendNumLet) × $ExtendNumLet</rule>
+				<rule id="13.2">$ExtendNumLet × ($ALetter | $Numeric | $Katakana)</rule>
+				<rule id="13.3">$Regional_Indicator × $Regional_Indicator</rule>
 			</segmentRules>
 		</segmentation>
 	</segmentations>

@@ -5,11 +5,11 @@
 		<!-- name.en(met)="Mato" -->
 		<language type="met"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c f j q v z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b d e g h i k l m n {ng} o p r s t u w x y]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c f j q v z]</exemplarCharacters>
 	</characters>
 </ldml>

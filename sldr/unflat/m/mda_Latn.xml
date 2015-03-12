@@ -5,11 +5,11 @@
 		<!-- name.en(mda)="Mada (Nigeria)" -->
 		<language type="mda"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="NG"/>
+			<sil:identity defaultRegion="NG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {à} {ā} {â} {ă} b c d e {é} {ē} {è} {ê} {ĕ} ə ɛ f g h i {ī} {ì} {î} {ĭ} j k l m n o {ō} {ò} {ô} {ŏ} ɔ p r s t u {ū} {ù} {û}{ŭ} v w y z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 	</characters>
 </ldml>

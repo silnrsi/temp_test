@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-02-24 07:31 +0000 $"/>
 		<language type="zh"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -6122,8 +6122,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>AFN</symbol>
 			</currency>
 			<currency type="ALK">
-				<displayName draft="contributed">阿爾巴尼亞列克 (1946–1965)</displayName>
 				<displayName count="other" draft="contributed">阿爾巴尼亞列克 (1946–1965)</displayName>
+				<displayName draft="contributed">阿爾巴尼亞列克 (1946–1965)</displayName>
 				<symbol draft="contributed">ALK</symbol>
 			</currency>
 			<currency type="ALL">
@@ -6257,8 +6257,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">BGL</symbol>
 			</currency>
 			<currency type="BGM">
-				<displayName draft="contributed">保加利亞社會黨列弗</displayName>
 				<displayName count="other" draft="contributed">保加利亞社會黨列弗</displayName>
+				<displayName draft="contributed">保加利亞社會黨列弗</displayName>
 				<symbol draft="contributed">BGM</symbol>
 			</currency>
 			<currency type="BGN">
@@ -6390,8 +6390,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>CDF</symbol>
 			</currency>
 			<currency type="CHE">
-				<displayName draft="contributed">歐元 (WIR)</displayName>
 				<displayName count="other" draft="contributed">歐元 (WIR)</displayName>
+				<displayName draft="contributed">歐元 (WIR)</displayName>
 				<symbol draft="contributed">CHE</symbol>
 			</currency>
 			<currency type="CHF">
@@ -6400,13 +6400,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>CHF</symbol>
 			</currency>
 			<currency type="CHW">
-				<displayName draft="contributed">法郎 (WIR)</displayName>
 				<displayName count="other" draft="contributed">法郎 (WIR)</displayName>
+				<displayName draft="contributed">法郎 (WIR)</displayName>
 				<symbol draft="contributed">CHW</symbol>
 			</currency>
 			<currency type="CLE">
-				<displayName draft="contributed">智利埃斯庫多</displayName>
 				<displayName count="other" draft="contributed">智利埃斯庫多</displayName>
+				<displayName draft="contributed">智利埃斯庫多</displayName>
 				<symbol draft="contributed">CLE</symbol>
 			</currency>
 			<currency type="CLF">
@@ -6442,8 +6442,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>CRC</symbol>
 			</currency>
 			<currency type="CSD">
-				<displayName draft="contributed">舊塞爾維亞第納爾</displayName>
 				<displayName count="other" draft="contributed">舊塞爾維亞第納爾</displayName>
+				<displayName draft="contributed">舊塞爾維亞第納爾</displayName>
 				<symbol draft="contributed">CSD</symbol>
 			</currency>
 			<currency type="CSK">
@@ -6477,8 +6477,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>CZK</symbol>
 			</currency>
 			<currency type="DDM">
-				<displayName draft="contributed">東德奧斯特馬克</displayName>
 				<displayName count="other" draft="contributed">東德奧斯特馬克</displayName>
+				<displayName draft="contributed">東德奧斯特馬克</displayName>
 				<symbol draft="contributed">DDM</symbol>
 			</currency>
 			<currency type="DEM">
@@ -6532,13 +6532,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>ERN</symbol>
 			</currency>
 			<currency type="ESA">
-				<displayName draft="contributed">西班牙比塞塔（會計單位）</displayName>
 				<displayName count="other" draft="contributed">西班牙比塞塔（會計單位）</displayName>
+				<displayName draft="contributed">西班牙比塞塔（會計單位）</displayName>
 				<symbol draft="contributed">ESA</symbol>
 			</currency>
 			<currency type="ESB">
-				<displayName draft="contributed">西班牙比塞塔（可轉換會計單位）</displayName>
 				<displayName count="other" draft="contributed">西班牙比塞塔（可轉換會計單位）</displayName>
+				<displayName draft="contributed">西班牙比塞塔（可轉換會計單位）</displayName>
 				<symbol draft="contributed">ESB</symbol>
 			</currency>
 			<currency type="ESP">
@@ -6580,8 +6580,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>英鎊</displayName>
 			</currency>
 			<currency type="GEK">
-				<displayName draft="contributed">喬治亞庫旁拉里</displayName>
 				<displayName count="other" draft="contributed">喬治亞庫旁拉里</displayName>
+				<displayName draft="contributed">喬治亞庫旁拉里</displayName>
 				<symbol draft="contributed">GEK</symbol>
 			</currency>
 			<currency type="GEL">
@@ -6694,8 +6694,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">ILP</symbol>
 			</currency>
 			<currency type="ILR">
-				<displayName draft="contributed">以色列謝克爾 (1980–1985)</displayName>
 				<displayName count="other" draft="contributed">以色列謝克爾 (1980–1985)</displayName>
+				<displayName draft="contributed">以色列謝克爾 (1980–1985)</displayName>
 				<symbol draft="contributed">ILR</symbol>
 			</currency>
 			<currency type="ILS">
@@ -6717,8 +6717,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>IRR</symbol>
 			</currency>
 			<currency type="ISJ">
-				<displayName draft="contributed">冰島克朗 (1918–1981)</displayName>
 				<displayName count="other" draft="contributed">冰島克朗 (1918–1981)</displayName>
+				<displayName draft="contributed">冰島克朗 (1918–1981)</displayName>
 				<symbol draft="contributed">ISJ</symbol>
 			</currency>
 			<currency type="ISK">
@@ -6772,13 +6772,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>KPW</symbol>
 			</currency>
 			<currency type="KRH">
-				<displayName draft="contributed">南韓圜</displayName>
 				<displayName count="other" draft="contributed">南韓圜</displayName>
+				<displayName draft="contributed">南韓圜</displayName>
 				<symbol draft="contributed">KRH</symbol>
 			</currency>
 			<currency type="KRO">
-				<displayName draft="contributed">南韓圓</displayName>
 				<displayName count="other" draft="contributed">南韓圓</displayName>
+				<displayName draft="contributed">南韓圓</displayName>
 				<symbol draft="contributed">KRO</symbol>
 			</currency>
 			<currency type="KRW">
@@ -6837,8 +6837,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">LTT</symbol>
 			</currency>
 			<currency type="LUC">
-				<displayName draft="contributed">盧森堡可兌換法郎</displayName>
 				<displayName count="other" draft="contributed">盧森堡可兌換法郎</displayName>
+				<displayName draft="contributed">盧森堡可兌換法郎</displayName>
 				<symbol draft="contributed">LUC</symbol>
 			</currency>
 			<currency type="LUF">
@@ -6847,8 +6847,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">LUF</symbol>
 			</currency>
 			<currency type="LUL">
-				<displayName draft="contributed">盧森堡金融法郎</displayName>
 				<displayName count="other" draft="contributed">盧森堡金融法郎</displayName>
+				<displayName draft="contributed">盧森堡金融法郎</displayName>
 				<symbol draft="contributed">LUL</symbol>
 			</currency>
 			<currency type="LVL">
@@ -6877,13 +6877,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">MAF</symbol>
 			</currency>
 			<currency type="MCF">
-				<displayName draft="contributed">摩納哥法郎</displayName>
 				<displayName count="other" draft="contributed">摩納哥法郎</displayName>
+				<displayName draft="contributed">摩納哥法郎</displayName>
 				<symbol draft="contributed">MCF</symbol>
 			</currency>
 			<currency type="MDC">
-				<displayName draft="contributed">摩爾多瓦券</displayName>
 				<displayName count="other" draft="contributed">摩爾多瓦券</displayName>
+				<displayName draft="contributed">摩爾多瓦券</displayName>
 				<symbol draft="contributed">MDC</symbol>
 			</currency>
 			<currency type="MDL">
@@ -6952,8 +6952,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>MUR</symbol>
 			</currency>
 			<currency type="MVP">
-				<displayName draft="contributed">馬爾地夫盧比</displayName>
 				<displayName count="other" draft="contributed">馬爾地夫盧比</displayName>
+				<displayName draft="contributed">馬爾地夫盧比</displayName>
 				<symbol draft="contributed">MVP</symbol>
 			</currency>
 			<currency type="MVR">
@@ -6976,8 +6976,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">MXP</symbol>
 			</currency>
 			<currency type="MXV">
-				<displayName draft="contributed">墨西哥轉換單位 (UDI)</displayName>
 				<displayName count="other" draft="contributed">墨西哥轉換單位 (UDI)</displayName>
+				<displayName draft="contributed">墨西哥轉換單位 (UDI)</displayName>
 				<symbol draft="contributed">MXV</symbol>
 			</currency>
 			<currency type="MYR">
@@ -7105,13 +7105,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>QAR</symbol>
 			</currency>
 			<currency type="RHD">
-				<displayName draft="contributed">羅德西亞元</displayName>
 				<displayName count="other" draft="contributed">羅德西亞元</displayName>
+				<displayName draft="contributed">羅德西亞元</displayName>
 				<symbol draft="contributed">RHD</symbol>
 			</currency>
 			<currency type="ROL">
-				<displayName draft="contributed">舊羅馬尼亞列伊</displayName>
 				<displayName count="other" draft="contributed">舊羅馬尼亞列伊</displayName>
+				<displayName draft="contributed">舊羅馬尼亞列伊</displayName>
 				<symbol draft="contributed">ROL</symbol>
 			</currency>
 			<currency type="RON">
@@ -7230,8 +7230,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">SUR</symbol>
 			</currency>
 			<currency type="SVC">
-				<displayName draft="contributed">薩爾瓦多科郎</displayName>
 				<displayName count="other" draft="contributed">薩爾瓦多科郎</displayName>
+				<displayName draft="contributed">薩爾瓦多科郎</displayName>
 				<symbol draft="contributed">SVC</symbol>
 			</currency>
 			<currency type="SYP">
@@ -7280,8 +7280,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>TOP</symbol>
 			</currency>
 			<currency type="TPE">
-				<displayName draft="contributed">帝汶埃斯庫多</displayName>
 				<displayName count="other" draft="contributed">帝汶埃斯庫多</displayName>
+				<displayName draft="contributed">帝汶埃斯庫多</displayName>
 				<symbol draft="contributed">TPE</symbol>
 			</currency>
 			<currency type="TRL">
@@ -7314,8 +7314,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>UAH</symbol>
 			</currency>
 			<currency type="UAK">
-				<displayName draft="contributed">烏克蘭卡本瓦那茲</displayName>
 				<displayName count="other" draft="contributed">烏克蘭卡本瓦那茲</displayName>
+				<displayName draft="contributed">烏克蘭卡本瓦那茲</displayName>
 				<symbol draft="contributed">UAK</symbol>
 			</currency>
 			<currency type="UGS">
@@ -7344,8 +7344,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">USS</symbol>
 			</currency>
 			<currency type="UYI">
-				<displayName draft="contributed">烏拉圭披索（指數單位）</displayName>
 				<displayName count="other" draft="contributed">烏拉圭披索（指數單位）</displayName>
+				<displayName draft="contributed">烏拉圭披索（指數單位）</displayName>
 				<symbol draft="contributed">UYI</symbol>
 			</currency>
 			<currency type="UYP">
@@ -7397,8 +7397,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>法郎 (CFA–BEAC)</displayName>
 			</currency>
 			<currency type="XAG">
-				<displayName draft="contributed">白銀</displayName>
 				<displayName count="other" draft="contributed">白銀</displayName>
+				<displayName draft="contributed">白銀</displayName>
 				<symbol draft="contributed">XAG</symbol>
 			</currency>
 			<currency type="XAU">
@@ -7455,8 +7455,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>法郎 (CFA–BCEAO)</displayName>
 			</currency>
 			<currency type="XPD">
-				<displayName draft="contributed">帕拉狄昂</displayName>
 				<displayName count="other" draft="contributed">帕拉狄昂</displayName>
+				<displayName draft="contributed">帕拉狄昂</displayName>
 				<symbol draft="contributed">XPD</symbol>
 			</currency>
 			<currency type="XPF">
@@ -7464,8 +7464,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>法郎 (CFP)</displayName>
 			</currency>
 			<currency type="XPT">
-				<displayName draft="contributed">白金</displayName>
 				<displayName count="other" draft="contributed">白金</displayName>
+				<displayName draft="contributed">白金</displayName>
 				<symbol draft="contributed">XPT</symbol>
 			</currency>
 			<currency type="XRE">
@@ -7474,18 +7474,18 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">XRE</symbol>
 			</currency>
 			<currency type="XSU">
-				<displayName draft="contributed">蘇克雷貨幣</displayName>
 				<displayName count="other" draft="contributed">蘇克雷貨幣</displayName>
+				<displayName draft="contributed">蘇克雷貨幣</displayName>
 				<symbol draft="contributed">XSU</symbol>
 			</currency>
 			<currency type="XTS">
-				<displayName draft="contributed">測試用貨幣代碼</displayName>
 				<displayName count="other" draft="contributed">測試用貨幣代碼</displayName>
+				<displayName draft="contributed">測試用貨幣代碼</displayName>
 				<symbol draft="contributed">XTS</symbol>
 			</currency>
 			<currency type="XUA">
-				<displayName draft="contributed">亞洲開發銀行計價單位</displayName>
 				<displayName count="other" draft="contributed">亞洲開發銀行計價單位</displayName>
+				<displayName draft="contributed">亞洲開發銀行計價單位</displayName>
 				<symbol draft="contributed">XUA</symbol>
 			</currency>
 			<currency type="XXX">

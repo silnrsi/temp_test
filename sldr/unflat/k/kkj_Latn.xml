@@ -5,6 +5,9 @@
 		<generation date="$Date$"/>
 		<!-- name.en(kkj)="Kako" -->
 		<language type="kkj"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+		</special>
 	</identity>
 	<characters>
 		<exemplarCharacters type="index">[A B Ɓ  C D Ɗ Ɗy E Ɛ F G Gb Gw H I {I̧} J K Kp Kw L M Mb N Nd ǋ Ny Ŋ Ŋg Ŋgb Ŋgw O Ɔ  {Ɔ̧} P R S T U {U̧} V W Y]</exemplarCharacters>

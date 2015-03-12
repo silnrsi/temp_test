@@ -5,11 +5,11 @@
 		<!-- name.en(sur)="Mwaghavul" -->
 		<language type="sur"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="NG"/>
+			<sil:identity defaultRegion="NG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {à} {á} b ɓ c d ɗ e {è} {é} f g h {gh} i {ì} {í} {ɨ} {ɨ̀} {ɨ́} j k l m n {ng} o {ó} {ò} p r s {sh} t u {ú} {ù} v w y {ny} z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 	</characters>
 </ldml>

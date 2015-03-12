@@ -5,11 +5,11 @@
 		<!-- name.en(krs)="Gbaya (Sudan)" -->
 		<language type="krs"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="SD"/>
+			<sil:identity defaultRegion="SD" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b {ʼb} c d {ʼd} e f g {gb} h i j k {kp} l {ḷ} m {mb} n {nd} {nj} ŋ {ŋb} {ŋg} o p r s {sh} t u v w y z ʼ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 	</characters>
 </ldml>

@@ -8,11 +8,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<version number="$Revision: 11217 $"/>
 		<generation date="$Date: 2015-02-18 05:51 +0000 $"/>
 		<language type="ar"/>
+		<script type="Arab"/>
 		<territory type="PS"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
-		<script type="Arab"/>
 	</identity>
 	<localeDisplayNames>
 		<localeDisplayPattern>
@@ -7419,13 +7419,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">AMD</symbol>
 			</currency>
 			<currency type="ANG">
-				<displayName draft="contributed">غيلدر هولندي أنتيلي</displayName>
 				<displayName count="few">غيلدر أنتيلي هولندي</displayName>
 				<displayName count="many">غيلدر أنتيلي هولندي</displayName>
 				<displayName count="one">غيلدر أنتيلي هولندي</displayName>
 				<displayName count="other">غيلدر أنتيلي هولندي</displayName>
 				<displayName count="two">غيلدر أنتيلي هولندي</displayName>
 				<displayName count="zero">غيلدر أنتيلي هولندي</displayName>
+				<displayName draft="contributed">غيلدر هولندي أنتيلي</displayName>
 				<symbol draft="contributed">ANG</symbol>
 			</currency>
 			<currency type="AOA">
@@ -7436,8 +7436,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">كوانزا أنجولي</displayName>
 				<displayName count="zero" draft="contributed">كوانزا أنجولي</displayName>
 				<displayName>كوانزا أنجولي</displayName>
-				<symbol draft="contributed">AOA</symbol>
 				<symbol alt="narrow">Kz</symbol>
+				<symbol draft="contributed">AOA</symbol>
 			</currency>
 			<currency type="AOK">
 				<displayName>كوانزا أنجولي - 1977-1990</displayName>
@@ -7468,8 +7468,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">بيزو أرجنتيني</displayName>
 				<displayName count="zero" draft="contributed">بيزو أرجنتيني</displayName>
 				<displayName>بيزو أرجنتيني</displayName>
-				<symbol draft="contributed">ARS</symbol>
 				<symbol alt="narrow" draft="contributed">AR$</symbol>
+				<symbol draft="contributed">ARS</symbol>
 			</currency>
 			<currency type="ATS">
 				<displayName>شلن نمساوي</displayName>
@@ -7482,8 +7482,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">دولار أسترالي</displayName>
 				<displayName count="zero" draft="contributed">دولار أسترالي</displayName>
 				<displayName>دولار أسترالي</displayName>
-				<symbol draft="contributed">AU$</symbol>
 				<symbol alt="narrow" draft="contributed">AU$</symbol>
+				<symbol draft="contributed">AU$</symbol>
 			</currency>
 			<currency type="AWG">
 				<displayName count="few">فلورن أروبي</displayName>
@@ -7519,8 +7519,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">مارك البوسنة والهرسك قابل للتحويل</displayName>
 				<displayName count="zero" draft="contributed">مارك البوسنة والهرسك قابل للتحويل</displayName>
 				<displayName>مارك البوسنة والهرسك قابل للتحويل</displayName>
-				<symbol draft="contributed">BAM</symbol>
 				<symbol alt="narrow">KM</symbol>
+				<symbol draft="contributed">BAM</symbol>
 			</currency>
 			<currency type="BBD">
 				<displayName count="few">دولار بربادوسي</displayName>
@@ -7530,8 +7530,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two">دولار بربادوسي</displayName>
 				<displayName count="zero">دولار بربادوسي</displayName>
 				<displayName>دولار بربادوسي</displayName>
-				<symbol draft="contributed">BBD</symbol>
 				<symbol alt="narrow" draft="contributed">BB$</symbol>
+				<symbol draft="contributed">BBD</symbol>
 			</currency>
 			<currency type="BDT">
 				<displayName count="few" draft="contributed">تاكا بنجلاديشي</displayName>
@@ -7541,8 +7541,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">تاكا بنجلاديشي</displayName>
 				<displayName count="zero" draft="contributed">تاكا بنجلاديشي</displayName>
 				<displayName>تاكا بنجلاديشي</displayName>
-				<symbol draft="contributed">BDT</symbol>
 				<symbol alt="narrow">৳</symbol>
+				<symbol draft="contributed">BDT</symbol>
 			</currency>
 			<currency type="BEC">
 				<displayName>فرنك بلجيكي قابل للتحويل</displayName>
@@ -7597,8 +7597,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two">دولار برمودي</displayName>
 				<displayName count="zero">دولار برمودي</displayName>
 				<displayName>دولار برمودي</displayName>
-				<symbol draft="contributed">BMD</symbol>
 				<symbol alt="narrow" draft="contributed">BM$</symbol>
+				<symbol draft="contributed">BMD</symbol>
 			</currency>
 			<currency type="BND">
 				<displayName count="few" draft="contributed">دولار بروناي</displayName>
@@ -7608,8 +7608,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">دولار بروناي</displayName>
 				<displayName count="zero" draft="contributed">دولار بروناي</displayName>
 				<displayName>دولار بروناي</displayName>
-				<symbol draft="contributed">BND</symbol>
 				<symbol alt="narrow" draft="contributed">BN$</symbol>
+				<symbol draft="contributed">BND</symbol>
 			</currency>
 			<currency type="BOB">
 				<displayName count="few">بوليفيانو بوليفي</displayName>
@@ -7619,8 +7619,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two">بوليفيانو بوليفي</displayName>
 				<displayName count="zero">بوليفيانو بوليفي</displayName>
 				<displayName>بوليفيانو بوليفي</displayName>
-				<symbol draft="contributed">BOB</symbol>
 				<symbol alt="narrow">Bs</symbol>
+				<symbol draft="contributed">BOB</symbol>
 			</currency>
 			<currency type="BOP">
 				<displayName count="few" draft="provisional">بيزو بوليفي</displayName>
@@ -7662,8 +7662,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">دولار باهامي</displayName>
 				<displayName count="zero" draft="contributed">دولار باهامي</displayName>
 				<displayName>دولار باهامي</displayName>
-				<symbol draft="contributed">BSD</symbol>
 				<symbol alt="narrow" draft="contributed">BS$</symbol>
+				<symbol draft="contributed">BSD</symbol>
 			</currency>
 			<currency type="BTN">
 				<displayName count="few" draft="contributed">نولتوم بوتاني</displayName>
@@ -7686,8 +7686,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">بولا بتسواني</displayName>
 				<displayName count="zero" draft="contributed">بولا بتسواني</displayName>
 				<displayName>بولا بتسواني</displayName>
-				<symbol draft="contributed">BWP</symbol>
 				<symbol alt="narrow">P</symbol>
+				<symbol draft="contributed">BWP</symbol>
 			</currency>
 			<currency type="BYB">
 				<displayName>روبل بيلاروسي جديد - 1994-1999</displayName>
@@ -7700,8 +7700,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">روبل بيلاروسي</displayName>
 				<displayName count="zero" draft="contributed">روبل بيلاروسي</displayName>
 				<displayName>روبل بيلاروسي</displayName>
-				<symbol draft="contributed">BYR</symbol>
 				<symbol alt="narrow">р.</symbol>
+				<symbol draft="contributed">BYR</symbol>
 			</currency>
 			<currency type="BZD">
 				<displayName count="few">دولار بليزي</displayName>
@@ -7711,8 +7711,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two">دولار بليزي</displayName>
 				<displayName count="zero">دولار بليزي</displayName>
 				<displayName>دولار بليزي</displayName>
-				<symbol draft="contributed">BZD</symbol>
 				<symbol alt="narrow" draft="contributed">BZ$</symbol>
+				<symbol draft="contributed">BZD</symbol>
 			</currency>
 			<currency type="CAD">
 				<displayName count="few">دولار كندي</displayName>
@@ -7753,8 +7753,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">بيزو شيلي</displayName>
 				<displayName count="zero" draft="contributed">بيزو شيلي</displayName>
 				<displayName>بيزو شيلي</displayName>
-				<symbol draft="contributed">CLP</symbol>
 				<symbol alt="narrow" draft="contributed">CL$</symbol>
+				<symbol draft="contributed">CLP</symbol>
 			</currency>
 			<currency type="CNY">
 				<displayName count="few" draft="contributed">يوان صيني</displayName>
@@ -7775,8 +7775,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">بيزو كولومبي</displayName>
 				<displayName count="zero" draft="contributed">بيزو كولومبي</displayName>
 				<displayName>بيزو كولومبي</displayName>
-				<symbol draft="contributed">COP</symbol>
 				<symbol alt="narrow" draft="contributed">CO$</symbol>
+				<symbol draft="contributed">COP</symbol>
 			</currency>
 			<currency type="CRC">
 				<displayName count="few">كولن كوستا ريكي</displayName>
@@ -7786,8 +7786,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two">كولن كوستا ريكي</displayName>
 				<displayName count="zero">كولن كوستا ريكي</displayName>
 				<displayName>كولن كوستا ريكي</displayName>
-				<symbol draft="contributed">CRC</symbol>
 				<symbol alt="narrow">₡</symbol>
+				<symbol draft="contributed">CRC</symbol>
 			</currency>
 			<currency type="CSD">
 				<displayName>دينار صربي قديم</displayName>
@@ -7797,8 +7797,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</currency>
 			<currency type="CUC">
 				<displayName>بيزو كوبي قابل للتحويل</displayName>
-				<symbol draft="contributed">CUC</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">CUC</symbol>
 			</currency>
 			<currency type="CUP">
 				<displayName count="few">بيزو كوبي</displayName>
@@ -7808,8 +7808,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two">بيزو كوبي</displayName>
 				<displayName count="zero">بيزو كوبي</displayName>
 				<displayName>بيزو كوبي</displayName>
-				<symbol draft="contributed">CUP</symbol>
 				<symbol alt="narrow" draft="contributed">CU$</symbol>
+				<symbol draft="contributed">CUP</symbol>
 			</currency>
 			<currency type="CVE">
 				<displayName count="few" draft="contributed">اسكودو الرأس الخضراء</displayName>
@@ -7838,8 +7838,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">كرونة تشيكية</displayName>
 				<displayName count="zero" draft="contributed">كرونة تشيكية</displayName>
 				<displayName>كرونة تشيكية</displayName>
-				<symbol draft="contributed">CZK</symbol>
 				<symbol alt="narrow">Kč</symbol>
+				<symbol draft="contributed">CZK</symbol>
 			</currency>
 			<currency type="DDM">
 				<displayName>أوستمارك ألماني شرقي</displayName>
@@ -7871,8 +7871,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">كرونة دانماركي</displayName>
 				<displayName count="zero" draft="contributed">كرونة دانماركي</displayName>
 				<displayName>كرونة دانماركي</displayName>
-				<symbol draft="contributed">DKK</symbol>
 				<symbol alt="narrow">kr</symbol>
+				<symbol draft="contributed">DKK</symbol>
 			</currency>
 			<currency type="DOP">
 				<displayName count="few" draft="contributed">بيزو الدومنيكان</displayName>
@@ -7882,8 +7882,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">بيزو الدومنيكان</displayName>
 				<displayName count="zero" draft="contributed">بيزو الدومنيكان</displayName>
 				<displayName>بيزو الدومنيكان</displayName>
-				<symbol draft="contributed">DOP</symbol>
 				<symbol alt="narrow" draft="contributed">DO$</symbol>
+				<symbol draft="contributed">DOP</symbol>
 			</currency>
 			<currency type="DZD">
 				<displayName count="few" draft="contributed">دينار جزائري</displayName>
@@ -7973,8 +7973,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">دولار فيجي</displayName>
 				<displayName count="zero" draft="contributed">دولار فيجي</displayName>
 				<displayName>دولار فيجي</displayName>
-				<symbol draft="contributed">FJD</symbol>
 				<symbol alt="narrow" draft="contributed">FJ$</symbol>
+				<symbol draft="contributed">FJD</symbol>
 			</currency>
 			<currency type="FKP">
 				<displayName count="few" draft="contributed">جنيه جزر فوكلاند</displayName>
@@ -7984,8 +7984,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">جنيه جزر فوكلاند</displayName>
 				<displayName count="zero" draft="contributed">جنيه جزر فوكلاند</displayName>
 				<displayName>جنيه جزر فوكلاند</displayName>
-				<symbol draft="contributed">FKP</symbol>
 				<symbol alt="narrow">£</symbol>
+				<symbol draft="contributed">FKP</symbol>
 			</currency>
 			<currency type="FRF">
 				<displayName count="few" draft="provisional">فرنك فرنسي</displayName>
@@ -8038,8 +8038,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">جنيه جبل طارق</displayName>
 				<displayName count="zero" draft="contributed">جنيه جبل طارق</displayName>
 				<displayName>جنيه جبل طارق</displayName>
-				<symbol draft="contributed">GIP</symbol>
 				<symbol alt="narrow">£</symbol>
+				<symbol draft="contributed">GIP</symbol>
 			</currency>
 			<currency type="GMD">
 				<displayName count="few" draft="contributed">دلاسي جامبي</displayName>
@@ -8059,8 +8059,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">فرنك غينيا</displayName>
 				<displayName count="zero" draft="contributed">فرنك غينيا</displayName>
 				<displayName>فرنك غينيا</displayName>
-				<symbol draft="contributed">GNF</symbol>
 				<symbol alt="narrow">FG</symbol>
+				<symbol draft="contributed">GNF</symbol>
 			</currency>
 			<currency type="GNS">
 				<displayName>سيلي غينيا</displayName>
@@ -8085,8 +8085,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two">كوتزال جواتيمالا</displayName>
 				<displayName count="zero">كوتزال جواتيمالا</displayName>
 				<displayName>كوتزال جواتيمالا</displayName>
-				<symbol draft="contributed">GTQ</symbol>
 				<symbol alt="narrow">Q</symbol>
+				<symbol draft="contributed">GTQ</symbol>
 			</currency>
 			<currency type="GWE">
 				<displayName>اسكود برتغالي غينيا</displayName>
@@ -8102,8 +8102,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">دولار غيانا</displayName>
 				<displayName count="zero" draft="contributed">دولار غيانا</displayName>
 				<displayName>دولار غيانا</displayName>
-				<symbol draft="contributed">GYD</symbol>
 				<symbol alt="narrow" draft="contributed">GY$</symbol>
+				<symbol draft="contributed">GYD</symbol>
 			</currency>
 			<currency type="HKD">
 				<displayName count="few" draft="contributed">دولار هونج كونج</displayName>
@@ -8124,8 +8124,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two">ليمبيرا هندوراس</displayName>
 				<displayName count="zero">ليمبيرا هندوراس</displayName>
 				<displayName>ليمبيرا هنداروس</displayName>
-				<symbol draft="contributed">HNL</symbol>
 				<symbol alt="narrow">L</symbol>
+				<symbol draft="contributed">HNL</symbol>
 			</currency>
 			<currency type="HRD">
 				<displayName>دينار كرواتي</displayName>
@@ -8138,8 +8138,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">كونا كرواتي</displayName>
 				<displayName count="zero" draft="contributed">كونا كرواتي</displayName>
 				<displayName>كونا كرواتي</displayName>
-				<symbol draft="contributed">HRK</symbol>
 				<symbol alt="narrow">kn</symbol>
+				<symbol draft="contributed">HRK</symbol>
 			</currency>
 			<currency type="HTG">
 				<displayName count="few" draft="contributed">جوردى هايتي</displayName>
@@ -8159,8 +8159,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">فورينت مجري</displayName>
 				<displayName count="zero" draft="contributed">فورينت مجري</displayName>
 				<displayName>فورينت مجري</displayName>
-				<symbol draft="contributed">HUF</symbol>
 				<symbol alt="narrow">Ft</symbol>
+				<symbol draft="contributed">HUF</symbol>
 			</currency>
 			<currency type="IDR">
 				<displayName count="few" draft="contributed">روبيه إندونيسية</displayName>
@@ -8170,8 +8170,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">روبيه إندونيسية</displayName>
 				<displayName count="zero" draft="contributed">روبيه إندونيسية</displayName>
 				<displayName>روبية إندونيسية</displayName>
-				<symbol draft="contributed">ر.إن.</symbol>
 				<symbol alt="narrow">Rp</symbol>
+				<symbol draft="contributed">ر.إن.</symbol>
 			</currency>
 			<currency type="IEP">
 				<displayName count="few" draft="provisional">جنيه إيرلندي</displayName>
@@ -8241,8 +8241,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">كرونه أيسلندي</displayName>
 				<displayName count="zero" draft="contributed">كرونه أيسلندي</displayName>
 				<displayName>كرونه أيسلندي</displayName>
-				<symbol draft="contributed">ISK</symbol>
 				<symbol alt="narrow">kr</symbol>
+				<symbol draft="contributed">ISK</symbol>
 			</currency>
 			<currency type="ITL">
 				<displayName count="few" draft="provisional">ليرة إيطالية</displayName>
@@ -8261,8 +8261,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">دولار جامايكي</displayName>
 				<displayName count="zero" draft="contributed">دولار جامايكي</displayName>
 				<displayName>دولار جامايكي</displayName>
-				<symbol draft="contributed">JMD</symbol>
 				<symbol alt="narrow" draft="contributed">JM$</symbol>
+				<symbol draft="contributed">JMD</symbol>
 			</currency>
 			<currency type="JOD">
 				<displayName count="few" draft="contributed">دينار أردني</displayName>
@@ -8313,8 +8313,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">رييال كمبودي</displayName>
 				<displayName count="zero" draft="contributed">رييال كمبودي</displayName>
 				<displayName>رييال كمبودي</displayName>
-				<symbol draft="contributed">KHR</symbol>
 				<symbol alt="narrow">៛</symbol>
+				<symbol draft="contributed">KHR</symbol>
 			</currency>
 			<currency type="KMF">
 				<displayName count="few" draft="contributed">فرنك جزر القمر</displayName>
@@ -8335,8 +8335,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">وون كوريا الشمالية</displayName>
 				<displayName count="zero" draft="contributed">وون كوريا الشمالية</displayName>
 				<displayName>وون كوريا الشمالية</displayName>
-				<symbol draft="contributed">KPW</symbol>
 				<symbol alt="narrow">₩</symbol>
+				<symbol draft="contributed">KPW</symbol>
 			</currency>
 			<currency type="KRW">
 				<displayName count="few" draft="contributed">وون كوريا الجنوبية</displayName>
@@ -8367,8 +8367,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">دولار جزر كيمن</displayName>
 				<displayName count="zero" draft="contributed">دولار جزر كيمن</displayName>
 				<displayName>دولار جزر كيمن</displayName>
-				<symbol draft="contributed">KYD</symbol>
 				<symbol alt="narrow" draft="contributed">KY$</symbol>
+				<symbol draft="contributed">KYD</symbol>
 			</currency>
 			<currency type="KZT">
 				<displayName count="few" draft="contributed">تينغ كازاخستاني</displayName>
@@ -8378,8 +8378,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">تينغ كازاخستاني</displayName>
 				<displayName count="zero" draft="contributed">تينغ كازاخستاني</displayName>
 				<displayName>تينغ كازاخستاني</displayName>
-				<symbol draft="contributed">KZT</symbol>
 				<symbol alt="narrow">₸</symbol>
+				<symbol draft="contributed">KZT</symbol>
 			</currency>
 			<currency type="LAK">
 				<displayName count="few" draft="contributed">كيب لاوسي</displayName>
@@ -8389,8 +8389,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">كيب لاوسي</displayName>
 				<displayName count="zero" draft="contributed">كيب لاوسي</displayName>
 				<displayName>كيب لاوسي</displayName>
-				<symbol draft="contributed">LAK</symbol>
 				<symbol alt="narrow">₭</symbol>
+				<symbol draft="contributed">LAK</symbol>
 			</currency>
 			<currency type="LBP">
 				<displayName count="few" draft="contributed">جنية لبناني</displayName>
@@ -8411,8 +8411,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">روبية سريلانكية</displayName>
 				<displayName count="zero" draft="contributed">روبية سريلانكية</displayName>
 				<displayName>روبية سريلانكية</displayName>
-				<symbol draft="contributed">LKR</symbol>
 				<symbol alt="narrow">Rs</symbol>
+				<symbol draft="contributed">LKR</symbol>
 			</currency>
 			<currency type="LRD">
 				<displayName count="few" draft="contributed">دولار ليبيري</displayName>
@@ -8422,8 +8422,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">دولار ليبيري</displayName>
 				<displayName count="zero" draft="contributed">دولار ليبيري</displayName>
 				<displayName>دولار ليبيري</displayName>
-				<symbol draft="contributed">LRD</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">LRD</symbol>
 			</currency>
 			<currency type="LSL">
 				<displayName count="few" draft="provisional">لوتي ليسوتو</displayName>
@@ -8442,8 +8442,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two">ليتا ليتوانية</displayName>
 				<displayName count="zero">ليتا ليتوانية</displayName>
 				<displayName>ليتا ليتوانية</displayName>
-				<symbol draft="contributed">LTL</symbol>
 				<symbol alt="narrow">Lt</symbol>
+				<symbol draft="contributed">LTL</symbol>
 			</currency>
 			<currency type="LTT">
 				<displayName>تالوناس ليتواني</displayName>
@@ -8465,8 +8465,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two">لاتس لاتفي</displayName>
 				<displayName count="zero">لاتس لاتفي</displayName>
 				<displayName>لاتس لاتفيا</displayName>
-				<symbol draft="contributed">LVL</symbol>
 				<symbol alt="narrow">Ls</symbol>
+				<symbol draft="contributed">LVL</symbol>
 			</currency>
 			<currency type="LVR">
 				<displayName>روبل لاتفيا</displayName>
@@ -8512,8 +8512,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">أرياري مدغشقر</displayName>
 				<displayName count="zero" draft="contributed">أرياري مدغشقر</displayName>
 				<displayName>أرياري مدغشقر</displayName>
-				<symbol draft="contributed">MGA</symbol>
 				<symbol alt="narrow">Ar</symbol>
+				<symbol draft="contributed">MGA</symbol>
 			</currency>
 			<currency type="MGF">
 				<displayName>فرنك مدغشقر</displayName>
@@ -8539,8 +8539,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">كيات ميانمار</displayName>
 				<displayName count="zero" draft="contributed">كيات ميانمار</displayName>
 				<displayName>كيات ميانمار</displayName>
-				<symbol draft="contributed">MMK</symbol>
 				<symbol alt="narrow">K</symbol>
+				<symbol draft="contributed">MMK</symbol>
 			</currency>
 			<currency type="MNT">
 				<displayName count="few" draft="contributed">توغروغ منغولي</displayName>
@@ -8550,8 +8550,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">توغروغ منغولي</displayName>
 				<displayName count="zero" draft="contributed">توغروغ منغولي</displayName>
 				<displayName>توغروغ منغولي</displayName>
-				<symbol draft="contributed">MNT</symbol>
 				<symbol alt="narrow">₮</symbol>
+				<symbol draft="contributed">MNT</symbol>
 			</currency>
 			<currency type="MOP">
 				<displayName count="few" draft="contributed">باتاكا ماكاوي</displayName>
@@ -8599,8 +8599,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">روبي موريشي</displayName>
 				<displayName count="zero" draft="contributed">روبي موريشي</displayName>
 				<displayName>روبية موريشيوسية</displayName>
-				<symbol draft="contributed">MUR</symbol>
 				<symbol alt="narrow">Rs</symbol>
+				<symbol draft="contributed">MUR</symbol>
 			</currency>
 			<currency type="MVR">
 				<displayName count="few" draft="contributed">روفيه جزر المالديف</displayName>
@@ -8650,8 +8650,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">رينغيت ماليزي</displayName>
 				<displayName count="zero" draft="contributed">رينغيت ماليزي</displayName>
 				<displayName>رينغيت ماليزي</displayName>
-				<symbol draft="contributed">MYR</symbol>
 				<symbol alt="narrow">RM</symbol>
+				<symbol draft="contributed">MYR</symbol>
 			</currency>
 			<currency type="MZE">
 				<displayName>اسكود موزمبيقي</displayName>
@@ -8674,8 +8674,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">دولار نامبيا</displayName>
 				<displayName count="zero" draft="contributed">دولار نامبيا</displayName>
 				<displayName>دولار ناميبي</displayName>
-				<symbol draft="contributed">NAD</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">NAD</symbol>
 			</currency>
 			<currency type="NGN">
 				<displayName count="few" draft="contributed">نايرا نيجيري</displayName>
@@ -8685,8 +8685,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">نايرا نيجيري</displayName>
 				<displayName count="zero" draft="contributed">نايرا نيجيري</displayName>
 				<displayName>نايرا نيجيري</displayName>
-				<symbol draft="contributed">NGN</symbol>
 				<symbol alt="narrow">₦</symbol>
+				<symbol draft="contributed">NGN</symbol>
 			</currency>
 			<currency type="NIC">
 				<displayName>كوردوبة نيكاراجوا</displayName>
@@ -8699,8 +8699,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two">قرطبة نيكاراغوا</displayName>
 				<displayName count="zero">قرطبة نيكاراغوا</displayName>
 				<displayName>قرطبة نيكاراغوا</displayName>
-				<symbol draft="contributed">NIO</symbol>
 				<symbol alt="narrow">C$</symbol>
+				<symbol draft="contributed">NIO</symbol>
 			</currency>
 			<currency type="NLG">
 				<displayName count="few" draft="provisional">جلدر هولندي</displayName>
@@ -8719,8 +8719,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">كرونة نرويجية</displayName>
 				<displayName count="zero" draft="contributed">كرونة نرويجية</displayName>
 				<displayName>كرونة نرويجية</displayName>
-				<symbol draft="contributed">NOK</symbol>
 				<symbol alt="narrow">kr</symbol>
+				<symbol draft="contributed">NOK</symbol>
 			</currency>
 			<currency type="NPR">
 				<displayName count="few" draft="contributed">روبية نيبالي</displayName>
@@ -8730,8 +8730,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">روبية نيبالي</displayName>
 				<displayName count="zero" draft="contributed">روبية نيبالي</displayName>
 				<displayName>روبية نيبالي</displayName>
-				<symbol draft="contributed">NPR</symbol>
 				<symbol alt="narrow">Rs</symbol>
+				<symbol draft="contributed">NPR</symbol>
 			</currency>
 			<currency type="NZD">
 				<displayName count="few" draft="contributed">دولار نيوزيلندي</displayName>
@@ -8786,8 +8786,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">بيزو فلبيني</displayName>
 				<displayName count="zero" draft="contributed">بيزو فلبيني</displayName>
 				<displayName>بيزو فلبيني</displayName>
-				<symbol draft="contributed">PHP</symbol>
 				<symbol alt="narrow">₱</symbol>
+				<symbol draft="contributed">PHP</symbol>
 			</currency>
 			<currency type="PKR">
 				<displayName count="few" draft="contributed">روبية باكستاني</displayName>
@@ -8797,8 +8797,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">روبية باكستاني</displayName>
 				<displayName count="zero" draft="contributed">روبية باكستاني</displayName>
 				<displayName>روبية باكستاني</displayName>
-				<symbol draft="contributed">ر.ب.</symbol>
 				<symbol alt="narrow">Rs</symbol>
+				<symbol draft="contributed">ر.ب.</symbol>
 			</currency>
 			<currency type="PLN">
 				<displayName count="few" draft="contributed">زلوتي بولندي</displayName>
@@ -8808,8 +8808,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">زلوتي بولندي</displayName>
 				<displayName count="zero" draft="contributed">زلوتي بولندي</displayName>
 				<displayName>زلوتي بولندي</displayName>
-				<symbol draft="contributed">PLN</symbol>
 				<symbol alt="narrow">zł</symbol>
+				<symbol draft="contributed">PLN</symbol>
 			</currency>
 			<currency type="PLZ">
 				<displayName>زلوتي بولندي - 1950-1995</displayName>
@@ -8831,8 +8831,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">جواراني باراجواي</displayName>
 				<displayName count="zero" draft="contributed">جواراني باراجواي</displayName>
 				<displayName>جواراني باراجواي</displayName>
-				<symbol draft="contributed">PYG</symbol>
 				<symbol alt="narrow">₲</symbol>
+				<symbol draft="contributed">PYG</symbol>
 			</currency>
 			<currency type="QAR">
 				<displayName count="few" draft="contributed">ريال قطري</displayName>
@@ -8884,8 +8884,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">روبل روسي</displayName>
 				<displayName count="zero" draft="contributed">روبل روسي</displayName>
 				<displayName>روبل روسي</displayName>
-				<symbol draft="contributed">RUB</symbol>
 				<symbol alt="variant">₽</symbol>
+				<symbol draft="contributed">RUB</symbol>
 			</currency>
 			<currency type="RUR">
 				<displayName>روبل روسي - 1991-1998</displayName>
@@ -8899,8 +8899,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">فرنك رواندي</displayName>
 				<displayName count="zero" draft="contributed">فرنك رواندي</displayName>
 				<displayName>فرنك رواندي</displayName>
-				<symbol draft="contributed">RWF</symbol>
 				<symbol alt="narrow">RF</symbol>
+				<symbol draft="contributed">RWF</symbol>
 			</currency>
 			<currency type="SAR">
 				<displayName count="few" draft="contributed">ريال سعودي</displayName>
@@ -8920,8 +8920,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">دولار جزر سليمان</displayName>
 				<displayName count="zero" draft="contributed">دولار جزر سليمان</displayName>
 				<displayName>دولار جزر سليمان</displayName>
-				<symbol draft="contributed">SBD</symbol>
 				<symbol alt="narrow" draft="contributed">SB$</symbol>
+				<symbol draft="contributed">SBD</symbol>
 			</currency>
 			<currency type="SCR">
 				<displayName count="few" draft="contributed">روبية سيشيلية</displayName>
@@ -8970,8 +8970,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">كرونة سويدية</displayName>
 				<displayName count="zero" draft="contributed">كرونة سويدية</displayName>
 				<displayName>كرونة سويدية</displayName>
-				<symbol draft="contributed">SEK</symbol>
 				<symbol alt="narrow">kr</symbol>
+				<symbol draft="contributed">SEK</symbol>
 			</currency>
 			<currency type="SGD">
 				<displayName count="few" draft="contributed">دولار سنغافوري</displayName>
@@ -8981,8 +8981,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">دولار سنغافوري</displayName>
 				<displayName count="zero" draft="contributed">دولار سنغافوري</displayName>
 				<displayName>دولار سنغافوري</displayName>
-				<symbol draft="contributed">SGD</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">SGD</symbol>
 			</currency>
 			<currency type="SHP">
 				<displayName count="few" draft="contributed">جنيه سانت هيلين</displayName>
@@ -8992,8 +8992,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">جنيه سانت هيلين</displayName>
 				<displayName count="zero" draft="contributed">جنيه سانت هيلين</displayName>
 				<displayName>جنيه سانت هيلين</displayName>
-				<symbol draft="contributed">SHP</symbol>
 				<symbol alt="narrow">£</symbol>
+				<symbol draft="contributed">SHP</symbol>
 			</currency>
 			<currency type="SIT">
 				<displayName>تولار سلوفيني</displayName>
@@ -9035,8 +9035,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">دولار سورينامي</displayName>
 				<displayName count="zero" draft="contributed">دولار سورينامي</displayName>
 				<displayName>دولار سورينامي</displayName>
-				<symbol draft="contributed">SRD</symbol>
 				<symbol alt="narrow" draft="contributed">SR$</symbol>
+				<symbol draft="contributed">SRD</symbol>
 			</currency>
 			<currency type="SRG">
 				<displayName count="few" draft="provisional">جلدر سورينامي</displayName>
@@ -9055,8 +9055,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two">جنيه جنوب السودان</displayName>
 				<displayName count="zero">جنيه جنوب السودان</displayName>
 				<displayName>جنيه جنوب السودان</displayName>
-				<symbol draft="contributed">ج.ج.س.</symbol>
 				<symbol alt="narrow" draft="contributed">ج.ج.س.</symbol>
+				<symbol draft="contributed">ج.ج.س.</symbol>
 			</currency>
 			<currency type="STD">
 				<displayName count="few" draft="contributed">دوبرا ساو تومي وبرينسيبي</displayName>
@@ -9066,8 +9066,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">دوبرا ساو تومي وبرينسيبي</displayName>
 				<displayName count="zero" draft="contributed">دوبرا ساو تومي وبرينسيبي</displayName>
 				<displayName>دوبرا ساو تومي وبرينسيبي</displayName>
-				<symbol draft="contributed">STD</symbol>
 				<symbol alt="narrow">Db</symbol>
+				<symbol draft="contributed">STD</symbol>
 			</currency>
 			<currency type="SUR">
 				<displayName>روبل سوفيتي</displayName>
@@ -9110,8 +9110,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">باخت تايلاندي</displayName>
 				<displayName count="zero" draft="contributed">باخت تايلاندي</displayName>
 				<displayName>باخت تايلاندي</displayName>
-				<symbol draft="contributed">฿</symbol>
 				<symbol alt="narrow">฿</symbol>
+				<symbol draft="contributed">฿</symbol>
 			</currency>
 			<currency type="TJR">
 				<displayName>روبل طاجيكستاني</displayName>
@@ -9151,8 +9151,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</currency>
 			<currency type="TOP">
 				<displayName>بانغا تونغا</displayName>
-				<symbol draft="contributed">TOP</symbol>
 				<symbol alt="narrow">T$</symbol>
+				<symbol draft="contributed">TOP</symbol>
 			</currency>
 			<currency type="TPE">
 				<displayName>اسكود تيموري</displayName>
@@ -9174,9 +9174,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">ليرة تركية</displayName>
 				<displayName count="zero" draft="contributed">ليرة تركية</displayName>
 				<displayName>ليرة تركية</displayName>
-				<symbol draft="contributed">ل.ت.</symbol>
 				<symbol alt="narrow">₺</symbol>
 				<symbol alt="variant">TL</symbol>
+				<symbol draft="contributed">ل.ت.</symbol>
 			</currency>
 			<currency type="TTD">
 				<displayName count="few" draft="contributed">دولار ترينداد وتوباجو</displayName>
@@ -9186,8 +9186,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">دولار ترينداد وتوباجو</displayName>
 				<displayName count="zero" draft="contributed">دولار ترينداد وتوباجو</displayName>
 				<displayName>دولار ترينداد وتوباجو</displayName>
-				<symbol draft="contributed">TTD</symbol>
 				<symbol alt="narrow" draft="contributed">TT$</symbol>
+				<symbol draft="contributed">TTD</symbol>
 			</currency>
 			<currency type="TWD">
 				<displayName count="few" draft="contributed">دولار تايواني</displayName>
@@ -9218,8 +9218,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">هريفنيا أوكراني</displayName>
 				<displayName count="zero" draft="contributed">هريفنيا أوكراني</displayName>
 				<displayName>هريفنيا أوكراني</displayName>
-				<symbol draft="contributed">UAH</symbol>
 				<symbol alt="narrow">₴</symbol>
+				<symbol draft="contributed">UAH</symbol>
 			</currency>
 			<currency type="UGS">
 				<displayName>شلن أوغندي - 1966-1987</displayName>
@@ -9256,8 +9256,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</currency>
 			<currency type="UYU">
 				<displayName>بيزو اوروغواي</displayName>
-				<symbol draft="contributed">UYU</symbol>
 				<symbol alt="narrow" draft="contributed">UY$</symbol>
+				<symbol draft="contributed">UYU</symbol>
 			</currency>
 			<currency type="UZS">
 				<displayName count="few" draft="contributed">سوم أوزبكستاني</displayName>
@@ -9274,8 +9274,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</currency>
 			<currency type="VEF">
 				<displayName>بوليفار فنزويلي</displayName>
-				<symbol draft="contributed">VEF</symbol>
 				<symbol alt="narrow">Bs</symbol>
+				<symbol draft="contributed">VEF</symbol>
 			</currency>
 			<currency type="VND">
 				<displayName count="few" draft="contributed">دونج فيتنامي</displayName>
@@ -9470,8 +9470,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">راند جنوب أفريقيا</displayName>
 				<displayName count="zero" draft="contributed">راند جنوب أفريقيا</displayName>
 				<displayName>راند جنوب أفريقيا</displayName>
-				<symbol draft="contributed">ZAR</symbol>
 				<symbol alt="narrow">R</symbol>
+				<symbol draft="contributed">ZAR</symbol>
 			</currency>
 			<currency type="ZMK">
 				<displayName count="few" draft="contributed">كواشا زامبي - 1968-2012</displayName>
@@ -9490,8 +9490,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="two" draft="contributed">كواشا زامبي</displayName>
 				<displayName count="zero" draft="contributed">كواشا زامبي</displayName>
 				<displayName>كواشا زامبي</displayName>
-				<symbol draft="contributed">ZMW</symbol>
 				<symbol alt="narrow">ZK</symbol>
+				<symbol draft="contributed">ZMW</symbol>
 			</currency>
 			<currency type="ZRN">
 				<displayName count="few" draft="provisional">زائير زائيري جديد</displayName>
@@ -14170,6 +14170,23 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$ZW">\p{Line_Break=ZWSpace}</variable>
 			</variables>
 			<segmentRules>
+				<!-- LB 4  Always break after hard line breaks (but never between CR and LF). -->
+				<rule id="4">$BK ÷</rule>
+				<!-- LB 5  Treat CR followed by LF, as well as CR, LF and NL as hard line breaks. -->
+				<rule id="5.01">$CR × $LF</rule>
+				<rule id="5.02">$CR ÷</rule>
+				<rule id="5.03">$LF ÷</rule>
+				<rule id="5.04">$NL ÷</rule>
+				<!-- LB 6  Do not break before hard line breaks. -->
+				<rule id="6">× ( $BK | $CR | $LF | $NL )</rule>
+				<!-- LB 7  Do not break before spaces or zero-width space. -->
+				<rule id="7.01">× $SP</rule>
+				<rule id="7.02">× $ZW</rule>
+				<!-- LB 8  Break before any character following a zero-width space, even if one or more spaces intervene. -->
+				<rule id="8">$ZW $SP* ÷</rule>
+				<!-- LB 9  Do not break a combining character sequence; treat it as if it has the LB class of the base character -->
+				<!-- in all of the following rules. (Where X is any line break class except SP, BK, CR, LF, NL or ZW.) -->
+				<rule id="9">$Spec2_ × $CM</rule>
 				<!-- WARNING: this is done by modifying the variable values for all but SP.... That is, $AL is really ($AI $CM*)! -->
 				<!-- LB 11  Do not break before or after WORD JOINER and related characters. -->
 				<rule id="11.01">× $WJ</rule>
@@ -14249,23 +14266,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="30.02">$CP × ($AL | $HL | $NU)</rule>
 				<!-- LB 30a  Do not break between Regional Indicators. -->
 				<rule id="30.11">$RI × $RI</rule>
-				<!-- LB 4  Always break after hard line breaks (but never between CR and LF). -->
-				<rule id="4">$BK ÷</rule>
-				<!-- LB 5  Treat CR followed by LF, as well as CR, LF and NL as hard line breaks. -->
-				<rule id="5.01">$CR × $LF</rule>
-				<rule id="5.02">$CR ÷</rule>
-				<rule id="5.03">$LF ÷</rule>
-				<rule id="5.04">$NL ÷</rule>
-				<!-- LB 6  Do not break before hard line breaks. -->
-				<rule id="6">× ( $BK | $CR | $LF | $NL )</rule>
-				<!-- LB 7  Do not break before spaces or zero-width space. -->
-				<rule id="7.01">× $SP</rule>
-				<rule id="7.02">× $ZW</rule>
-				<!-- LB 8  Break before any character following a zero-width space, even if one or more spaces intervene. -->
-				<rule id="8">$ZW $SP* ÷</rule>
-				<!-- LB 9  Do not break a combining character sequence; treat it as if it has the LB class of the base character -->
-				<!-- in all of the following rules. (Where X is any line break class except SP, BK, CR, LF, NL or ZW.) -->
-				<rule id="9">$Spec2_ × $CM</rule>
 			</segmentRules>
 		</segmentation>
 		<segmentation type="SentenceBreak">
@@ -14300,11 +14300,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$Upper">($Upper $FE*)</variable>
 			</variables>
 			<segmentRules>
-				<!-- Note the fix to $Sp*, $Sep? -->
-				<rule id="10">( $STerm | $ATerm ) $Close* $Sp* × ( $Sp | $Sep | $CR | $LF )</rule>
-				<rule id="11">( $STerm | $ATerm ) $Close* $Sp* ($Sep | $CR | $LF)? ÷</rule>
-				<!-- Otherwise, do not break -->
-				<rule id="12">× $Any</rule>
 				<!-- Do not break within CRLF -->
 				<rule id="3">$CR × $LF</rule>
 				<!-- Break after paragraph separators. -->
@@ -14323,6 +14318,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="8.1">($STerm | $ATerm) $Close* $Sp* × ($SContinue | $STerm | $ATerm)</rule>
 				<!-- Break after sentence terminators, but include closing punctuation, trailing spaces, and (optionally) a paragraph separator. -->
 				<rule id="9">( $STerm | $ATerm ) $Close* × ( $Close | $Sp | $Sep | $CR | $LF )</rule>
+				<!-- Note the fix to $Sp*, $Sep? -->
+				<rule id="10">( $STerm | $ATerm ) $Close* $Sp* × ( $Sp | $Sep | $CR | $LF )</rule>
+				<rule id="11">( $STerm | $ATerm ) $Close* $Sp* ($Sep | $CR | $LF)? ÷</rule>
+				<!-- Otherwise, do not break -->
+				<rule id="12">× $Any</rule>
 			</segmentRules>
 		</segmentation>
 		<segmentation type="WordBreak">
@@ -14355,13 +14355,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$Regional_Indicator">($Regional_Indicator $FE*)</variable>
 			</variables>
 			<segmentRules>
-				<rule id="10">$Numeric × $ALetter</rule>
-				<rule id="11">$Numeric ($MidNum | $MidNumLet) × $Numeric</rule>
-				<rule id="12">$Numeric × ($MidNum | $MidNumLet) $Numeric</rule>
-				<rule id="13">$Katakana × $Katakana</rule>
-				<rule id="13.1">($ALetter | $Numeric | $Katakana | $ExtendNumLet) × $ExtendNumLet</rule>
-				<rule id="13.2">$ExtendNumLet × ($ALetter | $Numeric | $Katakana)</rule>
-				<rule id="13.3">$Regional_Indicator × $Regional_Indicator</rule>
 				<rule id="3">$CR × $LF</rule>
 				<rule id="3.1">($Newline | $CR | $LF) ÷</rule>
 				<rule id="3.2">÷ ($Newline | $CR | $LF)</rule>
@@ -14376,6 +14369,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="7">$ALetter ($MidLetter | $MidNumLet) × $ALetter</rule>
 				<rule id="8">$Numeric × $Numeric</rule>
 				<rule id="9">$ALetter × $Numeric</rule>
+				<rule id="10">$Numeric × $ALetter</rule>
+				<rule id="11">$Numeric ($MidNum | $MidNumLet) × $Numeric</rule>
+				<rule id="12">$Numeric × ($MidNum | $MidNumLet) $Numeric</rule>
+				<rule id="13">$Katakana × $Katakana</rule>
+				<rule id="13.1">($ALetter | $Numeric | $Katakana | $ExtendNumLet) × $ExtendNumLet</rule>
+				<rule id="13.2">$ExtendNumLet × ($ALetter | $Numeric | $Katakana)</rule>
+				<rule id="13.3">$Regional_Indicator × $Regional_Indicator</rule>
 			</segmentRules>
 		</segmentation>
 	</segmentations>

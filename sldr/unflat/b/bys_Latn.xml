@@ -5,11 +5,11 @@
 		<!-- name.en(bys)="Burak" -->
 		<language type="bys"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="NG"/>
+			<sil:identity defaultRegion="NG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {á} {à} b ɓ c d ɗ e {é} {è} {e̱} {é̱} {è̱} f g h i j k l m n o {ó} {ò} {o̱} {ó̱} {ò̱} p r s t u {ú} {ù} v w y z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 	</characters>
 </ldml>

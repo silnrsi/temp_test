@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="bs"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -4651,10 +4651,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>Чехословачка тврда круна</displayName>
 			</currency>
 			<currency type="CUC">
-				<displayName draft="contributed">кубански конвертибилни песо</displayName>
 				<displayName count="few" draft="contributed">кубански конвертибилни пезос</displayName>
 				<displayName count="one" draft="contributed">кубански конвертибилни песо</displayName>
 				<displayName count="other" draft="contributed">кубански конвертибилни пезос</displayName>
+				<displayName draft="contributed">кубански конвертибилни песо</displayName>
 			</currency>
 			<currency type="CUP">
 				<displayName count="few">кубанска пезоса</displayName>

@@ -5,11 +5,11 @@
 		<!-- name.en(wrs)="Waris" -->
 		<language type="wrs"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c f j q x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {ae} b d e {ei} g h i k l m {mb} n {nd} {ng} o p r s t u v w y]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c f j q x z]</exemplarCharacters>
 	</characters>
 </ldml>

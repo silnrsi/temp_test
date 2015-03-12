@@ -5,11 +5,11 @@
 		<!-- name.en(mfo)="Mbe" -->
 		<language type="mfo"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="NG"/>
+			<sil:identity defaultRegion="NG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c h q v x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b {ch} d {dz} e ɛ f g {gb} i j k {kp} l m n {-ng} {ny} o ɔ p r s {sh} t {ts} u w y]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c h q v x z]</exemplarCharacters>
 	</characters>
 </ldml>

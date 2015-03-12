@@ -5,11 +5,11 @@
 		<!-- name.en(fuq)="Central-Eastern Niger Fulfulde" -->
 		<language type="fuq"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="NE"/>
+			<sil:identity defaultRegion="NE" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q v x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[ʼ a b ɓ c d ɗ e f g h i j k l m {mb} n {nd} {ng} {nj} {ny} ŋ o p r s t u w y ƴ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q v x z]</exemplarCharacters>
 	</characters>
 </ldml>

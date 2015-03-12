@@ -5,11 +5,11 @@
 		<!-- name.en(gya)="Northwest Gbaya" -->
 		<language type="gya"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="CM"/>
+			<sil:identity defaultRegion="CM" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c j q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b ɓ d ɗ e ɛ f g {gb} h i k {kp} l m {mb} mgb n {nd} {ny} ŋ {ŋg} {ŋm} o ɔ p r s t u v {vb} w y z ʼ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c j q x]</exemplarCharacters>
 	</characters>
 </ldml>

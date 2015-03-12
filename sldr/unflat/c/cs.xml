@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="cs"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -5601,11 +5601,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>GNS</symbol>
 			</currency>
 			<currency type="GQE">
-				<displayName draft="contributed">rovníkovoguinejský ekwele</displayName>
 				<displayName count="few" draft="contributed">rovníkovoguinejské ekwele</displayName>
 				<displayName count="many" draft="contributed">rovníkovoguinejského ekwele</displayName>
 				<displayName count="one" draft="contributed">rovníkovoguinejský ekwele</displayName>
 				<displayName count="other" draft="contributed">rovníkovoguinejských ekwele</displayName>
+				<displayName draft="contributed">rovníkovoguinejský ekwele</displayName>
 				<symbol>GQE</symbol>
 			</currency>
 			<currency type="GRD">
@@ -6966,11 +6966,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>XRE</symbol>
 			</currency>
 			<currency type="XSU">
-				<displayName draft="contributed">sucre</displayName>
 				<displayName count="few" draft="contributed">sucre</displayName>
 				<displayName count="many" draft="contributed">sucre</displayName>
 				<displayName count="one" draft="contributed">sucre</displayName>
 				<displayName count="other" draft="contributed">sucre</displayName>
+				<displayName draft="contributed">sucre</displayName>
 				<symbol>XSU</symbol>
 			</currency>
 			<currency type="XTS">

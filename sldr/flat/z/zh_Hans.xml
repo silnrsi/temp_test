@@ -8,10 +8,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<version number="$Revision: 10669 $"/>
 		<generation date="$Date: 2014-07-23 21:10 +0000 $"/>
 		<language type="zh"/>
-		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
-		</special>
 		<script type="Hans"/>
+		<territory type="CN"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+		</special>
 	</identity>
 	<localeDisplayNames>
 		<localeDisplayPattern>
@@ -7475,8 +7476,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>AFN</symbol>
 			</currency>
 			<currency type="ALK">
-				<displayName draft="contributed">阿尔巴尼亚列克(1946–1965)</displayName>
 				<displayName count="other" draft="contributed">阿尔巴尼亚列克(1946–1965)</displayName>
+				<displayName draft="contributed">阿尔巴尼亚列克(1946–1965)</displayName>
 				<symbol>ALK</symbol>
 			</currency>
 			<currency type="ALL">
@@ -7649,8 +7650,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="BND">
 				<displayName count="other">文莱元</displayName>
 				<displayName>文莱元</displayName>
-				<symbol draft="contributed">BND</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">BND</symbol>
 			</currency>
 			<currency type="BOB">
 				<displayName count="other">玻利维亚诺</displayName>
@@ -7920,8 +7921,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="ESP">
 				<displayName count="other">西班牙比塞塔</displayName>
 				<displayName>西班牙比塞塔</displayName>
-				<symbol draft="contributed">ESP</symbol>
 				<symbol alt="narrow">₧</symbol>
+				<symbol draft="contributed">ESP</symbol>
 			</currency>
 			<currency type="ETB">
 				<displayName count="other">埃塞俄比亚比尔</displayName>
@@ -8073,8 +8074,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="IDR">
 				<displayName count="other">印度尼西亚盾</displayName>
 				<displayName>印度尼西亚盾</displayName>
-				<symbol draft="contributed">IDR</symbol>
 				<symbol alt="narrow">Rp</symbol>
+				<symbol draft="contributed">IDR</symbol>
 			</currency>
 			<currency type="IEP">
 				<displayName count="other">爱尔兰镑</displayName>
@@ -8087,8 +8088,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">ILP</symbol>
 			</currency>
 			<currency type="ILR">
-				<displayName draft="contributed">以色列谢克尔(1980–1985)</displayName>
 				<displayName count="other" draft="contributed">以色列谢克尔(1980–1985)</displayName>
+				<displayName draft="contributed">以色列谢克尔(1980–1985)</displayName>
 				<symbol draft="contributed">ILS</symbol>
 			</currency>
 			<currency type="ILS">
@@ -8114,8 +8115,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>IRR</symbol>
 			</currency>
 			<currency type="ISJ">
-				<displayName draft="contributed">冰岛克朗(1918–1981)</displayName>
 				<displayName count="other" draft="contributed">冰岛克朗(1918–1981)</displayName>
+				<displayName draft="contributed">冰岛克朗(1918–1981)</displayName>
 				<symbol>ISJ</symbol>
 			</currency>
 			<currency type="ISK">
@@ -8554,8 +8555,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="RUR">
 				<displayName count="other">俄国卢布 (1991–1998)</displayName>
 				<displayName>俄国卢布 (1991–1998)</displayName>
-				<symbol draft="contributed">RUR</symbol>
 				<symbol alt="narrow">р.</symbol>
+				<symbol draft="contributed">RUR</symbol>
 			</currency>
 			<currency type="RWF">
 				<displayName count="other">卢旺达法郎</displayName>
@@ -17272,8 +17273,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			]]></cr>
 		</collation>
 		<collation type="unihan">
-			<import type="private-unihan" source="und"/>
 			<import type="private-pinyin" source="zh"/>
+			<import type="private-unihan" source="und"/>
 			<settings reorder="Hani Bopo"/>
 		</collation>
 		<collation type="zhuyin" alt="short">
@@ -21493,6 +21494,23 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$ZW">\p{Line_Break=ZWSpace}</variable>
 			</variables>
 			<segmentRules>
+				<!-- LB 4  Always break after hard line breaks (but never between CR and LF). -->
+				<rule id="4">$BK ÷</rule>
+				<!-- LB 5  Treat CR followed by LF, as well as CR, LF and NL as hard line breaks. -->
+				<rule id="5.01">$CR × $LF</rule>
+				<rule id="5.02">$CR ÷</rule>
+				<rule id="5.03">$LF ÷</rule>
+				<rule id="5.04">$NL ÷</rule>
+				<!-- LB 6  Do not break before hard line breaks. -->
+				<rule id="6">× ( $BK | $CR | $LF | $NL )</rule>
+				<!-- LB 7  Do not break before spaces or zero-width space. -->
+				<rule id="7.01">× $SP</rule>
+				<rule id="7.02">× $ZW</rule>
+				<!-- LB 8  Break before any character following a zero-width space, even if one or more spaces intervene. -->
+				<rule id="8">$ZW $SP* ÷</rule>
+				<!-- LB 9  Do not break a combining character sequence; treat it as if it has the LB class of the base character -->
+				<!-- in all of the following rules. (Where X is any line break class except SP, BK, CR, LF, NL or ZW.) -->
+				<rule id="9">$Spec2_ × $CM</rule>
 				<!-- WARNING: this is done by modifying the variable values for all but SP.... That is, $AL is really ($AI $CM*)! -->
 				<!-- LB 11  Do not break before or after WORD JOINER and related characters. -->
 				<rule id="11.01">× $WJ</rule>
@@ -21572,23 +21590,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="30.02">$CP × ($AL | $HL | $NU)</rule>
 				<!-- LB 30a  Do not break between Regional Indicators. -->
 				<rule id="30.11">$RI × $RI</rule>
-				<!-- LB 4  Always break after hard line breaks (but never between CR and LF). -->
-				<rule id="4">$BK ÷</rule>
-				<!-- LB 5  Treat CR followed by LF, as well as CR, LF and NL as hard line breaks. -->
-				<rule id="5.01">$CR × $LF</rule>
-				<rule id="5.02">$CR ÷</rule>
-				<rule id="5.03">$LF ÷</rule>
-				<rule id="5.04">$NL ÷</rule>
-				<!-- LB 6  Do not break before hard line breaks. -->
-				<rule id="6">× ( $BK | $CR | $LF | $NL )</rule>
-				<!-- LB 7  Do not break before spaces or zero-width space. -->
-				<rule id="7.01">× $SP</rule>
-				<rule id="7.02">× $ZW</rule>
-				<!-- LB 8  Break before any character following a zero-width space, even if one or more spaces intervene. -->
-				<rule id="8">$ZW $SP* ÷</rule>
-				<!-- LB 9  Do not break a combining character sequence; treat it as if it has the LB class of the base character -->
-				<!-- in all of the following rules. (Where X is any line break class except SP, BK, CR, LF, NL or ZW.) -->
-				<rule id="9">$Spec2_ × $CM</rule>
 			</segmentRules>
 		</segmentation>
 		<segmentation type="SentenceBreak">
@@ -21623,11 +21624,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$Upper">($Upper $FE*)</variable>
 			</variables>
 			<segmentRules>
-				<!-- Note the fix to $Sp*, $Sep? -->
-				<rule id="10">( $STerm | $ATerm ) $Close* $Sp* × ( $Sp | $Sep | $CR | $LF )</rule>
-				<rule id="11">( $STerm | $ATerm ) $Close* $Sp* ($Sep | $CR | $LF)? ÷</rule>
-				<!-- Otherwise, do not break -->
-				<rule id="12">× $Any</rule>
 				<!-- Do not break within CRLF -->
 				<rule id="3">$CR × $LF</rule>
 				<!-- Break after paragraph separators. -->
@@ -21646,6 +21642,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="8.1">($STerm | $ATerm) $Close* $Sp* × ($SContinue | $STerm | $ATerm)</rule>
 				<!-- Break after sentence terminators, but include closing punctuation, trailing spaces, and (optionally) a paragraph separator. -->
 				<rule id="9">( $STerm | $ATerm ) $Close* × ( $Close | $Sp | $Sep | $CR | $LF )</rule>
+				<!-- Note the fix to $Sp*, $Sep? -->
+				<rule id="10">( $STerm | $ATerm ) $Close* $Sp* × ( $Sp | $Sep | $CR | $LF )</rule>
+				<rule id="11">( $STerm | $ATerm ) $Close* $Sp* ($Sep | $CR | $LF)? ÷</rule>
+				<!-- Otherwise, do not break -->
+				<rule id="12">× $Any</rule>
 			</segmentRules>
 		</segmentation>
 		<segmentation type="WordBreak">
@@ -21678,13 +21679,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$Regional_Indicator">($Regional_Indicator $FE*)</variable>
 			</variables>
 			<segmentRules>
-				<rule id="10">$Numeric × $ALetter</rule>
-				<rule id="11">$Numeric ($MidNum | $MidNumLet) × $Numeric</rule>
-				<rule id="12">$Numeric × ($MidNum | $MidNumLet) $Numeric</rule>
-				<rule id="13">$Katakana × $Katakana</rule>
-				<rule id="13.1">($ALetter | $Numeric | $Katakana | $ExtendNumLet) × $ExtendNumLet</rule>
-				<rule id="13.2">$ExtendNumLet × ($ALetter | $Numeric | $Katakana)</rule>
-				<rule id="13.3">$Regional_Indicator × $Regional_Indicator</rule>
 				<rule id="3">$CR × $LF</rule>
 				<rule id="3.1">($Newline | $CR | $LF) ÷</rule>
 				<rule id="3.2">÷ ($Newline | $CR | $LF)</rule>
@@ -21699,6 +21693,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="7">$ALetter ($MidLetter | $MidNumLet) × $ALetter</rule>
 				<rule id="8">$Numeric × $Numeric</rule>
 				<rule id="9">$ALetter × $Numeric</rule>
+				<rule id="10">$Numeric × $ALetter</rule>
+				<rule id="11">$Numeric ($MidNum | $MidNumLet) × $Numeric</rule>
+				<rule id="12">$Numeric × ($MidNum | $MidNumLet) $Numeric</rule>
+				<rule id="13">$Katakana × $Katakana</rule>
+				<rule id="13.1">($ALetter | $Numeric | $Katakana | $ExtendNumLet) × $ExtendNumLet</rule>
+				<rule id="13.2">$ExtendNumLet × ($ALetter | $Numeric | $Katakana)</rule>
+				<rule id="13.3">$Regional_Indicator × $Regional_Indicator</rule>
 			</segmentRules>
 		</segmentation>
 	</segmentations>

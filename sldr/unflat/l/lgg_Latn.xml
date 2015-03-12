@@ -5,11 +5,11 @@
 		<!-- name.en(lgg)="Lugbara" -->
 		<language type="lgg"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="UG"/>
+			<sil:identity defaultRegion="UG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {ä} b {ʼb} c d {ʼd} e ɛ f g {gb} h i ɩ j k {kp} l m n {ny} ŋ o ɔ p r s t u ʋ v w y z ʼ ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 	</characters>
 </ldml>

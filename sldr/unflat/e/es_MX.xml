@@ -10,7 +10,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<language type="es"/>
 		<territory type="MX"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -1491,15 +1491,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 		</percentFormats>
 		<currencies>
 			<currency type="AFN">
-				<displayName draft="contributed">afgani afgano</displayName>
 				<displayName count="one" draft="contributed">afgani afgano</displayName>
 				<displayName count="other" draft="contributed">afganis afganos</displayName>
+				<displayName draft="contributed">afgani afgano</displayName>
 				<symbol draft="contributed">Af</symbol>
 			</currency>
 			<currency type="ALL">
-				<displayName draft="contributed">lek albanés</displayName>
 				<displayName count="one" draft="contributed">lek albanés</displayName>
 				<displayName count="other" draft="contributed">lekë albaneses</displayName>
+				<displayName draft="contributed">lek albanés</displayName>
 			</currency>
 			<currency type="AMD">
 				<displayName count="one" draft="contributed">dram armenio</displayName>
@@ -1509,17 +1509,17 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">Naf</symbol>
 			</currency>
 			<currency type="AOA">
-				<displayName draft="contributed">kwanza angoleño</displayName>
 				<displayName count="one" draft="contributed">kwanza angoleño</displayName>
 				<displayName count="other" draft="contributed">kwanzas angoleños</displayName>
+				<displayName draft="contributed">kwanza angoleño</displayName>
 				<symbol draft="contributed">Kz</symbol>
 			</currency>
 			<currency type="ARA">
 				<symbol draft="contributed">ARA</symbol>
 			</currency>
 			<currency type="ARS">
-				<symbol draft="contributed">$a</symbol>
 				<symbol alt="narrow" draft="contributed">$a</symbol>
+				<symbol draft="contributed">$a</symbol>
 			</currency>
 			<currency type="AUD">
 				<symbol draft="contributed">AU$</symbol>
@@ -1528,14 +1528,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">Afl.</symbol>
 			</currency>
 			<currency type="BDT">
-				<displayName draft="contributed">taka de Bangladesh</displayName>
 				<displayName count="one" draft="contributed">taka de Bangladesh</displayName>
 				<displayName count="other" draft="contributed">taka de Bangladesh</displayName>
+				<displayName draft="contributed">taka de Bangladesh</displayName>
 			</currency>
 			<currency type="BND">
-				<displayName draft="contributed">dólar de Brunéi</displayName>
 				<displayName count="one" draft="contributed">dólar de Brunéi</displayName>
 				<displayName count="other" draft="contributed">dólares de Brunéi</displayName>
+				<displayName draft="contributed">dólar de Brunéi</displayName>
 			</currency>
 			<currency type="BOL">
 				<symbol draft="contributed">BOL</symbol>
@@ -1565,14 +1565,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">BRZ</symbol>
 			</currency>
 			<currency type="BTN">
-				<displayName draft="contributed">ngultrum butanés</displayName>
 				<displayName count="one" draft="contributed">ngultrum butanés</displayName>
 				<displayName count="other" draft="contributed">ngultrum butaneses</displayName>
+				<displayName draft="contributed">ngultrum butanés</displayName>
 			</currency>
 			<currency type="BWP">
-				<displayName draft="contributed">pula botsuano</displayName>
 				<displayName count="one" draft="contributed">pula botsuano</displayName>
 				<displayName count="other" draft="contributed">pulas botsuanos</displayName>
+				<displayName draft="contributed">pula botsuano</displayName>
 			</currency>
 			<currency type="BYR">
 				<symbol alt="narrow" draft="contributed">Br</symbol>
@@ -1584,9 +1584,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">CLF</symbol>
 			</currency>
 			<currency type="CNY">
-				<displayName draft="contributed">yuan chino</displayName>
 				<displayName count="one" draft="contributed">yuan chino</displayName>
 				<displayName count="other" draft="contributed">yuanes chinos</displayName>
+				<displayName draft="contributed">yuan chino</displayName>
 				<symbol draft="contributed">CN¥</symbol>
 			</currency>
 			<currency type="COU">
@@ -1606,97 +1606,97 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="other" draft="contributed">nakfas eritreos</displayName>
 			</currency>
 			<currency type="ETB">
-				<displayName draft="contributed">birr etíope</displayName>
 				<displayName count="one" draft="contributed">birr etíope</displayName>
 				<displayName count="other" draft="contributed">birrs etíopes</displayName>
+				<displayName draft="contributed">birr etíope</displayName>
 			</currency>
 			<currency type="GEL">
-				<displayName draft="contributed">lari georgiano</displayName>
 				<displayName count="one" draft="contributed">lari georgiano</displayName>
 				<displayName count="other" draft="contributed">laris georgianos</displayName>
+				<displayName draft="contributed">lari georgiano</displayName>
 			</currency>
 			<currency type="GHS">
-				<displayName draft="contributed">cedi ghanés</displayName>
 				<displayName count="one" draft="contributed">cedi ghanés</displayName>
 				<displayName count="other" draft="contributed">cedis ghaneses</displayName>
+				<displayName draft="contributed">cedi ghanés</displayName>
 			</currency>
 			<currency type="GMD">
-				<displayName draft="contributed">dalasi gambiano</displayName>
 				<displayName count="one" draft="contributed">dalasi gambiano</displayName>
 				<displayName count="other" draft="contributed">dalasis gambianos</displayName>
+				<displayName draft="contributed">dalasi gambiano</displayName>
 			</currency>
 			<currency type="HKD">
-				<displayName draft="contributed">dólar de Hong Kong</displayName>
 				<displayName count="one" draft="contributed">dólar de Hong Kong</displayName>
 				<displayName count="other" draft="contributed">dólares de Hong Kong</displayName>
+				<displayName draft="contributed">dólar de Hong Kong</displayName>
 			</currency>
 			<currency type="HRK">
-				<displayName draft="contributed">kuna croata</displayName>
 				<displayName count="one" draft="contributed">kuna croata</displayName>
 				<displayName count="other" draft="contributed">kunas croatas</displayName>
+				<displayName draft="contributed">kuna croata</displayName>
 			</currency>
 			<currency type="ILS">
-				<displayName draft="contributed">nuevo shéquel israelí</displayName>
 				<displayName count="one" draft="contributed">nuevo shéquel israelí</displayName>
 				<displayName count="other" draft="contributed">nuevos shéquels israelíes</displayName>
+				<displayName draft="contributed">nuevo shéquel israelí</displayName>
 			</currency>
 			<currency type="JPY">
-				<displayName draft="contributed">yen japonés</displayName>
 				<displayName count="one" draft="contributed">yen japonés</displayName>
 				<displayName count="other" draft="contributed">yenes japoneses</displayName>
+				<displayName draft="contributed">yen japonés</displayName>
 			</currency>
 			<currency type="KGS">
-				<displayName draft="contributed">som kirguís</displayName>
 				<displayName count="one" draft="contributed">som kirguís</displayName>
 				<displayName count="other" draft="contributed">soms kirguises</displayName>
+				<displayName draft="contributed">som kirguís</displayName>
 			</currency>
 			<currency type="KHR">
-				<displayName draft="contributed">riel camboyano</displayName>
 				<displayName count="one" draft="contributed">riel camboyano</displayName>
 				<displayName count="other" draft="contributed">rieles camboyanos</displayName>
+				<displayName draft="contributed">riel camboyano</displayName>
 			</currency>
 			<currency type="KZT">
-				<displayName draft="contributed">tenge kazajo</displayName>
 				<displayName count="one" draft="contributed">tenge kasajo</displayName>
 				<displayName count="other" draft="contributed">tenges kasajos</displayName>
+				<displayName draft="contributed">tenge kazajo</displayName>
 			</currency>
 			<currency type="LAK">
-				<displayName draft="contributed">kip laosiano</displayName>
 				<displayName count="one" draft="contributed">kip laosiano</displayName>
 				<displayName count="other" draft="contributed">kips laosianos</displayName>
+				<displayName draft="contributed">kip laosiano</displayName>
 			</currency>
 			<currency type="LKR">
-				<displayName draft="contributed">rupia de Sri Lanka</displayName>
 				<displayName count="one" draft="contributed">rupia de Sri Lanka</displayName>
 				<displayName count="other" draft="contributed">rupias de Sri Lanka</displayName>
+				<displayName draft="contributed">rupia de Sri Lanka</displayName>
 			</currency>
 			<currency type="LVL">
 				<displayName count="other" draft="contributed">lats letones</displayName>
 			</currency>
 			<currency type="MGA">
-				<displayName draft="contributed">ariary malgache</displayName>
 				<displayName count="one" draft="contributed">ariary malgache</displayName>
 				<displayName count="other" draft="contributed">ariarys malgaches</displayName>
+				<displayName draft="contributed">ariary malgache</displayName>
 			</currency>
 			<currency type="MMK">
-				<displayName draft="contributed">kyat de Myanmar</displayName>
 				<displayName count="one" draft="contributed">kyat de Myanmar</displayName>
 				<displayName count="other" draft="contributed">kyats de Myanmar</displayName>
+				<displayName draft="contributed">kyat de Myanmar</displayName>
 			</currency>
 			<currency type="MNT">
-				<displayName draft="contributed">tugrik mongol</displayName>
 				<displayName count="one" draft="contributed">tugrik mongol</displayName>
 				<displayName count="other" draft="contributed">tugriks mongoles</displayName>
+				<displayName draft="contributed">tugrik mongol</displayName>
 			</currency>
 			<currency type="MRO">
-				<displayName draft="contributed">ouguiya mauritano</displayName>
 				<displayName count="one" draft="contributed">ouguiya mauritano</displayName>
 				<displayName count="other" draft="contributed">ouguiyas mauritanos</displayName>
+				<displayName draft="contributed">ouguiya mauritano</displayName>
 			</currency>
 			<currency type="MVR">
-				<displayName draft="contributed">rufiyaa de Maldivas</displayName>
 				<displayName count="one" draft="contributed">rufiyaa de Maldivas</displayName>
 				<displayName count="other" draft="contributed">rufiyaas de Maldivas</displayName>
+				<displayName draft="contributed">rufiyaa de Maldivas</displayName>
 			</currency>
 			<currency type="MWK">
 				<displayName count="other" draft="contributed">kwaschas malauíes</displayName>
@@ -1708,19 +1708,19 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">MXP</symbol>
 			</currency>
 			<currency type="MYR">
-				<displayName draft="contributed">ringgit malayo</displayName>
 				<displayName count="one" draft="contributed">ringgit malayo</displayName>
 				<displayName count="other" draft="contributed">ringgits malayos</displayName>
+				<displayName draft="contributed">ringgit malayo</displayName>
 			</currency>
 			<currency type="MZN">
-				<displayName draft="contributed">metical mozambiqueño</displayName>
 				<displayName count="one" draft="contributed">metical mozambiqueño</displayName>
 				<displayName count="other" draft="contributed">meticales mozambiqueños</displayName>
+				<displayName draft="contributed">metical mozambiqueño</displayName>
 			</currency>
 			<currency type="NGN">
-				<displayName draft="contributed">naira nigeriano</displayName>
 				<displayName count="one" draft="contributed">naira nigeriano</displayName>
 				<displayName count="other" draft="contributed">nairas nigerianos</displayName>
+				<displayName draft="contributed">naira nigeriano</displayName>
 			</currency>
 			<currency type="NIC">
 				<symbol draft="contributed">NIC</symbol>
@@ -1732,14 +1732,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">PES</symbol>
 			</currency>
 			<currency type="PGK">
-				<displayName draft="contributed">kina de Papúa Nueva Guinea</displayName>
 				<displayName count="one" draft="contributed">kina de Papúa Nueva Guinea</displayName>
 				<displayName count="other" draft="contributed">kinas de Papúa Nueva Guinea</displayName>
+				<displayName draft="contributed">kina de Papúa Nueva Guinea</displayName>
 			</currency>
 			<currency type="PLN">
-				<displayName draft="contributed">zloty polaco</displayName>
 				<displayName count="one" draft="contributed">zloty polaco</displayName>
 				<displayName count="other" draft="contributed">zlotys polacos</displayName>
+				<displayName draft="contributed">zloty polaco</displayName>
 			</currency>
 			<currency type="QAR">
 				<displayName count="one">riyal de Qatar</displayName>
@@ -1755,58 +1755,58 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>riyal saudí</displayName>
 			</currency>
 			<currency type="SBD">
-				<displayName draft="contributed">dólar de las Islas Salomón</displayName>
 				<displayName count="one" draft="contributed">dólar de las Islas Salomón</displayName>
 				<displayName count="other" draft="contributed">dólares de las Islas Salomón</displayName>
+				<displayName draft="contributed">dólar de las Islas Salomón</displayName>
 			</currency>
 			<currency type="SCR">
-				<displayName draft="contributed">rupia de Seychelles</displayName>
 				<displayName count="one" draft="contributed">rupia de Seychelles</displayName>
 				<displayName count="other" draft="contributed">rupias de Seychelles</displayName>
+				<displayName draft="contributed">rupia de Seychelles</displayName>
 			</currency>
 			<currency type="SLL">
-				<displayName draft="contributed">leone de Sierra Leona</displayName>
 				<displayName count="one" draft="contributed">leone de Sierra Leona</displayName>
 				<displayName count="other" draft="contributed">leones de Sierra Leona</displayName>
+				<displayName draft="contributed">leone de Sierra Leona</displayName>
 			</currency>
 			<currency type="SRG">
 				<symbol draft="contributed">SRG</symbol>
 			</currency>
 			<currency type="STD">
-				<displayName draft="contributed">dobra de Santo Tomé y Príncipe</displayName>
 				<displayName count="one" draft="contributed">dobra de Santo Tomé y Príncipe</displayName>
 				<displayName count="other" draft="contributed">dobras de Santo Tomé y Príncipe</displayName>
+				<displayName draft="contributed">dobra de Santo Tomé y Príncipe</displayName>
 			</currency>
 			<currency type="SVC">
 				<symbol draft="contributed">SVC</symbol>
 			</currency>
 			<currency type="SZL">
-				<displayName draft="contributed">lilangeni suazi</displayName>
 				<displayName count="one" draft="contributed">lilangeni suazi</displayName>
 				<displayName count="other" draft="contributed">lilangenis suazis</displayName>
+				<displayName draft="contributed">lilangeni suazi</displayName>
 			</currency>
 			<currency type="THB">
-				<displayName draft="contributed">baht tailandés</displayName>
 				<displayName count="one" draft="contributed">baht tailandés</displayName>
 				<displayName count="other" draft="contributed">bahts tailandeses</displayName>
+				<displayName draft="contributed">baht tailandés</displayName>
 			</currency>
 			<currency type="TMT">
-				<displayName draft="contributed">manat turkmeno</displayName>
 				<displayName count="one" draft="contributed">manat turkmeno</displayName>
 				<displayName count="other" draft="contributed">manats turkmenos</displayName>
+				<displayName draft="contributed">manat turkmeno</displayName>
 			</currency>
 			<currency type="TOP">
-				<displayName draft="contributed">paʻanga tongano</displayName>
 				<displayName count="one" draft="contributed">paʻanga tongano</displayName>
 				<displayName count="other" draft="contributed">paʻangas tonganos</displayName>
+				<displayName draft="contributed">paʻanga tongano</displayName>
 			</currency>
 			<currency type="TRY">
 				<symbol alt="narrow" draft="contributed">TL</symbol>
 			</currency>
 			<currency type="UAH">
-				<displayName draft="contributed">grivna ucraniana</displayName>
 				<displayName count="one" draft="contributed">grivna ucraniana</displayName>
 				<displayName count="other" draft="contributed">grivnas ucranianas</displayName>
+				<displayName draft="contributed">grivna ucraniana</displayName>
 			</currency>
 			<currency type="USN">
 				<symbol draft="contributed">USN</symbol>
@@ -1818,37 +1818,37 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">UYI</symbol>
 			</currency>
 			<currency type="UZS">
-				<displayName draft="contributed">som uzbeko</displayName>
 				<displayName count="one" draft="contributed">som uzbeko</displayName>
 				<displayName count="other" draft="contributed">soms uzbekos</displayName>
+				<displayName draft="contributed">som uzbeko</displayName>
 			</currency>
 			<currency type="VND">
-				<displayName draft="contributed">dong vietnamita</displayName>
 				<displayName count="one" draft="contributed">dong vietnamita</displayName>
 				<displayName count="other" draft="contributed">dongs vietnamitas</displayName>
+				<displayName draft="contributed">dong vietnamita</displayName>
 			</currency>
 			<currency type="VUV">
-				<displayName draft="contributed">vatu vanuatuense</displayName>
 				<displayName count="one" draft="contributed">vatu vanuatuense</displayName>
 				<displayName count="other" draft="contributed">vatus vanuatuenses</displayName>
+				<displayName draft="contributed">vatu vanuatuense</displayName>
 			</currency>
 			<currency type="WST">
-				<displayName draft="contributed">tala samoano</displayName>
 				<displayName count="one" draft="contributed">tala samoano</displayName>
 				<displayName count="other" draft="contributed">talas samoanos</displayName>
+				<displayName draft="contributed">tala samoano</displayName>
 			</currency>
 			<currency type="XPF">
 				<symbol draft="contributed">XPF</symbol>
 			</currency>
 			<currency type="ZAR">
-				<displayName draft="contributed">rand sudafricano</displayName>
 				<displayName count="one" draft="contributed">rand sudafricano</displayName>
 				<displayName count="other" draft="contributed">rands sudafricanos</displayName>
+				<displayName draft="contributed">rand sudafricano</displayName>
 			</currency>
 			<currency type="ZMW">
-				<displayName draft="contributed">kwacha zambiano</displayName>
 				<displayName count="one" draft="contributed">kwacha zambiano</displayName>
 				<displayName count="other" draft="contributed">kwachas zambianos</displayName>
+				<displayName draft="contributed">kwacha zambiano</displayName>
 			</currency>
 		</currencies>
 	</numbers>

@@ -10,7 +10,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<language type="zh"/>
 		<territory type="HK"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -241,15 +241,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 		</currencyFormats>
 		<currencies>
 			<currency type="AWG">
-				<displayName draft="contributed">阿鲁巴弗罗林</displayName>
 				<displayName count="other" draft="contributed">阿鲁巴弗罗林</displayName>
+				<displayName draft="contributed">阿鲁巴弗罗林</displayName>
 			</currency>
 			<currency type="CNY">
 				<symbol draft="contributed">CN¥</symbol>
 			</currency>
 			<currency type="KYD">
-				<displayName draft="contributed">开曼群岛元</displayName>
 				<displayName count="other" draft="contributed">开曼群岛元</displayName>
+				<displayName draft="contributed">开曼群岛元</displayName>
 			</currency>
 			<currency type="NIO">
 				<displayName count="other">尼加拉瓜科多巴</displayName>

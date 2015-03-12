@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="ka"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -1526,8 +1526,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<month type="4" draft="unconfirmed">ტევეთი</month>
 							<month type="5" draft="unconfirmed">შვატი</month>
 							<month type="6" draft="unconfirmed">ადარი I</month>
-							<month type="7" yeartype="leap" draft="unconfirmed">ადარი II</month>
 							<month type="7" draft="unconfirmed">ადარი</month>
+							<month type="7" yeartype="leap" draft="unconfirmed">ადარი II</month>
 							<month type="8" draft="unconfirmed">ნისანი</month>
 							<month type="9" draft="unconfirmed">იარი</month>
 						</monthWidth>
@@ -1542,8 +1542,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<month type="4" draft="unconfirmed">ტევეთი</month>
 							<month type="5" draft="unconfirmed">შვატი</month>
 							<month type="6" draft="unconfirmed">ადარი I</month>
-							<month type="7" yeartype="leap" draft="unconfirmed">ადარი II</month>
 							<month type="7" draft="unconfirmed">ადარი</month>
+							<month type="7" yeartype="leap" draft="unconfirmed">ადარი II</month>
 							<month type="8" draft="unconfirmed">ნისანი</month>
 							<month type="9" draft="unconfirmed">იარი</month>
 						</monthWidth>
@@ -1560,8 +1560,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<month type="4" draft="unconfirmed">ტევეთი</month>
 							<month type="5" draft="unconfirmed">შვატი</month>
 							<month type="6" draft="unconfirmed">ადარი I</month>
-							<month type="7" yeartype="leap" draft="unconfirmed">ადარი II</month>
 							<month type="7" draft="unconfirmed">ადარი</month>
+							<month type="7" yeartype="leap" draft="unconfirmed">ადარი II</month>
 							<month type="8" draft="unconfirmed">ნისანი</month>
 							<month type="9" draft="unconfirmed">იარი</month>
 						</monthWidth>
@@ -1576,8 +1576,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<month type="4" draft="unconfirmed">ტევეთი</month>
 							<month type="5" draft="unconfirmed">შვატი</month>
 							<month type="6" draft="unconfirmed">ადარი I</month>
-							<month type="7" yeartype="leap" draft="unconfirmed">ადარი II</month>
 							<month type="7" draft="unconfirmed">ადარი</month>
+							<month type="7" yeartype="leap" draft="unconfirmed">ადარი II</month>
 							<month type="8" draft="unconfirmed">ნისანი</month>
 							<month type="9" draft="unconfirmed">იარი</month>
 						</monthWidth>

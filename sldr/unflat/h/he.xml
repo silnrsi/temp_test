@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="he"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -5059,11 +5059,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>דינר סרבי ישן</displayName>
 			</currency>
 			<currency type="CUC">
-				<displayName draft="contributed">פזו קובני להמרה</displayName>
 				<displayName count="many" draft="contributed">פזו קובני להמרה</displayName>
 				<displayName count="one" draft="contributed">פזו קובני להמרה</displayName>
 				<displayName count="other" draft="contributed">פזו קובני להמרה</displayName>
 				<displayName count="two" draft="contributed">פזו קובני להמרה</displayName>
+				<displayName draft="contributed">פזו קובני להמרה</displayName>
 				<symbol>CUC</symbol>
 			</currency>
 			<currency type="CUP">
@@ -6141,11 +6141,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>פרנק זהב</displayName>
 			</currency>
 			<currency type="XOF">
-				<displayName draft="contributed">פרנק CFA BCEAO</displayName>
 				<displayName count="many" draft="contributed">פרנק CFA BCEAO</displayName>
 				<displayName count="one" draft="contributed">פרנק CFA BCEAO</displayName>
 				<displayName count="other" draft="contributed">פרנק CFA BCEAO</displayName>
 				<displayName count="two" draft="contributed">פרנק CFA BCEAO</displayName>
+				<displayName draft="contributed">פרנק CFA BCEAO</displayName>
 			</currency>
 			<currency type="XPD">
 				<displayName draft="contributed">פלדיום</displayName>

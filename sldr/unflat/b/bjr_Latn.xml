@@ -5,11 +5,11 @@
 		<!-- name.en(bjr)="Binumarien" -->
 		<language type="bjr"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c e j l o v x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b d {ee} f g h i k m n {oo} p q r s t u w y]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c e j l o v x z]</exemplarCharacters>
 	</characters>
 </ldml>

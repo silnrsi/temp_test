@@ -5,11 +5,11 @@
 		<!-- name.en(kmu)="Kanite" -->
 		<language type="kmu"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[b c d g j q r w x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a e f h i k {ꞌk} l m {mp} {ꞌm} n {nt} {ꞌn} o p s t u v {ꞌv} y {ꞌy} ꞌ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[b c d g j q r w x z]</exemplarCharacters>
 	</characters>
 </ldml>

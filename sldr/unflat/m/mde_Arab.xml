@@ -4,6 +4,9 @@
 	<identity>
 		<!-- name.en(mde)="Maba" -->
 		<language type="mde"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+		</special>
 	</identity>
 	<layout>
 		<!--  Enter the orientation attributes  -->
@@ -12,7 +15,7 @@
 		</orientation>
 	</layout>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[\u200C\u200D\u200E\u200F]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[\u064E \u064F \u0650 \u065A \u065B ب ت ج د ر ز س ش ف ق ك ل م ن ه و ي پ ڃ چ ڊ ڔ ڗ ژ ڠ ݦ ݧ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[\u200C\u200D\u200E\u200F]</exemplarCharacters>
 	</characters>
 </ldml>

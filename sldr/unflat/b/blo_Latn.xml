@@ -5,7 +5,7 @@
 		<!-- name.en(blo)="Anii" -->
 		<language type="blo"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="BJ"/>
+			<sil:identity defaultRegion="BJ" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<layout>
@@ -15,8 +15,8 @@
 		</orientation>
 	</layout>
 	<characters>
+		<exemplarCharacters draft="unconfirmed">[a ǝ b c ɖ e ɛ f g {gb} h i ɩ j k {kp} l m n {ny} ŋ {ŋm} o ɔ p r s {sh} t u ʊ w y]</exemplarCharacters>
 		<exemplarCharacters type="auxiliary" draft="unconfirmed">[d q v x z]</exemplarCharacters>
 		<exemplarCharacters type="index" draft="unconfirmed">[A Ǝ B C Ɖ E Ɛ F G {Gb} H I Ɩ J K {Kp} L M N {Ny} Ŋ {Ŋm} O Ɔ P R S {Sh} T U Ʊ W Y]</exemplarCharacters>
-		<exemplarCharacters draft="unconfirmed">[a ǝ b c ɖ e ɛ f g {gb} h i ɩ j k {kp} l m n {ny} ŋ {ŋm} o ɔ p r s {sh} t u ʊ w y]</exemplarCharacters>
 	</characters>
 </ldml>

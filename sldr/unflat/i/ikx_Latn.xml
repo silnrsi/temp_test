@@ -5,7 +5,7 @@
 		<!-- name.en(ikx)="Ik" -->
 		<language type="ikx"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="UG"/>
+			<sil:identity defaultRegion="UG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<layout>
@@ -15,7 +15,7 @@
 		</orientation>
 	</layout>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q v]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b ɓ c d ɗ {dz} e f g h i j ʝ k ƙ l m n ɲ ŋ o p r s t {ts} {ts'} u w x y z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q v]</exemplarCharacters>
 	</characters>
 </ldml>

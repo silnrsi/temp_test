@@ -5,11 +5,11 @@
 		<!-- name.en(usa)="Usarufa" -->
 		<language type="usa"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c d f h j l s v x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b e g i k m n o p q r t u w y]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c d f h j l s v x z]</exemplarCharacters>
 	</characters>
 </ldml>

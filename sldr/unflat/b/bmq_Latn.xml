@@ -5,11 +5,11 @@
 		<!-- name.en(bmq)="Bomu" -->
 		<language type="bmq"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="ML"/>
+			<sil:identity defaultRegion="ML" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[j q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b ɓ c d e {è} f g h i k l m n {ny} o p r s t u v w y z ʼ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[j q x]</exemplarCharacters>
 	</characters>
 </ldml>

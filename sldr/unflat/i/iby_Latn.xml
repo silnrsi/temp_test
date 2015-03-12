@@ -5,11 +5,11 @@
 		<!-- name.en(iby)="Ibani" -->
 		<language type="iby"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="NG"/>
+			<sil:identity defaultRegion="NG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[{á} {ā} a b {ḅ} d {é} {ē} e {ẹ́} {ẹ̄} {ẹ} f g {gb} {gh} {gw} h {í} {ī} i {ị́} {ị̄} {ị}  j k {kp} {kw} l m {ḿ} {ń} n {nw} {ny} {ó} {ō} o {ọ́} {ọ̄} {ọ} p r s t {ú} {ū} u {ụ́} {ụ̄} {ụ} v w y z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c q x]</exemplarCharacters>
 	</characters>
 </ldml>

@@ -5,11 +5,11 @@
 		<!-- name.en(ppo)="Folopa" -->
 		<language type="ppo"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c g i j q v x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {a̧} b d e {é} {ȩ} {ȩ́} f h {wh} {i̧} k l m n o {ó} {o̧} {ó̧} p r s {sy} t u w y]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c g i j q v x z]</exemplarCharacters>
 	</characters>
 </ldml>

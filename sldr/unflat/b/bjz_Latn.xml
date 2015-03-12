@@ -5,11 +5,11 @@
 		<!-- name.en(bjz)="Baruga" -->
 		<language type="bjz"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c h l p q w x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {ã} {an} {am} b {mb} d {nd} e {ẽ} {en} {em} f g {ng} {gh} i {ĩ} {in} {im} j {nj} k m n {ngh} o {õ} {on} {om} r s t u {ũ} {un} {um} v y]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c h l p q w x z]</exemplarCharacters>
 	</characters>
 </ldml>

@@ -5,11 +5,11 @@
 		<!-- name.en(maw)="Mampruli" -->
 		<language type="maw"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="GH"/>
+			<sil:identity defaultRegion="GH" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c j q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b d ɛ {ee} f g ' {gb} {gy} h i {ii} k {kp} {ky} l m n {ny} ŋ {ŋm} ɔ {oo} p r s t u {uu} v w y z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c j q x]</exemplarCharacters>
 	</characters>
 </ldml>

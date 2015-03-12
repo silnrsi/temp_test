@@ -5,11 +5,11 @@
 		<!-- name.en(apd)="Sudanese Arabic" -->
 		<language type="apd"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="SD"/>
+			<sil:identity defaultRegion="SD" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c e o p q v]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b d {ḍ} {ee} f g {g͟h} h {ḥ} i j k {k͟h} x l m n {oo} r s {ṣ} {s͟h} t {ṭ} u w y z {ẓ} v ʼ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c e o p q v]</exemplarCharacters>
 	</characters>
 </ldml>

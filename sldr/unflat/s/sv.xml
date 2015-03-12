@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="sv"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -4990,14 +4990,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>argentinsk austral</displayName>
 			</currency>
 			<currency type="ARL">
-				<displayName draft="contributed">argentisk peso (1970–1983)</displayName>
 				<displayName count="one" draft="contributed">argentisk peso (1970–1983)</displayName>
 				<displayName count="other" draft="contributed">argentiska pesos (1970–1983)</displayName>
+				<displayName draft="contributed">argentisk peso (1970–1983)</displayName>
 			</currency>
 			<currency type="ARM">
-				<displayName draft="contributed">argentisk peso (1881–1969)</displayName>
 				<displayName count="one" draft="contributed">argentisk peso (1881–1969)</displayName>
 				<displayName count="other" draft="contributed">argentiska pesos (1881–1969)</displayName>
+				<displayName draft="contributed">argentisk peso (1881–1969)</displayName>
 			</currency>
 			<currency type="ARP">
 				<displayName count="one">argentinsk peso (1983–1985)</displayName>
@@ -5051,9 +5051,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>BAM</symbol>
 			</currency>
 			<currency type="BAN">
-				<displayName draft="contributed">bosnisk-hercegovinsk dinar (1994–1998)</displayName>
 				<displayName count="one" draft="contributed">bosnisk-hercegovinsk dinar (1994–1998)</displayName>
 				<displayName count="other" draft="contributed">bosnisk-hercegovinska dinarer (1994–1998)</displayName>
+				<displayName draft="contributed">bosnisk-hercegovinsk dinar (1994–1998)</displayName>
 			</currency>
 			<currency type="BBD">
 				<displayName count="one">Barbados-dollar</displayName>
@@ -5083,14 +5083,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>belgisk franc (finansiell)</displayName>
 			</currency>
 			<currency type="BGL">
-				<displayName draft="contributed">bulgarisk hård lev (1962–1999)</displayName>
 				<displayName count="one" draft="contributed">bulgarisk hård lev (1962–1999)</displayName>
 				<displayName count="other" draft="contributed">bulgariska hård lev (1962–1999)</displayName>
+				<displayName draft="contributed">bulgarisk hård lev (1962–1999)</displayName>
 			</currency>
 			<currency type="BGM">
-				<displayName draft="contributed">bulgarisk lev (1952–1962)</displayName>
 				<displayName count="one" draft="contributed">bulgarisk lev (1952–1962)</displayName>
 				<displayName count="other" draft="contributed">bulgariska lev (1952–1962)</displayName>
+				<displayName draft="contributed">bulgarisk lev (1952–1962)</displayName>
 			</currency>
 			<currency type="BGN">
 				<displayName count="one">bulgarisk lev</displayName>
@@ -5099,9 +5099,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>BGN</symbol>
 			</currency>
 			<currency type="BGO">
-				<displayName draft="contributed">bulgarisk lev (1881–1952)</displayName>
 				<displayName count="one" draft="contributed">bulgarisk lev (1881–1952)</displayName>
 				<displayName count="other" draft="contributed">bulgarisk lev (1881–1952)</displayName>
+				<displayName draft="contributed">bulgarisk lev (1881–1952)</displayName>
 			</currency>
 			<currency type="BHD">
 				<displayName count="one">bahrainsk dinar</displayName>
@@ -5134,9 +5134,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>BOB</symbol>
 			</currency>
 			<currency type="BOL">
-				<displayName draft="contributed">boliviansk boliviano (1864–1963)</displayName>
 				<displayName count="one" draft="contributed">boliviansk boliviano (1864–1963)</displayName>
 				<displayName count="other" draft="contributed">bolivianska bolivianos (1864–1963)</displayName>
+				<displayName draft="contributed">boliviansk boliviano (1864–1963)</displayName>
 			</currency>
 			<currency type="BOP">
 				<displayName count="one">boliviansk peso</displayName>
@@ -5180,9 +5180,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>brasiliansk cruzeiro</displayName>
 			</currency>
 			<currency type="BRZ">
-				<displayName draft="contributed">brasiliansk cruzeiro (1942–1967)</displayName>
 				<displayName count="one" draft="contributed">brasiliansk cruzeiro (1942–1967)</displayName>
 				<displayName count="other" draft="contributed">brasilianska cruzeiros (1942–1967)</displayName>
+				<displayName draft="contributed">brasiliansk cruzeiro (1942–1967)</displayName>
 			</currency>
 			<currency type="BSD">
 				<displayName count="one">bahamansk dollar</displayName>
@@ -5253,9 +5253,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>franc (konvertibelt konto, WIR Bank, Schweiz)</displayName>
 			</currency>
 			<currency type="CLE">
-				<displayName draft="contributed">chilensk escudo (1960–1975)</displayName>
 				<displayName count="one" draft="contributed">chilensk escudo (1960–1975)</displayName>
 				<displayName count="other" draft="contributed">chilenska escudos (1960–1975)</displayName>
+				<displayName draft="contributed">chilensk escudo (1960–1975)</displayName>
 			</currency>
 			<currency type="CLF">
 				<displayName count="one">chilensk unidad de fomento</displayName>
@@ -5677,14 +5677,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>KPW</symbol>
 			</currency>
 			<currency type="KRH">
-				<displayName draft="contributed">sydkoreansk hwan (1953–1962)</displayName>
 				<displayName count="one" draft="contributed">sydkoreansk hwan (1953–1962)</displayName>
 				<displayName count="other" draft="contributed">sydkoreanska hwan (1953–1962)</displayName>
+				<displayName draft="contributed">sydkoreansk hwan (1953–1962)</displayName>
 			</currency>
 			<currency type="KRO">
-				<displayName draft="contributed">sydkoreansk won (1945–1953)</displayName>
 				<displayName count="one" draft="contributed">sydkoreansk won (1945–1953)</displayName>
 				<displayName count="other" draft="contributed">sydkoreanska won (1945–1953)</displayName>
+				<displayName draft="contributed">sydkoreansk won (1945–1953)</displayName>
 			</currency>
 			<currency type="KRW">
 				<displayName count="one">sydkoreansk won</displayName>
@@ -5794,14 +5794,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>marockansk franc</displayName>
 			</currency>
 			<currency type="MCF">
-				<displayName draft="contributed">monegaskisk franc (–2001)</displayName>
 				<displayName count="one" draft="contributed">monegaskisk franc (–2001)</displayName>
 				<displayName count="other" draft="contributed">monegaskiska franc (–2001)</displayName>
+				<displayName draft="contributed">monegaskisk franc (–2001)</displayName>
 			</currency>
 			<currency type="MDC">
-				<displayName draft="contributed">moldavisk cupon (1992–1993)</displayName>
 				<displayName count="one" draft="contributed">moldavisk cupon (1992–1993)</displayName>
 				<displayName count="other" draft="contributed">moldaviska cupon (1992–1993)</displayName>
+				<displayName draft="contributed">moldavisk cupon (1992–1993)</displayName>
 			</currency>
 			<currency type="MDL">
 				<displayName count="one">moldavisk leu</displayName>
@@ -5879,9 +5879,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>MUR</symbol>
 			</currency>
 			<currency type="MVP">
-				<displayName draft="contributed">maldivisk rupie</displayName>
 				<displayName count="one" draft="contributed">maldivisk rupie</displayName>
 				<displayName count="other" draft="contributed">maldiviska rupier</displayName>
+				<displayName draft="contributed">maldivisk rupie</displayName>
 				<symbol draft="contributed">MVP</symbol>
 			</currency>
 			<currency type="MVR">
@@ -6365,9 +6365,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>VND</symbol>
 			</currency>
 			<currency type="VNN">
-				<displayName draft="contributed">vietnamesisk dong (1978–1985)</displayName>
 				<displayName count="one" draft="contributed">vietnamesisk dong (1978–1985)</displayName>
 				<displayName count="other" draft="contributed">vietnamesiska dong (1978–1985)</displayName>
+				<displayName draft="contributed">vietnamesisk dong (1978–1985)</displayName>
 			</currency>
 			<currency type="VUV">
 				<displayName count="one">vanuatisk vatu</displayName>
@@ -6467,9 +6467,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>RINET-fond</displayName>
 			</currency>
 			<currency type="XSU">
-				<displayName draft="contributed">latinamerikansk sucre</displayName>
 				<displayName count="one" draft="contributed">latinamerikansk sucre</displayName>
 				<displayName count="other" draft="contributed">latinamerikanska sucre</displayName>
+				<displayName draft="contributed">latinamerikansk sucre</displayName>
 			</currency>
 			<currency type="XTS">
 				<displayName count="one">(valutakod för teständamål)</displayName>
@@ -6478,9 +6478,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">XTS</symbol>
 			</currency>
 			<currency type="XUA">
-				<displayName draft="contributed">afrikansk kontoenhet</displayName>
 				<displayName count="one" draft="contributed">afrikansk kontoenhet</displayName>
 				<displayName count="other" draft="contributed">afrikanska kontoenheter</displayName>
+				<displayName draft="contributed">afrikansk kontoenhet</displayName>
 			</currency>
 			<currency type="XXX">
 				<displayName count="one">(okänd valutaenhet)</displayName>
@@ -6517,9 +6517,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">YUN</symbol>
 			</currency>
 			<currency type="YUR">
-				<displayName draft="contributed">jugoslavisk dinar (1992–1993)</displayName>
 				<displayName count="one" draft="contributed">jugoslavisk dinar (1992–1993)</displayName>
 				<displayName count="other" draft="contributed">jugoslaviska dinarer (1992–1993)</displayName>
+				<displayName draft="contributed">jugoslavisk dinar (1992–1993)</displayName>
 			</currency>
 			<currency type="ZAL">
 				<displayName count="one">sydafrikansk rand (finansiell)</displayName>
@@ -6559,14 +6559,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>Zimbabwe-dollar</displayName>
 			</currency>
 			<currency type="ZWL">
-				<displayName draft="contributed">Zimbabwe-dollar (2009)</displayName>
 				<displayName count="one" draft="contributed">Zimbabwe-dollar (2009)</displayName>
 				<displayName count="other" draft="contributed">Zimbabwe-dollar (2009)</displayName>
+				<displayName draft="contributed">Zimbabwe-dollar (2009)</displayName>
 			</currency>
 			<currency type="ZWR">
-				<displayName draft="contributed">Zimbabwe-dollar (2008)</displayName>
 				<displayName count="one" draft="contributed">Zimbabwe-dollar (2008)</displayName>
 				<displayName count="other" draft="contributed">Zimbabwe-dollar (2008)</displayName>
+				<displayName draft="contributed">Zimbabwe-dollar (2008)</displayName>
 			</currency>
 		</currencies>
 		<miscPatterns numberSystem="latn">

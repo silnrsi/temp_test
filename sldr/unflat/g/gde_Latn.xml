@@ -5,11 +5,11 @@
 		<!-- name.en(gde)="Gude" -->
 		<language type="gde"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="CM"/>
+			<sil:identity defaultRegion="CM" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[e o q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b ɓ c d {dz} ɗ ə {ee} f g {gh} h i j k l m {mb} n {nd} {ndz} nv ŋ {ŋg} {oo} p r s {sl} t {ts} u v w y z ʼ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[e o q x]</exemplarCharacters>
 	</characters>
 </ldml>

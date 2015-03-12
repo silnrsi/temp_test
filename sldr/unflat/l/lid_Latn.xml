@@ -5,11 +5,11 @@
 		<!-- name.en(lid)="Nyindrou" -->
 		<language type="lid"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c f q v x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {ai} {ae} {ao} {au} b {bw} d e {ei} {eu} g {gw} h i {iy} j k l m {mw} n {ndr} {ny} o {oi} {ou} p {pw} r s t u {ui} {uw} w y -]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c f q v x z]</exemplarCharacters>
 	</characters>
 </ldml>

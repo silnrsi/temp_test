@@ -5,11 +5,11 @@
 		<!-- name.en(gaz)="West Central Oromo" -->
 		<language type="gaz"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="ET"/>
+			<sil:identity defaultRegion="ET" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="punctuation" draft="unconfirmed">[! ( ) - ? « » ፡ ። ፤ ፥ ፦ ‐ – ‹ ›]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[ሀ-ሆ ለ-ሎ መ-ሞ ረ-ሮ ሰ-ሶ ሸ-ሾ ቀ-ቆ በ-ቦ ተ-ቶ ቸ-ቾ ነ-ኖ ኘ-ኞ አ-ኦ ከ-ኮ ወ-ዎ ዘ-ዞ የ-ዮ ደ-ዶ ዸ-ዾ ጀ-ጆ ገ-ጎ ጠ-ጦ ጨ-ጮ ጰ-ጶ ፈ-ፎ]</exemplarCharacters>
+		<exemplarCharacters type="punctuation" draft="unconfirmed">[! ( ) - ? « » ፡ ። ፤ ፥ ፦ ‐ – ‹ ›]</exemplarCharacters>
 	</characters>
 </ldml>

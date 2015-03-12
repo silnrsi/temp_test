@@ -5,11 +5,11 @@
 		<!-- name.en(bxh)="Buhutu" -->
 		<language type="bxh"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c j q r v x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b {bw} d e f {fw} g {gw} h {hw} i k {kw} l m {mw} n o p {pw} s t u w y ʔ {ʔw}]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c j q r v x z]</exemplarCharacters>
 	</characters>
 </ldml>

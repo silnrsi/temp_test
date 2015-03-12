@@ -5,11 +5,11 @@
 		<!-- name.en(hmt)="Hamtai" -->
 		<language type="hmt"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[b c d f g j l r s x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {ä} e h i k m n {ng} o p q t u v w y ꞌ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[b c d f g j l r s x z]</exemplarCharacters>
 	</characters>
 </ldml>

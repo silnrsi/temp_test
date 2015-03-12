@@ -5,11 +5,11 @@
 		<!-- name.en(leu)="Kara (Papua New Guinea)" -->
 		<language type="leu"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c q ]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {aa} {ai} {au} b d e {ei} f g h {ii} i j k l m n {ng} o {oi} {ou} p r s t {uu} u {ui} v w x y z ꞌ ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c q ]</exemplarCharacters>
 	</characters>
 </ldml>

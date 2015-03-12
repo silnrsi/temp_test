@@ -5,11 +5,11 @@
 		<!-- name.en(bcn)="Bali (Nigeria)" -->
 		<language type="bcn"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="NG"/>
+			<sil:identity defaultRegion="NG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[{á} a {à} {ã́} {ã} {ã̀} b ɓ d ɗ {é} e {è} {ẽ́} {ẽ} {ẽ̀} f g {gb} h {í} i {ì} {ĩ́} {ĩ} {ĩ̀} j k {kp} l m n {ó} o {ò} {ṍ} {õ} {õ̀} {ɔ́} ɔ {ɔ̀} {ɔ̃́}́ {ɔ̃} {ɔ̃̀}̀ p r s t {ú} u {ù} {ṹ} {ũ} {ũ̀} v ʋ w y z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c q x]</exemplarCharacters>
 	</characters>
 </ldml>

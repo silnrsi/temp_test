@@ -5,11 +5,11 @@
 		<!-- name.en(loj)="Lou" -->
 		<language type="loj"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[b c d f g h j q v x y z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a e {ë} i k {kw} l m {mw} n {ng} o {ö} p {pw} r s t u w]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[b c d f g h j q v x y z]</exemplarCharacters>
 	</characters>
 </ldml>

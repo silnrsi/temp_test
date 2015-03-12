@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="fr"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -2488,8 +2488,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<month type="4" draft="unconfirmed">téb.</month>
 							<month type="5" draft="unconfirmed">sché.</month>
 							<month type="6" draft="unconfirmed">ad.I</month>
-							<month type="7" yeartype="leap" draft="unconfirmed">ad.II</month>
 							<month type="7" draft="unconfirmed">adar</month>
+							<month type="7" yeartype="leap" draft="unconfirmed">ad.II</month>
 							<month type="8" draft="unconfirmed">nis.</month>
 							<month type="9" draft="unconfirmed">iyar</month>
 						</monthWidth>
@@ -2504,8 +2504,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<month type="4" draft="unconfirmed">T</month>
 							<month type="5" draft="unconfirmed">S</month>
 							<month type="6" draft="unconfirmed">A</month>
-							<month type="7" yeartype="leap" draft="unconfirmed">A</month>
 							<month type="7" draft="unconfirmed">A</month>
+							<month type="7" yeartype="leap" draft="unconfirmed">A</month>
 							<month type="8" draft="unconfirmed">N</month>
 							<month type="9" draft="unconfirmed">I</month>
 						</monthWidth>
@@ -2532,8 +2532,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<month type="4" draft="unconfirmed">téb.</month>
 							<month type="5" draft="unconfirmed">sché.</month>
 							<month type="6" draft="unconfirmed">ad.I</month>
-							<month type="7" yeartype="leap" draft="unconfirmed">ad.II</month>
 							<month type="7" draft="unconfirmed">adar</month>
+							<month type="7" yeartype="leap" draft="unconfirmed">ad.II</month>
 							<month type="8" draft="unconfirmed">nis.</month>
 							<month type="9" draft="unconfirmed">iyar</month>
 						</monthWidth>
@@ -2548,8 +2548,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<month type="4" draft="unconfirmed">T</month>
 							<month type="5" draft="unconfirmed">S</month>
 							<month type="6" draft="unconfirmed">A</month>
-							<month type="7" yeartype="leap" draft="unconfirmed">A</month>
 							<month type="7" draft="unconfirmed">A</month>
+							<month type="7" yeartype="leap" draft="unconfirmed">A</month>
 							<month type="8" draft="unconfirmed">N</month>
 							<month type="9" draft="unconfirmed">I</month>
 						</monthWidth>
@@ -7232,15 +7232,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="unconfirmed">ZWD</symbol>
 			</currency>
 			<currency type="ZWL">
-				<displayName draft="contributed">dollar zimbabwéen (2009)</displayName>
 				<displayName count="one" draft="contributed">dollar zimbabwéen (2009)</displayName>
 				<displayName count="other" draft="contributed">dollars zimbabwéens (2009)</displayName>
+				<displayName draft="contributed">dollar zimbabwéen (2009)</displayName>
 				<symbol draft="unconfirmed">ZWL</symbol>
 			</currency>
 			<currency type="ZWR">
-				<displayName draft="contributed">dollar zimbabwéen (2008)</displayName>
 				<displayName count="one" draft="contributed">dollar zimbabwéen (2008)</displayName>
 				<displayName count="other" draft="contributed">dollars zimbabwéens (2008)</displayName>
+				<displayName draft="contributed">dollar zimbabwéen (2008)</displayName>
 				<symbol draft="unconfirmed">ZWR</symbol>
 			</currency>
 		</currencies>

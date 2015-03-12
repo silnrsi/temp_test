@@ -8,11 +8,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<version number="$Revision: 10669 $"/>
 		<generation date="$Date: 2014-07-23 21:10 +0000 $"/>
 		<language type="fur"/>
+		<script type="Latn"/>
 		<territory type="IT"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
-		<script type="Latn"/>
 	</identity>
 	<localeDisplayNames>
 		<localeDisplayPattern>
@@ -340,11 +340,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="BZ" draft="contributed">Belize</territory>
 			<territory type="CA" draft="contributed">Canade</territory>
 			<territory type="CC" draft="contributed">Isulis Cocos</territory>
-			<territory type="CD" draft="contributed">Republiche Democratiche dal Congo</territory>
 			<territory type="CD" alt="variant" draft="contributed">Congo (RDC)</territory>
+			<territory type="CD" draft="contributed">Republiche Democratiche dal Congo</territory>
 			<territory type="CF" draft="contributed">Republiche centri africane</territory>
-			<territory type="CG" draft="contributed">Congo - Brazzaville</territory>
 			<territory type="CG" alt="variant" draft="contributed">Congo (Republiche)</territory>
+			<territory type="CG" draft="contributed">Congo - Brazzaville</territory>
 			<territory type="CH" draft="contributed">Svuizare</territory>
 			<territory type="CI" draft="contributed">Cueste di Avoli</territory>
 			<territory type="CK" draft="contributed">Isulis Cook</territory>
@@ -377,8 +377,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="EU" draft="contributed">Union europeane</territory>
 			<territory type="FI" draft="contributed">Finlandie</territory>
 			<territory type="FJ" draft="contributed">Fizi</territory>
-			<territory type="FK" draft="contributed">Isulis Falkland</territory>
 			<territory type="FK" alt="variant" draft="contributed">Isulis Falkland (Isulis Malvinas)</territory>
+			<territory type="FK" draft="contributed">Isulis Falkland</territory>
 			<territory type="FM" draft="contributed">Micronesie</territory>
 			<territory type="FO" draft="contributed">Isulis Faroe</territory>
 			<territory type="FR" draft="contributed">France</territory>
@@ -401,8 +401,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="GU" draft="contributed">Guam</territory>
 			<territory type="GW" draft="contributed">Guinea-Bissau</territory>
 			<territory type="GY" draft="contributed">Guyana</territory>
-			<territory type="HK" draft="contributed">Regjon aministrative speciâl de Cine di Hong Kong</territory>
 			<territory type="HK" alt="short" draft="contributed">Hong Kong</territory>
+			<territory type="HK" draft="contributed">Regjon aministrative speciâl de Cine di Hong Kong</territory>
 			<territory type="HM" draft="contributed">Isule Heard e Isulis McDonald</territory>
 			<territory type="HN" draft="contributed">Honduras</territory>
 			<territory type="HR" draft="contributed">Cravuazie</territory>
@@ -452,13 +452,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="MF" draft="contributed">Sant Martin</territory>
 			<territory type="MG" draft="contributed">Madagascar</territory>
 			<territory type="MH" draft="contributed">Isulis Marshall</territory>
-			<territory type="MK" draft="contributed">Macedonie</territory>
 			<territory type="MK" alt="variant" draft="contributed">Macedonie (FYROM)</territory>
+			<territory type="MK" draft="contributed">Macedonie</territory>
 			<territory type="ML" draft="contributed">Mali</territory>
 			<territory type="MM" draft="contributed">Birmanie</territory>
 			<territory type="MN" draft="contributed">Mongolie</territory>
-			<territory type="MO" draft="contributed">Regjon aministrative speciâl de Cine di Macao</territory>
 			<territory type="MO" alt="short" draft="contributed">Macao</territory>
+			<territory type="MO" draft="contributed">Regjon aministrative speciâl de Cine di Macao</territory>
 			<territory type="MP" draft="contributed">Isulis Mariana dal Nord</territory>
 			<territory type="MQ" draft="contributed">Martiniche</territory>
 			<territory type="MR" draft="contributed">Mauritanie</territory>
@@ -4217,9 +4217,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">Selin austriac</displayName>
 			</currency>
 			<currency type="AUD">
-				<displayName draft="contributed">dolar australian</displayName>
 				<displayName count="one" draft="contributed">dolar australian</displayName>
 				<displayName count="other" draft="contributed">dolars australians</displayName>
+				<displayName draft="contributed">dolar australian</displayName>
 				<symbol alt="narrow">$</symbol>
 				<symbol>A$</symbol>
 			</currency>
@@ -4249,9 +4249,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol alt="narrow">Bs</symbol>
 			</currency>
 			<currency type="BRL">
-				<displayName draft="contributed">real brasilian</displayName>
 				<displayName count="one" draft="contributed">real brasilian</displayName>
 				<displayName count="other" draft="contributed">real brasilians</displayName>
+				<displayName draft="contributed">real brasilian</displayName>
 				<symbol alt="narrow">R$</symbol>
 				<symbol>R$</symbol>
 			</currency>
@@ -4269,24 +4269,24 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="CAD">
-				<displayName draft="contributed">dolar canadês</displayName>
 				<displayName count="one" draft="contributed">dolar canadês</displayName>
 				<displayName count="other" draft="contributed">dolars canadês</displayName>
+				<displayName draft="contributed">dolar canadês</displayName>
 				<symbol alt="narrow">$</symbol>
 				<symbol>CA$</symbol>
 			</currency>
 			<currency type="CHF">
-				<displayName draft="contributed">franc svuizar</displayName>
 				<displayName count="one" draft="contributed">franc svuizar</displayName>
 				<displayName count="other" draft="contributed">francs svuizars</displayName>
+				<displayName draft="contributed">franc svuizar</displayName>
 			</currency>
 			<currency type="CLP">
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="CNY">
-				<displayName draft="contributed">yuan cinês</displayName>
 				<displayName count="one" draft="contributed">yuan cinês</displayName>
 				<displayName count="other" draft="contributed">yuan cinês</displayName>
+				<displayName draft="contributed">yuan cinês</displayName>
 				<symbol alt="narrow">¥</symbol>
 				<symbol>CN¥</symbol>
 			</currency>
@@ -4314,9 +4314,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">Marc todesc</displayName>
 			</currency>
 			<currency type="DKK">
-				<displayName draft="contributed">corone danese</displayName>
 				<displayName count="one" draft="contributed">corone danese</displayName>
 				<displayName count="other" draft="contributed">coronis danesis</displayName>
+				<displayName draft="contributed">corone danese</displayName>
 				<symbol alt="narrow">kr</symbol>
 			</currency>
 			<currency type="DOP">
@@ -4332,9 +4332,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol alt="narrow">₧</symbol>
 			</currency>
 			<currency type="EUR">
-				<displayName draft="contributed">euro</displayName>
 				<displayName count="one" draft="contributed">euro</displayName>
 				<displayName count="other" draft="contributed">euros</displayName>
+				<displayName draft="contributed">euro</displayName>
 				<symbol alt="narrow">€</symbol>
 				<symbol>€</symbol>
 			</currency>
@@ -4348,9 +4348,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">Franc francês</displayName>
 			</currency>
 			<currency type="GBP">
-				<displayName draft="contributed">sterline britaniche</displayName>
 				<displayName count="one" draft="contributed">sterline britaniche</displayName>
 				<displayName count="other" draft="contributed">sterlinis britanichis</displayName>
+				<displayName draft="contributed">sterline britaniche</displayName>
 				<symbol alt="narrow">£</symbol>
 				<symbol>£</symbol>
 			</currency>
@@ -4367,9 +4367,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="HKD">
-				<displayName draft="contributed">dolar di Hong Kong</displayName>
 				<displayName count="one" draft="contributed">dolar di Hong Kong</displayName>
 				<displayName count="other" draft="contributed">dolars di Hong Kong</displayName>
+				<displayName draft="contributed">dolar di Hong Kong</displayName>
 				<symbol alt="narrow">$</symbol>
 				<symbol>HK$</symbol>
 			</currency>
@@ -4387,9 +4387,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol alt="narrow">Ft</symbol>
 			</currency>
 			<currency type="IDR">
-				<displayName draft="contributed">rupiah indonesiane</displayName>
 				<displayName count="one" draft="contributed">rupiah indonesiane</displayName>
 				<displayName count="other" draft="contributed">rupiah indonesianis</displayName>
+				<displayName draft="contributed">rupiah indonesiane</displayName>
 				<symbol alt="narrow">Rp</symbol>
 			</currency>
 			<currency type="ILS">
@@ -4397,9 +4397,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>₪</symbol>
 			</currency>
 			<currency type="INR">
-				<displayName draft="contributed">rupie indiane</displayName>
 				<displayName count="one" draft="contributed">rupie indiane</displayName>
 				<displayName count="other" draft="contributed">rupiis indianis</displayName>
+				<displayName draft="contributed">rupie indiane</displayName>
 				<symbol alt="narrow">₹</symbol>
 				<symbol>₹</symbol>
 			</currency>
@@ -4416,9 +4416,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="JPY">
-				<displayName draft="contributed">yen gjaponês</displayName>
 				<displayName count="one" draft="contributed">yen gjaponês</displayName>
 				<displayName count="other" draft="contributed">yen gjaponês</displayName>
+				<displayName draft="contributed">yen gjaponês</displayName>
 				<symbol alt="narrow">¥</symbol>
 				<symbol>JP¥</symbol>
 			</currency>
@@ -4432,9 +4432,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol alt="narrow">₩</symbol>
 			</currency>
 			<currency type="KRW">
-				<displayName draft="contributed">won de Coree dal Sud</displayName>
 				<displayName count="one" draft="contributed">won de Coree dal Sud</displayName>
 				<displayName count="other" draft="contributed">won de Coree dal Sud</displayName>
+				<displayName draft="contributed">won de Coree dal Sud</displayName>
 				<symbol alt="narrow">₩</symbol>
 				<symbol>₩</symbol>
 			</currency>
@@ -4476,9 +4476,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol alt="narrow">Rs</symbol>
 			</currency>
 			<currency type="MXN">
-				<displayName draft="contributed">peso messican</displayName>
 				<displayName count="one" draft="contributed">peso messican</displayName>
 				<displayName count="other" draft="contributed">pesos messicans</displayName>
+				<displayName draft="contributed">peso messican</displayName>
 				<symbol alt="narrow">$</symbol>
 				<symbol>MX$</symbol>
 			</currency>
@@ -4497,9 +4497,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol alt="narrow">C$</symbol>
 			</currency>
 			<currency type="NOK">
-				<displayName draft="contributed">corone norvegjese</displayName>
 				<displayName count="one" draft="contributed">corone norvegjese</displayName>
 				<displayName count="other" draft="contributed">coronis norvegjesis</displayName>
+				<displayName draft="contributed">corone norvegjese</displayName>
 				<symbol alt="narrow">kr</symbol>
 			</currency>
 			<currency type="NPR">
@@ -4518,9 +4518,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol alt="narrow">Rs</symbol>
 			</currency>
 			<currency type="PLN">
-				<displayName draft="contributed">zloty polac</displayName>
 				<displayName count="one" draft="contributed">zloty polac</displayName>
 				<displayName count="other" draft="contributed">zloty polacs</displayName>
+				<displayName draft="contributed">zloty polac</displayName>
 				<symbol alt="narrow">zł</symbol>
 			</currency>
 			<currency type="PYG">
@@ -4530,9 +4530,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">Dinar serp</displayName>
 			</currency>
 			<currency type="RUB">
-				<displayName draft="contributed">rubli rus</displayName>
 				<displayName count="one" draft="contributed">rubli rus</displayName>
 				<displayName count="other" draft="contributed">rublis rus</displayName>
+				<displayName draft="contributed">rubli rus</displayName>
 				<symbol alt="variant">₽</symbol>
 			</currency>
 			<currency type="RUR">
@@ -4542,17 +4542,17 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol alt="narrow">RF</symbol>
 			</currency>
 			<currency type="SAR">
-				<displayName draft="contributed">riyal de Arabie Saudite</displayName>
 				<displayName count="one" draft="contributed">riyal de Arabie Saudite</displayName>
 				<displayName count="other" draft="contributed">riyals de Arabie Saudite</displayName>
+				<displayName draft="contributed">riyal de Arabie Saudite</displayName>
 			</currency>
 			<currency type="SBD">
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="SEK">
-				<displayName draft="contributed">corone svedese</displayName>
 				<displayName count="one" draft="contributed">corone svedese</displayName>
 				<displayName count="other" draft="contributed">coronis svedesis</displayName>
+				<displayName draft="contributed">corone svedese</displayName>
 				<symbol alt="narrow">kr</symbol>
 			</currency>
 			<currency type="SGD">
@@ -4580,9 +4580,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol alt="narrow">£</symbol>
 			</currency>
 			<currency type="THB">
-				<displayName draft="contributed">baht tailandês</displayName>
 				<displayName count="one" draft="contributed">baht tailandês</displayName>
 				<displayName count="other" draft="contributed">baht tailandês</displayName>
+				<displayName draft="contributed">baht tailandês</displayName>
 				<symbol alt="narrow">฿</symbol>
 			</currency>
 			<currency type="TOP">
@@ -4592,9 +4592,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">Viere Lire turche</displayName>
 			</currency>
 			<currency type="TRY">
-				<displayName draft="contributed">lire turche</displayName>
 				<displayName count="one" draft="contributed">lire turche</displayName>
 				<displayName count="other" draft="contributed">liris turchis</displayName>
+				<displayName draft="contributed">lire turche</displayName>
 				<symbol alt="narrow">₺</symbol>
 				<symbol alt="variant">TL</symbol>
 			</currency>
@@ -4602,9 +4602,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="TWD">
-				<displayName draft="contributed">gnûf dolar taiwanês</displayName>
 				<displayName count="one" draft="contributed">gnûf dolar taiwanês</displayName>
 				<displayName count="other" draft="contributed">gnûfs dolars taiwanês</displayName>
+				<displayName draft="contributed">gnûf dolar taiwanês</displayName>
 				<symbol alt="narrow">NT$</symbol>
 				<symbol>NT$</symbol>
 			</currency>
@@ -4612,9 +4612,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol alt="narrow">₴</symbol>
 			</currency>
 			<currency type="USD">
-				<displayName draft="contributed">dolar american</displayName>
 				<displayName count="one" draft="contributed">dolar american</displayName>
 				<displayName count="other" draft="contributed">dolars americans</displayName>
+				<displayName draft="contributed">dolar american</displayName>
 				<symbol alt="narrow">$</symbol>
 				<symbol>US$</symbol>
 			</currency>
@@ -4687,14 +4687,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">codiç di verifiche de monede</displayName>
 			</currency>
 			<currency type="XXX">
-				<displayName draft="contributed">Monede no valide o no cognossude</displayName>
 				<displayName count="one" draft="contributed">Monede no valide o no cognossude</displayName>
 				<displayName count="other" draft="contributed">Monedis no validis o no cognossudis</displayName>
+				<displayName draft="contributed">Monede no valide o no cognossude</displayName>
 			</currency>
 			<currency type="ZAR">
-				<displayName draft="contributed">rand sudafrican</displayName>
 				<displayName count="one" draft="contributed">rand sudafrican</displayName>
 				<displayName count="other" draft="contributed">rands sudafricans</displayName>
+				<displayName draft="contributed">rand sudafrican</displayName>
 				<symbol alt="narrow">R</symbol>
 			</currency>
 			<currency type="ZMW">
@@ -6544,6 +6544,23 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$ZW">\p{Line_Break=ZWSpace}</variable>
 			</variables>
 			<segmentRules>
+				<!-- LB 4  Always break after hard line breaks (but never between CR and LF). -->
+				<rule id="4">$BK ÷</rule>
+				<!-- LB 5  Treat CR followed by LF, as well as CR, LF and NL as hard line breaks. -->
+				<rule id="5.01">$CR × $LF</rule>
+				<rule id="5.02">$CR ÷</rule>
+				<rule id="5.03">$LF ÷</rule>
+				<rule id="5.04">$NL ÷</rule>
+				<!-- LB 6  Do not break before hard line breaks. -->
+				<rule id="6">× ( $BK | $CR | $LF | $NL )</rule>
+				<!-- LB 7  Do not break before spaces or zero-width space. -->
+				<rule id="7.01">× $SP</rule>
+				<rule id="7.02">× $ZW</rule>
+				<!-- LB 8  Break before any character following a zero-width space, even if one or more spaces intervene. -->
+				<rule id="8">$ZW $SP* ÷</rule>
+				<!-- LB 9  Do not break a combining character sequence; treat it as if it has the LB class of the base character -->
+				<!-- in all of the following rules. (Where X is any line break class except SP, BK, CR, LF, NL or ZW.) -->
+				<rule id="9">$Spec2_ × $CM</rule>
 				<!-- WARNING: this is done by modifying the variable values for all but SP.... That is, $AL is really ($AI $CM*)! -->
 				<!-- LB 11  Do not break before or after WORD JOINER and related characters. -->
 				<rule id="11.01">× $WJ</rule>
@@ -6623,23 +6640,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="30.02">$CP × ($AL | $HL | $NU)</rule>
 				<!-- LB 30a  Do not break between Regional Indicators. -->
 				<rule id="30.11">$RI × $RI</rule>
-				<!-- LB 4  Always break after hard line breaks (but never between CR and LF). -->
-				<rule id="4">$BK ÷</rule>
-				<!-- LB 5  Treat CR followed by LF, as well as CR, LF and NL as hard line breaks. -->
-				<rule id="5.01">$CR × $LF</rule>
-				<rule id="5.02">$CR ÷</rule>
-				<rule id="5.03">$LF ÷</rule>
-				<rule id="5.04">$NL ÷</rule>
-				<!-- LB 6  Do not break before hard line breaks. -->
-				<rule id="6">× ( $BK | $CR | $LF | $NL )</rule>
-				<!-- LB 7  Do not break before spaces or zero-width space. -->
-				<rule id="7.01">× $SP</rule>
-				<rule id="7.02">× $ZW</rule>
-				<!-- LB 8  Break before any character following a zero-width space, even if one or more spaces intervene. -->
-				<rule id="8">$ZW $SP* ÷</rule>
-				<!-- LB 9  Do not break a combining character sequence; treat it as if it has the LB class of the base character -->
-				<!-- in all of the following rules. (Where X is any line break class except SP, BK, CR, LF, NL or ZW.) -->
-				<rule id="9">$Spec2_ × $CM</rule>
 			</segmentRules>
 		</segmentation>
 		<segmentation type="SentenceBreak">
@@ -6674,11 +6674,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$Upper">($Upper $FE*)</variable>
 			</variables>
 			<segmentRules>
-				<!-- Note the fix to $Sp*, $Sep? -->
-				<rule id="10">( $STerm | $ATerm ) $Close* $Sp* × ( $Sp | $Sep | $CR | $LF )</rule>
-				<rule id="11">( $STerm | $ATerm ) $Close* $Sp* ($Sep | $CR | $LF)? ÷</rule>
-				<!-- Otherwise, do not break -->
-				<rule id="12">× $Any</rule>
 				<!-- Do not break within CRLF -->
 				<rule id="3">$CR × $LF</rule>
 				<!-- Break after paragraph separators. -->
@@ -6697,6 +6692,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="8.1">($STerm | $ATerm) $Close* $Sp* × ($SContinue | $STerm | $ATerm)</rule>
 				<!-- Break after sentence terminators, but include closing punctuation, trailing spaces, and (optionally) a paragraph separator. -->
 				<rule id="9">( $STerm | $ATerm ) $Close* × ( $Close | $Sp | $Sep | $CR | $LF )</rule>
+				<!-- Note the fix to $Sp*, $Sep? -->
+				<rule id="10">( $STerm | $ATerm ) $Close* $Sp* × ( $Sp | $Sep | $CR | $LF )</rule>
+				<rule id="11">( $STerm | $ATerm ) $Close* $Sp* ($Sep | $CR | $LF)? ÷</rule>
+				<!-- Otherwise, do not break -->
+				<rule id="12">× $Any</rule>
 			</segmentRules>
 		</segmentation>
 		<segmentation type="WordBreak">
@@ -6729,13 +6729,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$Regional_Indicator">($Regional_Indicator $FE*)</variable>
 			</variables>
 			<segmentRules>
-				<rule id="10">$Numeric × $ALetter</rule>
-				<rule id="11">$Numeric ($MidNum | $MidNumLet) × $Numeric</rule>
-				<rule id="12">$Numeric × ($MidNum | $MidNumLet) $Numeric</rule>
-				<rule id="13">$Katakana × $Katakana</rule>
-				<rule id="13.1">($ALetter | $Numeric | $Katakana | $ExtendNumLet) × $ExtendNumLet</rule>
-				<rule id="13.2">$ExtendNumLet × ($ALetter | $Numeric | $Katakana)</rule>
-				<rule id="13.3">$Regional_Indicator × $Regional_Indicator</rule>
 				<rule id="3">$CR × $LF</rule>
 				<rule id="3.1">($Newline | $CR | $LF) ÷</rule>
 				<rule id="3.2">÷ ($Newline | $CR | $LF)</rule>
@@ -6750,6 +6743,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="7">$ALetter ($MidLetter | $MidNumLet) × $ALetter</rule>
 				<rule id="8">$Numeric × $Numeric</rule>
 				<rule id="9">$ALetter × $Numeric</rule>
+				<rule id="10">$Numeric × $ALetter</rule>
+				<rule id="11">$Numeric ($MidNum | $MidNumLet) × $Numeric</rule>
+				<rule id="12">$Numeric × ($MidNum | $MidNumLet) $Numeric</rule>
+				<rule id="13">$Katakana × $Katakana</rule>
+				<rule id="13.1">($ALetter | $Numeric | $Katakana | $ExtendNumLet) × $ExtendNumLet</rule>
+				<rule id="13.2">$ExtendNumLet × ($ALetter | $Numeric | $Katakana)</rule>
+				<rule id="13.3">$Regional_Indicator × $Regional_Indicator</rule>
 			</segmentRules>
 		</segmentation>
 	</segmentations>

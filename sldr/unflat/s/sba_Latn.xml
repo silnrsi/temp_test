@@ -5,11 +5,11 @@
 		<!-- name.en(sba)="Ngambay" -->
 		<language type="sba"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="TD"/>
+			<sil:identity defaultRegion="TD" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c f q x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b {bb} d {dd} e {ee} ɛ g h i j k l m n o ɔ p r s t u v w y]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c f q x z]</exemplarCharacters>
 	</characters>
 </ldml>

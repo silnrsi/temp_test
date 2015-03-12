@@ -5,11 +5,11 @@
 		<!-- name.en(los)="Loniu" -->
 		<language type="los"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG" usage="unused"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794" usage="unused"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[b c d f g j q v x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {ch} {ë} e h i k l m {mw} n {ny} {ng} {ö} o p {pw} r s t u w y]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[b c d f g j q v x z]</exemplarCharacters>
 	</characters>
 </ldml>

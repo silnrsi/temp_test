@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="ur"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -4112,9 +4112,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>DJF</symbol>
 			</currency>
 			<currency type="DKK">
-				<displayName draft="contributed">ڈنمارک کرون</displayName>
 				<displayName count="one" draft="contributed">ڈنمارک کرون</displayName>
 				<displayName count="other" draft="contributed">ڈنمارک کرون</displayName>
+				<displayName draft="contributed">ڈنمارک کرون</displayName>
 				<symbol>DKK</symbol>
 			</currency>
 			<currency type="DOP">
@@ -4497,9 +4497,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>NIO</symbol>
 			</currency>
 			<currency type="NOK">
-				<displayName draft="contributed">ناروے کرون</displayName>
 				<displayName count="one" draft="contributed">ناروے کرون</displayName>
 				<displayName count="other" draft="contributed">ناروے کرون</displayName>
+				<displayName draft="contributed">ناروے کرون</displayName>
 				<symbol>NOK</symbol>
 			</currency>
 			<currency type="NPR">

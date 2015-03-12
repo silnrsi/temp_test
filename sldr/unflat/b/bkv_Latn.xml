@@ -5,11 +5,11 @@
 		<!-- name.en(bkv)="Bekwarra" -->
 		<language type="bkv"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="NG"/>
+			<sil:identity defaultRegion="NG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q v x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {á} {ā} {à} {â} {ǎ} b c {ch} d e {é} {ē} {è} {ě} f g h i {í} {ī} {ì} {î} j k l m {ḿ} m̀ n {ń} {n̄} {ǹ} o {ó} {ō} {ò} p r s {sh} t u {ú} {ū} {ù} {û} w y]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q v x z]</exemplarCharacters>
 	</characters>
 </ldml>

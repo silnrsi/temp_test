@@ -5,11 +5,11 @@
 		<!-- name.en(niy)="Ngiti" -->
 		<language type="niy"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="CD"/>
+			<sil:identity defaultRegion="CD" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c j q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b {bh} {bv} d {dh} {dr} {dy} {dz} e ɛ f g {gb} {gy} h i ɨ k {kp} {ky} l m {mb} {mv} n {nd} {ndr} {ng} {ngb} {ngy} {ny} {nz} o ɔ p {pb} {pf} r s t {td} {tdy} {tr} {ts} u ʉ v {vh} w y z ʼ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c j q x]</exemplarCharacters>
 	</characters>
 </ldml>

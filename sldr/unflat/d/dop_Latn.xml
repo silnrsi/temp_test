@@ -5,7 +5,7 @@
 		<!-- name.en(dop)="Lukpa" -->
 		<language type="dop"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="BJ"/>
+			<sil:identity defaultRegion="BJ" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<layout>
@@ -15,8 +15,8 @@
 		</orientation>
 	</layout>
 	<characters>
+		<exemplarCharacters draft="unconfirmed">[a c e ɛ ǝ f h i ɩ k {kp} l m n {ny} ŋ {ŋm} o ɔ p ɣ s t u ʊ w y]</exemplarCharacters>
 		<exemplarCharacters type="auxiliary" draft="unconfirmed">[b d g j q r v x z]</exemplarCharacters>
 		<exemplarCharacters type="index" draft="unconfirmed">[A C E Ɛ Ǝ F H I Ɩ K {Kp} L M N {Ny} Ŋ {Ŋm} O Ɔ P Ɣ S T U Ʊ W Y]</exemplarCharacters>
-		<exemplarCharacters draft="unconfirmed">[a c e ɛ ǝ f h i ɩ k {kp} l m n {ny} ŋ {ŋm} o ɔ p ɣ s t u ʊ w y]</exemplarCharacters>
 	</characters>
 </ldml>

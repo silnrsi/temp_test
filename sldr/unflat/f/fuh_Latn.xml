@@ -5,11 +5,11 @@
 		<!-- name.en(fuh)="Western Niger Fulfulde" -->
 		<language type="fuh"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="BF"/>
+			<sil:identity defaultRegion="BF" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q v x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b ɓ {mb} c d ɗ {nd} e f g {ng} h ʼ i j {nj} k l m n {ny} ŋ o p r s t u w y ƴ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q v x z]</exemplarCharacters>
 	</characters>
 </ldml>

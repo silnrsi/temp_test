@@ -5,6 +5,9 @@
 		<generation date="$Date $"/>
 		<!-- name.en(nnh)="Ngiemboon" -->
 		<language type="nnh"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+		</special>
 	</identity>
 	<characters>
 		<exemplarCharacters type="index">[A B C D E Ɛ F G H I J K L M N Ŋ O Ɔ P Pf R S Sh T Ts U Ʉ V W Ẅ Y Ÿ Z ʼ]</exemplarCharacters>

@@ -5,11 +5,11 @@
 		<!-- name.en(dug)="Duruma" -->
 		<language type="dug"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="KE"/>
+			<sil:identity defaultRegion="KE" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b {ch} {chʼ} d {dz} e f g {gw} h i j k {kw} {kʼ} {kʼw} l m {mb} {mv} n {nd} {ng} {ngw} {ngʼ} {nj} {ny} {nz} o p {pʼ} {ph} r s {sh} t {tʼ} {ts} {tsʼ} u v w y z {zh}]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c q x]</exemplarCharacters>
 	</characters>
 </ldml>

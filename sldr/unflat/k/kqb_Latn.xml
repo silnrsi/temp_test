@@ -5,11 +5,11 @@
 		<!-- name.en(kqb)="Kovai" -->
 		<language type="kqb"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c d f h j q v x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b e g i k l m n {ng} o p r s t u w y z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c d f h j q v x]</exemplarCharacters>
 	</characters>
 </ldml>

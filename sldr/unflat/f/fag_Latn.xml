@@ -5,11 +5,11 @@
 		<!-- name.en(fag)="Finongan" -->
 		<language type="fag"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[j q r v x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {aa} {ai} b c d e {ee} f g h i {ii} k {kw} l m n {ng} o {oo} p s t u {uu} w y]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[j q r v x z]</exemplarCharacters>
 	</characters>
 </ldml>

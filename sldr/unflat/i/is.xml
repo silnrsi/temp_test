@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="is"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -1442,10 +1442,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<era type="1">e.Kr.</era>
 					</eraAbbr>
 					<eraNarrow>
-						<era type="0" draft="contributed">f.k.</era>
 						<era type="0" alt="variant" draft="unconfirmed">flt</era>
-						<era type="1" draft="contributed">e.k.</era>
+						<era type="0" draft="contributed">f.k.</era>
 						<era type="1" alt="variant" draft="unconfirmed">lt</era>
+						<era type="1" draft="contributed">e.k.</era>
 					</eraNarrow>
 				</eras>
 				<dateFormats>

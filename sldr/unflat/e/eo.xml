@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-01-03 03:36 +0000 $"/>
 		<language type="eo"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -931,9 +931,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<hourFormat draft="unconfirmed">+HH:mm;−HH:mm</hourFormat>
 			<gmtFormat draft="unconfirmed">UTC{0}</gmtFormat>
 			<gmtZeroFormat draft="unconfirmed">UTC</gmtZeroFormat>
+			<regionFormat draft="unconfirmed">tempo de {0}</regionFormat>
 			<regionFormat type="daylight" draft="unconfirmed">somera tempo de {0}</regionFormat>
 			<regionFormat type="standard" draft="unconfirmed">norma tempo de {0}</regionFormat>
-			<regionFormat draft="unconfirmed">tempo de {0}</regionFormat>
 			<zone type="Etc/Unknown">
 				<exemplarCity draft="unconfirmed">nekonata urbo</exemplarCity>
 			</zone>

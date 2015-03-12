@@ -3,9 +3,12 @@
 	<identity>
 		<!-- name.en(abq)="Abaza" -->
 		<language type="abq"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q {qu} z {zh} {xyz}]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b c {ch} d e f g {gh} h {ij} ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q {qu} z {zh} {xyz}]</exemplarCharacters>
 	</characters>
 </ldml>

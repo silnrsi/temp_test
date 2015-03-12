@@ -5,11 +5,11 @@
 		<!-- name.en(etr)="Edolo" -->
 		<language type="etr"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c j k p q r t v x z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {ä} b d e {ë} f g h i {ï} l m n o {ö} s u {ü} w y]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c j k p q r t v x z]</exemplarCharacters>
 	</characters>
 </ldml>

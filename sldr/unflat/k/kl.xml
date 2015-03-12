@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2014-07-23 21:10 +0000 $"/>
 		<language type="kl"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -653,22 +653,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 				</dayPeriods>
 				<eras>
 					<eraNames>
-						<era type="0" draft="unconfirmed">Kristusip inunngornerata siornagut</era>
 						<era type="0" alt="variant" draft="unconfirmed">før vesterlandsk tidsregning</era>
-						<era type="1" draft="unconfirmed">Kristusip inunngornerata kingornagut</era>
+						<era type="0" draft="unconfirmed">Kristusip inunngornerata siornagut</era>
 						<era type="1" alt="variant" draft="unconfirmed">vesterlandsk tidsregning</era>
+						<era type="1" draft="unconfirmed">Kristusip inunngornerata kingornagut</era>
 					</eraNames>
 					<eraAbbr>
-						<era type="0" draft="unconfirmed">Kr.in.si.</era>
 						<era type="0" alt="variant" draft="unconfirmed">f.v.t.</era>
-						<era type="1" draft="unconfirmed">Kr.in.king.</era>
+						<era type="0" draft="unconfirmed">Kr.in.si.</era>
 						<era type="1" alt="variant" draft="unconfirmed">v.t.</era>
+						<era type="1" draft="unconfirmed">Kr.in.king.</era>
 					</eraAbbr>
 					<eraNarrow>
-						<era type="0" draft="unconfirmed">Kr.s.</era>
 						<era type="0" alt="variant" draft="unconfirmed">f.v.t.</era>
-						<era type="1" draft="unconfirmed">Kr.k.</era>
+						<era type="0" draft="unconfirmed">Kr.s.</era>
 						<era type="1" alt="variant" draft="unconfirmed">v.t.</era>
+						<era type="1" draft="unconfirmed">Kr.k.</era>
 					</eraNarrow>
 				</eras>
 				<dateFormats>

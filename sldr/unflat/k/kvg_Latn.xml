@@ -5,11 +5,11 @@
 		<!-- name.en(kvg)="Kuni-Boazi" -->
 		<language type="kvg"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c d h j r]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a æ b e f g i k {kh} l m {mb} n {nd} {ng} {nq} o ø p q s t u v w x y z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c d h j r]</exemplarCharacters>
 	</characters>
 </ldml>

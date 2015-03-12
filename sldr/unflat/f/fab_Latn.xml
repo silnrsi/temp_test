@@ -5,11 +5,11 @@
 		<!-- name.en(fab)="Fa d'Ambu" -->
 		<language type="fab"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="GQ"/>
+			<sil:identity defaultRegion="GQ" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c h q r w x y]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b {ch} d {dj} e {ë} f g i j k l m n {ñ} o {ö} p s {sh} t u v z {zh}]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c h q r w x y]</exemplarCharacters>
 	</characters>
 </ldml>

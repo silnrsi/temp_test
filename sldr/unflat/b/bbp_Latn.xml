@@ -5,11 +5,11 @@
 		<!-- name.en(bbp)="West Central Banda" -->
 		<language type="bbp"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="SD" usage="unused"/>
+			<sil:identity defaultRegion="SD" revid="53d542ba498f40f437f7723e69dcf64dab6c9794" usage="unused"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[h]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {ah} b c d e {eh} f g {gb} i {ih} j k {kp} l m {mb} {mv} n {nd} {ng} {ngb} {ni} {nj} {nz} o {oh} p q r s {sh} t u {uh} v {vh} w x y z {zh}]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[h]</exemplarCharacters>
 	</characters>
 </ldml>

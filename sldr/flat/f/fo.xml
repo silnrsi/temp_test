@@ -8,10 +8,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<version number="$Revision: 11227 $"/>
 		<generation date="$Date: 2015-02-18 14:46 +0000 $"/>
 		<language type="fo"/>
-		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
-		</special>
 		<script type="Latn"/>
+		<territory type="FO"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+		</special>
 	</identity>
 	<localeDisplayNames>
 		<localeDisplayPattern>
@@ -293,8 +294,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="FO">Føroyar</territory>
 			<territory type="FR">Frakland</territory>
 			<territory type="GA" draft="contributed">Gabon</territory>
-			<territory type="GB" draft="contributed">Stóra Bretland</territory>
 			<territory type="GB" alt="short" draft="contributed">Stóra Bretland</territory>
+			<territory type="GB" draft="contributed">Stóra Bretland</territory>
 			<territory type="GD" draft="contributed">Grenada</territory>
 			<territory type="GE" draft="contributed">Georgia</territory>
 			<territory type="GF" draft="contributed">Fransk Gujana</territory>
@@ -312,8 +313,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="GU" draft="contributed">Guam</territory>
 			<territory type="GW">Guinea Bissau</territory>
 			<territory type="GY">Gujana</territory>
-			<territory type="HK" draft="contributed">Hongkong</territory>
 			<territory type="HK" alt="short" draft="contributed">Hongkong</territory>
+			<territory type="HK" draft="contributed">Hongkong</territory>
 			<territory type="HM" draft="contributed">Heard- og McDonald-oyggjarnar</territory>
 			<territory type="HN" draft="contributed">Honduras</territory>
 			<territory type="HR">Kroatia</territory>
@@ -367,8 +368,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="ML" draft="contributed">Mali</territory>
 			<territory type="MM" draft="contributed">Burma</territory>
 			<territory type="MN" draft="contributed">Mongolia</territory>
-			<territory type="MO" draft="contributed">Makao</territory>
 			<territory type="MO" alt="short" draft="contributed">Makao</territory>
+			<territory type="MO" draft="contributed">Makao</territory>
 			<territory type="MP" draft="contributed">Norðurmarianoyggjarnar</territory>
 			<territory type="MQ" draft="contributed">Martinique</territory>
 			<territory type="MR">Móritania</territory>
@@ -403,8 +404,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<territory type="PM" draft="contributed">Saint Pierre og Miquelon</territory>
 			<territory type="PN" draft="contributed">Pitcairn</territory>
 			<territory type="PR" draft="contributed">Puerto Rico</territory>
-			<territory type="PS" draft="contributed">Palestinskt territorium</territory>
 			<territory type="PS" alt="short" draft="contributed">Palestina</territory>
+			<territory type="PS" draft="contributed">Palestinskt territorium</territory>
 			<territory type="PT" draft="contributed">Portugal</territory>
 			<territory type="PW" draft="contributed">Palau</territory>
 			<territory type="PY">Paraguei</territory>
@@ -1671,22 +1672,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 				</dayPeriods>
 				<eras>
 					<eraNames>
-						<era type="0" draft="contributed">fyrir Krist</era>
 						<era type="0" alt="variant" draft="contributed">fyrir látlaus tímatal</era>
-						<era type="1" draft="contributed">eftir Krist</era>
+						<era type="0" draft="contributed">fyrir Krist</era>
 						<era type="1" alt="variant" draft="contributed">látlaus tímatal</era>
+						<era type="1" draft="contributed">eftir Krist</era>
 					</eraNames>
 					<eraAbbr>
-						<era type="0" draft="contributed">f.Kr.</era>
 						<era type="0" alt="variant" draft="contributed">f.l.t.</era>
-						<era type="1" draft="contributed">e.Kr.</era>
+						<era type="0" draft="contributed">f.Kr.</era>
 						<era type="1" alt="variant" draft="contributed">l.t.</era>
+						<era type="1" draft="contributed">e.Kr.</era>
 					</eraAbbr>
 					<eraNarrow>
-						<era type="0" draft="contributed">fKr</era>
 						<era type="0" alt="variant" draft="contributed">flt</era>
-						<era type="1" draft="contributed">eKr</era>
+						<era type="0" draft="contributed">fKr</era>
 						<era type="1" alt="variant" draft="contributed">lt</era>
+						<era type="1" draft="contributed">eKr</era>
 					</eraNarrow>
 				</eras>
 				<dateFormats>
@@ -4061,9 +4062,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol alt="narrow">Kč</symbol>
 			</currency>
 			<currency type="DKK">
-				<displayName draft="contributed">donsk króna</displayName>
 				<displayName count="one" draft="contributed">donsk króna</displayName>
 				<displayName count="other" draft="contributed">donska krónur</displayName>
+				<displayName draft="contributed">donsk króna</displayName>
 				<symbol alt="narrow">kr</symbol>
 				<symbol>kr</symbol>
 			</currency>
@@ -4077,9 +4078,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol alt="narrow">₧</symbol>
 			</currency>
 			<currency type="EUR">
-				<displayName draft="contributed">euro</displayName>
 				<displayName count="one" draft="contributed">euro</displayName>
 				<displayName count="other" draft="contributed">euro</displayName>
+				<displayName draft="contributed">euro</displayName>
 				<symbol alt="narrow">€</symbol>
 				<symbol>€</symbol>
 			</currency>
@@ -4130,9 +4131,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>₹</symbol>
 			</currency>
 			<currency type="ISK">
-				<displayName draft="contributed">íslendsk króna</displayName>
 				<displayName count="one" draft="contributed">íslendsk króna</displayName>
 				<displayName count="other" draft="contributed">íslendska krónur</displayName>
+				<displayName draft="contributed">íslendsk króna</displayName>
 				<symbol alt="narrow">kr</symbol>
 			</currency>
 			<currency type="JMD">
@@ -4208,9 +4209,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol alt="narrow">C$</symbol>
 			</currency>
 			<currency type="NOK">
-				<displayName draft="contributed">norsk króna</displayName>
 				<displayName count="one" draft="contributed">norsk króna</displayName>
 				<displayName count="other" draft="contributed">norska krónur</displayName>
+				<displayName draft="contributed">norsk króna</displayName>
 				<symbol alt="narrow">kr</symbol>
 			</currency>
 			<currency type="NPR">
@@ -4245,9 +4246,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="SEK">
-				<displayName draft="contributed">svensk króna</displayName>
 				<displayName count="one" draft="contributed">svensk króna</displayName>
 				<displayName count="other" draft="contributed">svenska krónur</displayName>
+				<displayName draft="contributed">svensk króna</displayName>
 				<symbol alt="narrow">kr</symbol>
 			</currency>
 			<currency type="SGD">
@@ -4306,14 +4307,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>FCFA</symbol>
 			</currency>
 			<currency type="XAG">
-				<displayName draft="contributed">unse sølv</displayName>
 				<displayName count="one" draft="contributed">unse sølv</displayName>
 				<displayName count="other" draft="contributed">unse sølv</displayName>
+				<displayName draft="contributed">unse sølv</displayName>
 			</currency>
 			<currency type="XAU">
-				<displayName draft="contributed">unse guld</displayName>
 				<displayName count="one" draft="contributed">unse guld</displayName>
 				<displayName count="other" draft="contributed">unse guld</displayName>
+				<displayName draft="contributed">unse guld</displayName>
 			</currency>
 			<currency type="XCD">
 				<symbol alt="narrow">$</symbol>
@@ -4323,17 +4324,17 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>CFA</symbol>
 			</currency>
 			<currency type="XPD">
-				<displayName draft="contributed">unse palladium</displayName>
 				<displayName count="one" draft="contributed">unse palladium</displayName>
 				<displayName count="other" draft="contributed">unse palladium</displayName>
+				<displayName draft="contributed">unse palladium</displayName>
 			</currency>
 			<currency type="XPF">
 				<symbol>CFPF</symbol>
 			</currency>
 			<currency type="XPT">
-				<displayName draft="contributed">unse platin</displayName>
 				<displayName count="one" draft="contributed">unse platin</displayName>
 				<displayName count="other" draft="contributed">unse platin</displayName>
+				<displayName draft="contributed">unse platin</displayName>
 			</currency>
 			<currency type="ZAR">
 				<symbol alt="narrow">R</symbol>
@@ -6342,6 +6343,23 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$ZW">\p{Line_Break=ZWSpace}</variable>
 			</variables>
 			<segmentRules>
+				<!-- LB 4  Always break after hard line breaks (but never between CR and LF). -->
+				<rule id="4">$BK ÷</rule>
+				<!-- LB 5  Treat CR followed by LF, as well as CR, LF and NL as hard line breaks. -->
+				<rule id="5.01">$CR × $LF</rule>
+				<rule id="5.02">$CR ÷</rule>
+				<rule id="5.03">$LF ÷</rule>
+				<rule id="5.04">$NL ÷</rule>
+				<!-- LB 6  Do not break before hard line breaks. -->
+				<rule id="6">× ( $BK | $CR | $LF | $NL )</rule>
+				<!-- LB 7  Do not break before spaces or zero-width space. -->
+				<rule id="7.01">× $SP</rule>
+				<rule id="7.02">× $ZW</rule>
+				<!-- LB 8  Break before any character following a zero-width space, even if one or more spaces intervene. -->
+				<rule id="8">$ZW $SP* ÷</rule>
+				<!-- LB 9  Do not break a combining character sequence; treat it as if it has the LB class of the base character -->
+				<!-- in all of the following rules. (Where X is any line break class except SP, BK, CR, LF, NL or ZW.) -->
+				<rule id="9">$Spec2_ × $CM</rule>
 				<!-- WARNING: this is done by modifying the variable values for all but SP.... That is, $AL is really ($AI $CM*)! -->
 				<!-- LB 11  Do not break before or after WORD JOINER and related characters. -->
 				<rule id="11.01">× $WJ</rule>
@@ -6421,23 +6439,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="30.02">$CP × ($AL | $HL | $NU)</rule>
 				<!-- LB 30a  Do not break between Regional Indicators. -->
 				<rule id="30.11">$RI × $RI</rule>
-				<!-- LB 4  Always break after hard line breaks (but never between CR and LF). -->
-				<rule id="4">$BK ÷</rule>
-				<!-- LB 5  Treat CR followed by LF, as well as CR, LF and NL as hard line breaks. -->
-				<rule id="5.01">$CR × $LF</rule>
-				<rule id="5.02">$CR ÷</rule>
-				<rule id="5.03">$LF ÷</rule>
-				<rule id="5.04">$NL ÷</rule>
-				<!-- LB 6  Do not break before hard line breaks. -->
-				<rule id="6">× ( $BK | $CR | $LF | $NL )</rule>
-				<!-- LB 7  Do not break before spaces or zero-width space. -->
-				<rule id="7.01">× $SP</rule>
-				<rule id="7.02">× $ZW</rule>
-				<!-- LB 8  Break before any character following a zero-width space, even if one or more spaces intervene. -->
-				<rule id="8">$ZW $SP* ÷</rule>
-				<!-- LB 9  Do not break a combining character sequence; treat it as if it has the LB class of the base character -->
-				<!-- in all of the following rules. (Where X is any line break class except SP, BK, CR, LF, NL or ZW.) -->
-				<rule id="9">$Spec2_ × $CM</rule>
 			</segmentRules>
 		</segmentation>
 		<segmentation type="SentenceBreak">
@@ -6472,11 +6473,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$Upper">($Upper $FE*)</variable>
 			</variables>
 			<segmentRules>
-				<!-- Note the fix to $Sp*, $Sep? -->
-				<rule id="10">( $STerm | $ATerm ) $Close* $Sp* × ( $Sp | $Sep | $CR | $LF )</rule>
-				<rule id="11">( $STerm | $ATerm ) $Close* $Sp* ($Sep | $CR | $LF)? ÷</rule>
-				<!-- Otherwise, do not break -->
-				<rule id="12">× $Any</rule>
 				<!-- Do not break within CRLF -->
 				<rule id="3">$CR × $LF</rule>
 				<!-- Break after paragraph separators. -->
@@ -6495,6 +6491,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="8.1">($STerm | $ATerm) $Close* $Sp* × ($SContinue | $STerm | $ATerm)</rule>
 				<!-- Break after sentence terminators, but include closing punctuation, trailing spaces, and (optionally) a paragraph separator. -->
 				<rule id="9">( $STerm | $ATerm ) $Close* × ( $Close | $Sp | $Sep | $CR | $LF )</rule>
+				<!-- Note the fix to $Sp*, $Sep? -->
+				<rule id="10">( $STerm | $ATerm ) $Close* $Sp* × ( $Sp | $Sep | $CR | $LF )</rule>
+				<rule id="11">( $STerm | $ATerm ) $Close* $Sp* ($Sep | $CR | $LF)? ÷</rule>
+				<!-- Otherwise, do not break -->
+				<rule id="12">× $Any</rule>
 			</segmentRules>
 		</segmentation>
 		<segmentation type="WordBreak">
@@ -6527,13 +6528,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$Regional_Indicator">($Regional_Indicator $FE*)</variable>
 			</variables>
 			<segmentRules>
-				<rule id="10">$Numeric × $ALetter</rule>
-				<rule id="11">$Numeric ($MidNum | $MidNumLet) × $Numeric</rule>
-				<rule id="12">$Numeric × ($MidNum | $MidNumLet) $Numeric</rule>
-				<rule id="13">$Katakana × $Katakana</rule>
-				<rule id="13.1">($ALetter | $Numeric | $Katakana | $ExtendNumLet) × $ExtendNumLet</rule>
-				<rule id="13.2">$ExtendNumLet × ($ALetter | $Numeric | $Katakana)</rule>
-				<rule id="13.3">$Regional_Indicator × $Regional_Indicator</rule>
 				<rule id="3">$CR × $LF</rule>
 				<rule id="3.1">($Newline | $CR | $LF) ÷</rule>
 				<rule id="3.2">÷ ($Newline | $CR | $LF)</rule>
@@ -6548,6 +6542,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="7">$ALetter ($MidLetter | $MidNumLet) × $ALetter</rule>
 				<rule id="8">$Numeric × $Numeric</rule>
 				<rule id="9">$ALetter × $Numeric</rule>
+				<rule id="10">$Numeric × $ALetter</rule>
+				<rule id="11">$Numeric ($MidNum | $MidNumLet) × $Numeric</rule>
+				<rule id="12">$Numeric × ($MidNum | $MidNumLet) $Numeric</rule>
+				<rule id="13">$Katakana × $Katakana</rule>
+				<rule id="13.1">($ALetter | $Numeric | $Katakana | $ExtendNumLet) × $ExtendNumLet</rule>
+				<rule id="13.2">$ExtendNumLet × ($ALetter | $Numeric | $Katakana)</rule>
+				<rule id="13.3">$Regional_Indicator × $Regional_Indicator</rule>
 			</segmentRules>
 		</segmentation>
 	</segmentations>

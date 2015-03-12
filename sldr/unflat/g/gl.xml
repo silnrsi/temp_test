@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="gl"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -3800,9 +3800,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>AOA</symbol>
 			</currency>
 			<currency type="ARP">
-				<displayName draft="contributed">Peso arxentino (1983–1985)</displayName>
 				<displayName count="one" draft="contributed">peso arxentino (ARP)</displayName>
 				<displayName count="other" draft="contributed">pesos arxentinos (ARP)</displayName>
+				<displayName draft="contributed">Peso arxentino (1983–1985)</displayName>
 			</currency>
 			<currency type="ARS">
 				<displayName count="one">peso arxentino</displayName>
@@ -3847,19 +3847,19 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>BDT</symbol>
 			</currency>
 			<currency type="BEC">
-				<displayName draft="contributed">Franco belga (convertible)</displayName>
 				<displayName count="one" draft="contributed">franco belga (convertible)</displayName>
 				<displayName count="other" draft="contributed">francos belgas (convertibles)</displayName>
+				<displayName draft="contributed">Franco belga (convertible)</displayName>
 			</currency>
 			<currency type="BEF">
-				<displayName draft="contributed">Franco belga</displayName>
 				<displayName count="one" draft="contributed">franco belga</displayName>
 				<displayName count="other" draft="contributed">francos belgas</displayName>
+				<displayName draft="contributed">Franco belga</displayName>
 			</currency>
 			<currency type="BEL">
-				<displayName draft="contributed">Franco belga (financeiro)</displayName>
 				<displayName count="one" draft="contributed">franco belga (financeiro)</displayName>
 				<displayName count="other" draft="contributed">francos belgas (financeiros)</displayName>
+				<displayName draft="contributed">Franco belga (financeiro)</displayName>
 			</currency>
 			<currency type="BGN">
 				<displayName count="one">lev búlgaro</displayName>
@@ -3898,27 +3898,27 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>BOB</symbol>
 			</currency>
 			<currency type="BOP">
-				<displayName draft="contributed">Peso boliviano</displayName>
 				<displayName count="one" draft="contributed">peso boliviano</displayName>
 				<displayName count="other" draft="contributed">pesos bolivianos</displayName>
+				<displayName draft="contributed">Peso boliviano</displayName>
 			</currency>
 			<currency type="BOV">
 				<displayName draft="contributed">MVDOL boliviano</displayName>
 			</currency>
 			<currency type="BRB">
-				<displayName draft="contributed">Cruzeiro novo brasileiro (1967–1986)</displayName>
 				<displayName count="one" draft="contributed">cruzeiro novo brasileiro</displayName>
 				<displayName count="other" draft="contributed">cruzeiros novos brasileiros</displayName>
+				<displayName draft="contributed">Cruzeiro novo brasileiro (1967–1986)</displayName>
 			</currency>
 			<currency type="BRC">
-				<displayName draft="contributed">Cruzado brasileiro</displayName>
 				<displayName count="one" draft="contributed">cruzado brasileiro</displayName>
 				<displayName count="other" draft="contributed">cruzados brasileiros</displayName>
+				<displayName draft="contributed">Cruzado brasileiro</displayName>
 			</currency>
 			<currency type="BRE">
-				<displayName draft="contributed">Cruzeiro brasileiro (1990–1993)</displayName>
 				<displayName count="one" draft="contributed">cruzeiro brasileiro (BRE)</displayName>
 				<displayName count="other" draft="contributed">cruzeiros brasileiros (BRE)</displayName>
+				<displayName draft="contributed">Cruzeiro brasileiro (1990–1993)</displayName>
 			</currency>
 			<currency type="BRL">
 				<displayName count="one">real brasileiro</displayName>
@@ -3928,14 +3928,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>$R</symbol>
 			</currency>
 			<currency type="BRN">
-				<displayName draft="contributed">Cruzado novo brasileiro</displayName>
 				<displayName count="one" draft="contributed">cruzado novo brasileiro</displayName>
 				<displayName count="other" draft="contributed">cruzados novos brasileiros</displayName>
+				<displayName draft="contributed">Cruzado novo brasileiro</displayName>
 			</currency>
 			<currency type="BRR">
-				<displayName draft="contributed">Cruzeiro brasileiro</displayName>
 				<displayName count="one" draft="contributed">cruzeiro brasileiro</displayName>
 				<displayName count="other" draft="contributed">cruzeiros brasileiros</displayName>
+				<displayName draft="contributed">Cruzeiro brasileiro</displayName>
 			</currency>
 			<currency type="BSD">
 				<displayName count="one">dólar das Bahamas</displayName>
@@ -3986,9 +3986,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>CHF</symbol>
 			</currency>
 			<currency type="CLF">
-				<displayName draft="contributed">Unidades de fomento chilenas</displayName>
 				<displayName count="one" draft="contributed">unidade de fomento chilena</displayName>
 				<displayName count="other" draft="contributed">unidades de fomento chilenas</displayName>
+				<displayName draft="contributed">Unidades de fomento chilenas</displayName>
 			</currency>
 			<currency type="CLP">
 				<displayName count="one">peso chileno</displayName>
@@ -4038,9 +4038,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>CZK</symbol>
 			</currency>
 			<currency type="DEM">
-				<displayName draft="contributed">Marco alemán</displayName>
 				<displayName count="one" draft="contributed">marco alemán</displayName>
 				<displayName count="other" draft="contributed">marcos alemáns</displayName>
+				<displayName draft="contributed">Marco alemán</displayName>
 			</currency>
 			<currency type="DJF">
 				<displayName count="one">franco xibutiano</displayName>
@@ -4067,9 +4067,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>DZD</symbol>
 			</currency>
 			<currency type="ECS">
-				<displayName draft="contributed">Sucre ecuatoriano</displayName>
 				<displayName count="one" draft="contributed">sucre ecuatoriano</displayName>
 				<displayName count="other" draft="contributed">sucres ecuatorianos</displayName>
+				<displayName draft="contributed">Sucre ecuatoriano</displayName>
 			</currency>
 			<currency type="ECV">
 				<displayName draft="contributed">Unidade de valor constante ecuatoriana</displayName>
@@ -4094,9 +4094,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 			</currency>
 			<currency type="ESP">
 				<pattern>#,##0.00 ¤</pattern>
-				<displayName draft="contributed">Peseta española</displayName>
 				<displayName count="one" draft="contributed">peseta</displayName>
 				<displayName count="other" draft="contributed">pesetas</displayName>
+				<displayName draft="contributed">Peseta española</displayName>
 				<symbol>₧</symbol>
 				<decimal>,</decimal>
 				<group>.</group>
@@ -4125,9 +4125,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>FKP</symbol>
 			</currency>
 			<currency type="FRF">
-				<displayName draft="contributed">Franco francés</displayName>
 				<displayName count="one" draft="contributed">franco francés</displayName>
 				<displayName count="other" draft="contributed">francos franceses</displayName>
+				<displayName draft="contributed">Franco francés</displayName>
 			</currency>
 			<currency type="GBP">
 				<displayName count="one">libra esterlina</displayName>
@@ -4222,9 +4222,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>IDR</symbol>
 			</currency>
 			<currency type="IEP">
-				<displayName draft="contributed">Libra irlandesa</displayName>
 				<displayName count="one" draft="contributed">libra irlandesa</displayName>
 				<displayName count="other" draft="contributed">libras irlandesas</displayName>
+				<displayName draft="contributed">Libra irlandesa</displayName>
 			</currency>
 			<currency type="ILS">
 				<displayName count="one">novo shequel israelí</displayName>
@@ -4565,9 +4565,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>PLN</symbol>
 			</currency>
 			<currency type="PTE">
-				<displayName draft="contributed">Escudo portugués</displayName>
 				<displayName count="one" draft="contributed">escudo portugués</displayName>
 				<displayName count="other" draft="contributed">escudos portugueses</displayName>
+				<displayName draft="contributed">Escudo portugués</displayName>
 			</currency>
 			<currency type="PYG">
 				<displayName count="one">Guaraní paraguaio</displayName>
@@ -4681,14 +4681,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>STD</symbol>
 			</currency>
 			<currency type="SUR">
-				<displayName draft="contributed">Rublo soviético</displayName>
 				<displayName count="one" draft="contributed">rublo soviético</displayName>
 				<displayName count="other" draft="contributed">rublos soviéticos</displayName>
+				<displayName draft="contributed">Rublo soviético</displayName>
 			</currency>
 			<currency type="SVC">
-				<displayName draft="contributed">Colón salvadoreño</displayName>
 				<displayName count="one" draft="contributed">colón salvadoreño</displayName>
 				<displayName count="other" draft="contributed">colóns salvadoreños</displayName>
+				<displayName draft="contributed">Colón salvadoreño</displayName>
 			</currency>
 			<currency type="SYP">
 				<displayName count="one">libra siria</displayName>
@@ -4793,9 +4793,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>UZS</symbol>
 			</currency>
 			<currency type="VEB">
-				<displayName draft="contributed">Bolívar venezolano (1871–2008)</displayName>
 				<displayName count="one" draft="contributed">bolívar venezolano (1871–2008)</displayName>
 				<displayName count="other" draft="contributed">bolívares venezolanos (1871–2008)</displayName>
+				<displayName draft="contributed">Bolívar venezolano (1871–2008)</displayName>
 			</currency>
 			<currency type="VEF">
 				<displayName count="one">bolívar venezolano</displayName>

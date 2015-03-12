@@ -5,11 +5,11 @@
 		<!-- name.en(byn)="Blin" -->
 		<language type="byn"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="ER"/>
+			<sil:identity defaultRegion="ER" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[p v z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b c d e {é} f g {ghw} h i j k {kh} {khw} l m n {ñ} o q {qw} {qhw} r s t u w x y]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[p v z]</exemplarCharacters>
 	</characters>
 </ldml>

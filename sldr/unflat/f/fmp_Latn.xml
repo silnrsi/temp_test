@@ -5,11 +5,11 @@
 		<!-- name.en(fmp)="Fe'fe'" -->
 		<language type="fmp"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="CM"/>
+			<sil:identity defaultRegion="CM" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q r x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a ɑ b c d e ə f g {gh} h i j k l m n ŋ o ɔ p s {sh} t u ʉ v w y z {zh} ʼ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q r x]</exemplarCharacters>
 	</characters>
 </ldml>

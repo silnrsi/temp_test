@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="pl"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -1863,10 +1863,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				</dayPeriods>
 				<eras>
 					<eraNames>
-						<era type="0" draft="contributed">p.n.e.</era>
 						<era type="0" alt="variant" draft="contributed">BCE</era>
-						<era type="1" draft="contributed">n.e.</era>
+						<era type="0" draft="contributed">p.n.e.</era>
 						<era type="1" alt="variant" draft="contributed">CE</era>
+						<era type="1" draft="contributed">n.e.</era>
 					</eraNames>
 					<eraAbbr>
 						<era type="0" alt="variant" draft="contributed">BCE</era>

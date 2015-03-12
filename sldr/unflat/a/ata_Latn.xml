@@ -5,11 +5,11 @@
 		<!-- name.en(ata)="Pele-Ata" -->
 		<language type="ata"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG"/>
+			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[b c d f g h j q r w y z]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {aa} e {ee} i {ii} k l m n {ng} o {oo} p s t u {uu} v x ꞌ]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[b c d f g h j q r w y z]</exemplarCharacters>
 	</characters>
 </ldml>

@@ -3,6 +3,9 @@
 	<identity>
 		<!-- name.en(san)="Sanskrit" -->
 		<language type="san"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+		</special>
 	</identity>
 	<characters>
 		<exemplarCharacters draft="unconfirmed">[अ आ इ ई उ ऊ ऋ ॠ ऌ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ा  ि  ी ु ू ृ ॄ  ॢ े ै ो ौ ँ ः ् ऽ]</exemplarCharacters>

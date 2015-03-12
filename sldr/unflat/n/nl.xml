@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="nl"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -2481,8 +2481,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<eraNames>
 						<era type="0" alt="variant" draft="contributed">vóór gewone jaartelling</era>
 						<era type="0">voor Christus</era>
-						<era type="1" draft="contributed">na Christus</era>
 						<era type="1" alt="variant" draft="contributed">gewone jaartelling</era>
+						<era type="1" draft="contributed">na Christus</era>
 					</eraNames>
 					<eraAbbr>
 						<era type="0" alt="variant">v.g.j.</era>
@@ -2491,10 +2491,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<era type="1">n.Chr.</era>
 					</eraAbbr>
 					<eraNarrow>
-						<era type="0" draft="contributed">v.C.</era>
 						<era type="0" alt="variant" draft="contributed">vgj</era>
-						<era type="1" draft="contributed">n.C.</era>
+						<era type="0" draft="contributed">v.C.</era>
 						<era type="1" alt="variant" draft="contributed">gj</era>
+						<era type="1" draft="contributed">n.C.</era>
 					</eraNarrow>
 				</eras>
 				<dateFormats>
@@ -5765,9 +5765,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">AFN</symbol>
 			</currency>
 			<currency type="ALK">
-				<displayName draft="contributed">Albanese lek (1946–1965)</displayName>
 				<displayName count="one" draft="contributed">Albanese lek (1946–1965)</displayName>
 				<displayName count="other" draft="contributed">Albanese lek (1946–1965)</displayName>
+				<displayName draft="contributed">Albanese lek (1946–1965)</displayName>
 				<symbol draft="contributed">ALK</symbol>
 			</currency>
 			<currency type="ALL">
@@ -5819,15 +5819,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">ARA</symbol>
 			</currency>
 			<currency type="ARL">
-				<displayName draft="contributed">Argentijnse peso ley (1970–1983)</displayName>
 				<displayName count="one" draft="contributed">Argentijnse peso ley (1970–1983)</displayName>
 				<displayName count="other" draft="contributed">Argentijnse peso ley (1970–1983)</displayName>
+				<displayName draft="contributed">Argentijnse peso ley (1970–1983)</displayName>
 				<symbol draft="contributed">ARL</symbol>
 			</currency>
 			<currency type="ARM">
-				<displayName draft="contributed">Argentijnse peso (1881–1970)</displayName>
 				<displayName count="one" draft="contributed">Argentijnse peso (1881–1970)</displayName>
 				<displayName count="other" draft="contributed">Argentijnse peso (1881–1970)</displayName>
+				<displayName draft="contributed">Argentijnse peso (1881–1970)</displayName>
 				<symbol draft="contributed">ARM</symbol>
 			</currency>
 			<currency type="ARP">
@@ -5861,9 +5861,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>AWG</symbol>
 			</currency>
 			<currency type="AZM">
-				<displayName draft="contributed">Azerbeidzjaanse manat (1993–2006)</displayName>
 				<displayName count="one" draft="contributed">Azerbeidzjaanse manat (1993–2006)</displayName>
 				<displayName count="other" draft="contributed">Azerbeidzjaanse manat (1993–2006)</displayName>
+				<displayName draft="contributed">Azerbeidzjaanse manat (1993–2006)</displayName>
 				<symbol draft="contributed">AZM</symbol>
 			</currency>
 			<currency type="AZN">
@@ -5885,9 +5885,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">BAM</symbol>
 			</currency>
 			<currency type="BAN">
-				<displayName draft="contributed">Nieuwe Bosnische dinar (1994–1997)</displayName>
 				<displayName count="one" draft="contributed">Nieuwe Bosnische dinar (1994–1997)</displayName>
 				<displayName count="other" draft="contributed">Nieuwe Bosnische dinar (1994–1997)</displayName>
+				<displayName draft="contributed">Nieuwe Bosnische dinar (1994–1997)</displayName>
 				<symbol draft="contributed">BAN</symbol>
 			</currency>
 			<currency type="BBD">
@@ -5927,9 +5927,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">BGL</symbol>
 			</currency>
 			<currency type="BGM">
-				<displayName draft="contributed">Bulgaarse socialistische lev</displayName>
 				<displayName count="one" draft="contributed">Bulgaarse socialistische lev</displayName>
 				<displayName count="other" draft="contributed">Bulgaarse socialistische lev</displayName>
+				<displayName draft="contributed">Bulgaarse socialistische lev</displayName>
 				<symbol draft="contributed">BGM</symbol>
 			</currency>
 			<currency type="BGN">
@@ -5939,9 +5939,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">BGN</symbol>
 			</currency>
 			<currency type="BGO">
-				<displayName draft="contributed">Bulgaarse lev (1879–1952)</displayName>
 				<displayName count="one" draft="contributed">Bulgaarse lev (1879–1952)</displayName>
 				<displayName count="other" draft="contributed">Bulgaarse lev (1879–1952)</displayName>
+				<displayName draft="contributed">Bulgaarse lev (1879–1952)</displayName>
 				<symbol draft="contributed">BGO</symbol>
 			</currency>
 			<currency type="BHD">
@@ -5975,9 +5975,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">BOB</symbol>
 			</currency>
 			<currency type="BOL">
-				<displayName draft="contributed">Boliviaanse boliviano (1863–1963)</displayName>
 				<displayName count="one" draft="contributed">Boliviaanse boliviano (1863–1963)</displayName>
 				<displayName count="other" draft="contributed">Boliviaanse boliviano (1863–1963)</displayName>
+				<displayName draft="contributed">Boliviaanse boliviano (1863–1963)</displayName>
 				<symbol draft="contributed">BOL</symbol>
 			</currency>
 			<currency type="BOP">
@@ -6028,9 +6028,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">BRR</symbol>
 			</currency>
 			<currency type="BRZ">
-				<displayName draft="contributed">Braziliaanse cruzeiro (1942–1967)</displayName>
 				<displayName count="one" draft="contributed">Braziliaanse cruzeiro (1942–1967)</displayName>
 				<displayName count="other" draft="contributed">Braziliaanse cruzeiro (1942–1967)</displayName>
+				<displayName draft="contributed">Braziliaanse cruzeiro (1942–1967)</displayName>
 				<symbol draft="contributed">BRZ</symbol>
 			</currency>
 			<currency type="BSD">
@@ -6106,9 +6106,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">CHW</symbol>
 			</currency>
 			<currency type="CLE">
-				<displayName draft="contributed">Chileense escudo</displayName>
 				<displayName count="one" draft="contributed">Chileense escudo</displayName>
 				<displayName count="other" draft="contributed">Chileense escudo</displayName>
+				<displayName draft="contributed">Chileense escudo</displayName>
 				<symbol draft="contributed">CLE</symbol>
 			</currency>
 			<currency type="CLF">
@@ -6124,9 +6124,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">CLP</symbol>
 			</currency>
 			<currency type="CNX">
-				<displayName draft="contributed">dollar van de Chinese Volksbank</displayName>
 				<displayName count="one" draft="contributed">dollar van de Chinese Volksbank</displayName>
 				<displayName count="other" draft="contributed">dollar van de Chinese Volksbank</displayName>
+				<displayName draft="contributed">dollar van de Chinese Volksbank</displayName>
 				<symbol draft="contributed">CNX</symbol>
 			</currency>
 			<currency type="CNY">
@@ -6456,9 +6456,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">ILP</symbol>
 			</currency>
 			<currency type="ILR">
-				<displayName draft="contributed">Israëlische sjekel (1980–1985)</displayName>
 				<displayName count="one" draft="contributed">Israëlische sjekel (1980–1985)</displayName>
 				<displayName count="other" draft="contributed">Israëlische sjekel (1980–1985)</displayName>
+				<displayName draft="contributed">Israëlische sjekel (1980–1985)</displayName>
 				<symbol draft="contributed">ILR</symbol>
 			</currency>
 			<currency type="ILS">
@@ -6484,9 +6484,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">IRR</symbol>
 			</currency>
 			<currency type="ISJ">
-				<displayName draft="contributed">IJslandse kroon (1918–1981)</displayName>
 				<displayName count="one" draft="contributed">IJslandse kroon (1918–1981)</displayName>
 				<displayName count="other" draft="contributed">IJslandse kronen (1918–1981)</displayName>
+				<displayName draft="contributed">IJslandse kroon (1918–1981)</displayName>
 				<symbol draft="contributed">ISJ</symbol>
 			</currency>
 			<currency type="ISK">
@@ -6549,15 +6549,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">KPW</symbol>
 			</currency>
 			<currency type="KRH">
-				<displayName draft="contributed">Zuid-Koreaanse hwan (1953–1962)</displayName>
 				<displayName count="one" draft="contributed">Zuid-Koreaanse hwan (1953–1962)</displayName>
 				<displayName count="other" draft="contributed">Zuid-Koreaanse hwan (1953–1962)</displayName>
+				<displayName draft="contributed">Zuid-Koreaanse hwan (1953–1962)</displayName>
 				<symbol draft="contributed">KRH</symbol>
 			</currency>
 			<currency type="KRO">
-				<displayName draft="contributed">Oude Zuid-Koreaanse won (1945–1953)</displayName>
 				<displayName count="one" draft="contributed">oude Zuid-Koreaanse won (1945–1953)</displayName>
 				<displayName count="other" draft="contributed">oude Zuid-Koreaanse won (1945–1953)</displayName>
+				<displayName draft="contributed">Oude Zuid-Koreaanse won (1945–1953)</displayName>
 				<symbol draft="contributed">KRO</symbol>
 			</currency>
 			<currency type="KRW">
@@ -6674,15 +6674,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">MAF</symbol>
 			</currency>
 			<currency type="MCF">
-				<displayName draft="contributed">Monegaskische frank</displayName>
 				<displayName count="one" draft="contributed">Monegaskische frank</displayName>
 				<displayName count="other" draft="contributed">Monegaskische frank</displayName>
+				<displayName draft="contributed">Monegaskische frank</displayName>
 				<symbol draft="contributed">MCF</symbol>
 			</currency>
 			<currency type="MDC">
-				<displayName draft="contributed">Moldavische cupon</displayName>
 				<displayName count="one" draft="contributed">Moldavische cupon</displayName>
 				<displayName count="other" draft="contributed">Moldavische cupon</displayName>
+				<displayName draft="contributed">Moldavische cupon</displayName>
 				<symbol draft="contributed">MDC</symbol>
 			</currency>
 			<currency type="MDL">
@@ -6710,9 +6710,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">MKD</symbol>
 			</currency>
 			<currency type="MKN">
-				<displayName draft="contributed">Macedonische denar (1992–1993)</displayName>
 				<displayName count="one" draft="contributed">Macedonische denar (1992–1993)</displayName>
 				<displayName count="other" draft="contributed">Macedonische denar (1992–1993)</displayName>
+				<displayName draft="contributed">Macedonische denar (1992–1993)</displayName>
 				<symbol draft="contributed">MKN</symbol>
 			</currency>
 			<currency type="MLF">
@@ -6764,9 +6764,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">MUR</symbol>
 			</currency>
 			<currency type="MVP">
-				<displayName draft="contributed">Maldivische roepie</displayName>
 				<displayName count="one" draft="contributed">Maldivische roepie</displayName>
 				<displayName count="other" draft="contributed">Maldivische roepie</displayName>
+				<displayName draft="contributed">Maldivische roepie</displayName>
 				<symbol draft="contributed">MVP</symbol>
 			</currency>
 			<currency type="MVR">
@@ -7275,9 +7275,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>Vietnamese dong</displayName>
 			</currency>
 			<currency type="VNN">
-				<displayName draft="contributed">Oude Vietnamese dong (1978–1985)</displayName>
 				<displayName count="one" draft="contributed">oude Vietnamese dong (1978–1985)</displayName>
 				<displayName count="other" draft="contributed">oude Vietnamese dong (1978–1985)</displayName>
+				<displayName draft="contributed">Oude Vietnamese dong (1978–1985)</displayName>
 				<symbol draft="contributed">VNN</symbol>
 			</currency>
 			<currency type="VUV">
@@ -7392,9 +7392,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">XRE</symbol>
 			</currency>
 			<currency type="XSU">
-				<displayName draft="contributed">Sucre</displayName>
 				<displayName count="one" draft="contributed">Sucre</displayName>
 				<displayName count="other" draft="contributed">Sucre</displayName>
+				<displayName draft="contributed">Sucre</displayName>
 				<symbol draft="contributed">XSU</symbol>
 			</currency>
 			<currency type="XTS">
@@ -7404,9 +7404,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">XTS</symbol>
 			</currency>
 			<currency type="XUA">
-				<displayName draft="contributed">ADB-rekeneenheid</displayName>
 				<displayName count="one" draft="contributed">ADB-rekeneenheid</displayName>
 				<displayName count="other" draft="contributed">ADB-rekeneenheid</displayName>
+				<displayName draft="contributed">ADB-rekeneenheid</displayName>
 				<symbol draft="contributed">XUA</symbol>
 			</currency>
 			<currency type="XXX">
@@ -7446,9 +7446,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">YUN</symbol>
 			</currency>
 			<currency type="YUR">
-				<displayName draft="contributed">Joegoslavische hervormde dinar (1992–1993)</displayName>
 				<displayName count="one" draft="contributed">Joegoslavische hervormde dinar (1992–1993)</displayName>
 				<displayName count="other" draft="contributed">Joegoslavische hervormde dinar (1992–1993)</displayName>
+				<displayName draft="contributed">Joegoslavische hervormde dinar (1992–1993)</displayName>
 				<symbol draft="contributed">YUR</symbol>
 			</currency>
 			<currency type="ZAL">
@@ -7494,15 +7494,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">ZWD</symbol>
 			</currency>
 			<currency type="ZWL">
-				<displayName draft="contributed">Zimbabwaanse dollar (2009)</displayName>
 				<displayName count="one" draft="contributed">Zimbabwaanse dollar (2009)</displayName>
 				<displayName count="other" draft="contributed">Zimbabwaanse dollar (2009)</displayName>
+				<displayName draft="contributed">Zimbabwaanse dollar (2009)</displayName>
 				<symbol draft="contributed">ZWL</symbol>
 			</currency>
 			<currency type="ZWR">
-				<displayName draft="contributed">Zimbabwaanse dollar (2008)</displayName>
 				<displayName count="one" draft="contributed">Zimbabwaanse dollar (2008)</displayName>
 				<displayName count="other" draft="contributed">Zimbabwaanse dollar (2008)</displayName>
+				<displayName draft="contributed">Zimbabwaanse dollar (2008)</displayName>
 				<symbol draft="contributed">ZWR</symbol>
 			</currency>
 		</currencies>

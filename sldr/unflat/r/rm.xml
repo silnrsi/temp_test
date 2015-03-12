@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="rm"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -115,10 +115,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<language type="en" draft="contributed">englais</language>
 			<language type="en_AU" draft="contributed">englais australian</language>
 			<language type="en_CA" draft="contributed">englais canadais</language>
-			<language type="en_GB" draft="contributed">englais britannic</language>
 			<language type="en_GB" alt="short" draft="unconfirmed">englais (GB)</language>
-			<language type="en_US" draft="contributed">englais american</language>
+			<language type="en_GB" draft="contributed">englais britannic</language>
 			<language type="en_US" alt="short" draft="unconfirmed">englais (US)</language>
+			<language type="en_US" draft="contributed">englais american</language>
 			<language type="enm" draft="contributed">englais mesaun</language>
 			<language type="eo" draft="contributed">esperanto</language>
 			<language type="es" draft="contributed">spagnol</language>
@@ -943,8 +943,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 		</codePatterns>
 	</localeDisplayNames>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="contributed">[á ă â å ä ā æ ç ĕ ê ë ē í ĭ î ï ī ñ ó ŏ ô ö ø ō œ ú ŭ û ü ū ÿ]</exemplarCharacters>
 		<exemplarCharacters draft="contributed">[a à b c d e é è f g h i ì j k l m n o ò p q r s t u ù v w x y z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="contributed">[á ă â å ä ā æ ç ĕ ê ë ē í ĭ î ï ī ñ ó ŏ ô ö ø ō œ ú ŭ û ü ū ÿ]</exemplarCharacters>
 		<exemplarCharacters type="index" draft="contributed">[A À B C D E É È F G H I Ì J K L M N O Ò P Q R S T U Ù V W X Y Z]</exemplarCharacters>
 	</characters>
 	<delimiters>
@@ -1817,9 +1817,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">schilling austriac</displayName>
 			</currency>
 			<currency type="AUD">
-				<displayName draft="contributed">dollar australian</displayName>
 				<displayName count="one" draft="contributed">dollar australian</displayName>
 				<displayName count="other" draft="contributed">dollar australian</displayName>
+				<displayName draft="contributed">dollar australian</displayName>
 			</currency>
 			<currency type="AWG">
 				<displayName draft="contributed">flurin da l’Aruba</displayName>
@@ -1933,9 +1933,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">dollar dal Belize</displayName>
 			</currency>
 			<currency type="CAD">
-				<displayName draft="contributed">dollar canadais</displayName>
 				<displayName count="one" draft="contributed">dollar canadais</displayName>
 				<displayName count="other" draft="contributed">dollar canadais</displayName>
+				<displayName draft="contributed">dollar canadais</displayName>
 			</currency>
 			<currency type="CDF">
 				<displayName draft="contributed">franc congolais</displayName>
@@ -1944,9 +1944,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">euro WIR</displayName>
 			</currency>
 			<currency type="CHF">
-				<displayName draft="contributed">franc svizzer</displayName>
 				<displayName count="one" draft="contributed">franc svizzer</displayName>
 				<displayName count="other" draft="contributed">franc svizzer</displayName>
+				<displayName draft="contributed">franc svizzer</displayName>
 				<symbol>CHF</symbol>
 			</currency>
 			<currency type="CHW">
@@ -2001,9 +2001,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">franc dal Dschibuti</displayName>
 			</currency>
 			<currency type="DKK">
-				<displayName draft="contributed">cruna danaisa</displayName>
 				<displayName count="one" draft="contributed">cruna danaisa</displayName>
 				<displayName count="other" draft="contributed">cruna danaisa</displayName>
+				<displayName draft="contributed">cruna danaisa</displayName>
 				<symbol draft="unconfirmed">DKK</symbol>
 			</currency>
 			<currency type="DOP">
@@ -2019,9 +2019,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">unitad da scuntrada da l’Ecuador</displayName>
 			</currency>
 			<currency type="EEK">
-				<displayName draft="contributed">cruna estona</displayName>
 				<displayName count="one" draft="contributed">cruna estona</displayName>
 				<displayName count="other" draft="contributed">cruna estona</displayName>
+				<displayName draft="contributed">cruna estona</displayName>
 				<symbol draft="unconfirmed">EEK</symbol>
 			</currency>
 			<currency type="EGP">
@@ -2043,14 +2043,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">birr etiopic</displayName>
 			</currency>
 			<currency type="EUR">
-				<displayName draft="contributed">euro</displayName>
 				<displayName count="one" draft="contributed">euro</displayName>
 				<displayName count="other" draft="contributed">euro</displayName>
+				<displayName draft="contributed">euro</displayName>
 			</currency>
 			<currency type="FIM">
-				<displayName draft="contributed">marc finlandais</displayName>
 				<displayName count="one" draft="contributed">marc finlandais</displayName>
 				<displayName count="other" draft="contributed">marc finlandais</displayName>
+				<displayName draft="contributed">marc finlandais</displayName>
 				<symbol draft="unconfirmed">FIM</symbol>
 			</currency>
 			<currency type="FJD">
@@ -2063,9 +2063,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">franc franzos</displayName>
 			</currency>
 			<currency type="GBP">
-				<displayName draft="contributed">glivra sterlina</displayName>
 				<displayName count="one" draft="contributed">glivra sterlina</displayName>
 				<displayName count="other" draft="contributed">glivra sterlina</displayName>
+				<displayName draft="contributed">glivra sterlina</displayName>
 			</currency>
 			<currency type="GEK">
 				<displayName draft="contributed">kupon larit georgian</displayName>
@@ -2113,9 +2113,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">dollar da Hongkong</displayName>
 			</currency>
 			<currency type="HNL">
-				<displayName draft="contributed">lempira hondurian</displayName>
 				<displayName count="one" draft="contributed">lempira hondurian</displayName>
 				<displayName count="other" draft="contributed">lempira hondurian</displayName>
+				<displayName draft="contributed">lempira hondurian</displayName>
 				<symbol draft="unconfirmed">HNL</symbol>
 			</currency>
 			<currency type="HRD">
@@ -2134,9 +2134,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">rupia indonaisa</displayName>
 			</currency>
 			<currency type="IEP">
-				<displayName draft="contributed">glivra indonaisa</displayName>
 				<displayName count="one" draft="contributed">glivra indonaisa</displayName>
 				<displayName count="other" draft="contributed">glivra indonaisa</displayName>
+				<displayName draft="contributed">glivra indonaisa</displayName>
 				<symbol draft="unconfirmed">IEP</symbol>
 			</currency>
 			<currency type="ILP">
@@ -2158,24 +2158,24 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">rial iranais</displayName>
 			</currency>
 			<currency type="ISJ">
-				<displayName draft="contributed">veglia cruna islandaisa</displayName>
 				<displayName count="one" draft="contributed">veglia cruna islandaisa</displayName>
 				<displayName count="other" draft="contributed">veglia cruna islandaisa</displayName>
+				<displayName draft="contributed">veglia cruna islandaisa</displayName>
 				<symbol draft="unconfirmed">ISJ</symbol>
 			</currency>
 			<currency type="ISK">
-				<displayName draft="contributed">cruna islandaisa</displayName>
 				<displayName count="one" draft="contributed">cruna islandaisa</displayName>
 				<displayName count="other" draft="contributed">cruna islandaisa</displayName>
+				<displayName draft="contributed">cruna islandaisa</displayName>
 				<symbol draft="unconfirmed">ISK</symbol>
 			</currency>
 			<currency type="ITL">
 				<displayName draft="contributed">lira taliana</displayName>
 			</currency>
 			<currency type="JMD">
-				<displayName draft="contributed">dollar giamaican</displayName>
 				<displayName count="one" draft="contributed">dollar giamaican</displayName>
 				<displayName count="other" draft="contributed">dollar giamaican</displayName>
+				<displayName draft="contributed">dollar giamaican</displayName>
 				<symbol draft="unconfirmed">JMD</symbol>
 			</currency>
 			<currency type="JOD">
@@ -2212,9 +2212,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">dinar dal Kuwait</displayName>
 			</currency>
 			<currency type="KYD">
-				<displayName draft="contributed">dollar da las Inslas Cayman</displayName>
 				<displayName count="one" draft="contributed">dollar da las Inslas Cayman</displayName>
 				<displayName count="other" draft="contributed">dollar da las Inslas Cayman</displayName>
+				<displayName draft="contributed">dollar da las Inslas Cayman</displayName>
 				<symbol draft="unconfirmed">KYD</symbol>
 			</currency>
 			<currency type="KZT">
@@ -2320,9 +2320,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">kwacha dal Malawi</displayName>
 			</currency>
 			<currency type="MXN">
-				<displayName draft="contributed">peso mexican</displayName>
 				<displayName count="one" draft="contributed">peso mexican</displayName>
 				<displayName count="other" draft="contributed">peso mexican</displayName>
+				<displayName draft="contributed">peso mexican</displayName>
 			</currency>
 			<currency type="MXP">
 				<displayName draft="contributed">peso d’argient mexican (1861–1992)</displayName>
@@ -2358,9 +2358,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">flurin ollandais</displayName>
 			</currency>
 			<currency type="NOK">
-				<displayName draft="contributed">cruna norvegiaisa</displayName>
 				<displayName count="one" draft="contributed">cruna norvegiaisa</displayName>
 				<displayName count="other" draft="contributed">cruna norvegiaisa</displayName>
+				<displayName draft="contributed">cruna norvegiaisa</displayName>
 				<symbol draft="unconfirmed">NOK</symbol>
 			</currency>
 			<currency type="NPR">
@@ -2394,15 +2394,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">rupia pakistana</displayName>
 			</currency>
 			<currency type="PLN">
-				<displayName draft="contributed">zloty polac</displayName>
 				<displayName count="one" draft="contributed">zloty polac</displayName>
 				<displayName count="other" draft="contributed">zloty polac</displayName>
+				<displayName draft="contributed">zloty polac</displayName>
 				<symbol draft="unconfirmed">PLN</symbol>
 			</currency>
 			<currency type="PLZ">
-				<displayName draft="contributed">zloty polac (1950–1995)</displayName>
 				<displayName count="one" draft="contributed">zloty polac (1950–1995)</displayName>
 				<displayName count="other" draft="contributed">zloty polac (1950–1995)</displayName>
+				<displayName draft="contributed">zloty polac (1950–1995)</displayName>
 			</currency>
 			<currency type="PTE">
 				<displayName draft="contributed">escudo portugais</displayName>
@@ -2426,24 +2426,24 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">dinar serb</displayName>
 			</currency>
 			<currency type="RUB">
-				<displayName draft="contributed">rubel russ (nov)</displayName>
 				<displayName count="one" draft="contributed">rubel russ (nov)</displayName>
 				<displayName count="other" draft="contributed">rubel russ (nov)</displayName>
+				<displayName draft="contributed">rubel russ (nov)</displayName>
 				<symbol draft="unconfirmed">RUB</symbol>
 			</currency>
 			<currency type="RUR">
-				<displayName draft="contributed">rubel russ (vegl)</displayName>
 				<displayName count="one" draft="contributed">rubel russ (vegl)</displayName>
 				<displayName count="other" draft="contributed">rubel russ (vegl)</displayName>
+				<displayName draft="contributed">rubel russ (vegl)</displayName>
 				<symbol draft="unconfirmed">RUR</symbol>
 			</currency>
 			<currency type="RWF">
 				<displayName draft="contributed">franc ruandais</displayName>
 			</currency>
 			<currency type="SAR">
-				<displayName draft="contributed">riyal saudit</displayName>
 				<displayName count="one" draft="contributed">riyal saudit</displayName>
 				<displayName count="other" draft="contributed">riyal saudit</displayName>
+				<displayName draft="contributed">riyal saudit</displayName>
 				<symbol draft="unconfirmed">SAR</symbol>
 			</currency>
 			<currency type="SBD">
@@ -2462,9 +2462,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">glivra sudanaisa (1956–2007)</displayName>
 			</currency>
 			<currency type="SEK">
-				<displayName draft="contributed">cruna svedaisa</displayName>
 				<displayName count="one" draft="contributed">cruna svedaisa</displayName>
 				<displayName count="other" draft="contributed">cruna svedaisa</displayName>
+				<displayName draft="contributed">cruna svedaisa</displayName>
 				<symbol draft="unconfirmed">SEK</symbol>
 			</currency>
 			<currency type="SGD">
@@ -2531,9 +2531,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">lira tirca</displayName>
 			</currency>
 			<currency type="TRY">
-				<displayName draft="contributed">nova lira tirca</displayName>
 				<displayName count="one" draft="contributed">nova lira tirca</displayName>
 				<displayName count="other" draft="contributed">nova lira tirca</displayName>
+				<displayName draft="contributed">nova lira tirca</displayName>
 				<symbol draft="unconfirmed">TRY</symbol>
 			</currency>
 			<currency type="TTD">
@@ -2558,9 +2558,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">schilling ugandais</displayName>
 			</currency>
 			<currency type="USD">
-				<displayName draft="contributed">dollar dals Stadis Unids da l’America</displayName>
 				<displayName count="one" draft="contributed">dollar dals Stadis Unids da l’America</displayName>
 				<displayName count="other" draft="contributed">dollar dals Stadis Unids da l’America</displayName>
+				<displayName draft="contributed">dollar dals Stadis Unids da l’America</displayName>
 				<symbol draft="unconfirmed">$</symbol>
 			</currency>
 			<currency type="USN">
@@ -2618,9 +2618,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">unitad dal quint europeica (XBD)</displayName>
 			</currency>
 			<currency type="XCD">
-				<displayName draft="contributed">dollar da la Caribica Orientala</displayName>
 				<displayName count="one" draft="contributed">dollar da la Caribica Orientala</displayName>
 				<displayName count="other" draft="contributed">dollar da la Caribica Orientala</displayName>
+				<displayName draft="contributed">dollar da la Caribica Orientala</displayName>
 			</currency>
 			<currency type="XDR">
 				<displayName draft="contributed">dretgs da prelevaziun spezials</displayName>
@@ -2656,9 +2656,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="contributed">code per verifitgar la valuta</displayName>
 			</currency>
 			<currency type="XXX">
-				<displayName draft="contributed">valuta nunenconuschenta</displayName>
 				<displayName count="one" draft="contributed">valuta nunenconuschenta</displayName>
 				<displayName count="other" draft="contributed">valuta nunenconuschenta</displayName>
+				<displayName draft="contributed">valuta nunenconuschenta</displayName>
 			</currency>
 			<currency type="YDD">
 				<displayName draft="contributed">dinar dal Jemen</displayName>

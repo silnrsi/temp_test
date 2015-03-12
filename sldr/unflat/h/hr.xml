@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="hr"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -5183,10 +5183,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>AFN</symbol>
 			</currency>
 			<currency type="ALK">
-				<displayName draft="contributed">stari albanski lek</displayName>
 				<displayName count="few" draft="contributed">stara albanska leka</displayName>
 				<displayName count="one" draft="contributed">stari albanski lek</displayName>
 				<displayName count="other" draft="contributed">starih albanskih leka</displayName>
+				<displayName draft="contributed">stari albanski lek</displayName>
 				<symbol draft="contributed">ALK</symbol>
 			</currency>
 			<currency type="ALL">
@@ -5246,17 +5246,17 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">ARA</symbol>
 			</currency>
 			<currency type="ARL">
-				<displayName draft="contributed">argentinski pezo lej (1970.–1983.)</displayName>
 				<displayName count="few" draft="contributed">argentinska pezo leja (1970.–1983.)</displayName>
 				<displayName count="one" draft="contributed">argentinski pezo lej (1970.–1983.)</displayName>
 				<displayName count="other" draft="contributed">argentinskih pezo leja (1970.–1983.)</displayName>
+				<displayName draft="contributed">argentinski pezo lej (1970.–1983.)</displayName>
 				<symbol draft="contributed">ARL</symbol>
 			</currency>
 			<currency type="ARM">
-				<displayName draft="contributed">argentinski pezo (1881.–1970.)</displayName>
 				<displayName count="few" draft="contributed">argentinska peza (1881.–1970.)</displayName>
 				<displayName count="one" draft="contributed">argentinski pezo (1881.–1970.)</displayName>
 				<displayName count="other" draft="contributed">argentinskih peza (1881.–1970.)</displayName>
+				<displayName draft="contributed">argentinski pezo (1881.–1970.)</displayName>
 				<symbol draft="contributed">ARM</symbol>
 			</currency>
 			<currency type="ARP">
@@ -5323,10 +5323,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>BAM</symbol>
 			</currency>
 			<currency type="BAN">
-				<displayName draft="contributed">bosansko-hercegovački novi dinar</displayName>
 				<displayName count="few" draft="contributed">bosansko-hercegovačka nova dinara</displayName>
 				<displayName count="one" draft="contributed">bosansko-hercegovački novi dinar</displayName>
 				<displayName count="other" draft="contributed">bosansko-hercegovačkih novih dinara</displayName>
+				<displayName draft="contributed">bosansko-hercegovački novi dinar</displayName>
 				<symbol draft="contributed">BAN</symbol>
 			</currency>
 			<currency type="BBD">
@@ -5372,10 +5372,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">BGL</symbol>
 			</currency>
 			<currency type="BGM">
-				<displayName draft="contributed">bugarski socijalistički lev</displayName>
 				<displayName count="few" draft="contributed">bugarska socijalistička leva</displayName>
 				<displayName count="one" draft="contributed">bugarski socijalistički lev</displayName>
 				<displayName count="other" draft="contributed">bugarskih socijalističkih leva</displayName>
+				<displayName draft="contributed">bugarski socijalistički lev</displayName>
 				<symbol draft="contributed">BGM</symbol>
 			</currency>
 			<currency type="BGN">
@@ -5386,10 +5386,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>BGN</symbol>
 			</currency>
 			<currency type="BGO">
-				<displayName draft="contributed">stari bugarski lev</displayName>
 				<displayName count="few" draft="contributed">stara bugarska leva</displayName>
 				<displayName count="one" draft="contributed">stari bugarski lev</displayName>
 				<displayName count="other" draft="contributed">starih bugarskih leva</displayName>
+				<displayName draft="contributed">stari bugarski lev</displayName>
 				<symbol draft="contributed">BGO</symbol>
 			</currency>
 			<currency type="BHD">
@@ -5428,10 +5428,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>BOB</symbol>
 			</currency>
 			<currency type="BOL">
-				<displayName draft="contributed">stari bolivijski bolivijano</displayName>
 				<displayName count="few" draft="contributed">stara bolivijska bolivijana</displayName>
 				<displayName count="one" draft="contributed">stari bolivijski bolivijano</displayName>
 				<displayName count="other" draft="contributed">starih bolivijskih bolivijana</displayName>
+				<displayName draft="contributed">stari bolivijski bolivijano</displayName>
 				<symbol draft="contributed">BOL</symbol>
 			</currency>
 			<currency type="BOP">
@@ -5582,10 +5582,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">CHW</symbol>
 			</currency>
 			<currency type="CLE">
-				<displayName draft="contributed">čileanski eskudo</displayName>
 				<displayName count="few" draft="contributed">čileanska eskuda</displayName>
 				<displayName count="one" draft="contributed">čileanski eskudo</displayName>
 				<displayName count="other" draft="contributed">čileanskih eskuda</displayName>
+				<displayName draft="contributed">čileanski eskudo</displayName>
 				<symbol draft="contributed">CLE</symbol>
 			</currency>
 			<currency type="CLF">
@@ -6107,17 +6107,17 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>KPW</symbol>
 			</currency>
 			<currency type="KRH">
-				<displayName draft="contributed">južnokorejski hvan</displayName>
 				<displayName count="few" draft="contributed">južnokorejska hvana</displayName>
 				<displayName count="one" draft="contributed">južnokorejski hvan</displayName>
 				<displayName count="other" draft="contributed">južnokorejskih hvana</displayName>
+				<displayName draft="contributed">južnokorejski hvan</displayName>
 				<symbol draft="contributed">KRH</symbol>
 			</currency>
 			<currency type="KRO">
-				<displayName draft="contributed">stari južnokorejski von</displayName>
 				<displayName count="few" draft="contributed">stara južnokorejska vona</displayName>
 				<displayName count="one" draft="contributed">stari južnokorejski von</displayName>
 				<displayName count="other" draft="contributed">starih južnokorejskih vona</displayName>
+				<displayName draft="contributed">stari južnokorejski von</displayName>
 				<symbol draft="contributed">KRO</symbol>
 			</currency>
 			<currency type="KRW">
@@ -6261,10 +6261,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">MCF</symbol>
 			</currency>
 			<currency type="MDC">
-				<displayName draft="contributed">moldavski kupon</displayName>
 				<displayName count="few" draft="contributed">moldavska kupona</displayName>
 				<displayName count="one" draft="contributed">moldavski kupon</displayName>
 				<displayName count="other" draft="contributed">moldavskih kupona</displayName>
+				<displayName draft="contributed">moldavski kupon</displayName>
 				<symbol draft="contributed">MDC</symbol>
 			</currency>
 			<currency type="MDL">
@@ -6296,10 +6296,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>MKD</symbol>
 			</currency>
 			<currency type="MKN">
-				<displayName draft="contributed">stari makedonski denar</displayName>
 				<displayName count="few" draft="contributed">stara makedonska denara</displayName>
 				<displayName count="one" draft="contributed">stari makedonski denar</displayName>
 				<displayName count="other" draft="contributed">starih makedonski denara</displayName>
+				<displayName draft="contributed">stari makedonski denar</displayName>
 				<symbol draft="contributed">MKN</symbol>
 			</currency>
 			<currency type="MLF">
@@ -6359,10 +6359,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>MUR</symbol>
 			</currency>
 			<currency type="MVP">
-				<displayName draft="contributed">maldivijska rupija</displayName>
 				<displayName count="few" draft="contributed">maldivijske rupije</displayName>
 				<displayName count="one" draft="contributed">maldivijska rupija</displayName>
 				<displayName count="other" draft="contributed">maldivijskih rupija</displayName>
+				<displayName draft="contributed">maldivijska rupija</displayName>
 				<symbol draft="contributed">MVP</symbol>
 			</currency>
 			<currency type="MVR">
@@ -7099,10 +7099,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">XRE</symbol>
 			</currency>
 			<currency type="XSU">
-				<displayName draft="contributed">sukre</displayName>
 				<displayName count="few" draft="contributed">sukre</displayName>
 				<displayName count="one" draft="contributed">sukra</displayName>
 				<displayName count="other" draft="contributed">sukri</displayName>
+				<displayName draft="contributed">sukre</displayName>
 				<symbol draft="contributed">XSU</symbol>
 			</currency>
 			<currency type="XTS">
@@ -7113,10 +7113,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">XTS</symbol>
 			</currency>
 			<currency type="XUA">
-				<displayName draft="contributed">obračunska jedinica ADB</displayName>
 				<displayName count="few" draft="contributed">obračunske jedinice ADB</displayName>
 				<displayName count="one" draft="contributed">obračunska jedinica ADB</displayName>
 				<displayName count="other" draft="contributed">obračunskih jedinica ADB</displayName>
+				<displayName draft="contributed">obračunska jedinica ADB</displayName>
 				<symbol draft="contributed">XUA</symbol>
 			</currency>
 			<currency type="XXX">
@@ -7162,10 +7162,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">YUN</symbol>
 			</currency>
 			<currency type="YUR">
-				<displayName draft="contributed">jugoslavenski reformirani dinar</displayName>
 				<displayName count="few" draft="contributed">jugoslavenska reformirana dinara</displayName>
 				<displayName count="one" draft="contributed">jugoslavenski reformirani dinar</displayName>
 				<displayName count="other" draft="contributed">jugoslavenskih reformiranih dinara</displayName>
+				<displayName draft="contributed">jugoslavenski reformirani dinar</displayName>
 				<symbol draft="contributed">YUR</symbol>
 			</currency>
 			<currency type="ZAL">

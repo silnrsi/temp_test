@@ -5,11 +5,11 @@
 		<!-- name.en(nuv)="Northern Nuni" -->
 		<language type="nuv"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="BF"/>
+			<sil:identity defaultRegion="BF" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a b c d e ə ɛ f g h i ɩ j k l m n {ny} ŋ o ɔ p r s t u ʋ v w y z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 	</characters>
 </ldml>

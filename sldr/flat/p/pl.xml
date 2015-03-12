@@ -8,10 +8,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<version number="$Revision: 11294 $"/>
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="pl"/>
-		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
-		</special>
 		<script type="Latn"/>
+		<territory type="PL"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+		</special>
 	</identity>
 	<localeDisplayNames>
 		<localeDisplayPattern>
@@ -2646,10 +2647,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				</dayPeriods>
 				<eras>
 					<eraNames>
-						<era type="0" draft="contributed">p.n.e.</era>
 						<era type="0" alt="variant" draft="contributed">BCE</era>
-						<era type="1" draft="contributed">n.e.</era>
+						<era type="0" draft="contributed">p.n.e.</era>
 						<era type="1" alt="variant" draft="contributed">CE</era>
+						<era type="1" draft="contributed">n.e.</era>
 					</eraNames>
 					<eraAbbr>
 						<era type="0" alt="variant" draft="contributed">BCE</era>
@@ -7610,8 +7611,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">kwanza angolańska</displayName>
 				<displayName count="other">kwanzy angolańskiej</displayName>
 				<displayName>kwanza angolańska</displayName>
-				<symbol draft="contributed">AOA</symbol>
 				<symbol alt="narrow">Kz</symbol>
+				<symbol draft="contributed">AOA</symbol>
 			</currency>
 			<currency type="AOK">
 				<displayName count="few">kwanzy angolańskie (1977–1990)</displayName>
@@ -7646,8 +7647,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">peso argentyńskie</displayName>
 				<displayName count="other">peso argentyńskiego</displayName>
 				<displayName>peso argentyńskie</displayName>
-				<symbol draft="contributed">ARS</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">ARS</symbol>
 			</currency>
 			<currency type="ATS">
 				<displayName>szyling austriacki</displayName>
@@ -7693,8 +7694,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">marka zamienna Bośni i Hercegowiny</displayName>
 				<displayName count="other">marki zamiennej Bośni i Hercegowiny</displayName>
 				<displayName>marka zamienna Bośni i Hercegowiny</displayName>
-				<symbol draft="contributed">BAM</symbol>
 				<symbol alt="narrow">KM</symbol>
+				<symbol draft="contributed">BAM</symbol>
 			</currency>
 			<currency type="BBD">
 				<displayName count="few" draft="contributed">dolary Barbadosu</displayName>
@@ -7702,8 +7703,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one" draft="contributed">dolar Barbadosu</displayName>
 				<displayName count="other" draft="contributed">dolara Barbadosu</displayName>
 				<displayName>dolar Barbadosu</displayName>
-				<symbol draft="contributed">BBD</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">BBD</symbol>
 			</currency>
 			<currency type="BDT">
 				<displayName count="few">taka bengalskie</displayName>
@@ -7711,8 +7712,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">taka bengalska</displayName>
 				<displayName count="other">taka bengalskiej</displayName>
 				<displayName>taka bengalska</displayName>
-				<symbol draft="contributed">BDT</symbol>
 				<symbol alt="narrow">৳</symbol>
+				<symbol draft="contributed">BDT</symbol>
 			</currency>
 			<currency type="BEC">
 				<displayName count="few">franki belgijskie (wymienialne)</displayName>
@@ -7778,8 +7779,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dolar bermudzki</displayName>
 				<displayName count="other">dolara bermudzkiego</displayName>
 				<displayName>dolar bermudzki</displayName>
-				<symbol draft="contributed">BMD</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">BMD</symbol>
 			</currency>
 			<currency type="BND">
 				<displayName count="few">dolary brunejskie</displayName>
@@ -7787,8 +7788,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dolar brunejski</displayName>
 				<displayName count="other">dolara brunejskiego</displayName>
 				<displayName>dolar brunejski</displayName>
-				<symbol draft="contributed">BND</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">BND</symbol>
 			</currency>
 			<currency type="BOB">
 				<displayName count="few" draft="contributed">boliviano</displayName>
@@ -7796,8 +7797,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one" draft="contributed">boliviano</displayName>
 				<displayName count="other" draft="contributed">boliviano</displayName>
 				<displayName>boliviano</displayName>
-				<symbol draft="contributed">BOB</symbol>
 				<symbol alt="narrow">Bs</symbol>
+				<symbol draft="contributed">BOB</symbol>
 			</currency>
 			<currency type="BOP">
 				<displayName>peso boliwijskie</displayName>
@@ -7835,8 +7836,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dolar bahamski</displayName>
 				<displayName count="other">dolara bahamskiego</displayName>
 				<displayName>dolar bahamski</displayName>
-				<symbol draft="contributed">BSD</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">BSD</symbol>
 			</currency>
 			<currency type="BTN">
 				<displayName count="few">ngultrum bhutańskie</displayName>
@@ -7855,8 +7856,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">pula botswańska</displayName>
 				<displayName count="other">puli botswańskiej</displayName>
 				<displayName>pula botswańska</displayName>
-				<symbol draft="contributed">BWP</symbol>
 				<symbol alt="narrow">P</symbol>
+				<symbol draft="contributed">BWP</symbol>
 			</currency>
 			<currency type="BYB">
 				<displayName>rubel białoruski (1994–1999)</displayName>
@@ -7867,8 +7868,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">rubel białoruski</displayName>
 				<displayName count="other">rubla białoruskiego</displayName>
 				<displayName>rubel białoruski</displayName>
-				<symbol draft="contributed">BYR</symbol>
 				<symbol alt="narrow">р.</symbol>
+				<symbol draft="contributed">BYR</symbol>
 			</currency>
 			<currency type="BZD">
 				<displayName count="few">dolary belizeńskie</displayName>
@@ -7876,8 +7877,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dolar belizeński</displayName>
 				<displayName count="other">dolara belizeńskiego</displayName>
 				<displayName>dolar belizeński</displayName>
-				<symbol draft="contributed">BZD</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">BZD</symbol>
 			</currency>
 			<currency type="CAD">
 				<displayName count="few">dolary kanadyjskie</displayName>
@@ -7910,8 +7911,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">peso chilijskie</displayName>
 				<displayName count="other">peso chilijskiego</displayName>
 				<displayName>peso chilijskie</displayName>
-				<symbol draft="contributed">CLP</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">CLP</symbol>
 			</currency>
 			<currency type="CNY">
 				<displayName count="few">juany chińskie</displayName>
@@ -7928,8 +7929,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">peso kolumbijskie</displayName>
 				<displayName count="other">peso kolumbijskiego</displayName>
 				<displayName>peso kolumbijskie</displayName>
-				<symbol draft="contributed">COP</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">COP</symbol>
 			</currency>
 			<currency type="CRC">
 				<displayName count="few">colony kostarykańskie</displayName>
@@ -7937,8 +7938,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">colon kostarykański</displayName>
 				<displayName count="other">colona kostarykańskiego</displayName>
 				<displayName>colon kostarykański</displayName>
-				<symbol draft="contributed">CRC</symbol>
 				<symbol alt="narrow">₡</symbol>
+				<symbol draft="contributed">CRC</symbol>
 			</currency>
 			<currency type="CSD">
 				<displayName>stary dinar serbski</displayName>
@@ -7956,8 +7957,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">peso kubańskie wymienialne</displayName>
 				<displayName count="other">peso kubańskiego wymienialnego</displayName>
 				<displayName>peso kubańskie wymienialne</displayName>
-				<symbol draft="contributed">CUC</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">CUC</symbol>
 			</currency>
 			<currency type="CUP">
 				<displayName count="few">pesos kubańskie</displayName>
@@ -7965,8 +7966,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">peso kubańskie</displayName>
 				<displayName count="other">peso kubańskiego</displayName>
 				<displayName>peso kubańskie</displayName>
-				<symbol draft="contributed">CUP</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">CUP</symbol>
 			</currency>
 			<currency type="CVE">
 				<displayName count="few">escudo zielonoprzylądkowe</displayName>
@@ -7985,8 +7986,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">korona czeska</displayName>
 				<displayName count="other">korony czeskiej</displayName>
 				<displayName>korona czeska</displayName>
-				<symbol draft="contributed">CZK</symbol>
 				<symbol alt="narrow">Kč</symbol>
+				<symbol draft="contributed">CZK</symbol>
 			</currency>
 			<currency type="DDM">
 				<displayName>wschodnia marka wschodnioniemiecka</displayName>
@@ -8012,8 +8013,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">korona duńska</displayName>
 				<displayName count="other">korony duńskiej</displayName>
 				<displayName>korona duńska</displayName>
-				<symbol draft="contributed">DKK</symbol>
 				<symbol alt="narrow">kr</symbol>
+				<symbol draft="contributed">DKK</symbol>
 			</currency>
 			<currency type="DOP">
 				<displayName count="few">pesos dominikańskie</displayName>
@@ -8021,8 +8022,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">peso dominikańskie</displayName>
 				<displayName count="other">peso dominikańskiego</displayName>
 				<displayName>peso dominikańskie</displayName>
-				<symbol draft="contributed">DOP</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">DOP</symbol>
 			</currency>
 			<currency type="DZD">
 				<displayName count="few">dinary algierskie</displayName>
@@ -8048,8 +8049,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">funt egipski</displayName>
 				<displayName count="other">funta egipskiego</displayName>
 				<displayName>funt egipski</displayName>
-				<symbol draft="contributed">EGP</symbol>
 				<symbol alt="narrow">E£</symbol>
+				<symbol draft="contributed">EGP</symbol>
 			</currency>
 			<currency type="ERN">
 				<displayName count="few">nakfy erytrejskie</displayName>
@@ -8099,8 +8100,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dolar fidżyjski</displayName>
 				<displayName count="other">dolara fidżyjskiego</displayName>
 				<displayName>dolar fidżi</displayName>
-				<symbol draft="contributed">FJD</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">FJD</symbol>
 			</currency>
 			<currency type="FKP">
 				<displayName count="few">funty falklandzkie</displayName>
@@ -8108,8 +8109,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">funt falklandzki</displayName>
 				<displayName count="other">funta falklandzkiego</displayName>
 				<displayName>funt falklandzki</displayName>
-				<symbol draft="contributed">FKP</symbol>
 				<symbol alt="narrow">£</symbol>
+				<symbol draft="contributed">FKP</symbol>
 			</currency>
 			<currency type="FRF">
 				<displayName count="few">franki francuskie</displayName>
@@ -8155,8 +8156,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">funt gibraltarski</displayName>
 				<displayName count="other">funta gibraltarskiego</displayName>
 				<displayName>funt gibraltarski</displayName>
-				<symbol draft="contributed">GIP</symbol>
 				<symbol alt="narrow">£</symbol>
+				<symbol draft="contributed">GIP</symbol>
 			</currency>
 			<currency type="GMD">
 				<displayName count="few">dalasi gambijskie</displayName>
@@ -8172,8 +8173,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">frank gwinejski</displayName>
 				<displayName count="other">franka gwinejskiego</displayName>
 				<displayName>frank gwinejski</displayName>
-				<symbol draft="contributed">GNF</symbol>
 				<symbol alt="narrow">FG</symbol>
+				<symbol draft="contributed">GNF</symbol>
 			</currency>
 			<currency type="GNS">
 				<displayName>syli gwinejskie</displayName>
@@ -8190,8 +8191,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">quetzal gwatemalski</displayName>
 				<displayName count="other">quetzala gwatemalskiego</displayName>
 				<displayName>quetzal gwatemalski</displayName>
-				<symbol draft="contributed">GTQ</symbol>
 				<symbol alt="narrow">Q</symbol>
+				<symbol draft="contributed">GTQ</symbol>
 			</currency>
 			<currency type="GWE">
 				<displayName>escudo Gwinea Portugalska</displayName>
@@ -8205,8 +8206,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dolar gujański</displayName>
 				<displayName count="other">dolara gujańskiego</displayName>
 				<displayName>dolar gujański</displayName>
-				<symbol draft="contributed">GYD</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">GYD</symbol>
 			</currency>
 			<currency type="HKD">
 				<displayName count="few">dolary hongkońskie</displayName>
@@ -8223,8 +8224,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">lempira honduraska</displayName>
 				<displayName count="other">lempiry honduraskiej</displayName>
 				<displayName>lempira honduraska</displayName>
-				<symbol draft="contributed">HNL</symbol>
 				<symbol alt="narrow">L</symbol>
+				<symbol draft="contributed">HNL</symbol>
 			</currency>
 			<currency type="HRD">
 				<displayName>dinar chorwacki</displayName>
@@ -8235,8 +8236,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">kuna chorwacka</displayName>
 				<displayName count="other">kuny chorwackiej</displayName>
 				<displayName>kuna chorwacka</displayName>
-				<symbol draft="contributed">HRK</symbol>
 				<symbol alt="narrow">kn</symbol>
+				<symbol draft="contributed">HRK</symbol>
 			</currency>
 			<currency type="HTG">
 				<displayName count="few">gourde haitańskie</displayName>
@@ -8252,8 +8253,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">forint węgierski</displayName>
 				<displayName count="other">forinta węgierskiego</displayName>
 				<displayName>forint węgierski</displayName>
-				<symbol draft="contributed">HUF</symbol>
 				<symbol alt="narrow">Ft</symbol>
+				<symbol draft="contributed">HUF</symbol>
 			</currency>
 			<currency type="IDR">
 				<displayName count="few">rupie indonezyjskie</displayName>
@@ -8261,8 +8262,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">rupia indonezyjska</displayName>
 				<displayName count="other">rupii indonezyjskiej</displayName>
 				<displayName>rupia indonezyjska</displayName>
-				<symbol draft="contributed">IDR</symbol>
 				<symbol alt="narrow">Rp</symbol>
+				<symbol draft="contributed">IDR</symbol>
 			</currency>
 			<currency type="IEP">
 				<displayName>funt irlandzki</displayName>
@@ -8310,8 +8311,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">korona islandzka</displayName>
 				<displayName count="other">korony islandzkiej</displayName>
 				<displayName>korona islandzka</displayName>
-				<symbol draft="contributed">ISK</symbol>
 				<symbol alt="narrow">kr</symbol>
+				<symbol draft="contributed">ISK</symbol>
 			</currency>
 			<currency type="ITL">
 				<displayName>lir włoski</displayName>
@@ -8322,8 +8323,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dolar jamajski</displayName>
 				<displayName count="other">dolara jamajskiego</displayName>
 				<displayName>dolar jamajski</displayName>
-				<symbol draft="contributed">JMD</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">JMD</symbol>
 			</currency>
 			<currency type="JOD">
 				<displayName count="few">dinary jordańskie</displayName>
@@ -8364,8 +8365,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">riel kambodżański</displayName>
 				<displayName count="other">riela kambodżańskiego</displayName>
 				<displayName>riel kambodżański</displayName>
-				<symbol draft="contributed">KHR</symbol>
 				<symbol alt="narrow">៛</symbol>
+				<symbol draft="contributed">KHR</symbol>
 			</currency>
 			<currency type="KMF">
 				<displayName count="few">franki komoryjskie</displayName>
@@ -8373,8 +8374,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">frank komoryjski</displayName>
 				<displayName count="other">franka komoryjskiego</displayName>
 				<displayName>frank komoryjski</displayName>
-				<symbol draft="contributed">KMF</symbol>
 				<symbol alt="narrow">CF</symbol>
+				<symbol draft="contributed">KMF</symbol>
 			</currency>
 			<currency type="KPW">
 				<displayName count="few">wony północnokoreańskie</displayName>
@@ -8382,8 +8383,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">won północnokoreański</displayName>
 				<displayName count="other">wona północnokoreańskiego</displayName>
 				<displayName>won północnokoreański</displayName>
-				<symbol draft="contributed">KPW</symbol>
 				<symbol alt="narrow">₩</symbol>
+				<symbol draft="contributed">KPW</symbol>
 			</currency>
 			<currency type="KRW">
 				<displayName count="few">wony południowokoreańskie</displayName>
@@ -8408,8 +8409,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dolar kajmański</displayName>
 				<displayName count="other">dolara kajmańskiego</displayName>
 				<displayName>dolar kajmański</displayName>
-				<symbol draft="contributed">KYD</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">KYD</symbol>
 			</currency>
 			<currency type="KZT">
 				<displayName count="few">tenge kazachskie</displayName>
@@ -8417,8 +8418,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">tenge kazachskie</displayName>
 				<displayName count="other">tenge kazachskiego</displayName>
 				<displayName>tenge kazachskie</displayName>
-				<symbol draft="contributed">KZT</symbol>
 				<symbol alt="narrow">₸</symbol>
+				<symbol draft="contributed">KZT</symbol>
 			</currency>
 			<currency type="LAK">
 				<displayName count="few">kipy laotańskie</displayName>
@@ -8426,8 +8427,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">kip laotański</displayName>
 				<displayName count="other">kipa laotańskiego</displayName>
 				<displayName>kip laotański</displayName>
-				<symbol draft="contributed">LAK</symbol>
 				<symbol alt="narrow">₭</symbol>
+				<symbol draft="contributed">LAK</symbol>
 			</currency>
 			<currency type="LBP">
 				<displayName count="few">funty libańskie</displayName>
@@ -8435,8 +8436,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">funt libański</displayName>
 				<displayName count="other">funta libańskiego</displayName>
 				<displayName>funt libański</displayName>
-				<symbol draft="contributed">LBP</symbol>
 				<symbol alt="narrow">L£</symbol>
+				<symbol draft="contributed">LBP</symbol>
 			</currency>
 			<currency type="LKR">
 				<displayName count="few">rupie lankijskie</displayName>
@@ -8444,8 +8445,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">rupia lankijska</displayName>
 				<displayName count="other">rupii lankijskiej</displayName>
 				<displayName>rupia lankijska</displayName>
-				<symbol draft="contributed">LKR</symbol>
 				<symbol alt="narrow">Rs</symbol>
+				<symbol draft="contributed">LKR</symbol>
 			</currency>
 			<currency type="LRD">
 				<displayName count="few">dolary liberyjskie</displayName>
@@ -8453,8 +8454,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dolar liberyjski</displayName>
 				<displayName count="other">dolara liberyjskiego</displayName>
 				<displayName>dolar liberyjski</displayName>
-				<symbol draft="contributed">LRD</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">LRD</symbol>
 			</currency>
 			<currency type="LSL">
 				<displayName>loti Lesoto</displayName>
@@ -8465,8 +8466,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">lit litewski</displayName>
 				<displayName count="other">lita litewskiego</displayName>
 				<displayName>lit litewski</displayName>
-				<symbol draft="contributed">LTL</symbol>
 				<symbol alt="narrow">Lt</symbol>
+				<symbol draft="contributed">LTL</symbol>
 			</currency>
 			<currency type="LTT">
 				<displayName>talon litewski</displayName>
@@ -8480,8 +8481,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">łat łotewski</displayName>
 				<displayName count="other">łata łotewskiego</displayName>
 				<displayName>łat łotewski</displayName>
-				<symbol draft="contributed">LVL</symbol>
 				<symbol alt="narrow">Ls</symbol>
+				<symbol draft="contributed">LVL</symbol>
 			</currency>
 			<currency type="LVR">
 				<displayName>rubel łotewski</displayName>
@@ -8523,8 +8524,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">ariary malgaski</displayName>
 				<displayName count="other">ariary malgaskiego</displayName>
 				<displayName>ariary malgaski</displayName>
-				<symbol draft="contributed">MGA</symbol>
 				<symbol alt="narrow">Ar</symbol>
+				<symbol draft="contributed">MGA</symbol>
 			</currency>
 			<currency type="MGF">
 				<displayName>frank malgaski</displayName>
@@ -8546,8 +8547,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">kiat birmański</displayName>
 				<displayName count="other">kiata birmańskiego</displayName>
 				<displayName>kiat birmański</displayName>
-				<symbol draft="contributed">MMK</symbol>
 				<symbol alt="narrow">K</symbol>
+				<symbol draft="contributed">MMK</symbol>
 			</currency>
 			<currency type="MNT">
 				<displayName count="few">tugriki mongolskie</displayName>
@@ -8555,8 +8556,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">tugrik mongolski</displayName>
 				<displayName count="other">tugrika mongolskiego</displayName>
 				<displayName>tugrik mongolski</displayName>
-				<symbol draft="contributed">MNT</symbol>
 				<symbol alt="narrow">₮</symbol>
+				<symbol draft="contributed">MNT</symbol>
 			</currency>
 			<currency type="MOP">
 				<displayName count="few">pataca Makau</displayName>
@@ -8586,8 +8587,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">rupia maurytyjska</displayName>
 				<displayName count="other">rupii maurytyjskiej</displayName>
 				<displayName>rupia maurytyjska</displayName>
-				<symbol draft="contributed">MUR</symbol>
 				<symbol alt="narrow">Rs</symbol>
+				<symbol draft="contributed">MUR</symbol>
 			</currency>
 			<currency type="MVR">
 				<displayName count="few">rupie malediwskie</displayName>
@@ -8623,8 +8624,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">ringgit malezyjski</displayName>
 				<displayName count="other">ringgita malezyjskiego</displayName>
 				<displayName>ringgit malezyjski</displayName>
-				<symbol draft="contributed">MYR</symbol>
 				<symbol alt="narrow">RM</symbol>
+				<symbol draft="contributed">MYR</symbol>
 			</currency>
 			<currency type="MZE">
 				<displayName>escudo mozambickie</displayName>
@@ -8646,8 +8647,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dolar namibijski</displayName>
 				<displayName count="other">dolara namibijskiego</displayName>
 				<displayName>dolar namibijski</displayName>
-				<symbol draft="contributed">NAD</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">NAD</symbol>
 			</currency>
 			<currency type="NGN">
 				<displayName count="few">nairy nigeryjskie</displayName>
@@ -8655,8 +8656,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">naira nigeryjska</displayName>
 				<displayName count="other">nairy nigeryjskiej</displayName>
 				<displayName>naira nigeryjska</displayName>
-				<symbol draft="contributed">NGN</symbol>
 				<symbol alt="narrow">₦</symbol>
+				<symbol draft="contributed">NGN</symbol>
 			</currency>
 			<currency type="NIC">
 				<displayName count="few" draft="contributed">cordoby nikaraguańskie (1988–1991)</displayName>
@@ -8671,8 +8672,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">cordoba nikaraguańska</displayName>
 				<displayName count="other">cordoby nikaraguańskiej</displayName>
 				<displayName>cordoba nikaraguańska</displayName>
-				<symbol draft="contributed">NIO</symbol>
 				<symbol alt="narrow">C$</symbol>
+				<symbol draft="contributed">NIO</symbol>
 			</currency>
 			<currency type="NLG">
 				<displayName>gulden holenderski</displayName>
@@ -8683,8 +8684,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">korona norweska</displayName>
 				<displayName count="other">korony norweskiej</displayName>
 				<displayName>korona norweska</displayName>
-				<symbol draft="contributed">NOK</symbol>
 				<symbol alt="narrow">kr</symbol>
+				<symbol draft="contributed">NOK</symbol>
 			</currency>
 			<currency type="NPR">
 				<displayName count="few">rupie nepalskie</displayName>
@@ -8692,8 +8693,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">rupia nepalska</displayName>
 				<displayName count="other">rupii nepalskiej</displayName>
 				<displayName>rupia nepalska</displayName>
-				<symbol draft="contributed">NPR</symbol>
 				<symbol alt="narrow">Rs</symbol>
+				<symbol draft="contributed">NPR</symbol>
 			</currency>
 			<currency type="NZD">
 				<displayName count="few">dolary nowozelandzkie</displayName>
@@ -8748,8 +8749,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">peso filipińskie</displayName>
 				<displayName count="other">peso filipińskiego</displayName>
 				<displayName>peso filipińskie</displayName>
-				<symbol draft="contributed">PHP</symbol>
 				<symbol alt="narrow">₱</symbol>
+				<symbol draft="contributed">PHP</symbol>
 			</currency>
 			<currency type="PKR">
 				<displayName count="few">rupie pakistańskie</displayName>
@@ -8757,8 +8758,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">rupia pakistańska</displayName>
 				<displayName count="other">rupii pakistańskiej</displayName>
 				<displayName>rupia pakistańska</displayName>
-				<symbol draft="contributed">PKR</symbol>
 				<symbol alt="narrow">Rs</symbol>
+				<symbol draft="contributed">PKR</symbol>
 			</currency>
 			<currency type="PLN">
 				<displayName count="few">złote polskie</displayName>
@@ -8785,8 +8786,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">guarani paragwajskie</displayName>
 				<displayName count="other">guarani paragwajskiego</displayName>
 				<displayName>guarani paragwajskie</displayName>
-				<symbol draft="contributed">PYG</symbol>
 				<symbol alt="narrow">₲</symbol>
+				<symbol draft="contributed">PYG</symbol>
 			</currency>
 			<currency type="QAR">
 				<displayName count="few">riale katarskie</displayName>
@@ -8828,8 +8829,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">rubel rosyjski</displayName>
 				<displayName count="other">rubla rosyjskiego</displayName>
 				<displayName>rubel rosyjski</displayName>
-				<symbol draft="contributed">RUB</symbol>
 				<symbol alt="variant">₽</symbol>
+				<symbol draft="contributed">RUB</symbol>
 			</currency>
 			<currency type="RUR">
 				<displayName count="few">ruble rosyjskie (1991–1998)</displayName>
@@ -8845,8 +8846,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">frank ruandyjski</displayName>
 				<displayName count="other">franka ruandyjskiego</displayName>
 				<displayName>frank ruandyjski</displayName>
-				<symbol draft="contributed">RWF</symbol>
 				<symbol alt="narrow">RF</symbol>
+				<symbol draft="contributed">RWF</symbol>
 			</currency>
 			<currency type="SAR">
 				<displayName count="few">riale saudyjskie</displayName>
@@ -8862,8 +8863,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dolar Wysp Salomona</displayName>
 				<displayName count="other">dolara Wysp Salomona</displayName>
 				<displayName>dolar Wysp Salomona</displayName>
-				<symbol draft="contributed">SBD</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">SBD</symbol>
 			</currency>
 			<currency type="SCR">
 				<displayName count="few">rupie seszelskie</displayName>
@@ -8897,8 +8898,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">korona szwedzka</displayName>
 				<displayName count="other">korony szwedzkiej</displayName>
 				<displayName>korona szwedzka</displayName>
-				<symbol draft="contributed">SEK</symbol>
 				<symbol alt="narrow">kr</symbol>
+				<symbol draft="contributed">SEK</symbol>
 			</currency>
 			<currency type="SGD">
 				<displayName count="few">dolary singapurskie</displayName>
@@ -8906,8 +8907,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dolar singapurski</displayName>
 				<displayName count="other">dolara singapurskiego</displayName>
 				<displayName>dolar singapurski</displayName>
-				<symbol draft="contributed">SGD</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">SGD</symbol>
 			</currency>
 			<currency type="SHP">
 				<displayName count="few">funty Wyspy Świętej Heleny</displayName>
@@ -8915,8 +8916,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">funt Wyspy Świętej Heleny</displayName>
 				<displayName count="other">funta Wyspy Świętej Heleny</displayName>
 				<displayName>funt Wyspy Świętej Heleny</displayName>
-				<symbol draft="contributed">SHP</symbol>
 				<symbol alt="narrow">£</symbol>
+				<symbol draft="contributed">SHP</symbol>
 			</currency>
 			<currency type="SIT">
 				<displayName count="few">tolary słoweńskie</displayName>
@@ -8954,8 +8955,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dolar surinamski</displayName>
 				<displayName count="other">dolara surinamskiego</displayName>
 				<displayName>dolar surinamski</displayName>
-				<symbol draft="contributed">SRD</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">SRD</symbol>
 			</currency>
 			<currency type="SRG">
 				<displayName>gulden surinamski</displayName>
@@ -8966,8 +8967,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">funt południowosudański</displayName>
 				<displayName count="other">funta południowosudańskiego</displayName>
 				<displayName>funt południowosudański</displayName>
-				<symbol draft="contributed">SSP</symbol>
 				<symbol alt="narrow">£</symbol>
+				<symbol draft="contributed">SSP</symbol>
 			</currency>
 			<currency type="STD">
 				<displayName count="few">dobry Wysp Świętego Tomasza i Książęcej</displayName>
@@ -8975,8 +8976,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dobra Wysp Świętego Tomasza i Książęcej</displayName>
 				<displayName count="other">dobry Wysp Świętego Tomasza i Książęcej</displayName>
 				<displayName>dobra Wysp Świętego Tomasza i Książęcej</displayName>
-				<symbol draft="contributed">STD</symbol>
 				<symbol alt="narrow">Db</symbol>
+				<symbol draft="contributed">STD</symbol>
 			</currency>
 			<currency type="SUR">
 				<displayName count="few">ruble radzieckie</displayName>
@@ -8994,8 +8995,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">funt syryjski</displayName>
 				<displayName count="other">funta syryjskiego</displayName>
 				<displayName>funt syryjski</displayName>
-				<symbol draft="contributed">SYP</symbol>
 				<symbol alt="narrow">£</symbol>
+				<symbol draft="contributed">SYP</symbol>
 			</currency>
 			<currency type="SZL">
 				<displayName count="few">emalangeni Suazi</displayName>
@@ -9054,8 +9055,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">pa’anga tongijska</displayName>
 				<displayName count="other">pa’anga tongijskiej</displayName>
 				<displayName>pa’anga tongijska</displayName>
-				<symbol draft="contributed">TOP</symbol>
 				<symbol alt="narrow">T$</symbol>
+				<symbol draft="contributed">TOP</symbol>
 			</currency>
 			<currency type="TPE">
 				<displayName>escudo timorskie</displayName>
@@ -9073,9 +9074,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">lira turecka</displayName>
 				<displayName count="other">liry tureckiej</displayName>
 				<displayName>lira turecka</displayName>
-				<symbol draft="contributed">TRY</symbol>
 				<symbol alt="narrow">₺</symbol>
 				<symbol alt="variant">TL</symbol>
+				<symbol draft="contributed">TRY</symbol>
 			</currency>
 			<currency type="TTD">
 				<displayName count="few">dolary Trynidadu i Tobago</displayName>
@@ -9083,8 +9084,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">dolar Trynidadu i Tobago</displayName>
 				<displayName count="other">dolara Trynidadu i Tobago</displayName>
 				<displayName>dolar Trynidadu i Tobago</displayName>
-				<symbol draft="contributed">TTD</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">TTD</symbol>
 			</currency>
 			<currency type="TWD">
 				<displayName count="few">nowe dolary tajwańskie</displayName>
@@ -9109,8 +9110,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">hrywna ukraińska</displayName>
 				<displayName count="other">hrywny ukraińskiej</displayName>
 				<displayName>hrywna ukraińska</displayName>
-				<symbol draft="contributed">UAH</symbol>
 				<symbol alt="narrow">₴</symbol>
+				<symbol draft="contributed">UAH</symbol>
 			</currency>
 			<currency type="UAK">
 				<displayName count="few">karbowańce ukraińskie</displayName>
@@ -9148,8 +9149,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">peso urugwajskie</displayName>
 				<displayName count="other">peso urugwajskiego</displayName>
 				<displayName>peso urugwajskie</displayName>
-				<symbol draft="contributed">UYU</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">UYU</symbol>
 			</currency>
 			<currency type="UZS">
 				<displayName count="few">somy uzbeckie</displayName>
@@ -9172,8 +9173,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">boliwar wenezuelski</displayName>
 				<displayName count="other">boliwara wenezuelskiego</displayName>
 				<displayName>boliwar wenezuelski</displayName>
-				<symbol draft="contributed">VEF</symbol>
 				<symbol alt="narrow">Bs</symbol>
+				<symbol draft="contributed">VEF</symbol>
 			</currency>
 			<currency type="VND">
 				<displayName count="few">dongi wietnamskie</displayName>
@@ -9305,8 +9306,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">rand południowoafrykański</displayName>
 				<displayName count="other">randa południowoafrykańskiego</displayName>
 				<displayName>rand południowoafrykański</displayName>
-				<symbol draft="contributed">ZAR</symbol>
 				<symbol alt="narrow">R</symbol>
+				<symbol draft="contributed">ZAR</symbol>
 			</currency>
 			<currency type="ZMK">
 				<displayName count="few" draft="contributed">kwacha zambijskie (1968–2012)</displayName>
@@ -9321,8 +9322,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">kwacha zambijska</displayName>
 				<displayName count="other">kwacha zambijskiej</displayName>
 				<displayName>kwacha zambijska</displayName>
-				<symbol draft="contributed">ZMW</symbol>
 				<symbol alt="narrow">ZK</symbol>
+				<symbol draft="contributed">ZMW</symbol>
 			</currency>
 			<currency type="ZRN">
 				<displayName>nowy zair zairski</displayName>
@@ -12638,6 +12639,23 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$ZW">\p{Line_Break=ZWSpace}</variable>
 			</variables>
 			<segmentRules>
+				<!-- LB 4  Always break after hard line breaks (but never between CR and LF). -->
+				<rule id="4">$BK ÷</rule>
+				<!-- LB 5  Treat CR followed by LF, as well as CR, LF and NL as hard line breaks. -->
+				<rule id="5.01">$CR × $LF</rule>
+				<rule id="5.02">$CR ÷</rule>
+				<rule id="5.03">$LF ÷</rule>
+				<rule id="5.04">$NL ÷</rule>
+				<!-- LB 6  Do not break before hard line breaks. -->
+				<rule id="6">× ( $BK | $CR | $LF | $NL )</rule>
+				<!-- LB 7  Do not break before spaces or zero-width space. -->
+				<rule id="7.01">× $SP</rule>
+				<rule id="7.02">× $ZW</rule>
+				<!-- LB 8  Break before any character following a zero-width space, even if one or more spaces intervene. -->
+				<rule id="8">$ZW $SP* ÷</rule>
+				<!-- LB 9  Do not break a combining character sequence; treat it as if it has the LB class of the base character -->
+				<!-- in all of the following rules. (Where X is any line break class except SP, BK, CR, LF, NL or ZW.) -->
+				<rule id="9">$Spec2_ × $CM</rule>
 				<!-- WARNING: this is done by modifying the variable values for all but SP.... That is, $AL is really ($AI $CM*)! -->
 				<!-- LB 11  Do not break before or after WORD JOINER and related characters. -->
 				<rule id="11.01">× $WJ</rule>
@@ -12717,23 +12735,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="30.02">$CP × ($AL | $HL | $NU)</rule>
 				<!-- LB 30a  Do not break between Regional Indicators. -->
 				<rule id="30.11">$RI × $RI</rule>
-				<!-- LB 4  Always break after hard line breaks (but never between CR and LF). -->
-				<rule id="4">$BK ÷</rule>
-				<!-- LB 5  Treat CR followed by LF, as well as CR, LF and NL as hard line breaks. -->
-				<rule id="5.01">$CR × $LF</rule>
-				<rule id="5.02">$CR ÷</rule>
-				<rule id="5.03">$LF ÷</rule>
-				<rule id="5.04">$NL ÷</rule>
-				<!-- LB 6  Do not break before hard line breaks. -->
-				<rule id="6">× ( $BK | $CR | $LF | $NL )</rule>
-				<!-- LB 7  Do not break before spaces or zero-width space. -->
-				<rule id="7.01">× $SP</rule>
-				<rule id="7.02">× $ZW</rule>
-				<!-- LB 8  Break before any character following a zero-width space, even if one or more spaces intervene. -->
-				<rule id="8">$ZW $SP* ÷</rule>
-				<!-- LB 9  Do not break a combining character sequence; treat it as if it has the LB class of the base character -->
-				<!-- in all of the following rules. (Where X is any line break class except SP, BK, CR, LF, NL or ZW.) -->
-				<rule id="9">$Spec2_ × $CM</rule>
 			</segmentRules>
 		</segmentation>
 		<segmentation type="SentenceBreak">
@@ -12768,11 +12769,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$Upper">($Upper $FE*)</variable>
 			</variables>
 			<segmentRules>
-				<!-- Note the fix to $Sp*, $Sep? -->
-				<rule id="10">( $STerm | $ATerm ) $Close* $Sp* × ( $Sp | $Sep | $CR | $LF )</rule>
-				<rule id="11">( $STerm | $ATerm ) $Close* $Sp* ($Sep | $CR | $LF)? ÷</rule>
-				<!-- Otherwise, do not break -->
-				<rule id="12">× $Any</rule>
 				<!-- Do not break within CRLF -->
 				<rule id="3">$CR × $LF</rule>
 				<!-- Break after paragraph separators. -->
@@ -12791,6 +12787,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="8.1">($STerm | $ATerm) $Close* $Sp* × ($SContinue | $STerm | $ATerm)</rule>
 				<!-- Break after sentence terminators, but include closing punctuation, trailing spaces, and (optionally) a paragraph separator. -->
 				<rule id="9">( $STerm | $ATerm ) $Close* × ( $Close | $Sp | $Sep | $CR | $LF )</rule>
+				<!-- Note the fix to $Sp*, $Sep? -->
+				<rule id="10">( $STerm | $ATerm ) $Close* $Sp* × ( $Sp | $Sep | $CR | $LF )</rule>
+				<rule id="11">( $STerm | $ATerm ) $Close* $Sp* ($Sep | $CR | $LF)? ÷</rule>
+				<!-- Otherwise, do not break -->
+				<rule id="12">× $Any</rule>
 			</segmentRules>
 		</segmentation>
 		<segmentation type="WordBreak">
@@ -12823,13 +12824,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$Regional_Indicator">($Regional_Indicator $FE*)</variable>
 			</variables>
 			<segmentRules>
-				<rule id="10">$Numeric × $ALetter</rule>
-				<rule id="11">$Numeric ($MidNum | $MidNumLet) × $Numeric</rule>
-				<rule id="12">$Numeric × ($MidNum | $MidNumLet) $Numeric</rule>
-				<rule id="13">$Katakana × $Katakana</rule>
-				<rule id="13.1">($ALetter | $Numeric | $Katakana | $ExtendNumLet) × $ExtendNumLet</rule>
-				<rule id="13.2">$ExtendNumLet × ($ALetter | $Numeric | $Katakana)</rule>
-				<rule id="13.3">$Regional_Indicator × $Regional_Indicator</rule>
 				<rule id="3">$CR × $LF</rule>
 				<rule id="3.1">($Newline | $CR | $LF) ÷</rule>
 				<rule id="3.2">÷ ($Newline | $CR | $LF)</rule>
@@ -12844,6 +12838,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="7">$ALetter ($MidLetter | $MidNumLet) × $ALetter</rule>
 				<rule id="8">$Numeric × $Numeric</rule>
 				<rule id="9">$ALetter × $Numeric</rule>
+				<rule id="10">$Numeric × $ALetter</rule>
+				<rule id="11">$Numeric ($MidNum | $MidNumLet) × $Numeric</rule>
+				<rule id="12">$Numeric × ($MidNum | $MidNumLet) $Numeric</rule>
+				<rule id="13">$Katakana × $Katakana</rule>
+				<rule id="13.1">($ALetter | $Numeric | $Katakana | $ExtendNumLet) × $ExtendNumLet</rule>
+				<rule id="13.2">$ExtendNumLet × ($ALetter | $Numeric | $Katakana)</rule>
+				<rule id="13.3">$Regional_Indicator × $Regional_Indicator</rule>
 			</segmentRules>
 		</segmentation>
 	</segmentations>

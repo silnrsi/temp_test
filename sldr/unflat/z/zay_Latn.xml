@@ -3,10 +3,13 @@
 	<identity>
 		<!-- name.en(zay)="Zaysete" -->
 		<language type="zay"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="index" draft="proposed">[A B C {Ch} D {Dh} E F G H I J K L M N {Ny} O P {Ph} Q R S {Sh} T {Th} {Ts} U V W X Y Z {Zd} {Zh}]</exemplarCharacters>
 		<exemplarCharacters draft="proposed">[a b c {ch} d {dh} e f g h i j k l m n {ny} o p {ph} q r s {sh} t {th} {ts} u v w x y z {zd} {zh} ʼ]</exemplarCharacters>
+		<exemplarCharacters type="index" draft="proposed">[A B C {Ch} D {Dh} E F G H I J K L M N {Ny} O P {Ph} Q R S {Sh} T {Th} {Ts} U V W X Y Z {Zd} {Zh}]</exemplarCharacters>
 	</characters>
 	<delimiters>
 		<quotationStart>«</quotationStart>

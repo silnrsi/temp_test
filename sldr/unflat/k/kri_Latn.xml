@@ -5,11 +5,11 @@
 		<!-- name.en(kri)="Krio" -->
 		<language type="kri"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="SL"/>
+			<sil:identity defaultRegion="SL" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[h q x]</exemplarCharacters>
 		<exemplarCharacters draft="unconfirmed">[a {aw} {ay} b {ch} d e ɛ f g {gb} i j k {kp} l m n {ng} o ɔ {ɔy} p r s {sh} t u v w y z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[h q x]</exemplarCharacters>
 	</characters>
 </ldml>

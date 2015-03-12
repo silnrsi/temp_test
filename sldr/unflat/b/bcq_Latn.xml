@@ -5,13 +5,13 @@
 		<!-- name.en(bcq)="Bench" -->
 		<language type="bcq"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="ET"/>
+			<sil:identity defaultRegion="ET" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
 		</special>
 	</identity>
 	<characters>
+		<exemplarCharacters draft="proposed">[a b c {ch} {cʼ} d e g h i k l m n o p {pʼ} q r s {sh} t {ts} u v w x {xh} {xs} {xʼ} y z {zh} {zʼ}]</exemplarCharacters>
 		<exemplarCharacters type="auxiliary" draft="proposed">[f j]</exemplarCharacters>
 		<exemplarCharacters type="index" draft="proposed">[A B C {Ch} {Cʼ} D E G H I K L M N O P {Pʼ} Q R S {Sh} T {Ts} U V W X {Xh} {Xs} {Xʼ} Y Z {Zh} {Zʼ}]</exemplarCharacters>
-		<exemplarCharacters draft="proposed">[a b c {ch} {cʼ} d e g h i k l m n o p {pʼ} q r s {sh} t {ts} u v w x {xh} {xs} {xʼ} y z {zh} {zʼ}]</exemplarCharacters>
 	</characters>
 	<delimiters>
 		<quotationStart>«</quotationStart>

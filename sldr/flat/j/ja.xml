@@ -8,10 +8,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<version number="$Revision: 11294 $"/>
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="ja"/>
-		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
-		</special>
 		<script type="Jpan"/>
+		<territory type="JP"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity source="cldr" draft="approved" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+		</special>
 	</identity>
 	<localeDisplayNames>
 		<localeDisplayPattern>
@@ -7850,8 +7851,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">AFN</symbol>
 			</currency>
 			<currency type="ALK">
-				<displayName draft="contributed">アルバニア レク (1946–1965)</displayName>
 				<displayName count="other" draft="contributed">アルバニア レク (1946–1965)</displayName>
+				<displayName draft="contributed">アルバニア レク (1946–1965)</displayName>
 				<symbol draft="contributed">ALK</symbol>
 			</currency>
 			<currency type="ALL">
@@ -7896,13 +7897,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">ARA</symbol>
 			</currency>
 			<currency type="ARL">
-				<displayName draft="contributed">アルゼンチン・ペソ・レイ（1970-1983）</displayName>
 				<displayName count="other" draft="contributed">アルゼンチン・ペソ・レイ（1970-1983）</displayName>
+				<displayName draft="contributed">アルゼンチン・ペソ・レイ（1970-1983）</displayName>
 				<symbol draft="contributed">ARL</symbol>
 			</currency>
 			<currency type="ARM">
-				<displayName draft="contributed">アルゼンチン・ペソ（1881-1970）</displayName>
 				<displayName count="other" draft="contributed">アルゼンチン・ペソ（1881-1970）</displayName>
+				<displayName draft="contributed">アルゼンチン・ペソ（1881-1970）</displayName>
 				<symbol draft="contributed">ARM</symbol>
 			</currency>
 			<currency type="ARP">
@@ -7967,8 +7968,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="BDT">
 				<displayName count="other">バングラデシュ タカ</displayName>
 				<displayName>バングラデシュ タカ</displayName>
-				<symbol draft="contributed">BDT</symbol>
 				<symbol alt="narrow">৳</symbol>
+				<symbol draft="contributed">BDT</symbol>
 			</currency>
 			<currency type="BEC">
 				<displayName count="other">ベルギー フラン (BEC)</displayName>
@@ -7991,8 +7992,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">BGL</symbol>
 			</currency>
 			<currency type="BGM">
-				<displayName draft="contributed">ブルガリア社会主義 レフ</displayName>
 				<displayName count="other" draft="contributed">ブルガリア社会主義 レフ</displayName>
+				<displayName draft="contributed">ブルガリア社会主義 レフ</displayName>
 				<symbol draft="contributed">BGM</symbol>
 			</currency>
 			<currency type="BGN">
@@ -8001,8 +8002,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>BGN</symbol>
 			</currency>
 			<currency type="BGO">
-				<displayName draft="contributed">ブルガリア レフ（1879-1952）</displayName>
 				<displayName count="other" draft="contributed">ブルガリア レフ（1879-1952）</displayName>
+				<displayName draft="contributed">ブルガリア レフ（1879-1952）</displayName>
 				<symbol draft="contributed">BGO</symbol>
 			</currency>
 			<currency type="BHD">
@@ -8024,8 +8025,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="BND">
 				<displayName count="other">ブルネイ ドル</displayName>
 				<displayName>ブルネイ ドル</displayName>
-				<symbol draft="contributed">BND</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">BND</symbol>
 			</currency>
 			<currency type="BOB">
 				<displayName count="other">ボリビア ボリビアーノ</displayName>
@@ -8080,8 +8081,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">BRR</symbol>
 			</currency>
 			<currency type="BRZ">
-				<displayName draft="contributed">ブラジル クルゼイロ（1942-1967）</displayName>
 				<displayName count="other" draft="contributed">ブラジル クルゼイロ（1942-1967）</displayName>
+				<displayName draft="contributed">ブラジル クルゼイロ（1942-1967）</displayName>
 				<symbol draft="contributed">BRZ</symbol>
 			</currency>
 			<currency type="BSD">
@@ -8150,8 +8151,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">CHW</symbol>
 			</currency>
 			<currency type="CLE">
-				<displayName draft="contributed">チリ エスクード</displayName>
 				<displayName count="other" draft="contributed">チリ エスクード</displayName>
+				<displayName draft="contributed">チリ エスクード</displayName>
 				<symbol draft="contributed">CLE</symbol>
 			</currency>
 			<currency type="CLF">
@@ -8166,8 +8167,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>CLP</symbol>
 			</currency>
 			<currency type="CNX">
-				<displayName draft="contributed">中国人民銀行ドル</displayName>
 				<displayName count="other" draft="contributed">中国人民銀行ドル</displayName>
+				<displayName draft="contributed">中国人民銀行ドル</displayName>
 				<symbol draft="contributed">CNX</symbol>
 			</currency>
 			<currency type="CNY">
@@ -8302,8 +8303,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="ESP">
 				<displayName count="other">スペイン ペセタ</displayName>
 				<displayName>スペイン ペセタ</displayName>
-				<symbol draft="contributed">ESP</symbol>
 				<symbol alt="narrow">₧</symbol>
+				<symbol draft="contributed">ESP</symbol>
 			</currency>
 			<currency type="ETB">
 				<displayName count="other">エチオピア ブル</displayName>
@@ -8455,8 +8456,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="IDR">
 				<displayName count="other">インドネシア ルピア</displayName>
 				<displayName>インドネシア ルピア</displayName>
-				<symbol draft="contributed">IDR</symbol>
 				<symbol alt="narrow">Rp</symbol>
+				<symbol draft="contributed">IDR</symbol>
 			</currency>
 			<currency type="IEP">
 				<displayName count="other">アイリッシュ ポンド</displayName>
@@ -8469,8 +8470,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">ILP</symbol>
 			</currency>
 			<currency type="ILR">
-				<displayName draft="contributed">イスラエル シェケル (1980–1985)</displayName>
 				<displayName count="other" draft="contributed">イスラエル シェケル (1980–1985)</displayName>
+				<displayName draft="contributed">イスラエル シェケル (1980–1985)</displayName>
 				<symbol draft="contributed">ILR</symbol>
 			</currency>
 			<currency type="ILS">
@@ -8496,8 +8497,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">IRR</symbol>
 			</currency>
 			<currency type="ISJ">
-				<displayName draft="contributed">アイスランド クローナ (1918–1981)</displayName>
 				<displayName count="other" draft="contributed">アイスランド クローナ (1918–1981)</displayName>
+				<displayName draft="contributed">アイスランド クローナ (1918–1981)</displayName>
 				<symbol draft="contributed">ISJ</symbol>
 			</currency>
 			<currency type="ISK">
@@ -8541,8 +8542,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="KHR">
 				<displayName count="other">カンボジア リエル</displayName>
 				<displayName>カンボジア リエル</displayName>
-				<symbol draft="contributed">KHR</symbol>
 				<symbol alt="narrow">៛</symbol>
+				<symbol draft="contributed">KHR</symbol>
 			</currency>
 			<currency type="KMF">
 				<displayName count="other">コモロ フラン</displayName>
@@ -8553,17 +8554,17 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="KPW">
 				<displayName count="other">北朝鮮 ウォン</displayName>
 				<displayName>北朝鮮 ウォン</displayName>
-				<symbol draft="contributed">KPW</symbol>
 				<symbol alt="narrow">₩</symbol>
+				<symbol draft="contributed">KPW</symbol>
 			</currency>
 			<currency type="KRH">
-				<displayName draft="contributed">韓国 ファン（1953-1962）</displayName>
 				<displayName count="other" draft="contributed">韓国 ファン（1953-1962）</displayName>
+				<displayName draft="contributed">韓国 ファン（1953-1962）</displayName>
 				<symbol draft="contributed">KRH</symbol>
 			</currency>
 			<currency type="KRO">
-				<displayName draft="contributed">韓国 ウォン（1945-1953）</displayName>
 				<displayName count="other" draft="contributed">韓国 ウォン（1945-1953）</displayName>
+				<displayName draft="contributed">韓国 ウォン（1945-1953）</displayName>
 				<symbol draft="contributed">KRO</symbol>
 			</currency>
 			<currency type="KRW">
@@ -8586,26 +8587,26 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="KZT">
 				<displayName count="other">カザフスタン テンゲ</displayName>
 				<displayName>カザフスタン テンゲ</displayName>
-				<symbol draft="contributed">KZT</symbol>
 				<symbol alt="narrow">₸</symbol>
+				<symbol draft="contributed">KZT</symbol>
 			</currency>
 			<currency type="LAK">
 				<displayName count="other">ラオス キープ</displayName>
 				<displayName>ラオス キープ</displayName>
-				<symbol draft="contributed">LAK</symbol>
 				<symbol alt="narrow">₭</symbol>
+				<symbol draft="contributed">LAK</symbol>
 			</currency>
 			<currency type="LBP">
 				<displayName count="other">レバノン ポンド</displayName>
 				<displayName>レバノン ポンド</displayName>
-				<symbol draft="contributed">LBP</symbol>
 				<symbol alt="narrow">L£</symbol>
+				<symbol draft="contributed">LBP</symbol>
 			</currency>
 			<currency type="LKR">
 				<displayName count="other">スリランカ ルピー</displayName>
 				<displayName>スリランカ ルピー</displayName>
-				<symbol draft="contributed">LKR</symbol>
 				<symbol alt="narrow">Rs</symbol>
+				<symbol draft="contributed">LKR</symbol>
 			</currency>
 			<currency type="LRD">
 				<displayName count="other">リベリア ドル</displayName>
@@ -8671,13 +8672,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">MAF</symbol>
 			</currency>
 			<currency type="MCF">
-				<displayName draft="contributed">モネガスク フラン</displayName>
 				<displayName count="other" draft="contributed">モネガスク フラン</displayName>
+				<displayName draft="contributed">モネガスク フラン</displayName>
 				<symbol draft="contributed">MCF</symbol>
 			</currency>
 			<currency type="MDC">
-				<displayName draft="contributed">モルドバ クーポン</displayName>
 				<displayName count="other" draft="contributed">モルドバ クーポン</displayName>
+				<displayName draft="contributed">モルドバ クーポン</displayName>
 				<symbol draft="contributed">MDC</symbol>
 			</currency>
 			<currency type="MDL">
@@ -8702,8 +8703,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>MKD</symbol>
 			</currency>
 			<currency type="MKN">
-				<displayName draft="contributed">マケドニア ディナール（1992-1993）</displayName>
 				<displayName count="other" draft="contributed">マケドニア ディナール（1992-1993）</displayName>
+				<displayName draft="contributed">マケドニア ディナール（1992-1993）</displayName>
 				<symbol draft="contributed">MKN</symbol>
 			</currency>
 			<currency type="MLF">
@@ -8714,14 +8715,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="MMK">
 				<displayName count="other">ミャンマー チャット</displayName>
 				<displayName>ミャンマー チャット</displayName>
-				<symbol draft="contributed">MMK</symbol>
 				<symbol alt="narrow">K</symbol>
+				<symbol draft="contributed">MMK</symbol>
 			</currency>
 			<currency type="MNT">
 				<displayName count="other">モンゴル トグログ</displayName>
 				<displayName>モンゴル トグログ</displayName>
-				<symbol draft="contributed">MNT</symbol>
 				<symbol alt="narrow">₮</symbol>
+				<symbol draft="contributed">MNT</symbol>
 			</currency>
 			<currency type="MOP">
 				<displayName count="other">マカオ パタカ</displayName>
@@ -8750,8 +8751,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>MUR</symbol>
 			</currency>
 			<currency type="MVP">
-				<displayName draft="contributed">モルディブ諸島 ルピー</displayName>
 				<displayName count="other" draft="contributed">モルディブ諸島 ルピー</displayName>
+				<displayName draft="contributed">モルディブ諸島 ルピー</displayName>
 				<symbol draft="contributed">MVP</symbol>
 			</currency>
 			<currency type="MVR">
@@ -8783,8 +8784,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="MYR">
 				<displayName count="other">マレーシア リンギット</displayName>
 				<displayName>マレーシア リンギット</displayName>
-				<symbol draft="contributed">MYR</symbol>
 				<symbol alt="narrow">RM</symbol>
+				<symbol draft="contributed">MYR</symbol>
 			</currency>
 			<currency type="MZE">
 				<displayName count="other">モザンピーク エスクード</displayName>
@@ -8838,8 +8839,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="NPR">
 				<displayName count="other">ネパール ルピー</displayName>
 				<displayName>ネパール ルピー</displayName>
-				<symbol draft="contributed">NPR</symbol>
 				<symbol alt="narrow">Rs</symbol>
+				<symbol draft="contributed">NPR</symbol>
 			</currency>
 			<currency type="NZD">
 				<displayName count="other">ニュージーランド ドル</displayName>
@@ -8880,14 +8881,14 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="PHP">
 				<displayName count="other">フィリピン ペソ</displayName>
 				<displayName>フィリピン ペソ</displayName>
-				<symbol draft="contributed">PHP</symbol>
 				<symbol alt="narrow">₱</symbol>
+				<symbol draft="contributed">PHP</symbol>
 			</currency>
 			<currency type="PKR">
 				<displayName count="other">パキスタン ルピー</displayName>
 				<displayName>パキスタン ルピー</displayName>
-				<symbol draft="contributed">PKR</symbol>
 				<symbol alt="narrow">Rs</symbol>
+				<symbol draft="contributed">PKR</symbol>
 			</currency>
 			<currency type="PLN">
 				<displayName count="other">ポーランド ズウォティ</displayName>
@@ -8945,8 +8946,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="RUR">
 				<displayName count="other">ロシア ルーブル (1991–1998)</displayName>
 				<displayName>ロシア ルーブル (1991–1998)</displayName>
-				<symbol draft="contributed">RUR</symbol>
 				<symbol alt="narrow">р.</symbol>
+				<symbol draft="contributed">RUR</symbol>
 			</currency>
 			<currency type="RWF">
 				<displayName count="other">ルワンダ フラン</displayName>
@@ -8994,8 +8995,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="SGD">
 				<displayName count="other">シンガポール ドル</displayName>
 				<displayName>シンガポール ドル</displayName>
-				<symbol draft="contributed">SGD</symbol>
 				<symbol alt="narrow">$</symbol>
+				<symbol draft="contributed">SGD</symbol>
 			</currency>
 			<currency type="SHP">
 				<displayName count="other">セントヘレナ島 ポンド</displayName>
@@ -9059,8 +9060,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="SYP">
 				<displayName count="other">シリア ポンド</displayName>
 				<displayName>シリア ポンド</displayName>
-				<symbol draft="contributed">SYP</symbol>
 				<symbol alt="narrow">£</symbol>
+				<symbol draft="contributed">SYP</symbol>
 			</currency>
 			<currency type="SZL">
 				<displayName count="other">スワジランド リランゲニ</displayName>
@@ -9117,9 +9118,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<currency type="TRY">
 				<displayName count="other">新トルコリラ</displayName>
 				<displayName>新トルコリラ</displayName>
-				<symbol draft="contributed">TRY</symbol>
 				<symbol alt="narrow">₺</symbol>
 				<symbol alt="variant">TL</symbol>
+				<symbol draft="contributed">TRY</symbol>
 			</currency>
 			<currency type="TTD">
 				<displayName count="other">トリニダードトバゴ ドル</displayName>
@@ -9176,8 +9177,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">USS</symbol>
 			</currency>
 			<currency type="UYI">
-				<displayName draft="contributed">ウルグアイ ペソエン</displayName>
 				<displayName count="other" draft="contributed">ウルグアイ ペソエン</displayName>
+				<displayName draft="contributed">ウルグアイ ペソエン</displayName>
 				<symbol draft="contributed">UYI</symbol>
 			</currency>
 			<currency type="UYP">
@@ -9214,8 +9215,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol>₫</symbol>
 			</currency>
 			<currency type="VNN">
-				<displayName draft="contributed">ベトナム ドン（1978-1985）</displayName>
 				<displayName count="other" draft="contributed">ベトナム ドン（1978-1985）</displayName>
+				<displayName draft="contributed">ベトナム ドン（1978-1985）</displayName>
 				<symbol draft="contributed">VNN</symbol>
 			</currency>
 			<currency type="VUV">
@@ -9315,8 +9316,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">XRE</symbol>
 			</currency>
 			<currency type="XSU">
-				<displayName draft="contributed">スクレ</displayName>
 				<displayName count="other" draft="contributed">スクレ</displayName>
+				<displayName draft="contributed">スクレ</displayName>
 				<symbol draft="contributed">XSU</symbol>
 			</currency>
 			<currency type="XTS">
@@ -9325,8 +9326,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">XTS</symbol>
 			</currency>
 			<currency type="XUA">
-				<displayName draft="contributed">UA (アフリカ開発銀行)</displayName>
 				<displayName count="other" draft="contributed">UA (アフリカ開発銀行)</displayName>
+				<displayName draft="contributed">UA (アフリカ開発銀行)</displayName>
 				<symbol draft="contributed">XUA</symbol>
 			</currency>
 			<currency type="XXX">
@@ -9360,8 +9361,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<symbol draft="contributed">YUN</symbol>
 			</currency>
 			<currency type="YUR">
-				<displayName draft="contributed">ユーゴスラビア 改革ディナール（1992-1993）</displayName>
 				<displayName count="other" draft="contributed">ユーゴスラビア 改革ディナール（1992-1993）</displayName>
+				<displayName draft="contributed">ユーゴスラビア 改革ディナール（1992-1993）</displayName>
 				<symbol draft="contributed">YUR</symbol>
 			</currency>
 			<currency type="ZAL">
@@ -12404,8 +12405,8 @@ For terms of use, see http://www.unicode.org/copyright.html
 			]]></cr>
 		</collation>
 		<collation type="unihan">
-			<import type="private-unihan" source="und"/>
 			<import type="private-kana" source="ja"/>
+			<import type="private-unihan" source="und"/>
 		</collation>
 	</collations>
 	<posix>
@@ -12497,6 +12498,23 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$ZW">\p{Line_Break=ZWSpace}</variable>
 			</variables>
 			<segmentRules>
+				<!-- LB 4  Always break after hard line breaks (but never between CR and LF). -->
+				<rule id="4">$BK ÷</rule>
+				<!-- LB 5  Treat CR followed by LF, as well as CR, LF and NL as hard line breaks. -->
+				<rule id="5.01">$CR × $LF</rule>
+				<rule id="5.02">$CR ÷</rule>
+				<rule id="5.03">$LF ÷</rule>
+				<rule id="5.04">$NL ÷</rule>
+				<!-- LB 6  Do not break before hard line breaks. -->
+				<rule id="6">× ( $BK | $CR | $LF | $NL )</rule>
+				<!-- LB 7  Do not break before spaces or zero-width space. -->
+				<rule id="7.01">× $SP</rule>
+				<rule id="7.02">× $ZW</rule>
+				<!-- LB 8  Break before any character following a zero-width space, even if one or more spaces intervene. -->
+				<rule id="8">$ZW $SP* ÷</rule>
+				<!-- LB 9  Do not break a combining character sequence; treat it as if it has the LB class of the base character -->
+				<!-- in all of the following rules. (Where X is any line break class except SP, BK, CR, LF, NL or ZW.) -->
+				<rule id="9">$Spec2_ × $CM</rule>
 				<!-- WARNING: this is done by modifying the variable values for all but SP.... That is, $AL is really ($AI $CM*)! -->
 				<!-- LB 11  Do not break before or after WORD JOINER and related characters. -->
 				<rule id="11.01">× $WJ</rule>
@@ -12576,23 +12594,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="30.02">$CP × ($AL | $HL | $NU)</rule>
 				<!-- LB 30a  Do not break between Regional Indicators. -->
 				<rule id="30.11">$RI × $RI</rule>
-				<!-- LB 4  Always break after hard line breaks (but never between CR and LF). -->
-				<rule id="4">$BK ÷</rule>
-				<!-- LB 5  Treat CR followed by LF, as well as CR, LF and NL as hard line breaks. -->
-				<rule id="5.01">$CR × $LF</rule>
-				<rule id="5.02">$CR ÷</rule>
-				<rule id="5.03">$LF ÷</rule>
-				<rule id="5.04">$NL ÷</rule>
-				<!-- LB 6  Do not break before hard line breaks. -->
-				<rule id="6">× ( $BK | $CR | $LF | $NL )</rule>
-				<!-- LB 7  Do not break before spaces or zero-width space. -->
-				<rule id="7.01">× $SP</rule>
-				<rule id="7.02">× $ZW</rule>
-				<!-- LB 8  Break before any character following a zero-width space, even if one or more spaces intervene. -->
-				<rule id="8">$ZW $SP* ÷</rule>
-				<!-- LB 9  Do not break a combining character sequence; treat it as if it has the LB class of the base character -->
-				<!-- in all of the following rules. (Where X is any line break class except SP, BK, CR, LF, NL or ZW.) -->
-				<rule id="9">$Spec2_ × $CM</rule>
 			</segmentRules>
 		</segmentation>
 		<segmentation type="SentenceBreak">
@@ -12627,11 +12628,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$Upper">($Upper $FE*)</variable>
 			</variables>
 			<segmentRules>
-				<!-- Note the fix to $Sp*, $Sep? -->
-				<rule id="10">( $STerm | $ATerm ) $Close* $Sp* × ( $Sp | $Sep | $CR | $LF )</rule>
-				<rule id="11">( $STerm | $ATerm ) $Close* $Sp* ($Sep | $CR | $LF)? ÷</rule>
-				<!-- Otherwise, do not break -->
-				<rule id="12">× $Any</rule>
 				<!-- Do not break within CRLF -->
 				<rule id="3">$CR × $LF</rule>
 				<!-- Break after paragraph separators. -->
@@ -12650,6 +12646,11 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="8.1">($STerm | $ATerm) $Close* $Sp* × ($SContinue | $STerm | $ATerm)</rule>
 				<!-- Break after sentence terminators, but include closing punctuation, trailing spaces, and (optionally) a paragraph separator. -->
 				<rule id="9">( $STerm | $ATerm ) $Close* × ( $Close | $Sp | $Sep | $CR | $LF )</rule>
+				<!-- Note the fix to $Sp*, $Sep? -->
+				<rule id="10">( $STerm | $ATerm ) $Close* $Sp* × ( $Sp | $Sep | $CR | $LF )</rule>
+				<rule id="11">( $STerm | $ATerm ) $Close* $Sp* ($Sep | $CR | $LF)? ÷</rule>
+				<!-- Otherwise, do not break -->
+				<rule id="12">× $Any</rule>
 			</segmentRules>
 		</segmentation>
 		<segmentation type="WordBreak">
@@ -12678,15 +12679,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<variable id="$Regional_Indicator">\p{Word_Break=Regional_Indicator}</variable>
 			</variables>
 			<segmentRules>
-				<rule id="10">$Numeric × $ALetter</rule>
-				<rule id="11">$Numeric ($MidNum | $MidNumLet) × $Numeric</rule>
-				<rule id="12">$Numeric × ($MidNum | $MidNumLet) $Numeric</rule>
-				<rule id="13">$Katakana × $Katakana</rule>
-				<rule id="13.05">$Hiragana × $Hiragana</rule>
-				<rule id="13.06">$Ideographic × $Ideographic</rule>
-				<rule id="13.1">($ALetter | $Numeric | $Katakana | $ExtendNumLet) × $ExtendNumLet</rule>
-				<rule id="13.2">$ExtendNumLet × ($ALetter | $Numeric | $Katakana)</rule>
-				<rule id="13.3">$Regional_Indicator × $Regional_Indicator</rule>
 				<rule id="3">$CR × $LF</rule>
 				<rule id="3.1">($Newline | $CR | $LF) ÷</rule>
 				<rule id="3.2">÷ ($Newline | $CR | $LF)</rule>
@@ -12701,6 +12693,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="7">$ALetter ($MidLetter | $MidNumLet) × $ALetter</rule>
 				<rule id="8">$Numeric × $Numeric</rule>
 				<rule id="9">$ALetter × $Numeric</rule>
+				<rule id="10">$Numeric × $ALetter</rule>
+				<rule id="11">$Numeric ($MidNum | $MidNumLet) × $Numeric</rule>
+				<rule id="12">$Numeric × ($MidNum | $MidNumLet) $Numeric</rule>
+				<rule id="13">$Katakana × $Katakana</rule>
+				<rule id="13.05">$Hiragana × $Hiragana</rule>
+				<rule id="13.06">$Ideographic × $Ideographic</rule>
+				<rule id="13.1">($ALetter | $Numeric | $Katakana | $ExtendNumLet) × $ExtendNumLet</rule>
+				<rule id="13.2">$ExtendNumLet × ($ALetter | $Numeric | $Katakana)</rule>
+				<rule id="13.3">$Regional_Indicator × $Regional_Indicator</rule>
 			</segmentRules>
 		</segmentation>
 	</segmentations>
