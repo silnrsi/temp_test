@@ -4,9 +4,6 @@
 	<identity>
 		<!-- name.en(mvy)="Indus Kohistani" -->
 		<language type="mvy"/>
-		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
-		</special>
 	</identity>
 	<layout>
 		<!--  Enter the orientation attributes  -->

@@ -3,9 +3,6 @@
 	<identity>
 		<!-- name.en(twh)="Tai Dón" -->
 		<language type="twh"/>
-		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
-		</special>
 	</identity>
 	<characters>
 		<exemplarCharacters draft="unconfirmed">[a ă b c d đ e ê f g h i k l m n o ô ơ p q s t u ư v y {◌́} {◌̉} {◌̃} {◌̄} {◌̣}]</exemplarCharacters>

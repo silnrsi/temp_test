@@ -5,9 +5,6 @@
 		<language type="div"/>
 		<script type="Thaa"/>
 		<territory type="MV"/>
-		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
-		</special>
 	</identity>
 	<localeDisplayNames>
 		<localeDisplayPattern>
@@ -15,6 +12,12 @@
 			<localeSeparator>{0}, {1}</localeSeparator>
 			<localeKeyTypePattern>{0}: {1}</localeKeyTypePattern>
 		</localeDisplayPattern>
+		<languages>
+			<language type="dv" draft="unconfirmed">ދިވެހިބަސް</language>
+		</languages>
+		<territories>
+			<territory type="MV" draft="unconfirmed">ދިވެހި ރާއްޖެ</territory>
+		</territories>
 		<measurementSystemNames>
 			<measurementSystemName type="UK">UK</measurementSystemName>
 			<measurementSystemName type="US">US</measurementSystemName>
@@ -28,13 +31,14 @@
 	</localeDisplayNames>
 	<layout>
 		<orientation>
-			<characterOrder>left-to-right</characterOrder>
+			<characterOrder>right-to-left</characterOrder>
 			<lineOrder>top-to-bottom</lineOrder>
 		</orientation>
 	</layout>
 	<characters>
 		<exemplarCharacters draft="unconfirmed">[\u07A6 \u07A7 \u07A8 \u07A9 \u07AA \u07AB \u07AC \u07AD \u07AE \u07AF ހ ށ ނ ރ ބ ޅ ކ އ ވ މ ފ ދ ތ ލ ގ ޏ ސ ޑ ޒ ޓ ޔ ޕ ޖ ޗ ޘ ޙ ޚ ޛ ޜ ޝ ޞ ޟ ޠ ޡ ޢ ޣ ޤ ޥ ]</exemplarCharacters>
-		<exemplarCharacters type="auxiliary">[]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[\u200C\u200D ޙ ޚ ޜ ޢ ޣ ޥ ޛ ޘ ޠ ޡ ޤ ޝ ޞ ޟ ޱ]</exemplarCharacters>
+		<exemplarCharacters type="index" draft="unconfirmed">[ހ ށ ނ ރ ބ ޅ ކ އ ވ މ ފ ދ ތ ލ ގ ޏ ސ ޑ ޒ ޓ ޔ ޕ ޖ ޗ]</exemplarCharacters>
 		<exemplarCharacters type="punctuation">[\- , ; \: ! ? . ( ) \[ \] \{ \}]</exemplarCharacters>
 		<ellipsis type="final">{0}…</ellipsis>
 		<ellipsis type="initial">…{0}</ellipsis>
@@ -814,27 +818,46 @@
 				<dateFormats>
 					<dateFormatLength type="full">
 						<dateFormat>
-							<pattern>G y MMMM d, EEEE</pattern>
+							<pattern draft="unconfirmed">EEEE d MMMM y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="long">
 						<dateFormat>
-							<pattern>G y MMMM d</pattern>
+							<pattern draft="unconfirmed">d MMMM y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern>G y MMM d</pattern>
+							<pattern draft="unconfirmed">dd-MM-y G</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
-							<pattern>GGGGG y-MM-dd</pattern>
+							<pattern draft="unconfirmed">d-M-yy GGGGG</pattern>
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
 				<timeFormats>
-					<alias source="locale" path="../../calendar[@type='gregorian']/timeFormats"/>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern draft="unconfirmed">hh:mm:ss a zzzz</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern draft="unconfirmed">hh:mm:ss a z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern draft="unconfirmed">hh:mm:ss a</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern draft="unconfirmed">hh:mm a</pattern>
+						</timeFormat>
+					</timeFormatLength>
 				</timeFormats>
 				<dateTimeFormats>
 					<dateTimeFormatLength type="full">
@@ -1157,44 +1180,44 @@
 				<dateFormats>
 					<dateFormatLength type="full">
 						<dateFormat>
-							<pattern>y MMMM d, EEEE</pattern>
+							<pattern draft="unconfirmed">EEEE d MMMM y</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="long">
 						<dateFormat>
-							<pattern>y MMMM d</pattern>
+							<pattern draft="unconfirmed">d MMMM y</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern>y MMM d</pattern>
+							<pattern draft="unconfirmed">dd-MM-y</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
-							<pattern>y-MM-dd</pattern>
+							<pattern draft="unconfirmed">d-M-yy</pattern>
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
 				<timeFormats>
 					<timeFormatLength type="full">
 						<timeFormat>
-							<pattern>HH:mm:ss zzzz</pattern>
+							<pattern draft="unconfirmed">hh:mm:ss a zzzz</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="long">
 						<timeFormat>
-							<pattern>HH:mm:ss z</pattern>
+							<pattern draft="unconfirmed">hh:mm:ss a z</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="medium">
 						<timeFormat>
-							<pattern>HH:mm:ss</pattern>
+							<pattern draft="unconfirmed">hh:mm:ss a</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="short">
 						<timeFormat>
-							<pattern>HH:mm</pattern>
+							<pattern draft="unconfirmed">hh:mm a</pattern>
 						</timeFormat>
 					</timeFormatLength>
 				</timeFormats>
@@ -2679,12 +2702,12 @@
 	<numbers>
 		<defaultNumberingSystem>latn</defaultNumberingSystem>
 		<otherNumberingSystems>
-			<native>latn</native>
+			<native>arab</native>
 		</otherNumberingSystems>
 		<symbols numberSystem="arab">
 			<decimal>٫</decimal>
 			<group>٬</group>
-			<list>؛</list>
+			<list draft="unconfirmed">،</list>
 			<percentSign>٪</percentSign>
 			<plusSign>‏+</plusSign>
 			<!-- includes RLM before sign -->
@@ -2767,7 +2790,7 @@
 		<symbols numberSystem="latn">
 			<decimal>.</decimal>
 			<group>,</group>
-			<list>;</list>
+			<list draft="unconfirmed">,</list>
 			<percentSign>%</percentSign>
 			<plusSign>+</plusSign>
 			<minusSign>-</minusSign>
@@ -2997,7 +3020,11 @@
 			<alias source="locale" path="../decimalFormats[@numberSystem='latn']"/>
 		</decimalFormats>
 		<decimalFormats>
-			<alias source="locale" path="../decimalFormats[@numberSystem='latn']"/>
+			<decimalFormatLength>
+				<decimalFormat>
+					<pattern draft="unconfirmed">#,##,##0.###</pattern>
+				</decimalFormat>
+			</decimalFormatLength>
 		</decimalFormats>
 		<scientificFormats numberSystem="arab">
 			<alias source="locale" path="../scientificFormats[@numberSystem='latn']"/>
@@ -3263,7 +3290,11 @@
 			<alias source="locale" path="../percentFormats[@numberSystem='latn']"/>
 		</percentFormats>
 		<percentFormats>
-			<alias source="locale" path="../percentFormats[@numberSystem='latn']"/>
+			<percentFormatLength>
+				<percentFormat>
+					<pattern draft="unconfirmed">#,##,##0%</pattern>
+				</percentFormat>
+			</percentFormatLength>
 		</percentFormats>
 		<currencyFormats numberSystem="arab">
 			<alias source="locale" path="../currencyFormats[@numberSystem='latn']"/>
@@ -3412,7 +3443,11 @@
 			<alias source="locale" path="../currencyFormats[@numberSystem='latn']"/>
 		</currencyFormats>
 		<currencyFormats>
-			<alias source="locale" path="../currencyFormats[@numberSystem='latn']"/>
+			<currencyFormatLength>
+				<currencyFormat type="standard">
+					<pattern draft="unconfirmed">¤ #,##,##0.00</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 		</currencyFormats>
 		<currencies>
 			<currency type="AOA">
@@ -3605,6 +3640,9 @@
 			</currency>
 			<currency type="MUR">
 				<symbol alt="narrow">Rs</symbol>
+			</currency>
+			<currency type="MVR">
+				<symbol>ރ.</symbol>
 			</currency>
 			<currency type="MXN">
 				<symbol alt="narrow">$</symbol>

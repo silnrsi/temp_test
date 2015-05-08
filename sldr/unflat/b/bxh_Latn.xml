@@ -5,7 +5,7 @@
 		<!-- name.en(bxh)="Buhutu" -->
 		<language type="bxh"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+			<sil:identity defaultRegion="PG"/>
 		</special>
 	</identity>
 	<characters>

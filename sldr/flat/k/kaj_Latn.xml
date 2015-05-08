@@ -7,7 +7,7 @@
 		<script type="Latn"/>
 		<territory type="NG"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="NG" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+			<sil:identity defaultRegion="NG"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -792,13 +792,37 @@
 					</monthContext>
 				</months>
 				<days>
-					<alias source="locale" path="../../calendar[@type='gregorian']/days"/>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="fri" draft="unconfirmed">Jum</day>
+							<day type="mon" draft="unconfirmed">Lin</day>
+							<day type="sat" draft="unconfirmed">Asa</day>
+							<day type="sun" draft="unconfirmed">Lad</day>
+							<day type="thu" draft="unconfirmed">Lam</day>
+							<day type="tue" draft="unconfirmed">Tal</day>
+							<day type="wed" draft="unconfirmed">Lar</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="fri" draft="unconfirmed">Juma</day>
+							<day type="mon" draft="unconfirmed">Lintani</day>
+							<day type="sat" draft="unconfirmed">Asabar</day>
+							<day type="sun" draft="unconfirmed">Ladi</day>
+							<day type="thu" draft="unconfirmed">Lamit</day>
+							<day type="tue" draft="unconfirmed">Talata</day>
+							<day type="wed" draft="unconfirmed">Larba</day>
+						</dayWidth>
+					</dayContext>
 				</days>
 				<quarters>
 					<alias source="locale" path="../../calendar[@type='gregorian']/quarters"/>
 				</quarters>
 				<dayPeriods>
-					<alias source="locale" path="../../calendar[@type='gregorian']/dayPeriods"/>
+					<dayPeriodContext type="format">
+						<dayPeriodWidth type="wide">
+							<dayPeriod type="am" draft="unconfirmed">A.M.</dayPeriod>
+							<dayPeriod type="pm" draft="unconfirmed">P.M.</dayPeriod>
+						</dayPeriodWidth>
+					</dayPeriodContext>
 				</dayPeriods>
 				<eras>
 					<eraNames>
@@ -815,27 +839,46 @@
 				<dateFormats>
 					<dateFormatLength type="full">
 						<dateFormat>
-							<pattern>G y MMMM d, EEEE</pattern>
+							<pattern draft="unconfirmed">EEEE, G y MMMM dd</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="long">
 						<dateFormat>
-							<pattern>G y MMMM d</pattern>
+							<pattern draft="unconfirmed">G y MMMM d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern>G y MMM d</pattern>
+							<pattern draft="unconfirmed">G y MMM d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
-							<pattern>GGGGG y-MM-dd</pattern>
+							<pattern draft="unconfirmed">GGGGG yy/MM/dd</pattern>
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
 				<timeFormats>
-					<alias source="locale" path="../../calendar[@type='gregorian']/timeFormats"/>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern draft="unconfirmed">HH:mm:ss zzzz</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern draft="unconfirmed">HH:mm:ss z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern draft="unconfirmed">HH:mm:ss</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern draft="unconfirmed">HH:mm</pattern>
+						</timeFormat>
+					</timeFormatLength>
 				</timeFormats>
 				<dateTimeFormats>
 					<dateTimeFormatLength type="full">
@@ -1008,24 +1051,35 @@
 				<months>
 					<monthContext type="format">
 						<monthWidth type="abbreviated">
-							<alias source="locale" path="../monthWidth[@type='wide']"/>
+							<month type="1" draft="unconfirmed">A̱yr</month>
+							<month type="10" draft="unconfirmed">Swa</month>
+							<month type="11" draft="unconfirmed">Sby</month>
+							<month type="12" draft="unconfirmed">Sbh</month>
+							<month type="2" draft="unconfirmed">A̱hw</month>
+							<month type="3" draft="unconfirmed">A̱ta</month>
+							<month type="4" draft="unconfirmed">A̱na</month>
+							<month type="5" draft="unconfirmed">A̱pf</month>
+							<month type="6" draft="unconfirmed">A̱ki</month>
+							<month type="7" draft="unconfirmed">A̱ty</month>
+							<month type="8" draft="unconfirmed">A̱ni</month>
+							<month type="9" draft="unconfirmed">A̱ku</month>
 						</monthWidth>
 						<monthWidth type="narrow">
 							<alias source="locale" path="../../monthContext[@type='stand-alone']/monthWidth[@type='narrow']"/>
 						</monthWidth>
 						<monthWidth type="wide">
-							<month type="1">M01</month>
-							<month type="10">M10</month>
-							<month type="11">M11</month>
-							<month type="12">M12</month>
-							<month type="2">M02</month>
-							<month type="3">M03</month>
-							<month type="4">M04</month>
-							<month type="5">M05</month>
-							<month type="6">M06</month>
-							<month type="7">M07</month>
-							<month type="8">M08</month>
-							<month type="9">M09</month>
+							<month type="1" draft="unconfirmed">Hywan A̱yrnig</month>
+							<month type="10" draft="unconfirmed">Hywan Swak</month>
+							<month type="11" draft="unconfirmed">Hywan Swak B'a̱yrnig</month>
+							<month type="12" draft="unconfirmed">Hywan Swak B'a̱hwa</month>
+							<month type="2" draft="unconfirmed">Hywan A̱hwa</month>
+							<month type="3" draft="unconfirmed">Hywan A̱tat</month>
+							<month type="4" draft="unconfirmed">Hywan A̱naai</month>
+							<month type="5" draft="unconfirmed">Hywan A̱pfwon</month>
+							<month type="6" draft="unconfirmed">Hywan A̱kitat</month>
+							<month type="7" draft="unconfirmed">Hywan A̱tyirin</month>
+							<month type="8" draft="unconfirmed">Hywan A̱ninai</month>
+							<month type="9" draft="unconfirmed">Hywan A̱kumviriyin</month>
 						</monthWidth>
 					</monthContext>
 					<monthContext type="stand-alone">
@@ -1054,7 +1108,13 @@
 				<days>
 					<dayContext type="format">
 						<dayWidth type="abbreviated">
-							<alias source="locale" path="../dayWidth[@type='wide']"/>
+							<day type="fri" draft="unconfirmed">Jum</day>
+							<day type="mon" draft="unconfirmed">Lin</day>
+							<day type="sat" draft="unconfirmed">Asa</day>
+							<day type="sun" draft="unconfirmed">Lad</day>
+							<day type="thu" draft="unconfirmed">Lam</day>
+							<day type="tue" draft="unconfirmed">Tal</day>
+							<day type="wed" draft="unconfirmed">Lar</day>
 						</dayWidth>
 						<dayWidth type="narrow">
 							<alias source="locale" path="../../dayContext[@type='stand-alone']/dayWidth[@type='narrow']"/>
@@ -1063,13 +1123,13 @@
 							<alias source="locale" path="../dayWidth[@type='abbreviated']"/>
 						</dayWidth>
 						<dayWidth type="wide">
-							<day type="fri">Fri</day>
-							<day type="mon">Mon</day>
-							<day type="sat">Sat</day>
-							<day type="sun">Sun</day>
-							<day type="thu">Thu</day>
-							<day type="tue">Tue</day>
-							<day type="wed">Wed</day>
+							<day type="fri" draft="unconfirmed">Juma</day>
+							<day type="mon" draft="unconfirmed">Lintani</day>
+							<day type="sat" draft="unconfirmed">Asabar</day>
+							<day type="sun" draft="unconfirmed">Ladi</day>
+							<day type="thu" draft="unconfirmed">Lamit</day>
+							<day type="tue" draft="unconfirmed">Talata</day>
+							<day type="wed" draft="unconfirmed">Larba</day>
 						</dayWidth>
 					</dayContext>
 					<dayContext type="stand-alone">
@@ -1134,9 +1194,9 @@
 							<dayPeriod type="pm">p</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
-							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="am" draft="unconfirmed">A.M.</dayPeriod>
 							<dayPeriod type="noon">noon</dayPeriod>
-							<dayPeriod type="pm">PM</dayPeriod>
+							<dayPeriod type="pm" draft="unconfirmed">P.M.</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
@@ -1145,11 +1205,12 @@
 				</dayPeriods>
 				<eras>
 					<eraNames>
-						<alias source="locale" path="../eraAbbr"/>
+						<era type="0" draft="unconfirmed">Gabanin Miladi</era>
+						<era type="1" draft="unconfirmed">Miladi</era>
 					</eraNames>
 					<eraAbbr>
-						<era type="0">BCE</era>
-						<era type="1">CE</era>
+						<era type="0" draft="unconfirmed">G.M.</era>
+						<era type="1" draft="unconfirmed">M.</era>
 					</eraAbbr>
 					<eraNarrow>
 						<alias source="locale" path="../eraAbbr"/>
@@ -1158,44 +1219,44 @@
 				<dateFormats>
 					<dateFormatLength type="full">
 						<dateFormat>
-							<pattern>y MMMM d, EEEE</pattern>
+							<pattern draft="unconfirmed">EEEE, y MMMM dd</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="long">
 						<dateFormat>
-							<pattern>y MMMM d</pattern>
+							<pattern draft="unconfirmed">y MMMM d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
-							<pattern>y MMM d</pattern>
+							<pattern draft="unconfirmed">y MMM d</pattern>
 						</dateFormat>
 					</dateFormatLength>
 					<dateFormatLength type="short">
 						<dateFormat>
-							<pattern>y-MM-dd</pattern>
+							<pattern draft="unconfirmed">yy/MM/dd</pattern>
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
 				<timeFormats>
 					<timeFormatLength type="full">
 						<timeFormat>
-							<pattern>HH:mm:ss zzzz</pattern>
+							<pattern draft="unconfirmed">HH:mm:ss zzzz</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="long">
 						<timeFormat>
-							<pattern>HH:mm:ss z</pattern>
+							<pattern draft="unconfirmed">HH:mm:ss z</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="medium">
 						<timeFormat>
-							<pattern>HH:mm:ss</pattern>
+							<pattern draft="unconfirmed">HH:mm:ss</pattern>
 						</timeFormat>
 					</timeFormatLength>
 					<timeFormatLength type="short">
 						<timeFormat>
-							<pattern>HH:mm</pattern>
+							<pattern draft="unconfirmed">HH:mm</pattern>
 						</timeFormat>
 					</timeFormatLength>
 				</timeFormats>
@@ -3618,7 +3679,9 @@
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="NGN">
+				<displayName draft="unconfirmed">A̱naira</displayName>
 				<symbol alt="narrow">₦</symbol>
+				<symbol>₦</symbol>
 			</currency>
 			<currency type="NIO">
 				<symbol alt="narrow">C$</symbol>

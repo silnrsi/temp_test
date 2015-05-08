@@ -7,7 +7,7 @@
 		<language type="mmu"/>
 		<script type="Latn"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="CM" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+			<sil:identity defaultRegion="CM"/>
 		</special>
 	</identity>
 	<localeDisplayNames>

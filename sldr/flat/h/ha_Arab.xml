@@ -7,7 +7,7 @@
 		<script type="Arab"/>
 		<territory type="NG"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="NE" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+			<sil:identity defaultRegion="NE"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -38,6 +38,7 @@
 		<exemplarCharacters draft="unconfirmed">[\u0610 \u0611 \u0612 \u0613 \u0614 \u064B \u064E \u064F \u0650 \u0651 \u0652 \u0654 \u0657 \u065C \u065D \u0670 \u08F9 ء آ أ إ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ى ي ٯ ٻ پ ڃ چ ڋ ژ ڟ ڡ ڢ ڤ ڧ ک ڪ گ ں ۈ ۉ ی ې ۑ ے ݖ ݧ]</exemplarCharacters>
 		<exemplarCharacters type="auxiliary" draft="unconfirmed">[\u200C\u200D\u200E\u200F]</exemplarCharacters>
 		<exemplarCharacters type="digits" draft="unconfirmed">[٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩]</exemplarCharacters>
+		<exemplarCharacters type="index" draft="unconfirmed">[ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ڢ ك ل م ن]</exemplarCharacters>
 		<exemplarCharacters type="punctuation" draft="unconfirmed">[! ( ) * - . / : \ [ ] ^ « » ؀ ، ؛ ؞ ؟ ‏ • ‰ ‹ › \u0640 \u06DD \uFD3E \uFD3F ]</exemplarCharacters>
 		<ellipsis type="final">{0}…</ellipsis>
 		<ellipsis type="initial">…{0}</ellipsis>
@@ -794,13 +795,37 @@
 					</monthContext>
 				</months>
 				<days>
-					<alias source="locale" path="../../calendar[@type='gregorian']/days"/>
+					<dayContext type="format">
+						<dayWidth type="abbreviated">
+							<day type="fri" draft="unconfirmed">جُم</day>
+							<day type="mon" draft="unconfirmed">لِت</day>
+							<day type="sat" draft="unconfirmed">أَسَ</day>
+							<day type="sun" draft="unconfirmed">لَح</day>
+							<day type="thu" draft="unconfirmed">أَلْح</day>
+							<day type="tue" draft="unconfirmed">تَل</day>
+							<day type="wed" draft="unconfirmed">لَر</day>
+						</dayWidth>
+						<dayWidth type="wide">
+							<day type="fri" draft="unconfirmed">جُمَعَ</day>
+							<day type="mon" draft="unconfirmed">لِتِنِنْ</day>
+							<day type="sat" draft="unconfirmed">أَسَبَرْ</day>
+							<day type="sun" draft="unconfirmed">لَحَدِ</day>
+							<day type="thu" draft="unconfirmed">أَلْحَمِسْ</day>
+							<day type="tue" draft="unconfirmed">تَلَتَ</day>
+							<day type="wed" draft="unconfirmed">لَرَبَ</day>
+						</dayWidth>
+					</dayContext>
 				</days>
 				<quarters>
 					<alias source="locale" path="../../calendar[@type='gregorian']/quarters"/>
 				</quarters>
 				<dayPeriods>
-					<alias source="locale" path="../../calendar[@type='gregorian']/dayPeriods"/>
+					<dayPeriodContext type="format">
+						<dayPeriodWidth type="wide">
+							<dayPeriod type="am" draft="unconfirmed">A.M.</dayPeriod>
+							<dayPeriod type="pm" draft="unconfirmed">P.M.</dayPeriod>
+						</dayPeriodWidth>
+					</dayPeriodContext>
 				</dayPeriods>
 				<eras>
 					<eraNames>
@@ -1010,24 +1035,35 @@
 				<months>
 					<monthContext type="format">
 						<monthWidth type="abbreviated">
-							<alias source="locale" path="../monthWidth[@type='wide']"/>
+							<month type="1" draft="unconfirmed">جَن</month>
+							<month type="10" draft="unconfirmed">أُكْت</month>
+							<month type="11" draft="unconfirmed">نُو</month>
+							<month type="12" draft="unconfirmed">دِس</month>
+							<month type="2" draft="unconfirmed">ڢَب</month>
+							<month type="3" draft="unconfirmed">مَر</month>
+							<month type="4" draft="unconfirmed">أَڢْر</month>
+							<month type="5" draft="unconfirmed">مَي</month>
+							<month type="6" draft="unconfirmed">يُون</month>
+							<month type="7" draft="unconfirmed">يُول</month>
+							<month type="8" draft="unconfirmed">أَغُ</month>
+							<month type="9" draft="unconfirmed">سَت</month>
 						</monthWidth>
 						<monthWidth type="narrow">
 							<alias source="locale" path="../../monthContext[@type='stand-alone']/monthWidth[@type='narrow']"/>
 						</monthWidth>
 						<monthWidth type="wide">
-							<month type="1">M01</month>
-							<month type="10">M10</month>
-							<month type="11">M11</month>
-							<month type="12">M12</month>
-							<month type="2">M02</month>
-							<month type="3">M03</month>
-							<month type="4">M04</month>
-							<month type="5">M05</month>
-							<month type="6">M06</month>
-							<month type="7">M07</month>
-							<month type="8">M08</month>
-							<month type="9">M09</month>
+							<month type="1" draft="unconfirmed">جَنَيْرُ</month>
+							<month type="10" draft="unconfirmed">أُكْتوُبَ</month>
+							<month type="11" draft="unconfirmed">نُوَمْبَ</month>
+							<month type="12" draft="unconfirmed">دِسَمْبَ</month>
+							<month type="2" draft="unconfirmed">ڢَبْرَيْرُ</month>
+							<month type="3" draft="unconfirmed">مَرِسْ</month>
+							<month type="4" draft="unconfirmed">أَڢْرِلُ</month>
+							<month type="5" draft="unconfirmed">مَيُ</month>
+							<month type="6" draft="unconfirmed">يُونِ</month>
+							<month type="7" draft="unconfirmed">يُولِ</month>
+							<month type="8" draft="unconfirmed">أَغُسْتَ</month>
+							<month type="9" draft="unconfirmed">سَتُمْبَ</month>
 						</monthWidth>
 					</monthContext>
 					<monthContext type="stand-alone">
@@ -1056,7 +1092,13 @@
 				<days>
 					<dayContext type="format">
 						<dayWidth type="abbreviated">
-							<alias source="locale" path="../dayWidth[@type='wide']"/>
+							<day type="fri" draft="unconfirmed">جُم</day>
+							<day type="mon" draft="unconfirmed">لِت</day>
+							<day type="sat" draft="unconfirmed">أَسَ</day>
+							<day type="sun" draft="unconfirmed">لَح</day>
+							<day type="thu" draft="unconfirmed">أَلْح</day>
+							<day type="tue" draft="unconfirmed">تَل</day>
+							<day type="wed" draft="unconfirmed">لَر</day>
 						</dayWidth>
 						<dayWidth type="narrow">
 							<alias source="locale" path="../../dayContext[@type='stand-alone']/dayWidth[@type='narrow']"/>
@@ -1065,13 +1107,13 @@
 							<alias source="locale" path="../dayWidth[@type='abbreviated']"/>
 						</dayWidth>
 						<dayWidth type="wide">
-							<day type="fri">Fri</day>
-							<day type="mon">Mon</day>
-							<day type="sat">Sat</day>
-							<day type="sun">Sun</day>
-							<day type="thu">Thu</day>
-							<day type="tue">Tue</day>
-							<day type="wed">Wed</day>
+							<day type="fri" draft="unconfirmed">جُمَعَ</day>
+							<day type="mon" draft="unconfirmed">لِتِنِنْ</day>
+							<day type="sat" draft="unconfirmed">أَسَبَرْ</day>
+							<day type="sun" draft="unconfirmed">لَحَدِ</day>
+							<day type="thu" draft="unconfirmed">أَلْحَمِسْ</day>
+							<day type="tue" draft="unconfirmed">تَلَتَ</day>
+							<day type="wed" draft="unconfirmed">لَرَبَ</day>
 						</dayWidth>
 					</dayContext>
 					<dayContext type="stand-alone">
@@ -1136,9 +1178,9 @@
 							<dayPeriod type="pm">p</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
-							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="am" draft="unconfirmed">A.M.</dayPeriod>
 							<dayPeriod type="noon">noon</dayPeriod>
-							<dayPeriod type="pm">PM</dayPeriod>
+							<dayPeriod type="pm" draft="unconfirmed">P.M.</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
@@ -1147,11 +1189,12 @@
 				</dayPeriods>
 				<eras>
 					<eraNames>
-						<alias source="locale" path="../eraAbbr"/>
+						<era type="0" draft="unconfirmed">غَبَنِنْ مِلَدِ</era>
+						<era type="1" draft="unconfirmed">مِلَدِ</era>
 					</eraNames>
 					<eraAbbr>
-						<era type="0">BCE</era>
-						<era type="1">CE</era>
+						<era type="0" draft="unconfirmed">غَبَنِنْ مِلَدِ</era>
+						<era type="1" draft="unconfirmed">مِلَدِ</era>
 					</eraAbbr>
 					<eraNarrow>
 						<alias source="locale" path="../eraAbbr"/>
@@ -2682,7 +2725,7 @@
 	<numbers>
 		<defaultNumberingSystem>latn</defaultNumberingSystem>
 		<otherNumberingSystems>
-			<native>latn</native>
+			<native>arab</native>
 		</otherNumberingSystems>
 		<symbols numberSystem="arab">
 			<decimal>٫</decimal>
@@ -3620,6 +3663,7 @@
 				<symbol alt="narrow">$</symbol>
 			</currency>
 			<currency type="NGN">
+				<displayName draft="unconfirmed">نَيْرَ</displayName>
 				<symbol alt="narrow">₦</symbol>
 			</currency>
 			<currency type="NIO">

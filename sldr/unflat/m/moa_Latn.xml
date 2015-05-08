@@ -4,9 +4,6 @@
 	<identity>
 		<!-- name.en(moa)="Mwan" -->
 		<language type="moa"/>
-		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
-		</special>
 	</identity>
 	<characters>
 		<exemplarCharacters draft="unconfirmed">[a b {bh} c d e ɛ f g {gb} {gw} i j k {kp} {kw} l m n {ng} o ɔ p r s t u v w y z]</exemplarCharacters>

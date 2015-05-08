@@ -7,9 +7,6 @@
 		<language type="bss"/>
 		<script type="Latn"/>
 		<territory type="CM"/>
-		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
-		</special>
 	</identity>
 	<localeDisplayNames>
 		<localeDisplayPattern>
@@ -17,6 +14,17 @@
 			<localeSeparator>{0}, {1}</localeSeparator>
 			<localeKeyTypePattern>{0}: {1}</localeKeyTypePattern>
 		</localeDisplayPattern>
+		<languages>
+			<language type="bss">Akoose</language>
+			<language type="en">Akáálé</language>
+			<language type="fr">Frɛnsé</language>
+		</languages>
+		<territories>
+			<territory type="CM">Kamerûn</territory>
+		</territories>
+		<keys>
+			<key type="currency">mɔné</key>
+		</keys>
 		<measurementSystemNames>
 			<measurementSystemName type="UK">UK</measurementSystemName>
 			<measurementSystemName type="US">US</measurementSystemName>
@@ -2351,10 +2359,11 @@
 		</calendars>
 		<fields>
 			<field type="day">
-				<displayName>Day</displayName>
-				<relative type="-1">yesterday</relative>
-				<relative type="0">today</relative>
-				<relative type="1">tomorrow</relative>
+				<displayName>mbwɛ</displayName>
+				<relative type="-1">chǎn ábe éʼtómé</relative>
+				<relative type="-2">súúbɛ</relative>
+				<relative type="0">chii</relative>
+				<relative type="1">chǎn ábe éʼhúɛʼ</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">+{0} d</relativeTimePattern>
 				</relativeTime>
@@ -2386,7 +2395,7 @@
 				<alias source="locale" path="../field[@type='fri']"/>
 			</field>
 			<field type="hour">
-				<displayName>Hour</displayName>
+				<displayName>háwa</displayName>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">+{0} h</relativeTimePattern>
 				</relativeTime>
@@ -2401,7 +2410,7 @@
 				<alias source="locale" path="../field[@type='hour']"/>
 			</field>
 			<field type="minute">
-				<displayName>Minute</displayName>
+				<displayName>menúte</displayName>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">+{0} min</relativeTimePattern>
 				</relativeTime>
@@ -2427,7 +2436,7 @@
 				<alias source="locale" path="../field[@type='mon']"/>
 			</field>
 			<field type="month">
-				<displayName>Month</displayName>
+				<displayName>ngɔn</displayName>
 				<relative type="-1">last month</relative>
 				<relative type="0">this month</relative>
 				<relative type="1">next month</relative>
@@ -2534,7 +2543,7 @@
 				<alias source="locale" path="../field[@type='wed']"/>
 			</field>
 			<field type="week">
-				<displayName>Week</displayName>
+				<displayName>sɔ̂ndé</displayName>
 				<relative type="-1">last week</relative>
 				<relative type="0">this week</relative>
 				<relative type="1">next week</relative>
@@ -2555,7 +2564,7 @@
 				<displayName>Day of the Week</displayName>
 			</field>
 			<field type="year">
-				<displayName>Year</displayName>
+				<displayName>mwɛ̌</displayName>
 				<relative type="-1">last year</relative>
 				<relative type="0">this year</relative>
 				<relative type="1">next year</relative>
@@ -2667,6 +2676,9 @@
 			</zone>
 			<zone type="Atlantic/St_Helena">
 				<exemplarCity>St. Helena</exemplarCity>
+			</zone>
+			<zone type="Etc/GMT+1">
+				<exemplarCity>GMT+1</exemplarCity>
 			</zone>
 			<zone type="Etc/Unknown">
 				<exemplarCity>Unknown</exemplarCity>
@@ -3715,6 +3727,7 @@
 				<symbol>₫</symbol>
 			</currency>
 			<currency type="XAF">
+				<displayName>Frânke CFA</displayName>
 				<symbol>FCFA</symbol>
 			</currency>
 			<currency type="XCD">
@@ -4390,7 +4403,7 @@
 		</listPattern>
 		<listPattern>
 			<listPatternPart type="2">{0}, {1}</listPatternPart>
-			<listPatternPart type="end">{0}, {1}</listPatternPart>
+			<listPatternPart type="end">{0} {1}</listPatternPart>
 			<listPatternPart type="middle">{0}, {1}</listPatternPart>
 			<listPatternPart type="start">{0}, {1}</listPatternPart>
 		</listPattern>

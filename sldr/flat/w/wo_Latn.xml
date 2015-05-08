@@ -7,7 +7,7 @@
 		<script type="Latn"/>
 		<territory type="SN"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="SN" revid="53d542ba498f40f437f7723e69dcf64dab6c9794"/>
+			<sil:identity defaultRegion="SN"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -16,6 +16,20 @@
 			<localeSeparator>{0}, {1}</localeSeparator>
 			<localeKeyTypePattern>{0}: {1}</localeKeyTypePattern>
 		</localeDisplayPattern>
+		<languages>
+			<language type="da">Danwaa</language>
+			<language type="de">Almaa</language>
+			<language type="en">Angale</language>
+			<language type="es">Españool</language>
+			<language type="fi">Finlaande</language>
+			<language type="fr">Fraañse</language>
+			<language type="it">Itaaliee</language>
+			<language type="ja">Jappone</language>
+			<language type="nl">Olaande</language>
+			<language type="no">Norweejiee</language>
+			<language type="pt">Portugees</language>
+			<language type="sv">Suweedwaa</language>
+		</languages>
 		<measurementSystemNames>
 			<measurementSystemName type="UK">UK</measurementSystemName>
 			<measurementSystemName type="US">US</measurementSystemName>
@@ -35,7 +49,7 @@
 	</layout>
 	<characters>
 		<exemplarCharacters draft="unconfirmed">[a {à} b c d e {é} {ë} f g i j k l m n {ñ} ŋ o {ó} p q r s t u w x y]</exemplarCharacters>
-		<exemplarCharacters type="auxiliary" draft="unconfirmed">[h v z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[ã h v z]</exemplarCharacters>
 		<exemplarCharacters type="punctuation">[\- , ; \: ! ? . ( ) \[ \] \{ \}]</exemplarCharacters>
 		<ellipsis type="final">{0}…</ellipsis>
 		<ellipsis type="initial">…{0}</ellipsis>
