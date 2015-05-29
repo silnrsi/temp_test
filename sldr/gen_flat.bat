@@ -1,9 +1,20 @@
 call gen_prep.bat
 
+echo off
 rem -a = creates a separate subdirectory for each letter of the alphabet
 rem -s = turn off multiprocessing
-rem --revid generates revision IDs
-rem python ..\..\..\sites\s\scripts\ldml_utils\ldmlflatten.py -o .\flat -a -i ..\..\..\..\ss_import\data\original\SLDR-Git\sldr\sldr -s --revid=%revid%
+rem -A = antialias - remove aliases
+rem -g get revid from last change to the file
 
+rem --revid generates revision IDs - not being used
+rem /// python ..\..\..\sites\s\scripts\ldml_utils\ldmlflatten.py -o .\flat -a -i ..\..\..\..\ss_import\data\original\SLDR-Git\sldr\sldr -s --revid=%revid%
 
-python C:\xampp\htdocs\ss_import\data\original\SLDR-Git\sldr\python\scripts\ldmlflatten -o .\flat -a -i ..\..\..\..\ss_import\data\original\SLDR-Git\sldr\sldr -s --revid=%revid%
+rem ldmlflatten requires running from within the git working copy
+echo on
+cd C:\xampp\htdocs\ss_import\data\original\SLDR-Git\sldr
+
+python .\python\scripts\ldmlflatten -o C:\xampp\htdocs\cms\local\temp_test\sldr\flat -a -A -g -s -i .\sldr
+
+cd C:\xampp\htdocs\cms\local\temp_test\sldr
+
+rem Delete any unmodified files using: git rm <filename>
