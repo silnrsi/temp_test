@@ -5,7 +5,7 @@
 		<!-- name.en(kzr)="Karang" -->
 		<language type="kzr"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="CM"/>
+			<sil:identity defaultRegion="CM" revid="d0e3091c4151ac85f07f8a4fc02b3800640bb32c"/>
 		</special>
 	</identity>
 	<characters>

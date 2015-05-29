@@ -4,8 +4,9 @@
 	<identity>
 		<!-- name.en(mym)="Me'en" -->
 		<language type="mym"/>
+		<script type="Latn"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="ET"/>
+			<sil:identity defaultRegion="ET" revid="25958627b71793cbd6b505143c3eee94bc2cb131"/>
 		</special>
 	</identity>
 	<characters>

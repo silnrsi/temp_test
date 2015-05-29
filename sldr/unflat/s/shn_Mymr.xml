@@ -2,11 +2,21 @@
 <ldml>
 	<identity>
 		<language type="shn"/>
+		<script type="Mymr"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="8556840a1d62c649c238b1fce890e388e62c622e"/>
+		</special>
 	</identity>
 	<characters>
 		<exemplarCharacters type="punctuation">[ ]</exemplarCharacters>
 		<exemplarCharacters>[ၵၶၷငၸသၺၹတၻၼပၽၾၿမယရလဝႀႁ ႃ ိ ီ ေ ၤ  ု ူ ႆ  ၀-၉ ႞႟]</exemplarCharacters>
 	</characters>
+	<delimiters>
+		<quotationStart>“</quotationStart>
+		<quotationEnd>”</quotationEnd>
+		<alternateQuotationStart>‘</alternateQuotationStart>
+		<alternateQuotationEnd>’</alternateQuotationEnd>
+	</delimiters>
 	<collations>
 		<collation type="standard">
 			<cr><![CDATA[

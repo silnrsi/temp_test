@@ -10,6 +10,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<!-- name.en(st)="Southern Sotho" -->
 		<language type="st"/>
 		<territory type="LS"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="95aa9d7f9c2a9e89d4c340cfd89a002ce9d6bbbc"/>
+		</special>
 	</identity>
 	<numbers>
 		<currencies>

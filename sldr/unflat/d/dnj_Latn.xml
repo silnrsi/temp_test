@@ -3,6 +3,9 @@
 	<identity>
 		<!-- name.en(dnj)="Dan" -->
 		<language type="dnj"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="95aa9d7f9c2a9e89d4c340cfd89a002ce9d6bbbc"/>
+		</special>
 	</identity>
 	<characters>
 		<exemplarCharacters draft="unconfirmed">[\u0303 \u0300 \u0301 a b ɓ d e ɛ f g {gb} h i k {kp} {kw} l m n {nw} {ny} ŋ o ɔ ə ɵ p r s t u ɥ v w x y z]</exemplarCharacters>

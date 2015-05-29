@@ -5,7 +5,7 @@
 		<!-- name.en(drs)="Gedeo" -->
 		<language type="drs"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="ET"/>
+			<sil:identity defaultRegion="ET" revid="4882e215bb59c443903aa36952876abaadcb5b65"/>
 		</special>
 	</identity>
 	<characters>

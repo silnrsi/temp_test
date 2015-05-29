@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="pl"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="189eb3f4fe742d56f910acd8227c8b8d4acab50c"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -2036,6 +2036,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<month type="3" draft="contributed">Kislew</month>
 							<month type="4" draft="contributed">Tewet</month>
 							<month type="5" draft="contributed">Szwat</month>
+							<month type="7" yeartype="leap" draft="contributed">Adar II</month>
 							<month type="9" draft="contributed">Ijar</month>
 						</monthWidth>
 					</monthContext>

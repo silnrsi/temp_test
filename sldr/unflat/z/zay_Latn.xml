@@ -3,6 +3,10 @@
 	<identity>
 		<!-- name.en(zay)="Zaysete" -->
 		<language type="zay"/>
+		<script type="Latn"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="c8e2c38764729fc01ec6ac8baaaf11e996ed1d0e"/>
+		</special>
 	</identity>
 	<characters>
 		<exemplarCharacters draft="proposed">[a b c {ch} d {dh} e f g h i j k l m n {ny} o p {ph} q r s {sh} t {th} {ts} u v w x y z {zd} {zh} ʼ]</exemplarCharacters>

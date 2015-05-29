@@ -5,6 +5,9 @@
 		<generation date="$Date$"/>
 		<!-- name.en(arh)="Arhuaco" -->
 		<language type="arh"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="95aa9d7f9c2a9e89d4c340cfd89a002ce9d6bbbc"/>
+		</special>
 	</identity>
 	<characters>
 		<exemplarCharacters draft="unconfirmed">[a b ch d e f g i j ɉ k m n {nh} {ñ} o p r s t u ʉ w y z ꞌ]</exemplarCharacters>

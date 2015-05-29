@@ -5,7 +5,7 @@
 		<!-- name.en(etx)="Eten" -->
 		<language type="etx"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="CM"/>
+			<sil:identity defaultRegion="CM" revid="95aa9d7f9c2a9e89d4c340cfd89a002ce9d6bbbc"/>
 		</special>
 	</identity>
 	<characters>

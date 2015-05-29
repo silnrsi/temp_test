@@ -10,7 +10,7 @@ Reviewed by Waris Abdukerim Janbaz <oyghan@gmail.com> of the Uyghur Computer Sci
 		<generation date="$Date: 2014-08-07 17:54 +0000 $"/>
 		<language type="ug"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="189eb3f4fe742d56f910acd8227c8b8d4acab50c"/>
 		</special>
 	</identity>
 	<localeDisplayNames>

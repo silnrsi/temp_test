@@ -5,7 +5,7 @@
 		<!-- name.en(xon)="Konkomba" -->
 		<language type="xon"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="GH"/>
+			<sil:identity defaultRegion="GH" revid="95aa9d7f9c2a9e89d4c340cfd89a002ce9d6bbbc"/>
 		</special>
 	</identity>
 	<layout>

@@ -6,8 +6,9 @@
 		<generation date="$Date$"/>
 		<!-- name.en(wal)="Wolaytta" -->
 		<language type="wal"/>
+		<script type="Ethi"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="ET"/>
+			<sil:identity defaultRegion="ET" revid="ff06b8a58d1b57414ffe70db45e07243fd8e4995"/>
 		</special>
 	</identity>
 	<localeDisplayNames>

@@ -18,3 +18,4 @@ python .\python\scripts\ldmlflatten -o C:\xampp\htdocs\cms\local\temp_test\sldr\
 cd C:\xampp\htdocs\cms\local\temp_test\sldr
 
 rem Delete any unmodified files using: git rm <filename>
+rem Add all new files using: git add --all .

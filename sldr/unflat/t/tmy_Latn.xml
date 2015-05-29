@@ -5,7 +5,7 @@
 		<!-- name.en(tmy)="Tami" -->
 		<language type="tmy"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="PG"/>
+			<sil:identity defaultRegion="PG" revid="95aa9d7f9c2a9e89d4c340cfd89a002ce9d6bbbc"/>
 		</special>
 	</identity>
 	<characters>

@@ -3,6 +3,10 @@
 	<identity>
 		<!-- name.en(suq)="Suri" -->
 		<language type="suq"/>
+		<script type="Latn"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="bb05ea03e24aeaafbc3afe7885ce57b1382a6653"/>
+		</special>
 	</identity>
 	<characters>
 		<exemplarCharacters draft="proposed">[a b {bh} {ch} d {dh} e ɛ g {gh} h i j {jh} k l m n {ng} {ny} o ɔ r s {sh} t u w y z]</exemplarCharacters>

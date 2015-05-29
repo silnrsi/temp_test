@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2014-07-23 21:10 +0000 $"/>
 		<language type="vo"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="6f33925ff320bab2cd3cfac4eb78f625ba93c8f8"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -39,9 +39,16 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<exemplarCharacters type="index">[A Ä B C D E F G H I J K L M N O Ö P R S T U Ü V X Y Z]</exemplarCharacters>
 		<exemplarCharacters type="punctuation">[\- ‐ – — , ; \: ! ? . … ' ‘ ’ " “ ” « » ( ) \[ \] \{ \} § @ * / \&amp; #]</exemplarCharacters>
 		<exemplarCharacters>[a ä b c d e f g h i j k l m n o ö p q r s š t u ü v x y z]</exemplarCharacters>
+		<ellipsis type="final" draft="unconfirmed">{0}…</ellipsis>
 		<ellipsis type="initial" draft="unconfirmed">… {0}</ellipsis>
 		<ellipsis type="medial" draft="unconfirmed">{0} … {1}</ellipsis>
 	</characters>
+	<delimiters>
+		<quotationStart draft="unconfirmed">“</quotationStart>
+		<quotationEnd draft="unconfirmed">”</quotationEnd>
+		<alternateQuotationStart draft="unconfirmed">‘</alternateQuotationStart>
+		<alternateQuotationEnd draft="unconfirmed">’</alternateQuotationEnd>
+	</delimiters>
 	<dates>
 		<calendars>
 			<calendar type="generic">
@@ -51,9 +58,19 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<pattern draft="unconfirmed">G y MMMMa 'd'. d'id'</pattern>
 						</dateFormat>
 					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern draft="unconfirmed">G y MMMM d</pattern>
+						</dateFormat>
+					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
 							<pattern draft="unconfirmed">G y MMM. d</pattern>
+						</dateFormat>
+					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern draft="unconfirmed">GGGGG y-MM-dd</pattern>
 						</dateFormat>
 					</dateFormatLength>
 				</dateFormats>
@@ -153,8 +170,12 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<day type="wed" draft="unconfirmed">Ve</day>
 						</dayWidth>
 						<dayWidth type="narrow">
+							<day type="fri" draft="unconfirmed">F</day>
+							<day type="mon" draft="unconfirmed">M</day>
 							<day type="sat" draft="unconfirmed">Z</day>
+							<day type="sun" draft="unconfirmed">S</day>
 							<day type="thu" draft="unconfirmed">D</day>
+							<day type="tue" draft="unconfirmed">T</day>
 							<day type="wed" draft="unconfirmed">V</day>
 						</dayWidth>
 					</dayContext>
@@ -211,12 +232,44 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<pattern draft="unconfirmed">y MMMMa 'd'. d'id'</pattern>
 						</dateFormat>
 					</dateFormatLength>
+					<dateFormatLength type="long">
+						<dateFormat>
+							<pattern draft="unconfirmed">y MMMM d</pattern>
+						</dateFormat>
+					</dateFormatLength>
 					<dateFormatLength type="medium">
 						<dateFormat>
 							<pattern draft="unconfirmed">y MMM. d</pattern>
 						</dateFormat>
 					</dateFormatLength>
+					<dateFormatLength type="short">
+						<dateFormat>
+							<pattern draft="unconfirmed">y-MM-dd</pattern>
+						</dateFormat>
+					</dateFormatLength>
 				</dateFormats>
+				<timeFormats>
+					<timeFormatLength type="full">
+						<timeFormat>
+							<pattern draft="unconfirmed">HH:mm:ss zzzz</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="long">
+						<timeFormat>
+							<pattern draft="unconfirmed">HH:mm:ss z</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="medium">
+						<timeFormat>
+							<pattern draft="unconfirmed">HH:mm:ss</pattern>
+						</timeFormat>
+					</timeFormatLength>
+					<timeFormatLength type="short">
+						<timeFormat>
+							<pattern draft="unconfirmed">HH:mm</pattern>
+						</timeFormat>
+					</timeFormatLength>
+				</timeFormats>
 			</calendar>
 		</calendars>
 		<fields>
@@ -281,6 +334,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 	<posix>
 		<messages>
 			<yesstr draft="unconfirmed">si:s</yesstr>
+			<nostr draft="unconfirmed">no:n</nostr>
 		</messages>
 	</posix>
 	<metadata>

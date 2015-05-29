@@ -5,6 +5,9 @@
 		<generation date="$Date$"/>
 		<!-- name.en(knf)="Mankanya" -->
 		<language type="knf"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="95aa9d7f9c2a9e89d4c340cfd89a002ce9d6bbbc"/>
+		</special>
 	</identity>
 	<characters>
 		<exemplarCharacters type="auxiliary">[q s v x z]</exemplarCharacters>

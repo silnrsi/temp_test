@@ -3,6 +3,9 @@
 	<identity>
 		<!-- name.en(ttq)="Tawallammat Tamajaq" -->
 		<language type="ttq"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="95aa9d7f9c2a9e89d4c340cfd89a002ce9d6bbbc"/>
+		</special>
 	</identity>
 	<characters>
 		<exemplarCharacters draft="unconfirmed">[ ⵀ ⵗ ⴹ ⴼ ⴶ ⵂ ⵌ ⴾ ⵍ ⵎ ⵏ ⵑ ⵆ ⵔ ⵙ ⵛ ⵜ ⵓ ⵈ ⵢ ⵉ ⵤ ⴰ ]</exemplarCharacters>

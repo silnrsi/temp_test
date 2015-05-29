@@ -5,7 +5,7 @@
 		<!-- name.en(kun)="Kunama" -->
 		<language type="kun"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="ER"/>
+			<sil:identity defaultRegion="ER" revid="95aa9d7f9c2a9e89d4c340cfd89a002ce9d6bbbc"/>
 		</special>
 	</identity>
 	<characters>

@@ -5,7 +5,7 @@
 		<!-- name.en(wol)="Wolof" -->
 		<language type="wol"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="SN"/>
+			<sil:identity defaultRegion="SN" revid="a92b669b1e2e05bb2aa1261f47f7c23b7fbd4932"/>
 		</special>
 	</identity>
 	<localeDisplayNames>

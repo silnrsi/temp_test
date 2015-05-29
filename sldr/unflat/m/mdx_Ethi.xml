@@ -3,8 +3,9 @@
 	<identity>
 		<!-- name.en(mdx)="Dizin" -->
 		<language type="mdx"/>
+		<script type="Ethi"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity defaultRegion="ET"/>
+			<sil:identity defaultRegion="ET" revid="7b328cc1e474ed1c227e067a78ce141244e2ee27"/>
 		</special>
 	</identity>
 	<characters>

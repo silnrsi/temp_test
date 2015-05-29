@@ -9,7 +9,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 		<generation date="$Date: 2015-02-23 22:50 +0000 $"/>
 		<language type="nl"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved"/>
+			<sil:identity source="cldr" draft="approved" revid="189eb3f4fe742d56f910acd8227c8b8d4acab50c"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -2666,6 +2666,9 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<month type="7">Adar</month>
 							<month type="8">Nisan</month>
 							<month type="9">Ijar</month>
+						</monthWidth>
+						<monthWidth type="narrow">
+							<month type="7" yeartype="leap" draft="contributed">7</month>
 						</monthWidth>
 						<monthWidth type="wide">
 							<month type="1">Tisjrie</month>

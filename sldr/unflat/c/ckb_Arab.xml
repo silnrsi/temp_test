@@ -4,6 +4,9 @@
 	<identity>
 		<!-- name.en(ckb)="Sorani Kurdish" -->
 		<language type="ckb"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="a92b669b1e2e05bb2aa1261f47f7c23b7fbd4932"/>
+		</special>
 	</identity>
 	<localeDisplayNames>
 		<languages>

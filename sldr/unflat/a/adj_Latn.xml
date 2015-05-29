@@ -4,6 +4,9 @@
 	<identity>
 		<!-- name.en(adj)="Adioukrou" -->
 		<language type="adj"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="95aa9d7f9c2a9e89d4c340cfd89a002ce9d6bbbc"/>
+		</special>
 	</identity>
 	<characters>
 		<exemplarCharacters draft="unconfirmed">[a b c d e ɛ f g {gb} h i j k {kp} l m n {ny} ŋ o ɔ p r s t u w y]</exemplarCharacters>

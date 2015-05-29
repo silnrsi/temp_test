@@ -4,6 +4,9 @@
 	<identity>
 		<!-- name.en(bci)="Baoulé" -->
 		<language type="bci"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="95aa9d7f9c2a9e89d4c340cfd89a002ce9d6bbbc"/>
+		</special>
 	</identity>
 	<characters>
 		<exemplarCharacters draft="unconfirmed">[a b c {cw} d e ɛ f g {gb} {gw} i j {jw} k {kp} {kw} l m n {ny} o ɔ p s {sw} t u v w y z]</exemplarCharacters>

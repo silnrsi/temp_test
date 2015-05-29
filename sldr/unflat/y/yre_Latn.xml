@@ -4,6 +4,9 @@
 	<identity>
 		<!-- name.en(yre)="Yaouré" -->
 		<language type="yre"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="95aa9d7f9c2a9e89d4c340cfd89a002ce9d6bbbc"/>
+		</special>
 	</identity>
 	<characters>
 		<exemplarCharacters draft="unconfirmed">[a b c d e ɛ f g {gb} i ɩ j k {kp} l m n {ny} o ɔ p r s {sh} t u ʋ v w y z]</exemplarCharacters>

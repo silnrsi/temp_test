@@ -4,6 +4,9 @@
 	<identity>
 		<!-- name.en(neb)="Toura (Côte d'Ivoire)" -->
 		<language type="neb"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity revid="95aa9d7f9c2a9e89d4c340cfd89a002ce9d6bbbc"/>
+		</special>
 	</identity>
 	<characters>
 		<exemplarCharacters draft="unconfirmed">[a b {bh} d e ɛ f g {gb} {gw} i ɩ k {kp} {kw} l {ng} o ɔ p s t u ʋ v w y z]</exemplarCharacters>
