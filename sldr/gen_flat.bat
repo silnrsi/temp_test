@@ -11,11 +11,11 @@ rem /// python ..\..\..\sites\s\scripts\ldml_utils\ldmlflatten.py -o .\flat -a -
 
 rem ldmlflatten requires running from within the git working copy
 echo on
-cd C:\xampp\htdocs\ss_import\data\original\SLDR-Git\sldr
+cd C:\ScriptSource\_StagingOnLocal\staging.scriptsource.org\ss_import\data\original\SLDR-Git\sldr
 
-python .\python\scripts\ldmlflatten -o C:\xampp\htdocs\cms\local\temp_test\sldr\flat -a -A -g -s -i .\sldr
+python .\python\scripts\ldmlflatten -o C:\ScriptSource\_StagingOnLocal\staging.scriptsource.org\cms_staging\local\temp_test\sldr\flat -a -A -g -s -i .\sldr
 
-cd C:\xampp\htdocs\cms\local\temp_test\sldr
+cd C:\ScriptSource\_StagingOnLocal\staging.scriptsource.org\cms_staging\local\temp_test\sldr
 
 rem Delete any unmodified files using: git rm <filename>
 rem Add all new files using: git add --all .

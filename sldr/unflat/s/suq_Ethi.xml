@@ -5,7 +5,7 @@
 		<language type="suq"/>
 		<script type="Ethi"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity revid="bb05ea03e24aeaafbc3afe7885ce57b1382a6653"/>
+			<sil:identity revid="7129db8dd6cf4649c9c002f9c80a3ab7bed94693"/>
 		</special>
 	</identity>
 	<characters>
@@ -24,11 +24,11 @@
 		<sil:external-resources>
 			<sil:fontrole type="default">
 				<sil:font isGraphite="true" name="AbyssinicaSIL">
-					<sil:url>http://wirl.api.sil.org/abyssinica</sil:url>
+					<sil:url>https://wirl.api.sil.org/AbyssinicaSIL</sil:url>
 				</sil:font>
 			</sil:fontrole>
 			<sil:kbd type="kmp" id="SILEthiopic">
-				<sil:url>http://wirl.api.sil.org/SILEthiopic</sil:url>
+				<sil:url>https://wirl.api.sil.org/SILEthiopic</sil:url>
 			</sil:kbd>
 		</sil:external-resources>
 	</special>

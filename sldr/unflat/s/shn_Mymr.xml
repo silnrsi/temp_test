@@ -4,7 +4,7 @@
 		<language type="shn"/>
 		<script type="Mymr"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity revid="8556840a1d62c649c238b1fce890e388e62c622e"/>
+			<sil:identity revid="7129db8dd6cf4649c9c002f9c80a3ab7bed94693"/>
 		</special>
 	</identity>
 	<characters>
@@ -62,10 +62,10 @@
 	<special xmlns:sil="urn://www.sil.org/ldml/0.1">
 		<sil:external-resources>
 			<sil:font isGraphite="true" name="Padauk" types="default">
-				<sil:url>http://wirl.scripts.sil.org/padauk</sil:url>
+				<sil:url>https://wirl.scripts.sil.org/Padauk</sil:url>
 			</sil:font>
 			<sil:kbd type="kmn" id="mywine">
-				<sil:url>http://wirl.scripts.sil.org/mywinekmn</sil:url>
+				<sil:url>https://wirl.scripts.sil.org/mywinekmn</sil:url>
 			</sil:kbd>
 		</sil:external-resources>
 	</special>

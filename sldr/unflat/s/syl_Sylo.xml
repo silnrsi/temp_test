@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Please enter language data in the fields below.  All data should be entered in English -->
+<ldml>
+	<identity>
+		<!-- name.en(syl)="Sylheti" -->
+		<language type="syl"/>
+		<script type="Sylo"/>
+		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+			<sil:identity defaultRegion="BD" revid="7129db8dd6cf4649c9c002f9c80a3ab7bed94693"/>
+		</special>
+	</identity>
+	<special xmlns:sil="urn://www.sil.org/ldml/0.1">
+		<sil:external-resources>
+			<sil:fontrole type="default">
+				<sil:font isGraphite="false" name="MPH 2B Damase">
+					<sil:url>https://wirl.api.sil.org/Damase</sil:url>
+				</sil:font>
+			</sil:fontrole>
+		</sil:external-resources>
+	</special>
+</ldml>

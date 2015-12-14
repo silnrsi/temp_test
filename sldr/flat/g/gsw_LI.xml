@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright © 1991-2014 Unicode, Inc.
+<!-- Copyright © 1991-2015 Unicode, Inc.
 CLDR data files are interpreted according to the LDML specification (http://unicode.org/reports/tr35/)
 For terms of use, see http://www.unicode.org/copyright.html
 -->
 <ldml>
 	<identity>
-		<version number="$Revision: 10669 $"/>
-		<generation date="$Date: 2014-07-23 21:10 +0000 $"/>
+		<version number="$Revision: 11914 $"/>
 		<language type="gsw"/>
 		<territory type="LI"/>
 		<special xmlns:sil="urn://www.sil.org/ldml/0.1">
-			<sil:identity source="cldr" draft="approved" revid="189eb3f4fe742d56f910acd8227c8b8d4acab50c"/>
+			<sil:identity source="cldr" draft="approved" revid="d9fabd0fa2c615cfdfb3d2b48f403f55145ff16a"/>
 		</special>
 	</identity>
 	<localeDisplayNames>
@@ -1187,34 +1186,28 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<dayPeriodContext type="format">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
@@ -1316,6 +1309,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MEd">MM-dd, E</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
+						<dateFormatItem id="MMMMd">MMMM d</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
@@ -1329,6 +1323,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="yyyyMEd">GGGGG y-MM-dd, E</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">G y MMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">G y MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">G y MMMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">G y MMM d</dateFormatItem>
 						<dateFormatItem id="yyyyMd">GGGGG y-MM-dd</dateFormatItem>
 						<dateFormatItem id="yyyyQQQ">G y QQQ</dateFormatItem>
@@ -1688,34 +1683,28 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<dayPeriodContext type="format">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
@@ -2547,6 +2536,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MEd">MM-dd, E</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
+						<dateFormatItem id="MMMMd">MMMM d</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
 						<dateFormatItem id="UM">U MM</dateFormatItem>
@@ -2565,6 +2555,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="yyyyMEd">r-MM-dd, E</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">r(U) MMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">r(U) MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">r(U) MMMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">r MMM d</dateFormatItem>
 						<dateFormatItem id="yyyyMd">r-MM-dd</dateFormatItem>
 						<dateFormatItem id="yyyyQQQ">r(U) QQQ</dateFormatItem>
@@ -2901,34 +2892,28 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<dayPeriodContext type="format">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
@@ -3030,6 +3015,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MEd">MM-dd, E</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
+						<dateFormatItem id="MMMMd">MMMM d</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
@@ -3043,6 +3029,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="yyyyMEd">GGGGG y-MM-dd, E</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">G y MMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">G y MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">G y MMMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">G y MMM d</dateFormatItem>
 						<dateFormatItem id="yyyyMd">GGGGG y-MM-dd</dateFormatItem>
 						<dateFormatItem id="yyyyQQQ">G y QQQ</dateFormatItem>
@@ -3402,34 +3389,28 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<dayPeriodContext type="format">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
@@ -4260,6 +4241,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MEd">MM-dd, E</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
+						<dateFormatItem id="MMMMd">MMMM d</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
 						<dateFormatItem id="UM">U MM</dateFormatItem>
@@ -4278,6 +4260,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="yyyyMEd">r-MM-dd, E</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">r(U) MMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">r(U) MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">r(U) MMMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">r MMM d</dateFormatItem>
 						<dateFormatItem id="yyyyMd">r-MM-dd</dateFormatItem>
 						<dateFormatItem id="yyyyQQQ">r(U) QQQ</dateFormatItem>
@@ -4614,34 +4597,28 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<dayPeriodContext type="format">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
@@ -4743,6 +4720,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MEd">MM-dd, E</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
+						<dateFormatItem id="MMMMd">MMMM d</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
@@ -4756,6 +4734,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="yyyyMEd">GGGGG y-MM-dd, E</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">G y MMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">G y MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">G y MMMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">G y MMM d</dateFormatItem>
 						<dateFormatItem id="yyyyMd">GGGGG y-MM-dd</dateFormatItem>
 						<dateFormatItem id="yyyyQQQ">G y QQQ</dateFormatItem>
@@ -5092,34 +5071,28 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<dayPeriodContext type="format">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
@@ -5218,6 +5191,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MEd">MM-dd, E</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
+						<dateFormatItem id="MMMMd">MMMM d</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
@@ -5231,6 +5205,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="yyyyMEd">GGGGG y-MM-dd, E</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">G y MMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">G y MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">G y MMMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">G y MMM d</dateFormatItem>
 						<dateFormatItem id="yyyyMd">GGGGG y-MM-dd</dateFormatItem>
 						<dateFormatItem id="yyyyQQQ">G y QQQ</dateFormatItem>
@@ -5561,34 +5536,28 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<dayPeriodContext type="format">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
@@ -5684,9 +5653,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="GyMMMEd">G y MMM d, E</dateFormatItem>
 						<dateFormatItem id="GyMMMd">G y MMM d</dateFormatItem>
 						<dateFormatItem id="H">H</dateFormatItem>
-						<dateFormatItem id="HHmm">HH:mm</dateFormatItem>
-						<dateFormatItem id="HHmmss">HH:mm:ss</dateFormatItem>
-						<dateFormatItem id="Hm">H:mm</dateFormatItem>
+						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
 						<dateFormatItem id="M">L</dateFormatItem>
 						<dateFormatItem id="MEd">E, d.M.</dateFormatItem>
@@ -5719,6 +5686,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="yyyyMEd">GGGGG y-MM-dd, E</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">G y MMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">G y MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">G y MMMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">G y MMM d</dateFormatItem>
 						<dateFormatItem id="yyyyMd">GGGGG y-MM-dd</dateFormatItem>
 						<dateFormatItem id="yyyyQQQ">G y QQQ</dateFormatItem>
@@ -6055,17 +6023,23 @@ For terms of use, see http://www.unicode.org/copyright.html
 							<dayPeriod type="pm" draft="unconfirmed">n.m.</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">vorm.</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">nam.</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
+						<dayPeriodWidth type="abbreviated">
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
+						</dayPeriodWidth>
+						<dayPeriodWidth type="narrow">
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
+						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am" draft="unconfirmed">Vormittag</dayPeriod>
 							<dayPeriod type="pm" draft="unconfirmed">Namittag</dayPeriod>
@@ -6169,9 +6143,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="GyMMMEd">G y MMM d, E</dateFormatItem>
 						<dateFormatItem id="GyMMMd">G y MMM d</dateFormatItem>
 						<dateFormatItem id="H">H</dateFormatItem>
-						<dateFormatItem id="HHmm">HH:mm</dateFormatItem>
-						<dateFormatItem id="HHmmss">HH:mm:ss</dateFormatItem>
-						<dateFormatItem id="Hm">H:mm</dateFormatItem>
+						<dateFormatItem id="Hm">HH:mm</dateFormatItem>
 						<dateFormatItem id="Hms">HH:mm:ss</dateFormatItem>
 						<dateFormatItem id="Hmsv">HH:mm:ss v</dateFormatItem>
 						<dateFormatItem id="Hmv">HH:mm v</dateFormatItem>
@@ -6546,34 +6518,28 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<dayPeriodContext type="format">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
@@ -6581,21 +6547,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<eras>
 					<eraNames>
 						<era type="0">AM</era>
-						<!-- HY = Anno Mundi
-							 = -180799862400000 milliseconds since 1/1/1970 AD
-						-->
+						<!-- HY = Anno Mundi = -180799862400000 milliseconds since 1/1/1970 AD -->
 					</eraNames>
 					<eraAbbr>
 						<era type="0">AM</era>
-						<!-- HY = Anno Mundi
-							 = -180799862400000 milliseconds since 1/1/1970 AD
-						-->
+						<!-- HY = Anno Mundi = -180799862400000 milliseconds since 1/1/1970 AD -->
 					</eraAbbr>
 					<eraNarrow>
 						<era type="0">AM</era>
-						<!-- HY = Anno Mundi
-							 = -180799862400000 milliseconds since 1/1/1970 AD
-						-->
+						<!-- HY = Anno Mundi = -180799862400000 milliseconds since 1/1/1970 AD -->
 					</eraNarrow>
 				</eras>
 				<dateFormats>
@@ -6681,6 +6641,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MEd">MM-dd, E</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
+						<dateFormatItem id="MMMMd">MMMM d</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
@@ -6694,6 +6655,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="yyyyMEd">GGGGG y-MM-dd, E</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">G y MMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">G y MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">G y MMMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">G y MMM d</dateFormatItem>
 						<dateFormatItem id="yyyyMd">GGGGG y-MM-dd</dateFormatItem>
 						<dateFormatItem id="yyyyQQQ">G y QQQ</dateFormatItem>
@@ -7024,34 +6986,28 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<dayPeriodContext type="format">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
@@ -7150,6 +7106,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MEd">MM-dd, E</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
+						<dateFormatItem id="MMMMd">MMMM d</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
@@ -7163,6 +7120,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="yyyyMEd">GGGGG y-MM-dd, E</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">G y MMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">G y MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">G y MMMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">G y MMM d</dateFormatItem>
 						<dateFormatItem id="yyyyMd">GGGGG y-MM-dd</dateFormatItem>
 						<dateFormatItem id="yyyyQQQ">G y QQQ</dateFormatItem>
@@ -7493,34 +7451,28 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<dayPeriodContext type="format">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
@@ -7528,21 +7480,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<eras>
 					<eraNames>
 						<era type="0">AH</era>
-						<!-- Anno Hijri, = 7/16/622 AD
-							 = -42521587200000.0 millis since 1/1/1970
-						-->
+						<!-- Anno Hijri, = 7/16/622 AD = -42521587200000.0 millis since 1/1/1970 -->
 					</eraNames>
 					<eraAbbr>
 						<era type="0">AH</era>
-						<!-- Anno Hijri, = 7/16/622 AD
-							 = -42521587200000.0 millis since 1/1/1970
-						-->
+						<!-- Anno Hijri, = 7/16/622 AD = -42521587200000.0 millis since 1/1/1970 -->
 					</eraAbbr>
 					<eraNarrow>
 						<era type="0">AH</era>
-						<!-- Anno Hijri, = 7/16/622 AD
-							 = -42521587200000.0 millis since 1/1/1970
-						-->
+						<!-- Anno Hijri, = 7/16/622 AD = -42521587200000.0 millis since 1/1/1970 -->
 					</eraNarrow>
 				</eras>
 				<dateFormats>
@@ -7628,6 +7574,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MEd">MM-dd, E</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
+						<dateFormatItem id="MMMMd">MMMM d</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
@@ -7641,6 +7588,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="yyyyMEd">GGGGG y-MM-dd, E</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">G y MMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">G y MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">G y MMMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">G y MMM d</dateFormatItem>
 						<dateFormatItem id="yyyyMd">GGGGG y-MM-dd</dateFormatItem>
 						<dateFormatItem id="yyyyQQQ">G y QQQ</dateFormatItem>
@@ -7971,34 +7919,28 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<dayPeriodContext type="format">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
@@ -8006,21 +7948,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<eras>
 					<eraNames>
 						<era type="0">AH</era>
-						<!-- Anno Hijri, = 7/16/622 AD
-							 = -42521587200000.0 millis since 1/1/1970
-						-->
+						<!-- Anno Hijri, = 7/16/622 AD = -42521587200000.0 millis since 1/1/1970 -->
 					</eraNames>
 					<eraAbbr>
 						<era type="0">AH</era>
-						<!-- Anno Hijri, = 7/16/622 AD
-							 = -42521587200000.0 millis since 1/1/1970
-						-->
+						<!-- Anno Hijri, = 7/16/622 AD = -42521587200000.0 millis since 1/1/1970 -->
 					</eraAbbr>
 					<eraNarrow>
 						<era type="0">AH</era>
-						<!-- Anno Hijri, = 7/16/622 AD
-							 = -42521587200000.0 millis since 1/1/1970
-						-->
+						<!-- Anno Hijri, = 7/16/622 AD = -42521587200000.0 millis since 1/1/1970 -->
 					</eraNarrow>
 				</eras>
 				<dateFormats>
@@ -8106,6 +8042,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MEd">MM-dd, E</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
+						<dateFormatItem id="MMMMd">MMMM d</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
@@ -8119,6 +8056,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="yyyyMEd">GGGGG y-MM-dd, E</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">G y MMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">G y MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">G y MMMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">G y MMM d</dateFormatItem>
 						<dateFormatItem id="yyyyMd">GGGGG y-MM-dd</dateFormatItem>
 						<dateFormatItem id="yyyyQQQ">G y QQQ</dateFormatItem>
@@ -8449,34 +8387,28 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<dayPeriodContext type="format">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
@@ -8484,21 +8416,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<eras>
 					<eraNames>
 						<era type="0">AH</era>
-						<!-- Anno Hijri, = 7/16/622 AD
-							 = -42521587200000.0 millis since 1/1/1970
-						-->
+						<!-- Anno Hijri, = 7/16/622 AD = -42521587200000.0 millis since 1/1/1970 -->
 					</eraNames>
 					<eraAbbr>
 						<era type="0">AH</era>
-						<!-- Anno Hijri, = 7/16/622 AD
-							 = -42521587200000.0 millis since 1/1/1970
-						-->
+						<!-- Anno Hijri, = 7/16/622 AD = -42521587200000.0 millis since 1/1/1970 -->
 					</eraAbbr>
 					<eraNarrow>
 						<era type="0">AH</era>
-						<!-- Anno Hijri, = 7/16/622 AD
-							 = -42521587200000.0 millis since 1/1/1970
-						-->
+						<!-- Anno Hijri, = 7/16/622 AD = -42521587200000.0 millis since 1/1/1970 -->
 					</eraNarrow>
 				</eras>
 				<dateFormats>
@@ -8584,6 +8510,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MEd">MM-dd, E</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
+						<dateFormatItem id="MMMMd">MMMM d</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
@@ -8597,6 +8524,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="yyyyMEd">GGGGG y-MM-dd, E</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">G y MMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">G y MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">G y MMMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">G y MMM d</dateFormatItem>
 						<dateFormatItem id="yyyyMd">GGGGG y-MM-dd</dateFormatItem>
 						<dateFormatItem id="yyyyQQQ">G y QQQ</dateFormatItem>
@@ -8927,34 +8855,28 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<dayPeriodContext type="format">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
@@ -8962,21 +8884,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<eras>
 					<eraNames>
 						<era type="0">AH</era>
-						<!-- Anno Hijri, = 7/16/622 AD
-							 = -42521587200000.0 millis since 1/1/1970
-						-->
+						<!-- Anno Hijri, = 7/16/622 AD = -42521587200000.0 millis since 1/1/1970 -->
 					</eraNames>
 					<eraAbbr>
 						<era type="0">AH</era>
-						<!-- Anno Hijri, = 7/16/622 AD
-							 = -42521587200000.0 millis since 1/1/1970
-						-->
+						<!-- Anno Hijri, = 7/16/622 AD = -42521587200000.0 millis since 1/1/1970 -->
 					</eraAbbr>
 					<eraNarrow>
 						<era type="0">AH</era>
-						<!-- Anno Hijri, = 7/16/622 AD
-							 = -42521587200000.0 millis since 1/1/1970
-						-->
+						<!-- Anno Hijri, = 7/16/622 AD = -42521587200000.0 millis since 1/1/1970 -->
 					</eraNarrow>
 				</eras>
 				<dateFormats>
@@ -9062,6 +8978,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MEd">MM-dd, E</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
+						<dateFormatItem id="MMMMd">MMMM d</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
@@ -9075,6 +8992,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="yyyyMEd">GGGGG y-MM-dd, E</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">G y MMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">G y MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">G y MMMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">G y MMM d</dateFormatItem>
 						<dateFormatItem id="yyyyMd">GGGGG y-MM-dd</dateFormatItem>
 						<dateFormatItem id="yyyyQQQ">G y QQQ</dateFormatItem>
@@ -9405,34 +9323,28 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<dayPeriodContext type="format">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
@@ -9440,21 +9352,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<eras>
 					<eraNames>
 						<era type="0">AH</era>
-						<!-- Anno Hijri, = 7/16/622 AD
-							 = -42521587200000.0 millis since 1/1/1970
-						-->
+						<!-- Anno Hijri, = 7/16/622 AD = -42521587200000.0 millis since 1/1/1970 -->
 					</eraNames>
 					<eraAbbr>
 						<era type="0">AH</era>
-						<!-- Anno Hijri, = 7/16/622 AD
-							 = -42521587200000.0 millis since 1/1/1970
-						-->
+						<!-- Anno Hijri, = 7/16/622 AD = -42521587200000.0 millis since 1/1/1970 -->
 					</eraAbbr>
 					<eraNarrow>
 						<era type="0">AH</era>
-						<!-- Anno Hijri, = 7/16/622 AD
-							 = -42521587200000.0 millis since 1/1/1970
-						-->
+						<!-- Anno Hijri, = 7/16/622 AD = -42521587200000.0 millis since 1/1/1970 -->
 					</eraNarrow>
 				</eras>
 				<dateFormats>
@@ -9540,6 +9446,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MEd">MM-dd, E</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
+						<dateFormatItem id="MMMMd">MMMM d</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
@@ -9553,6 +9460,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="yyyyMEd">GGGGG y-MM-dd, E</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">G y MMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">G y MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">G y MMMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">G y MMM d</dateFormatItem>
 						<dateFormatItem id="yyyyMd">GGGGG y-MM-dd</dateFormatItem>
 						<dateFormatItem id="yyyyQQQ">G y QQQ</dateFormatItem>
@@ -9883,760 +9791,752 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<dayPeriodContext type="format">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 				</dayPeriods>
 				<eras>
 					<eraNames>
-						<!-- These eras are numbered according to the data used
-							 by the ICU Japanese Calendar.
-							 search for 'ERAS ='
+						<!-- These eras are numbered according to the data used by the ICU Japanese Calendar. search for
+							 'ERAS ='
 						-->
-						<era type="0">Taika (645-650)</era>
-						<era type="1">Hakuchi (650-671)</era>
-						<era type="10">Tempyō (729-749)</era>
-						<era type="100">Kaō (1169-1171)</era>
-						<era type="101">Shōan (1171-1175)</era>
-						<era type="102">Angen (1175-1177)</era>
-						<era type="103">Jishō (1177-1181)</era>
-						<era type="104">Yōwa (1181-1182)</era>
-						<era type="105">Juei (1182-1184)</era>
-						<era type="106">Genryuku (1184-1185)</era>
-						<era type="107">Bunji (1185-1190)</era>
-						<era type="108">Kenkyū (1190-1199)</era>
-						<era type="109">Shōji (1199-1201)</era>
-						<era type="11">Tempyō-kampō (749-749)</era>
-						<era type="110">Kennin (1201-1204)</era>
-						<era type="111">Genkyū (1204-1206)</era>
-						<era type="112">Ken-ei (1206-1207)</era>
-						<era type="113">Shōgen (1207-1211)</era>
-						<era type="114">Kenryaku (1211-1213)</era>
-						<era type="115">Kenpō (1213-1219)</era>
-						<era type="116">Shōkyū (1219-1222)</era>
-						<era type="117">Jōō (1222-1224)</era>
-						<era type="118">Gennin (1224-1225)</era>
-						<era type="119">Karoku (1225-1227)</era>
-						<era type="12">Tempyō-shōhō (749-757)</era>
-						<era type="120">Antei (1227-1229)</era>
-						<era type="121">Kanki (1229-1232)</era>
-						<era type="122">Jōei (1232-1233)</era>
-						<era type="123">Tempuku (1233-1234)</era>
-						<era type="124">Bunryaku (1234-1235)</era>
-						<era type="125">Katei (1235-1238)</era>
-						<era type="126">Ryakunin (1238-1239)</era>
-						<era type="127">En-ō (1239-1240)</era>
-						<era type="128">Ninji (1240-1243)</era>
-						<era type="129">Kangen (1243-1247)</era>
-						<era type="13">Tempyō-hōji (757-765)</era>
-						<era type="130">Hōji (1247-1249)</era>
-						<era type="131">Kenchō (1249-1256)</era>
-						<era type="132">Kōgen (1256-1257)</era>
-						<era type="133">Shōka (1257-1259)</era>
-						<era type="134">Shōgen (1259-1260)</era>
-						<era type="135">Bun-ō (1260-1261)</era>
-						<era type="136">Kōchō (1261-1264)</era>
-						<era type="137">Bun-ei (1264-1275)</era>
-						<era type="138">Kenji (1275-1278)</era>
-						<era type="139">Kōan (1278-1288)</era>
-						<era type="14">Temphō-jingo (765-767)</era>
-						<era type="140">Shōō (1288-1293)</era>
-						<era type="141">Einin (1293-1299)</era>
-						<era type="142">Shōan (1299-1302)</era>
-						<era type="143">Kengen (1302-1303)</era>
-						<era type="144">Kagen (1303-1306)</era>
-						<era type="145">Tokuji (1306-1308)</era>
-						<era type="146">Enkei (1308-1311)</era>
-						<era type="147">Ōchō (1311-1312)</era>
-						<era type="148">Shōwa (1312-1317)</era>
-						<era type="149">Bunpō (1317-1319)</era>
+						<era type="0">Taika (645–650)</era>
+						<era type="1">Hakuchi (650–671)</era>
+						<era type="10">Tenpyō (729–749)</era>
+						<era type="100">Kaō (1169–1171)</era>
+						<era type="101">Shōan (1171–1175)</era>
+						<era type="102">Angen (1175–1177)</era>
+						<era type="103">Jishō (1177–1181)</era>
+						<era type="104">Yōwa (1181–1182)</era>
+						<era type="105">Juei (1182–1184)</era>
+						<era type="106">Genryaku (1184–1185)</era>
+						<era type="107">Bunji (1185–1190)</era>
+						<era type="108">Kenkyū (1190–1199)</era>
+						<era type="109">Shōji (1199–1201)</era>
+						<era type="11">Tenpyō-kampō (749-749)</era>
+						<era type="110">Kennin (1201–1204)</era>
+						<era type="111">Genkyū (1204–1206)</era>
+						<era type="112">Ken’ei (1206–1207)</era>
+						<era type="113">Jōgen (1207–1211)</era>
+						<era type="114">Kenryaku (1211–1213)</era>
+						<era type="115">Kenpō (1213–1219)</era>
+						<era type="116">Jōkyū (1219–1222)</era>
+						<era type="117">Jōō (1222–1224)</era>
+						<era type="118">Gennin (1224–1225)</era>
+						<era type="119">Karoku (1225–1227)</era>
+						<era type="12">Tenpyō-shōhō (749-757)</era>
+						<era type="120">Antei (1227–1229)</era>
+						<era type="121">Kanki (1229–1232)</era>
+						<era type="122">Jōei (1232–1233)</era>
+						<era type="123">Tenpuku (1233–1234)</era>
+						<era type="124">Bunryaku (1234–1235)</era>
+						<era type="125">Katei (1235–1238)</era>
+						<era type="126">Ryakunin (1238–1239)</era>
+						<era type="127">En’ō (1239–1240)</era>
+						<era type="128">Ninji (1240–1243)</era>
+						<era type="129">Kangen (1243–1247)</era>
+						<era type="13">Tenpyō-hōji (757-765)</era>
+						<era type="130">Hōji (1247–1249)</era>
+						<era type="131">Kenchō (1249–1256)</era>
+						<era type="132">Kōgen (1256–1257)</era>
+						<era type="133">Shōka (1257–1259)</era>
+						<era type="134">Shōgen (1259–1260)</era>
+						<era type="135">Bun’ō (1260–1261)</era>
+						<era type="136">Kōchō (1261–1264)</era>
+						<era type="137">Bun’ei (1264–1275)</era>
+						<era type="138">Kenji (1275–1278)</era>
+						<era type="139">Kōan (1278–1288)</era>
+						<era type="14">Tenpyō-jingo (765-767)</era>
+						<era type="140">Shōō (1288–1293)</era>
+						<era type="141">Einin (1293–1299)</era>
+						<era type="142">Shōan (1299–1302)</era>
+						<era type="143">Kengen (1302–1303)</era>
+						<era type="144">Kagen (1303–1306)</era>
+						<era type="145">Tokuji (1306–1308)</era>
+						<era type="146">Enkyō (1308–1311)</era>
+						<era type="147">Ōchō (1311–1312)</era>
+						<era type="148">Shōwa (1312–1317)</era>
+						<era type="149">Bunpō (1317–1319)</era>
 						<era type="15">Jingo-keiun (767-770)</era>
-						<era type="150">Genō (1319-1321)</era>
-						<era type="151">Genkyō (1321-1324)</era>
-						<era type="152">Shōchū (1324-1326)</era>
-						<era type="153">Kareki (1326-1329)</era>
-						<era type="154">Gentoku (1329-1331)</era>
-						<era type="155">Genkō (1331-1334)</era>
-						<era type="156">Kemmu (1334-1336)</era>
-						<era type="157">Engen (1336-1340)</era>
-						<era type="158">Kōkoku (1340-1346)</era>
-						<era type="159">Shōhei (1346-1370)</era>
-						<era type="16">Hōki (770-780)</era>
-						<era type="160">Kentoku (1370-1372)</era>
-						<era type="161">Bunchū (1372-1375)</era>
-						<era type="162">Tenju (1375-1379)</era>
-						<era type="163">Kōryaku (1379-1381)</era>
-						<era type="164">Kōwa (1381-1384)</era>
-						<era type="165">Genchū (1384-1392)</era>
-						<era type="166">Meitoku (1384-1387)</era>
-						<era type="167">Kakei (1387-1389)</era>
-						<era type="168">Kōō (1389-1390)</era>
-						<era type="169">Meitoku (1390-1394)</era>
+						<era type="150">Genō (1319–1321)</era>
+						<era type="151">Genkō (1321–1324)</era>
+						<era type="152">Shōchū (1324–1326)</era>
+						<era type="153">Karyaku (1326–1329)</era>
+						<era type="154">Gentoku (1329–1331)</era>
+						<era type="155">Genkō (1331–1334)</era>
+						<era type="156">Kenmu (1334–1336)</era>
+						<era type="157">Engen (1336–1340)</era>
+						<era type="158">Kōkoku (1340–1346)</era>
+						<era type="159">Shōhei (1346–1370)</era>
+						<era type="16">Hōki (770–780)</era>
+						<era type="160">Kentoku (1370–1372)</era>
+						<era type="161">Bunchū (1372–1375)</era>
+						<era type="162">Tenju (1375–1379)</era>
+						<era type="163">Kōryaku (1379–1381)</era>
+						<era type="164">Kōwa (1381–1384)</era>
+						<era type="165">Genchū (1384–1392)</era>
+						<era type="166">Meitoku (1384–1387)</era>
+						<era type="167">Kakei (1387–1389)</era>
+						<era type="168">Kōō (1389–1390)</era>
+						<era type="169">Meitoku (1390–1394)</era>
 						<era type="17">Ten-ō (781-782)</era>
-						<era type="170">Ōei (1394-1428)</era>
-						<era type="171">Shōchō (1428-1429)</era>
-						<era type="172">Eikyō (1429-1441)</era>
-						<era type="173">Kakitsu (1441-1444)</era>
-						<era type="174">Bun-an (1444-1449)</era>
-						<era type="175">Hōtoku (1449-1452)</era>
-						<era type="176">Kyōtoku (1452-1455)</era>
-						<era type="177">Kōshō (1455-1457)</era>
-						<era type="178">Chōroku (1457-1460)</era>
-						<era type="179">Kanshō (1460-1466)</era>
-						<era type="18">Enryaku (782-806)</era>
-						<era type="180">Bunshō (1466-1467)</era>
-						<era type="181">Ōnin (1467-1469)</era>
-						<era type="182">Bunmei (1469-1487)</era>
-						<era type="183">Chōkyō (1487-1489)</era>
-						<era type="184">Entoku (1489-1492)</era>
-						<era type="185">Meiō (1492-1501)</era>
-						<era type="186">Bunki (1501-1504)</era>
-						<era type="187">Eishō (1504-1521)</era>
-						<era type="188">Taiei (1521-1528)</era>
-						<era type="189">Kyōroku (1528-1532)</era>
-						<era type="19">Daidō (806-810)</era>
-						<era type="190">Tenmon (1532-1555)</era>
-						<era type="191">Kōji (1555-1558)</era>
-						<era type="192">Eiroku (1558-1570)</era>
-						<era type="193">Genki (1570-1573)</era>
-						<era type="194">Tenshō (1573-1592)</era>
-						<era type="195">Bunroku (1592-1596)</era>
-						<era type="196">Keichō (1596-1615)</era>
-						<era type="197">Genwa (1615-1624)</era>
-						<era type="198">Kan-ei (1624-1644)</era>
-						<era type="199">Shōho (1644-1648)</era>
-						<era type="2">Hakuhō (672-686)</era>
-						<era type="20">Kōnin (810-824)</era>
-						<era type="200">Keian (1648-1652)</era>
-						<era type="201">Shōō (1652-1655)</era>
-						<era type="202">Meiryaku (1655-1658)</era>
-						<era type="203">Manji (1658-1661)</era>
-						<era type="204">Kanbun (1661-1673)</era>
-						<era type="205">Enpō (1673-1681)</era>
-						<era type="206">Tenwa (1681-1684)</era>
-						<era type="207">Jōkyō (1684-1688)</era>
-						<era type="208">Genroku (1688-1704)</era>
-						<era type="209">Hōei (1704-1711)</era>
-						<era type="21">Tenchō (824-834)</era>
-						<era type="210">Shōtoku (1711-1716)</era>
-						<era type="211">Kyōhō (1716-1736)</era>
-						<era type="212">Genbun (1736-1741)</era>
-						<era type="213">Kanpō (1741-1744)</era>
-						<era type="214">Enkyō (1744-1748)</era>
-						<era type="215">Kan-en (1748-1751)</era>
-						<era type="216">Hōryaku (1751-1764)</era>
-						<era type="217">Meiwa (1764-1772)</era>
-						<era type="218">An-ei (1772-1781)</era>
-						<era type="219">Tenmei (1781-1789)</era>
-						<era type="22">Jōwa (834-848)</era>
-						<era type="220">Kansei (1789-1801)</era>
-						<era type="221">Kyōwa (1801-1804)</era>
-						<era type="222">Bunka (1804-1818)</era>
-						<era type="223">Bunsei (1818-1830)</era>
-						<era type="224">Tenpō (1830-1844)</era>
-						<era type="225">Kōka (1844-1848)</era>
-						<era type="226">Kaei (1848-1854)</era>
-						<era type="227">Ansei (1854-1860)</era>
-						<era type="228">Man-en (1860-1861)</era>
-						<era type="229">Bunkyū (1861-1864)</era>
-						<era type="23">Kajō (848-851)</era>
-						<era type="230">Genji (1864-1865)</era>
-						<era type="231">Keiō (1865-1868)</era>
+						<era type="170">Ōei (1394–1428)</era>
+						<era type="171">Shōchō (1428–1429)</era>
+						<era type="172">Eikyō (1429–1441)</era>
+						<era type="173">Kakitsu (1441–1444)</era>
+						<era type="174">Bun’an (1444–1449)</era>
+						<era type="175">Hōtoku (1449–1452)</era>
+						<era type="176">Kyōtoku (1452–1455)</era>
+						<era type="177">Kōshō (1455–1457)</era>
+						<era type="178">Chōroku (1457–1460)</era>
+						<era type="179">Kanshō (1460–1466)</era>
+						<era type="18">Enryaku (782–806)</era>
+						<era type="180">Bunshō (1466–1467)</era>
+						<era type="181">Ōnin (1467–1469)</era>
+						<era type="182">Bunmei (1469–1487)</era>
+						<era type="183">Chōkyō (1487–1489)</era>
+						<era type="184">Entoku (1489–1492)</era>
+						<era type="185">Meiō (1492–1501)</era>
+						<era type="186">Bunki (1501–1504)</era>
+						<era type="187">Eishō (1504–1521)</era>
+						<era type="188">Taiei (1521–1528)</era>
+						<era type="189">Kyōroku (1528–1532)</era>
+						<era type="19">Daidō (806–810)</era>
+						<era type="190">Tenbun (1532–1555)</era>
+						<era type="191">Kōji (1555–1558)</era>
+						<era type="192">Eiroku (1558–1570)</era>
+						<era type="193">Genki (1570–1573)</era>
+						<era type="194">Tenshō (1573–1592)</era>
+						<era type="195">Bunroku (1592–1596)</era>
+						<era type="196">Keichō (1596–1615)</era>
+						<era type="197">Genna (1615–1624)</era>
+						<era type="198">Kan’ei (1624–1644)</era>
+						<era type="199">Shōho (1644–1648)</era>
+						<era type="2">Hakuhō (672–686)</era>
+						<era type="20">Kōnin (810–824)</era>
+						<era type="200">Keian (1648–1652)</era>
+						<era type="201">Jōō (1652–1655)</era>
+						<era type="202">Meireki (1655–1658)</era>
+						<era type="203">Manji (1658–1661)</era>
+						<era type="204">Kanbun (1661–1673)</era>
+						<era type="205">Enpō (1673–1681)</era>
+						<era type="206">Tenna (1681–1684)</era>
+						<era type="207">Jōkyō (1684–1688)</era>
+						<era type="208">Genroku (1688–1704)</era>
+						<era type="209">Hōei (1704–1711)</era>
+						<era type="21">Tenchō (824–834)</era>
+						<era type="210">Shōtoku (1711–1716)</era>
+						<era type="211">Kyōhō (1716–1736)</era>
+						<era type="212">Genbun (1736–1741)</era>
+						<era type="213">Kanpō (1741–1744)</era>
+						<era type="214">Enkyō (1744–1748)</era>
+						<era type="215">Kan’en (1748–1751)</era>
+						<era type="216">Hōreki (1751–1764)</era>
+						<era type="217">Meiwa (1764–1772)</era>
+						<era type="218">An’ei (1772–1781)</era>
+						<era type="219">Tenmei (1781–1789)</era>
+						<era type="22">Jōwa (834–848)</era>
+						<era type="220">Kansei (1789–1801)</era>
+						<era type="221">Kyōwa (1801–1804)</era>
+						<era type="222">Bunka (1804–1818)</era>
+						<era type="223">Bunsei (1818–1830)</era>
+						<era type="224">Tenpō (1830–1844)</era>
+						<era type="225">Kōka (1844–1848)</era>
+						<era type="226">Kaei (1848–1854)</era>
+						<era type="227">Ansei (1854–1860)</era>
+						<era type="228">Man’en (1860–1861)</era>
+						<era type="229">Bunkyū (1861–1864)</era>
+						<era type="23">Kajō (848–851)</era>
+						<era type="230">Genji (1864–1865)</era>
+						<era type="231">Keiō (1865–1868)</era>
 						<era type="232">Meiji</era>
 						<era type="233">Taishō</era>
 						<era type="234">Shōwa</era>
 						<era type="235">Heisei</era>
-						<era type="24">Ninju (851-854)</era>
-						<era type="25">Saiko (854-857)</era>
-						<era type="26">Tennan (857-859)</era>
-						<era type="27">Jōgan (859-877)</era>
-						<era type="28">Genkei (877-885)</era>
-						<era type="29">Ninna (885-889)</era>
-						<era type="3">Shuchō (686-701)</era>
-						<era type="30">Kampyō (889-898)</era>
-						<era type="31">Shōtai (898-901)</era>
-						<era type="32">Engi (901-923)</era>
-						<era type="33">Enchō (923-931)</era>
-						<era type="34">Shōhei (931-938)</era>
-						<era type="35">Tengyō (938-947)</era>
-						<era type="36">Tenryaku (947-957)</era>
-						<era type="37">Tentoku (957-961)</era>
-						<era type="38">Ōwa (961-964)</era>
-						<era type="39">Kōhō (964-968)</era>
-						<era type="4">Taihō (701-704)</era>
-						<era type="40">Anna (968-970)</era>
-						<era type="41">Tenroku (970-973)</era>
-						<era type="42">Ten-en (973-976)</era>
-						<era type="43">Jōgen (976-978)</era>
-						<era type="44">Tengen (978-983)</era>
-						<era type="45">Eikan (983-985)</era>
-						<era type="46">Kanna (985-987)</era>
-						<era type="47">Ei-en (987-989)</era>
-						<era type="48">Eiso (989-990)</era>
-						<era type="49">Shōryaku (990-995)</era>
-						<era type="5">Keiun (704-708)</era>
-						<era type="50">Chōtoku (995-999)</era>
-						<era type="51">Chōhō (999-1004)</era>
-						<era type="52">Kankō (1004-1012)</era>
-						<era type="53">Chōwa (1012-1017)</era>
-						<era type="54">Kannin (1017-1021)</era>
-						<era type="55">Jian (1021-1024)</era>
-						<era type="56">Manju (1024-1028)</era>
-						<era type="57">Chōgen (1028-1037)</era>
-						<era type="58">Chōryaku (1037-1040)</era>
-						<era type="59">Chōkyū (1040-1044)</era>
-						<era type="6">Wadō (708-715)</era>
-						<era type="60">Kantoku (1044-1046)</era>
-						<era type="61">Eishō (1046-1053)</era>
-						<era type="62">Tengi (1053-1058)</era>
-						<era type="63">Kōhei (1058-1065)</era>
-						<era type="64">Jiryaku (1065-1069)</era>
-						<era type="65">Enkyū (1069-1074)</era>
-						<era type="66">Shōho (1074-1077)</era>
-						<era type="67">Shōryaku (1077-1081)</era>
-						<era type="68">Eiho (1081-1084)</era>
-						<era type="69">Ōtoku (1084-1087)</era>
-						<era type="7">Reiki (715-717)</era>
-						<era type="70">Kanji (1087-1094)</era>
-						<era type="71">Kaho (1094-1096)</era>
-						<era type="72">Eichō (1096-1097)</era>
-						<era type="73">Shōtoku (1097-1099)</era>
-						<era type="74">Kōwa (1099-1104)</era>
-						<era type="75">Chōji (1104-1106)</era>
-						<era type="76">Kashō (1106-1108)</era>
-						<era type="77">Tennin (1108-1110)</era>
+						<era type="24">Ninju (851–854)</era>
+						<era type="25">Saikō (854–857)</era>
+						<era type="26">Ten-an (857-859)</era>
+						<era type="27">Jōgan (859–877)</era>
+						<era type="28">Gangyō (877–885)</era>
+						<era type="29">Ninna (885–889)</era>
+						<era type="3">Shuchō (686–701)</era>
+						<era type="30">Kanpyō (889–898)</era>
+						<era type="31">Shōtai (898–901)</era>
+						<era type="32">Engi (901–923)</era>
+						<era type="33">Enchō (923–931)</era>
+						<era type="34">Jōhei (931–938)</era>
+						<era type="35">Tengyō (938–947)</era>
+						<era type="36">Tenryaku (947–957)</era>
+						<era type="37">Tentoku (957–961)</era>
+						<era type="38">Ōwa (961–964)</era>
+						<era type="39">Kōhō (964–968)</era>
+						<era type="4">Taihō (701–704)</era>
+						<era type="40">Anna (968–970)</era>
+						<era type="41">Tenroku (970–973)</era>
+						<era type="42">Ten’en (973–976)</era>
+						<era type="43">Jōgen (976–978)</era>
+						<era type="44">Tengen (978–983)</era>
+						<era type="45">Eikan (983–985)</era>
+						<era type="46">Kanna (985–987)</era>
+						<era type="47">Eien (987–989)</era>
+						<era type="48">Eiso (989–990)</era>
+						<era type="49">Shōryaku (990–995)</era>
+						<era type="5">Keiun (704–708)</era>
+						<era type="50">Chōtoku (995–999)</era>
+						<era type="51">Chōhō (999–1004)</era>
+						<era type="52">Kankō (1004–1012)</era>
+						<era type="53">Chōwa (1012–1017)</era>
+						<era type="54">Kannin (1017–1021)</era>
+						<era type="55">Jian (1021–1024)</era>
+						<era type="56">Manju (1024–1028)</era>
+						<era type="57">Chōgen (1028–1037)</era>
+						<era type="58">Chōryaku (1037–1040)</era>
+						<era type="59">Chōkyū (1040–1044)</era>
+						<era type="6">Wadō (708–715)</era>
+						<era type="60">Kantoku (1044–1046)</era>
+						<era type="61">Eishō (1046–1053)</era>
+						<era type="62">Tengi (1053–1058)</era>
+						<era type="63">Kōhei (1058–1065)</era>
+						<era type="64">Jiryaku (1065–1069)</era>
+						<era type="65">Enkyū (1069–1074)</era>
+						<era type="66">Shōho (1074–1077)</era>
+						<era type="67">Shōryaku (1077–1081)</era>
+						<era type="68">Eihō (1081–1084)</era>
+						<era type="69">Ōtoku (1084–1087)</era>
+						<era type="7">Reiki (715–717)</era>
+						<era type="70">Kanji (1087–1094)</era>
+						<era type="71">Kahō (1094–1096)</era>
+						<era type="72">Eichō (1096–1097)</era>
+						<era type="73">Jōtoku (1097–1099)</era>
+						<era type="74">Kōwa (1099–1104)</era>
+						<era type="75">Chōji (1104–1106)</era>
+						<era type="76">Kashō (1106–1108)</era>
+						<era type="77">Tennin (1108–1110)</era>
 						<era type="78">Ten-ei (1110-1113)</era>
-						<era type="79">Eikyū (1113-1118)</era>
-						<era type="8">Yōrō (717-724)</era>
-						<era type="80">Gen-ei (1118-1120)</era>
-						<era type="81">Hoan (1120-1124)</era>
-						<era type="82">Tenji (1124-1126)</era>
-						<era type="83">Daiji (1126-1131)</era>
-						<era type="84">Tenshō (1131-1132)</era>
-						<era type="85">Chōshō (1132-1135)</era>
-						<era type="86">Hoen (1135-1141)</era>
-						<era type="87">Eiji (1141-1142)</era>
-						<era type="88">Kōji (1142-1144)</era>
-						<era type="89">Tenyō (1144-1145)</era>
-						<era type="9">Jinki (724-729)</era>
-						<era type="90">Kyūan (1145-1151)</era>
-						<era type="91">Ninpei (1151-1154)</era>
-						<era type="92">Kyūju (1154-1156)</era>
-						<era type="93">Hogen (1156-1159)</era>
-						<era type="94">Heiji (1159-1160)</era>
-						<era type="95">Eiryaku (1160-1161)</era>
-						<era type="96">Ōho (1161-1163)</era>
-						<era type="97">Chōkan (1163-1165)</era>
-						<era type="98">Eiman (1165-1166)</era>
-						<era type="99">Nin-an (1166-1169)</era>
+						<era type="79">Eikyū (1113–1118)</era>
+						<era type="8">Yōrō (717–724)</era>
+						<era type="80">Gen’ei (1118–1120)</era>
+						<era type="81">Hōan (1120–1124)</era>
+						<era type="82">Tenji (1124–1126)</era>
+						<era type="83">Daiji (1126–1131)</era>
+						<era type="84">Tenshō (1131–1132)</era>
+						<era type="85">Chōshō (1132–1135)</era>
+						<era type="86">Hōen (1135–1141)</era>
+						<era type="87">Eiji (1141–1142)</era>
+						<era type="88">Kōji (1142–1144)</era>
+						<era type="89">Ten’yō (1144–1145)</era>
+						<era type="9">Jinki (724–729)</era>
+						<era type="90">Kyūan (1145–1151)</era>
+						<era type="91">Ninpei (1151–1154)</era>
+						<era type="92">Kyūju (1154–1156)</era>
+						<era type="93">Hōgen (1156–1159)</era>
+						<era type="94">Heiji (1159–1160)</era>
+						<era type="95">Eiryaku (1160–1161)</era>
+						<era type="96">Ōho (1161–1163)</era>
+						<era type="97">Chōkan (1163–1165)</era>
+						<era type="98">Eiman (1165–1166)</era>
+						<era type="99">Nin’an (1166–1169)</era>
 					</eraNames>
 					<eraAbbr>
-						<!-- These eras are numbered according to the data used
-							 by the ICU Japanese Calendar.
-							 search for 'ERAS ='
+						<!-- These eras are numbered according to the data used by the ICU Japanese Calendar. search for
+							 'ERAS ='
 						-->
-						<era type="0">Taika (645-650)</era>
-						<era type="1">Hakuchi (650-671)</era>
-						<era type="10">Tempyō (729-749)</era>
-						<era type="100">Kaō (1169-1171)</era>
-						<era type="101">Shōan (1171-1175)</era>
-						<era type="102">Angen (1175-1177)</era>
-						<era type="103">Jishō (1177-1181)</era>
-						<era type="104">Yōwa (1181-1182)</era>
-						<era type="105">Juei (1182-1184)</era>
-						<era type="106">Genryuku (1184-1185)</era>
-						<era type="107">Bunji (1185-1190)</era>
-						<era type="108">Kenkyū (1190-1199)</era>
-						<era type="109">Shōji (1199-1201)</era>
-						<era type="11">Tempyō-kampō (749-749)</era>
-						<era type="110">Kennin (1201-1204)</era>
-						<era type="111">Genkyū (1204-1206)</era>
-						<era type="112">Ken-ei (1206-1207)</era>
-						<era type="113">Shōgen (1207-1211)</era>
-						<era type="114">Kenryaku (1211-1213)</era>
-						<era type="115">Kenpō (1213-1219)</era>
-						<era type="116">Shōkyū (1219-1222)</era>
-						<era type="117">Jōō (1222-1224)</era>
-						<era type="118">Gennin (1224-1225)</era>
-						<era type="119">Karoku (1225-1227)</era>
-						<era type="12">Tempyō-shōhō (749-757)</era>
-						<era type="120">Antei (1227-1229)</era>
-						<era type="121">Kanki (1229-1232)</era>
-						<era type="122">Jōei (1232-1233)</era>
-						<era type="123">Tempuku (1233-1234)</era>
-						<era type="124">Bunryaku (1234-1235)</era>
-						<era type="125">Katei (1235-1238)</era>
-						<era type="126">Ryakunin (1238-1239)</era>
-						<era type="127">En-ō (1239-1240)</era>
-						<era type="128">Ninji (1240-1243)</era>
-						<era type="129">Kangen (1243-1247)</era>
-						<era type="13">Tempyō-hōji (757-765)</era>
-						<era type="130">Hōji (1247-1249)</era>
-						<era type="131">Kenchō (1249-1256)</era>
-						<era type="132">Kōgen (1256-1257)</era>
-						<era type="133">Shōka (1257-1259)</era>
-						<era type="134">Shōgen (1259-1260)</era>
-						<era type="135">Bun-ō (1260-1261)</era>
-						<era type="136">Kōchō (1261-1264)</era>
-						<era type="137">Bun-ei (1264-1275)</era>
-						<era type="138">Kenji (1275-1278)</era>
-						<era type="139">Kōan (1278-1288)</era>
-						<era type="14">Temphō-jingo (765-767)</era>
-						<era type="140">Shōō (1288-1293)</era>
-						<era type="141">Einin (1293-1299)</era>
-						<era type="142">Shōan (1299-1302)</era>
-						<era type="143">Kengen (1302-1303)</era>
-						<era type="144">Kagen (1303-1306)</era>
-						<era type="145">Tokuji (1306-1308)</era>
-						<era type="146">Enkei (1308-1311)</era>
-						<era type="147">Ōchō (1311-1312)</era>
-						<era type="148">Shōwa (1312-1317)</era>
-						<era type="149">Bunpō (1317-1319)</era>
+						<era type="0">Taika (645–650)</era>
+						<era type="1">Hakuchi (650–671)</era>
+						<era type="10">Tenpyō (729–749)</era>
+						<era type="100">Kaō (1169–1171)</era>
+						<era type="101">Shōan (1171–1175)</era>
+						<era type="102">Angen (1175–1177)</era>
+						<era type="103">Jishō (1177–1181)</era>
+						<era type="104">Yōwa (1181–1182)</era>
+						<era type="105">Juei (1182–1184)</era>
+						<era type="106">Genryaku (1184–1185)</era>
+						<era type="107">Bunji (1185–1190)</era>
+						<era type="108">Kenkyū (1190–1199)</era>
+						<era type="109">Shōji (1199–1201)</era>
+						<era type="11">Tenpyō-kampō (749-749)</era>
+						<era type="110">Kennin (1201–1204)</era>
+						<era type="111">Genkyū (1204–1206)</era>
+						<era type="112">Ken’ei (1206–1207)</era>
+						<era type="113">Jōgen (1207–1211)</era>
+						<era type="114">Kenryaku (1211–1213)</era>
+						<era type="115">Kenpō (1213–1219)</era>
+						<era type="116">Jōkyū (1219–1222)</era>
+						<era type="117">Jōō (1222–1224)</era>
+						<era type="118">Gennin (1224–1225)</era>
+						<era type="119">Karoku (1225–1227)</era>
+						<era type="12">Tenpyō-shōhō (749-757)</era>
+						<era type="120">Antei (1227–1229)</era>
+						<era type="121">Kanki (1229–1232)</era>
+						<era type="122">Jōei (1232–1233)</era>
+						<era type="123">Tenpuku (1233–1234)</era>
+						<era type="124">Bunryaku (1234–1235)</era>
+						<era type="125">Katei (1235–1238)</era>
+						<era type="126">Ryakunin (1238–1239)</era>
+						<era type="127">En’ō (1239–1240)</era>
+						<era type="128">Ninji (1240–1243)</era>
+						<era type="129">Kangen (1243–1247)</era>
+						<era type="13">Tenpyō-hōji (757-765)</era>
+						<era type="130">Hōji (1247–1249)</era>
+						<era type="131">Kenchō (1249–1256)</era>
+						<era type="132">Kōgen (1256–1257)</era>
+						<era type="133">Shōka (1257–1259)</era>
+						<era type="134">Shōgen (1259–1260)</era>
+						<era type="135">Bun’ō (1260–1261)</era>
+						<era type="136">Kōchō (1261–1264)</era>
+						<era type="137">Bun’ei (1264–1275)</era>
+						<era type="138">Kenji (1275–1278)</era>
+						<era type="139">Kōan (1278–1288)</era>
+						<era type="14">Tenpyō-jingo (765-767)</era>
+						<era type="140">Shōō (1288–1293)</era>
+						<era type="141">Einin (1293–1299)</era>
+						<era type="142">Shōan (1299–1302)</era>
+						<era type="143">Kengen (1302–1303)</era>
+						<era type="144">Kagen (1303–1306)</era>
+						<era type="145">Tokuji (1306–1308)</era>
+						<era type="146">Enkyō (1308–1311)</era>
+						<era type="147">Ōchō (1311–1312)</era>
+						<era type="148">Shōwa (1312–1317)</era>
+						<era type="149">Bunpō (1317–1319)</era>
 						<era type="15">Jingo-keiun (767-770)</era>
-						<era type="150">Genō (1319-1321)</era>
-						<era type="151">Genkyō (1321-1324)</era>
-						<era type="152">Shōchū (1324-1326)</era>
-						<era type="153">Kareki (1326-1329)</era>
-						<era type="154">Gentoku (1329-1331)</era>
-						<era type="155">Genkō (1331-1334)</era>
-						<era type="156">Kemmu (1334-1336)</era>
-						<era type="157">Engen (1336-1340)</era>
-						<era type="158">Kōkoku (1340-1346)</era>
-						<era type="159">Shōhei (1346-1370)</era>
-						<era type="16">Hōki (770-780)</era>
-						<era type="160">Kentoku (1370-1372)</era>
-						<era type="161">Bunchū (1372-1375)</era>
-						<era type="162">Tenju (1375-1379)</era>
-						<era type="163">Kōryaku (1379-1381)</era>
-						<era type="164">Kōwa (1381-1384)</era>
-						<era type="165">Genchū (1384-1392)</era>
-						<era type="166">Meitoku (1384-1387)</era>
-						<era type="167">Kakei (1387-1389)</era>
-						<era type="168">Kōō (1389-1390)</era>
-						<era type="169">Meitoku (1390-1394)</era>
+						<era type="150">Genō (1319–1321)</era>
+						<era type="151">Genkō (1321–1324)</era>
+						<era type="152">Shōchū (1324–1326)</era>
+						<era type="153">Karyaku (1326–1329)</era>
+						<era type="154">Gentoku (1329–1331)</era>
+						<era type="155">Genkō (1331–1334)</era>
+						<era type="156">Kenmu (1334–1336)</era>
+						<era type="157">Engen (1336–1340)</era>
+						<era type="158">Kōkoku (1340–1346)</era>
+						<era type="159">Shōhei (1346–1370)</era>
+						<era type="16">Hōki (770–780)</era>
+						<era type="160">Kentoku (1370–1372)</era>
+						<era type="161">Bunchū (1372–1375)</era>
+						<era type="162">Tenju (1375–1379)</era>
+						<era type="163">Kōryaku (1379–1381)</era>
+						<era type="164">Kōwa (1381–1384)</era>
+						<era type="165">Genchū (1384–1392)</era>
+						<era type="166">Meitoku (1384–1387)</era>
+						<era type="167">Kakei (1387–1389)</era>
+						<era type="168">Kōō (1389–1390)</era>
+						<era type="169">Meitoku (1390–1394)</era>
 						<era type="17">Ten-ō (781-782)</era>
-						<era type="170">Ōei (1394-1428)</era>
-						<era type="171">Shōchō (1428-1429)</era>
-						<era type="172">Eikyō (1429-1441)</era>
-						<era type="173">Kakitsu (1441-1444)</era>
-						<era type="174">Bun-an (1444-1449)</era>
-						<era type="175">Hōtoku (1449-1452)</era>
-						<era type="176">Kyōtoku (1452-1455)</era>
-						<era type="177">Kōshō (1455-1457)</era>
-						<era type="178">Chōroku (1457-1460)</era>
-						<era type="179">Kanshō (1460-1466)</era>
-						<era type="18">Enryaku (782-806)</era>
-						<era type="180">Bunshō (1466-1467)</era>
-						<era type="181">Ōnin (1467-1469)</era>
-						<era type="182">Bunmei (1469-1487)</era>
-						<era type="183">Chōkyō (1487-1489)</era>
-						<era type="184">Entoku (1489-1492)</era>
-						<era type="185">Meiō (1492-1501)</era>
-						<era type="186">Bunki (1501-1504)</era>
-						<era type="187">Eishō (1504-1521)</era>
-						<era type="188">Taiei (1521-1528)</era>
-						<era type="189">Kyōroku (1528-1532)</era>
-						<era type="19">Daidō (806-810)</era>
-						<era type="190">Tenmon (1532-1555)</era>
-						<era type="191">Kōji (1555-1558)</era>
-						<era type="192">Eiroku (1558-1570)</era>
-						<era type="193">Genki (1570-1573)</era>
-						<era type="194">Tenshō (1573-1592)</era>
-						<era type="195">Bunroku (1592-1596)</era>
-						<era type="196">Keichō (1596-1615)</era>
-						<era type="197">Genwa (1615-1624)</era>
-						<era type="198">Kan-ei (1624-1644)</era>
-						<era type="199">Shōho (1644-1648)</era>
-						<era type="2">Hakuhō (672-686)</era>
-						<era type="20">Kōnin (810-824)</era>
-						<era type="200">Keian (1648-1652)</era>
-						<era type="201">Shōō (1652-1655)</era>
-						<era type="202">Meiryaku (1655-1658)</era>
-						<era type="203">Manji (1658-1661)</era>
-						<era type="204">Kanbun (1661-1673)</era>
-						<era type="205">Enpō (1673-1681)</era>
-						<era type="206">Tenwa (1681-1684)</era>
-						<era type="207">Jōkyō (1684-1688)</era>
-						<era type="208">Genroku (1688-1704)</era>
-						<era type="209">Hōei (1704-1711)</era>
-						<era type="21">Tenchō (824-834)</era>
-						<era type="210">Shōtoku (1711-1716)</era>
-						<era type="211">Kyōhō (1716-1736)</era>
-						<era type="212">Genbun (1736-1741)</era>
-						<era type="213">Kanpō (1741-1744)</era>
-						<era type="214">Enkyō (1744-1748)</era>
-						<era type="215">Kan-en (1748-1751)</era>
-						<era type="216">Hōryaku (1751-1764)</era>
-						<era type="217">Meiwa (1764-1772)</era>
-						<era type="218">An-ei (1772-1781)</era>
-						<era type="219">Tenmei (1781-1789)</era>
-						<era type="22">Jōwa (834-848)</era>
-						<era type="220">Kansei (1789-1801)</era>
-						<era type="221">Kyōwa (1801-1804)</era>
-						<era type="222">Bunka (1804-1818)</era>
-						<era type="223">Bunsei (1818-1830)</era>
-						<era type="224">Tenpō (1830-1844)</era>
-						<era type="225">Kōka (1844-1848)</era>
-						<era type="226">Kaei (1848-1854)</era>
-						<era type="227">Ansei (1854-1860)</era>
-						<era type="228">Man-en (1860-1861)</era>
-						<era type="229">Bunkyū (1861-1864)</era>
-						<era type="23">Kajō (848-851)</era>
-						<era type="230">Genji (1864-1865)</era>
-						<era type="231">Keiō (1865-1868)</era>
+						<era type="170">Ōei (1394–1428)</era>
+						<era type="171">Shōchō (1428–1429)</era>
+						<era type="172">Eikyō (1429–1441)</era>
+						<era type="173">Kakitsu (1441–1444)</era>
+						<era type="174">Bun’an (1444–1449)</era>
+						<era type="175">Hōtoku (1449–1452)</era>
+						<era type="176">Kyōtoku (1452–1455)</era>
+						<era type="177">Kōshō (1455–1457)</era>
+						<era type="178">Chōroku (1457–1460)</era>
+						<era type="179">Kanshō (1460–1466)</era>
+						<era type="18">Enryaku (782–806)</era>
+						<era type="180">Bunshō (1466–1467)</era>
+						<era type="181">Ōnin (1467–1469)</era>
+						<era type="182">Bunmei (1469–1487)</era>
+						<era type="183">Chōkyō (1487–1489)</era>
+						<era type="184">Entoku (1489–1492)</era>
+						<era type="185">Meiō (1492–1501)</era>
+						<era type="186">Bunki (1501–1504)</era>
+						<era type="187">Eishō (1504–1521)</era>
+						<era type="188">Taiei (1521–1528)</era>
+						<era type="189">Kyōroku (1528–1532)</era>
+						<era type="19">Daidō (806–810)</era>
+						<era type="190">Tenbun (1532–1555)</era>
+						<era type="191">Kōji (1555–1558)</era>
+						<era type="192">Eiroku (1558–1570)</era>
+						<era type="193">Genki (1570–1573)</era>
+						<era type="194">Tenshō (1573–1592)</era>
+						<era type="195">Bunroku (1592–1596)</era>
+						<era type="196">Keichō (1596–1615)</era>
+						<era type="197">Genna (1615–1624)</era>
+						<era type="198">Kan’ei (1624–1644)</era>
+						<era type="199">Shōho (1644–1648)</era>
+						<era type="2">Hakuhō (672–686)</era>
+						<era type="20">Kōnin (810–824)</era>
+						<era type="200">Keian (1648–1652)</era>
+						<era type="201">Jōō (1652–1655)</era>
+						<era type="202">Meireki (1655–1658)</era>
+						<era type="203">Manji (1658–1661)</era>
+						<era type="204">Kanbun (1661–1673)</era>
+						<era type="205">Enpō (1673–1681)</era>
+						<era type="206">Tenna (1681–1684)</era>
+						<era type="207">Jōkyō (1684–1688)</era>
+						<era type="208">Genroku (1688–1704)</era>
+						<era type="209">Hōei (1704–1711)</era>
+						<era type="21">Tenchō (824–834)</era>
+						<era type="210">Shōtoku (1711–1716)</era>
+						<era type="211">Kyōhō (1716–1736)</era>
+						<era type="212">Genbun (1736–1741)</era>
+						<era type="213">Kanpō (1741–1744)</era>
+						<era type="214">Enkyō (1744–1748)</era>
+						<era type="215">Kan’en (1748–1751)</era>
+						<era type="216">Hōreki (1751–1764)</era>
+						<era type="217">Meiwa (1764–1772)</era>
+						<era type="218">An’ei (1772–1781)</era>
+						<era type="219">Tenmei (1781–1789)</era>
+						<era type="22">Jōwa (834–848)</era>
+						<era type="220">Kansei (1789–1801)</era>
+						<era type="221">Kyōwa (1801–1804)</era>
+						<era type="222">Bunka (1804–1818)</era>
+						<era type="223">Bunsei (1818–1830)</era>
+						<era type="224">Tenpō (1830–1844)</era>
+						<era type="225">Kōka (1844–1848)</era>
+						<era type="226">Kaei (1848–1854)</era>
+						<era type="227">Ansei (1854–1860)</era>
+						<era type="228">Man’en (1860–1861)</era>
+						<era type="229">Bunkyū (1861–1864)</era>
+						<era type="23">Kajō (848–851)</era>
+						<era type="230">Genji (1864–1865)</era>
+						<era type="231">Keiō (1865–1868)</era>
 						<era type="232">Meiji</era>
 						<era type="233">Taishō</era>
 						<era type="234">Shōwa</era>
 						<era type="235">Heisei</era>
-						<era type="24">Ninju (851-854)</era>
-						<era type="25">Saiko (854-857)</era>
-						<era type="26">Tennan (857-859)</era>
-						<era type="27">Jōgan (859-877)</era>
-						<era type="28">Genkei (877-885)</era>
-						<era type="29">Ninna (885-889)</era>
-						<era type="3">Shuchō (686-701)</era>
-						<era type="30">Kampyō (889-898)</era>
-						<era type="31">Shōtai (898-901)</era>
-						<era type="32">Engi (901-923)</era>
-						<era type="33">Enchō (923-931)</era>
-						<era type="34">Shōhei (931-938)</era>
-						<era type="35">Tengyō (938-947)</era>
-						<era type="36">Tenryaku (947-957)</era>
-						<era type="37">Tentoku (957-961)</era>
-						<era type="38">Ōwa (961-964)</era>
-						<era type="39">Kōhō (964-968)</era>
-						<era type="4">Taihō (701-704)</era>
-						<era type="40">Anna (968-970)</era>
-						<era type="41">Tenroku (970-973)</era>
-						<era type="42">Ten-en (973-976)</era>
-						<era type="43">Jōgen (976-978)</era>
-						<era type="44">Tengen (978-983)</era>
-						<era type="45">Eikan (983-985)</era>
-						<era type="46">Kanna (985-987)</era>
-						<era type="47">Ei-en (987-989)</era>
-						<era type="48">Eiso (989-990)</era>
-						<era type="49">Shōryaku (990-995)</era>
-						<era type="5">Keiun (704-708)</era>
-						<era type="50">Chōtoku (995-999)</era>
-						<era type="51">Chōhō (999-1004)</era>
-						<era type="52">Kankō (1004-1012)</era>
-						<era type="53">Chōwa (1012-1017)</era>
-						<era type="54">Kannin (1017-1021)</era>
-						<era type="55">Jian (1021-1024)</era>
-						<era type="56">Manju (1024-1028)</era>
-						<era type="57">Chōgen (1028-1037)</era>
-						<era type="58">Chōryaku (1037-1040)</era>
-						<era type="59">Chōkyū (1040-1044)</era>
-						<era type="6">Wadō (708-715)</era>
-						<era type="60">Kantoku (1044-1046)</era>
-						<era type="61">Eishō (1046-1053)</era>
-						<era type="62">Tengi (1053-1058)</era>
-						<era type="63">Kōhei (1058-1065)</era>
-						<era type="64">Jiryaku (1065-1069)</era>
-						<era type="65">Enkyū (1069-1074)</era>
-						<era type="66">Shōho (1074-1077)</era>
-						<era type="67">Shōryaku (1077-1081)</era>
-						<era type="68">Eiho (1081-1084)</era>
-						<era type="69">Ōtoku (1084-1087)</era>
-						<era type="7">Reiki (715-717)</era>
-						<era type="70">Kanji (1087-1094)</era>
-						<era type="71">Kaho (1094-1096)</era>
-						<era type="72">Eichō (1096-1097)</era>
-						<era type="73">Shōtoku (1097-1099)</era>
-						<era type="74">Kōwa (1099-1104)</era>
-						<era type="75">Chōji (1104-1106)</era>
-						<era type="76">Kashō (1106-1108)</era>
-						<era type="77">Tennin (1108-1110)</era>
+						<era type="24">Ninju (851–854)</era>
+						<era type="25">Saikō (854–857)</era>
+						<era type="26">Ten-an (857-859)</era>
+						<era type="27">Jōgan (859–877)</era>
+						<era type="28">Gangyō (877–885)</era>
+						<era type="29">Ninna (885–889)</era>
+						<era type="3">Shuchō (686–701)</era>
+						<era type="30">Kanpyō (889–898)</era>
+						<era type="31">Shōtai (898–901)</era>
+						<era type="32">Engi (901–923)</era>
+						<era type="33">Enchō (923–931)</era>
+						<era type="34">Jōhei (931–938)</era>
+						<era type="35">Tengyō (938–947)</era>
+						<era type="36">Tenryaku (947–957)</era>
+						<era type="37">Tentoku (957–961)</era>
+						<era type="38">Ōwa (961–964)</era>
+						<era type="39">Kōhō (964–968)</era>
+						<era type="4">Taihō (701–704)</era>
+						<era type="40">Anna (968–970)</era>
+						<era type="41">Tenroku (970–973)</era>
+						<era type="42">Ten’en (973–976)</era>
+						<era type="43">Jōgen (976–978)</era>
+						<era type="44">Tengen (978–983)</era>
+						<era type="45">Eikan (983–985)</era>
+						<era type="46">Kanna (985–987)</era>
+						<era type="47">Eien (987–989)</era>
+						<era type="48">Eiso (989–990)</era>
+						<era type="49">Shōryaku (990–995)</era>
+						<era type="5">Keiun (704–708)</era>
+						<era type="50">Chōtoku (995–999)</era>
+						<era type="51">Chōhō (999–1004)</era>
+						<era type="52">Kankō (1004–1012)</era>
+						<era type="53">Chōwa (1012–1017)</era>
+						<era type="54">Kannin (1017–1021)</era>
+						<era type="55">Jian (1021–1024)</era>
+						<era type="56">Manju (1024–1028)</era>
+						<era type="57">Chōgen (1028–1037)</era>
+						<era type="58">Chōryaku (1037–1040)</era>
+						<era type="59">Chōkyū (1040–1044)</era>
+						<era type="6">Wadō (708–715)</era>
+						<era type="60">Kantoku (1044–1046)</era>
+						<era type="61">Eishō (1046–1053)</era>
+						<era type="62">Tengi (1053–1058)</era>
+						<era type="63">Kōhei (1058–1065)</era>
+						<era type="64">Jiryaku (1065–1069)</era>
+						<era type="65">Enkyū (1069–1074)</era>
+						<era type="66">Shōho (1074–1077)</era>
+						<era type="67">Shōryaku (1077–1081)</era>
+						<era type="68">Eihō (1081–1084)</era>
+						<era type="69">Ōtoku (1084–1087)</era>
+						<era type="7">Reiki (715–717)</era>
+						<era type="70">Kanji (1087–1094)</era>
+						<era type="71">Kahō (1094–1096)</era>
+						<era type="72">Eichō (1096–1097)</era>
+						<era type="73">Jōtoku (1097–1099)</era>
+						<era type="74">Kōwa (1099–1104)</era>
+						<era type="75">Chōji (1104–1106)</era>
+						<era type="76">Kashō (1106–1108)</era>
+						<era type="77">Tennin (1108–1110)</era>
 						<era type="78">Ten-ei (1110-1113)</era>
-						<era type="79">Eikyū (1113-1118)</era>
-						<era type="8">Yōrō (717-724)</era>
-						<era type="80">Gen-ei (1118-1120)</era>
-						<era type="81">Hoan (1120-1124)</era>
-						<era type="82">Tenji (1124-1126)</era>
-						<era type="83">Daiji (1126-1131)</era>
-						<era type="84">Tenshō (1131-1132)</era>
-						<era type="85">Chōshō (1132-1135)</era>
-						<era type="86">Hoen (1135-1141)</era>
-						<era type="87">Eiji (1141-1142)</era>
-						<era type="88">Kōji (1142-1144)</era>
-						<era type="89">Tenyō (1144-1145)</era>
-						<era type="9">Jinki (724-729)</era>
-						<era type="90">Kyūan (1145-1151)</era>
-						<era type="91">Ninpei (1151-1154)</era>
-						<era type="92">Kyūju (1154-1156)</era>
-						<era type="93">Hogen (1156-1159)</era>
-						<era type="94">Heiji (1159-1160)</era>
-						<era type="95">Eiryaku (1160-1161)</era>
-						<era type="96">Ōho (1161-1163)</era>
-						<era type="97">Chōkan (1163-1165)</era>
-						<era type="98">Eiman (1165-1166)</era>
-						<era type="99">Nin-an (1166-1169)</era>
+						<era type="79">Eikyū (1113–1118)</era>
+						<era type="8">Yōrō (717–724)</era>
+						<era type="80">Gen’ei (1118–1120)</era>
+						<era type="81">Hōan (1120–1124)</era>
+						<era type="82">Tenji (1124–1126)</era>
+						<era type="83">Daiji (1126–1131)</era>
+						<era type="84">Tenshō (1131–1132)</era>
+						<era type="85">Chōshō (1132–1135)</era>
+						<era type="86">Hōen (1135–1141)</era>
+						<era type="87">Eiji (1141–1142)</era>
+						<era type="88">Kōji (1142–1144)</era>
+						<era type="89">Ten’yō (1144–1145)</era>
+						<era type="9">Jinki (724–729)</era>
+						<era type="90">Kyūan (1145–1151)</era>
+						<era type="91">Ninpei (1151–1154)</era>
+						<era type="92">Kyūju (1154–1156)</era>
+						<era type="93">Hōgen (1156–1159)</era>
+						<era type="94">Heiji (1159–1160)</era>
+						<era type="95">Eiryaku (1160–1161)</era>
+						<era type="96">Ōho (1161–1163)</era>
+						<era type="97">Chōkan (1163–1165)</era>
+						<era type="98">Eiman (1165–1166)</era>
+						<era type="99">Nin’an (1166–1169)</era>
 					</eraAbbr>
 					<eraNarrow>
-						<era type="0">Taika (645-650)</era>
-						<era type="1">Hakuchi (650-671)</era>
-						<era type="10">Tempyō (729-749)</era>
-						<era type="100">Kaō (1169-1171)</era>
-						<era type="101">Shōan (1171-1175)</era>
-						<era type="102">Angen (1175-1177)</era>
-						<era type="103">Jishō (1177-1181)</era>
-						<era type="104">Yōwa (1181-1182)</era>
-						<era type="105">Juei (1182-1184)</era>
-						<era type="106">Genryuku (1184-1185)</era>
-						<era type="107">Bunji (1185-1190)</era>
-						<era type="108">Kenkyū (1190-1199)</era>
-						<era type="109">Shōji (1199-1201)</era>
-						<era type="11">Tempyō-kampō (749-749)</era>
-						<era type="110">Kennin (1201-1204)</era>
-						<era type="111">Genkyū (1204-1206)</era>
-						<era type="112">Ken-ei (1206-1207)</era>
-						<era type="113">Shōgen (1207-1211)</era>
-						<era type="114">Kenryaku (1211-1213)</era>
-						<era type="115">Kenpō (1213-1219)</era>
-						<era type="116">Shōkyū (1219-1222)</era>
-						<era type="117">Jōō (1222-1224)</era>
-						<era type="118">Gennin (1224-1225)</era>
-						<era type="119">Karoku (1225-1227)</era>
-						<era type="12">Tempyō-shōhō (749-757)</era>
-						<era type="120">Antei (1227-1229)</era>
-						<era type="121">Kanki (1229-1232)</era>
-						<era type="122">Jōei (1232-1233)</era>
-						<era type="123">Tempuku (1233-1234)</era>
-						<era type="124">Bunryaku (1234-1235)</era>
-						<era type="125">Katei (1235-1238)</era>
-						<era type="126">Ryakunin (1238-1239)</era>
-						<era type="127">En-ō (1239-1240)</era>
-						<era type="128">Ninji (1240-1243)</era>
-						<era type="129">Kangen (1243-1247)</era>
-						<era type="13">Tempyō-hōji (757-765)</era>
-						<era type="130">Hōji (1247-1249)</era>
-						<era type="131">Kenchō (1249-1256)</era>
-						<era type="132">Kōgen (1256-1257)</era>
-						<era type="133">Shōka (1257-1259)</era>
-						<era type="134">Shōgen (1259-1260)</era>
-						<era type="135">Bun-ō (1260-1261)</era>
-						<era type="136">Kōchō (1261-1264)</era>
-						<era type="137">Bun-ei (1264-1275)</era>
-						<era type="138">Kenji (1275-1278)</era>
-						<era type="139">Kōan (1278-1288)</era>
-						<era type="14">Temphō-jingo (765-767)</era>
-						<era type="140">Shōō (1288-1293)</era>
-						<era type="141">Einin (1293-1299)</era>
-						<era type="142">Shōan (1299-1302)</era>
-						<era type="143">Kengen (1302-1303)</era>
-						<era type="144">Kagen (1303-1306)</era>
-						<era type="145">Tokuji (1306-1308)</era>
-						<era type="146">Enkei (1308-1311)</era>
-						<era type="147">Ōchō (1311-1312)</era>
-						<era type="148">Shōwa (1312-1317)</era>
-						<era type="149">Bunpō (1317-1319)</era>
+						<era type="0">Taika (645–650)</era>
+						<era type="1">Hakuchi (650–671)</era>
+						<era type="10">Tenpyō (729–749)</era>
+						<era type="100">Kaō (1169–1171)</era>
+						<era type="101">Shōan (1171–1175)</era>
+						<era type="102">Angen (1175–1177)</era>
+						<era type="103">Jishō (1177–1181)</era>
+						<era type="104">Yōwa (1181–1182)</era>
+						<era type="105">Juei (1182–1184)</era>
+						<era type="106">Genryaku (1184–1185)</era>
+						<era type="107">Bunji (1185–1190)</era>
+						<era type="108">Kenkyū (1190–1199)</era>
+						<era type="109">Shōji (1199–1201)</era>
+						<era type="11">Tenpyō-kampō (749-749)</era>
+						<era type="110">Kennin (1201–1204)</era>
+						<era type="111">Genkyū (1204–1206)</era>
+						<era type="112">Ken’ei (1206–1207)</era>
+						<era type="113">Jōgen (1207–1211)</era>
+						<era type="114">Kenryaku (1211–1213)</era>
+						<era type="115">Kenpō (1213–1219)</era>
+						<era type="116">Jōkyū (1219–1222)</era>
+						<era type="117">Jōō (1222–1224)</era>
+						<era type="118">Gennin (1224–1225)</era>
+						<era type="119">Karoku (1225–1227)</era>
+						<era type="12">Tenpyō-shōhō (749-757)</era>
+						<era type="120">Antei (1227–1229)</era>
+						<era type="121">Kanki (1229–1232)</era>
+						<era type="122">Jōei (1232–1233)</era>
+						<era type="123">Tenpuku (1233–1234)</era>
+						<era type="124">Bunryaku (1234–1235)</era>
+						<era type="125">Katei (1235–1238)</era>
+						<era type="126">Ryakunin (1238–1239)</era>
+						<era type="127">En’ō (1239–1240)</era>
+						<era type="128">Ninji (1240–1243)</era>
+						<era type="129">Kangen (1243–1247)</era>
+						<era type="13">Tenpyō-hōji (757-765)</era>
+						<era type="130">Hōji (1247–1249)</era>
+						<era type="131">Kenchō (1249–1256)</era>
+						<era type="132">Kōgen (1256–1257)</era>
+						<era type="133">Shōka (1257–1259)</era>
+						<era type="134">Shōgen (1259–1260)</era>
+						<era type="135">Bun’ō (1260–1261)</era>
+						<era type="136">Kōchō (1261–1264)</era>
+						<era type="137">Bun’ei (1264–1275)</era>
+						<era type="138">Kenji (1275–1278)</era>
+						<era type="139">Kōan (1278–1288)</era>
+						<era type="14">Tenpyō-jingo (765-767)</era>
+						<era type="140">Shōō (1288–1293)</era>
+						<era type="141">Einin (1293–1299)</era>
+						<era type="142">Shōan (1299–1302)</era>
+						<era type="143">Kengen (1302–1303)</era>
+						<era type="144">Kagen (1303–1306)</era>
+						<era type="145">Tokuji (1306–1308)</era>
+						<era type="146">Enkyō (1308–1311)</era>
+						<era type="147">Ōchō (1311–1312)</era>
+						<era type="148">Shōwa (1312–1317)</era>
+						<era type="149">Bunpō (1317–1319)</era>
 						<era type="15">Jingo-keiun (767-770)</era>
-						<era type="150">Genō (1319-1321)</era>
-						<era type="151">Genkyō (1321-1324)</era>
-						<era type="152">Shōchū (1324-1326)</era>
-						<era type="153">Kareki (1326-1329)</era>
-						<era type="154">Gentoku (1329-1331)</era>
-						<era type="155">Genkō (1331-1334)</era>
-						<era type="156">Kemmu (1334-1336)</era>
-						<era type="157">Engen (1336-1340)</era>
-						<era type="158">Kōkoku (1340-1346)</era>
-						<era type="159">Shōhei (1346-1370)</era>
-						<era type="16">Hōki (770-780)</era>
-						<era type="160">Kentoku (1370-1372)</era>
-						<era type="161">Bunchũ (1372-1375)</era>
-						<era type="162">Tenju (1375-1379)</era>
-						<era type="163">Kōryaku (1379-1381)</era>
-						<era type="164">Kōwa (1381-1384)</era>
-						<era type="165">Genchũ (1384-1392)</era>
-						<era type="166">Meitoku (1384-1387)</era>
-						<era type="167">Kakei (1387-1389)</era>
-						<era type="168">Kōō (1389-1390)</era>
-						<era type="169">Meitoku (1390-1394)</era>
+						<era type="150">Genō (1319–1321)</era>
+						<era type="151">Genkō (1321–1324)</era>
+						<era type="152">Shōchū (1324–1326)</era>
+						<era type="153">Karyaku (1326–1329)</era>
+						<era type="154">Gentoku (1329–1331)</era>
+						<era type="155">Genkō (1331–1334)</era>
+						<era type="156">Kenmu (1334–1336)</era>
+						<era type="157">Engen (1336–1340)</era>
+						<era type="158">Kōkoku (1340–1346)</era>
+						<era type="159">Shōhei (1346–1370)</era>
+						<era type="16">Hōki (770–780)</era>
+						<era type="160">Kentoku (1370–1372)</era>
+						<era type="161">Bunchū (1372–1375)</era>
+						<era type="162">Tenju (1375–1379)</era>
+						<era type="163">Kōryaku (1379–1381)</era>
+						<era type="164">Kōwa (1381–1384)</era>
+						<era type="165">Genchū (1384–1392)</era>
+						<era type="166">Meitoku (1384–1387)</era>
+						<era type="167">Kakei (1387–1389)</era>
+						<era type="168">Kōō (1389–1390)</era>
+						<era type="169">Meitoku (1390–1394)</era>
 						<era type="17">Ten-ō (781-782)</era>
-						<era type="170">Ōei (1394-1428)</era>
-						<era type="171">Shōchō (1428-1429)</era>
-						<era type="172">Eikyō (1429-1441)</era>
-						<era type="173">Kakitsu (1441-1444)</era>
-						<era type="174">Bun-an (1444-1449)</era>
-						<era type="175">Hōtoku (1449-1452)</era>
-						<era type="176">Kyōtoku (1452-1455)</era>
-						<era type="177">Kōshō (1455-1457)</era>
-						<era type="178">Chōroku (1457-1460)</era>
-						<era type="179">Kanshō (1460-1466)</era>
-						<era type="18">Enryaku (782-806)</era>
-						<era type="180">Bunshō (1466-1467)</era>
-						<era type="181">Ōnin (1467-1469)</era>
-						<era type="182">Bunmei (1469-1487)</era>
-						<era type="183">Chōkyō (1487-1489)</era>
-						<era type="184">Entoku (1489-1492)</era>
-						<era type="185">Meiō (1492-1501)</era>
-						<era type="186">Bunki (1501-1504)</era>
-						<era type="187">Eishō (1504-1521)</era>
-						<era type="188">Taiei (1521-1528)</era>
-						<era type="189">Kyōroku (1528-1532)</era>
-						<era type="19">Daidō (806-810)</era>
-						<era type="190">Tenmon (1532-1555)</era>
-						<era type="191">Kōji (1555-1558)</era>
-						<era type="192">Eiroku (1558-1570)</era>
-						<era type="193">Genki (1570-1573)</era>
-						<era type="194">Tenshō (1573-1592)</era>
-						<era type="195">Bunroku (1592-1596)</era>
-						<era type="196">Keichō (1596-1615)</era>
-						<era type="197">Genwa (1615-1624)</era>
-						<era type="198">Kan-ei (1624-1644)</era>
-						<era type="199">Shōho (1644-1648)</era>
-						<era type="2">Hakuhō (672-686)</era>
-						<era type="20">Kōnin (810-824)</era>
-						<era type="200">Keian (1648-1652)</era>
-						<era type="201">Shōō (1652-1655)</era>
-						<era type="202">Meiryaku (1655-1658)</era>
-						<era type="203">Manji (1658-1661)</era>
-						<era type="204">Kanbun (1661-1673)</era>
-						<era type="205">Enpō (1673-1681)</era>
-						<era type="206">Tenwa (1681-1684)</era>
-						<era type="207">Jōkyō (1684-1688)</era>
-						<era type="208">Genroku (1688-1704)</era>
-						<era type="209">Hōei (1704-1711)</era>
-						<era type="21">Tenchō (824-834)</era>
-						<era type="210">Shōtoku (1711-1716)</era>
-						<era type="211">Kyōhō (1716-1736)</era>
-						<era type="212">Genbun (1736-1741)</era>
-						<era type="213">Kanpō (1741-1744)</era>
-						<era type="214">Enkyō (1744-1748)</era>
-						<era type="215">Kan-en (1748-1751)</era>
-						<era type="216">Hōryaku (1751-1764)</era>
-						<era type="217">Meiwa (1764-1772)</era>
-						<era type="218">An-ei (1772-1781)</era>
-						<era type="219">Tenmei (1781-1789)</era>
-						<era type="22">Jōwa (834-848)</era>
-						<era type="220">Kansei (1789-1801)</era>
-						<era type="221">Kyōwa (1801-1804)</era>
-						<era type="222">Bunka (1804-1818)</era>
-						<era type="223">Bunsei (1818-1830)</era>
-						<era type="224">Tenpō (1830-1844)</era>
-						<era type="225">Kōka (1844-1848)</era>
-						<era type="226">Kaei (1848-1854)</era>
-						<era type="227">Ansei (1854-1860)</era>
-						<era type="228">Man-en (1860-1861)</era>
-						<era type="229">Bunkyū (1861-1864)</era>
-						<era type="23">Kajō (848-851)</era>
-						<era type="230">Genji (1864-1865)</era>
-						<era type="231">Keiō (1865-1868)</era>
+						<era type="170">Ōei (1394–1428)</era>
+						<era type="171">Shōchō (1428–1429)</era>
+						<era type="172">Eikyō (1429–1441)</era>
+						<era type="173">Kakitsu (1441–1444)</era>
+						<era type="174">Bun’an (1444–1449)</era>
+						<era type="175">Hōtoku (1449–1452)</era>
+						<era type="176">Kyōtoku (1452–1455)</era>
+						<era type="177">Kōshō (1455–1457)</era>
+						<era type="178">Chōroku (1457–1460)</era>
+						<era type="179">Kanshō (1460–1466)</era>
+						<era type="18">Enryaku (782–806)</era>
+						<era type="180">Bunshō (1466–1467)</era>
+						<era type="181">Ōnin (1467–1469)</era>
+						<era type="182">Bunmei (1469–1487)</era>
+						<era type="183">Chōkyō (1487–1489)</era>
+						<era type="184">Entoku (1489–1492)</era>
+						<era type="185">Meiō (1492–1501)</era>
+						<era type="186">Bunki (1501–1504)</era>
+						<era type="187">Eishō (1504–1521)</era>
+						<era type="188">Taiei (1521–1528)</era>
+						<era type="189">Kyōroku (1528–1532)</era>
+						<era type="19">Daidō (806–810)</era>
+						<era type="190">Tenbun (1532–1555)</era>
+						<era type="191">Kōji (1555–1558)</era>
+						<era type="192">Eiroku (1558–1570)</era>
+						<era type="193">Genki (1570–1573)</era>
+						<era type="194">Tenshō (1573–1592)</era>
+						<era type="195">Bunroku (1592–1596)</era>
+						<era type="196">Keichō (1596–1615)</era>
+						<era type="197">Genna (1615–1624)</era>
+						<era type="198">Kan’ei (1624–1644)</era>
+						<era type="199">Shōho (1644–1648)</era>
+						<era type="2">Hakuhō (672–686)</era>
+						<era type="20">Kōnin (810–824)</era>
+						<era type="200">Keian (1648–1652)</era>
+						<era type="201">Jōō (1652–1655)</era>
+						<era type="202">Meireki (1655–1658)</era>
+						<era type="203">Manji (1658–1661)</era>
+						<era type="204">Kanbun (1661–1673)</era>
+						<era type="205">Enpō (1673–1681)</era>
+						<era type="206">Tenna (1681–1684)</era>
+						<era type="207">Jōkyō (1684–1688)</era>
+						<era type="208">Genroku (1688–1704)</era>
+						<era type="209">Hōei (1704–1711)</era>
+						<era type="21">Tenchō (824–834)</era>
+						<era type="210">Shōtoku (1711–1716)</era>
+						<era type="211">Kyōhō (1716–1736)</era>
+						<era type="212">Genbun (1736–1741)</era>
+						<era type="213">Kanpō (1741–1744)</era>
+						<era type="214">Enkyō (1744–1748)</era>
+						<era type="215">Kan’en (1748–1751)</era>
+						<era type="216">Hōreki (1751–1764)</era>
+						<era type="217">Meiwa (1764–1772)</era>
+						<era type="218">An’ei (1772–1781)</era>
+						<era type="219">Tenmei (1781–1789)</era>
+						<era type="22">Jōwa (834–848)</era>
+						<era type="220">Kansei (1789–1801)</era>
+						<era type="221">Kyōwa (1801–1804)</era>
+						<era type="222">Bunka (1804–1818)</era>
+						<era type="223">Bunsei (1818–1830)</era>
+						<era type="224">Tenpō (1830–1844)</era>
+						<era type="225">Kōka (1844–1848)</era>
+						<era type="226">Kaei (1848–1854)</era>
+						<era type="227">Ansei (1854–1860)</era>
+						<era type="228">Man’en (1860–1861)</era>
+						<era type="229">Bunkyū (1861–1864)</era>
+						<era type="23">Kajō (848–851)</era>
+						<era type="230">Genji (1864–1865)</era>
+						<era type="231">Keiō (1865–1868)</era>
 						<era type="232">M</era>
 						<era type="233">T</era>
 						<era type="234">S</era>
 						<era type="235">H</era>
-						<era type="24">Ninju (851-854)</era>
-						<era type="25">Saiko (854-857)</era>
-						<era type="26">Tennan (857-859)</era>
-						<era type="27">Jōgan (859-877)</era>
-						<era type="28">Genkei (877-885)</era>
-						<era type="29">Ninna (885-889)</era>
-						<era type="3">Shuchō (686-701)</era>
-						<era type="30">Kampyō (889-898)</era>
-						<era type="31">Shōtai (898-901)</era>
-						<era type="32">Engi (901-923)</era>
-						<era type="33">Enchō (923-931)</era>
-						<era type="34">Shōhei (931-938)</era>
-						<era type="35">Tengyō (938-947)</era>
-						<era type="36">Tenryaku (947-957)</era>
-						<era type="37">Tentoku (957-961)</era>
-						<era type="38">Ōwa (961-964)</era>
-						<era type="39">Kōhō (964-968)</era>
-						<era type="4">Taihō (701-704)</era>
-						<era type="40">Anna (968-970)</era>
-						<era type="41">Tenroku (970-973)</era>
-						<era type="42">Ten-en (973-976)</era>
-						<era type="43">Jōgen (976-978)</era>
-						<era type="44">Tengen (978-983)</era>
-						<era type="45">Eikan (983-985)</era>
-						<era type="46">Kanna (985-987)</era>
-						<era type="47">Ei-en (987-989)</era>
-						<era type="48">Eiso (989-990)</era>
-						<era type="49">Shōryaku (990-995)</era>
-						<era type="5">Keiun (704-708)</era>
-						<era type="50">Chōtoku (995-999)</era>
-						<era type="51">Chōhō (999-1004)</era>
-						<era type="52">Kankō (1004-1012)</era>
-						<era type="53">Chōwa (1012-1017)</era>
-						<era type="54">Kannin (1017-1021)</era>
-						<era type="55">Jian (1021-1024)</era>
-						<era type="56">Manju (1024-1028)</era>
-						<era type="57">Chōgen (1028-1037)</era>
-						<era type="58">Chōryaku (1037-1040)</era>
-						<era type="59">Chōkyū (1040-1044)</era>
-						<era type="6">Wadō (708-715)</era>
-						<era type="60">Kantoku (1044-1046)</era>
-						<era type="61">Eishō (1046-1053)</era>
-						<era type="62">Tengi (1053-1058)</era>
-						<era type="63">Kōhei (1058-1065)</era>
-						<era type="64">Jiryaku (1065-1069)</era>
-						<era type="65">Enkyū (1069-1074)</era>
-						<era type="66">Shōho (1074-1077)</era>
-						<era type="67">Shōryaku (1077-1081)</era>
-						<era type="68">Eiho (1081-1084)</era>
-						<era type="69">Ōtoku (1084-1087)</era>
-						<era type="7">Reiki (715-717)</era>
-						<era type="70">Kanji (1087-1094)</era>
-						<era type="71">Kaho (1094-1096)</era>
-						<era type="72">Eichō (1096-1097)</era>
-						<era type="73">Shōtoku (1097-1099)</era>
-						<era type="74">Kōwa (1099-1104)</era>
-						<era type="75">Chōji (1104-1106)</era>
-						<era type="76">Kashō (1106-1108)</era>
-						<era type="77">Tennin (1108-1110)</era>
+						<era type="24">Ninju (851–854)</era>
+						<era type="25">Saikō (854–857)</era>
+						<era type="26">Ten-an (857-859)</era>
+						<era type="27">Jōgan (859–877)</era>
+						<era type="28">Gangyō (877–885)</era>
+						<era type="29">Ninna (885–889)</era>
+						<era type="3">Shuchō (686–701)</era>
+						<era type="30">Kanpyō (889–898)</era>
+						<era type="31">Shōtai (898–901)</era>
+						<era type="32">Engi (901–923)</era>
+						<era type="33">Enchō (923–931)</era>
+						<era type="34">Jōhei (931–938)</era>
+						<era type="35">Tengyō (938–947)</era>
+						<era type="36">Tenryaku (947–957)</era>
+						<era type="37">Tentoku (957–961)</era>
+						<era type="38">Ōwa (961–964)</era>
+						<era type="39">Kōhō (964–968)</era>
+						<era type="4">Taihō (701–704)</era>
+						<era type="40">Anna (968–970)</era>
+						<era type="41">Tenroku (970–973)</era>
+						<era type="42">Ten’en (973–976)</era>
+						<era type="43">Jōgen (976–978)</era>
+						<era type="44">Tengen (978–983)</era>
+						<era type="45">Eikan (983–985)</era>
+						<era type="46">Kanna (985–987)</era>
+						<era type="47">Eien (987–989)</era>
+						<era type="48">Eiso (989–990)</era>
+						<era type="49">Shōryaku (990–995)</era>
+						<era type="5">Keiun (704–708)</era>
+						<era type="50">Chōtoku (995–999)</era>
+						<era type="51">Chōhō (999–1004)</era>
+						<era type="52">Kankō (1004–1012)</era>
+						<era type="53">Chōwa (1012–1017)</era>
+						<era type="54">Kannin (1017–1021)</era>
+						<era type="55">Jian (1021–1024)</era>
+						<era type="56">Manju (1024–1028)</era>
+						<era type="57">Chōgen (1028–1037)</era>
+						<era type="58">Chōryaku (1037–1040)</era>
+						<era type="59">Chōkyū (1040–1044)</era>
+						<era type="6">Wadō (708–715)</era>
+						<era type="60">Kantoku (1044–1046)</era>
+						<era type="61">Eishō (1046–1053)</era>
+						<era type="62">Tengi (1053–1058)</era>
+						<era type="63">Kōhei (1058–1065)</era>
+						<era type="64">Jiryaku (1065–1069)</era>
+						<era type="65">Enkyū (1069–1074)</era>
+						<era type="66">Shōho (1074–1077)</era>
+						<era type="67">Shōryaku (1077–1081)</era>
+						<era type="68">Eihō (1081–1084)</era>
+						<era type="69">Ōtoku (1084–1087)</era>
+						<era type="7">Reiki (715–717)</era>
+						<era type="70">Kanji (1087–1094)</era>
+						<era type="71">Kahō (1094–1096)</era>
+						<era type="72">Eichō (1096–1097)</era>
+						<era type="73">Jōtoku (1097–1099)</era>
+						<era type="74">Kōwa (1099–1104)</era>
+						<era type="75">Chōji (1104–1106)</era>
+						<era type="76">Kashō (1106–1108)</era>
+						<era type="77">Tennin (1108–1110)</era>
 						<era type="78">Ten-ei (1110-1113)</era>
-						<era type="79">Eikyū (1113-1118)</era>
-						<era type="8">Yōrō (717-724)</era>
-						<era type="80">Gen-ei (1118-1120)</era>
-						<era type="81">Hoan (1120-1124)</era>
-						<era type="82">Tenji (1124-1126)</era>
-						<era type="83">Daiji (1126-1131)</era>
-						<era type="84">Tenshō (1131-1132)</era>
-						<era type="85">Chōshō (1132-1135)</era>
-						<era type="86">Hoen (1135-1141)</era>
-						<era type="87">Eiji (1141-1142)</era>
-						<era type="88">Kōji (1142-1144)</era>
-						<era type="89">Tenyō (1144-1145)</era>
-						<era type="9">Jinki (724-729)</era>
-						<era type="90">Kyūan (1145-1151)</era>
-						<era type="91">Ninpei (1151-1154)</era>
-						<era type="92">Kyūju (1154-1156)</era>
-						<era type="93">Hogen (1156-1159)</era>
-						<era type="94">Heiji (1159-1160)</era>
-						<era type="95">Eiryaku (1160-1161)</era>
-						<era type="96">Ōho (1161-1163)</era>
-						<era type="97">Chōkan (1163-1165)</era>
-						<era type="98">Eiman (1165-1166)</era>
-						<era type="99">Nin-an (1166-1169)</era>
+						<era type="79">Eikyū (1113–1118)</era>
+						<era type="8">Yōrō (717–724)</era>
+						<era type="80">Gen’ei (1118–1120)</era>
+						<era type="81">Hōan (1120–1124)</era>
+						<era type="82">Tenji (1124–1126)</era>
+						<era type="83">Daiji (1126–1131)</era>
+						<era type="84">Tenshō (1131–1132)</era>
+						<era type="85">Chōshō (1132–1135)</era>
+						<era type="86">Hōen (1135–1141)</era>
+						<era type="87">Eiji (1141–1142)</era>
+						<era type="88">Kōji (1142–1144)</era>
+						<era type="89">Ten’yō (1144–1145)</era>
+						<era type="9">Jinki (724–729)</era>
+						<era type="90">Kyūan (1145–1151)</era>
+						<era type="91">Ninpei (1151–1154)</era>
+						<era type="92">Kyūju (1154–1156)</era>
+						<era type="93">Hōgen (1156–1159)</era>
+						<era type="94">Heiji (1159–1160)</era>
+						<era type="95">Eiryaku (1160–1161)</era>
+						<era type="96">Ōho (1161–1163)</era>
+						<era type="97">Chōkan (1163–1165)</era>
+						<era type="98">Eiman (1165–1166)</era>
+						<era type="99">Nin’an (1166–1169)</era>
 					</eraNarrow>
 				</eras>
 				<dateFormats>
@@ -10722,6 +10622,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MEd">MM-dd, E</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
+						<dateFormatItem id="MMMMd">MMMM d</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
@@ -10735,6 +10636,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="yyyyMEd">GGGGG y-MM-dd, E</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">G y MMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">G y MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">G y MMMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">G y MMM d</dateFormatItem>
 						<dateFormatItem id="yyyyMd">GGGGG y-MM-dd</dateFormatItem>
 						<dateFormatItem id="yyyyQQQ">G y QQQ</dateFormatItem>
@@ -11065,34 +10967,28 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<dayPeriodContext type="format">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
@@ -11191,6 +11087,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MEd">MM-dd, E</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
+						<dateFormatItem id="MMMMd">MMMM d</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
@@ -11204,6 +11101,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="yyyyMEd">GGGGG y-MM-dd, E</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">G y MMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">G y MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">G y MMMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">G y MMM d</dateFormatItem>
 						<dateFormatItem id="yyyyMd">GGGGG y-MM-dd</dateFormatItem>
 						<dateFormatItem id="yyyyQQQ">G y QQQ</dateFormatItem>
@@ -11534,34 +11432,28 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<dayPeriodContext type="format">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
 					<dayPeriodContext type="stand-alone">
 						<dayPeriodWidth type="abbreviated">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="narrow">
-							<dayPeriod type="am">a</dayPeriod>
-							<dayPeriod type="noon">n</dayPeriod>
-							<dayPeriod type="pm">p</dayPeriod>
+							<dayPeriod type="am">AM</dayPeriod>
+							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 						<dayPeriodWidth type="wide">
 							<dayPeriod type="am">AM</dayPeriod>
-							<dayPeriod type="noon">noon</dayPeriod>
 							<dayPeriod type="pm">PM</dayPeriod>
 						</dayPeriodWidth>
 					</dayPeriodContext>
@@ -11664,6 +11556,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="MEd">MM-dd, E</dateFormatItem>
 						<dateFormatItem id="MMM">LLL</dateFormatItem>
 						<dateFormatItem id="MMMEd">MMM d, E</dateFormatItem>
+						<dateFormatItem id="MMMMd">MMMM d</dateFormatItem>
 						<dateFormatItem id="MMMd">MMM d</dateFormatItem>
 						<dateFormatItem id="Md">MM-dd</dateFormatItem>
 						<dateFormatItem id="d">d</dateFormatItem>
@@ -11677,6 +11570,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 						<dateFormatItem id="yyyyMEd">GGGGG y-MM-dd, E</dateFormatItem>
 						<dateFormatItem id="yyyyMMM">G y MMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMEd">G y MMM d, E</dateFormatItem>
+						<dateFormatItem id="yyyyMMMM">G y MMMM</dateFormatItem>
 						<dateFormatItem id="yyyyMMMd">G y MMM d</dateFormatItem>
 						<dateFormatItem id="yyyyMd">GGGGG y-MM-dd</dateFormatItem>
 						<dateFormatItem id="yyyyQQQ">G y QQQ</dateFormatItem>
@@ -12552,7 +12446,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<perMille>؉</perMille>
 			<infinity>∞</infinity>
 			<nan>NaN</nan>
-			<timeSeparator>٫</timeSeparator>
+			<timeSeparator>:</timeSeparator>
 		</symbols>
 		<symbols numberSystem="arabext">
 			<decimal>٫</decimal>
@@ -14830,6 +14724,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -14853,6 +14763,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -14876,6 +14802,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -14899,6 +14841,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -14922,6 +14880,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -14945,6 +14919,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -14968,6 +14958,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -14991,6 +14997,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15014,6 +15036,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15037,6 +15075,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15060,6 +15114,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15083,6 +15153,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15106,6 +15192,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15129,6 +15231,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15152,6 +15270,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15175,6 +15309,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15198,6 +15348,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15221,6 +15387,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15244,6 +15426,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15267,6 +15465,34 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="one" draft="provisional">0 tsd ¤</pattern>
+					<pattern type="1000" count="other" draft="provisional">0 tsd ¤</pattern>
+					<pattern type="10000" count="one" draft="provisional">00 tsd ¤</pattern>
+					<pattern type="10000" count="other" draft="provisional">00 tsd ¤</pattern>
+					<pattern type="100000" count="one" draft="provisional">000 tsd ¤</pattern>
+					<pattern type="100000" count="other" draft="provisional">000 tsd ¤</pattern>
+					<pattern type="1000000" count="one" draft="provisional">0 Mio ¤</pattern>
+					<pattern type="1000000" count="other" draft="provisional">0 Mio ¤</pattern>
+					<pattern type="10000000" count="one" draft="provisional">00 Mio ¤</pattern>
+					<pattern type="10000000" count="other" draft="provisional">00 Mio ¤</pattern>
+					<pattern type="100000000" count="one" draft="provisional">000 Mio ¤</pattern>
+					<pattern type="100000000" count="other" draft="provisional">000 Mio ¤</pattern>
+					<pattern type="1000000000" count="one" draft="provisional">0 Mrd ¤</pattern>
+					<pattern type="1000000000" count="other" draft="provisional">0 Mrd ¤</pattern>
+					<pattern type="10000000000" count="one" draft="provisional">00 Mrd ¤</pattern>
+					<pattern type="10000000000" count="other" draft="provisional">00 Mrd ¤</pattern>
+					<pattern type="100000000000" count="one" draft="provisional">000 Mrd ¤</pattern>
+					<pattern type="100000000000" count="other" draft="provisional">000 Mrd ¤</pattern>
+					<pattern type="1000000000000" count="one" draft="provisional">0 Bio ¤</pattern>
+					<pattern type="1000000000000" count="other" draft="provisional">0 Bio ¤</pattern>
+					<pattern type="10000000000000" count="one" draft="provisional">00 Bio ¤</pattern>
+					<pattern type="10000000000000" count="other" draft="provisional">00 Bio ¤</pattern>
+					<pattern type="100000000000000" count="one" draft="provisional">000 Bio ¤</pattern>
+					<pattern type="100000000000000" count="other" draft="provisional">000 Bio ¤</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15291,6 +15517,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15314,6 +15556,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15337,6 +15595,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15360,6 +15634,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15383,6 +15673,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15406,6 +15712,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15429,6 +15751,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15452,6 +15790,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15475,6 +15829,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15498,6 +15868,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15521,6 +15907,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15544,6 +15946,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15567,6 +15985,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15590,6 +16024,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15613,6 +16063,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15636,6 +16102,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15659,6 +16141,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15682,6 +16180,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15705,6 +16219,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15728,6 +16258,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15751,6 +16297,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15774,6 +16336,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -15797,6 +16375,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 					<insertBetween/>
 				</afterCurrency>
 			</currencySpacing>
+			<currencyFormatLength type="short">
+				<currencyFormat type="standard">
+					<pattern type="1000" count="other">¤ 0K</pattern>
+					<pattern type="10000" count="other">¤ 00K</pattern>
+					<pattern type="100000" count="other">¤ 000K</pattern>
+					<pattern type="1000000" count="other">¤ 0M</pattern>
+					<pattern type="10000000" count="other">¤ 00M</pattern>
+					<pattern type="100000000" count="other">¤ 000M</pattern>
+					<pattern type="1000000000" count="other">¤ 0G</pattern>
+					<pattern type="10000000000" count="other">¤ 00G</pattern>
+					<pattern type="100000000000" count="other">¤ 000G</pattern>
+					<pattern type="1000000000000" count="other">¤ 0T</pattern>
+					<pattern type="10000000000000" count="other">¤ 00T</pattern>
+					<pattern type="100000000000000" count="other">¤ 000T</pattern>
+				</currencyFormat>
+			</currencyFormatLength>
 			<currencyFormatLength>
 				<currencyFormat type="accounting">
 					<pattern>¤ #,##0.00</pattern>
@@ -16273,6 +16867,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">Georgische Lari</displayName>
 				<displayName count="other">Georgischi Lari</displayName>
 				<displayName>Georgische Lari</displayName>
+				<symbol alt="variant">₾</symbol>
 			</currency>
 			<currency type="GHC">
 				<displayName count="one">Ghanaischi Cedi (GHC)</displayName>
@@ -16827,7 +17422,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">Russische Rubel</displayName>
 				<displayName count="other">Russischi Rubel</displayName>
 				<displayName>Russische Rubel</displayName>
-				<symbol alt="variant">₽</symbol>
+				<symbol alt="narrow">₽</symbol>
 			</currency>
 			<currency type="RUR">
 				<displayName count="one">Russischi Rubel (alt)</displayName>
@@ -17013,7 +17608,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName count="one">Nöie Taiwan-Dollar</displayName>
 				<displayName count="other">Nöii Taiwan-Dollar</displayName>
 				<displayName>Nöii Taiwan-Dollar</displayName>
-				<symbol alt="narrow">NT$</symbol>
+				<symbol alt="narrow">$</symbol>
 				<symbol>NT$</symbol>
 			</currency>
 			<currency type="TZS">
@@ -17874,6 +18469,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>rad</displayName>
 				<unitPattern count="other">{0} rad</unitPattern>
 			</unit>
+			<unit type="angle-revolution">
+				<displayName>rev</displayName>
+				<unitPattern count="other">{0} rev</unitPattern>
+			</unit>
 			<unit type="area-acre">
 				<displayName draft="provisional">Acre</displayName>
 				<unitPattern count="one">{0} ac</unitPattern>
@@ -17887,6 +18486,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="area-square-centimeter">
 				<displayName>cm²</displayName>
 				<unitPattern count="other">{0} cm²</unitPattern>
+				<perUnitPattern>{0}/cm²</perUnitPattern>
 			</unit>
 			<unit type="area-square-foot">
 				<displayName draft="provisional">Quadratfuess</displayName>
@@ -17896,6 +18496,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="area-square-inch">
 				<displayName>in²</displayName>
 				<unitPattern count="other">{0} in²</unitPattern>
+				<perUnitPattern>{0}/in²</perUnitPattern>
 			</unit>
 			<unit type="area-square-kilometer">
 				<displayName draft="provisional">Quadratkilometer</displayName>
@@ -17906,6 +18507,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="provisional">Quadratmeter</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} m²</unitPattern>
 				<unitPattern count="other">{0} m²</unitPattern>
+				<perUnitPattern>{0}/m²</perUnitPattern>
 			</unit>
 			<unit type="area-square-mile">
 				<displayName draft="provisional">Quadratmeile</displayName>
@@ -17915,6 +18517,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="area-square-yard">
 				<displayName>yd²</displayName>
 				<unitPattern count="other">{0} yd²</unitPattern>
+			</unit>
+			<unit type="consumption-liter-per-100kilometers">
+				<displayName>L/100km</displayName>
+				<unitPattern count="other">{0} L/100km</unitPattern>
 			</unit>
 			<unit type="consumption-liter-per-kilometer">
 				<displayName>L/km</displayName>
@@ -17964,10 +18570,20 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>TB</displayName>
 				<unitPattern count="other">{0} TB</unitPattern>
 			</unit>
+			<unit type="duration-century">
+				<displayName>c</displayName>
+				<unitPattern count="other">{0} c</unitPattern>
+			</unit>
 			<unit type="duration-day">
 				<displayName draft="provisional">Tääg</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} d</unitPattern>
 				<unitPattern count="other">{0} d</unitPattern>
+				<perUnitPattern>{0}/d</perUnitPattern>
+			</unit>
+			<unit type="duration-day-person">
+				<displayName>day</displayName>
+				<unitPattern count="other">{0} d</unitPattern>
+				<perUnitPattern>{0}/d</perUnitPattern>
 			</unit>
 			<unit type="duration-hour">
 				<displayName draft="provisional">Schtunde</displayName>
@@ -17988,10 +18604,17 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="provisional">Minuute</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} min</unitPattern>
 				<unitPattern count="other">{0} min</unitPattern>
+				<perUnitPattern>{0}/min</perUnitPattern>
 			</unit>
 			<unit type="duration-month">
 				<displayName draft="provisional">Mönet</displayName>
 				<unitPattern count="other">{0} m</unitPattern>
+				<perUnitPattern>{0}/m</perUnitPattern>
+			</unit>
+			<unit type="duration-month-person">
+				<displayName>mon</displayName>
+				<unitPattern count="other">{0} m</unitPattern>
+				<perUnitPattern>{0}/m</perUnitPattern>
 			</unit>
 			<unit type="duration-nanosecond">
 				<displayName>ns</displayName>
@@ -18006,10 +18629,22 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="duration-week">
 				<displayName draft="provisional">Wuche</displayName>
 				<unitPattern count="other">{0} w</unitPattern>
+				<perUnitPattern>{0}/w</perUnitPattern>
+			</unit>
+			<unit type="duration-week-person">
+				<displayName>wk</displayName>
+				<unitPattern count="other">{0} w</unitPattern>
+				<perUnitPattern>{0}/w</perUnitPattern>
 			</unit>
 			<unit type="duration-year">
 				<displayName draft="provisional">Jahr</displayName>
 				<unitPattern count="other">{0} y</unitPattern>
+				<perUnitPattern>{0}/y</perUnitPattern>
+			</unit>
+			<unit type="duration-year-person">
+				<displayName>yr</displayName>
+				<unitPattern count="other">{0} y</unitPattern>
+				<perUnitPattern>{0}/y</perUnitPattern>
 			</unit>
 			<unit type="electric-ampere">
 				<displayName>amp</displayName>
@@ -18075,6 +18710,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="provisional">Zentimeter</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} cm</unitPattern>
 				<unitPattern count="other">{0} cm</unitPattern>
+				<perUnitPattern>{0}/cm</perUnitPattern>
 			</unit>
 			<unit type="length-decimeter">
 				<displayName>dm</displayName>
@@ -18088,6 +18724,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="provisional">Fuess</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} Fuess</unitPattern>
 				<unitPattern count="other" draft="unconfirmed">{0} Fuess</unitPattern>
+				<perUnitPattern>{0}/ft</perUnitPattern>
 			</unit>
 			<unit type="length-furlong">
 				<displayName>fur</displayName>
@@ -18097,11 +18734,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="provisional">Zoll</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} Zoll</unitPattern>
 				<unitPattern count="other" draft="unconfirmed">{0} Zoll</unitPattern>
+				<perUnitPattern>{0}/in</perUnitPattern>
 			</unit>
 			<unit type="length-kilometer">
 				<displayName draft="provisional">Kilometer</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} km</unitPattern>
 				<unitPattern count="other">{0} km</unitPattern>
+				<perUnitPattern>{0}/km</perUnitPattern>
 			</unit>
 			<unit type="length-light-year">
 				<displayName draft="provisional">Liechtjahr</displayName>
@@ -18112,6 +18751,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="provisional">Meter</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} m</unitPattern>
 				<unitPattern count="other">{0} m</unitPattern>
+				<perUnitPattern>{0}/m</perUnitPattern>
 			</unit>
 			<unit type="length-micrometer">
 				<displayName>µm</displayName>
@@ -18121,6 +18761,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="provisional">Meile</displayName>
 				<unitPattern count="one">{0} mi</unitPattern>
 				<unitPattern count="other">{0} mi</unitPattern>
+			</unit>
+			<unit type="length-mile-scandinavian">
+				<displayName>smi</displayName>
+				<unitPattern count="other">{0} smi</unitPattern>
 			</unit>
 			<unit type="length-millimeter">
 				<displayName draft="provisional">Millimeter</displayName>
@@ -18161,11 +18805,13 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="provisional">Gramm</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} g</unitPattern>
 				<unitPattern count="other">{0} g</unitPattern>
+				<perUnitPattern>{0}/g</perUnitPattern>
 			</unit>
 			<unit type="mass-kilogram">
 				<displayName draft="provisional">Kilogramm</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} kg</unitPattern>
 				<unitPattern count="other">{0} kg</unitPattern>
+				<perUnitPattern>{0}/kg</perUnitPattern>
 			</unit>
 			<unit type="mass-metric-ton">
 				<displayName>t</displayName>
@@ -18183,6 +18829,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="provisional">Unze</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} Unze</unitPattern>
 				<unitPattern count="other" draft="unconfirmed">{0} Unze</unitPattern>
+				<perUnitPattern>{0}/oz</perUnitPattern>
 			</unit>
 			<unit type="mass-ounce-troy">
 				<displayName>oz t</displayName>
@@ -18192,6 +18839,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="provisional">Pfund</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} Pfund</unitPattern>
 				<unitPattern count="other" draft="unconfirmed">{0} Pfund</unitPattern>
+				<perUnitPattern>{0}/lb</perUnitPattern>
 			</unit>
 			<unit type="mass-stone">
 				<displayName>st</displayName>
@@ -18260,6 +18908,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<unitPattern count="one" draft="unconfirmed">{0} km/h</unitPattern>
 				<unitPattern count="other">{0} km/h</unitPattern>
 			</unit>
+			<unit type="speed-knot">
+				<displayName>kn</displayName>
+				<unitPattern count="other">{0} kn</unitPattern>
+			</unit>
 			<unit type="speed-meter-per-second">
 				<displayName draft="provisional">Meter pro Sekunde</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} m/s</unitPattern>
@@ -18303,6 +18955,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="volume-cubic-centimeter">
 				<displayName>cm³</displayName>
 				<unitPattern count="other">{0} cm³</unitPattern>
+				<perUnitPattern>{0}/cm³</perUnitPattern>
 			</unit>
 			<unit type="volume-cubic-foot">
 				<displayName>ft³</displayName>
@@ -18320,6 +18973,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="volume-cubic-meter">
 				<displayName>m³</displayName>
 				<unitPattern count="other">{0} m³</unitPattern>
+				<perUnitPattern>{0}/m³</perUnitPattern>
 			</unit>
 			<unit type="volume-cubic-mile">
 				<displayName draft="provisional">Kubikmeile</displayName>
@@ -18334,6 +18988,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>cup</displayName>
 				<unitPattern count="other">{0} c</unitPattern>
 			</unit>
+			<unit type="volume-cup-metric">
+				<displayName>mcup</displayName>
+				<unitPattern count="other">{0} mc</unitPattern>
+			</unit>
 			<unit type="volume-deciliter">
 				<displayName>dL</displayName>
 				<unitPattern count="other">{0} dL</unitPattern>
@@ -18345,6 +19003,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<unit type="volume-gallon">
 				<displayName>gal</displayName>
 				<unitPattern count="other">{0} gal</unitPattern>
+				<perUnitPattern>{0}/gal</perUnitPattern>
 			</unit>
 			<unit type="volume-hectoliter">
 				<displayName>hL</displayName>
@@ -18354,6 +19013,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName draft="provisional">Liter</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} l</unitPattern>
 				<unitPattern count="other">{0} l</unitPattern>
+				<perUnitPattern>{0}/l</perUnitPattern>
 			</unit>
 			<unit type="volume-megaliter">
 				<displayName>ML</displayName>
@@ -18367,6 +19027,10 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>pt</displayName>
 				<unitPattern count="other">{0} pt</unitPattern>
 			</unit>
+			<unit type="volume-pint-metric">
+				<displayName>mpt</displayName>
+				<unitPattern count="other">{0} mpt</unitPattern>
+			</unit>
 			<unit type="volume-quart">
 				<displayName>qt</displayName>
 				<unitPattern count="other">{0} qt</unitPattern>
@@ -18379,6 +19043,12 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<displayName>tsp</displayName>
 				<unitPattern count="other">{0} tsp</unitPattern>
 			</unit>
+			<coordinateUnit>
+				<coordinateUnitPattern type="east">{0}E</coordinateUnitPattern>
+				<coordinateUnitPattern type="north">{0}N</coordinateUnitPattern>
+				<coordinateUnitPattern type="south">{0}S</coordinateUnitPattern>
+				<coordinateUnitPattern type="west">{0}W</coordinateUnitPattern>
+			</coordinateUnit>
 		</unitLength>
 		<durationUnit type="hm">
 			<durationUnitPattern>h:mm</durationUnitPattern>
@@ -19072,6 +19742,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				# Index characters for the unihan sort order in root.
 				# Each index character is an ideograph representing a radical,
 				# and sorts like the first ideograph in the radical-stroke order.
+				# Unicode 8.0.0
 				&一=\uFDD0一 # radical 1
 				&丨=\uFDD0丨 # radical 2
 				&丶=\uFDD0丶 # radical 3
@@ -19162,6 +19833,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				&父=\uFDD0父 # radical 88
 				&爻=\uFDD0爻 # radical 89
 				&丬=\uFDD0爿 # radical 90
+				&𬌒=\uFDD0丬 # radical 90'
 				&片=\uFDD0片 # radical 91
 				&牙=\uFDD0牙 # radical 92
 				&牛=\uFDD0牛 # radical 93
@@ -19285,7 +19957,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				&鳥=\uFDD0鳥 # radical 196
 				&鸟=\uFDD0鸟 # radical 196'
 				&鹵=\uFDD0鹵 # radical 197
-				&𫠗=\uFDD0卤 # radical 197'
+				&𬸵=\uFDD0卤 # radical 197'
 				&鹿=\uFDD0鹿 # radical 198
 				&麥=\uFDD0麥 # radical 199
 				&麦=\uFDD0麦 # radical 199'
@@ -19311,11 +19983,15 @@ For terms of use, see http://www.unicode.org/copyright.html
 				&龠=\uFDD0龠 # radical 214
 			]]></cr>
 		</collation>
+		<!-- The root/standard collation tailoring must exist and must be empty. -->
+		<!-- For the CLDR root collation order see
+				     http://www.unicode.org/reports/tr35/tr35-collation.html#Root_Collation -->
 		<collation type="search">
-			<settings normalization="on"/>
-			<!-- root search, suppress contractions for Thai, Lao, Tai Viet -->
-			<suppress_contractions>[เ-ไ ເ-ໄ ꪵ ꪶ ꪹ ꪻ ꪼ]</suppress_contractions>
 			<cr><![CDATA[
+				[normalization on]
+				# root search, suppress contractions for Thai, Lao, Tai Viet, New Tai Lue
+				# same as UCD property Logical_Order_Exception
+				[suppressContractions [เ-ไ ເ-ໄ ꪵ ꪶ ꪹ ꪻ ꪼ\u19B5-\u19B7\u19BA]]
 				# root search rules for Symbols
 				&'='<'≠'
 				# root search rules for Arabic, Hebrew
@@ -19629,6 +20305,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<rule id="22.02">$ID × $IN</rule>
 				<rule id="22.03">$IN × $IN</rule>
 				<rule id="22.04">$NU × $IN</rule>
+				<rule id="22.05">$EX × $IN</rule>
 				<!-- LB 23  Do not break within ‘a9’, ‘3a’, or ‘H%’. -->
 				<rule id="23.01">$ID × $PO</rule>
 				<rule id="23.02">($AL | $HL) × $NU</rule>
@@ -19710,7 +20387,7 @@ For terms of use, see http://www.unicode.org/copyright.html
 				<!-- is between uppercase letters, or if the first following letter (optionally after certain punctuation) is lowercase. -->
 				<!-- For example, a period may be an abbreviation or numeric period, and not mark the end of a sentence. -->
 				<rule id="6">$ATerm × $Numeric</rule>
-				<rule id="7">$Upper $ATerm × $Upper</rule>
+				<rule id="7">($Upper | $Lower) $ATerm × $Upper</rule>
 				<rule id="8">$ATerm $Close* $Sp* × $NotPreLower_* $Lower</rule>
 				<rule id="8.1">($STerm | $ATerm) $Close* $Sp* × ($SContinue | $STerm | $ATerm)</rule>
 				<!-- Break after sentence terminators, but include closing punctuation, trailing spaces, and (optionally) a paragraph separator. -->
@@ -19799,7 +20476,6 @@ For terms of use, see http://www.unicode.org/copyright.html
 			<casingItem type="quarter_standalone_wide">titlecase</casingItem>
 			<casingItem type="relative">lowercase</casingItem>
 			<casingItem type="script">titlecase</casingItem>
-			<casingItem type="symbol">titlecase</casingItem>
 			<casingItem type="territory">titlecase</casingItem>
 			<casingItem type="variant">titlecase</casingItem>
 			<casingItem type="zone_exemplarCity">titlecase</casingItem>
